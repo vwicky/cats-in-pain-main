@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local environment and secrets
+.env
+.venv/
+venv/
+cookies.txt
+
+# Large model artifacts
+*.pt
+*.pth
+
+# Generated video/data artifact folders (do not publish)
+downloads/
+downloaded_snippets/
+dataset_snippets/
+crawled_downloads/
+crawled_snippets/
+
+# Media outputs anywhere in the repository
+*.mp4
+*.mp3
+*.webm
+*.mkv
+*.mov
+*.avi
+
+# Keep logs and structured metadata files in git
+!logs/
+!*.json
+!*.jsonl

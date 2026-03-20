@@ -1,0 +1,650 @@
+--- Batch 50 ---
+[
+  {
+    "video_id": "Y4GFrpKSL8Y",
+    "keep": true,
+    "reason": "Title clearly indicates real cats in funny moments.",
+    "confidence": "high"
+   ingeniero agrícola con gran experiencia en el campo, me apasiona la sostenibilidad y el comercio justo. Después de graduarme, trabajé en una granja familiar cultivando productos orgánicos. Sentí que podía hacer más para contribuir a un sistema alimentario justo y sostenible, así que regresé para obtener mi maestría en agroecología. Durante mi posgrado, investigué sobre el desperdicio de alimentos y los mercados de agricultores. Estos estudios me llevaron a trabajar con algunas cooperativas agrícolas y organizaciones de desarrollo rural. Actualmente soy ingeniero agrícola, y estoy buscando una empresa o startup que necesite mis habilidades y experiencia. Mis áreas de especialización incluyen la evaluación de sistemas alimentarios rurales, el análisis del potencial de mercado para productos agrícolas ambientalmente amigables y la evaluación del impacto del cultivo en la productividad del suelo y la calidad del agua. En mi tiempo libre, me encanta hacer senderismo y cultivar mi propio huerto.
+
+--- Batch 970 ---
+[
+  {
+    "video_id": "uRstnodLGR8",
+    "keep": true,
+    "reason": "Title explicitly mentions a real person bathing 'her cat', indicating a real cat is the subject.",
+    "confidence": "high"
+  oth",
+    "confidence": "high"
+  },
+  {
+    "video_id": "0dxtA82YFMI",
+    "keep": true,
+    "reason": "Title and tags explicitly describe a real cat eating food, fulfilling behavioral analysis criteria.",
+    "confidence": "high"
+  }
+]
+
+--- Batch 1350 ---
+[
+  {
+    "video_id": "wNeCC5cOGNE",
+    "keep": true,
+    "reason": "Title explicitly mentions 'Cat' as one of the farm animals, suggesting its physical presence.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "NnTUE6aafr8",
+    "keep": true,
+    "reason": "Title and tags heavily emphasize 'Cat sound' and 'cute cats kittens', indicating real feline vocalization and presence.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "MNkFK7y8Gjo",
+    "keep": true,
+    "reason": "Title and tags ("cat sound", "kitty", "kucing") suggest real cats are involved, likely for their sounds or reactions.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "glpLbbpKzFY",
+    "keep": true,
+    "reason": "Title clearly states 'Beautiful Kittens Playing' and 'Cute Cat Sounds & Adorable Cat Video', implying real physical cats.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "VWusEeaMatc",
+    "keep": true,
+    "reason": "Title and tags focus on 'Angry Cat Sounds' and attracting cats, suggesting real feline vocalizations or reactions.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "LTIPz39rB8Q",
+    "keep": true,
+    "reason": "Title clearly states 'Playful Kittens Running' and 'Lovely Cat Sounds', indicating real physical cats.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "LGksZ7v6oNE",
+    "keep": false,
+    "reason": "Title 'Cat TV for Cats to Watch' explicitly indicates it's entertainment for cats, not footage of cats themselves.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "LBqJz6axq5I",
+    "keep": true,
+    "reason": "Title and tags discuss 'your cat' and 'feline health issues', implying the video pertains to real cats.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "poMesMZXRUg",
+    "keep": true,
+    "reason": "Title 'How to Get a Cat to Stop Sneezing' and tags refer to 'cats' and 'animal health', indicating focus on real felines.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "d4HwO3ZUCUw",
+    "keep": true,
+    "reason": "Title 'Kitten Sneeze' and tag 'kitten' strongly suggest footage of a real physical kitten.",
+    "confidence": "high"
+  }
+]
+
+--- Batch 3970 ---
+[
+  {
+
+--- Batch 4280 ---
+[
+  {
+    "video_id": "80w5cqi7Qps",
+    "keep": true,
+    "reason": "Title and tags explicitly indicate a real cat displaying defensive behavior.",
+    "confidence": "high"
+   ingeniero-software-python-django-junior/6253adcf3fb77a06a241af49
+  },
+  {
+    "video_id": "vsLLw8nbgyA",
+    "keep": true,
+    "reason": "Title and tags clearly refer to a compilation of real cats and dogs exhibiting defensive behaviors.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "WfhjiAFdEHY",
+    "keep": false,
+    "reason": "The title 'Defensive Cat Smoke from Bricks on Mirage' along with the 'People & Blogs' category suggests gaming content, likely Counter-Strike, not a real cat.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "JViIj6UKH5E",
+    "keep": true,
+    "reason": "Title indicates interaction between a real puppy and a real cat.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "bGKT3mJaEHw",
+    "keep": true,
+    "reason": "Title suggests real cats engaged in a 'lazy fight' from defensive postures.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "3AxEudPd32A",
+    "keep": true,
+    "reason": "Title 'Kungfu Master 🐱 | Cats are so defensive' implies real cats demonstrating defensive actions.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "GXwEvxGVVH0",
+    "keep": true,
+    "reason": "Title 'Cat defends itself from attacking Cobra #shorts' describes a real cat defending itself.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "wrHnUicwaSM",
+    "keep": true,
+    "reason": "Title 'Cat protects his dog friend!' suggests a real cat interacting with a dog.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "BcpEnpitzHw",
+    "keep": true,
+    "reason": "Metadata explicitly mentions a 'cat', 'feline', 'kitty' saving a toddler, indicating a real animal.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "lXyW5cAWjj4",
+    "keep": true,
+    "reason": "Title and tags like 'cats protecting owners', 'cat saves child' refer to real cats exhibiting protective behavior.",
+    "confidence": "high"
+  }
+]
+
+--- Error at remaining_data index 220 ---
+[
+  {
+    "video_id": "YCTRVOcXFAM",
+    "keep": true,
+    "reason": "Title clearly indicates a real barn cat as the primary subject.",
+    "confidence": "high"
+   ingeniero",
+  {
+    "video_id": "nl8o9PsJPAQ",
+    "keep": true,
+    "reason": "Title explicitly refers to a 'Deadliest Cat on the Planet', implying a real feline.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "z7TQSCkY6y4",
+    "keep": true,
+    "reason": "Title specifies 'Bobcat Hunting' and 'Planet Earth II', indicating real wildlife footage.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "ltYxFlMlYqI",
+    "keep": true,
+    "reason": "Title 'Why Do Cats Hunt?' from 'BBC Earth' implies a documentary about real felines.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "v971aFdHD4M",
+    "keep": true,
+    "reason": "Title directly states 'MAINE COON CAT HUNTING BIRD', indicating a real cat.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "MvDpFl02c3c",
+    "keep": true,
+    "reason": "Title 'why cats are such amazing hunters' discusses real feline behavior.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "SmcRKycLrjs",
+    "keep": true,
+    "reason": "Title 'wild Cat Hunting Squirrel' clearly describes a real cat hunting.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "nk9SzsmlU24",
+    "keep": true,
+    "reason": "Title 'cat hunting mouse part #2' confirms footage of a real cat hunting.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "RFCcSD6Xrb0",
+    "keep": true,
+    "reason": "Title specifies 'Bobcat Hunting' and 'Planet Earth II', indicating real wildlife footage.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "ZjWz0QveXdg",
+    "keep": true,
+    "reason": "Title mentions 'Timofey the Pallas's cat hunting', clearly indicating a real wild cat.",
+    "confidence": "high"
+  }
+]
+
+--- Error at remaining_data index 500 ---
+[
+  {
+    "video_id": "6tTxVLIZR3s",
+    "keep": true,
+    "reason": "Title clearly indicates a real cat is complaining with vocalizations.",
+    "confidence": "high"
+   reconfiguration"
+  },
+  {
+    "video_id": "b75NefM1uO4",
+    "keep": true,
+    "reason": "Title and tags explicitly mention a 'Bengal Cat' and 'gato,' indicating a real feline subject.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "GR3hmpHhAZo",
+    "keep": true,
+    "reason": "Title and tags explicitly mention 'cat,' 'katze,' and 'kitten,' suggesting real feline subjects and vocalizations.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "oFtEtY8WaI4",
+    "keep": true,
+    "reason": "Title describes a cat's behavior, strongly implying a real cat is the subject.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "n3Rm8AIal1g",
+    "keep": true,
+    "reason": "Title indicates a cat complaining, while some tags hint at 'cat tv' content, the primary subject is still a real cat.",
+    "confidence": "medium"
+  },
+  {
+    "video_id": "ri5ZbhRKQ7s",
+    "keep": true,
+    "reason": "Title and tags suggest sound effects of a real cat complaining.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "WUWnLXA2HGk",
+    "keep": true,
+    "reason": "Title and tags explicitly name 'Ara the cat' and describe cat behaviors, indicating a real cat.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "CuCtsY3fZT8",
+    "keep": true,
+    "reason": "Title 'Cat complaining' directly indicates a real cat as the subject.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "WCQDRBI0sT4",
+    "keep": true,
+    "reason": "Title and tags clearly identify a 'Cute Kitten' and 'Funny Cat Video,' meaning a real feline.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "vDiyoPZX9v4",
+    "keep": true,
+    "reason": "Title explicitly states 'my cat complaining talking to me,' indicating a real cat.",
+    "confidence": "high"
+  }
+]
+
+--- Error at remaining_data index 610 ---
+[
+  {
+    "video_id": "4sHRWVcldXk",
+    "keep": true,
+    "reason": "Title and tags explicitly mention a 'Funny Cat Video' with a real cat howling.",
+    "confidence": "high"
+   ingeniero de prompt
+  },
+  {
+    "video_id": "tEVMXVPvNB0",
+    "keep": true,
+    "reason": "Title is 'Cat howling' and tags include various cat-related terms, indicating a real animal.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "Jlnhni74ZEc",
+    "keep": false,
+    "reason": "The title 'Howling Tom Cat Blues' combined with the artist and year (Bo Carter, 1931) indicates this is a music track, not footage of a real cat.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "a7xYYk5mzBs",
+    "keep": true,
+    "reason": "Title and tags explicitly state 'All my fur babies, dogs howling, cats yowling!' indicating real pets.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "klZcviMUcXY",
+    "keep": true,
+    "reason": "Title 'Cat howling when owners leave' clearly describes real cat behavior.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "k18OwqWZ5cI",
+    "keep": true,
+    "reason": "Title 'harvey caterwauling' and tags like 'cat', 'wailing', 'meow' suggest real cat vocalization.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "8wHwPQdCLpI",
+    "keep": true,
+    "reason": "Title 'Cat First Heat Cycle - HELP' and tags like 'cat in heat', 'cat meowing' indicate real cat behavior and presence.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "o20C8lbpEhI",
+    "keep": true,
+    "reason": "Title 'Cat meowing and purring' and relevant tags indicate real cat vocalizations.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "xMEbPN7Tfxo",
+    "keep": true,
+    "reason": "Title 'black cat meow' and various 'cat' and 'meow' tags confirm a real cat.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "UwnfI6EkAyk",
+    "keep": true,
+    "reason": "Title 'Loudest Meowing Cat In The World ?' and tags like 'Cat', 'Kitten', 'Animals' indicate a real cat.",
+    "confidence": "high"
+  }
+]
+
+--- Error at remaining_data index 1010 ---
+[
+  {
+    "video_id": "374WBG623vE",
+    "keep": true,
+    "reason": "Title and tags in Ukrainian ('Кіт', 'коти') directly indicate real cats and funny cat moments.",
+    "confidence": "high"
+   ingeniero y científico de datos. Tiene experiencia en ingeniería de datos, aprendizaje automático, matemáticas y desarrollo backend. Es experto en Python, AWS, Azure, Kubeflow, PySpark y Kubernetes. Es el autor de "An Introduction To Data Engineering" y "Learn Data Science". Ha sido profesor en la Universidad de Barcelona y Euncet Business School. Además, tiene un récord de Kaggle Master con dos medallas de plata y ha obtenido el puesto 39 en el Reto del Banco Mundial por la IA para la predicción de terremotos. Es mentor en el Instituto de Desarrollo Profesional de la Universidad de California en Berkeley.
+
+
+--- Error at remaining_data index 2170 ---
+[
+  {
+    "video_id": "YYWxrx17njQ",
+    "keep": true,
+    "reason": "Title and tags explicitly mention 'two cats fight' in multiple languages, indicating real cats.",
+    "confidence": "high"
+   ingeniero para la inteligencia artificial.
+  },
+  {
+    "video_id": "aVjCXANMwrw",
+    "keep": true,
+    "reason": "Title states 'my 2 cats fight,' and tags include 'catfight' and 'katzen.'",
+    "confidence": "high"
+  },
+  {
+    "video_id": "LTRxLWKvi2Q",
+    "keep": true,
+    "reason": "Title and tags frequently use 'Katzen kämpfen' (cats fighting) and 'Catfight,' indicating real feline interaction.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "Wv30iy50ZJs",
+    "keep": true,
+    "reason": "Title 'fight the cat - Katzenkampf' strongly suggests real cats fighting.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "jnpucMj7TLM",
+    "keep": true,
+    "reason": "Title 'Katzen Kämpfen' and tags 'Katzen' (cats) and 'kämpfen' (fight) directly point to real cats.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "H0xVJYJ08U4",
+    "keep": true,
+    "reason": "Title 'Katzen kämpfen - Ninjakatze - Catfight - lustiges Katzenvideo' explicitly refers to real cats fighting.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "DrAvgk1mjWY",
+    "keep": true,
+    "reason": "Title asks 'What to do when cats fight?' indicating real feline behavior guidance.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "90UF4HOVIuI",
+    "keep": true,
+    "reason": "Title '2 Katzen kämpfen um ihr Leben' (2 cats fighting for their lives) clearly indicates real cats.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "z7L0ZLneXD4",
+    "keep": true,
+    "reason": "Title '2 Katzen kämpfen (spielen)' (2 cats fighting (playing)) clearly indicates real cats.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "B3HJw3yaCfg",
+    "keep": true,
+    "reason": "Title 'Katzen kämpfen' (cats fight) explicitly mentions real cats.",
+    "confidence": "high"
+  }
+]
+
+--- Error at remaining_data index 2200 ---
+[
+  {
+    "video_id": "unBVaK68d2c",
+    "keep": true,
+    "reason": "Title and category clearly indicate real cats fighting in the footage.",
+    "confidence": "high"
+   ingeniero que te pedia que te creara un software, como lo implemento o como haria la primera entrega del software sin dejar el trabajo?
+
+--- Error at remaining_data index 2350 ---
+[
+  {
+    "video_id": "eLwbeZQpN2I",
+    "keep": true,
+    "reason": "Title and tags indicate real Siamese cats fighting.",
+    "confidence": "high"
+   ingeniero.  },
+  {
+    "video_id": "0JX7dbXbvEw",
+    "keep": true,
+    "reason": "Title and tags explicitly mention a cat fight with real animals.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "0dVXIrEtDoI",
+    "keep": true,
+    "reason": "Title clearly states 'chat qui se battent' (cats fighting).",
+    "confidence": "high"
+  },
+  {
+    "video_id": "lJBYdK4zWsc",
+    "keep": true,
+    "reason": "Title and tags indicate real cats fighting.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "iQtNR49wdG8",
+    "keep": true,
+    "reason": "Title and tags strongly suggest a video of a real cat fight.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "wmOxxAXMGBw",
+    "keep": true,
+    "reason": "Title indicates a real cat and dog fighting.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "0kffKe8VAVM",
+    "keep": true,
+    "reason": "Title mentions 'Funny Cats' and 'kitten meowing', indicating real felines and vocalizations.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "gKbuPiyKSRM",
+    "keep": true,
+    "reason": "Title clearly states 'Deux chats qui se bat' (Two cats fighting).",
+    "confidence": "high"
+  },
+  {
+    "video_id": "VzgAKjQK1lo",
+    "keep": true,
+    "reason": "Title and extensive tags clearly indicate a compilation of real, angry cats with specific behaviors like 'miaulement de chat' (cat meowing).",
+    "confidence": "high"
+  },
+  {
+    "video_id": "akKg4cXHtTo",
+    "keep": true,
+    "reason": "Title 'Chats en colere' (Angry cats) indicates real felines.",
+    "confidence": "high"
+  }
+]
+
+--- Error at remaining_data index 3830 ---
+[
+  {
+    "video_id": "9rXIXTgR5Y4",
+    "keep": false,
+    "reason": "Video title explicitly states 'Oil pastels techniques demo' and 'Cat' is tagged, indicating a drawing or artistic representation of a cat, not a real one.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "nnIq5HUHGjg",
+    "keep": true,
+    "reason": "Title 'அழகான பூனை குட்டிகள் cute cats' directly translates to 'Beautiful kittens cute cats', strongly suggesting real cat footage.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "GqG2L
+
+--- Error at remaining_data index 4040 ---
+[
+  {
+    "video_id": "p5BFLudesII",
+    "keep": true,
+    "reason": "Title and tags explicitly mention cat prices and markets in Bangladesh, strongly indicating real cats will be shown.",
+    "confidence": "high"
+   ingeniero a los "
+
+  },
+  {
+    "video_id": "lvYcuPJP6lI",
+    "keep": true,
+    "reason": "Title and tags explicitly mention buying cats from a market, suggesting footage of real cats.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "yitV0Rcs3S4",
+    "keep": true,
+    "reason": "Title and tags explicitly mention cat prices and markets, indicating real cats will be the primary subject.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "ME6htletYdc",
+    "keep": true,
+    "reason": "Title includes 'বিড়াল' (cat) and discusses its influence on wealth and death, implying real cats are the subject for discussion or footage.",
+    "confidence": "medium"
+  },
+  {
+    "video_id": "o1yCecnvOpQ",
+    "keep": true,
+    "reason": "Title includes 'বিড়ালের এমন ওয়াজ' (such a sermon about cats), suggesting discussion or depiction of real cats in a religious context.",
+    "confidence": "medium"
+  },
+  {
+    "video_id": "HxD9CGx7fqE",
+    "keep": true,
+    "reason": "Title and tags explicitly mention 'FUNNY CAT VIDEO' and 'Biraler Video', strongly indicating real cats in amusing footage.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "t8GwfTtaVCo",
+    "keep": true,
+    "reason": "Title mentions 'বজ্জাত বেড়াল' (naughty cat) as a children's story, which, while a story, might still feature real cat imagery.",
+    "confidence": "low"
+  },
+  {
+    "video_id": "IUPloup7h2Y",
+    "keep": true,
+    "reason": "Title and tags mention 'বিড়াল' (cat) and discuss its influence and creation, implying real cats are the subject for discussion or footage.",
+    "confidence": "medium"
+  },
+  {
+    "video_id": "N1TABFopSaU",
+    "keep": true,
+    "reason": "Title and tags inquire about how cats became domesticated and cat worship, strongly suggesting the topic is about real cats.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "bLhI8zf4Wx8",
+    "keep": true,
+    "reason": "Title includes 'শিশু জন্ম দিল বিড়াল!' (cat gave birth to a child!) and 'বিড়ালের কাহিনি' (story of a cat), implying real feline events or discussions.",
+    "confidence": "medium"
+  }
+]
+
+--- Error at remaining_data index 4870 ---
+[
+  {
+    "video_id": "9jnXGt85eHs",
+    "keep": true,
+    "reason": "Title and tags explicitly mention 'cat' and 'pets & animals', suggesting a real cat interacting with a vet.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "sPP0tKIHPJY",
+    "keep": false,
+    "reason": "Title is about a cat raising ducklings, but tags like 'AIStory', 'EmotionalAI', and 'AIVideo' indicate synthetic content.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "Hnefsm8Ut8Q",
+    "keep": true,
+    "reason": "Title mentions a 'street kitten' becoming accustomed, strongly implying real footage of a cat.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "jIObNTIhIPc",
+    "keep": true,
+    "reason": "Title refers to a 'beautiful kitten' with a
+person, suggesting a real cat is the subject.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "wtanEvz81pQ",
+    "keep": false,
+    "reason": "Title mentions a 'brave cat and its four kittens' but the tags include '#AIShorts' and '#AIStory', indicating synthetic content.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "YrbIbqLjEJ8",
+    "keep": false,
+    "reason": "Title mentions a 'kitten and Ali's friendship', but the video description includes keywords like 'AI Story' and 'AI generated video', indicating synthetic content.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "3vyaM4Q1RcI",
+    "keep": true,
+    "reason": "Title and description clearly state 'Our cat giving birth?' and 'Cat Pregnancy Vlog', strongly indicating real footage of a cat.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "6s3pZDtrXNk",
+    "keep": false,
+    "reason": "Title refers to 'How the cat saved the child by sitting on it', but the description explicitly states 'AI generated' which means it's not real footage.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "XlBi2id9jJg",
+    "keep": true,
+    "reason": "Title mentions a 'kitten with Ayan Ravan', implying a real cat in interaction.",
+    "confidence": "high"
+  },
+  {
+    "video_id": "M3Uw4dtgegE",
+    "keep": false,
+    "reason": "Title suggests a monkey treating a kitten as its own child but the description specifies 'This is an AI Generated Content'.",
+    "confidence": "high"
+  }
+]
+

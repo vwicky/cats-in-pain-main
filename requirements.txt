@@ -1,0 +1,12 @@
+joblib
+librosa
+numpy
+opencv-python
+pydub
+PySceneDetect
+scikit-learn
+torch
+torchlibrosa
+tqdm
+ultralytics
+yt-dlp
