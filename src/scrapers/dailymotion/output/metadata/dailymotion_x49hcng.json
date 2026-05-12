@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x49hcng",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x49hcng_video.mp4",
+  "audio_path": "output/videos/dailymotion_x49hcng_audio.mp3",
+  "duration_sec": 36,
+  "duration_seconds": 36.0,
+  "title": "Il Gatto: \"Piccolo, è ora di andare a nanna\"",
+  "webpage_url": "https://www.dailymotion.com/video/x49hcng",
+  "dm_id": "x49hcng",
+  "views_total": 2649,
+  "view_count": 2649,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "",
+  "created_time": 1462829532,
+  "search_query": "comportamento di un gatto ferito",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat is involved in a bedtime context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x49hcng",
+    "decision": "keep",
+    "reason": "The title suggests a cat is involved in a bedtime context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

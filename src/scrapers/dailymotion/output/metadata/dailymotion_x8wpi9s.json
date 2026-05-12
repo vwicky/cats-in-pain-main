@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8wpi9s",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8wpi9s_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8wpi9s_audio.mp3",
+  "duration_sec": 25,
+  "duration_seconds": 25.0,
+  "title": "Gato en el techo de auto",
+  "webpage_url": "https://www.dailymotion.com/video/x8wpi9s",
+  "dm_id": "x8wpi9s",
+  "views_total": 9901,
+  "view_count": 9901,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "tv",
+  "channel_title": "tv",
+  "language": "es",
+  "query_language": "Portuguese",
+  "description": "",
+  "created_time": 1712931138,
+  "search_query": "sons de alerta de gato",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat on a car, suggesting plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8wpi9s",
+    "decision": "keep",
+    "reason": "The title indicates a cat on a car, suggesting plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

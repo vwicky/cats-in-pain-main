@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x9jtluy",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9jtluy_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9jtluy_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "Kätzchen ist völlig empört darüber, was ihr Herrchen auf der Straße treibt",
+  "webpage_url": "https://www.dailymotion.com/video/x9jtluy",
+  "dm_id": "x9jtluy",
+  "views_total": 2751,
+  "view_count": 2751,
+  "likes_total": 12,
+  "like_count": 12,
+  "tags": [
+    "News Katze"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Als Kätzchen Lauren sieht, was ihr Halter da tut, ist es mit ihrer sonstigen Coolness und Selbstbeherrschung vorbei. Wie kann er nur!",
+  "created_time": 1748013900,
+  "search_query": "verspielte Kätzchen entspannen",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description suggest a cat reacting to its owner's actions.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9jtluy",
+    "decision": "keep",
+    "reason": "The title and description suggest a cat reacting to its owner's actions.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

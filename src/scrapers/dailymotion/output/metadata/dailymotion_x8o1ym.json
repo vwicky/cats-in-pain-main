@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x8o1ym",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8o1ym_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8o1ym_audio.mp3",
+  "duration_sec": 21,
+  "duration_seconds": 21.0,
+  "title": "Kitty se repose",
+  "webpage_url": "https://www.dailymotion.com/video/x8o1ym",
+  "dm_id": "x8o1ym",
+  "views_total": 6200,
+  "view_count": 6200,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "kitty",
+    "repose"
+  ],
+  "channel": "travel",
+  "channel_title": "travel",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Kitty se repose... <br /><br />Laetitia et Guillaume, 15000 km à pied de Miami à Ushuaia <br /><br />Site officiel: http://www.turnoftheworld.com/ <br /><br />Blog: http://enfanceart.free.fr/miami_ushuaia/",
+  "created_time": 1237062153,
+  "search_query": "chat qui se repose au soleil",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat resting, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8o1ym",
+    "decision": "keep",
+    "reason": "The title indicates a cat resting, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

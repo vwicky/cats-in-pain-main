@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9319f8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9319f8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9319f8_audio.mp3",
+  "duration_sec": 12,
+  "duration_seconds": 12.0,
+  "title": "Funny cute cats#short",
+  "webpage_url": "https://www.dailymotion.com/video/x9319f8",
+  "dm_id": "x9319f8",
+  "views_total": 1017,
+  "view_count": 1017,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "Funny cat videos | cute cats | Try not to laugh | Cat videos Compilation #shorts​  <br /><br />#funnycats​ #funnycatvideos​ #funnyshorts​ #cat​ #trynottolough​ #shortvideo​ #funnyanimals​ <br /><br />Baby Cats are so funny and cute animals. Cats funny expression will give you stress free mindset .laugher is the best medicine in the world .Please watch the funny cat videos and subscribe for more.",
+  "created_time": 1722150647,
+  "search_query": "short cat lounging videos",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description indicate funny cat videos.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9319f8",
+    "decision": "keep",
+    "reason": "The title and description indicate funny cat videos.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

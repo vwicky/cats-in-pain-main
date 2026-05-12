@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x5heznc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5heznc_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5heznc_audio.mp3",
+  "duration_sec": 25,
+  "duration_seconds": 25.0,
+  "title": "Gato corta al alcalde de Riga en directo y...¡bebe de su taza!",
+  "webpage_url": "https://www.dailymotion.com/video/x5heznc",
+  "dm_id": "x5heznc",
+  "views_total": 6606,
+  "view_count": 6606,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Mayor",
+    "Cat",
+    "alcalde",
+    "gato",
+    "viral",
+    "funny",
+    "chistoso",
+    "cómico",
+    "divertido"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Este gato le robó todo el protagonismo al alcalde de la capital letona. Al menos durante unos segundos. Mientras respondía a preguntas en un programa de televisión decidió que había llegado el momento de entrar en plano y beber de la taza.",
+  "created_time": 1491471283,
+  "search_query": "signos de malestar en gatos",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "A cat interacting with a mayor during a live broadcast, plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5heznc",
+    "decision": "keep",
+    "reason": "A cat interacting with a mayor during a live broadcast, plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

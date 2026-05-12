@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x3hqxc6",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3hqxc6_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3hqxc6_audio.mp3",
+  "duration_sec": 27,
+  "duration_seconds": 27.0,
+  "title": "USA : ils retrouvent leur chat après 8 ans d'absence",
+  "webpage_url": "https://www.dailymotion.com/video/x3hqxc6",
+  "dm_id": "x3hqxc6",
+  "views_total": 1071,
+  "view_count": 1071,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "oekais",
+    "chat",
+    "disparition"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Cette famille américaine a eu une incroyable surprise. => http://www.oekais.com/fr/usa-ils-retrouvent-leur-chat-apres-8-ans-d-absence.html",
+  "created_time": 1449839362,
+  "search_query": "chat après vaccination",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video is about a family reuniting with their cat after a long absence.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3hqxc6",
+    "decision": "keep",
+    "reason": "The video is about a family reuniting with their cat after a long absence.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9idfz8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9idfz8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9idfz8_audio.mp3",
+  "duration_sec": 21,
+  "duration_seconds": 21.0,
+  "title": "17 Millionen lachen über die Rache dieser Katze",
+  "webpage_url": "https://www.dailymotion.com/video/x9idfz8",
+  "dm_id": "x9idfz8",
+  "views_total": 46552,
+  "view_count": 46552,
+  "likes_total": 28,
+  "like_count": 28,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Diese Katze will es nicht einfach so stehen lassen, nachdem ihr Mensch ihr wehgetan hatte...",
+  "created_time": 1745412643,
+  "search_query": "Katze nach der Impfung",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description suggest a cat's reaction to being hurt.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9idfz8",
+    "decision": "keep",
+    "reason": "The title and description suggest a cat's reaction to being hurt.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

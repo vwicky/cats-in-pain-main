@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x552jry",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x552jry_video.mp4",
+  "audio_path": "output/videos/dailymotion_x552jry_audio.mp3",
+  "duration_sec": 34,
+  "duration_seconds": 34.0,
+  "title": "Son chat le ré la nuit, il se venge de la plus drô des maniè !",
+  "webpage_url": "https://www.dailymotion.com/video/x552jry",
+  "dm_id": "x552jry",
+  "views_total": 1057,
+  "view_count": 1057,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "French",
+  "description": "Son chat le ré la",
+  "created_time": 1481603315,
+  "search_query": "bruits de reproduction des chats",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's humorous reaction, likely involving playful behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x552jry",
+    "decision": "keep",
+    "reason": "The title suggests a cat's humorous reaction, likely involving playful behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

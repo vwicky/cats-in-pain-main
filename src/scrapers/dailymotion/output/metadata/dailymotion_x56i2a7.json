@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x56i2a7",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x56i2a7_video.mp4",
+  "audio_path": "output/videos/dailymotion_x56i2a7_audio.mp3",
+  "duration_sec": 53,
+  "duration_seconds": 53.0,
+  "title": "Descansar com este gato por perto é praticamente impossível",
+  "webpage_url": "https://www.dailymotion.com/video/x56i2a7",
+  "dm_id": "x56i2a7",
+  "views_total": 17001,
+  "view_count": 17001,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Dormir",
+    "cão",
+    "gato",
+    "chato",
+    "brincar"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pt",
+  "query_language": "Spanish",
+  "description": "Este cão apenas queria descansar um pouco, mas o seu amigo gato não estava minimamente interessado em deixá-lo sossegado, pois quando um felino quer... eles sabem como ser realmente chatos! SO CUTE! :)",
+  "created_time": 1482862813,
+  "search_query": "gatos luchando por territorio",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat interacting with a dog, which is relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x56i2a7",
+    "decision": "keep",
+    "reason": "The video shows a cat interacting with a dog, which is relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

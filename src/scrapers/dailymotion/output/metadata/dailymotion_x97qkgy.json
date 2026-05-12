@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x97qkgy",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x97qkgy_video.mp4",
+  "audio_path": "output/videos/dailymotion_x97qkgy_audio.mp3",
+  "duration_sec": 19,
+  "duration_seconds": 19.0,
+  "title": "Parece un lindo gatito pero que no jueguen con su comida: ojo a su furia",
+  "webpage_url": "https://www.dailymotion.com/video/x97qkgy",
+  "dm_id": "x97qkgy",
+  "views_total": 12371,
+  "view_count": 12371,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1729490151,
+  "search_query": "gatitos juguetones relajándose",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's aggressive behavior towards food.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x97qkgy",
+    "decision": "keep",
+    "reason": "The title suggests a cat's aggressive behavior towards food.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

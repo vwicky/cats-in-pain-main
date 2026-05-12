@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_xm7hmi",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xm7hmi_video.mp4",
+  "audio_path": "output/videos/dailymotion_xm7hmi_audio.mp3",
+  "duration_sec": 53,
+  "duration_seconds": 53.0,
+  "title": "Conseils véto - Comment dépister les puces de son chat ?",
+  "webpage_url": "https://www.dailymotion.com/video/xm7hmi",
+  "dm_id": "xm7hmi",
+  "views_total": 27719,
+  "view_count": 27719,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Chat",
+    "conseils véto",
+    "conseils vétérinaire",
+    "serge belais",
+    "vétérinaire belais",
+    "appliquer traitement anti puce",
+    "traitement anti puce",
+    "traiter puces",
+    "chats"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Serge Belais, vétérinaire et membre actif de la SPA (Société protectrice des animaux) vous explique comment dépister les puces de son chat ! Positionnez-vous à l'arrière de votre chat et prenez son poil à rebrousse-poil. Vous pourrez ainsi voir s'il y a des parasites présents dans ses poils. Même si vous ne voyez pas les puces se déplacer, la présence de petits points noirs - déjections des puces - vous indiquent la présence de puces dans le pelage de votre chat. <br /> <br />Retrouvez le vétérinaire Belais, très vite pour d'autres conseils ! <br />Vous pouvez également le retrouver sur son site : http://www.cliniqueveterinairebelais.fr ! <br /> <br />Cliquez ici pour découvrir notre rubrique \"Chats\" sur Pratiks.com  : http://www.pratiks.com/video_cat/animaux/chats/ <br /> <br />Retrouvez des milliers d'autres vidéos pratiques sur notre site Pratiks.com  : <br /> http://pratiks.com <br /> <br />Rejoignez-nous sur Facebook :  <br />http://www.facebook.com/?ref=logo#!/pages/Pratikscom/60744199028?fref=ts <br /> <br />Suivez-nous sur Twitter :  <br />https://twitter.com/pratiks",
+  "created_time": 1320747500,
+  "search_query": "chat chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video provides advice on how to check for fleas on a cat, relevant to cat care.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xm7hmi",
+    "decision": "keep",
+    "reason": "The video provides advice on how to check for fleas on a cat, relevant to cat care.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

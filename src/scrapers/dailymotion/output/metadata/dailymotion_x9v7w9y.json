@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x9v7w9y",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9v7w9y_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9v7w9y_audio.mp3",
+  "duration_sec": 24,
+  "duration_seconds": 24.0,
+  "title": "Funniest Cat Reactions Ever 🐱 | Laugh Till You Cry 2025- 9",
+  "webpage_url": "https://www.dailymotion.com/video/x9v7w9y",
+  "dm_id": "x9v7w9y",
+  "views_total": 552,
+  "view_count": 552,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cat",
+    "funny",
+    "meme",
+    "kitty",
+    "kitties",
+    "cats",
+    "pets",
+    "pet",
+    "animals"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1765157246,
+  "search_query": "calm kitty moments",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Content features funny cat reactions.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9v7w9y",
+    "decision": "keep",
+    "reason": "Content features funny cat reactions.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

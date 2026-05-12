@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8p8gob",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8p8gob_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8p8gob_audio.mp3",
+  "duration_sec": 58,
+  "duration_seconds": 58.0,
+  "title": "Gatto difende il padrone da attacchi minacciosi: risate garantite (Video)",
+  "webpage_url": "https://www.dailymotion.com/video/x8p8gob",
+  "dm_id": "x8p8gob",
+  "views_total": 4796,
+  "view_count": 4796,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "Mai sottovalutare la lealtà di un gatto, pronto a tutto pur di difendere il proprio padrone, al contrario dell'immaginario collettivo. Guardare per credere!",
+  "created_time": 1698760910,
+  "search_query": "gatto che insegue la preda",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat defending its owner, indicating potential agonistic behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8p8gob",
+    "decision": "keep",
+    "reason": "The title suggests a cat defending its owner, indicating potential agonistic behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

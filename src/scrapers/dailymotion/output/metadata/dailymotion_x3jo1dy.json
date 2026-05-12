@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x3jo1dy",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3jo1dy_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3jo1dy_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Funny1Minute - Funny Cats Compilation",
+  "webpage_url": "https://www.dailymotion.com/video/x3jo1dy",
+  "dm_id": "x3jo1dy",
+  "views_total": 2497,
+  "view_count": 2497,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "funny1minute"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "tr",
+  "query_language": "English",
+  "description": "Funny1Minute - Funny Cats Compilation",
+  "created_time": 1451233128,
+  "search_query": "cat fight compilation",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a compilation of funny cat moments, likely involving real cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3jo1dy",
+    "decision": "keep",
+    "reason": "The title suggests a compilation of funny cat moments, likely involving real cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

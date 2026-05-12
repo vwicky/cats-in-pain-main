@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x8o82dx",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8o82dx_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8o82dx_audio.mp3",
+  "duration_sec": 48,
+  "duration_seconds": 48.0,
+  "title": "Süßes Video: Pferd und Katze sind beste Freunde",
+  "webpage_url": "https://www.dailymotion.com/video/x8o82dx",
+  "dm_id": "x8o82dx",
+  "views_total": 1158,
+  "view_count": 1158,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "Pferd",
+    "Katze",
+    "Süßes Video"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "<br />Video: Wiedergabe Instagram @jdemsey",
+  "created_time": 1695301411,
+  "search_query": "Katze Warnsounds",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat and a horse being friends, which is cat-related.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8o82dx",
+    "decision": "keep",
+    "reason": "The video features a cat and a horse being friends, which is cat-related.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x7u9d3x",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7u9d3x_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7u9d3x_audio.mp3",
+  "duration_sec": 18,
+  "duration_seconds": 18.0,
+  "title": "Vídeo revela gato a ser atacado por cobra com dona a nem se aperceber do perigo que o felino corria",
+  "webpage_url": "https://www.dailymotion.com/video/x7u9d3x",
+  "dm_id": "x7u9d3x",
+  "views_total": 9141,
+  "view_count": 9141,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cobra",
+    "gato",
+    "dona",
+    "chamar"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pt",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1591116131,
+  "search_query": "gatos luchando por territorio",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat being attacked by a cobra, suggesting a serious context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7u9d3x",
+    "decision": "keep",
+    "reason": "The title indicates a cat being attacked by a cobra, suggesting a serious context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

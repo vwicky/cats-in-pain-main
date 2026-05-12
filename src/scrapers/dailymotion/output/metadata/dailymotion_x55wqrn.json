@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x55wqrn",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x55wqrn_video.mp4",
+  "audio_path": "output/videos/dailymotion_x55wqrn_audio.mp3",
+  "duration_sec": 24,
+  "duration_seconds": 24.0,
+  "title": "Un chat amputé continue de vivre avec deux pattes",
+  "webpage_url": "https://www.dailymotion.com/video/x55wqrn",
+  "dm_id": "x55wqrn",
+  "views_total": 574,
+  "view_count": 574,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "Electrocution",
+    "Sauver",
+    "Amputé",
+    "chat",
+    "pattes",
+    "vivre"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Victime d’un accident, un chat doit se faire amputer des deux pattes avant. <br /> <br />En Thaïlande, après s’être approché un peu trop près d’un générateur, un chat errant s’est électrocuté. <br />Recueilli par une jeune femme qui l’a emmené chez le vétérinaire, le petit chat a dû être amputé des deux pattes avant afin de survivre. <br />Sa maîtresse a tout naturellement choisi le nom d’« Able » (« capable » en français) pour son nouveau compagnon qui se surpasse de jour en jour depuis son accident.",
+  "created_time": 1482328266,
+  "search_query": "chat mal à l'aise chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a cat that has undergone amputation due to an accident, indicating a medical context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x55wqrn",
+    "decision": "keep",
+    "reason": "The video discusses a cat that has undergone amputation due to an accident, indicating a medical context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x6f4vvr",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6f4vvr_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6f4vvr_audio.mp3",
+  "duration_sec": 53,
+  "duration_seconds": 53.0,
+  "title": "Découvrez les chats les plus craquants jamais vu !",
+  "webpage_url": "https://www.dailymotion.com/video/x6f4vvr",
+  "dm_id": "x6f4vvr",
+  "views_total": 11463,
+  "view_count": 11463,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Animaux",
+    "Mignon",
+    "Adorable",
+    "chat",
+    "animal"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Et vous, lequel de ces chats voudriez-vous adopter ?",
+  "created_time": 1519305043,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests showcasing cute cats, which is relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6f4vvr",
+    "decision": "keep",
+    "reason": "The title suggests showcasing cute cats, which is relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

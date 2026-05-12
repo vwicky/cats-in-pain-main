@@ -1,0 +1,4 @@
+2026-04-19 11:33:23,368 INFO Log file: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/dataset_construction/logs/04_audio_classification_20260419T083323Z.log
+2026-04-19 11:33:23,471 INFO Found 0 audio files under /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/dataset_construction/separeted_audios
+2026-04-19 11:33:23,471 INFO No files to process; writing empty outputs.
+2026-04-19 11:33:23,472 INFO Wrote empty /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/dataset_construction/reports/separated_audios_emotion_predictions.jsonl and /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/dataset_construction/reports/emotion_labeling_report.txt

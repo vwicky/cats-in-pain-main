@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x75jbo7",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x75jbo7_video.mp4",
+  "audio_path": "output/videos/dailymotion_x75jbo7_audio.mp3",
+  "duration_sec": 23,
+  "duration_seconds": 23.0,
+  "title": "Qui a dit que les chats n'aimaient pas les cookies ? Celui-ci en raffole. Regardez !",
+  "webpage_url": "https://www.dailymotion.com/video/x75jbo7",
+  "dm_id": "x75jbo7",
+  "views_total": 9118,
+  "view_count": 9118,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1554825740,
+  "search_query": "chat heureux qui ronronne",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title suggests a cat enjoying cookies, plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x75jbo7",
+    "decision": "keep",
+    "reason": "Title suggests a cat enjoying cookies, plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

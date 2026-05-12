@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x2narqe",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2narqe_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2narqe_audio.mp3",
+  "duration_sec": 19,
+  "duration_seconds": 19.0,
+  "title": "Кот сидит в кафешке!",
+  "webpage_url": "https://www.dailymotion.com/video/x2narqe",
+  "dm_id": "x2narqe",
+  "views_total": 11537,
+  "view_count": 11537,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "кот",
+    "кошка",
+    "смешное",
+    "приколы",
+    "животные",
+    "отдых"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1429539375,
+  "search_query": "кот в ветеринарной клинике",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat sitting in a café, which is plausible behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2narqe",
+    "decision": "keep",
+    "reason": "The title indicates a cat sitting in a café, which is plausible behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

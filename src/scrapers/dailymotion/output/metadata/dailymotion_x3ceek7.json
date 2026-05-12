@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x3ceek7",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3ceek7_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3ceek7_audio.mp3",
+  "duration_sec": 50,
+  "duration_seconds": 50.0,
+  "title": "Cat swag - Le chat le plus swag de l'année",
+  "webpage_url": "https://www.dailymotion.com/video/x3ceek7",
+  "dm_id": "x3ceek7",
+  "views_total": 548,
+  "view_count": 548,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Cat",
+    "Animal",
+    "Swag",
+    "LOL",
+    "chat",
+    "fun",
+    "animal de compagnie"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "English",
+  "description": "Cat swag - Le chat le plus swag de l'année",
+  "created_time": 1446651709,
+  "search_query": "cat in hunting mode",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description suggest a cat-focused video.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3ceek7",
+    "decision": "keep",
+    "reason": "The title and description suggest a cat-focused video.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

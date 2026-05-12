@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3p7vak",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3p7vak_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3p7vak_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Ворон пытается побить кота",
+  "webpage_url": "https://www.dailymotion.com/video/x3p7vak",
+  "dm_id": "x3p7vak",
+  "views_total": 2086,
+  "view_count": 2086,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cat",
+    "funny",
+    "prikoli",
+    "video",
+    "clip",
+    "best",
+    "rolik",
+    "смешно",
+    "comedy"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1454075549,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a crow trying to attack a cat, indicating potential agonistic behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3p7vak",
+    "decision": "keep",
+    "reason": "The title suggests a crow trying to attack a cat, indicating potential agonistic behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

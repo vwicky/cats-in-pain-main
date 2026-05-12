@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x7myw9t",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7myw9t_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7myw9t_audio.mp3",
+  "duration_sec": 56,
+  "duration_seconds": 56.0,
+  "title": "Die Katzenrasse mit den wenigsten Gesundheitsproblemen",
+  "webpage_url": "https://www.dailymotion.com/video/x7myw9t",
+  "dm_id": "x7myw9t",
+  "views_total": 146646,
+  "view_count": 146646,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Die Katzenrasse mit den wenigsten Gesundheitsproblemen <br /><br />Einige Katzenrassen sind robuster als andere: <br />1. Die American Wirehair <br />2. Die Britisch Kurzhaar <br />3. Die Bengalkatze <br />4. Die Europäisch Kurzhaar <br />5. Die Maine Coon <br />6. Die RagaMuffin <br />7. Die Thaikatze <br />8. Die Manx <br />9. Die Sibirische Katze <br />10. Die Chartreux",
+  "created_time": 1571817292,
+  "search_query": "Katze nach der Impfung",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses cat breeds with fewer health issues, relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7myw9t",
+    "decision": "keep",
+    "reason": "The video discusses cat breeds with fewer health issues, relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

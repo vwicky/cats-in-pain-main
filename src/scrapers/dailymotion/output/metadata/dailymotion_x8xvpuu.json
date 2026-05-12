@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8xvpuu",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8xvpuu_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8xvpuu_audio.mp3",
+  "duration_sec": 29,
+  "duration_seconds": 29.0,
+  "title": "Sur les réseaux sociaux, elle présente son chat de 19 ans et explique son petit secret de longévité",
+  "webpage_url": "https://www.dailymotion.com/video/x8xvpuu",
+  "dm_id": "x8xvpuu",
+  "views_total": 775,
+  "view_count": 775,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Cette chatte fait le bonheur de sa maîtresse depuis 19 ans, et elle aurait un petit secret pour vivre aussi longtemps !",
+  "created_time": 1714720043,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a cat's longevity and features a real cat.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8xvpuu",
+    "decision": "keep",
+    "reason": "The video discusses a cat's longevity and features a real cat.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

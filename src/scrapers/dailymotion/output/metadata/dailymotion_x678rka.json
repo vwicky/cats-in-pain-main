@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x678rka",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x678rka_video.mp4",
+  "audio_path": "output/videos/dailymotion_x678rka_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "Salva a un gato que quedó colgado de un tendedero de ropa",
+  "webpage_url": "https://www.dailymotion.com/video/x678rka",
+  "dm_id": "x678rka",
+  "views_total": 779,
+  "view_count": 779,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gato",
+    "salvar",
+    "tendedero",
+    "colgado"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Este gato puede dar las gracias a este tendedero que probablemente le salvó la vida",
+  "created_time": 1509561691,
+  "search_query": "gato en modo caza",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves saving a cat, which is relevant to real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x678rka",
+    "decision": "keep",
+    "reason": "The video involves saving a cat, which is relevant to real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x87lacl",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x87lacl_video.mp4",
+  "audio_path": "output/videos/dailymotion_x87lacl_audio.mp3",
+  "duration_sec": 35,
+  "duration_seconds": 35.0,
+  "title": "Un chat retrouve sa famille 8 ans après sa disparition",
+  "webpage_url": "https://www.dailymotion.com/video/x87lacl",
+  "dm_id": "x87lacl",
+  "views_total": 2225,
+  "view_count": 2225,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "uuid_3f86af75-71f6-4d3a-acbc-99fd4b8153f1",
+    "guid_91851",
+    "chat",
+    "international",
+    "best-friends"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1643933720,
+  "search_query": "chat sautant sur sa proie",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat reuniting with its family, which is a real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x87lacl",
+    "decision": "keep",
+    "reason": "The title suggests a cat reuniting with its family, which is a real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

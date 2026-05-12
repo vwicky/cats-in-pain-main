@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x9j8lzm",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9j8lzm_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9j8lzm_audio.mp3",
+  "duration_sec": 18,
+  "duration_seconds": 18.0,
+  "title": "Limpiador para quitar olor a Pipí de perro o gato",
+  "webpage_url": "https://www.dailymotion.com/video/x9j8lzm",
+  "dm_id": "x9j8lzm",
+  "views_total": 11578,
+  "view_count": 11578,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Limpiador",
+    "quitar olor a Pipí",
+    "perro",
+    "gato",
+    "mascotas",
+    "limpieza",
+    "olor",
+    "cocina"
+  ],
+  "channel": "lifestyle",
+  "channel_title": "lifestyle",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Limpiador para quitar olor a Pipí de perro o gato",
+  "created_time": 1746815020,
+  "search_query": "compilación de peleas de gatos",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description mention a cleaner for cat urine, indicating relevance to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9j8lzm",
+    "decision": "keep",
+    "reason": "The title and description mention a cleaner for cat urine, indicating relevance to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

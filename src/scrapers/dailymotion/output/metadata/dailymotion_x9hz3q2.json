@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9hz3q2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9hz3q2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9hz3q2_audio.mp3",
+  "duration_sec": 9,
+  "duration_seconds": 9.0,
+  "title": "Funny Cat for Kids",
+  "webpage_url": "https://www.dailymotion.com/video/x9hz3q2",
+  "dm_id": "x9hz3q2",
+  "views_total": 1545,
+  "view_count": 1545,
+  "likes_total": 6,
+  "like_count": 6,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "🎉 Funny Cat Video for Kids | Laugh Out Loud Moments! 🐱😂<br /><br />Get ready for non-stop giggles with this hilarious Funny Cat video made just for kids! 🐾 Watch this playful kitty do the silliest things — from funny jumps and clumsy falls to adorable reactions! Perfect for toddlers, preschoolers, and children of all ages who love animals and a good laugh!<br /><br />✨ Safe, clean, and family-friendly content that kids will want to watch again and again. Great for a quick laugh or to brighten up your day!<br /><br />👍 Don’t forget to Like, Comment, and Share to spread the joy!<br /><br />#FunnyCat #CatVideo #KidsVideo #FunnyAnimals #CatsForKids #CuteCats #AnimalVideos #CatFails #KidsEntertainment #ToddlerFun #PetVideos #CatCompilation #FunnyKitten #LaughForKids #CatLovers #DailymotionKids #CleanComedy #AnimalFun #LOLAnimals #KidsLaugh #CuteAndFunny #KittyVideo #CatReactions #SafeForKids #KidFriendly #PreschoolEntertainment #FunnyPetMoments",
+  "created_time": 1744776967,
+  "search_query": "cats battling for territory",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title suggests funny cat content, likely real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9hz3q2",
+    "decision": "keep",
+    "reason": "Title suggests funny cat content, likely real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

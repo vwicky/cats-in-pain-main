@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x3tg0d9",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3tg0d9_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3tg0d9_audio.mp3",
+  "duration_sec": 29,
+  "duration_seconds": 29.0,
+  "title": "Cute Cat Happy Birthday Song For You.",
+  "webpage_url": "https://www.dailymotion.com/video/x3tg0d9",
+  "dm_id": "x3tg0d9",
+  "views_total": 2653,
+  "view_count": 2653,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Birthday Song",
+    "cute cat",
+    "happy birthday",
+    "online birthday cards"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "Wish a wonderful day and send this happy birthday card for free at http://www.123greetings.com/birthday/happy_birthday/cute_cat_happy_birthday_song_for_you.html",
+  "created_time": 1456079656,
+  "search_query": "cats battling for territory",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title and tags indicate a cute cat video.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3tg0d9",
+    "decision": "keep",
+    "reason": "Title and tags indicate a cute cat video.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

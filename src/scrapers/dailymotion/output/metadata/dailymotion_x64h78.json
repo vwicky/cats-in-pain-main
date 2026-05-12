@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x64h78",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x64h78_video.mp4",
+  "audio_path": "output/videos/dailymotion_x64h78_audio.mp3",
+  "duration_sec": 22,
+  "duration_seconds": 22.0,
+  "title": "chat sur voiture telecommander",
+  "webpage_url": "https://www.dailymotion.com/video/x64h78",
+  "dm_id": "x64h78",
+  "views_total": 1029,
+  "view_count": 1029,
+  "likes_total": 2,
+  "like_count": 2,
+  "tags": [
+    "chat",
+    "gris"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "chat sur voiture telecommander",
+  "created_time": 1216049059,
+  "search_query": "chat sautant sur sa proie",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat interacting with a remote-controlled car, which is plausible.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x64h78",
+    "decision": "keep",
+    "reason": "The title suggests a cat interacting with a remote-controlled car, which is plausible.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

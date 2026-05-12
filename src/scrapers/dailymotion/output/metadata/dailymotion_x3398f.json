@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3398f",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3398f_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3398f_audio.mp3",
+  "duration_sec": 40,
+  "duration_seconds": 40.0,
+  "title": "Le chat qui joue avec son arbre à chat",
+  "webpage_url": "https://www.dailymotion.com/video/x3398f",
+  "dm_id": "x3398f",
+  "views_total": 816,
+  "view_count": 816,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "chaton",
+    "joue",
+    "jouer",
+    "arbre",
+    "boule",
+    "griffe",
+    "oggy",
+    "animal"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1191074723,
+  "search_query": "chat blessé qui boite",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat playing with a cat tree, which is typical cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3398f",
+    "decision": "keep",
+    "reason": "The title indicates a cat playing with a cat tree, which is typical cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

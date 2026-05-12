@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x7dwta1",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7dwta1_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7dwta1_audio.mp3",
+  "duration_sec": 42,
+  "duration_seconds": 42.0,
+  "title": "Die Freundschaft zwischen diesem Kind und seiner Katze wird dich zum Schmelzen bringen",
+  "webpage_url": "https://www.dailymotion.com/video/x7dwta1",
+  "dm_id": "x7dwta1",
+  "views_total": 5644,
+  "view_count": 5644,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "de",
+  "query_language": "German",
+  "description": "Madden Humphreys, ein 7-jähriger Junge mit unterschiedlichen Augenfarben, ist schwer krank. <br /><br />Als seine Mutter also eine Katze sah, die an den gleichen Symptomen wie ihr Sohn litt und die selben Augen wie er hatte, zögerte sie nicht eine Sekunde lang, sie zu adoptieren. <br /><br />So fand der kleine Madden, der oft von seinen Mitschülern gehänselt wurde, seinen besten Freund. <br /><br />Madden und Moon sind jetzt unzertrennlich und es ist schön anzusehen!",
+  "created_time": 1563782129,
+  "search_query": "Katze, die Beute verfolgt",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a touching story involving a cat and a child, suggesting real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7dwta1",
+    "decision": "keep",
+    "reason": "The description indicates a touching story involving a cat and a child, suggesting real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

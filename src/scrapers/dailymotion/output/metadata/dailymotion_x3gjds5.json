@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3gjds5",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3gjds5_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3gjds5_audio.mp3",
+  "duration_sec": 41,
+  "duration_seconds": 41.0,
+  "title": "Кот испугался!))",
+  "webpage_url": "https://www.dailymotion.com/video/x3gjds5",
+  "dm_id": "x3gjds5",
+  "views_total": 17339,
+  "view_count": 17339,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Кот испугался!))",
+  "created_time": 1449070657,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description indicate a cat video.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3gjds5",
+    "decision": "keep",
+    "reason": "The title and description indicate a cat video.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

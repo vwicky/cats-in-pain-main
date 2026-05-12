@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_xa2fq9u",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xa2fq9u_video.mp4",
+  "audio_path": "output/videos/dailymotion_xa2fq9u_audio.mp3",
+  "duration_sec": 44,
+  "duration_seconds": 44.0,
+  "title": "Construction en cours 🚧🐾 J'ai craqué sur ce bar à chat pendant la Folie Japon à la Grande Récré et il est trop mignon !!!*collaboration",
+  "webpage_url": "https://www.dailymotion.com/video/xa2fq9u",
+  "dm_id": "xa2fq9u",
+  "views_total": 1881,
+  "view_count": 1881,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Préparez-vous à craquer ! Dans cette vidéo, découvrez une adorable nouveauté qui va faire fondre votre cœur : un bar à chat d'exception.<br /><br />C'est lors de la Folie Japon à la Grande Récré que ce petit bijou a fait son apparition, et le coup de foudre a été immédiat. Vous allez adorer son design unique et ses détails minutieux.<br /><br />Cette collaboration spéciale met en lumière un produit exceptionnel qui plaira à tous les amateurs de figurines et de culture japonaise. Laissez-vous charmer par sa mignonnerie incomparable.<br /><br />#BarAChat #FolieJapon #GrandeRecre",
+  "created_time": 1775480413,
+  "search_query": "posture défensive de chat",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat café, which is relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xa2fq9u",
+    "decision": "keep",
+    "reason": "The video features a cat café, which is relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

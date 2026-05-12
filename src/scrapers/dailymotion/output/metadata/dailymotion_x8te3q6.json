@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x8te3q6",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8te3q6_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8te3q6_audio.mp3",
+  "duration_sec": 7,
+  "duration_seconds": 7.0,
+  "title": "Sipodul play with cat",
+  "webpage_url": "https://www.dailymotion.com/video/x8te3q6",
+  "dm_id": "x8te3q6",
+  "views_total": 944,
+  "view_count": 944,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Twin",
+    "Sipodul",
+    "Cat",
+    "Funny",
+    "Fun",
+    "Kids"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "id",
+  "query_language": "English",
+  "description": "The daily behavior of twins can always bring laughter",
+  "created_time": 1709008644,
+  "search_query": "cat after vaccination",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and tags indicate interaction with a cat.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8te3q6",
+    "decision": "keep",
+    "reason": "The title and tags indicate interaction with a cat.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

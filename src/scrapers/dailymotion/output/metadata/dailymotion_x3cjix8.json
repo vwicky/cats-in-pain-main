@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3cjix8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3cjix8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3cjix8_audio.mp3",
+  "duration_sec": 16,
+  "duration_seconds": 16.0,
+  "title": "Кот испугался огурца)))",
+  "webpage_url": "https://www.dailymotion.com/video/x3cjix8",
+  "dm_id": "x3cjix8",
+  "views_total": 2263,
+  "view_count": 2263,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1446722157,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat reacting to a cucumber, which is a known behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3cjix8",
+    "decision": "keep",
+    "reason": "The title indicates a cat reacting to a cucumber, which is a known behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

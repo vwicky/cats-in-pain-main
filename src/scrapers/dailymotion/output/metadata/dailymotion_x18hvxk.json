@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x18hvxk",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x18hvxk_video.mp4",
+  "audio_path": "output/videos/dailymotion_x18hvxk_audio.mp3",
+  "duration_sec": 48,
+  "duration_seconds": 48.0,
+  "title": "Attaque de chat",
+  "webpage_url": "https://www.dailymotion.com/video/x18hvxk",
+  "dm_id": "x18hvxk",
+  "views_total": 7991,
+  "view_count": 7991,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "vidéo buzz",
+    "chat"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Une femme essaie de protéger son chien d'un chat. Elle va repousser le félin en lui jetant de la neige avec ses pieds, mais le chat ne va pas se laisser faire et sauter au visage de la femme",
+  "created_time": 1387264687,
+  "search_query": "posture défensive de chat",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a cat attacking and interacting with a person.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x18hvxk",
+    "decision": "keep",
+    "reason": "The video involves a cat attacking and interacting with a person.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

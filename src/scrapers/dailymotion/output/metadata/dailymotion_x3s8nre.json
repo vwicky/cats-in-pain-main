@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3s8nre",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3s8nre_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3s8nre_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "Очень злой кот",
+  "webpage_url": "https://www.dailymotion.com/video/x3s8nre",
+  "dm_id": "x3s8nre",
+  "views_total": 3596,
+  "view_count": 3596,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cats",
+    "fun",
+    "prikoli",
+    "video",
+    "clip",
+    "best",
+    "rolik",
+    "смешно",
+    "comedy"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1455545679,
+  "search_query": "агрессивный кот, рычащий",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat's behavior, likely involving some form of vocalization or action.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3s8nre",
+    "decision": "keep",
+    "reason": "The title indicates a cat's behavior, likely involving some form of vocalization or action.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

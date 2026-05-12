@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9i07a0",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9i07a0_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9i07a0_audio.mp3",
+  "duration_sec": 42,
+  "duration_seconds": 42.0,
+  "title": "Die letzten Stunden einer Katze: Diese Szenen berühren zutiefst",
+  "webpage_url": "https://www.dailymotion.com/video/x9i07a0",
+  "dm_id": "x9i07a0",
+  "views_total": 18103,
+  "view_count": 18103,
+  "likes_total": 3,
+  "like_count": 3,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Bei diesen bittersüßen Szenen schnürt sich einem die Kehle zusammen. Millionen TikToker sind zutiefst gerührt von diesem ergreifenden Abschied.",
+  "created_time": 1744817926,
+  "search_query": "Katze nach der Impfung",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests emotional scenes involving a cat, likely related to its behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9i07a0",
+    "decision": "keep",
+    "reason": "The title suggests emotional scenes involving a cat, likely related to its behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

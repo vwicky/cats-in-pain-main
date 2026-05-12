@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3j2jd8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3j2jd8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3j2jd8_audio.mp3",
+  "duration_sec": 29,
+  "duration_seconds": 29.0,
+  "title": "Коварное нападение кота сзади",
+  "webpage_url": "https://www.dailymotion.com/video/x3j2jd8",
+  "dm_id": "x3j2jd8",
+  "views_total": 43201,
+  "view_count": 43201,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1450823056,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat attacking from behind, indicating possible agonistic behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3j2jd8",
+    "decision": "keep",
+    "reason": "The title suggests a cat attacking from behind, indicating possible agonistic behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9b0b9k",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9b0b9k_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9b0b9k_audio.mp3",
+  "duration_sec": 19,
+  "duration_seconds": 19.0,
+  "title": "Graban el encuentro de un gato con su dueña tras estar un mes perdido en el aeropuerto",
+  "webpage_url": "https://www.dailymotion.com/video/x9b0b9k",
+  "dm_id": "x9b0b9k",
+  "views_total": 14225,
+  "view_count": 14225,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1734543741,
+  "search_query": "signos de malestar en gatos",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat reuniting with its owner, indicating emotional behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9b0b9k",
+    "decision": "keep",
+    "reason": "The video features a cat reuniting with its owner, indicating emotional behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

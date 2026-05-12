@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x87gyif",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x87gyif_video.mp4",
+  "audio_path": "output/videos/dailymotion_x87gyif_audio.mp3",
+  "duration_sec": 43,
+  "duration_seconds": 43.0,
+  "title": "Warum Ihre Katze gern an Ihren Fingern knabbert.",
+  "webpage_url": "https://www.dailymotion.com/video/x87gyif",
+  "dm_id": "x87gyif",
+  "views_total": 603,
+  "view_count": 603,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "uuid_66d85458-53ae-4ff8-9ef4-b26f715bc9b2",
+    "guid_1965",
+    "katze",
+    "tier"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "de",
+  "query_language": "German",
+  "description": "",
+  "created_time": 1643733456,
+  "search_query": "Katze Warnsounds",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat behavior explanation, likely involving real cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x87gyif",
+    "decision": "keep",
+    "reason": "The title suggests a cat behavior explanation, likely involving real cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

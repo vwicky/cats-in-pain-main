@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x7coitb",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7coitb_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7coitb_audio.mp3",
+  "duration_sec": 10,
+  "duration_seconds": 10.0,
+  "title": "See the funny style of cat like human and try to control your laugh",
+  "webpage_url": "https://www.dailymotion.com/video/x7coitb",
+  "dm_id": "x7coitb",
+  "views_total": 2071,
+  "view_count": 2071,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Funny",
+    "funny cat",
+    "funny cat of 2010",
+    "Lol cat",
+    "best cat video"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "Visit our website for more videos<br />http://funlandtube.blogspot.com<br />Follow me on Twitter for lots of funny and informative posts <br />http://twitter.com/sarahk9k<br />Like our Facebook page for lots of fun<br /> https://www.facebook.com/Funland1000<br />",
+  "created_time": 1562460117,
+  "search_query": "short cat hunting videos",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates it features a funny cat, relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7coitb",
+    "decision": "keep",
+    "reason": "The title indicates it features a funny cat, relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

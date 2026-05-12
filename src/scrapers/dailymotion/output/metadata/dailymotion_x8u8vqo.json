@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x8u8vqo",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8u8vqo_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8u8vqo_audio.mp3",
+  "duration_sec": 23,
+  "duration_seconds": 23.0,
+  "title": "Chat en colere",
+  "webpage_url": "https://www.dailymotion.com/video/x8u8vqo",
+  "dm_id": "x8u8vqo",
+  "views_total": 8028,
+  "view_count": 8028,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "chat",
+    "animal",
+    "chat en colere",
+    "chien",
+    "fail",
+    "insolite"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Chat en colere",
+  "created_time": 1710416999,
+  "search_query": "chat malade en traitement",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Describes a cat in an agitated state.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8u8vqo",
+    "decision": "keep",
+    "reason": "Describes a cat in an agitated state.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

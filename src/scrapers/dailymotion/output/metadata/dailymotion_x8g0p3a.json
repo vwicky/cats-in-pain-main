@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8g0p3a",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8g0p3a_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8g0p3a_audio.mp3",
+  "duration_sec": 13,
+  "duration_seconds": 13.0,
+  "title": "Gato é abandonado vivo dentro de sacola em condomínio; vídeo",
+  "webpage_url": "https://www.dailymotion.com/video/x8g0p3a",
+  "dm_id": "x8g0p3a",
+  "views_total": 1451,
+  "view_count": 1451,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "",
+  "created_time": 1670024850,
+  "search_query": "vídeos curtos de gatos caçando",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat being abandoned, which is relevant to cat welfare.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8g0p3a",
+    "decision": "keep",
+    "reason": "The title indicates a cat being abandoned, which is relevant to cat welfare.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

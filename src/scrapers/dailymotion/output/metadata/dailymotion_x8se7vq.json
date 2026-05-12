@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x8se7vq",
+  "source": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8se7vq_video.mp4",
+  "audio_path": "output/audio/dailymotion_x8se7vq_audio.mp3",
+  "duration_sec": 24,
+  "title": "Cat Keeps Meowing While Walking With Slipper and Her Favorite Toy",
+  "webpage_url": "https://www.dailymotion.com/video/x8se7vq",
+  "dm_id": "x8se7vq",
+  "views_total": 2691,
+  "likes_total": 0,
+  "tags": [
+    "adorable",
+    "animal",
+    "cat",
+    "cute",
+    "foot",
+    "funny",
+    "grab",
+    "house",
+    "mouth",
+    "nobody",
+    "pet",
+    "pets",
+    "romania",
+    "shoe",
+    "show",
+    "show off",
+    "silly",
+    "sound",
+    "sweet",
+    "toy",
+    "walk",
+    "wear"
+  ],
+  "channel": "news",
+  "language": "en",
+  "description": "Panini, the cat, loved to wear this pink slipper and to roam around the house in it. She was also carrying her favorite toy in her mouth as she strolled about the house, meowing loudly.",
+  "created_time": 1707432348,
+  "search_query": "cat meowing",
+  "tag_filter": {
+    "passed": true
+  },
+  "gpt_filter": {
+    "video_id": "dailymotion_x8se7vq",
+    "decision": "keep",
+    "reason": "The description indicates the cat is meowing while engaging with a toy, which fits the vocalizing category.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

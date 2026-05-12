@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9u9kci",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9u9kci_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9u9kci_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "Tu ne connaissais pas cette légende ?",
+  "webpage_url": "https://www.dailymotion.com/video/x9u9kci",
+  "dm_id": "x9u9kci",
+  "views_total": 1497,
+  "view_count": 1497,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "school",
+  "channel_title": "school",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Connaissez-vous la rue du Chat-qui-Pêche ? Nichée dans le 5ᵉ arrondissement de Paris, c’est la rue la plus étroite de la capitale… mais aussi l’une des plus mystérieuses 😼.<br /><br />Selon la légende, un chanoine et son chat noir vivaient ici au XVe siècle. L’animal avait pour habitude de se poster au bord de la Seine pour attraper des poissons d’un coup de patte… ce qui attira vite la curiosité des habitants. Certains allaient même jusqu’à dire que ce chat n’était pas ordinaire : un être maléfique ou peut-être… une réincarnation ? 🐈‍⬛✨<br /><br />La légende raconte que des étudiants, effrayés par les rumeurs, auraient jeté le chat dans la Seine. Mais peu de temps après, il serait réapparu… bien vivant, marchant aux côtés de son maître. Depuis, la rue garde ce nom intrigant, rappel d’une histoire à mi-chemin entre réalité et superstition.<br /><br />Dans cette vidéo, on vous emmène découvrir :<br /><br />📍 La rue la plus étroite de Paris<br /><br />🐈 L’histoire et les mystères du chat “magicien”<br /><br />✨ Une plongée dans les légendes parisiennes<br /><br />Alors, mythe ou réalité ? À vous de juger…<br /><br />➡️ Allez découvrir tous nos articles sur [petitmauda.com](http://petitmauda.com/)<br /><br />©️ Crédit : @petitmauda<br /><br />🎁 Tous nos bons plans à retrouver en bio ! ❤️‍🔥<br /><br />👉🏻 Abonne-toi au Petit Mauda pour plus d’inspiration ! 🌳",
+  "created_time": 1763845289,
+  "search_query": "chats qui siffle entre eux",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video mentions a cat in a historical context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9u9kci",
+    "decision": "keep",
+    "reason": "The video mentions a cat in a historical context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

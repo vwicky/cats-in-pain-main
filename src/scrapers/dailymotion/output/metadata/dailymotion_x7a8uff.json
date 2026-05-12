@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x7a8uff",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7a8uff_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7a8uff_audio.mp3",
+  "duration_sec": 4,
+  "duration_seconds": 4.0,
+  "title": "Regardez comment ce chat réagit quand son maître fait des grincements. A mourir de rire !",
+  "webpage_url": "https://www.dailymotion.com/video/x7a8uff",
+  "dm_id": "x7a8uff",
+  "views_total": 14742,
+  "view_count": 14742,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1559654525,
+  "search_query": "bruits de reproduction des chats",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat reacting to sounds, likely involving vocalization.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7a8uff",
+    "decision": "keep",
+    "reason": "The title indicates a cat reacting to sounds, likely involving vocalization.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

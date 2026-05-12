@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8xdrtk",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8xdrtk_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8xdrtk_audio.mp3",
+  "duration_sec": 27,
+  "duration_seconds": 27.0,
+  "title": "Un chaton Exotic Shorthair est abandonné chez le vétérinaire : personne ne voulait de lui",
+  "webpage_url": "https://www.dailymotion.com/video/x8xdrtk",
+  "dm_id": "x8xdrtk",
+  "views_total": 2816,
+  "view_count": 2816,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Dans son malheur, la petite Minty a eu beaucoup de chance.",
+  "created_time": 1713963251,
+  "search_query": "chat malade chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features an abandoned kitten at the vet, indicating a focus on cat welfare.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8xdrtk",
+    "decision": "keep",
+    "reason": "The video features an abandoned kitten at the vet, indicating a focus on cat welfare.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

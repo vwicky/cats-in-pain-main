@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9jtly2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9jtly2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9jtly2_audio.mp3",
+  "duration_sec": 17,
+  "duration_seconds": 17.0,
+  "title": "Owner captures melodramatic reaction of Ragdoll cats desperate for a snack (video)",
+  "webpage_url": "https://www.dailymotion.com/video/x9jtly2",
+  "dm_id": "x9jtly2",
+  "views_total": 928,
+  "view_count": 928,
+  "likes_total": 4,
+  "like_count": 4,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "This adorable Ragdoll trio had viewers in stitches, after they put on the performance of a lifetime. \"Total neglect and abuse\", joked a viewer.",
+  "created_time": 1747732453,
+  "search_query": "loud cat yowling videos",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat's reaction, suggesting vocalization or behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9jtly2",
+    "decision": "keep",
+    "reason": "The title indicates a cat's reaction, suggesting vocalization or behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

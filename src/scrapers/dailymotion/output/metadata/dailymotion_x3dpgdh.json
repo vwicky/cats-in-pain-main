@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3dpgdh",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3dpgdh_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3dpgdh_audio.mp3",
+  "duration_sec": 43,
+  "duration_seconds": 43.0,
+  "title": "Кот на гамаке",
+  "webpage_url": "https://www.dailymotion.com/video/x3dpgdh",
+  "dm_id": "x3dpgdh",
+  "views_total": 890,
+  "view_count": 890,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1447460014,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat is resting on a hammock.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3dpgdh",
+    "decision": "keep",
+    "reason": "The title indicates a cat is resting on a hammock.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

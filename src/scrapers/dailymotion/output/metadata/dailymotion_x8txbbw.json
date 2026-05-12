@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x8txbbw",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8txbbw_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8txbbw_audio.mp3",
+  "duration_sec": 27,
+  "duration_seconds": 27.0,
+  "title": "Bursztynowy kot wrócił do Gdańska!",
+  "webpage_url": "https://www.dailymotion.com/video/x8txbbw",
+  "dm_id": "x8txbbw",
+  "views_total": 5749,
+  "view_count": 5749,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "kot z bursztynu",
+    "gdańsk",
+    "trójmiasto",
+    "dziennik bałtycki"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "Czytaj więcej: https://dziennikbaltycki.pl/wielki-powrot-bursztynowy-kot-ponownie-zagoscil-w-gdansku/ar/c1-18355815",
+  "created_time": 1709684195,
+  "search_query": "kot głośno miauczy",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat returning to a location, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8txbbw",
+    "decision": "keep",
+    "reason": "The title suggests a cat returning to a location, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

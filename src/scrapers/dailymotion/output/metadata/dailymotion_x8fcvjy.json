@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x8fcvjy",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8fcvjy_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8fcvjy_audio.mp3",
+  "duration_sec": 51,
+  "duration_seconds": 51.0,
+  "title": "A Little to the Left ist ein entspanntes Puzzlespiel über das Aufräumen",
+  "webpage_url": "https://www.dailymotion.com/video/x8fcvjy",
+  "dm_id": "x8fcvjy",
+  "views_total": 685,
+  "view_count": 685,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "GamePro",
+    "Trailer",
+    "Video"
+  ],
+  "channel": "videogames",
+  "channel_title": "videogames",
+  "language": "de",
+  "query_language": "German",
+  "description": "In A Little to the Left lösen wir kleine Rätsel und sorgen ganz nebenbei für Ordnung, indem wir Kisten und Schüsseln stapeln, Werkzeugkisten einräumen oder Bücher sortieren. Hin und wieder müssen wir uns auch mit unserer Katze rumschlagen, die gerne mal für Unordnung sorgt.",
+  "created_time": 1668015988,
+  "search_query": "glückliche Katze, die schnurrt",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Mentions a cat causing disorder while solving puzzles, relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8fcvjy",
+    "decision": "keep",
+    "reason": "Mentions a cat causing disorder while solving puzzles, relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

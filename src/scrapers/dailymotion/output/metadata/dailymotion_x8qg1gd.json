@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x8qg1gd",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8qg1gd_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8qg1gd_audio.mp3",
+  "duration_sec": 41,
+  "duration_seconds": 41.0,
+  "title": "Une refuge pour les chats entre Le Havre et Rouen",
+  "webpage_url": "https://www.dailymotion.com/video/x8qg1gd",
+  "dm_id": "x8qg1gd",
+  "views_total": 40631,
+  "view_count": 40631,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "#refuge",
+    "#lehavre",
+    "#Rouen",
+    "#chats"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Elodie, Yvanie et Nadine ont vendu leur maison pour se consacrer à travers leur association La Patte Normande à leur passion : les chats. Elle ont ainsi acheté un manoir à Bolleville entre Rouen et Le Havre où 45 chats vivent actuellement. <br />Elles ont également lancé une cagnotte pour y créer une chatterie.",
+  "created_time": 1702291035,
+  "search_query": "chats se reposant paisiblement",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a cat refuge and the care of cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8qg1gd",
+    "decision": "keep",
+    "reason": "The video discusses a cat refuge and the care of cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

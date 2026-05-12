@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x87gy3v",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x87gy3v_video.mp4",
+  "audio_path": "output/videos/dailymotion_x87gy3v_audio.mp3",
+  "duration_sec": 13,
+  "duration_seconds": 13.0,
+  "title": "Diese Katze will nichts von Gemüse wissen.",
+  "webpage_url": "https://www.dailymotion.com/video/x87gy3v",
+  "dm_id": "x87gy3v",
+  "views_total": 520,
+  "view_count": 520,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "uuid_02b6196a-3428-49e9-b323-14c5c64dbf9a",
+    "guid_1833",
+    "katze",
+    "tier"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "de",
+  "query_language": "German",
+  "description": "",
+  "created_time": 1643732854,
+  "search_query": "Katze, die Beute verfolgt",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's behavior towards vegetables, which is plausible.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x87gy3v",
+    "decision": "keep",
+    "reason": "The title suggests a cat's behavior towards vegetables, which is plausible.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

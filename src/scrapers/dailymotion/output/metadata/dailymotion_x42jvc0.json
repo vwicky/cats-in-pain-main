@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x42jvc0",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x42jvc0_video.mp4",
+  "audio_path": "output/videos/dailymotion_x42jvc0_audio.mp3",
+  "duration_sec": 48,
+  "duration_seconds": 48.0,
+  "title": "Miley Cyrus recibe arañazos duros de un gato",
+  "webpage_url": "https://www.dailymotion.com/video/x42jvc0",
+  "dm_id": "x42jvc0",
+  "views_total": 1108,
+  "view_count": 1108,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Instagram",
+    "garras",
+    "celebridad",
+    "Splash News",
+    "gato",
+    "Miley Cyrus",
+    "uñas",
+    "arañazo",
+    "cortadas",
+    "The Voice"
+  ],
+  "channel": "people",
+  "channel_title": "people",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Miley Cyrus intentó consentir el gato equivocado y terminó siendo la victima de unas garras duras.",
+  "created_time": 1459983281,
+  "search_query": "comportamiento de un gato herido",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a cat scratching a celebrity, indicating real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x42jvc0",
+    "decision": "keep",
+    "reason": "The video involves a cat scratching a celebrity, indicating real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x98lw0y",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x98lw0y_video.mp4",
+  "audio_path": "output/videos/dailymotion_x98lw0y_audio.mp3",
+  "duration_sec": 27,
+  "duration_seconds": 27.0,
+  "title": "Câmera flagra mulher chutando filhote de gato em Cascavel",
+  "webpage_url": "https://www.dailymotion.com/video/x98lw0y",
+  "dm_id": "x98lw0y",
+  "views_total": 4138,
+  "view_count": 4138,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Caso foi registrado em Cascavel, no oeste do Paraná; veja o vídeo",
+  "created_time": 1730765188,
+  "search_query": "sinais de desconforto em gatos",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a woman kicking a kitten, which suggests cat-related content.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x98lw0y",
+    "decision": "keep",
+    "reason": "The title indicates a woman kicking a kitten, which suggests cat-related content.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

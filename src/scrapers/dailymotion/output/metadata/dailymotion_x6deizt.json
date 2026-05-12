@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x6deizt",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6deizt_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6deizt_audio.mp3",
+  "duration_sec": 55,
+  "duration_seconds": 55.0,
+  "title": "Petite séance de pêche en famille... Petits chats affamés",
+  "webpage_url": "https://www.dailymotion.com/video/x6deizt",
+  "dm_id": "x6deizt",
+  "views_total": 1374,
+  "view_count": 1374,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Animal",
+    "Drole",
+    "Insolite",
+    "peche",
+    "lol",
+    "fun",
+    "poisson",
+    "peche chat",
+    "animal de compagnie"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Petite séance de pêche en famille... Petits chats affamés",
+  "created_time": 1516475456,
+  "search_query": "deux chats en confrontation",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description mentions hungry cats, indicating potential real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6deizt",
+    "decision": "keep",
+    "reason": "The description mentions hungry cats, indicating potential real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

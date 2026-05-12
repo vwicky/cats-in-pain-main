@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x95xz6i",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x95xz6i_video.mp4",
+  "audio_path": "output/videos/dailymotion_x95xz6i_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Überwachungskamera filmt Kätzchen: Frauchen kippt aus den Socken",
+  "webpage_url": "https://www.dailymotion.com/video/x95xz6i",
+  "dm_id": "x95xz6i",
+  "views_total": 115188,
+  "view_count": 115188,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Sollten sich manche Katzenhalter noch fragen, was ihre Tiere in ihrer Abwesenheit so treiben - hier kommt die Antwort. Wirklich amüsant!",
+  "created_time": 1726973100,
+  "search_query": "verspielte Kätzchen entspannen",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's behavior captured on a surveillance camera.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x95xz6i",
+    "decision": "keep",
+    "reason": "The title suggests a cat's behavior captured on a surveillance camera.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

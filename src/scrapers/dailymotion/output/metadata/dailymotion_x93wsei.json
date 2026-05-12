@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x93wsei",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x93wsei_video.mp4",
+  "audio_path": "output/videos/dailymotion_x93wsei_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Strażak ratuje kociaka. Jego reakcja po zakończonej akcji wzrusza do łez (video)",
+  "webpage_url": "https://www.dailymotion.com/video/x93wsei",
+  "dm_id": "x93wsei",
+  "views_total": 7618,
+  "view_count": 7618,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "Praca strażaków to trudna i pełna stresu praca. Jednak, gdy akcję ratunkową uda się zakończyć sukcesem, po prostu trudno ukryć emocje...",
+  "created_time": 1724238660,
+  "search_query": "kot po szczepieniu",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Content involves a cat rescue by a firefighter.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x93wsei",
+    "decision": "keep",
+    "reason": "Content involves a cat rescue by a firefighter.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

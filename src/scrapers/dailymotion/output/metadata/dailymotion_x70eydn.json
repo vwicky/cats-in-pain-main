@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x70eydn",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x70eydn_video.mp4",
+  "audio_path": "output/videos/dailymotion_x70eydn_audio.mp3",
+  "duration_sec": 23,
+  "duration_seconds": 23.0,
+  "title": "La chorégraphie de ces deux chats est hilarante",
+  "webpage_url": "https://www.dailymotion.com/video/x70eydn",
+  "dm_id": "x70eydn",
+  "views_total": 1182,
+  "view_count": 1182,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "choregraphie",
+    "chats",
+    "drole",
+    "viral",
+    "hilarant",
+    "ensemble",
+    "humour"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Ces deux chats réalisent une belle chorégraphie. Ils ont du s'entrainer pendant longtemps.",
+  "created_time": 1775275800,
+  "search_query": "récupération du chat après une opération",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features two cats performing a choreography, relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x70eydn",
+    "decision": "keep",
+    "reason": "The video features two cats performing a choreography, relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

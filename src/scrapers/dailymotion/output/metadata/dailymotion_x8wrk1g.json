@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x8wrk1g",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8wrk1g_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8wrk1g_audio.mp3",
+  "duration_sec": 15,
+  "duration_seconds": 15.0,
+  "title": "Arrojan a un contenedor de basura en Soria a cuatro gatitos vivos recién nacidos",
+  "webpage_url": "https://www.dailymotion.com/video/x8wrk1g",
+  "dm_id": "x8wrk1g",
+  "views_total": 1473,
+  "view_count": 1473,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Maltrato animal",
+    "Redención",
+    "Animales",
+    "Soria"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Un grupo de jóvenes ha encontrado a cuatro gatitos en el interior de una bolsa que había sido arrojada a un contenedor de basura en Soria. El suceso ha tenido lugar a primera hora de la tarde junto a los huertos urbanos y la bolsa se encontraba a su vez dentro de otra llena de restos de matojos y hierbas. La protectora Redención se ha hecho cargo de los dos que han logrado, de momento, sobrevivir.",
+  "created_time": 1713033029,
+  "search_query": "gatitos juguetones relajándose",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses the rescue of newborn kittens, which is relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8wrk1g",
+    "decision": "keep",
+    "reason": "The video discusses the rescue of newborn kittens, which is relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

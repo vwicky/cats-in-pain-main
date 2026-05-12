@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8syvm2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8syvm2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8syvm2_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Affe und Kätzchen zeigen uns Menschen, dass Liebe und Freundschaft keine Grenzen kennt (Video)",
+  "webpage_url": "https://www.dailymotion.com/video/x8syvm2",
+  "dm_id": "x8syvm2",
+  "views_total": 51257,
+  "view_count": 51257,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Es muss wahre Liebe sein, denn anders kann man sich diese Bilder nicht erklären.",
+  "created_time": 1708360087,
+  "search_query": "verspielte Kätzchen entspannen",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a kitten showing love and friendship, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8syvm2",
+    "decision": "keep",
+    "reason": "The title suggests a kitten showing love and friendship, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

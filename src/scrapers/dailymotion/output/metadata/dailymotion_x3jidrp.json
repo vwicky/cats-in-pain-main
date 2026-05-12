@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x3jidrp",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3jidrp_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3jidrp_audio.mp3",
+  "duration_sec": 43,
+  "duration_seconds": 43.0,
+  "title": "Кот вызывает дьявола",
+  "webpage_url": "https://www.dailymotion.com/video/x3jidrp",
+  "dm_id": "x3jidrp",
+  "views_total": 1059,
+  "view_count": 1059,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Кот вызывает дьявола"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Кот вызывает дьявола",
+  "created_time": 1451113857,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat is involved in a dramatic context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3jidrp",
+    "decision": "keep",
+    "reason": "The title suggests a cat is involved in a dramatic context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

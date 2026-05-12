@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x9lz6lc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9lz6lc_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9lz6lc_audio.mp3",
+  "duration_sec": 49,
+  "duration_seconds": 49.0,
+  "title": "Gato ve a sus humanos después de dos meses separados: su reacción hace reír a carcajadas a la gente",
+  "webpage_url": "https://www.dailymotion.com/video/x9lz6lc",
+  "dm_id": "x9lz6lc",
+  "views_total": 230745,
+  "view_count": 230745,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "News Gato"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "La pareja estaba deseando reunirse con su amigo felino después de 2 largos meses separados. ¡Pero parece que el felino no siente lo mismo!",
+  "created_time": 1751017134,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a cat's reaction to its humans after a long separation.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9lz6lc",
+    "decision": "keep",
+    "reason": "The description indicates a cat's reaction to its humans after a long separation.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x398i1c",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x398i1c_video.mp4",
+  "audio_path": "output/videos/dailymotion_x398i1c_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "Неправильный кот!",
+  "webpage_url": "https://www.dailymotion.com/video/x398i1c",
+  "dm_id": "x398i1c",
+  "views_total": 2916,
+  "view_count": 2916,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1444518577,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests it features a cat, despite lacking further details.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x398i1c",
+    "decision": "keep",
+    "reason": "The title suggests it features a cat, despite lacking further details.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

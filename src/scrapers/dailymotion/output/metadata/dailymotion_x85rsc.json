@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x85rsc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x85rsc_video.mp4",
+  "audio_path": "output/videos/dailymotion_x85rsc_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "Un chat sur un caisson de basse",
+  "webpage_url": "https://www.dailymotion.com/video/x85rsc",
+  "dm_id": "x85rsc",
+  "views_total": 2065,
+  "view_count": 2065,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "subwoofer",
+    "-caisson",
+    "basse",
+    "Boomer",
+    "-woofer"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1233003460,
+  "search_query": "chat sautant sur sa proie",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat is present, making it plausible for real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x85rsc",
+    "decision": "keep",
+    "reason": "The title suggests a cat is present, making it plausible for real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

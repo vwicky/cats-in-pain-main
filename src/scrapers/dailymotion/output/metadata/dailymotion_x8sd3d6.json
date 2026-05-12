@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8sd3d6",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8sd3d6_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8sd3d6_audio.mp3",
+  "duration_sec": 56,
+  "duration_seconds": 56.0,
+  "title": "Kocurek nie potrafi zadomowić się w nowym domu. Opiekunowie w końcu zdają sobie sprawę, czego mu brakuje",
+  "webpage_url": "https://www.dailymotion.com/video/x8sd3d6",
+  "dm_id": "x8sd3d6",
+  "views_total": 12556,
+  "view_count": 12556,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "Kiedy nowi właściciele Augusta zauważyli, że kocurkowi czegoś brakuje, od razu postanowili działać.",
+  "created_time": 1707404357,
+  "search_query": "zrelaksowane koty w domu",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a cat adjusting to a new home, which is relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8sd3d6",
+    "decision": "keep",
+    "reason": "The video discusses a cat adjusting to a new home, which is relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

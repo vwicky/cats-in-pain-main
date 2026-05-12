@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9i3tss",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9i3tss_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9i3tss_audio.mp3",
+  "duration_sec": 29,
+  "duration_seconds": 29.0,
+  "title": "« Il semblait paniquer » : un chat évite une catastrophe dans sa maison",
+  "webpage_url": "https://www.dailymotion.com/video/x9i3tss",
+  "dm_id": "x9i3tss",
+  "views_total": 4799,
+  "view_count": 4799,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Heureusement que ce chat était présent au sein de sa maison.",
+  "created_time": 1744972014,
+  "search_query": "posture défensive de chat",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat avoiding a disaster, indicating real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9i3tss",
+    "decision": "keep",
+    "reason": "The title suggests a cat avoiding a disaster, indicating real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

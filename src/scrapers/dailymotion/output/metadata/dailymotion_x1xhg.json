@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x1xhg",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x1xhg_video.mp4",
+  "audio_path": "output/videos/dailymotion_x1xhg_audio.mp3",
+  "duration_sec": 10,
+  "duration_seconds": 10.0,
+  "title": "Super-Michka",
+  "webpage_url": "https://www.dailymotion.com/video/x1xhg",
+  "dm_id": "x1xhg",
+  "views_total": 987,
+  "view_count": 987,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "délire",
+    "rire",
+    "papier",
+    "cadeau",
+    "cat",
+    "laugh"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Avec Aurélie quand on fait des paquets cadeaux, le chat s'installe sur les rouleaux alors, on a décidé de lui faire une cape de superhéros (des chats!)... Attention, vous aurez noté la sublime et terrifiante cascade avec la cape qui s'envole! mdr ((le rire c'est Aurélie))",
+  "created_time": 1143287719,
+  "search_query": "moments calmes avec des chats",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat in a playful context with a humorous twist.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x1xhg",
+    "decision": "keep",
+    "reason": "The video features a cat in a playful context with a humorous twist.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

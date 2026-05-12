@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x92h8yi",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x92h8yi_video.mp4",
+  "audio_path": "output/videos/dailymotion_x92h8yi_audio.mp3",
+  "duration_sec": 11,
+  "duration_seconds": 11.0,
+  "title": "Elle dépense près de 500 euros chez le vétérinaire : elle est choquée en découvrant le diagnostic",
+  "webpage_url": "https://www.dailymotion.com/video/x92h8yi",
+  "dm_id": "x92h8yi",
+  "views_total": 3902,
+  "view_count": 3902,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Après 500 dollars dépensés chez le vétérinaire, cette propriétaire s'y reprendra à deux fois avant de changer l'alimentation de son animal de compagnie.",
+  "created_time": 1721396717,
+  "search_query": "chat malade chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a significant vet bill and a diagnosis, indicating a medical context for a pet.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x92h8yi",
+    "decision": "keep",
+    "reason": "The video discusses a significant vet bill and a diagnosis, indicating a medical context for a pet.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

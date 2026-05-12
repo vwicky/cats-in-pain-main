@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3s8nvv",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3s8nvv_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3s8nvv_audio.mp3",
+  "duration_sec": 35,
+  "duration_seconds": 35.0,
+  "title": "Смешной кот. Funny Cat Videos",
+  "webpage_url": "https://www.dailymotion.com/video/x3s8nvv",
+  "dm_id": "x3s8nvv",
+  "views_total": 1071,
+  "view_count": 1071,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "cats",
+    "fun",
+    "prikoli",
+    "video",
+    "clip",
+    "best",
+    "rolik",
+    "смешно",
+    "comedy"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1455545681,
+  "search_query": "кот громко мяукает",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a funny cat video, likely showcasing typical cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3s8nvv",
+    "decision": "keep",
+    "reason": "The title indicates a funny cat video, likely showcasing typical cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

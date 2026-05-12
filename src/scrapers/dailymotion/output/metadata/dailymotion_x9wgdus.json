@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9wgdus",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9wgdus_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9wgdus_audio.mp3",
+  "duration_sec": 53,
+  "duration_seconds": 53.0,
+  "title": "L’une des espèces les plus rares du monde : un chat à tête plate aperçu pour la première fois depuis trois décennies",
+  "webpage_url": "https://www.dailymotion.com/video/x9wgdus",
+  "dm_id": "x9wgdus",
+  "views_total": 99609,
+  "view_count": 99609,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Nocturne et discret, le chat à tête plate vit généralement dans les écosystèmes humides comme les tourbières et les mangroves, des milieux extrêmement difficiles d’accès pour les chercheurs.",
+  "created_time": 1766750871,
+  "search_query": "récupération du chat après une opération",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a rare cat species, relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9wgdus",
+    "decision": "keep",
+    "reason": "The video discusses a rare cat species, relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

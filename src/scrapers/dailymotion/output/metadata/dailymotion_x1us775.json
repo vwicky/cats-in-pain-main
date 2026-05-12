@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x1us775",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x1us775_video.mp4",
+  "audio_path": "output/videos/dailymotion_x1us775_audio.mp3",
+  "duration_sec": 56,
+  "duration_seconds": 56.0,
+  "title": "Gato herói salva menino de ataque de cão",
+  "webpage_url": "https://www.dailymotion.com/video/x1us775",
+  "dm_id": "x1us775",
+  "views_total": 1068,
+  "view_count": 1068,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "",
+  "created_time": 1400145446,
+  "search_query": "sons de alerta de gato",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat saving a boy from a dog attack, indicating active cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x1us775",
+    "decision": "keep",
+    "reason": "The video features a cat saving a boy from a dog attack, indicating active cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x87aotx",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x87aotx_video.mp4",
+  "audio_path": "output/videos/dailymotion_x87aotx_audio.mp3",
+  "duration_sec": 18,
+  "duration_seconds": 18.0,
+  "title": "FEMME ACTUELLE - Qui a dit que les chats n'aimaient pas leur maître ?",
+  "webpage_url": "https://www.dailymotion.com/video/x87aotx",
+  "dm_id": "x87aotx",
+  "views_total": 13077,
+  "view_count": 13077,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "guid_6290483345001",
+    "uuid_2a9c674f-3c4c-4cee-9292-45c913d69127",
+    "channel_le-mag",
+    "chat",
+    "instantané",
+    "massage",
+    "fac"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1643020832,
+  "search_query": "chats qui appellent leurs partenaires",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a focus on the relationship between cats and their owners.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x87aotx",
+    "decision": "keep",
+    "reason": "The title suggests a focus on the relationship between cats and their owners.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

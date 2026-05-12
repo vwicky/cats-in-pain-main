@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x8ijdme",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8ijdme_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8ijdme_audio.mp3",
+  "duration_sec": 55,
+  "duration_seconds": 55.0,
+  "title": "Vídeo hilário: gato avarento não deixa ninguém chegar perto do ‘seu’ dinheiro",
+  "webpage_url": "https://www.dailymotion.com/video/x8ijdme",
+  "dm_id": "x8ijdme",
+  "views_total": 1040,
+  "view_count": 1040,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "Vídeo hilário"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "O vídeo de um gatinho avarento que não deixa ninguém chegar perto de seu dinheiro está ganhando milhares de corações online!<br /><br />https://petepop.ig.com.br/video-hilario-gato-avarento-nao-deixa-ninguem-chegar-perto-do-seu-dinheiro/<br /><br />O clipe, publicado no Twitter, mostra um felino deitado com dezenas de euros no sofá de casa. Quando seu dono tenta pegar um pouco do dinheiro, o gatinho parte para cima dele e bate nele com a pata.<br /><br />Vídeo: Reprodução Twitter<br />",
+  "created_time": 1677094259,
+  "search_query": "vídeos curtos de gatos caçando",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat being possessive.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8ijdme",
+    "decision": "keep",
+    "reason": "The video features a cat being possessive.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

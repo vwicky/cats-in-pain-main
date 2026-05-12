@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x90pkq8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x90pkq8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x90pkq8_audio.mp3",
+  "duration_sec": 39,
+  "duration_seconds": 39.0,
+  "title": "Woman composes herself after tripping at her front door",
+  "webpage_url": "https://www.dailymotion.com/video/x90pkq8",
+  "dm_id": "x90pkq8",
+  "views_total": 2120,
+  "view_count": 2120,
+  "likes_total": 23,
+  "like_count": 23,
+  "tags": [
+    "Liverpool",
+    "United Kingdom",
+    "CCTV Fails",
+    "Epic Fails",
+    "Funny Fails",
+    "Embarrassing Moment",
+    "Cat Climbing",
+    "Dogs Concern",
+    "Composed Recovery",
+    "Front Door Mishap"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "As she stepped out of her front door, a misstep caused her to stumble and fall. The world seemed to momentarily freeze as she hit the ground.<br /><br />In an instant, her cat sprang into action, scaling the nearby wall in a desperate attempt to assess the situation and check if anyone had witnessed her clumsy moment.<br /><br />Meanwhile, her dog rushed over to her side, concern etched across his furry face.<br /><br />With a display of resilience, she managed to gather herself, keeping her composure intact despite the embarrassment. Slowly but steadily, she made her way back to the safety of her home.<br />Location: Liverpool, United Kingdom                                    <br />WooGlobe Ref : WGA233997<br />For licensing and to use this video, please email licensing@wooglobe.com",
+  "created_time": 1718978498,
+  "search_query": "post-surgery cat recovery",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The cat's reaction to the woman's fall indicates real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x90pkq8",
+    "decision": "keep",
+    "reason": "The cat's reaction to the woman's fall indicates real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

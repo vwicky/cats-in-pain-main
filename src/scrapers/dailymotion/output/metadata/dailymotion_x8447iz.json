@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x8447iz",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8447iz_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8447iz_audio.mp3",
+  "duration_sec": 36,
+  "duration_seconds": 36.0,
+  "title": "Aficionados salvan la vida a un gato en el Hard Rock Stadium",
+  "webpage_url": "https://www.dailymotion.com/video/x8447iz",
+  "dm_id": "x8447iz",
+  "views_total": 1400,
+  "view_count": 1400,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Aficionados salvan la vida a un gato en el Hard Rock Stadium",
+    "Hard Rock Stadium fue testigo de una hazaña",
+    "Hard Rock Stadium",
+    "deportes",
+    "récord",
+    "diario récord",
+    "Aficionados salvan la vida a un gato"
+  ],
+  "channel": "sport",
+  "channel_title": "sport",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "El Hard Rock Stadium fue testigo de una hazaña heroica por parte de los aficionados que estaban presentes al salvar a un pequeño gato de una caída de gran altura que parecía tener destino fatídico.<br /><br />Suscríbete a nuestro canal en: https://www.youtube.com/user/RECORDcomMX <br />Para más noticias de tus deportes favoritos entra a: https://www.record.com.mx/ <br /><br />Síguenos en nuestras redes sociales: Facebook:https://www.facebook.com/record.com.mx/ <br />Instagram: https://www.instagram.com/record_mexico/ <br />Tik Tok: https://vm.tiktok.com/q2Jq4Y/ <br />Twitter: https://twitter.com/record_mexico",
+  "created_time": 1631475526,
+  "search_query": "signos de malestar en gatos",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a heroic act to save a cat, indicating a real cat context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8447iz",
+    "decision": "keep",
+    "reason": "The video involves a heroic act to save a cat, indicating a real cat context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

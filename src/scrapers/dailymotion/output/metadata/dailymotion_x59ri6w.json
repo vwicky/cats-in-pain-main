@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x59ri6w",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x59ri6w_video.mp4",
+  "audio_path": "output/videos/dailymotion_x59ri6w_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Ce que fait ce motard est tellement beau... Regardez!",
+  "webpage_url": "https://www.dailymotion.com/video/x59ri6w",
+  "dm_id": "x59ri6w",
+  "views_total": 1005,
+  "view_count": 1005,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "Motard",
+    "Animal",
+    "Blessé",
+    "Blessure",
+    "Beau Geste",
+    "héro",
+    "sauver",
+    "chat",
+    "biker"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Ce motard tombe sur un chat blessé et l’emmène chez le veto dans sa veste... Moment magique",
+  "created_time": 1485457742,
+  "search_query": "chat malade chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a motorcyclist rescuing an injured cat, indicating a real cat context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x59ri6w",
+    "decision": "keep",
+    "reason": "The video shows a motorcyclist rescuing an injured cat, indicating a real cat context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

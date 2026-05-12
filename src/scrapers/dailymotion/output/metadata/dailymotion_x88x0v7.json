@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x88x0v7",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x88x0v7_video.mp4",
+  "audio_path": "output/videos/dailymotion_x88x0v7_audio.mp3",
+  "duration_sec": 21,
+  "duration_seconds": 21.0,
+  "title": "Facebook : Un Marseillais torture un chat et déclenche la colère des internautes",
+  "webpage_url": "https://www.dailymotion.com/video/x88x0v7",
+  "dm_id": "x88x0v7",
+  "views_total": 3853,
+  "view_count": 3853,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "uuid_b69953e7-d77f-447a-a957-4fab6d18633f",
+    "guid_58732",
+    "facebook",
+    "chat",
+    "insolite"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1646963929,
+  "search_query": "cris d'accouplement des chats",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title mentions a cat being tortured, indicating potential real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x88x0v7",
+    "decision": "keep",
+    "reason": "The title mentions a cat being tortured, indicating potential real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

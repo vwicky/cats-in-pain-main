@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x9ggiie",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9ggiie_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9ggiie_audio.mp3",
+  "duration_sec": 32,
+  "duration_seconds": 32.0,
+  "title": "Una joven cordobesa se lanza al Guadalquivir para salvar a un gato",
+  "webpage_url": "https://www.dailymotion.com/video/x9ggiie",
+  "dm_id": "x9ggiie",
+  "views_total": 27592,
+  "view_count": 27592,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Vozpópuli",
+    "Actualidad",
+    "Lluvias",
+    "Córdoba",
+    "gato",
+    "rescate",
+    "Guadalquivir"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Portuguese",
+  "description": "Una joven cordobesa se lanza al Guadalquivir para salvar a un gato",
+  "created_time": 1742472139,
+  "search_query": "gatos chamando para acasalar",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a rescue of a cat, which is relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9ggiie",
+    "decision": "keep",
+    "reason": "The title indicates a rescue of a cat, which is relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

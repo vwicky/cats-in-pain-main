@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x7le2gh",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7le2gh_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7le2gh_audio.mp3",
+  "duration_sec": 31,
+  "duration_seconds": 31.0,
+  "title": "Los patitos agreden 'sexualmente' al pobre gato",
+  "webpage_url": "https://www.dailymotion.com/video/x7le2gh",
+  "dm_id": "x7le2gh",
+  "views_total": 6356,
+  "view_count": 6356,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "pato",
+    "gatito",
+    "patito",
+    "bandada",
+    "gato",
+    "animal",
+    "viral"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "El último año se publicaron en Youtube más de dos millones de vídeos de gatitos que alcanzaron cerca de 26.000 millones de visitas, un promedio de 12.000 visitas por cada vídeo.<br /><br />Los gatos están en el epicentro del mundo virtual que hemos creado en Internet. Y por primera vez una investigación académica, hecha por Jessica Gall Myrick, profesora de The Media School en la Universidad de Indiana, pregunta por qué e intenta descubrir los beneficios emocionales que puede sacar el personal pasando horas observando vídeos de gatitos.<br /><br />En el estudio, titulado Emotion regulation, procrastination and watching cats videos online: Who watches Internet cats, why and to what effect?, el 36,2% de los participantes se define como amante incondicional de los gatos.<br /><br />6.345 de ellos habían tenido un gato en algún momento de su vida. El usuario promedio tenía en el momento de la encuesta al menos dos gatos.<br /><br />Facebook era el sitio más popular para ver los vídeos (90,6%), seguido por Youtube (87,0%) y Buzzfeed (61,2%).",
+  "created_time": 1568876442,
+  "search_query": "gatos luchando por territorio",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates aggressive behavior towards a cat.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7le2gh",
+    "decision": "keep",
+    "reason": "The title indicates aggressive behavior towards a cat.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

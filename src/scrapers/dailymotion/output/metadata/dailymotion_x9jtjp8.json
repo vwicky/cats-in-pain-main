@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x9jtjp8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9jtjp8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9jtjp8_audio.mp3",
+  "duration_sec": 34,
+  "duration_seconds": 34.0,
+  "title": "Kätzchen sollte Drogen in Gefängnis schmuggeln",
+  "webpage_url": "https://www.dailymotion.com/video/x9jtjp8",
+  "dm_id": "x9jtjp8",
+  "views_total": 1311,
+  "view_count": 1311,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "News",
+    "nachrichten",
+    "costa rica",
+    "katze drogen",
+    "katze drogenkurier",
+    "katze drogen costa rica",
+    "katze drogenkurier costa rica"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "de",
+  "query_language": "German",
+  "description": "In Costa Rica haben Polizisten einen ungewöhnlichen Drogenkurier geschnappt. Ein kleines Kätzchen wurde im Ort Pococí nahe eines Gefängnisses gefunden. Umgeschnallt hatte das Tier zwei Plastikbeutel, gefüllt mit Mariuhana und Kokain. Wer hinter dem Drogenschmuggel steckt ist nicht klar, aber zumindest der flasuchige Kurier soll wohlauf sein.<br /><br />Quelle: Ministerio de Justicia y Paz via Facebook<br /><br />Mehr zum Thema und die neuesten Updates auf https://www.derstandard.at.",
+  "created_time": 1747729945,
+  "search_query": "Katze Warnsounds",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description involve a cat in a unique situation, indicating real cat content.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9jtjp8",
+    "decision": "keep",
+    "reason": "The title and description involve a cat in a unique situation, indicating real cat content.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

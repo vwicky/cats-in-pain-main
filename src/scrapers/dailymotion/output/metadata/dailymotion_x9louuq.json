@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x9louuq",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9louuq_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9louuq_audio.mp3",
+  "duration_sec": 26,
+  "duration_seconds": 26.0,
+  "title": "Video zeigt Katze beim geheimen Nickerchen – Tausende Internetnutzer amüsiert",
+  "webpage_url": "https://www.dailymotion.com/video/x9louuq",
+  "dm_id": "x9louuq",
+  "views_total": 9534,
+  "view_count": 9534,
+  "likes_total": 3,
+  "like_count": 3,
+  "tags": [
+    "PP",
+    "Katze",
+    "Nickerchen"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Ein urkomisches Video, das eine Katze beim Schlafen an einem geheimen Ort zeigt, bringt derzeit Tausende zum Lachen!<br /><br />Der Clip, auf Twitter veröffentlicht, zeigt, wie der Besitzer eine Schublade öffnet und seine Katze in tiefem Schlaf mit ausgestreckten Pfötchen vorfindet.<br /><br />Seit der Veröffentlichung am vergangenen Montag (17.) hat das Video über 520.000 Aufrufe erhalten, mehr als 78.000 Likes und Hunderte Kommentare von amüsierten Nutzern.<br /><br />„Lass das Baby schlafen“, schrieb ein Twitter-Nutzer. „Katzen sind einfach zu niedlich“, meinte ein anderer. „Genau das würde meine Katze auch machen“, gab ein Dritter zu. „Meine Katze ist genauso“, schrieb ein weiterer.<br /><br />Quelle und Bilder: X @AuraWithCat<br /><br /><br /><br /><br /><br /><br /><br /><br />",
+  "created_time": 1750515931,
+  "search_query": "Katze beim Tierarzt",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "keyword:'cat'"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a cat sleeping, which is plausible behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9louuq",
+    "decision": "keep",
+    "reason": "The description indicates a cat sleeping, which is plausible behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

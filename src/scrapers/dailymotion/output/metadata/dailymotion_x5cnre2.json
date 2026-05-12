@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x5cnre2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5cnre2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5cnre2_audio.mp3",
+  "duration_sec": 32,
+  "duration_seconds": 32.0,
+  "title": "Un chat kidnappe les balles d'un chien !",
+  "webpage_url": "https://www.dailymotion.com/video/x5cnre2",
+  "dm_id": "x5cnre2",
+  "views_total": 735,
+  "view_count": 735,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un chat a fait une mauvaise blague à son copain le chien ! En effet, il lui a piqué toutes ses balles de tennis et s'est caché sous un meuble ! Le chien n'ose même pas aller les récupérer lorsqu'il a vu la tête que faisait son compagnon !",
+  "created_time": 1487685930,
+  "search_query": "chats se reposant paisiblement",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat playfully stealing tennis balls from a dog.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5cnre2",
+    "decision": "keep",
+    "reason": "The video shows a cat playfully stealing tennis balls from a dog.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

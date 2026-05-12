@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9jjs9o",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9jjs9o_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9jjs9o_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Encuentran un gato callejero, parecía demasiado salvaje y acaban conquistando su corazón: \"Gracias por salvarle\"",
+  "webpage_url": "https://www.dailymotion.com/video/x9jjs9o",
+  "dm_id": "x9jjs9o",
+  "views_total": 5306,
+  "view_count": 5306,
+  "likes_total": 5,
+  "like_count": 5,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1747295883,
+  "search_query": "gatos luchando por territorio",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves rescuing a stray cat, suggesting a context of care and potential pain.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9jjs9o",
+    "decision": "keep",
+    "reason": "The video involves rescuing a stray cat, suggesting a context of care and potential pain.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x78twm7",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x78twm7_video.mp4",
+  "audio_path": "output/videos/dailymotion_x78twm7_audio.mp3",
+  "duration_sec": 5,
+  "duration_seconds": 5.0,
+  "title": "Ce chat est un vrai coquin. Regardez ce qu'il fait !",
+  "webpage_url": "https://www.dailymotion.com/video/x78twm7",
+  "dm_id": "x78twm7",
+  "views_total": 14069,
+  "view_count": 14069,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1558353407,
+  "search_query": "chat heureux qui ronronne",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests playful behavior of a cat.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x78twm7",
+    "decision": "keep",
+    "reason": "The title suggests playful behavior of a cat.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

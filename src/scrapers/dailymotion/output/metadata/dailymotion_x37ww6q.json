@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x37ww6q",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x37ww6q_video.mp4",
+  "audio_path": "output/videos/dailymotion_x37ww6q_audio.mp3",
+  "duration_sec": 51,
+  "duration_seconds": 51.0,
+  "title": "Чумовой кот!",
+  "webpage_url": "https://www.dailymotion.com/video/x37ww6q",
+  "dm_id": "x37ww6q",
+  "views_total": 10011,
+  "view_count": 10011,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1443388586,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat, which is plausible for real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x37ww6q",
+    "decision": "keep",
+    "reason": "The title suggests a cat, which is plausible for real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9bo1ki",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9bo1ki_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9bo1ki_audio.mp3",
+  "duration_sec": 17,
+  "duration_seconds": 17.0,
+  "title": "La inesperada reacción de dos gatos hermanos al verse por primera vez en dos años",
+  "webpage_url": "https://www.dailymotion.com/video/x9bo1ki",
+  "dm_id": "x9bo1ki",
+  "views_total": 5226,
+  "view_count": 5226,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1735805722,
+  "search_query": "signos de malestar en gatos",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows the reaction of two cats reuniting after a long time.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9bo1ki",
+    "decision": "keep",
+    "reason": "The video shows the reaction of two cats reuniting after a long time.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x7wmgxj",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7wmgxj_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7wmgxj_audio.mp3",
+  "duration_sec": 44,
+  "duration_seconds": 44.0,
+  "title": "La reacción de la gata seguidora de Donald Trump que se ha convertido en viral",
+  "webpage_url": "https://www.dailymotion.com/video/x7wmgxj",
+  "dm_id": "x7wmgxj",
+  "views_total": 1434,
+  "view_count": 1434,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Gatos",
+    "Trump",
+    "TikTok"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1601805111,
+  "search_query": "postura defensiva de gato",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat reacting to a political figure, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7wmgxj",
+    "decision": "keep",
+    "reason": "The title suggests a cat reacting to a political figure, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

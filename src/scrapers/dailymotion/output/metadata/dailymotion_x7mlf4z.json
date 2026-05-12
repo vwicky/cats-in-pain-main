@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x7mlf4z",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7mlf4z_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7mlf4z_audio.mp3",
+  "duration_sec": 35,
+  "duration_seconds": 35.0,
+  "title": "'Super Ratón': el roedor ataca y persigue con saña al desventurado gato que pretendía darle caza",
+  "webpage_url": "https://www.dailymotion.com/video/x7mlf4z",
+  "dm_id": "x7mlf4z",
+  "views_total": 2443,
+  "view_count": 2443,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "rata",
+    "gato",
+    "roedor",
+    "felino",
+    "conducta",
+    "pelea",
+    "persecucion"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Los animales no dejan de sorprendernos con con sus curiosas y en ocasiones imprevistas y atípicas conductas.<br /><br />Se acaba de descubrir algo insólito: los gatos domésticos se acobardan ante las ratas.<br /><br />Y un vídeo grabado días atrás en Luxemburgo parece demostrarlo.<br /><br />En la grabación se ve como un gato doméstico divisa uno de esos roedores y se lanza a por él.<br /><br />No obstante, la rata, lejos de huir, se enfrenta al felino e intenta morderle.<br /><br />Tanto es así que el gato sale huyendo y la rata le persigue con saña durante un buen rato.",
+  "created_time": 1570924849,
+  "search_query": "videos de gatos maullando fuerte",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat being chased by a rat, indicating potential agonistic behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7mlf4z",
+    "decision": "keep",
+    "reason": "The video features a cat being chased by a rat, indicating potential agonistic behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

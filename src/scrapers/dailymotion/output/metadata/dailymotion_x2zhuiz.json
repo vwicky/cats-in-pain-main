@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x2zhuiz",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2zhuiz_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2zhuiz_audio.mp3",
+  "duration_sec": 20,
+  "duration_seconds": 20.0,
+  "title": "Playtime in Cat Tunnel(ipad)",
+  "webpage_url": "https://www.dailymotion.com/video/x2zhuiz",
+  "dm_id": "x2zhuiz",
+  "views_total": 18231,
+  "view_count": 18231,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "kittens"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "I hope you enjoyed my kittens on display!",
+  "created_time": 1438046147,
+  "search_query": "cat at vet clinic",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description mentions kittens, indicating real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2zhuiz",
+    "decision": "keep",
+    "reason": "The description mentions kittens, indicating real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x38hpdd",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x38hpdd_video.mp4",
+  "audio_path": "output/videos/dailymotion_x38hpdd_audio.mp3",
+  "duration_sec": 44,
+  "duration_seconds": 44.0,
+  "title": "Кот, профессиональный форточник.)",
+  "webpage_url": "https://www.dailymotion.com/video/x38hpdd",
+  "dm_id": "x38hpdd",
+  "views_total": 9443,
+  "view_count": 9443,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1443882266,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat engaging in a playful or curious activity.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x38hpdd",
+    "decision": "keep",
+    "reason": "The title suggests a cat engaging in a playful or curious activity.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

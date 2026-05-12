@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3s21hl",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3s21hl_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3s21hl_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "ПРИКОЛ - Кот трещит как инопланетянин",
+  "webpage_url": "https://www.dailymotion.com/video/x3s21hl",
+  "dm_id": "x3s21hl",
+  "views_total": 1896,
+  "view_count": 1896,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cats",
+    "funny",
+    "prikoli",
+    "video",
+    "clip",
+    "best",
+    "rolik",
+    "смешно",
+    "comedy"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1455452601,
+  "search_query": "кот громко мяукает",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat making unusual sounds, indicating vocalization.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3s21hl",
+    "decision": "keep",
+    "reason": "The title suggests a cat making unusual sounds, indicating vocalization.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

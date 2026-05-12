@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8wzkiy",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8wzkiy_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8wzkiy_audio.mp3",
+  "duration_sec": 25,
+  "duration_seconds": 25.0,
+  "title": "Sorprendente rescate de un gato amarrado a un coche durante las inundaciones en Dubai",
+  "webpage_url": "https://www.dailymotion.com/video/x8wzkiy",
+  "dm_id": "x8wzkiy",
+  "views_total": 39837,
+  "view_count": 39837,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Inesperado rescate al que han tenido que hacer frente la Policía de Dubai. Se encontraron a un pequeño gato, aferrado a la puerta de un coche. Se negaba a caer al agua tras las impactantes inundaciones que sufren estos últimos días en Emiratos Árabes. Por suerte fue rescatado con éxito por los agentes.",
+  "created_time": 1713429628,
+  "search_query": "signos de malestar en gatos",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video describes a cat rescue during floods, indicating a real cat in a distressing situation.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8wzkiy",
+    "decision": "keep",
+    "reason": "The video describes a cat rescue during floods, indicating a real cat in a distressing situation.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

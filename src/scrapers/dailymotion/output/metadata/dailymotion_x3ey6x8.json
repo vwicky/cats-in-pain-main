@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3ey6x8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3ey6x8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3ey6x8_audio.mp3",
+  "duration_sec": 12,
+  "duration_seconds": 12.0,
+  "title": "Кот укачивает малыша",
+  "webpage_url": "https://www.dailymotion.com/video/x3ey6x8",
+  "dm_id": "x3ey6x8",
+  "views_total": 23913,
+  "view_count": 23913,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Очень заботливый котик укачивает своего маленького хозяина.",
+  "created_time": 1448135027,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a cat caring for a child, suggesting nurturing behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3ey6x8",
+    "decision": "keep",
+    "reason": "The description indicates a cat caring for a child, suggesting nurturing behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x39a5iy",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x39a5iy_video.mp4",
+  "audio_path": "output/videos/dailymotion_x39a5iy_audio.mp3",
+  "duration_sec": 23,
+  "duration_seconds": 23.0,
+  "title": "Ниндзя кот атакует Ninja cat attack Ninja attaques de chat",
+  "webpage_url": "https://www.dailymotion.com/video/x39a5iy",
+  "dm_id": "x39a5iy",
+  "views_total": 3122,
+  "view_count": 3122,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1444594596,
+  "search_query": "кот, выслеживающий добычу",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat engaging in an attack, indicating agonistic behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x39a5iy",
+    "decision": "keep",
+    "reason": "The title suggests a cat engaging in an attack, indicating agonistic behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

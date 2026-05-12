@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x86mls7",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x86mls7_video.mp4",
+  "audio_path": "output/videos/dailymotion_x86mls7_audio.mp3",
+  "duration_sec": 11,
+  "duration_seconds": 11.0,
+  "title": "Pas de distanciation pour ces 3 petits chats",
+  "webpage_url": "https://www.dailymotion.com/video/x86mls7",
+  "dm_id": "x86mls7",
+  "views_total": 30391,
+  "view_count": 30391,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "guid_6263025929001",
+    "uuid_1ee67f64-85a2-473e-8cd4-032d5f94ca1e",
+    "channel_le-mag",
+    "fa instantané",
+    "fac",
+    "fa"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1640708062,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests the presence of three cats, making it plausible cat behavior footage.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x86mls7",
+    "decision": "keep",
+    "reason": "The title suggests the presence of three cats, making it plausible cat behavior footage.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

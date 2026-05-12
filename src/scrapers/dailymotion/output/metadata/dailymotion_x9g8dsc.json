@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x9g8dsc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9g8dsc_video.mp4.part-Frag19.part",
+  "audio_path": "output/videos/dailymotion_x9g8dsc_audio.mp3",
+  "duration_sec": 57,
+  "duration_seconds": 57.0,
+  "title": "Kätzchen aus Garten gerettet: Das Dankeschön-Schnurren ist einfach zum Dahinschmelzen",
+  "webpage_url": "https://www.dailymotion.com/video/x9g8dsc",
+  "dm_id": "x9g8dsc",
+  "views_total": 15199,
+  "view_count": 15199,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "News Katze"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Ein kleines Fellknäuel sucht Zuflucht in einem Garten. Kurze Zeit später soll sich sein Schicksal wenden.",
+  "created_time": 1742455500,
+  "search_query": "kurze Katzenvideos",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Video features a kitten being rescued, likely showing real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9g8dsc",
+    "decision": "keep",
+    "reason": "Video features a kitten being rescued, likely showing real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

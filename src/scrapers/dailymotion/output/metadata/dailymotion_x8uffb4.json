@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8uffb4",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8uffb4_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8uffb4_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "Kot wysiaduje jajka, ale dopiero to, co dzieje się później jest naprawdę niezwykłe (video)",
+  "webpage_url": "https://www.dailymotion.com/video/x8uffb4",
+  "dm_id": "x8uffb4",
+  "views_total": 61561,
+  "view_count": 61561,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "Takie historie rozgrzewają najzimniejsze serca. To, co zrobiła ta kotka, wywołuje uśmiech zdumienia.",
+  "created_time": 1711170009,
+  "search_query": "kot głośno miauczy",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat sitting on eggs, which could indicate nurturing behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8uffb4",
+    "decision": "keep",
+    "reason": "The title suggests a cat sitting on eggs, which could indicate nurturing behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

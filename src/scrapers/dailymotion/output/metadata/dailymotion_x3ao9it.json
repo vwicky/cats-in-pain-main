@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3ao9it",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3ao9it_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3ao9it_audio.mp3",
+  "duration_sec": 44,
+  "duration_seconds": 44.0,
+  "title": "Классные, маленькие котята ))СУПЕРСКИЕ )))))",
+  "webpage_url": "https://www.dailymotion.com/video/x3ao9it",
+  "dm_id": "x3ao9it",
+  "views_total": 3469,
+  "view_count": 3469,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1445555163,
+  "search_query": "игривые котята отдыхают",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates the video is about cute kittens, which aligns with real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3ao9it",
+    "decision": "keep",
+    "reason": "The title indicates the video is about cute kittens, which aligns with real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

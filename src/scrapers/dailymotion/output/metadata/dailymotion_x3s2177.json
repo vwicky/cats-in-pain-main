@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3s2177",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3s2177_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3s2177_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "Кошки на Гран При. ФОРМУЛА 1. Вот это скорость!",
+  "webpage_url": "https://www.dailymotion.com/video/x3s2177",
+  "dm_id": "x3s2177",
+  "views_total": 3371,
+  "view_count": 3371,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cats",
+    "funny",
+    "prikoli",
+    "video",
+    "clip",
+    "best",
+    "rolik",
+    "смешно",
+    "comedy"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1455452600,
+  "search_query": "кошки, шипящие на птиц",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat-related context, likely involving real cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3s2177",
+    "decision": "keep",
+    "reason": "The title suggests a cat-related context, likely involving real cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x5640oo",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5640oo_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5640oo_audio.mp3",
+  "duration_sec": 14,
+  "duration_seconds": 14.0,
+  "title": "Gatto resta shockato scoprite perché! - Funny",
+  "webpage_url": "https://www.dailymotion.com/video/x5640oo",
+  "dm_id": "x5640oo",
+  "views_total": 6212,
+  "view_count": 6212,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cat",
+    "gatto",
+    "shock",
+    "shockato",
+    "salvadanaio",
+    "funny",
+    "divertente"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "Scoprite come mai questo gatto resta shockato... <br />Newslandia ©",
+  "created_time": 1482490703,
+  "search_query": "gatto che insegue la preda",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat is in a surprising situation.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5640oo",
+    "decision": "keep",
+    "reason": "The title suggests a cat is in a surprising situation.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

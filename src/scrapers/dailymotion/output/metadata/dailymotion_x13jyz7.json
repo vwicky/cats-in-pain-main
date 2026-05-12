@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x13jyz7",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x13jyz7_video.mp4",
+  "audio_path": "output/videos/dailymotion_x13jyz7_audio.mp3",
+  "duration_sec": 55,
+  "duration_seconds": 55.0,
+  "title": "Cat playing with ice cube!",
+  "webpage_url": "https://www.dailymotion.com/video/x13jyz7",
+  "dm_id": "x13jyz7",
+  "views_total": 589,
+  "view_count": 589,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Chat",
+    "Animal de compagnie",
+    "Kittie",
+    "Ice Cube",
+    "Awesome",
+    "cat",
+    "pet",
+    "cute",
+    "cutest cat ever",
+    "play with ice"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "This cute cat likes ice cube and water... He plays with it and seems to love it so so so much! <br />Cutest cat ever!",
+  "created_time": 1377331914,
+  "search_query": "happy cat playing",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description indicate a cat playing with an ice cube, which is plausible behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x13jyz7",
+    "decision": "keep",
+    "reason": "The title and description indicate a cat playing with an ice cube, which is plausible behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

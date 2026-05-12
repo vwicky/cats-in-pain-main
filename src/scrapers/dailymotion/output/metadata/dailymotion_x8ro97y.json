@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8ro97y",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8ro97y_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8ro97y_audio.mp3",
+  "duration_sec": 45,
+  "duration_seconds": 45.0,
+  "title": "Pour venir en aide à 158 chats par -27°C, un refuge tente le tout pour le tout (vidéo)",
+  "webpage_url": "https://www.dailymotion.com/video/x8ro97y",
+  "dm_id": "x8ro97y",
+  "views_total": 5075,
+  "view_count": 5075,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Le refuge God's Purrfect Creations (GPC) sauve les animaux des refuges qui sont sur une liste d'euthanasie.",
+  "created_time": 1705913488,
+  "search_query": "courtes vidéos de chats en chasse",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "keyword:'purr'"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a rescue context for cats, fitting the pain or vet category.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8ro97y",
+    "decision": "keep",
+    "reason": "The description indicates a rescue context for cats, fitting the pain or vet category.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

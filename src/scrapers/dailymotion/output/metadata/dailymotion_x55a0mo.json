@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x55a0mo",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x55a0mo_video.mp4",
+  "audio_path": "output/videos/dailymotion_x55a0mo_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "A Look Inside Caboodle Ranch for Cats",
+  "webpage_url": "https://www.dailymotion.com/video/x55a0mo",
+  "dm_id": "x55a0mo",
+  "views_total": 983,
+  "view_count": 983,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "lifestyle",
+  "channel_title": "lifestyle",
+  "language": "en",
+  "query_language": "English",
+  "description": "Craig Grant, founder of Caboodle Ranch for cats, gives us a tour of his lovely feline estate.",
+  "created_time": 1481750282,
+  "search_query": "cats calling for mates",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a tour of a cat sanctuary, which is relevant to real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x55a0mo",
+    "decision": "keep",
+    "reason": "The description indicates a tour of a cat sanctuary, which is relevant to real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

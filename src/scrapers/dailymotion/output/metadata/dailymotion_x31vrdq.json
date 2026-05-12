@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x31vrdq",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x31vrdq_video.mp4",
+  "audio_path": "output/videos/dailymotion_x31vrdq_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "Kitten makes hilarious sounds while eating",
+  "webpage_url": "https://www.dailymotion.com/video/x31vrdq",
+  "dm_id": "x31vrdq",
+  "views_total": 1242,
+  "view_count": 1242,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Kitten",
+    "Cat",
+    "Sweet cat",
+    "cute cat"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "en",
+  "description": "Follow us  <br /> <br />www.omigu.com <br />www.facebook.com/omigu <br />www.twitter.com/omigucom <br />www.instagram.com/omigucom <br />www.dailymotion.com/omigu",
+  "created_time": 1439724642,
+  "search_query": "kitten sounds",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a kitten making sounds, suggesting vocalization.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x31vrdq",
+    "decision": "keep",
+    "reason": "The title indicates a kitten making sounds, suggesting vocalization.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

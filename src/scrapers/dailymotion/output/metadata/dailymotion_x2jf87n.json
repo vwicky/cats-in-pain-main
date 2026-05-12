@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x2jf87n",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2jf87n_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2jf87n_audio.mp3",
+  "duration_sec": 48,
+  "duration_seconds": 48.0,
+  "title": "¿Qué pasa cuando un gato extraña a un perro?",
+  "webpage_url": "https://www.dailymotion.com/video/x2jf87n",
+  "dm_id": "x2jf87n",
+  "views_total": 1310,
+  "view_count": 1310,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "GAto",
+    "perro",
+    "enemigos",
+    "mejores amigos"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Se dice que los perros y los gatos son los enemigos mortales número uno, pero en este video queda demostrado que estos animalitos pueden llegar ser los mejores amigos del mundo. <br />Video cortesía: La Patilla",
+  "created_time": 1426258963,
+  "search_query": "comportamiento de un gato herido",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's behavior in relation to a dog, which is plausible.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2jf87n",
+    "decision": "keep",
+    "reason": "The title suggests a cat's behavior in relation to a dog, which is plausible.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

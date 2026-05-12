@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x95yg9a",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x95yg9a_video.mp4",
+  "audio_path": "output/videos/dailymotion_x95yg9a_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Saône-et-Loire : un chaton découvert dans un sac rempli d'eau dans un conteneur à ordures",
+  "webpage_url": "https://www.dailymotion.com/video/x95yg9a",
+  "dm_id": "x95yg9a",
+  "views_total": 1445,
+  "view_count": 1445,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un acte cruel qui a touché plusieurs chatons, et un seul d'entre eux a survécu.",
+  "created_time": 1726839305,
+  "search_query": "chats qui siffle entre eux",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description indicate a cat in a rescue context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x95yg9a",
+    "decision": "keep",
+    "reason": "The title and description indicate a cat in a rescue context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

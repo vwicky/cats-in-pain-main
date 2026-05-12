@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x34rf4",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x34rf4_video.mp4",
+  "audio_path": "output/videos/dailymotion_x34rf4_audio.mp3",
+  "duration_sec": 26,
+  "duration_seconds": 26.0,
+  "title": "Ces animaux qui nous dominent",
+  "webpage_url": "https://www.dailymotion.com/video/x34rf4",
+  "dm_id": "x34rf4",
+  "views_total": 1148,
+  "view_count": 1148,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chien",
+    "écoles",
+    "vétérinaires",
+    "chiens",
+    "animaux",
+    "domestiques",
+    "maître",
+    "école",
+    "vétérinaire",
+    "chat"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Pourquoi les animaux domestiques font-ils parfois la loi à la maison ? C'est la question à laquelle tente de répondre ce reportage. Les deux réalisatrices suivent ces animaux et leurs maîtres dans leur relation au quotidien. Un film troublant.  En voir plus sur : <a class=\"link\" rel=\"nofollow\" href=\"http://www.vodeo.tv/4-32-854-ces-animaux-qui-nous-dominent.html?PARTID=9084\">http://www.vodeo.tv/4-32-854-ces-animaux-qui-nous-dominent.html?PARTID=9084</a>",
+  "created_time": 1191525445,
+  "search_query": "chat chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses the relationship between pets and their owners, including cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x34rf4",
+    "decision": "keep",
+    "reason": "The video discusses the relationship between pets and their owners, including cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

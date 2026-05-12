@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3pf7p5",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3pf7p5_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3pf7p5_audio.mp3",
+  "duration_sec": 48,
+  "duration_seconds": 48.0,
+  "title": "У кота прилив нежности",
+  "webpage_url": "https://www.dailymotion.com/video/x3pf7p5",
+  "dm_id": "x3pf7p5",
+  "views_total": 12901,
+  "view_count": 12901,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cats",
+    "fun",
+    "prikoli",
+    "video",
+    "clip",
+    "best",
+    "rolik",
+    "смешно",
+    "comedy"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Ukrainian",
+  "description": "",
+  "created_time": 1454157443,
+  "search_query": "ознаки болю у кота у ветеринара",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title suggests affectionate behavior of a cat.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3pf7p5",
+    "decision": "keep",
+    "reason": "Title suggests affectionate behavior of a cat.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

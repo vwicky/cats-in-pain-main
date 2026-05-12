@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x9fvqn2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9fvqn2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9fvqn2_audio.mp3",
+  "duration_sec": 56,
+  "duration_seconds": 56.0,
+  "title": "A brave rabbit saves an injured Cat from a cruel person🐰 #RabbitRescue #CuteAnimals #AnimalRescue-9792",
+  "webpage_url": "https://www.dailymotion.com/video/x9fvqn2",
+  "dm_id": "x9fvqn2",
+  "views_total": 1308,
+  "view_count": 1308,
+  "likes_total": 2,
+  "like_count": 2,
+  "tags": [
+    "A brave rabbit saves an injured Cat from a cruel person🐰 #RabbitRescue #CuteAnimals #AnimalRescue-9792"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "A brave rabbit saves an injured Cat from a cruel person🐰 #RabbitRescue #CuteAnimals #AnimalRescue-9792<br /><br />Thank you all for following our channel!!🐰 <br /><br />🐰 We hope that our channel will be useful, create happiness and enjoyment for watching. Our channel was created to teach a moral of doing good by using rabbits as the main characters. We hope that everyone likes the style of our channel. Thank you. 🐰🐰<br /><br />#RabbitRescue #CuteAnimals  #BunnyAdventure #AnimalRescue #ai #animation #rabbit <br /><br />rabbit rescue, bunny rescue, animal rescue, cute rabbit, cute animals, bunny hero, rabbit adventure, saving animals, rabbit saves lives, animal friendship, wildlife rescue, adorable animals, bunny helping animals, rabbit and friends, pet rabbit, forest animals, animal stories, bunny videos, hero rabbit, cute bunny, rescue animals, bunny adventures, small animal rescue",
+  "created_time": 1741623736,
+  "search_query": "injured cat limping",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat being rescued, indicating a context of injury or distress.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9fvqn2",
+    "decision": "keep",
+    "reason": "The video features a cat being rescued, indicating a context of injury or distress.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

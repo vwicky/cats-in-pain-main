@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x7x6o07",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7x6o07_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7x6o07_audio.mp3",
+  "duration_sec": 53,
+  "duration_seconds": 53.0,
+  "title": "Ao desviar de gato na rodovia BR-163, idoso perde o controle da direção e capota carro",
+  "webpage_url": "https://www.dailymotion.com/video/x7x6o07",
+  "dm_id": "x7x6o07",
+  "views_total": 786,
+  "view_count": 786,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Cascavel"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Spanish",
+  "description": "Ao desviar de gato na rodovia BR-163, idoso perde o controle da direção e capota carro",
+  "created_time": 1604240185,
+  "search_query": "compilación de peleas de gatos",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Involves a cat causing a car accident, relevant to real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7x6o07",
+    "decision": "keep",
+    "reason": "Involves a cat causing a car accident, relevant to real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

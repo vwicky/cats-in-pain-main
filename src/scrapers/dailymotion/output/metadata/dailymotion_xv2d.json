@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_xv2d",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xv2d_video.mp4",
+  "audio_path": "output/videos/dailymotion_xv2d_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "le chat de maud",
+  "webpage_url": "https://www.dailymotion.com/video/xv2d",
+  "dm_id": "xv2d",
+  "views_total": 536,
+  "view_count": 536,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "maud",
+    "manteau"
+  ],
+  "channel": "lifestyle",
+  "channel_title": "lifestyle",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1139151846,
+  "search_query": "posture défensive de chat",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat-related video, which is plausible.",
+  "gpt_confidence": "low",
+  "gpt_filter": {
+    "video_id": "dailymotion_xv2d",
+    "decision": "keep",
+    "reason": "The title suggests a cat-related video, which is plausible.",
+    "confidence": "low",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

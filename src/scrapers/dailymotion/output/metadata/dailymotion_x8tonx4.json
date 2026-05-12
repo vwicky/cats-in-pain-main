@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x8tonx4",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8tonx4_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8tonx4_audio.mp3",
+  "duration_sec": 48,
+  "duration_seconds": 48.0,
+  "title": "Encuentran al gato de una inquilina en uno de los edificios incendiados hace ocho días en Valencia",
+  "webpage_url": "https://www.dailymotion.com/video/x8tonx4",
+  "dm_id": "x8tonx4",
+  "views_total": 181046,
+  "view_count": 181046,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Incendio Valencia",
+    "Gatos"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Efectivos de bomberos del Ayuntamiento de Valencia han encontrado este viernes a un gato dentro de uno de los pisos incendiados, ocho días después de que se declarara el fuego que calcinó dos edificios del barrio de Campanar.",
+  "created_time": 1709308317,
+  "search_query": "signos de malestar en gatos",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Involves a cat found after a fire, relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8tonx4",
+    "decision": "keep",
+    "reason": "Involves a cat found after a fire, relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

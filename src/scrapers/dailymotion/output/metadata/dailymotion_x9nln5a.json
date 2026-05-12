@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x9nln5a",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9nln5a_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9nln5a_audio.mp3",
+  "duration_sec": 12,
+  "duration_seconds": 12.0,
+  "title": "Cat looks stunned as mom tries a TikTok trend with dramatic singing",
+  "webpage_url": "https://www.dailymotion.com/video/x9nln5a",
+  "dm_id": "x9nln5a",
+  "views_total": 814,
+  "view_count": 814,
+  "likes_total": 41,
+  "like_count": 41,
+  "tags": [
+    "Athens",
+    "Greece",
+    "Funny",
+    "TikTok Trend",
+    "Cat Reaction",
+    "Funny Pets",
+    "Singing Challenge",
+    "Confused Cat",
+    "Hilarious Pets",
+    "Pet Humor"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "Some bonds are made of cuddles and tuna treats.<br /><br />Others are tested by Taylor Swift at full volume.<br /><br />Chrysa shared this dramatic moment where her cat faced the ultimate challenge of surviving a human trying a TikTok trend right in his face.<br /><br />Singing Taylor Swift's song 'Ready For It?' with full-body energy, Chrysa gave her pet a live concert he never signed up for.<br /><br />As her voice hit the chorus, the cat's soul quietly left the room.<br /><br />His confusion was real, and his fear was deeper.<br />WooGlobe Ref : WGA291661<br />For licensing and to use this video, please email licensing@wooglobe.com",
+  "created_time": 1753527660,
+  "search_query": "cat pain signs at vet",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description suggests a cat reacting to a human's singing, which is plausible behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9nln5a",
+    "decision": "keep",
+    "reason": "The description suggests a cat reacting to a human's singing, which is plausible behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

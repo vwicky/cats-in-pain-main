@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x2dfo2r",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2dfo2r_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2dfo2r_audio.mp3",
+  "duration_sec": 48,
+  "duration_seconds": 48.0,
+  "title": "O gato mais fdp do mundo",
+  "webpage_url": "https://www.dailymotion.com/video/x2dfo2r",
+  "dm_id": "x2dfo2r",
+  "views_total": 4599,
+  "view_count": 4599,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Corda",
+    "Outro",
+    "gato",
+    "acordar"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "",
+  "created_time": 1419620746,
+  "search_query": "postura defensiva do gato",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and tags indicate a focus on a cat.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2dfo2r",
+    "decision": "keep",
+    "reason": "The title and tags indicate a focus on a cat.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

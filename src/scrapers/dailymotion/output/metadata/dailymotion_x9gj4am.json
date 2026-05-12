@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9gj4am",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9gj4am_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9gj4am_audio.mp3",
+  "duration_sec": 49,
+  "duration_seconds": 49.0,
+  "title": "Ils découvrent un chat coincé sur un pont à 15 mètres de haut : une incroyable solidarité se met en place (vidéo)",
+  "webpage_url": "https://www.dailymotion.com/video/x9gj4am",
+  "dm_id": "x9gj4am",
+  "views_total": 5771,
+  "view_count": 5771,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Lorsqu'il a remarqué ce félin en détresse, un passant a fait tout son possible pour lui trouver de l'aide.",
+  "created_time": 1742566977,
+  "search_query": "courtes vidéos de chats qui se prélassent",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video describes a cat in distress and the efforts to help it, indicating a real cat context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9gj4am",
+    "decision": "keep",
+    "reason": "The video describes a cat in distress and the efforts to help it, indicating a real cat context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

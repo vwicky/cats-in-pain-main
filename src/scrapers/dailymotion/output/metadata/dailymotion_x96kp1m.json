@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x96kp1m",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x96kp1m_video.mp4",
+  "audio_path": "output/videos/dailymotion_x96kp1m_audio.mp3",
+  "duration_sec": 20,
+  "duration_seconds": 20.0,
+  "title": "Video. Quando si sveglia si sente osservata: i suoi gatti la fissano e si rende conto di un'inesorabile verità",
+  "webpage_url": "https://www.dailymotion.com/video/x96kp1m",
+  "dm_id": "x96kp1m",
+  "views_total": 2157,
+  "view_count": 2157,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "Se ha pensato che avendo dei gatti si poteva svegliare circondata da tenerezza e affetto, si è resa presto conto che non era quella la realtà.",
+  "created_time": 1727788340,
+  "search_query": "richiami di accoppiamento dei gatti",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video implies a humorous situation involving a person and their cats, suggesting real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x96kp1m",
+    "decision": "keep",
+    "reason": "The video implies a humorous situation involving a person and their cats, suggesting real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9rp302",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9rp302_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9rp302_audio.mp3",
+  "duration_sec": 32,
+  "duration_seconds": 32.0,
+  "title": "Ils sont affamés 🐈‍⬛",
+  "webpage_url": "https://www.dailymotion.com/video/x9rp302",
+  "dm_id": "x9rp302",
+  "views_total": 1522,
+  "view_count": 1522,
+  "likes_total": 7,
+  "like_count": 7,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "J’essaie de cuisiner et de manger mais j’ai toujours Rico et Jiji qui ramènent leur trufettes ! <br /><br />#chats #chat #cat #animaux",
+  "created_time": 1759697139,
+  "search_query": "chats qui appellent leurs partenaires",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows cats interacting while the owner tries to cook, indicating typical cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9rp302",
+    "decision": "keep",
+    "reason": "The video shows cats interacting while the owner tries to cook, indicating typical cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

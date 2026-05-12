@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3s23ym",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3s23ym_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3s23ym_audio.mp3",
+  "duration_sec": 59,
+  "duration_seconds": 59.0,
+  "title": "Глупый кот",
+  "webpage_url": "https://www.dailymotion.com/video/x3s23ym",
+  "dm_id": "x3s23ym",
+  "views_total": 5490,
+  "view_count": 5490,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "fun",
+    "ca",
+    "prikoli",
+    "video",
+    "clip",
+    "best",
+    "rolik",
+    "смешно",
+    "comedy"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1455454413,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat in a humorous context, likely showcasing typical cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3s23ym",
+    "decision": "keep",
+    "reason": "The title suggests a cat in a humorous context, likely showcasing typical cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

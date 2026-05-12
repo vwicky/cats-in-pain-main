@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x37dwcm",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x37dwcm_video.mp4",
+  "audio_path": "output/videos/dailymotion_x37dwcm_audio.mp3",
+  "duration_sec": 50,
+  "duration_seconds": 50.0,
+  "title": "Кота напугали до смерти, он увидел страшное!!!",
+  "webpage_url": "https://www.dailymotion.com/video/x37dwcm",
+  "dm_id": "x37dwcm",
+  "views_total": 65354,
+  "view_count": 65354,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1442792810,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat being scared, which is a plausible cat behavior context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x37dwcm",
+    "decision": "keep",
+    "reason": "The title suggests a cat being scared, which is a plausible cat behavior context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

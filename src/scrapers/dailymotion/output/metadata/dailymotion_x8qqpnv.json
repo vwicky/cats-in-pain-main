@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8qqpnv",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8qqpnv_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8qqpnv_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Deutscher Schäferhund jagt Kätzchen auf Baum und lernt seine Lektion sofort (Video)",
+  "webpage_url": "https://www.dailymotion.com/video/x8qqpnv",
+  "dm_id": "x8qqpnv",
+  "views_total": 100024,
+  "view_count": 100024,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Das war wohl nix: Schäferhündin „Baby“ sieht die Katze und rast der sofort hinterher. Als sie endlich kapiert, wie blöd ihre Idee war, ist der Mega-Schlamassel längt passiert.",
+  "created_time": 1703082346,
+  "search_query": "glückliche Katze, die schnurrt",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Involves a dog chasing a cat, relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8qqpnv",
+    "decision": "keep",
+    "reason": "Involves a dog chasing a cat, relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

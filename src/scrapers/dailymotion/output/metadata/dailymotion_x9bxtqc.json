@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9bxtqc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9bxtqc_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9bxtqc_audio.mp3",
+  "duration_sec": 45,
+  "duration_seconds": 45.0,
+  "title": "Revisa las cámaras de casa mientras está de viaje y descubre que su gato recibe una visita inesperada",
+  "webpage_url": "https://www.dailymotion.com/video/x9bxtqc",
+  "dm_id": "x9bxtqc",
+  "views_total": 2886,
+  "view_count": 2886,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1736247117,
+  "search_query": "gatos trinos y charlas",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video suggests a cat receiving an unexpected visit, implying potential cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9bxtqc",
+    "decision": "keep",
+    "reason": "The video suggests a cat receiving an unexpected visit, implying potential cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

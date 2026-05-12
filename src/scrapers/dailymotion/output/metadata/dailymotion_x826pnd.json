@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x826pnd",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x826pnd_video.mp4",
+  "audio_path": "output/videos/dailymotion_x826pnd_audio.mp3",
+  "duration_sec": 40,
+  "duration_seconds": 40.0,
+  "title": "Este hombre intenta rescatar a un gato, ¡pero no sale bien!",
+  "webpage_url": "https://www.dailymotion.com/video/x826pnd",
+  "dm_id": "x826pnd",
+  "views_total": 543,
+  "view_count": 543,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Ocio",
+    "Ocio  TV"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "Spanish",
+  "description": "Los gatos son animales muy independientes y en este vídeo se demuestra aún más que van por libre. ¡A este hombre el rescate le sale rana!",
+  "created_time": 1624470254,
+  "search_query": "gatos luchando por territorio",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a rescue attempt involving a cat.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x826pnd",
+    "decision": "keep",
+    "reason": "The description indicates a rescue attempt involving a cat.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

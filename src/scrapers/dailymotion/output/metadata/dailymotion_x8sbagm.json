@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8sbagm",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8sbagm_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8sbagm_audio.mp3",
+  "duration_sec": 40,
+  "duration_seconds": 40.0,
+  "title": "Cámara captura cómo reaccionan los seis gatos de una mujer cuando ella cae en un sueño profundo",
+  "webpage_url": "https://www.dailymotion.com/video/x8sbagm",
+  "dm_id": "x8sbagm",
+  "views_total": 21229,
+  "view_count": 21229,
+  "likes_total": 2,
+  "like_count": 2,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Una mujer durmió como nunca (literalmente) y sus gatos tomaron una actitud que sorprendió a miles de personas.",
+  "created_time": 1707324515,
+  "search_query": "signos de malestar en gatos",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video captures the behavior of cats reacting to their owner sleeping, which is relevant cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8sbagm",
+    "decision": "keep",
+    "reason": "The video captures the behavior of cats reacting to their owner sleeping, which is relevant cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

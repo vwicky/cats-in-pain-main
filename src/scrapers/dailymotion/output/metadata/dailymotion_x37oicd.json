@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x37oicd",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x37oicd_video.mp4",
+  "audio_path": "output/videos/dailymotion_x37oicd_audio.mp3",
+  "duration_sec": 36,
+  "duration_seconds": 36.0,
+  "title": "Un chat acrobate marche sur ses pattes avant sur plusieurs mètres...",
+  "webpage_url": "https://www.dailymotion.com/video/x37oicd",
+  "dm_id": "x37oicd",
+  "views_total": 521,
+  "view_count": 521,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "animal",
+    "chat acrobate",
+    "acrobate",
+    "pattes avant",
+    "marcher 2 pattes",
+    "énorme",
+    "animal de compagnie"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un chat acrobate marche sur ses pattes avant sur plusieurs mètres...",
+  "created_time": 1443105041,
+  "search_query": "chat sautant sur sa proie",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title describes a cat performing an acrobatic act, suggesting real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x37oicd",
+    "decision": "keep",
+    "reason": "The title describes a cat performing an acrobatic act, suggesting real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

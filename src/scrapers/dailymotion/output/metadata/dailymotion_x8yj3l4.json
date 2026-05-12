@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8yj3l4",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8yj3l4_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8yj3l4_audio.mp3",
+  "duration_sec": 56,
+  "duration_seconds": 56.0,
+  "title": "Ses chats sautent par-dessus sa clôture : il décide d’un stratagème pour les empêcher de s’échapper",
+  "webpage_url": "https://www.dailymotion.com/video/x8yj3l4",
+  "dm_id": "x8yj3l4",
+  "views_total": 5151,
+  "view_count": 5151,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Ce propriétaire a vraisemblablement sous-estimé ses chats.",
+  "created_time": 1715779369,
+  "search_query": "chats se reposant paisiblement",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a cat owner trying to prevent their cats from escaping.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8yj3l4",
+    "decision": "keep",
+    "reason": "The video involves a cat owner trying to prevent their cats from escaping.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

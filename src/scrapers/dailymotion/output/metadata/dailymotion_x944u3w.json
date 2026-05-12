@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x944u3w",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x944u3w_video.mp4",
+  "audio_path": "output/videos/dailymotion_x944u3w_audio.mp3",
+  "duration_sec": 21,
+  "duration_seconds": 21.0,
+  "title": "Dancing Cat 4 | Funny Cat | Cat Dance | Funny Dance",
+  "webpage_url": "https://www.dailymotion.com/video/x944u3w",
+  "dm_id": "x944u3w",
+  "views_total": 531,
+  "view_count": 531,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "Dancing Cat",
+    "Funny Cat",
+    "Cat Dance",
+    "Funny Video",
+    "Fun"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "en",
+  "description": "#DancingCat <br />#FunnyCat <br />#Cat Dance <br />#funnydance <br />#funnyvideo",
+  "created_time": 1723819099,
+  "search_query": "funny cat sounds",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title and tags suggest real cat footage.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x944u3w",
+    "decision": "keep",
+    "reason": "Title and tags suggest real cat footage.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

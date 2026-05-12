@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x132a29",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x132a29_video.mp4",
+  "audio_path": "output/videos/dailymotion_x132a29_audio.mp3",
+  "duration_sec": 5,
+  "duration_seconds": 5.0,
+  "title": "Funny cat jumps on Sail song!!! Awolnation hit music video parody..",
+  "webpage_url": "https://www.dailymotion.com/video/x132a29",
+  "dm_id": "x132a29",
+  "views_total": 519,
+  "view_count": 519,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "Awolnation",
+    "Sail",
+    "Chat",
+    "cat sail song",
+    "cat jumps sail",
+    "vine",
+    "vine videos",
+    "funny cat sail",
+    "sail video parody",
+    "sail song parody"
+  ],
+  "channel": "music",
+  "channel_title": "music",
+  "language": "en",
+  "query_language": "English",
+  "description": "This cat is just jumping down his balcony... but with the \"Sail\" song added in the back it's making it one of my favorite Vine video ever!!!",
+  "created_time": 1376417388,
+  "search_query": "cat at vet clinic",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description indicate a cat is featured.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x132a29",
+    "decision": "keep",
+    "reason": "The title and description indicate a cat is featured.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

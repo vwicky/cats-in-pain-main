@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x4t5w0z",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x4t5w0z_video.mp4",
+  "audio_path": "output/videos/dailymotion_x4t5w0z_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "Que listo el gatito!",
+  "webpage_url": "https://www.dailymotion.com/video/x4t5w0z",
+  "dm_id": "x4t5w0z",
+  "views_total": 33556,
+  "view_count": 33556,
+  "likes_total": 2,
+  "like_count": 2,
+  "tags": [
+    "gato",
+    "gatito",
+    "gatos",
+    "divertido"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Este gatito es muy pero que muy listo. Si no, miren lo que hace!",
+  "created_time": 1473850877,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a clever kitten performing an action.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x4t5w0z",
+    "decision": "keep",
+    "reason": "The video features a clever kitten performing an action.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,3 @@
+2026-04-19 11:45:21,362 INFO Log file: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/dataset_construction/logs/04_audio_classification_20260419T084521Z.log
+2026-04-19 11:45:21,522 INFO Discovered 7329 audio files under /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/dataset_construction/separeted_audios
+2026-04-19 11:45:21,522 ERROR Missing fine-tuned checkpoint: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/checkpoints/best_model_final.pth

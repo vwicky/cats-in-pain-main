@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x28hv4l",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x28hv4l_video.mp4",
+  "audio_path": "output/videos/dailymotion_x28hv4l_audio.mp3",
+  "duration_sec": 16,
+  "duration_seconds": 16.0,
+  "title": "Fail de chat qui saute dans un aquarium",
+  "webpage_url": "https://www.dailymotion.com/video/x28hv4l",
+  "dm_id": "x28hv4l",
+  "views_total": 6697,
+  "view_count": 6697,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "fail",
+    "aquarium"
+  ],
+  "channel": "tv",
+  "channel_title": "tv",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Fail de chat qui saute dans un aquarium",
+  "created_time": 1414080981,
+  "search_query": "vidéos de chats qui parlent",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's humorous fail while jumping.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x28hv4l",
+    "decision": "keep",
+    "reason": "The title suggests a cat's humorous fail while jumping.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

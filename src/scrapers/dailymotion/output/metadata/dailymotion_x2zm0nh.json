@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x2zm0nh",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2zm0nh_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2zm0nh_audio.mp3",
+  "duration_sec": 20,
+  "duration_seconds": 20.0,
+  "title": "Playtime in Cat Tunnel",
+  "webpage_url": "https://www.dailymotion.com/video/x2zm0nh",
+  "dm_id": "x2zm0nh",
+  "views_total": 18282,
+  "view_count": 18282,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1438138743,
+  "search_query": "cat in stealth mode",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests playful behavior in a cat tunnel.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2zm0nh",
+    "decision": "keep",
+    "reason": "The title suggests playful behavior in a cat tunnel.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

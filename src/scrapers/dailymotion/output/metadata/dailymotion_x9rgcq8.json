@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x9rgcq8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9rgcq8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9rgcq8_audio.mp3",
+  "duration_sec": 18,
+  "duration_seconds": 18.0,
+  "title": "Gato coloca pitbull pra correr e salva idosa",
+  "webpage_url": "https://www.dailymotion.com/video/x9rgcq8",
+  "dm_id": "x9rgcq8",
+  "views_total": 14680,
+  "view_count": 14680,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "uai",
+    "portal uai",
+    "estado de minas",
+    "jornal estado de minas",
+    "gato",
+    "pitbull",
+    "gato laranja",
+    "ataque de pitbull",
+    "gato salva dona",
+    "idosa"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Felino laranja chamado Madrugada assustou cachorro, salvando a própria dona.<br /><br />Imagens: Redes Sociais<br /><br />Acesse o site: https://em.com.br / https://uai.com.br<br /><br />SE INSCREVA EM NOSSO CANAL NO YOUTUBE: https://www.youtube.com/@PortalUai<br /><br />Siga o Portal UAI nas redes sociais: <br />Instagram - https://instagram.com/estadodeminas/ <br />Twitter -  https://twitter.com/em_com/<br />Facebook - https://www.facebook.com/EstadodeMinas /<br /><br />#pitbull #gato laranja #idosa",
+  "created_time": 1759251728,
+  "search_query": "compilação de brigas de gatos",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat defending its owner from a dog, relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9rgcq8",
+    "decision": "keep",
+    "reason": "The video shows a cat defending its owner from a dog, relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

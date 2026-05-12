@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3s8mxi",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3s8mxi_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3s8mxi_audio.mp3",
+  "duration_sec": 44,
+  "duration_seconds": 44.0,
+  "title": "Сиамские кошки кусаются. Кот, кошка, котенок, котэ",
+  "webpage_url": "https://www.dailymotion.com/video/x3s8mxi",
+  "dm_id": "x3s8mxi",
+  "views_total": 2326,
+  "view_count": 2326,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cats",
+    "funny",
+    "prikoli",
+    "video",
+    "clip",
+    "best",
+    "rolik",
+    "смешно",
+    "comedy"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1455545516,
+  "search_query": "расслабленная кошка спит",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates Siamese cats biting, which suggests agonistic behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3s8mxi",
+    "decision": "keep",
+    "reason": "The title indicates Siamese cats biting, which suggests agonistic behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

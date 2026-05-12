@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9tjyoe",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9tjyoe_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9tjyoe_audio.mp3",
+  "duration_sec": 17,
+  "duration_seconds": 17.0,
+  "title": "Combien de chats ?",
+  "webpage_url": "https://www.dailymotion.com/video/x9tjyoe",
+  "dm_id": "x9tjyoe",
+  "views_total": 1610,
+  "view_count": 1610,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "people",
+  "channel_title": "people",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1762798468,
+  "search_query": "posture défensive de chat",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a focus on cats, which is plausible.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9tjyoe",
+    "decision": "keep",
+    "reason": "The title suggests a focus on cats, which is plausible.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

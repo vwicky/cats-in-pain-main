@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x2gr0z7",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2gr0z7_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2gr0z7_audio.mp3",
+  "duration_sec": 31,
+  "duration_seconds": 31.0,
+  "title": "Talking Cat singing a Song in a funny way",
+  "webpage_url": "https://www.dailymotion.com/video/x2gr0z7",
+  "dm_id": "x2gr0z7",
+  "views_total": 19583,
+  "view_count": 19583,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Human voice"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "hi",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1423467585,
+  "search_query": "two cats in a standoff",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat vocalizing in a humorous context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2gr0z7",
+    "decision": "keep",
+    "reason": "The title suggests a cat vocalizing in a humorous context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

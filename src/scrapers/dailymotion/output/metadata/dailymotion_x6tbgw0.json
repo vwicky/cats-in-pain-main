@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x6tbgw0",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6tbgw0_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6tbgw0_audio.mp3",
+  "duration_sec": 34,
+  "duration_seconds": 34.0,
+  "title": "Este gato se comporta como un perro",
+  "webpage_url": "https://www.dailymotion.com/video/x6tbgw0",
+  "dm_id": "x6tbgw0",
+  "views_total": 16618,
+  "view_count": 16618,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "gato",
+    "perro",
+    "viral",
+    "jugar",
+    "pelota",
+    "amo",
+    "insolito"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Este gato va a buscar la pelota y la trae de vuelta a su amo como si fuera un perro.",
+  "created_time": 1536635400,
+  "search_query": "compilación de peleas de gatos",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Video features a cat behaving like a dog, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6tbgw0",
+    "decision": "keep",
+    "reason": "Video features a cat behaving like a dog, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

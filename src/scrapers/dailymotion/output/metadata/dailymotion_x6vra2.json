@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x6vra2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6vra2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6vra2_audio.mp3",
+  "duration_sec": 55,
+  "duration_seconds": 55.0,
+  "title": "Chat en conférence",
+  "webpage_url": "https://www.dailymotion.com/video/x6vra2",
+  "dm_id": "x6vra2",
+  "views_total": 734,
+  "view_count": 734,
+  "likes_total": 2,
+  "like_count": 2,
+  "tags": [
+    "Conférence",
+    "chat",
+    "miaulement",
+    "bisou"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Des chats qui en ont bien des choses à dire.",
+  "created_time": 1222456108,
+  "search_query": "chat malade en traitement",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Suggests cats vocalizing in a conference setting.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6vra2",
+    "decision": "keep",
+    "reason": "Suggests cats vocalizing in a conference setting.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

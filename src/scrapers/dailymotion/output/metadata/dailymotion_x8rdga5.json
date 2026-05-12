@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x8rdga5",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8rdga5_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8rdga5_audio.mp3",
+  "duration_sec": 42,
+  "duration_seconds": 42.0,
+  "title": "Un gato se libra de ser atacado por un águila",
+  "webpage_url": "https://www.dailymotion.com/video/x8rdga5",
+  "dm_id": "x8rdga5",
+  "views_total": 664,
+  "view_count": 664,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Animales compañía",
+    "Caza",
+    "Deportes",
+    "España",
+    "Gatos",
+    "Mascotas",
+    "Sociedad",
+    "Águilas"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "<p>#short</p>",
+  "created_time": 1704997103,
+  "search_query": "gatos luchando por territorio",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat avoiding an eagle attack, showcasing survival behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8rdga5",
+    "decision": "keep",
+    "reason": "The video features a cat avoiding an eagle attack, showcasing survival behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

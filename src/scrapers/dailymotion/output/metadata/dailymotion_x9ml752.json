@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x9ml752",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9ml752_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9ml752_audio.mp3",
+  "duration_sec": 45,
+  "duration_seconds": 45.0,
+  "title": "Divertido video muestra a gatos desafiando la ley de la gravedad",
+  "webpage_url": "https://www.dailymotion.com/video/x9ml752",
+  "dm_id": "x9ml752",
+  "views_total": 695,
+  "view_count": 695,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "España",
+    "sdt",
+    "gatos"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "¡Un video hilarante demuestra que las leyes de la gravedad son solo un detalle para los gatos, y los internautas no pueden parar de reír!<br /><br />El clip divertido presenta una recopilación de momentos que prueban que, si algún día el actor Tom Cruise decide retirarse de Hollywood, un gato fácilmente podría tomar su lugar.<br /><br />Foto y video: Instagram @jasper_cat_1472<br /><br />",
+  "created_time": 1752057473,
+  "search_query": "comportamiento agresivo de los gatos",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features cats and their humorous behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9ml752",
+    "decision": "keep",
+    "reason": "The video features cats and their humorous behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

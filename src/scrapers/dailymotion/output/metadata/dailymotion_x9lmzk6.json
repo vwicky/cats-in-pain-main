@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x9lmzk6",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9lmzk6_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9lmzk6_audio.mp3",
+  "duration_sec": 33,
+  "duration_seconds": 33.0,
+  "title": "Unglaubliche Aufnahmen einer Überwachungskamera: Katze nachts beim Tanzen gefilmt",
+  "webpage_url": "https://www.dailymotion.com/video/x9lmzk6",
+  "dm_id": "x9lmzk6",
+  "views_total": 3353,
+  "view_count": 3353,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "News Katze"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Jetzt ist es endlich raus, was Katzen in der Nacht in Wahrheit treiben. Und klappt einem wirklich nur die Kinnlade runter.",
+  "created_time": 1751037900,
+  "search_query": "kranke Katze beim Tierarzt",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests real cat footage at night.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9lmzk6",
+    "decision": "keep",
+    "reason": "The title suggests real cat footage at night.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

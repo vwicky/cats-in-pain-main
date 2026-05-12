@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_xv4w3",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xv4w3_video.mp4",
+  "audio_path": "output/videos/dailymotion_xv4w3_audio.mp3",
+  "duration_sec": 24,
+  "duration_seconds": 24.0,
+  "title": "chat sur glace",
+  "webpage_url": "https://www.dailymotion.com/video/xv4w3",
+  "dm_id": "xv4w3",
+  "views_total": 771,
+  "view_count": 771,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cest",
+    "nul",
+    "lécole"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "un chat c con X)",
+  "created_time": 1167138793,
+  "search_query": "chat sautant sur sa proie",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title mentions a cat, suggesting it is cat-related content.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xv4w3",
+    "decision": "keep",
+    "reason": "The title mentions a cat, suggesting it is cat-related content.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

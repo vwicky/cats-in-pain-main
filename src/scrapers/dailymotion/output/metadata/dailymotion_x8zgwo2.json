@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x8zgwo2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8zgwo2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8zgwo2_audio.mp3",
+  "duration_sec": 41,
+  "duration_seconds": 41.0,
+  "title": "Sans collier",
+  "webpage_url": "https://www.dailymotion.com/video/x8zgwo2",
+  "dm_id": "x8zgwo2",
+  "views_total": 1109,
+  "view_count": 1109,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "plurimedia_1177009",
+    "video_plurimedia",
+    "video_plurimedia_broadcast"
+  ],
+  "channel": "tv",
+  "channel_title": "tv",
+  "language": "fr",
+  "query_language": "French",
+  "description": "L'équipe du refuge fait face à une affaire délicate, toujours prête à défendre la cause animale. Annie et tous ses employés sont déterminés à prendre soin de Prince. A la chatterie, les bénévoles baptisées \"les dames chats\" sont toujours fidèles au poste. Aujourd'hui, elles ont pour mission de faire adopter un des chats les plus âgés. Le refuge de Montpellier compte 300 bénévoles dont 80 très actifs qui viennent régulièrement offrir de leur temps.",
+  "created_time": 1717252880,
+  "search_query": "vidéos de chats bruyants",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a cat adoption effort, suggesting real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8zgwo2",
+    "decision": "keep",
+    "reason": "The video discusses a cat adoption effort, suggesting real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

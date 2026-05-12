@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x9mhkga",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9mhkga_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9mhkga_audio.mp3",
+  "duration_sec": 34,
+  "duration_seconds": 34.0,
+  "title": "Gato galán recibe un rechazo épico de una gata malhumorada – el video se vuelve viral",
+  "webpage_url": "https://www.dailymotion.com/video/x9mhkga",
+  "dm_id": "x9mhkga",
+  "views_total": 891,
+  "view_count": 891,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "España",
+    "sdt"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Un video hilarante está causando sensación en las redes sociales al mostrar a un gato confiado que recibe una rotunda y cómica negativa al intentar conquistar a una gata claramente sin ganas de romance.<br /><br />La escena ya ha superado los 4,3 millones de visualizaciones y cuenta con más de 31.000 \"me gusta\", además de cientos de comentarios divertidos de los usuarios.<br /><br />Con el título “Romance felino”, el clip — compartido en el perfil de X @buitengebieden — muestra el momento en que el gato se acerca con aire seductor, solo para recibir un zarpazo nada amistoso.<br /><br />Fuente e imágenes: X @buitengebieden<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />",
+  "created_time": 1751920016,
+  "search_query": "comportamiento agresivo de los gatos",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a humorous interaction between cats.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9mhkga",
+    "decision": "keep",
+    "reason": "The video shows a humorous interaction between cats.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

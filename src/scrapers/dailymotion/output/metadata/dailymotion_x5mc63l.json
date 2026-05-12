@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x5mc63l",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5mc63l_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5mc63l_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "Un chat se venge après avoir été klaxonné",
+  "webpage_url": "https://www.dailymotion.com/video/x5mc63l",
+  "dm_id": "x5mc63l",
+  "views_total": 118801,
+  "view_count": 118801,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "MIGNON"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un chat se venge après avoir été klaxonné. Un chat s'est installé sur le capot d'une voiture, le propriétaire va donc actionner les essuies-glace pour tenter de faire partir le squatteur... Mais celui-ci va rapidement se venger !  <br /> <br />★ Un petit tour sur notre site ► http://breakforbuzz.com <br />★ Rejoins-nous sur Facebook ► https://www.facebook.com/breakforbuzz <br />★ Rejoins-nous sur Twitter ► https://twitter.com/Breakforbuzzcom",
+  "created_time": 1494854592,
+  "search_query": "chat après vaccination",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description indicate a cat's behavior in response to a situation.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5mc63l",
+    "decision": "keep",
+    "reason": "The title and description indicate a cat's behavior in response to a situation.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

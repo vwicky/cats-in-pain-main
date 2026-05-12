@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x76289g",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x76289g_video.mp4",
+  "audio_path": "output/videos/dailymotion_x76289g_audio.mp3",
+  "duration_sec": 10,
+  "duration_seconds": 10.0,
+  "title": "Les maîtres de ce chat était inquiets par sa prise de poids. Le résultat du vétérinaire est émouvant !",
+  "webpage_url": "https://www.dailymotion.com/video/x76289g",
+  "dm_id": "x76289g",
+  "views_total": 14462,
+  "view_count": 14462,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1555595252,
+  "search_query": "chat chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a cat's health concern and a vet's assessment.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x76289g",
+    "decision": "keep",
+    "reason": "The video involves a cat's health concern and a vet's assessment.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

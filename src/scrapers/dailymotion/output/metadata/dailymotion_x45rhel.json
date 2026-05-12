@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x45rhel",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x45rhel_video.mp4",
+  "audio_path": "output/videos/dailymotion_x45rhel_audio.mp3",
+  "duration_sec": 23,
+  "duration_seconds": 23.0,
+  "title": "Un chat qui adore parler avec sa maitresse",
+  "webpage_url": "https://www.dailymotion.com/video/x45rhel",
+  "dm_id": "x45rhel",
+  "views_total": 2193,
+  "view_count": 2193,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "Adorable",
+    "LOL",
+    "Mignon",
+    "chat",
+    "parler",
+    "chat qui parle",
+    "animal de compagnie"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un chat qui adore parler avec sa maitresse",
+  "created_time": 1461137916,
+  "search_query": "vidéos de chats qui parlent",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat that enjoys talking with its owner, suggesting vocalization.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x45rhel",
+    "decision": "keep",
+    "reason": "The video features a cat that enjoys talking with its owner, suggesting vocalization.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

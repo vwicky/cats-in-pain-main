@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x319hi9",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x319hi9_video.mp4",
+  "audio_path": "output/videos/dailymotion_x319hi9_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "Le chat Balai",
+  "webpage_url": "https://www.dailymotion.com/video/x319hi9",
+  "dm_id": "x319hi9",
+  "views_total": 1956,
+  "view_count": 1956,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1439304065,
+  "search_query": "chat chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat, and the lack of description does not rule out real cat behavior.",
+  "gpt_confidence": "low",
+  "gpt_filter": {
+    "video_id": "dailymotion_x319hi9",
+    "decision": "keep",
+    "reason": "The title suggests a cat, and the lack of description does not rule out real cat behavior.",
+    "confidence": "low",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "video_id": "dailymotion_x2oxuw9",
+  "source": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2oxuw9_video.mp4",
+  "audio_path": "output/audio/dailymotion_x2oxuw9_audio.mp3",
+  "duration_sec": 26,
+  "title": "Cats meowing kittens & cats messi Cat meow and sneezes meow 2015",
+  "webpage_url": "https://www.dailymotion.com/video/x2oxuw9",
+  "dm_id": "x2oxuw9",
+  "views_total": 1551,
+  "likes_total": 0,
+  "tags": [
+    "Cats",
+    "meowing",
+    "kittens",
+    "cats",
+    "messi",
+    "Cat",
+    "meow",
+    "and",
+    "sneezes",
+    "2015"
+  ],
+  "channel": "animals",
+  "language": "en",
+  "description": "Cats meowing kittens & cats messi Cat meow and sneezes meow 2015",
+  "created_time": 1430658177,
+  "search_query": "cat meowing",
+  "tag_filter": {
+    "passed": true
+  },
+  "gpt_filter": {
+    "video_id": "dailymotion_x2oxuw9",
+    "decision": "keep",
+    "reason": "The title and description indicate cats meowing, which is relevant.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

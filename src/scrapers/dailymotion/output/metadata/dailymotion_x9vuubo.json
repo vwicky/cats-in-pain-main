@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9vuubo",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9vuubo_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9vuubo_audio.mp3",
+  "duration_sec": 8,
+  "duration_seconds": 8.0,
+  "title": "My baby kitten #kitten",
+  "webpage_url": "https://www.dailymotion.com/video/x9vuubo",
+  "dm_id": "x9vuubo",
+  "views_total": 1075,
+  "view_count": 1075,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "people",
+  "channel_title": "people",
+  "language": "fr",
+  "query_language": "fr",
+  "description": "",
+  "created_time": 1765946537,
+  "search_query": "kitten sounds",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a real kitten, which is plausible content.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9vuubo",
+    "decision": "keep",
+    "reason": "The title suggests a real kitten, which is plausible content.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

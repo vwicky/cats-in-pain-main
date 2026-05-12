@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x828ozw",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x828ozw_video.mp4",
+  "audio_path": "output/videos/dailymotion_x828ozw_audio.mp3",
+  "duration_sec": 40,
+  "duration_seconds": 40.0,
+  "title": "Elle n'arrivera jamais à faire son lit, et la raison est très drôle !",
+  "webpage_url": "https://www.dailymotion.com/video/x828ozw",
+  "dm_id": "x828ozw",
+  "views_total": 3071,
+  "view_count": 3071,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Société",
+    "Vidéos"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Faire son lit n’est jamais une partie de plaisir, d’autant plus quand 8 chatons s’opposent fermement à cette idée. Tout ce qu’on peut dire, c’est que ces chats sont loin d’être des fées du logis.",
+  "created_time": 1624637319,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features kittens opposing the idea of making a bed, suggesting playful behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x828ozw",
+    "decision": "keep",
+    "reason": "The video features kittens opposing the idea of making a bed, suggesting playful behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

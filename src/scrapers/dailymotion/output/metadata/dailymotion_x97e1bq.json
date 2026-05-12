@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x97e1bq",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x97e1bq_video.mp4",
+  "audio_path": "output/videos/dailymotion_x97e1bq_audio.mp3",
+  "duration_sec": 17,
+  "duration_seconds": 17.0,
+  "title": "Trend Meow - D’où vient la \"caca phorie\", la folie qui s’empare de votre chat après qu’il a fait caca ? (1)",
+  "webpage_url": "https://www.dailymotion.com/video/x97e1bq",
+  "dm_id": "x97e1bq",
+  "views_total": 965914,
+  "view_count": 965914,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "en",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1729009976,
+  "search_query": "chat après vaccination",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Similar to the previous video, it discusses cat behavior related to litter box use.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x97e1bq",
+    "decision": "keep",
+    "reason": "Similar to the previous video, it discusses cat behavior related to litter box use.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

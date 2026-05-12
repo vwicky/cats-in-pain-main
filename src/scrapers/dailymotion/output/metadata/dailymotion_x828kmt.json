@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x828kmt",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x828kmt_video.mp4",
+  "audio_path": "output/videos/dailymotion_x828kmt_audio.mp3",
+  "duration_sec": 57,
+  "duration_seconds": 57.0,
+  "title": "Un chat trouvé dans la neige se réadapte à la vie",
+  "webpage_url": "https://www.dailymotion.com/video/x828kmt",
+  "dm_id": "x828kmt",
+  "views_total": 661,
+  "view_count": 661,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Société",
+    "Vidéos"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": " Un petit chat tout mignon est découvert dans la neige. Après quelques temps de réadaptation, le matou peut vivre de nouveau comme les autres chats !",
+  "created_time": 1624631200,
+  "search_query": "chats se reposant paisiblement",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat being rescued and readjusting to life.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x828kmt",
+    "decision": "keep",
+    "reason": "The video shows a cat being rescued and readjusting to life.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

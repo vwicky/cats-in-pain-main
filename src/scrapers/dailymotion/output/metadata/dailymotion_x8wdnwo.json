@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x8wdnwo",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8wdnwo_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8wdnwo_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Mulher viraliza ao se despedir de gato de 15 anos: 'Sempre vou te amar' #shorts",
+  "webpage_url": "https://www.dailymotion.com/video/x8wdnwo",
+  "dm_id": "x8wdnwo",
+  "views_total": 3951,
+  "view_count": 3951,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Noticias",
+    "Últimas Notícias",
+    "Portal Terra",
+    "Terra"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Spanish",
+  "description": "Mulher viraliza ao se despedir de gato de 15 anos: 'Sempre vou te amar' #shorts",
+  "created_time": 1712334619,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a sentimental farewell to a cat, indicating real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8wdnwo",
+    "decision": "keep",
+    "reason": "The title suggests a sentimental farewell to a cat, indicating real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

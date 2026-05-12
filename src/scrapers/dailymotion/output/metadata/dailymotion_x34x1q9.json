@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x34x1q9",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x34x1q9_video.mp4",
+  "audio_path": "output/videos/dailymotion_x34x1q9_audio.mp3",
+  "duration_sec": 25,
+  "duration_seconds": 25.0,
+  "title": "Кот упустил голубя ! Но не потерял свое лицо !!! Ржака !",
+  "webpage_url": "https://www.dailymotion.com/video/x34x1q9",
+  "dm_id": "x34x1q9",
+  "views_total": 14377,
+  "view_count": 14377,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1441487140,
+  "search_query": "кот, выслеживающий добычу",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat's humorous interaction with a pigeon, suggesting real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x34x1q9",
+    "decision": "keep",
+    "reason": "The title indicates a cat's humorous interaction with a pigeon, suggesting real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

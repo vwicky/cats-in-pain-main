@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9q3vpw",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9q3vpw_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9q3vpw_audio.mp3",
+  "duration_sec": 11,
+  "duration_seconds": 11.0,
+  "title": "Ceci est un chat adorable !",
+  "webpage_url": "https://www.dailymotion.com/video/x9q3vpw",
+  "dm_id": "x9q3vpw",
+  "views_total": 6038,
+  "view_count": 6038,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "people",
+  "channel_title": "people",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1757175585,
+  "search_query": "comportement d'un chat blessé",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests the video features an adorable cat.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9q3vpw",
+    "decision": "keep",
+    "reason": "The title suggests the video features an adorable cat.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3f02k9",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3f02k9_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3f02k9_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "Jealous Of A Cat VS Hot girl! So funny",
+  "webpage_url": "https://www.dailymotion.com/video/x3f02k9",
+  "dm_id": "x3f02k9",
+  "views_total": 1054,
+  "view_count": 1054,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "Cat",
+    "Kitten",
+    "LOL",
+    "Hot Girl",
+    "Animal",
+    "jealous",
+    "funny",
+    "hot",
+    "pet"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "Jealous Of A Cat VS Hot girl! So funny",
+  "created_time": 1448191123,
+  "search_query": "playful kittens relaxing",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat in a humorous context, suggesting cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3f02k9",
+    "decision": "keep",
+    "reason": "The video features a cat in a humorous context, suggesting cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

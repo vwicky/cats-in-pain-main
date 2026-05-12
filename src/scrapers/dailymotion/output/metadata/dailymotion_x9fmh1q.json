@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x9fmh1q",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9fmh1q_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9fmh1q_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "La vie secrète des chats",
+  "webpage_url": "https://www.dailymotion.com/video/x9fmh1q",
+  "dm_id": "x9fmh1q",
+  "views_total": 9295,
+  "view_count": 9295,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "plurimedia_47176",
+    "video_plurimedia",
+    "video_plurimedia_broadcast"
+  ],
+  "channel": "tv",
+  "channel_title": "tv",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Pendant un mois, 100 chats ont été surveillés 24h/24 grâce à des colliers GPS et des caméras embarquées. Les données ont été analysées par des chercheurs et expliquées aux familles lors d'un debriefing. Cette expérience visait à suivre les mouvements des félins chez eux et à l'extérieur, en utilisant des caméras fixes à déclenchement automatique dans les maisons et les jardins. Les chats étaient équipés de caméras embarquées pour découvrir leur environnement à hauteur de leurs yeux. Les résultats ont été partagés avec les familles pour mieux comprendre le comportement des chats.",
+  "created_time": 1741195184,
+  "search_query": "chat malade chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses the behavior of cats monitored with GPS, relevant to real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9fmh1q",
+    "decision": "keep",
+    "reason": "The video discusses the behavior of cats monitored with GPS, relevant to real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

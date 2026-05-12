@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x3e6wsz",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3e6wsz_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3e6wsz_audio.mp3",
+  "duration_sec": 55,
+  "duration_seconds": 55.0,
+  "title": "Коты против огурцов и кабачков. Ржач =))",
+  "webpage_url": "https://www.dailymotion.com/video/x3e6wsz",
+  "dm_id": "x3e6wsz",
+  "views_total": 3427,
+  "view_count": 3427,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Ржач",
+    "огурец",
+    "кот",
+    "коты",
+    "против",
+    "прикол",
+    "юмор",
+    "ржака"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "uk",
+  "query_language": "Russian",
+  "description": "Коты против огурцов и кабачков",
+  "created_time": 1447760360,
+  "search_query": "кот громко мяукает",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests cats interacting with cucumbers, which is a known behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3e6wsz",
+    "decision": "keep",
+    "reason": "The title suggests cats interacting with cucumbers, which is a known behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

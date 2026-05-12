@@ -1,0 +1,80 @@
+# ── Identity ────────────────────────────────────────────────
+run_name: "efficientnet_b3_v2_5class"
+run_notes: "EfficientNet-B3 on final_dataset_v2 (5786 clips, snippets_v2/). Same arch as default."
+
+# ── Data ────────────────────────────────────────────────────
+manifest_path: "src/dataset_construction/manifests/final_dataset_v2.jsonl"
+predictions_jsonl: null
+frames_per_clip: 3
+frame_sample_strategy: "uniform_inner"
+image_size: 300                          # EfficientNet-B3 native input
+
+# Pre-computed frames (set after running the two offline scripts):
+#   python scripts/01_extract_and_detect.py --config video/cnn-finetuning/config/v2.yaml
+#   python scripts/02_crop_frames.py       --config video/cnn-finetuning/config/v2.yaml
+# Uncomment the line below to switch to the fast PrecomputedCatDataset:
+# precomputed_frames_dir: "data/dataset/cropped_frames_p20"
+
+# Legacy on-the-fly settings (used when precomputed_frames_dir is absent/commented):
+use_bbox_crop: true
+bbox_padding: 0.20
+yolo_weights: "models/yolo/yolov8x.pt"
+yolo_conf: 0.40
+yolo_imgsz: 640
+video_extensions: [".mp4", ".avi", ".mov", ".mkv", ".webm"]
+
+# DataLoader workers (auto-set to 4 for pre-computed, 0 for on-the-fly if unset):
+# num_workers: 4
+
+# ── Label space ─────────────────────────────────────────────
+classes_5:
+  - "Paining"
+  - "Positive_Baseline"
+  - "Agonistic"
+  - "Vocalizing"
+  - "HuntingMind"
+
+binary_map:
+  Paining: "Pain"
+  Positive_Baseline: "No_Pain"
+  Agonistic: "No_Pain"
+  Vocalizing: "No_Pain"
+  HuntingMind: "No_Pain"
+
+# ── Model ───────────────────────────────────────────────────
+backbone: "efficientnet_b3"
+backbone_weights: "IMAGENET1K_V1"
+freeze_backbone_epochs: 10
+unfreeze_blocks: 1
+pooling: "attention"
+head_hidden_dim: 128
+head_dropout: 0.60
+
+# ── Training ────────────────────────────────────────────────
+cv_folds: 3
+cv_random_state: 42
+batch_size: 16
+epochs: 60
+optimizer: "adamw"
+lr_backbone: 1.0e-6
+lr_head: 1.0e-3
+weight_decay: 0.05
+scheduler: "cosine"
+focal_gamma: 2.0
+use_class_weights: true
+
+# ── Early stopping ──────────────────────────────────────────
+early_stop_metric: "val_macro_f1"
+early_stop_patience: 12
+early_stop_min_delta: 0.001
+
+# ── Augmentation (train only) ───────────────────────────────
+aug_horizontal_flip: true
+aug_color_jitter: true
+aug_random_rotation: 15
+aug_random_erasing: 0.10
+
+# ── Output ──────────────────────────────────────────────────
+runs_dir: "video/cnn-finetuning/runs"
+save_best_only: true
+log_interval_batches: 10

@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x6lvhr7",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6lvhr7_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6lvhr7_audio.mp3",
+  "duration_sec": 31,
+  "duration_seconds": 31.0,
+  "title": "El gato más interesado de todos: acaricia a su dueño por pollo",
+  "webpage_url": "https://www.dailymotion.com/video/x6lvhr7",
+  "dm_id": "x6lvhr7",
+  "views_total": 693,
+  "view_count": 693,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cat",
+    "gato",
+    "viral",
+    "chistoso",
+    "cómico",
+    "pollo",
+    "chicken",
+    "cariñoso",
+    "sweet",
+    "funny"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Este gato tiene una estrategia muy clara. Ser cariñoso con su dueño con tal de poder comer algo de pollo.",
+  "created_time": 1528976361,
+  "search_query": "gatos luchando por territorio",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description suggests a cat interacting affectionately with its owner.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6lvhr7",
+    "decision": "keep",
+    "reason": "The description suggests a cat interacting affectionately with its owner.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

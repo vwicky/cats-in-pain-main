@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x8v9gt4",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8v9gt4_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8v9gt4_audio.mp3",
+  "duration_sec": 52,
+  "duration_seconds": 52.0,
+  "title": "Gazeta Lubuska. Walka  bezdomnością kotów",
+  "webpage_url": "https://www.dailymotion.com/video/x8v9gt4",
+  "dm_id": "x8v9gt4",
+  "views_total": 4383,
+  "view_count": 4383,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "kot",
+    "bezdomny kot",
+    "schronisko zielona góra",
+    "porzucony kot"
+  ],
+  "channel": "school",
+  "channel_title": "school",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "",
+  "created_time": 1711033258,
+  "search_query": "kot głośno miauczy",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and tags suggest a focus on stray cats and a shelter context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8v9gt4",
+    "decision": "keep",
+    "reason": "The title and tags suggest a focus on stray cats and a shelter context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x1r7a6",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x1r7a6_video.mp4",
+  "audio_path": "output/videos/dailymotion_x1r7a6_audio.mp3",
+  "duration_sec": 43,
+  "duration_seconds": 43.0,
+  "title": "chat qui mat d video de chats",
+  "webpage_url": "https://www.dailymotion.com/video/x1r7a6",
+  "dm_id": "x1r7a6",
+  "views_total": 679,
+  "view_count": 679,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chats",
+    "humour",
+    "ordinateur",
+    "video"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "mon chat pris en flag entrain de matter des vidéos de chats",
+  "created_time": 1176970888,
+  "search_query": "chat blessé qui boite",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat watching other cat videos, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x1r7a6",
+    "decision": "keep",
+    "reason": "The video features a cat watching other cat videos, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

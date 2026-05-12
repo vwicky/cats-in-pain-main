@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x39ab3b",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x39ab3b_video.mp4",
+  "audio_path": "output/videos/dailymotion_x39ab3b_audio.mp3",
+  "duration_sec": 29,
+  "duration_seconds": 29.0,
+  "title": "Этот кот прекрасен!",
+  "webpage_url": "https://www.dailymotion.com/video/x39ab3b",
+  "dm_id": "x39ab3b",
+  "views_total": 1128,
+  "view_count": 1128,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1444600950,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests admiration for a cat, indicating it features a real cat.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x39ab3b",
+    "decision": "keep",
+    "reason": "The title suggests admiration for a cat, indicating it features a real cat.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

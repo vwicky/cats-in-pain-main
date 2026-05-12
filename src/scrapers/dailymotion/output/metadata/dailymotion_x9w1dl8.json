@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x9w1dl8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9w1dl8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9w1dl8_audio.mp3",
+  "duration_sec": 4,
+  "duration_seconds": 4.0,
+  "title": "funny cat",
+  "webpage_url": "https://www.dailymotion.com/video/x9w1dl8",
+  "dm_id": "x9w1dl8",
+  "views_total": 525,
+  "view_count": 525,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cat",
+    "funny",
+    "meme",
+    "kitty",
+    "kitties",
+    "cats",
+    "pets",
+    "pet",
+    "animals"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1766157164,
+  "search_query": "calm kitty moments",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests it features a funny cat.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9w1dl8",
+    "decision": "keep",
+    "reason": "The title suggests it features a funny cat.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

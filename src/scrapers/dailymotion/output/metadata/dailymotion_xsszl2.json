@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_xsszl2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xsszl2_video.mp4",
+  "audio_path": "output/videos/dailymotion_xsszl2_audio.mp3",
+  "duration_sec": 31,
+  "duration_seconds": 31.0,
+  "title": "Кот подает лапу",
+  "webpage_url": "https://www.dailymotion.com/video/xsszl2",
+  "dm_id": "xsszl2",
+  "views_total": 957,
+  "view_count": 957,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "кот подает лапу"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Кот подает лапу",
+  "created_time": 1344923545,
+  "search_query": "кот, выслеживающий добычу",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat performing a paw gesture.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xsszl2",
+    "decision": "keep",
+    "reason": "The title indicates a cat performing a paw gesture.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x3nuyc0",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3nuyc0_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3nuyc0_audio.mp3",
+  "duration_sec": 32,
+  "duration_seconds": 32.0,
+  "title": "Cat Forgot Her Tongue Out, Funny Cat#23",
+  "webpage_url": "https://www.dailymotion.com/video/x3nuyc0",
+  "dm_id": "x3nuyc0",
+  "views_total": 5478,
+  "view_count": 5478,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cats"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "funny cats",
+  "created_time": 1453486445,
+  "search_query": "cat warning sounds",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description suggest it features a funny cat moment.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3nuyc0",
+    "decision": "keep",
+    "reason": "The title and description suggest it features a funny cat moment.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

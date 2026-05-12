@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x828lnl",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x828lnl_video.mp4",
+  "audio_path": "output/videos/dailymotion_x828lnl_audio.mp3",
+  "duration_sec": 56,
+  "duration_seconds": 56.0,
+  "title": "Un chat adopte des bébés lapins",
+  "webpage_url": "https://www.dailymotion.com/video/x828lnl",
+  "dm_id": "x828lnl",
+  "views_total": 2875,
+  "view_count": 2875,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Société",
+    "Vidéos"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": " Un chat qui recueille des bébés lapins ça vous paraît impossible ? Détrompez-vous ! Et en voici la preuve...",
+  "created_time": 1624632667,
+  "search_query": "cris d'accouplement des chats",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat adopting baby rabbits, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x828lnl",
+    "decision": "keep",
+    "reason": "The video features a cat adopting baby rabbits, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

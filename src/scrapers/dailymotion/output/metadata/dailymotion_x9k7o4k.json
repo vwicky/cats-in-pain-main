@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9k7o4k",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9k7o4k_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9k7o4k_audio.mp3",
+  "duration_sec": 46,
+  "duration_seconds": 46.0,
+  "title": "Eテレ0655日めくりアニメ見ながら数珠の玩具で遊んでいたら絡まってしまう4歳児男の子（発達障がい（知的障害）-自閉性スペクトラム症）",
+  "webpage_url": "https://www.dailymotion.com/video/x9k7o4k",
+  "dm_id": "x9k7o4k",
+  "views_total": 887,
+  "view_count": 887,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ja",
+  "query_language": "Japanese",
+  "description": "Eテレ0655日めくりアニメ見ながら数珠の玩具で遊んでいたら絡まってしまう4歳児男の子（発達障がい（知的障害）-自閉性スペクトラム症）の動画です。<br /><br />#0655 <br />#2355 <br />#Eテレ<br />#日めくりアニメ<br />#数珠<br /><br />【2023年5月21日　撮影】<br /><br />このチャンネル『てっちゃん☆てっちゃんZ』では、子供のセンス・オブ・ワンダーを感じさせる動画や猫の動画をアップしています。<br /><br />ちょっと発育の遅いのんびり屋さんの5歳児と、同じく、のんびりマイペースな9歳児おねえちゃんではありますが、皆さんがホッと一息つけるような楽しいチャンネルになったらいいなあ、と考えています。<br /><br />面白いなあ、とか、なんだか和むなあ、と感じてくださった方は、チャンネル登録をして見守ってくださると嬉しいです。<br /><br />３歳の時点でてっちゃんは自閉性スペクトラム症と診断されました。<br />言葉を話したり、自分で靴を履いたりすることができませんが、いつも元気いっぱいで頑張っています。<br />一口に発達障害と言っても、個性はお子さんによって違い、成長の仕方もお子さんそれぞれ。<br />発達障害のある子どもの一つの例として皆さんに御覧になって頂けたらと思います。<br /><br />#発達障害<br />#発達障碍<br />#発達障がい<br />#発達障害児<br />#発達障害子育て<br />#自閉スペクトラム症<br />#自閉性スペクトラム症<br />#知的障害<br />#知的障害者<br />#知的障害子ども<br />#知的障害子供<br />#asd <br />#日本<br />#日本人<br />#知育動画<br />#知育<br />#知育動画0歳<br />#知育動画1歳<br />#知育動画2歳<br />#知育動画3歳<br />#知育動画4歳<br />#知育動画5歳<br />#知育動画6歳",
+  "created_time": 1748343274,
+  "search_query": "猫が縄張りを争う",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The channel mentions cat videos, suggesting potential cat content.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9k7o4k",
+    "decision": "keep",
+    "reason": "The channel mentions cat videos, suggesting potential cat content.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

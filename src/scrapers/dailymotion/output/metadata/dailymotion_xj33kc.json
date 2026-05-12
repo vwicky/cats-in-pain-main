@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_xj33kc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xj33kc_video.mp4",
+  "audio_path": "output/videos/dailymotion_xj33kc_audio.mp3",
+  "duration_sec": 22,
+  "duration_seconds": 22.0,
+  "title": "koty pajaki",
+  "webpage_url": "https://www.dailymotion.com/video/xj33kc",
+  "dm_id": "xj33kc",
+  "views_total": 1859,
+  "view_count": 1859,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "",
+  "created_time": 1307112929,
+  "search_query": "głośne koty wideo",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests it features cats.",
+  "gpt_confidence": "low",
+  "gpt_filter": {
+    "video_id": "dailymotion_xj33kc",
+    "decision": "keep",
+    "reason": "The title suggests it features cats.",
+    "confidence": "low",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

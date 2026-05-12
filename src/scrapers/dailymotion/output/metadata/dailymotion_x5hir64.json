@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x5hir64",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5hir64_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5hir64_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "Gatinho pediu ajuda à irmã para alcançar brinquedo em cima de um balcão alto",
+  "webpage_url": "https://www.dailymotion.com/video/x5hir64",
+  "dm_id": "x5hir64",
+  "views_total": 7693,
+  "view_count": 7693,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "Bebé",
+    "Curioso",
+    "gatinho",
+    "bola",
+    "brinquedo"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Depois de muita insistência para alcançar o seu brinquedo favorito, que estava em cima de um balcão alto, o pequeno gatinho começou a miar como que a pedir ajuda. Foi então que entrou em cena a irmã mais velha, que com o dobro do seu tamanho decidiu intervir... SO CUTE!",
+  "created_time": 1491566045,
+  "search_query": "gatinhos brincalhões relaxando",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat asking for help, indicating vocalization.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5hir64",
+    "decision": "keep",
+    "reason": "The video shows a cat asking for help, indicating vocalization.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

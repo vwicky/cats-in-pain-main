@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x8jvtsl",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8jvtsl_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8jvtsl_audio.mp3",
+  "duration_sec": 45,
+  "duration_seconds": 45.0,
+  "title": "Cool cats enjoy a day boating in Florida",
+  "webpage_url": "https://www.dailymotion.com/video/x8jvtsl",
+  "dm_id": "x8jvtsl",
+  "views_total": 774,
+  "view_count": 774,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "caleb-stewart",
+    "video-content",
+    "video-network",
+    "source-network",
+    "prime",
+    "prime-cuts",
+    "source-socialmedia",
+    "adam-del-rosso",
+    "mark-mancuso",
+    "us-southeast"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "en",
+  "query_language": "English",
+  "description": "These two cats were chilling on a calm day on the water on April 5.",
+  "created_time": 1680919372,
+  "search_query": "two cats in a standoff",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows cats enjoying a day on a boat, which is plausible cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8jvtsl",
+    "decision": "keep",
+    "reason": "The video shows cats enjoying a day on a boat, which is plausible cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

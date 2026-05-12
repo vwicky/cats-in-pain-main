@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x8jzicn",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8jzicn_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8jzicn_audio.mp3",
+  "duration_sec": 45,
+  "duration_seconds": 45.0,
+  "title": "Ce chat qui miaule à chaque “Tu-dum” devient tellement viral qu’il a fait réagir Netflix",
+  "webpage_url": "https://www.dailymotion.com/video/x8jzicn",
+  "dm_id": "x8jzicn",
+  "views_total": 508,
+  "view_count": 508,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "bfmsocial",
+    "people",
+    "netflix",
+    "tiktok",
+    "réseaux sociaux",
+    "tu-dum",
+    "chat"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Sawyer, est un grand fan de Netflix et plus particulièrement du fameux “Tu-dum” puisqu'il se met systématiquement à miauler lorsqu'il entend le générique. Grâce à ses drôles de réactions, les vidéos de ce chat ont fait le tour d’Internet au point de faire réagir la plateforme de streaming.",
+  "created_time": 1681233523,
+  "search_query": "chat qui miaule fort",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a cat vocalizing in response to a sound.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8jzicn",
+    "decision": "keep",
+    "reason": "The description indicates a cat vocalizing in response to a sound.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x927cmk",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x927cmk_video.mp4",
+  "audio_path": "output/videos/dailymotion_x927cmk_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Katze aus Russland bekommt Nachwuchs doch ihre Babys sind keine Kätzchen!",
+  "webpage_url": "https://www.dailymotion.com/video/x927cmk",
+  "dm_id": "x927cmk",
+  "views_total": 64311,
+  "view_count": 64311,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Die schwarze Katze Musya lebt ein beschauliches Leben im Zoo von Wladiwostok. Doch dann wird ihr Alltag alles andere als flauschig...",
+  "created_time": 1721046185,
+  "search_query": "glückliche Katze, die schnurrt",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat giving birth, which is relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x927cmk",
+    "decision": "keep",
+    "reason": "The title suggests a cat giving birth, which is relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

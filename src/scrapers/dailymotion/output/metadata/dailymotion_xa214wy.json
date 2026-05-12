@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_xa214wy",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xa214wy_video.mp4",
+  "audio_path": "output/videos/dailymotion_xa214wy_audio.mp3",
+  "duration_sec": 25,
+  "duration_seconds": 25.0,
+  "title": "9-month-old baby wiggles a cat toy and engages with a cat",
+  "webpage_url": "https://www.dailymotion.com/video/xa214wy",
+  "dm_id": "xa214wy",
+  "views_total": 1721,
+  "view_count": 1721,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "Myrtle Beach",
+    "US",
+    "Cats",
+    "Wholesome",
+    "Cute",
+    "Cute Baby",
+    "Baby and Cat",
+    "Baby Boy",
+    "Kitty Love",
+    "Pet Bond"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "Taylor shared this clip of her baby boy already locked in as best friends with the family kitty.<br /><br />The moment felt soft, wholesome, and straight out of a feel-good scroll break.<br /><br />''My 9-month-old baby boy was watching his daddy play with the cat and decided he wanted to try too,'' Taylor told WooGlobe.<br /><br />A small hand wiggled the cat toy with serious focus while the kitty followed every move like a loyal teammate.<br />WooGlobe Ref : WGA996341<br />For licensing and to use this video, please email licensing@wooglobe.com",
+  "created_time": 1773576076,
+  "search_query": "cat stalking a toy",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a baby engaging with a cat, indicating a cat's presence and interaction.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xa214wy",
+    "decision": "keep",
+    "reason": "The video shows a baby engaging with a cat, indicating a cat's presence and interaction.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

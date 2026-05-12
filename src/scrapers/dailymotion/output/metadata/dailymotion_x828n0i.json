@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x828n0i",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x828n0i_video.mp4",
+  "audio_path": "output/videos/dailymotion_x828n0i_audio.mp3",
+  "duration_sec": 48,
+  "duration_seconds": 48.0,
+  "title": "De la nourriture pour humains  Très peu pour ce chat !",
+  "webpage_url": "https://www.dailymotion.com/video/x828n0i",
+  "dm_id": "x828n0i",
+  "views_total": 3050,
+  "view_count": 3050,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Société",
+    "Vidéos"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Ce chat n’aime pas le changement. Les bons petits plats cuisinés de maman, très peu pour lui. Peu importe ce que sa maîtresse lui propose,  rien ne lui convient. La cuisine des humains lui donne la nausée ! ",
+  "created_time": 1624634513,
+  "search_query": "chat qui miaule pour de la nourriture",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a cat's preference and behavior regarding food.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x828n0i",
+    "decision": "keep",
+    "reason": "The description indicates a cat's preference and behavior regarding food.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

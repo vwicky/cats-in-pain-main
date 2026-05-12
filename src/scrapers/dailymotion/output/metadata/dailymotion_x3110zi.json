@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3110zi",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3110zi_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3110zi_audio.mp3",
+  "duration_sec": 11,
+  "duration_seconds": 11.0,
+  "title": "Кот подонок)))",
+  "webpage_url": "https://www.dailymotion.com/video/x3110zi",
+  "dm_id": "x3110zi",
+  "views_total": 4544,
+  "view_count": 4544,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Кот подонок)))",
+  "created_time": 1439157546,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat is involved.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3110zi",
+    "decision": "keep",
+    "reason": "The title suggests a cat is involved.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

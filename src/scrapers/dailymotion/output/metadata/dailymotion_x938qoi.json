@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x938qoi",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x938qoi_video.mp4",
+  "audio_path": "output/videos/dailymotion_x938qoi_audio.mp3",
+  "duration_sec": 32,
+  "duration_seconds": 32.0,
+  "title": "Dancing Cat 2 | Funny Cat | Cat Dance",
+  "webpage_url": "https://www.dailymotion.com/video/x938qoi",
+  "dm_id": "x938qoi",
+  "views_total": 997,
+  "view_count": 997,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "Dancing Cat",
+    "Funny Cat",
+    "Cat Dance",
+    "Funny Videos"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "en",
+  "description": "#DancingCat <br />#FunnyCat <br />#Cat Dance",
+  "created_time": 1722410540,
+  "search_query": "cat chattering",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a funny cat dance, indicating playful behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x938qoi",
+    "decision": "keep",
+    "reason": "The title suggests a funny cat dance, indicating playful behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

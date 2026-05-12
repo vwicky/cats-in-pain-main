@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x390tuh",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x390tuh_video.mp4",
+  "audio_path": "output/videos/dailymotion_x390tuh_audio.mp3",
+  "duration_sec": 16,
+  "duration_seconds": 16.0,
+  "title": "Кот подпевает!",
+  "webpage_url": "https://www.dailymotion.com/video/x390tuh",
+  "dm_id": "x390tuh",
+  "views_total": 8552,
+  "view_count": 8552,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1444347016,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat vocalizing or engaging in a playful interaction.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x390tuh",
+    "decision": "keep",
+    "reason": "The title suggests a cat vocalizing or engaging in a playful interaction.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

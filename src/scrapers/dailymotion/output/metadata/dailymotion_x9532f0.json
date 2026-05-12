@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x9532f0",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9532f0_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9532f0_audio.mp3",
+  "duration_sec": 58,
+  "duration_seconds": 58.0,
+  "title": "Cómo Afrontan Los Animales La Pérdida Y El Duelo",
+  "webpage_url": "https://www.dailymotion.com/video/x9532f0",
+  "dm_id": "x9532f0",
+  "views_total": 2702,
+  "view_count": 2702,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Guardian",
+    "Ciencia",
+    "Muerte",
+    "Animales",
+    "Gato",
+    "Sentimientos",
+    "Perro",
+    "Mascotas",
+    "Estrés",
+    "Mascota"
+  ],
+  "channel": "lifestyle",
+  "channel_title": "lifestyle",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "¿Te has preguntado alguna vez si tu mascota puede afrontar la pérdida de otra mascota o de su dueño? Lo cierto es que la ciencia aún no lo tiene claro. <br /><br />Algunos estudios demuestran que, cuando muere otro gato, los gatos pueden mostrar signos de estrés, como buscar más atención, maullar más e incluso perder el apetito.  <br /><br />Pero la mayoría de estos hallazgos proceden de las observaciones de los dueños, que pueden estar influidas por su propia tristeza. <br /><br />Por otra parte, hay quien dice que estos comportamientos pueden ser sólo reacciones instintivas a un entorno que ha cambiado bruscamente: señal de peligro, más que un verdadero duelo.  <br /><br />Además, se han registrado casos de animales que lamen o muerden los restos de sus dueños, lo que podría ser un intento de revivirlos.  <br /><br />Así que aún no estamos seguros de si los animales sienten realmente pena o si sólo reaccionan a los cambios del entorno.",
+  "created_time": 1725373030,
+  "search_query": "comportamiento agresivo de los gatos",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Discusses how animals, including cats, cope with loss and stress.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9532f0",
+    "decision": "keep",
+    "reason": "Discusses how animals, including cats, cope with loss and stress.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

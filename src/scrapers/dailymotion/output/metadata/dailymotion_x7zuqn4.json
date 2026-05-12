@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x7zuqn4",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7zuqn4_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7zuqn4_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "Kater verzieht Gesicht wenn er gestreichelt wird",
+  "webpage_url": "https://www.dailymotion.com/video/x7zuqn4",
+  "dm_id": "x7zuqn4",
+  "views_total": 856,
+  "view_count": 856,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "de",
+  "query_language": "German",
+  "description": "Wenn der bengalische Kater, Prime, am Kinn gestreichelt wird, verzieht er sein Gesicht zu einer Grimasse! Sein Besitzer liebt die Reaktion der Katze so sehr, dass er sie filmen musste.",
+  "created_time": 1615453365,
+  "search_query": "Verhalten einer verletzten Katze",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat reacting to being petted, which is relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7zuqn4",
+    "decision": "keep",
+    "reason": "The video features a cat reacting to being petted, which is relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,32 @@
+Lighting × blur — snippet counts and percentages
+========================================================================================
+Same filter as fig_06_lighting_blur_heatmap: lighting and blur must be in fixed vocabularies.
+Lighting rows sorted by row total (blur none + mild + severe), descending.
+gpt_blur column order: none, mild, severe.
+
+Counts
+gpt_lighting          none      mild    severe  row_total
+---------------------------------------------------------
+normal                4459      1387         8       5854
+dim                    464       609        29       1102
+bright                 298        29         0        327
+dark                    11        18         2         31
+overexposed              1         3         0          4
+---------------------------------------------------------
+column_total          5233      2046        39       7318
+
+Within-row blur share (% of snippets in that lighting row; columns sum to 100%).
+gpt_lighting         none %     mild %   severe %
+------------------------------------------------
+normal                76.2%      23.7%       0.1%
+dim                   42.1%      55.3%       2.6%
+bright                91.1%       8.9%       0.0%
+dark                  35.5%      58.1%       6.5%
+overexposed           25.0%      75.0%       0.0%
+
+Marginal blur share (% of all snippets in table, same column totals as above).
+none                  71.5%
+mild                  28.0%
+severe                 0.5%
+
+Grand total snippets in counts table: 7318 (manifest rows 7318; rows excluded when lighting/blur missing or outside vocabularies).

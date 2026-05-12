@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x10nhw2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x10nhw2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x10nhw2_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Gato pegando a mão da dona para fazer cafune",
+  "webpage_url": "https://www.dailymotion.com/video/x10nhw2",
+  "dm_id": "x10nhw2",
+  "views_total": 530,
+  "view_count": 530,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "",
+  "created_time": 1370557855,
+  "search_query": "gatos chamando para acasalar",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Shows a cat engaging in a behavior with its owner.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x10nhw2",
+    "decision": "keep",
+    "reason": "Shows a cat engaging in a behavior with its owner.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

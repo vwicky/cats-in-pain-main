@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x9nn9t4",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9nn9t4_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9nn9t4_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "Cat has internet divided with funny yet slightly concerning behavior during detox",
+  "webpage_url": "https://www.dailymotion.com/video/x9nn9t4",
+  "dm_id": "x9nn9t4",
+  "views_total": 579,
+  "view_count": 579,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Kota Samarahan",
+    "Malaysia",
+    "Shareable",
+    "Entertainment",
+    "Funny",
+    "Cat",
+    "Animal Antics",
+    "Cat Movements",
+    "Detox",
+    "Toxins"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "Even going through an uncomfortable experience wasn’t enough to stop the adorable star of this clip from being an absolute entertainer. <br /><br />\"My cat in this video was not sick,\" the filmer, Erwinnia, told WooGlobe. \"She was just eating leaves to get rid of toxins in her body. She’s amazing—she even vomited into the drain. Her name is Kitty Remaya.\"<br /><br />As the comments on Erwinnia’s TikTok show, viewers are torn between finding the kitty’s moves hilarious and feeling concerned for her well-being. Thankfully, Erwinnia confirmed that there’s nothing to worry about.<br /><br /><br />WooGlobe Ref : WGA311752<br />For licensing and to use this video, please email licensing@wooglobe.com",
+  "created_time": 1753617678,
+  "search_query": "cats battling for territory",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Video features a cat engaging in detox behavior, which is relevant to cat health.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9nn9t4",
+    "decision": "keep",
+    "reason": "Video features a cat engaging in detox behavior, which is relevant to cat health.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_xamb1y",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xamb1y_video.mp4",
+  "audio_path": "output/videos/dailymotion_xamb1y_audio.mp3",
+  "duration_sec": 23,
+  "duration_seconds": 23.0,
+  "title": "Zsynchronizowane koty",
+  "webpage_url": "https://www.dailymotion.com/video/xamb1y",
+  "dm_id": "xamb1y",
+  "views_total": 629,
+  "view_count": 629,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "koty",
+    "śmieszne"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "moje koty i ich synchroniczne ruchy",
+  "created_time": 1253997956,
+  "search_query": "głośne koty wideo",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features synchronized movements of cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xamb1y",
+    "decision": "keep",
+    "reason": "The video features synchronized movements of cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

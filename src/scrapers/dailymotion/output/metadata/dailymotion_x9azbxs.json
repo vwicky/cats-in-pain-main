@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x9azbxs",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9azbxs_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9azbxs_audio.mp3",
+  "duration_sec": 59,
+  "duration_seconds": 59.0,
+  "title": "Sheffield vet Cat Henstridge has cautioned pet owners about Christmas treats",
+  "webpage_url": "https://www.dailymotion.com/video/x9azbxs",
+  "dm_id": "x9azbxs",
+  "views_total": 5940,
+  "view_count": 5940,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Sheffield",
+    "The Star",
+    "South Yorkshire",
+    "News",
+    "Pets",
+    "dogs",
+    "cats",
+    "vet",
+    "Christmas"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "en",
+  "query_language": "English",
+  "description": "Sheffield vet Cat Henstridge has cautioned pet owners which festive treats they should keep out of reach this Christmas - including chocolate, stuffing, mince pies and snow globes.",
+  "created_time": 1734516697,
+  "search_query": "cat at vet checkup",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses pet care related to cats, which is relevant to real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9azbxs",
+    "decision": "keep",
+    "reason": "The video discusses pet care related to cats, which is relevant to real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x9eb3hy",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9eb3hy_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9eb3hy_audio.mp3",
+  "duration_sec": 46,
+  "duration_seconds": 46.0,
+  "title": "Święta Gertruda  z Nivelles - patronka kotów i ich opiekunów",
+  "webpage_url": "https://www.dailymotion.com/video/x9eb3hy",
+  "dm_id": "x9eb3hy",
+  "views_total": 1601,
+  "view_count": 1601,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "święta",
+    "koty"
+  ],
+  "channel": "school",
+  "channel_title": "school",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "Czy katolik może modlić się za kota? Jak Getruda stala się patronką kotów? Do kogo modlić się za opiekunów zwierząt domowych?",
+  "created_time": 1739534051,
+  "search_query": "głośne koty wideo",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses St. Gertrude, the patron saint of cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9eb3hy",
+    "decision": "keep",
+    "reason": "The video discusses St. Gertrude, the patron saint of cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

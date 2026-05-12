@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x93ry7o",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x93ry7o_video.mp4",
+  "audio_path": "output/videos/dailymotion_x93ry7o_audio.mp3",
+  "duration_sec": 23,
+  "duration_seconds": 23.0,
+  "title": "Bombeiro faz respiração boca a boca durante resgate de filhote de gato em Quixadá",
+  "webpage_url": "https://www.dailymotion.com/video/x93ry7o",
+  "dm_id": "x93ry7o",
+  "views_total": 661,
+  "view_count": 661,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "bombeiros",
+    "resgate",
+    "filhote",
+    "gato",
+    "boca a boca"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Um bombeiro militar utilizou técnicas de reanimação, entre elas a respiração boca a boca, para o resgate de um filhote de gato em uma residência na cidade de Quixadá, a 169 quilômetros (km) de Fortaleza. A ocorrência foi registrada durante a última quarta-feira, 7, quando outros quatro recém-nascidos foram socorridos.",
+  "created_time": 1723216215,
+  "search_query": "gato na clínica veterinária",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a cat rescue and medical intervention.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x93ry7o",
+    "decision": "keep",
+    "reason": "The video involves a cat rescue and medical intervention.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

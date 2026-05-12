@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8tompk",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8tompk_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8tompk_audio.mp3",
+  "duration_sec": 31,
+  "duration_seconds": 31.0,
+  "title": "El emotivo reencuentro entre un gato y su dueña el felino sobrevivió 8 días tras el incendio de Valencia",
+  "webpage_url": "https://www.dailymotion.com/video/x8tompk",
+  "dm_id": "x8tompk",
+  "views_total": 98778,
+  "view_count": 98778,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1709307092,
+  "search_query": "gatos siseando entre ellos",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's emotional reunion after a traumatic event.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8tompk",
+    "decision": "keep",
+    "reason": "The title suggests a cat's emotional reunion after a traumatic event.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

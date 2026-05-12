@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x2b1kvv",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2b1kvv_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2b1kvv_audio.mp3",
+  "duration_sec": 24,
+  "duration_seconds": 24.0,
+  "title": "Cat's poem Listen Political Poetry Of Cat  for more videos visit our blogs http://funland3.blogspot.com/ http://11points.blogspot.com/",
+  "webpage_url": "https://www.dailymotion.com/video/x2b1kvv",
+  "dm_id": "x2b1kvv",
+  "views_total": 2221,
+  "view_count": 2221,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "http:funland3.blogspot.com",
+    "http:11points.blogspot.com"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "for more videos visit our blogs <br />http://funland3.blogspot.com/ <br />http://11points.blogspot.com/",
+  "created_time": 1416934512,
+  "search_query": "cat at vet clinic",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat-related poem, which is plausible.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2b1kvv",
+    "decision": "keep",
+    "reason": "The title suggests a cat-related poem, which is plausible.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

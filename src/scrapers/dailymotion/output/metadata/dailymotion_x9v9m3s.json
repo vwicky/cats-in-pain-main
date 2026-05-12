@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9v9m3s",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9v9m3s_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9v9m3s_audio.mp3",
+  "duration_sec": 49,
+  "duration_seconds": 49.0,
+  "title": "Un portiere così non si era mai visto! Il gatto distrae l'attaccante e lui...",
+  "webpage_url": "https://www.dailymotion.com/video/x9v9m3s",
+  "dm_id": "x9v9m3s",
+  "views_total": 5489,
+  "view_count": 5489,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "sport",
+  "channel_title": "sport",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "Un gatto randagio irrompe in campo durante una partita turca, si sdraia in porta e distrae il tiratore facendolo sbagliare. Il video è subito virale.",
+  "created_time": 1765217908,
+  "search_query": "gatto in modalità caccia",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat interrupting a soccer game.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9v9m3s",
+    "decision": "keep",
+    "reason": "The video features a cat interrupting a soccer game.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

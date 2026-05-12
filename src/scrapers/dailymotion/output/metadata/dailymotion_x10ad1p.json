@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x10ad1p",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x10ad1p_video.mp4",
+  "audio_path": "output/videos/dailymotion_x10ad1p_audio.mp3",
+  "duration_sec": 54,
+  "duration_seconds": 54.0,
+  "title": "WOW Cats Meow To Communicate To People Not Each Other",
+  "webpage_url": "https://www.dailymotion.com/video/x10ad1p",
+  "dm_id": "x10ad1p",
+  "views_total": 2851,
+  "view_count": 2851,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cats",
+    "meow",
+    "humans",
+    "sound",
+    "pet",
+    "cat",
+    "talk",
+    "walk",
+    "wow.",
+    "wonderful"
+  ],
+  "channel": "people",
+  "channel_title": "people",
+  "language": "en",
+  "query_language": "English",
+  "description": "\"WOW- Cats Meow To Communicate To People Not Each Other <br /><br />A cats meow can have a lot of meaning when it comes to communication but mostly, the meaning of the meows of cats is to communicate with humans\" <br />For daily dose of entertainment news log on to: http://www.lehren.co <br />Like our Updates: http://www.facebook.com/LehrenEntertainment  <br />Follow our tweets: https://twitter.com/lehrentv",
+  "created_time": 1369750588,
+  "search_query": "cats hissing at each other",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests that the video features cats meowing, which is a vocalization behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x10ad1p",
+    "decision": "keep",
+    "reason": "The title suggests that the video features cats meowing, which is a vocalization behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

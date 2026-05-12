@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x3pugfb",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3pugfb_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3pugfb_audio.mp3",
+  "duration_sec": 12,
+  "duration_seconds": 12.0,
+  "title": "Nunca Intentes Hacer Esto En Casa (Vídeos para morirse de la risa)",
+  "webpage_url": "https://www.dailymotion.com/video/x3pugfb",
+  "dm_id": "x3pugfb",
+  "views_total": 550,
+  "view_count": 550,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "videos de risa",
+    "videos graciosos",
+    "videos de caidas",
+    "amigos",
+    "vine",
+    "bebes",
+    "animales",
+    "bromas",
+    "perros",
+    "gatos"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "es",
+  "query_language": "Portuguese",
+  "description": "Nunca Intentes Hacer Esto En Casa (Vídeos para morirse de la risa).",
+  "created_time": 1454363375,
+  "search_query": "vídeos de gatos barulhentos",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The tags include 'gatos' (cats), suggesting cat-related content.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3pugfb",
+    "decision": "keep",
+    "reason": "The tags include 'gatos' (cats), suggesting cat-related content.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

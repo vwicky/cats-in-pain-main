@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x95hdpy",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x95hdpy_video.mp4",
+  "audio_path": "output/videos/dailymotion_x95hdpy_audio.mp3",
+  "duration_sec": 20,
+  "duration_seconds": 20.0,
+  "title": "Osierocony kociak wspina się na nogę nieznajomego prosząc, by zabrał go ze sobą (video)",
+  "webpage_url": "https://www.dailymotion.com/video/x95hdpy",
+  "dm_id": "x95hdpy",
+  "views_total": 22219,
+  "view_count": 22219,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "Co może się zdarzyć, gdy nocna zmiana w małym hotelu zapowiada się szczególnie spokojnie? Możesz na przykład… zostać adoptowanym przez kota!",
+  "created_time": 1726049730,
+  "search_query": "koty odpoczywające spokojnie",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description suggests a cat seeking adoption, indicating real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x95hdpy",
+    "decision": "keep",
+    "reason": "The description suggests a cat seeking adoption, indicating real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

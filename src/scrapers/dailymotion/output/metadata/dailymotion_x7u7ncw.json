@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x7u7ncw",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7u7ncw_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7u7ncw_audio.mp3",
+  "duration_sec": 36,
+  "duration_seconds": 36.0,
+  "title": "Un cours de ballet à distance avec son chat",
+  "webpage_url": "https://www.dailymotion.com/video/x7u7ncw",
+  "dm_id": "x7u7ncw",
+  "views_total": 140784,
+  "view_count": 140784,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "sport",
+    "danse",
+    "musique",
+    "ballet",
+    "chat"
+  ],
+  "channel": "sport",
+  "channel_title": "sport",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Pendant le confinement, une professeure de ballet donne ses cours en présence de son chat",
+  "created_time": 1590882431,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a ballet class with a cat present, suggesting real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7u7ncw",
+    "decision": "keep",
+    "reason": "The video features a ballet class with a cat present, suggesting real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

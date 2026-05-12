@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x5jqr8g",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5jqr8g_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5jqr8g_audio.mp3",
+  "duration_sec": 23,
+  "duration_seconds": 23.0,
+  "title": "Este gato ladra como un perro, y las cosas se ponen aún más extrañas cuando descubre que está frente a una cámara.",
+  "webpage_url": "https://www.dailymotion.com/video/x5jqr8g",
+  "dm_id": "x5jqr8g",
+  "views_total": 4072,
+  "view_count": 4072,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Gato"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1493199670,
+  "search_query": "postura defensiva de gato",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat behaving unusually, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5jqr8g",
+    "decision": "keep",
+    "reason": "The title suggests a cat behaving unusually, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

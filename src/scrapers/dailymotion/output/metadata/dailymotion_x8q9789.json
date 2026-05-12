@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8q9789",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8q9789_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8q9789_audio.mp3",
+  "duration_sec": 35,
+  "duration_seconds": 35.0,
+  "title": "une plainte déposée pour mise en danger d'autrui à Lignan-sur-Orb",
+  "webpage_url": "https://www.dailymotion.com/video/x8q9789",
+  "dm_id": "x8q9789",
+  "views_total": 1345,
+  "view_count": 1345,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un chasseur tire depuis ce terrain vers les maisons de Laetitia et Jade à Lignan-sur-Orb dans l'Hérault. Un chat gravement blessé. \"Voilà dix ans que j'habite ici. J'ai toujours vu des chasseurs ici\" explique l'un d'elle.",
+  "created_time": 1701782944,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video mentions a cat that is seriously injured, indicating a potential pain or vet context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8q9789",
+    "decision": "keep",
+    "reason": "The video mentions a cat that is seriously injured, indicating a potential pain or vet context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

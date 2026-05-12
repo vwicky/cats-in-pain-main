@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x97wnr6",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x97wnr6_video.mp4",
+  "audio_path": "output/videos/dailymotion_x97wnr6_audio.mp3",
+  "duration_sec": 11,
+  "duration_seconds": 11.0,
+  "title": "Le quitan a un gato su peluche favorito y hay drama total (pero final feliz)",
+  "webpage_url": "https://www.dailymotion.com/video/x97wnr6",
+  "dm_id": "x97wnr6",
+  "views_total": 43452,
+  "view_count": 43452,
+  "likes_total": 6,
+  "like_count": 6,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1729692308,
+  "search_query": "gato feliz ronroneando",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat-related drama, likely involving real cats.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x97wnr6",
+    "decision": "keep",
+    "reason": "The title suggests a cat-related drama, likely involving real cats.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

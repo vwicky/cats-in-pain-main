@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x56pgl",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x56pgl_video.mp4",
+  "audio_path": "output/videos/dailymotion_x56pgl_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "Mimi and the two talking cats",
+  "webpage_url": "https://www.dailymotion.com/video/x56pgl",
+  "dm_id": "x56pgl",
+  "views_total": 836,
+  "view_count": 836,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "MiMi",
+    "Talking",
+    "cats"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "fr",
+  "description": "",
+  "created_time": 1208982165,
+  "search_query": "cat talking",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title mentions talking cats, which implies vocalization.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x56pgl",
+    "decision": "keep",
+    "reason": "The title mentions talking cats, which implies vocalization.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

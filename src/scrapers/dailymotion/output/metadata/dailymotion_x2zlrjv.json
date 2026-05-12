@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x2zlrjv",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2zlrjv_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2zlrjv_audio.mp3",
+  "duration_sec": 57,
+  "duration_seconds": 57.0,
+  "title": "Kitty vs. Mirror(ipad)",
+  "webpage_url": "https://www.dailymotion.com/video/x2zlrjv",
+  "dm_id": "x2zlrjv",
+  "views_total": 7163,
+  "view_count": 7163,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "Sorry about quality I am new to Dailymotion",
+  "created_time": 1438132286,
+  "search_query": "calm kitty moments",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Similar to the other 'Kitty vs. Mirror' video, it suggests real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2zlrjv",
+    "decision": "keep",
+    "reason": "Similar to the other 'Kitty vs. Mirror' video, it suggests real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

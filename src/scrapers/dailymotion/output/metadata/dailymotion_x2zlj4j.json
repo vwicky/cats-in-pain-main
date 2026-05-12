@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x2zlj4j",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2zlj4j_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2zlj4j_audio.mp3",
+  "duration_sec": 43,
+  "duration_seconds": 43.0,
+  "title": "Happy Cat Purring(ipad)",
+  "webpage_url": "https://www.dailymotion.com/video/x2zlj4j",
+  "dm_id": "x2zlj4j",
+  "views_total": 16860,
+  "view_count": 16860,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "en",
+  "description": "",
+  "created_time": 1438126071,
+  "search_query": "cat purring",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat purring, which is a typical cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2zlj4j",
+    "decision": "keep",
+    "reason": "The title suggests a cat purring, which is a typical cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

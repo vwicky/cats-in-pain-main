@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x87lz3y",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x87lz3y_video.mp4",
+  "audio_path": "output/videos/dailymotion_x87lz3y_audio.mp3",
+  "duration_sec": 52,
+  "duration_seconds": 52.0,
+  "title": "Norman en deuil après la disparition de son chat Sergio !",
+  "webpage_url": "https://www.dailymotion.com/video/x87lz3y",
+  "dm_id": "x87lz3y",
+  "views_total": 1770,
+  "view_count": 1770,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "uuid_a73e4d1f-67a7-4d9a-af7f-df449b8e9719",
+    "guid_104605",
+    "norman",
+    "chat",
+    "hommage",
+    "omg"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1643974089,
+  "search_query": "chat en convalescence après une opération",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video is about a person mourning the loss of their cat, indicating emotional behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x87lz3y",
+    "decision": "keep",
+    "reason": "The video is about a person mourning the loss of their cat, indicating emotional behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

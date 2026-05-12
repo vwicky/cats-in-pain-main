@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8qfz3w",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8qfz3w_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8qfz3w_audio.mp3",
+  "duration_sec": 32,
+  "duration_seconds": 32.0,
+  "title": "Gato preso no topo de poste salta enquanto tentam resgatá-lo",
+  "webpage_url": "https://www.dailymotion.com/video/x8qfz3w",
+  "dm_id": "x8qfz3w",
+  "views_total": 693,
+  "view_count": 693,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Gato preso no topo de poste salta enquanto tentam resgatá-lo",
+  "created_time": 1702287353,
+  "search_query": "gato doente no veterinário",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat stuck on a pole and being rescued.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8qfz3w",
+    "decision": "keep",
+    "reason": "The video features a cat stuck on a pole and being rescued.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

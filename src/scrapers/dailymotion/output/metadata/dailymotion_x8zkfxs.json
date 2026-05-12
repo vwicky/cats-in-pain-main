@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8zkfxs",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8zkfxs_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8zkfxs_audio.mp3",
+  "duration_sec": 32,
+  "duration_seconds": 32.0,
+  "title": "Veja momento que motorista atinge C4 estacionado para não atropelar gato",
+  "webpage_url": "https://www.dailymotion.com/video/x8zkfxs",
+  "dm_id": "x8zkfxs",
+  "views_total": 13757,
+  "view_count": 13757,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Veja momento que motorista atinge C4 estacionado para não atropelar gato",
+  "created_time": 1717422197,
+  "search_query": "gatos chamando para acasalar",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Involves a cat in a potentially dangerous situation.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8zkfxs",
+    "decision": "keep",
+    "reason": "Involves a cat in a potentially dangerous situation.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

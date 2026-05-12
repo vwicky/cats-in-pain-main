@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8p8ajk",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8p8ajk_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8p8ajk_audio.mp3",
+  "duration_sec": 52,
+  "duration_seconds": 52.0,
+  "title": "Ustawili ukrytą kamerę, aby sprawdzić, czy ktoś pomoże kociakowi. Nagranie łamie serce",
+  "webpage_url": "https://www.dailymotion.com/video/x8p8ajk",
+  "dm_id": "x8p8ajk",
+  "views_total": 1383,
+  "view_count": 1383,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "Na filmiku widać, jak wiele ludzi pozostawało obojętnymi. Przechodzą obok potrzebującego kotka, jak gdyby nigdy nic.",
+  "created_time": 1698745889,
+  "search_query": "chora kotka u weterynarza",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a kitten in need, suggesting a cat-related context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8p8ajk",
+    "decision": "keep",
+    "reason": "The video features a kitten in need, suggesting a cat-related context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

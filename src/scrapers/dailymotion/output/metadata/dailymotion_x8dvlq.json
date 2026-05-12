@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x8dvlq",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8dvlq_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8dvlq_audio.mp3",
+  "duration_sec": 22,
+  "duration_seconds": 22.0,
+  "title": "Promenade avec Orianne",
+  "webpage_url": "https://www.dailymotion.com/video/x8dvlq",
+  "dm_id": "x8dvlq",
+  "views_total": 1147,
+  "view_count": 1147,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "SPA",
+    "ORGEVAL",
+    "REFUGE",
+    "ANIMAUX",
+    "CHIENS",
+    "CHATS",
+    "ADOPTION",
+    "ADOPTER",
+    "SAUVETAGE"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1234727991,
+  "search_query": "compilation de combats de chats",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video is related to animal adoption, including cats.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8dvlq",
+    "decision": "keep",
+    "reason": "The video is related to animal adoption, including cats.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

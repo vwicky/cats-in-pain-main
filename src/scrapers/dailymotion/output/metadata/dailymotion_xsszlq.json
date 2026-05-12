@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_xsszlq",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xsszlq_video.mp4",
+  "audio_path": "output/videos/dailymotion_xsszlq_audio.mp3",
+  "duration_sec": 23,
+  "duration_seconds": 23.0,
+  "title": "Массаж от кота Василия",
+  "webpage_url": "https://www.dailymotion.com/video/xsszlq",
+  "dm_id": "xsszlq",
+  "views_total": 1490,
+  "view_count": 1490,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "массаж от кота василия"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Массаж от кота Василия",
+  "created_time": 1344923612,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat giving a massage, indicating playful or affectionate behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xsszlq",
+    "decision": "keep",
+    "reason": "The video features a cat giving a massage, indicating playful or affectionate behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

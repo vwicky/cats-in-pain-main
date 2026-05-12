@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x8w872o",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8w872o_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8w872o_audio.mp3",
+  "duration_sec": 53,
+  "duration_seconds": 53.0,
+  "title": "Terremoto em Taiwan: câmera registra gatos assustados com forte tremor",
+  "webpage_url": "https://www.dailymotion.com/video/x8w872o",
+  "dm_id": "x8w872o",
+  "views_total": 1172,
+  "view_count": 1172,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Noticias",
+    "Últimas Notícias",
+    "Portal Terra",
+    "Terra"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Spanish",
+  "description": "Terremoto em Taiwan: câmera registra gatos assustados com forte tremor",
+  "created_time": 1712154594,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features cats reacting to an earthquake, indicating real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8w872o",
+    "decision": "keep",
+    "reason": "The video features cats reacting to an earthquake, indicating real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3b95rx",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3b95rx_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3b95rx_audio.mp3",
+  "duration_sec": 39,
+  "duration_seconds": 39.0,
+  "title": "Нападение кошки на человека... Шокирующее видео...",
+  "webpage_url": "https://www.dailymotion.com/video/x3b95rx",
+  "dm_id": "x3b95rx",
+  "views_total": 29928,
+  "view_count": 29928,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Нападение кошки на человека... Шокирующее видео...",
+  "created_time": 1445984856,
+  "search_query": "кошки, шипящие на птиц",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat attacking a person, indicating agonistic behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3b95rx",
+    "decision": "keep",
+    "reason": "The video features a cat attacking a person, indicating agonistic behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

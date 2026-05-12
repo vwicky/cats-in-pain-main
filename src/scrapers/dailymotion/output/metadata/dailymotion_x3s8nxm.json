@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3s8nxm",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3s8nxm_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3s8nxm_audio.mp3",
+  "duration_sec": 33,
+  "duration_seconds": 33.0,
+  "title": "Супер смешные кошки и дети. Ребенок и кошка. Смешные приколы с животными",
+  "webpage_url": "https://www.dailymotion.com/video/x3s8nxm",
+  "dm_id": "x3s8nxm",
+  "views_total": 2041,
+  "view_count": 2041,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "cats",
+    "fun",
+    "prikoli",
+    "video",
+    "clip",
+    "best",
+    "rolik",
+    "смешно",
+    "comedy"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1455545682,
+  "search_query": "расслабленная кошка спит",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests funny interactions between cats and children, indicating real animal behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3s8nxm",
+    "decision": "keep",
+    "reason": "The title suggests funny interactions between cats and children, indicating real animal behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

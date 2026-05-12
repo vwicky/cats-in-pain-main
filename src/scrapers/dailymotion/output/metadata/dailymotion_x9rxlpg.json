@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x9rxlpg",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9rxlpg_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9rxlpg_audio.mp3",
+  "duration_sec": 21,
+  "duration_seconds": 21.0,
+  "title": "Il sauve un chat piégé par la marée mais il n'est pas si sympa que ça",
+  "webpage_url": "https://www.dailymotion.com/video/x9rxlpg",
+  "dm_id": "x9rxlpg",
+  "views_total": 1041,
+  "view_count": 1041,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "drole",
+    "animal",
+    "sauver",
+    "insolite",
+    "mignon",
+    "fun",
+    "chat",
+    "chaton"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Il sauve un chat piégé par la marée mais il n'est pas si sympa que ça<br />Saved kitty",
+  "created_time": 1760527113,
+  "search_query": "comportement d'un chat blessé",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description suggest a cat rescue scenario.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9rxlpg",
+    "decision": "keep",
+    "reason": "The title and description suggest a cat rescue scenario.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

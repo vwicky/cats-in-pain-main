@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x9tzp9q",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9tzp9q_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9tzp9q_audio.mp3",
+  "duration_sec": 46,
+  "duration_seconds": 46.0,
+  "title": "La tragique histoire du chat Rémi condamné à rester chez lui",
+  "webpage_url": "https://www.dailymotion.com/video/x9tzp9q",
+  "dm_id": "x9tzp9q",
+  "views_total": 9283,
+  "view_count": 9283,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Dans l’Hérault, une maîtresse a été condamnée pour les promenades de son chat.",
+  "created_time": 1763458202,
+  "search_query": "posture défensive de chat",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a story about a cat, which is plausible.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9tzp9q",
+    "decision": "keep",
+    "reason": "The title suggests a story about a cat, which is plausible.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

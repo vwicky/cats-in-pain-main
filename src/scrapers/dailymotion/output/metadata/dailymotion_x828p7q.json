@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x828p7q",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x828p7q_video.mp4",
+  "audio_path": "output/videos/dailymotion_x828p7q_audio.mp3",
+  "duration_sec": 35,
+  "duration_seconds": 35.0,
+  "title": "Une vraie amitié est née entre ce chat et cette petite fille autiste",
+  "webpage_url": "https://www.dailymotion.com/video/x828p7q",
+  "dm_id": "x828p7q",
+  "views_total": 4443,
+  "view_count": 4443,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Familles",
+    "aufeminin.TV"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Cette petite fille de 6 ans est autiste et mondialement connue pour ses peintures. Si sa créativité est un don, cela ne l’aide pas à se faire des amis. C’est là qu’intervient son chat Thula. Il l’aide à s’ouvrir aux autres. Un duo de choc !",
+  "created_time": 1624637623,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video describes a cat helping a girl, indicating positive cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x828p7q",
+    "decision": "keep",
+    "reason": "The video describes a cat helping a girl, indicating positive cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

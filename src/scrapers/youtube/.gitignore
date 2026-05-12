@@ -1,0 +1,15 @@
+.venv/
+.ruff_cache/
+__pycache__/
+*.pyc
+.env
+runs/
+logs/
+tmp_downloads/
+dataset/snippets/
+dataset/metadata.jsonl
+models/*.pt
+models/*.pth
+models/*.h5
+!models/.gitkeep
+!global_video_registry.jsonl

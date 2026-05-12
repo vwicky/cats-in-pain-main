@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8mde96",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8mde96_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8mde96_audio.mp3",
+  "duration_sec": 15,
+  "duration_seconds": 15.0,
+  "title": "Conmovedora reacción de gatito al ver video de dueño fallecido",
+  "webpage_url": "https://www.dailymotion.com/video/x8mde96",
+  "dm_id": "x8mde96",
+  "views_total": 5398,
+  "view_count": 5398,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1688844599,
+  "search_query": "gatitos juguetones relajándose",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a kitten reacting to a video of its deceased owner, which suggests emotional behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8mde96",
+    "decision": "keep",
+    "reason": "The video shows a kitten reacting to a video of its deceased owner, which suggests emotional behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

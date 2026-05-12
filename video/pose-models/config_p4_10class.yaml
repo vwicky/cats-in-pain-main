@@ -1,0 +1,86 @@
+# P4 (17-keypoint ViT / ST-GCN) — same as video/pose-models/config.yaml but multiclass
+# head uses the **10 original** fine-grained audio classes (``audio_label_10``) instead
+# of the merged 5-class space (``final_label_5``).
+#
+# Run P4 only at 100% data, e.g.:
+#   python video/pose-models/run_scaling_experiment.py \\
+#     --config video/pose-models/config_p4_10class.yaml --models P4 --fractions 1.0 \\
+#     --experiment-name p4_audio_10class
+
+# ── Data ────────────────────────────────────────────────────
+data:
+  manifest: "src/dataset_construction/manifests/final_dataset_v2.jsonl"
+  pose_v1_dir: "data/dataset/embeddings/pose/labeled"
+  pose_v2_dir: "data/dataset/embeddings/pose/v2"
+  pose_extraction_index: "src/dataset_construction/reports/pose_extraction_index.jsonl"
+  vitpose_qc:
+    filter: true
+    enrichment: "src/dataset_construction/reports/vitpose_qc_enrichment.jsonl"
+    default_ok_if_missing: true
+    attach_enrichment_columns: true
+  n_frames: 35
+  n_keypoints: 17
+  n_channels: 3
+  pose_cache:
+    backend: ram
+
+# ── Label space (10-way = ``labels.classes``; do not set ``classes_5`` here) ─
+labels:
+  classes:
+    - Angry
+    - Defence
+    - Fighting
+    - Happy
+    - HuntingMind
+    - Mating
+    - MotherCall
+    - Paining
+    - Resting
+    - Warning
+  binary_pain_class: "Paining"
+  label_field: "audio_label_10"
+  confidence_field: "audio_high_confidence"
+
+# ── Normalization ────────────────────────────────────────────
+normalization:
+  root_joint: 0
+  scale_joints: [5, 6]
+  clamp_xy: [-0.5, 1.5]
+  drop_low_confidence_frames: true
+  confidence_threshold: 0.10
+
+# ── CV splitting ─────────────────────────────────────────────
+split:
+  n_folds: 5
+  random_state: 42
+  group_field: "cat_id"
+  stratify_field: "audio_label_10"
+
+# ── Data scaling experiment ──────────────────────────────────
+scaling:
+  fractions: [0.10, 0.20, 0.30, 0.50, 0.70, 1.00]
+  n_repeats: 1
+
+# ── Training ────────────────────────────────────────────────
+training:
+  epochs: 1000
+  batch_size: 32
+  optimizer: "adamw"
+  lr: 3.0e-5
+  weight_decay: 0.01
+  scheduler: "cosine"
+  focal_gamma: 2.0
+  use_class_weights: true
+  # Early stopping / best checkpoint: multiclass macro-F1 on the 10-way head.
+  # Top-3 accuracy is still computed every epoch (train_top3_accuracy_5 / val_top3_accuracy_5
+  # in metrics_history.csv) for reporting only — set early_stop_metric to val_top3_accuracy_5
+  # if you want to optimize that instead.
+  early_stop_metric: "val_macro_f1"
+  early_stop_patience: 100
+  early_stop_min_delta: 0.0
+  grad_clip_norm: 1.0
+
+# ── Output ───────────────────────────────────────────────────
+output:
+  runs_dir: "video/pose-models/runs"
+  log_interval_batches: 20

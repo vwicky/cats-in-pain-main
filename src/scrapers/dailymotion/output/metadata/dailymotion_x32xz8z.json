@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x32xz8z",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x32xz8z_video.mp4",
+  "audio_path": "output/videos/dailymotion_x32xz8z_audio.mp3",
+  "duration_sec": 57,
+  "duration_seconds": 57.0,
+  "title": "Кот, который обожает новорожденного малыша!",
+  "webpage_url": "https://www.dailymotion.com/video/x32xz8z",
+  "dm_id": "x32xz8z",
+  "views_total": 6538,
+  "view_count": 6538,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1440464797,
+  "search_query": "счастливый кот, который мурчит",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat interacting positively with a newborn.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x32xz8z",
+    "decision": "keep",
+    "reason": "The title suggests a cat interacting positively with a newborn.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

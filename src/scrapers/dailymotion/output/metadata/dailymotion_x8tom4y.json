@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x8tom4y",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8tom4y_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8tom4y_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "Los bomberos rescatan con vida a un gato ocho días después del incendio de Valencia",
+  "webpage_url": "https://www.dailymotion.com/video/x8tom4y",
+  "dm_id": "x8tom4y",
+  "views_total": 5658,
+  "view_count": 5658,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Valencia",
+    "Incendio"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Según han informado a través de su perfil de 'X',  los bomberos han encontrado al animal mientras hacían labores de recuperación de enseres y documentos en el edificio incendiado. <br /><br />Los efectivos han entregado '\"con gran satisfacción\" el gato a sus cuidadoras. <br />",
+  "created_time": 1709306872,
+  "search_query": "comportamiento agresivo de los gatos",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows firefighters rescuing a cat, which is a relevant context for cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8tom4y",
+    "decision": "keep",
+    "reason": "The video shows firefighters rescuing a cat, which is a relevant context for cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9dp1m2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9dp1m2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9dp1m2_audio.mp3",
+  "duration_sec": 11,
+  "duration_seconds": 11.0,
+  "title": "Gatito en el cristo",
+  "webpage_url": "https://www.dailymotion.com/video/x9dp1m2",
+  "dm_id": "x9dp1m2",
+  "views_total": 950,
+  "view_count": 950,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "tv",
+  "channel_title": "tv",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1738937506,
+  "search_query": "gatitos juguetones relajándose",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat video, though details are sparse.",
+  "gpt_confidence": "low",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9dp1m2",
+    "decision": "keep",
+    "reason": "The title suggests a cat video, though details are sparse.",
+    "confidence": "low",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

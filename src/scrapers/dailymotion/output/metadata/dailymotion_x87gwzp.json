@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x87gwzp",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x87gwzp_video.mp4",
+  "audio_path": "output/videos/dailymotion_x87gwzp_audio.mp3",
+  "duration_sec": 29,
+  "duration_seconds": 29.0,
+  "title": "Diese Katze will nicht bemerkt werden.",
+  "webpage_url": "https://www.dailymotion.com/video/x87gwzp",
+  "dm_id": "x87gwzp",
+  "views_total": 826,
+  "view_count": 826,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "uuid_688455fb-9432-4181-b852-463b4b56834e",
+    "guid_848",
+    "katze",
+    "tier"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "de",
+  "query_language": "German",
+  "description": "",
+  "created_time": 1643731276,
+  "search_query": "Katze, die Beute verfolgt",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat trying to avoid attention, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x87gwzp",
+    "decision": "keep",
+    "reason": "The title suggests a cat trying to avoid attention, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

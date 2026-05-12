@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x6cf8t6",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6cf8t6_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6cf8t6_audio.mp3",
+  "duration_sec": 25,
+  "duration_seconds": 25.0,
+  "title": "La meilleure vidéo de l'année... Tout est réuni en quelques seconde : un pet, un chat, du feu et un fail",
+  "webpage_url": "https://www.dailymotion.com/video/x6cf8t6",
+  "dm_id": "x6cf8t6",
+  "views_total": 4249,
+  "view_count": 4249,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "Drole",
+    "Insolite",
+    "Animal",
+    "fail",
+    "lol",
+    "fun",
+    "meilleur vidéo",
+    "pet",
+    "chat",
+    "drole chat"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "La meilleure vidéo de l'année... Tout est réuni en quelques seconde : un pet, un chat, du feu et un fail",
+  "created_time": 1514627563,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video mentions a cat and includes humorous elements, likely involving real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6cf8t6",
+    "decision": "keep",
+    "reason": "The video mentions a cat and includes humorous elements, likely involving real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

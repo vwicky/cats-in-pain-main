@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_xjksof",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xjksof_video.mp4",
+  "audio_path": "output/videos/dailymotion_xjksof_audio.mp3",
+  "duration_sec": 56,
+  "duration_seconds": 56.0,
+  "title": "un chat joue au bonneteau",
+  "webpage_url": "https://www.dailymotion.com/video/xjksof",
+  "dm_id": "xjksof",
+  "views_total": 607,
+  "view_count": 607,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "joue",
+    "bonneteau"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1309258143,
+  "search_query": "chat heureux qui joue",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat playing a game, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xjksof",
+    "decision": "keep",
+    "reason": "The title suggests a cat playing a game, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

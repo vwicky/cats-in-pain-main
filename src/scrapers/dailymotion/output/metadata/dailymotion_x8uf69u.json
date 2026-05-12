@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8uf69u",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8uf69u_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8uf69u_audio.mp3",
+  "duration_sec": 9,
+  "duration_seconds": 9.0,
+  "title": "Cat Gags At Cinnamon Roll",
+  "webpage_url": "https://www.dailymotion.com/video/x8uf69u",
+  "dm_id": "x8uf69u",
+  "views_total": 1112,
+  "view_count": 1112,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "Occurred on November 21, 2023 / St Paul Park, Minnesota, USA<br /><br />: \"Milo rejects a cinnamon roll. He always wants a smell but he’s hesitant to take a bite.\"",
+  "created_time": 1710427847,
+  "search_query": "cat at vet checkup",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat reacting to food, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8uf69u",
+    "decision": "keep",
+    "reason": "The video features a cat reacting to food, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

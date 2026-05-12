@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x33bg79",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x33bg79_video.mp4",
+  "audio_path": "output/videos/dailymotion_x33bg79_audio.mp3",
+  "duration_sec": 31,
+  "duration_seconds": 31.0,
+  "title": "Кот открывает банку !!!",
+  "webpage_url": "https://www.dailymotion.com/video/x33bg79",
+  "dm_id": "x33bg79",
+  "views_total": 18150,
+  "view_count": 18150,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1440709431,
+  "search_query": "кот, выслеживающий добычу",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat opening a can, indicating a real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x33bg79",
+    "decision": "keep",
+    "reason": "The title suggests a cat opening a can, indicating a real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

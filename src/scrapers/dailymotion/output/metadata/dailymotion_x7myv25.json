@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x7myv25",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7myv25_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7myv25_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Meine Katze knetet: die Gründe für dieses Verhalten",
+  "webpage_url": "https://www.dailymotion.com/video/x7myv25",
+  "dm_id": "x7myv25",
+  "views_total": 146638,
+  "view_count": 146638,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Knetet deine Katze deine Bettdecke, Kissen oder sogar deinen Bauch oder deine Oberschenkel? <br /><br />Kneten ist ein natürliches Verhalten, das bei der ersten Fütterung eintritt.  <br />Das Kätzchen übt Druck auf die Zitzen seiner Mutter aus.<br />So stimuliert es die Laktation und erleichtert die Freisetzung von Milch. <br /><br />Aber manchmal behalten Katzen diese Gewohnheit im Erwachsenenalter. Eine zu frühe Entwöhnung (vor 8 bis 10 Wochen) kann dieses Verhalten erklären, aber das ist nicht immer der Fall!  <br /><br />Oft begleitet von einem Schnurren, ist das Kneten eine Quelle des Wohlbefindens für die Katze.  <br />Auf der anderen Seite kann die Katze Stress abbauen oder den Wunsch verspüren, das eigene Territorium zu markieren.",
+  "created_time": 1571815433,
+  "search_query": "Katze nach der Impfung",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description discuss a natural cat behavior related to kneading.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7myv25",
+    "decision": "keep",
+    "reason": "The title and description discuss a natural cat behavior related to kneading.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

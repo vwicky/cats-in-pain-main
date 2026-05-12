@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8oyb81",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8oyb81_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8oyb81_audio.mp3",
+  "duration_sec": 40,
+  "duration_seconds": 40.0,
+  "title": "Edinburgh cat records world's loudest purr according to owners",
+  "webpage_url": "https://www.dailymotion.com/video/x8oyb81",
+  "dm_id": "x8oyb81",
+  "views_total": 908,
+  "view_count": 908,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "en",
+  "query_language": "en",
+  "description": "An Edinburgh couple say their seven-year-old cat has broken the Guinness world record for loudest purr – just days after an English cat made it into the history books. <br /><br />Craig and Debbie Stephens from Portobello claim their cat Tiggy has smashed the record for the loudest purr by a living cat after they recorded their pet belting out a whopping 66.1 decibel purr.<br /><br />Craig and Debbie have sent the video to the Guinness world records, requesting that an adjudicator visits Tiggy so he can claim his title. <br />",
+  "created_time": 1697730186,
+  "search_query": "cat purring",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video focuses on a cat's loud purr, indicating vocalization behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8oyb81",
+    "decision": "keep",
+    "reason": "The video focuses on a cat's loud purr, indicating vocalization behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

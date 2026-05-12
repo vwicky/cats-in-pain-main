@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x877828",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x877828_video.mp4",
+  "audio_path": "output/videos/dailymotion_x877828_audio.mp3",
+  "duration_sec": 19,
+  "duration_seconds": 19.0,
+  "title": "StopAbandon",
+  "webpage_url": "https://www.dailymotion.com/video/x877828",
+  "dm_id": "x877828",
+  "views_total": 11209,
+  "view_count": 11209,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "abandon",
+    "animal de compagnie",
+    "chats",
+    "chiens",
+    "refuge",
+    "spa"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Adopter un animal doit être un acte réfléchi. <br />Si offrir un chat ou un chien peut sembler être une bonne idée, il ne faut pas oublier qu'un animal de compagnie n’est pas un cadeau comme les autres. Il s'agit en effet d'une décision importante, qui ne doit pas s'effectuer sur un coup de tête ou de cœur. Chaque année entre 750 000 et 1 million d’animaux de compagnie sont adoptés en France, notre pays détient aussi le triste record du nombre d’abandons.<br />",
+  "created_time": 1642610041,
+  "search_query": "chat qui aime être caressé",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Focuses on responsible pet ownership, relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x877828",
+    "decision": "keep",
+    "reason": "Focuses on responsible pet ownership, relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

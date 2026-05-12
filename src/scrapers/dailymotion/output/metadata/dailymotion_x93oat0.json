@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x93oat0",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x93oat0_video.mp4",
+  "audio_path": "output/videos/dailymotion_x93oat0_audio.mp3",
+  "duration_sec": 58,
+  "duration_seconds": 58.0,
+  "title": "La magia espiritual de los gatos 😺",
+  "webpage_url": "https://www.dailymotion.com/video/x93oat0",
+  "dm_id": "x93oat0",
+  "views_total": 1292,
+  "view_count": 1292,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Gatos",
+    "espiritual",
+    "magia",
+    "esoterismo",
+    "gato"
+  ],
+  "channel": "lifestyle",
+  "channel_title": "lifestyle",
+  "language": "es",
+  "query_language": "Portuguese",
+  "description": "A los gatos se les atribuye un poder espiritual único 🐱✨. Aunque no sabemos si pueden protegernos de las malas vibras, verlos dormir en posiciones extrañas siempre nos hace sonreír. <br />¿Cuál es tu parte favorita de compartir la vida con un michi? 💖 <br /><br />#Gatos #Michi #MagiaEspiritual #AmorAnimal #Mascotas2024 <br /><br />👉Mira más contenido en: Ideas y actividades para celebrar el Día del gato en compañía de tu michi | https://bit.ly/3SGqyaL",
+  "created_time": 1723059492,
+  "search_query": "sons de alerta de gato",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description suggest a focus on cats and their behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x93oat0",
+    "decision": "keep",
+    "reason": "The title and description suggest a focus on cats and their behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

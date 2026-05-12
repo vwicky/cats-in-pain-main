@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x8geqfm",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8geqfm_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8geqfm_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Kucing Peliharaan Yang Lucu",
+  "webpage_url": "https://www.dailymotion.com/video/x8geqfm",
+  "dm_id": "x8geqfm",
+  "views_total": 1653,
+  "view_count": 1653,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Animal",
+    "hewan",
+    "cat",
+    "kucing",
+    "pet",
+    "peliharaan"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "id",
+  "query_language": "English",
+  "description": "Kucing hewan peliharaan yang lucu dan lincah",
+  "created_time": 1671290462,
+  "search_query": "cat after vaccination",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Description indicates content about cute and lively cats.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8geqfm",
+    "decision": "keep",
+    "reason": "Description indicates content about cute and lively cats.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

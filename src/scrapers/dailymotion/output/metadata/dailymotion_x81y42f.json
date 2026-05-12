@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x81y42f",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x81y42f_video.mp4",
+  "audio_path": "output/videos/dailymotion_x81y42f_audio.mp3",
+  "duration_sec": 40,
+  "duration_seconds": 40.0,
+  "title": "Vídeo: Gato Janta Vestido a Caráter",
+  "webpage_url": "https://www.dailymotion.com/video/x81y42f",
+  "dm_id": "x81y42f",
+  "views_total": 3222,
+  "view_count": 3222,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gato que janta de roupa"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "Spanish",
+  "description": "A cada refeição, um tema. A cada tema, uma roupinha a caráter!<br />Muito fofo, não?<br />Mais gatíneos graciosos:<br />Gatinho mal humorado: veja a montagem desse bolo <br />Conheça Thor, provavelmente o gato mais bonito do mundo <br />",
+  "created_time": 1623663002,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat dressed for meals, suggesting real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x81y42f",
+    "decision": "keep",
+    "reason": "The video features a cat dressed for meals, suggesting real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

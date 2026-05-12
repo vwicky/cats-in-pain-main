@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x97tejy",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x97tejy_video.mp4",
+  "audio_path": "output/videos/dailymotion_x97tejy_audio.mp3",
+  "duration_sec": 41,
+  "duration_seconds": 41.0,
+  "title": "La vie secrète des chats",
+  "webpage_url": "https://www.dailymotion.com/video/x97tejy",
+  "dm_id": "x97tejy",
+  "views_total": 3103,
+  "view_count": 3103,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "plurimedia_1135794",
+    "video_plurimedia",
+    "video_plurimedia_broadcast"
+  ],
+  "channel": "tv",
+  "channel_title": "tv",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Sur des commentaires de Valérie Damidot. Laetitia Barlerin, vétérinaire, titulaire d'un DEA sur le comportement animal, et Thierry Bedossa, vétérinaire-éthologue au Centre hospitalier universitaire de Maison-Alfort ont mis en place un dispositif pour mener une étude comparative avec d'un côté la ville, le XVIIIe arrondissement de Paris, et Vézénobres, un petit village du Gard. Cent chats vont être équipés de colliers GPS et tous leurs mouvements seront ensuite suivis et décryptés.",
+  "created_time": 1729581936,
+  "search_query": "chat malade chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video is about a study on cat behavior, indicating real cat content.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x97tejy",
+    "decision": "keep",
+    "reason": "The video is about a study on cat behavior, indicating real cat content.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3ad5yq",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3ad5yq_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3ad5yq_audio.mp3",
+  "duration_sec": 53,
+  "duration_seconds": 53.0,
+  "title": "кот борется с ребенком",
+  "webpage_url": "https://www.dailymotion.com/video/x3ad5yq",
+  "dm_id": "x3ad5yq",
+  "views_total": 26643,
+  "view_count": 26643,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "кот борется с ребенком",
+  "created_time": 1445369325,
+  "search_query": "кот, выслеживающий добычу",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description indicate a cat fighting with a child, which fits agonistic behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3ad5yq",
+    "decision": "keep",
+    "reason": "The title and description indicate a cat fighting with a child, which fits agonistic behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

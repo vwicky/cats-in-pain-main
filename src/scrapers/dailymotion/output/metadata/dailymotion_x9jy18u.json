@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x9jy18u",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9jy18u_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9jy18u_audio.mp3",
+  "duration_sec": 43,
+  "duration_seconds": 43.0,
+  "title": "Rote Katze verirrt sich im Kuhstall: Mit diesen Konsequenzen hat sie wohl nicht gerechnet (Video)",
+  "webpage_url": "https://www.dailymotion.com/video/x9jy18u",
+  "dm_id": "x9jy18u",
+  "views_total": 1028,
+  "view_count": 1028,
+  "likes_total": 7,
+  "like_count": 7,
+  "tags": [
+    "News Katze"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Mal im Kuhstall nach dem Rechten sehen, das war vermutlich der eigentliche Plan des Kätzchens. Doch dann werden die Kälber auf die Samtpfote aufmerksam.",
+  "created_time": 1748139900,
+  "search_query": "verspielte Kätzchen entspannen",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description suggest a cat exploring a barn, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9jy18u",
+    "decision": "keep",
+    "reason": "The title and description suggest a cat exploring a barn, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

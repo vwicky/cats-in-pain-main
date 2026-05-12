@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3pf3my",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3pf3my_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3pf3my_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "У кота сладкая жизнь, просто лафа",
+  "webpage_url": "https://www.dailymotion.com/video/x3pf3my",
+  "dm_id": "x3pf3my",
+  "views_total": 7290,
+  "view_count": 7290,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "fun",
+    "cat",
+    "prikoli",
+    "video",
+    "clip",
+    "best",
+    "rolik",
+    "смешно",
+    "comedy"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Ukrainian",
+  "description": "",
+  "created_time": 1454156024,
+  "search_query": "ознаки болю у кота у ветеринара",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title suggests a cat enjoying life.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3pf3my",
+    "decision": "keep",
+    "reason": "Title suggests a cat enjoying life.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

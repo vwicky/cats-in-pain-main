@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x3ady7q",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3ady7q_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3ady7q_audio.mp3",
+  "duration_sec": 17,
+  "duration_seconds": 17.0,
+  "title": "Кот и Лошадь=)",
+  "webpage_url": "https://www.dailymotion.com/video/x3ady7q",
+  "dm_id": "x3ady7q",
+  "views_total": 20540,
+  "view_count": 20540,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "киса",
+    "лошаль и кошка"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Кот и Лошадь ))",
+  "created_time": 1445390402,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests interaction between a cat and a horse, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3ady7q",
+    "decision": "keep",
+    "reason": "The title suggests interaction between a cat and a horse, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

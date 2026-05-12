@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x2w5pw",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2w5pw_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2w5pw_audio.mp3",
+  "duration_sec": 50,
+  "duration_seconds": 50.0,
+  "title": "mon chat qui joue avec l'eau",
+  "webpage_url": "https://www.dailymotion.com/video/x2w5pw",
+  "dm_id": "x2w5pw",
+  "views_total": 671,
+  "view_count": 671,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "leau",
+    "fun"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "voici ma chatte qui joue avec l'eau",
+  "created_time": 1188763778,
+  "search_query": "chats qui s'appellent",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Describes a cat playing with water, indicating playful behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2w5pw",
+    "decision": "keep",
+    "reason": "Describes a cat playing with water, indicating playful behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

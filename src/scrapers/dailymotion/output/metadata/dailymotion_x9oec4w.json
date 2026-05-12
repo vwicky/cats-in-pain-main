@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9oec4w",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9oec4w_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9oec4w_audio.mp3",
+  "duration_sec": 27,
+  "duration_seconds": 27.0,
+  "title": "Este gato descubre un aparato para relajarse y no puede separarse de él",
+  "webpage_url": "https://www.dailymotion.com/video/x9oec4w",
+  "dm_id": "x9oec4w",
+  "views_total": 28365,
+  "view_count": 28365,
+  "likes_total": 2,
+  "like_count": 2,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1754657145,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat discovering a relaxation device, indicating real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9oec4w",
+    "decision": "keep",
+    "reason": "The video features a cat discovering a relaxation device, indicating real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

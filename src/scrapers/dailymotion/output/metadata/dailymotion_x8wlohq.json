@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8wlohq",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8wlohq_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8wlohq_audio.mp3",
+  "duration_sec": 20,
+  "duration_seconds": 20.0,
+  "title": "Video. Arrivano al rifugio con il loro gatto di 7 anni: la loro scusa fa cadere le braccia agli operatori",
+  "webpage_url": "https://www.dailymotion.com/video/x8wlohq",
+  "dm_id": "x8wlohq",
+  "views_total": 2572,
+  "view_count": 2572,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "Come si possa abbandonare un animale che ha vissuto con noi per 7 anni è difficile da capire. Eppure è successo a Fig.<br />",
+  "created_time": 1712746130,
+  "search_query": "gatto in clinica veterinaria",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses the abandonment of a cat, relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8wlohq",
+    "decision": "keep",
+    "reason": "The video discusses the abandonment of a cat, relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

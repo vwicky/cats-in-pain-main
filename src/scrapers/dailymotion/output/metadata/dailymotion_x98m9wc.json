@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x98m9wc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x98m9wc_video.mp4",
+  "audio_path": "output/videos/dailymotion_x98m9wc_audio.mp3",
+  "duration_sec": 47,
+  "duration_seconds": 47.0,
+  "title": "不满猫咪屋前大便 老翁捕捉被指虐猫",
+  "webpage_url": "https://www.dailymotion.com/video/x98m9wc",
+  "dm_id": "x98m9wc",
+  "views_total": 1295,
+  "view_count": 1295,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "zh",
+  "query_language": "Japanese",
+  "description": "六旬男子被指不满猫咪常在住所前大便引起臭味，多次驱赶猫咪，日前更以捕鱼网将猫咪抓住后放生户外，警方如今从虐待动物角度调查此案。https://www.kwongwah.com.my/?p=1567953<br /><br />",
+  "created_time": 1730792243,
+  "search_query": "猫の警告音",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a case of animal mistreatment involving cats.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x98m9wc",
+    "decision": "keep",
+    "reason": "The video discusses a case of animal mistreatment involving cats.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

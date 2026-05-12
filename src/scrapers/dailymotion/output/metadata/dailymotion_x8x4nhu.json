@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8x4nhu",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8x4nhu_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8x4nhu_audio.mp3",
+  "duration_sec": 35,
+  "duration_seconds": 35.0,
+  "title": "Gato se agarra a maçaneta de carro e é salvo de enchente",
+  "webpage_url": "https://www.dailymotion.com/video/x8x4nhu",
+  "dm_id": "x8x4nhu",
+  "views_total": 4533,
+  "view_count": 4533,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1713546722,
+  "search_query": "gato en modo caza",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat in a rescue situation, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8x4nhu",
+    "decision": "keep",
+    "reason": "The title suggests a cat in a rescue situation, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

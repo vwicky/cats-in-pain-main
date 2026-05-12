@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x7lxrf",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7lxrf_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7lxrf_audio.mp3",
+  "duration_sec": 32,
+  "duration_seconds": 32.0,
+  "title": "Crazy Cat",
+  "webpage_url": "https://www.dailymotion.com/video/x7lxrf",
+  "dm_id": "x7lxrf",
+  "views_total": 72510,
+  "view_count": 72510,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "crazy",
+    "cat",
+    "animali",
+    "gatti",
+    "fun",
+    "risate",
+    "defaillance",
+    "errori",
+    "botte",
+    "dolori"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "",
+  "created_time": 1228397987,
+  "search_query": "video brevi di gatti",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat behaving in a funny or unusual way.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7lxrf",
+    "decision": "keep",
+    "reason": "The title suggests a cat behaving in a funny or unusual way.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

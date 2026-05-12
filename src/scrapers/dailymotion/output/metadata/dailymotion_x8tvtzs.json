@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8tvtzs",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8tvtzs_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8tvtzs_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Desde hace varios días, un gato espera frente a un edificio: un vecino decide coger el teléfono para ayudarle",
+  "webpage_url": "https://www.dailymotion.com/video/x8tvtzs",
+  "dm_id": "x8tvtzs",
+  "views_total": 7096,
+  "view_count": 7096,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Este gato fue encontrado en Estados Unidos deambulando delante de un edificio. Por suerte, uno de los vecinos del inmueble decidió ayudarlo.",
+  "created_time": 1709638086,
+  "search_query": "comportamiento agresivo de los gatos",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat waiting for help, indicating a real cat behavior context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8tvtzs",
+    "decision": "keep",
+    "reason": "The video features a cat waiting for help, indicating a real cat behavior context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

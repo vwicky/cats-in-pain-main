@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x9h8mk8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9h8mk8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9h8mk8_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Intentan rescatar a dos gatos congelados en la nieve, pero solo se llevan a uno de ellos",
+  "webpage_url": "https://www.dailymotion.com/video/x9h8mk8",
+  "dm_id": "x9h8mk8",
+  "views_total": 3066,
+  "view_count": 3066,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "News gato"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Atrapados en medio de una tormenta de nieve, estos dos gatos estaban sufriendo de lleno los efectos del frío.",
+  "created_time": 1743669991,
+  "search_query": "signos de malestar en gatos",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves rescuing cats from a dangerous situation, indicating a context of pain or distress.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9h8mk8",
+    "decision": "keep",
+    "reason": "The video involves rescuing cats from a dangerous situation, indicating a context of pain or distress.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

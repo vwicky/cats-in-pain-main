@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8rscap",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8rscap_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8rscap_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "Ils aperçoivent un chat dans un égout pluvial et se mobilisent pour lui",
+  "webpage_url": "https://www.dailymotion.com/video/x8rscap",
+  "dm_id": "x8rscap",
+  "views_total": 3855,
+  "view_count": 3855,
+  "likes_total": 9,
+  "like_count": 9,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1706204683,
+  "search_query": "chats se reposant paisiblement",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description suggests a rescue context involving a cat.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8rscap",
+    "decision": "keep",
+    "reason": "The description suggests a rescue context involving a cat.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

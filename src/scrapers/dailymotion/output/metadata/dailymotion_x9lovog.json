@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x9lovog",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9lovog_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9lovog_audio.mp3",
+  "duration_sec": 50,
+  "duration_seconds": 50.0,
+  "title": "Katze reagiert urkomisch, als sie ihr Spiegelbild zum ersten Mal sieht",
+  "webpage_url": "https://www.dailymotion.com/video/x9lovog",
+  "dm_id": "x9lovog",
+  "views_total": 2014,
+  "view_count": 2014,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "PP",
+    "Katze"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Das ungewöhnliche Verhalten eines Kätzchens vor dem Spiegel bringt derzeit Tausende von Internetnutzern zum Lachen. In dem Video ist der Moment zu sehen, in dem das Tier sein eigenes Spiegelbild erkennt und einen regelrechten „Kampf“ mit sich selbst beginnt – eine Szene voller Niedlichkeit und Komik.<br /><br />Der Clip wurde auf dem X-Account (ehemals Twitter) @weirdlilguys veröffentlicht, mit der Bildunterschrift: „Ich kämpfe gegen meine Dämonen“, was die Identifikation der Zuschauer mit der Szene noch verstärkte.<br /><br />Quelle und Bilder: X @weirdlilguys<br /><br />",
+  "created_time": 1750517099,
+  "search_query": "aggressives Verhalten von Katzen",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat reacting to its reflection, showcasing typical cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9lovog",
+    "decision": "keep",
+    "reason": "The video features a cat reacting to its reflection, showcasing typical cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

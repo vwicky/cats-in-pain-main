@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x9ys9ce",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9ys9ce_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9ys9ce_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Chats et chiens secourus après les inondations dans le sud de l'Espagne",
+  "webpage_url": "https://www.dailymotion.com/video/x9ys9ce",
+  "dm_id": "x9ys9ce",
+  "views_total": 588,
+  "view_count": 588,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "spain",
+    "storm",
+    "animals",
+    "pet"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Chats et chiens secourus après les inondations dans le sud de l'Espagne<br /><br />La Guardia Civil a sauvé des animaux de compagnie après l’inondation de maisons à Jerez de la Frontera. De fortes pluies ont fait déborder le Guadalete.<br /><br />LIRE L’ARTICLE : http://fr.euronews.com/2026/01/29/chats-et-chiens-secourus-apres-les-inondations-dans-le-sud-de-lespagne<br /><br />Abonnez-vous à notre chaine. Euronews est disponible sur Dailymotion en 12 langues",
+  "created_time": 1769691791,
+  "search_query": "posture défensive de chat",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses rescued cats, which is relevant to real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9ys9ce",
+    "decision": "keep",
+    "reason": "The video discusses rescued cats, which is relevant to real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

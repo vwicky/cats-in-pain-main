@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x5e667",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5e667_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5e667_audio.mp3",
+  "duration_sec": 29,
+  "duration_seconds": 29.0,
+  "title": "Dure la vie de Chat",
+  "webpage_url": "https://www.dailymotion.com/video/x5e667",
+  "dm_id": "x5e667",
+  "views_total": 694,
+  "view_count": 694,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "chat",
+    "dort",
+    "reveille",
+    "coussin",
+    "canapé"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Pas facile la vie de chat ...",
+  "created_time": 1210579046,
+  "search_query": "posture défensive de chat",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title suggests a cat's daily life, plausible real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5e667",
+    "decision": "keep",
+    "reason": "Title suggests a cat's daily life, plausible real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

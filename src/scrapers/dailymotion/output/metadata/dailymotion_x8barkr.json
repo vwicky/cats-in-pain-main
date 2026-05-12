@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8barkr",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8barkr_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8barkr_audio.mp3",
+  "duration_sec": 22,
+  "duration_seconds": 22.0,
+  "title": "Un chat renifle un objet appartenant à sa maitresse décédée : sa réaction est bouleversante",
+  "webpage_url": "https://www.dailymotion.com/video/x8barkr",
+  "dm_id": "x8barkr",
+  "views_total": 502,
+  "view_count": 502,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "lifestyle",
+  "channel_title": "lifestyle",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1654162732,
+  "search_query": "chat chassant sa proie",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat reacting to a deceased owner's object, indicating emotional behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8barkr",
+    "decision": "keep",
+    "reason": "The title suggests a cat reacting to a deceased owner's object, indicating emotional behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

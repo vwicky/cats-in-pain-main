@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x1c5e05",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x1c5e05_video.mp4",
+  "audio_path": "output/videos/dailymotion_x1c5e05_audio.mp3",
+  "duration_sec": 41,
+  "duration_seconds": 41.0,
+  "title": "Du curling avec... des chats",
+  "webpage_url": "https://www.dailymotion.com/video/x1c5e05",
+  "dm_id": "x1c5e05",
+  "views_total": 5756,
+  "view_count": 5756,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Chat",
+    "Curling",
+    "video buzz"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "On connaît bien la discipline olympique du curling, mais moins sa version insolite avec... des chats. Les matous n'ont pas l'air traumatisés!",
+  "created_time": 1392454269,
+  "search_query": "cris d'accouplement des chats",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features cats in a playful context related to curling.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x1c5e05",
+    "decision": "keep",
+    "reason": "The video features cats in a playful context related to curling.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9j3y90",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9j3y90_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9j3y90_audio.mp3",
+  "duration_sec": 23,
+  "duration_seconds": 23.0,
+  "title": "Kobietę budzi głośny huk o 5. nad ranem. Demolka, którą urządził jej kot, doprowadza ją do łez (video)",
+  "webpage_url": "https://www.dailymotion.com/video/x9j3y90",
+  "dm_id": "x9j3y90",
+  "views_total": 1005,
+  "view_count": 1005,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "Najpierw kobieta myśli o włamywaczu – ale to, co się naprawdę wydarzyło, zapiera dech w piersiach użytkownikom TikToka. Czegoś takiego jeszcze nikt nie widział!",
+  "created_time": 1746618637,
+  "search_query": "kot głośno miauczy",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat causing a disturbance, indicating potential playful or destructive behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9j3y90",
+    "decision": "keep",
+    "reason": "The title suggests a cat causing a disturbance, indicating potential playful or destructive behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

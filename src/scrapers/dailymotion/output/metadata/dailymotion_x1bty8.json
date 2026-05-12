@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x1bty8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x1bty8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x1bty8_audio.mp3",
+  "duration_sec": 48,
+  "duration_seconds": 48.0,
+  "title": "Il mio filmato 4b",
+  "webpage_url": "https://www.dailymotion.com/video/x1bty8",
+  "dm_id": "x1bty8",
+  "views_total": 1123,
+  "view_count": 1123,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "GATTI",
+    "MICIO"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "IL MELONE... I MIEI GATTI NE VANNO MATTI",
+  "created_time": 1172678509,
+  "search_query": "compilazione di combattimenti tra gatti",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description mention cats and their behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x1bty8",
+    "decision": "keep",
+    "reason": "The title and description mention cats and their behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

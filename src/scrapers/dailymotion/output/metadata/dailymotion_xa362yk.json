@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_xa362yk",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xa362yk_video.mp4",
+  "audio_path": "output/videos/dailymotion_xa362yk_audio.mp3",
+  "duration_sec": 14,
+  "duration_seconds": 14.0,
+  "title": "“Impara a scendere le scale”: la lezione (un po’ brusca) della mamma gatta diventa virale",
+  "webpage_url": "https://www.dailymotion.com/video/xa362yk",
+  "dm_id": "xa362yk",
+  "views_total": 17125,
+  "view_count": 17125,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "it",
+  "query_language": "Polish",
+  "description": "In un video diventato rapidamente virale, una mamma gatta decide che è arrivato il momento per il suo gattino di imparare a scendere le scale in autonomia.<br /><br />Il piccolo, inizialmente esitante, prova a seguire l’esempio della madre. Ma quello che doveva essere un semplice esercizio si trasforma presto in una discesa incontrollata: il gattino perde l’equilibrio e finisce per rotolare gradino dopo gradino.",
+  "created_time": 1774363668,
+  "search_query": "kot po szczepieniu",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a mother cat teaching her kitten, which is relevant cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xa362yk",
+    "decision": "keep",
+    "reason": "The video features a mother cat teaching her kitten, which is relevant cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

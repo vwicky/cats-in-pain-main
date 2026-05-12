@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3duuzy",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3duuzy_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3duuzy_audio.mp3",
+  "duration_sec": 34,
+  "duration_seconds": 34.0,
+  "title": "Явление кота народу!",
+  "webpage_url": "https://www.dailymotion.com/video/x3duuzy",
+  "dm_id": "x3duuzy",
+  "views_total": 37956,
+  "view_count": 37956,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Явление кота народу!",
+  "created_time": 1447548206,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's appearance, which is plausible.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3duuzy",
+    "decision": "keep",
+    "reason": "The title suggests a cat's appearance, which is plausible.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

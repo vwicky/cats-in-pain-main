@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x8qimby",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8qimby_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8qimby_audio.mp3",
+  "duration_sec": 59,
+  "duration_seconds": 59.0,
+  "title": "This Savannah Cat is Hiding and Seeking His Way to Stardom!",
+  "webpage_url": "https://www.dailymotion.com/video/x8qimby",
+  "dm_id": "x8qimby",
+  "views_total": 542,
+  "view_count": 542,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "buzz60",
+    "cat",
+    "savannah cat",
+    "game",
+    "hide and seek",
+    "capture",
+    "footage",
+    "curiosity",
+    "Tiktok",
+    "views"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "en",
+  "query_language": "English",
+  "description": "This Savannah cat, Dexter, learnt how to play hide and seek when he was just 7 months old and apparently “it came kind of naturally!” Buzz60's Chloe Hurst has the story!",
+  "created_time": 1702477776,
+  "search_query": "cats chirping and chattering",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Features a cat playing hide and seek, clear cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8qimby",
+    "decision": "keep",
+    "reason": "Features a cat playing hide and seek, clear cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

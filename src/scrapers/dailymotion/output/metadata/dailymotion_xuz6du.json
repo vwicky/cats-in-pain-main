@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_xuz6du",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xuz6du_video.mp4",
+  "audio_path": "output/videos/dailymotion_xuz6du_audio.mp3",
+  "duration_sec": 35,
+  "duration_seconds": 35.0,
+  "title": "Cat knows where its at",
+  "webpage_url": "https://www.dailymotion.com/video/xuz6du",
+  "dm_id": "xuz6du",
+  "views_total": 9246,
+  "view_count": 9246,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Cats",
+    "09590 cat kitchen drawer steals take food eats funny"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "<p>A cat opens a kitchen drawer and steals some food.</p>",
+  "created_time": 1352487170,
+  "search_query": "cat at vet checkup",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a cat engaging in typical behavior by stealing food.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xuz6du",
+    "decision": "keep",
+    "reason": "The description indicates a cat engaging in typical behavior by stealing food.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

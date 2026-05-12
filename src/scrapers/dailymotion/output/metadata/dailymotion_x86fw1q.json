@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x86fw1q",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x86fw1q_video.mp4",
+  "audio_path": "output/videos/dailymotion_x86fw1q_audio.mp3",
+  "duration_sec": 46,
+  "duration_seconds": 46.0,
+  "title": "Investigan al dueño de una finca por poner trampas lazo en las que ya había atrapado a dos gatos",
+  "webpage_url": "https://www.dailymotion.com/video/x86fw1q",
+  "dm_id": "x86fw1q",
+  "views_total": 1409,
+  "view_count": 1409,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Córdoba",
+    "Guardia Civil",
+    "gato",
+    "Montilla",
+    "maltrato animal"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "La Guardia Civil de Montilla logró salvarle la vida a uno de los animales",
+  "created_time": 1639994785,
+  "search_query": "signos de malestar en gatos",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Involves a cat rescue context, relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x86fw1q",
+    "decision": "keep",
+    "reason": "Involves a cat rescue context, relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x39z4tc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x39z4tc_video.mp4",
+  "audio_path": "output/videos/dailymotion_x39z4tc_audio.mp3",
+  "duration_sec": 39,
+  "duration_seconds": 39.0,
+  "title": "Дрессированный кот",
+  "webpage_url": "https://www.dailymotion.com/video/x39z4tc",
+  "dm_id": "x39z4tc",
+  "views_total": 1291,
+  "view_count": 1291,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1445076898,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat-related video.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x39z4tc",
+    "decision": "keep",
+    "reason": "The title suggests a cat-related video.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

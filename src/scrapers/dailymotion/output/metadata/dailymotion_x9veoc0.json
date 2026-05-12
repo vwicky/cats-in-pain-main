@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x9veoc0",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9veoc0_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9veoc0_audio.mp3",
+  "duration_sec": 58,
+  "duration_seconds": 58.0,
+  "title": "Mon chat miaule tout le temps - les conseils du Dr Fabing",
+  "webpage_url": "https://www.dailymotion.com/video/x9veoc0",
+  "dm_id": "x9veoc0",
+  "views_total": 843,
+  "view_count": 843,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Véto",
+    "vétérinaire",
+    "chat",
+    "miaule",
+    "conseil"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Votre chat miaule sans arrêt ? Il essaie peut-être de vous dire quelque chose ! Découvrez pourquoi nos compagnons félins communiquent autant avec nous par miaulements et comment interpréter ces vocalises.<br /><br />Saviez-vous que les chats miaulent principalement pour les humains ? Entre eux, ils préfèrent d'autres méthodes de communication. Apprenez à décoder les messages cachés derrière chaque miaulement, qu'il s'agisse d'une simple demande de nourriture ou d'une envie de s'exprimer.<br /><br />Si votre chat semble miauler pour attirer votre attention, qu'il s'ennuie ou qu'il souffre, comprendre le pourquoi est la première étape. Et plus vous répondez à ces appels, plus il apprendra que le miaulement est une clé pour obtenir ce qu'il veut.<br /><br />Un miaulement excessif peut parfois cacher un problème de santé plus sérieux. Il est essentiel d'écarter toute cause médicale comme une douleur ou une hyperthyroïdie. Assurez-vous également que votre chat dispose de tout ce dont il a besoin pour s'épanouir : jouets, espaces pour grimper et occupation.<br /><br />Un chat silencieux n'est pas forcément un chat malheureux, mais plutôt un chat comblé. Retrouvez tous les conseils d'expert pour le bien-être de vos animaux domestiques sur l'application et sur ICI.fr.<br /><br />#ChatMiaule #ComportementChat #ConseilVeterinaire #MonAnimal",
+  "created_time": 1767585603,
+  "search_query": "chat chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses why cats meow, focusing on their vocalizations.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9veoc0",
+    "decision": "keep",
+    "reason": "The video discusses why cats meow, focusing on their vocalizations.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

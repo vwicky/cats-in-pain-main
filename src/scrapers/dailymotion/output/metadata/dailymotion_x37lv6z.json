@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x37lv6z",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x37lv6z_video.mp4",
+  "audio_path": "output/videos/dailymotion_x37lv6z_audio.mp3",
+  "duration_sec": 29,
+  "duration_seconds": 29.0,
+  "title": "Surprenante astuce pour immobiliser un chat",
+  "webpage_url": "https://www.dailymotion.com/video/x37lv6z",
+  "dm_id": "x37lv6z",
+  "views_total": 3209,
+  "view_count": 3209,
+  "likes_total": 4,
+  "like_count": 4,
+  "tags": [
+    "surprenante",
+    "technique",
+    "astuce",
+    "pour",
+    "immobiliser",
+    "chat"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "http://buzzfil.net <br />Il est trop difficile d'avoir le contrôle sur un chat, il est naturellement incontrôlable ! <br />Dans la vidéo ci-dessous, cette vétérinaire nous montre une astuce très surprenante pour immobiliser un chat. <br />Elle fait un truc qui simule la prise de maman sur ses chatons pour calmer ce chat, et ça marche parfaitement !",
+  "created_time": 1443016682,
+  "search_query": "courtes vidéos de chats qui se prélassent",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a technique for handling a cat, likely in a vet context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x37lv6z",
+    "decision": "keep",
+    "reason": "The video involves a technique for handling a cat, likely in a vet context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

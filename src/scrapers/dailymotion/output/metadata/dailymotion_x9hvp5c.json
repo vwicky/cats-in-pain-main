@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9hvp5c",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9hvp5c_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9hvp5c_audio.mp3",
+  "duration_sec": 46,
+  "duration_seconds": 46.0,
+  "title": "Diese Katze hatte die Hoffnung verloren: Als sie ein bestimmtes Gesicht sieht, brechen plötzlich alle Dämme",
+  "webpage_url": "https://www.dailymotion.com/video/x9hvp5c",
+  "dm_id": "x9hvp5c",
+  "views_total": 54273,
+  "view_count": 54273,
+  "likes_total": 4,
+  "like_count": 4,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Anfang 2024 Jahres wird eine kranke, graue Katze gefunden und in einer Tierklinik in Indiana abgegeben.",
+  "created_time": 1744637375,
+  "search_query": "Katze, die Beute verfolgt",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a sick cat being rescued, indicating a medical context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9hvp5c",
+    "decision": "keep",
+    "reason": "The video discusses a sick cat being rescued, indicating a medical context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

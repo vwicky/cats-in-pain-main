@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x1nxj1",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x1nxj1_video.mp4",
+  "audio_path": "output/videos/dailymotion_x1nxj1_audio.mp3",
+  "duration_sec": 25,
+  "duration_seconds": 25.0,
+  "title": "le chat qui prennait l'ascenseur",
+  "webpage_url": "https://www.dailymotion.com/video/x1nxj1",
+  "dm_id": "x1nxj1",
+  "views_total": 852,
+  "view_count": 852,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "ascenseur",
+    "fun"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "le chat qui prennait l'ascenseur",
+  "created_time": 1176080399,
+  "search_query": "chat blessé qui boite",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat in a relatable situation.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x1nxj1",
+    "decision": "keep",
+    "reason": "The title suggests a cat in a relatable situation.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

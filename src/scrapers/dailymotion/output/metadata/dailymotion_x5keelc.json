@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x5keelc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5keelc_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5keelc_audio.mp3",
+  "duration_sec": 23,
+  "duration_seconds": 23.0,
+  "title": "Este gato late como um cachorro, mas as coisas ficam ainda mais estranhas quando ele percebe que está sendo filmado.",
+  "webpage_url": "https://www.dailymotion.com/video/x5keelc",
+  "dm_id": "x5keelc",
+  "views_total": 2125,
+  "view_count": 2125,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Gato"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "Portuguese",
+  "description": "",
+  "created_time": 1493638532,
+  "search_query": "comportamento de um gato ferido",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat exhibiting unusual behavior, which is plausible.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5keelc",
+    "decision": "keep",
+    "reason": "The title suggests a cat exhibiting unusual behavior, which is plausible.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

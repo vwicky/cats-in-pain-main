@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8zixq0",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8zixq0_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8zixq0_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "Ce chat abandonné reçoit une véritable transformation grâce à la générosité d'un passant",
+  "webpage_url": "https://www.dailymotion.com/video/x8zixq0",
+  "dm_id": "x8zixq0",
+  "views_total": 4746,
+  "view_count": 4746,
+  "likes_total": 9,
+  "like_count": 9,
+  "tags": [],
+  "channel": "school",
+  "channel_title": "school",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1717346001,
+  "search_query": "chats détendus à la maison",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat receiving a transformation, likely related to rescue or care.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8zixq0",
+    "decision": "keep",
+    "reason": "The video features a cat receiving a transformation, likely related to rescue or care.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

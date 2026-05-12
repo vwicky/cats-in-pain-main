@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x8f0kkr",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8f0kkr_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8f0kkr_audio.mp3",
+  "duration_sec": 57,
+  "duration_seconds": 57.0,
+  "title": "kitten7",
+  "webpage_url": "https://www.dailymotion.com/video/x8f0kkr",
+  "dm_id": "x8f0kkr",
+  "views_total": 527,
+  "view_count": 527,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cats",
+    "cat",
+    "pats",
+    "kitten",
+    "catlover",
+    "cat lover community",
+    "animals domestic",
+    "funny"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "cats",
+  "created_time": 1667005034,
+  "search_query": "playful kittens relaxing",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and tags suggest it features cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8f0kkr",
+    "decision": "keep",
+    "reason": "The title and tags suggest it features cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

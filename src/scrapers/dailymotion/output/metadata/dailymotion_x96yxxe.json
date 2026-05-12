@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x96yxxe",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x96yxxe_video.mp4",
+  "audio_path": "output/videos/dailymotion_x96yxxe_audio.mp3",
+  "duration_sec": 42,
+  "duration_seconds": 42.0,
+  "title": "« Les yeux les plus tristes du refuge » : après son adoption, ce chat s’est métamorphosé",
+  "webpage_url": "https://www.dailymotion.com/video/x96yxxe",
+  "dm_id": "x96yxxe",
+  "views_total": 17336,
+  "view_count": 17336,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un chaton adopté dans un refuge a retrouvé le sourire grâce à sa nouvelle famille.",
+  "created_time": 1728373251,
+  "search_query": "chat après vaccination",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video highlights a cat's transformation after adoption, suggesting positive behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x96yxxe",
+    "decision": "keep",
+    "reason": "The video highlights a cat's transformation after adoption, suggesting positive behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

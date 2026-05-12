@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x2zm07n",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2zm07n_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2zm07n_audio.mp3",
+  "duration_sec": 54,
+  "duration_seconds": 54.0,
+  "title": "Abyssinian Cat Lazer Pounce!!(ipad)",
+  "webpage_url": "https://www.dailymotion.com/video/x2zm07n",
+  "dm_id": "x2zm07n",
+  "views_total": 7264,
+  "view_count": 7264,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1438138739,
+  "search_query": "cat pouncing on prey",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat-related video.",
+  "gpt_confidence": "low",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2zm07n",
+    "decision": "keep",
+    "reason": "The title suggests a cat-related video.",
+    "confidence": "low",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

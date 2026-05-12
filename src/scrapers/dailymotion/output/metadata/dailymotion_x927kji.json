@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x927kji",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x927kji_video.mp4",
+  "audio_path": "output/videos/dailymotion_x927kji_audio.mp3",
+  "duration_sec": 55,
+  "duration_seconds": 55.0,
+  "title": "Kot widzi, że jego opiekunowie odpływają i postanawia zrobić coś niesamowitego (video)",
+  "webpage_url": "https://www.dailymotion.com/video/x927kji",
+  "dm_id": "x927kji",
+  "views_total": 66213,
+  "view_count": 66213,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "To, że koty nienawidzą wody jest równie pewne jak to, że mają stan ciekły. Ten kot jednak przekracza własne ograniczenia.",
+  "created_time": 1722664809,
+  "search_query": "kot głośno miauczy",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat doing something unusual, likely involving real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x927kji",
+    "decision": "keep",
+    "reason": "The title suggests a cat doing something unusual, likely involving real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

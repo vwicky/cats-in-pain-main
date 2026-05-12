@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x828oge",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x828oge_video.mp4",
+  "audio_path": "output/videos/dailymotion_x828oge_audio.mp3",
+  "duration_sec": 44,
+  "duration_seconds": 44.0,
+  "title": "Moment de tendresse entre ce chat et son maître",
+  "webpage_url": "https://www.dailymotion.com/video/x828oge",
+  "dm_id": "x828oge",
+  "views_total": 1795,
+  "view_count": 1795,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Société",
+    "Vidéos"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Ce chat est hyper calin ! Il ne quitte pas d’une semelle son maître. Des papouilles et encore des papouilles !",
+  "created_time": 1624636605,
+  "search_query": "cris d'accouplement des chats",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video suggests affectionate behavior between a cat and its owner.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x828oge",
+    "decision": "keep",
+    "reason": "The video suggests affectionate behavior between a cat and its owner.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

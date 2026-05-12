@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x16g6j",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x16g6j_video.mp4",
+  "audio_path": "output/videos/dailymotion_x16g6j_audio.mp3",
+  "duration_sec": 25,
+  "duration_seconds": 25.0,
+  "title": "Drole de chat qui aime le foot",
+  "webpage_url": "https://www.dailymotion.com/video/x16g6j",
+  "dm_id": "x16g6j",
+  "views_total": 8844,
+  "view_count": 8844,
+  "likes_total": 23,
+  "like_count": 23,
+  "tags": [
+    "chat",
+    "foot",
+    "marrant",
+    "lol",
+    "drole",
+    "pub",
+    "voir",
+    "ads",
+    "extreme"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "un chat qui a mon gout aime beaucoup le foot surement plus que moi deja :D",
+  "created_time": 1171141411,
+  "search_query": "vidéos de chats qui parlent",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat's playful interest in football.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x16g6j",
+    "decision": "keep",
+    "reason": "The title indicates a cat's playful interest in football.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

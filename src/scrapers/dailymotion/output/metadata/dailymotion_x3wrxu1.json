@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x3wrxu1",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3wrxu1_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3wrxu1_audio.mp3",
+  "duration_sec": 35,
+  "duration_seconds": 35.0,
+  "title": "Cat loves getting his nose tickled",
+  "webpage_url": "https://www.dailymotion.com/video/x3wrxu1",
+  "dm_id": "x3wrxu1",
+  "views_total": 1765,
+  "view_count": 1765,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Cat",
+    "funny cat videos",
+    "best funny videos",
+    "funny",
+    "best comedy videos",
+    "best laugh videos",
+    "best laughing videos",
+    "comedy"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "Cat loves getting his nose tickled",
+  "created_time": 1457549127,
+  "search_query": "sick cat getting treatment",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title and description indicate playful interaction with a cat.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3wrxu1",
+    "decision": "keep",
+    "reason": "Title and description indicate playful interaction with a cat.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

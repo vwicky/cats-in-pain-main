@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x75y2a",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x75y2a_video.mp4",
+  "audio_path": "output/videos/dailymotion_x75y2a_audio.mp3",
+  "duration_sec": 34,
+  "duration_seconds": 34.0,
+  "title": "Dédé parle",
+  "webpage_url": "https://www.dailymotion.com/video/x75y2a",
+  "dm_id": "x75y2a",
+  "views_total": 4440,
+  "view_count": 4440,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "miaule",
+    "dédé",
+    "chathuttes"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Venez lui parler sur http://chathuttes.actifforum.com/",
+  "created_time": 1224762714,
+  "search_query": "chat qui miaule fort",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and tags suggest a cat vocalizing.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x75y2a",
+    "decision": "keep",
+    "reason": "The title and tags suggest a cat vocalizing.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_xsbnx",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xsbnx_video.mp4",
+  "audio_path": "output/videos/dailymotion_xsbnx_audio.mp3",
+  "duration_sec": 7,
+  "duration_seconds": 7.0,
+  "title": "gato largo",
+  "webpage_url": "https://www.dailymotion.com/video/xsbnx",
+  "dm_id": "xsbnx",
+  "views_total": 1343,
+  "view_count": 1343,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "parkour",
+    "gato",
+    "ovni",
+    "extreme"
+  ],
+  "channel": "sport",
+  "channel_title": "sport",
+  "language": "es",
+  "query_language": "Portuguese",
+  "description": "un gatito k me sake esta mañana en el tuto dejadme coment y dadme consejillos xfavor k kiero aprender a acer wenos gatos preci saludos traceur y perdon x colgar tomas sueltas prometo k colgare un video largo proximamente saludos traceurs.",
+  "created_time": 1165872638,
+  "search_query": "gato miando alto",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description suggests it features a cat, making it plausible for real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xsbnx",
+    "decision": "keep",
+    "reason": "The description suggests it features a cat, making it plausible for real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

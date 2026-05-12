@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x7myv0k",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7myv0k_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7myv0k_audio.mp3",
+  "duration_sec": 55,
+  "duration_seconds": 55.0,
+  "title": "Catastrophic Creations: \"Möbel\", die speziell für Katzen entwickelt wurden.",
+  "webpage_url": "https://www.dailymotion.com/video/x7myv0k",
+  "dm_id": "x7myv0k",
+  "views_total": 150050,
+  "view_count": 150050,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Das Unternehmen Catastrophic Creations zeigt Innovationen, die sich ausschließlich auf die Welt der Katzen konzentrieren! <br />Ab jetzt gibt es eine ganze Reihe von Wandmöbeln, die zugleich für die Besitzer entworfen wurden! Hängematten, Regale, Laufstege... <br /><br />Unsere kleinen Freunde haben die Möglichkeit, die Wohnung zu nutzen, um ihre körperliche Leistungsfähigkeit und Beweglichkeit zu entwickeln. <br /><br />Garantiert robust, langlebig und sicher, sind diese Wandinstallationen ein echter Spielplatz für sie!  <br /><br />Das große Plus bei Catastrophic Creations? <br />Keine Spielzeuge mehr, die das Wohnzimmer belagern und sich auf dem Boden stapeln!",
+  "created_time": 1571814847,
+  "search_query": "Katzen, die sich anknurren",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "keyword:'cat'"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video showcases furniture designed specifically for cats, indicating a focus on cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7myv0k",
+    "decision": "keep",
+    "reason": "The video showcases furniture designed specifically for cats, indicating a focus on cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

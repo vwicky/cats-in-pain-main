@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x81ddmt",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x81ddmt_video.mp4",
+  "audio_path": "output/videos/dailymotion_x81ddmt_audio.mp3",
+  "duration_sec": 32,
+  "duration_seconds": 32.0,
+  "title": "Motociclista sofre queda ao tentar desviar de um gato, na Avenida das Pombas",
+  "webpage_url": "https://www.dailymotion.com/video/x81ddmt",
+  "dm_id": "x81ddmt",
+  "views_total": 794,
+  "view_count": 794,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Motociclista sofre queda ao tentar desviar de um gato, na Avenida das Pombas",
+  "created_time": 1621431548,
+  "search_query": "comportamento de um gato ferido",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The content involves a motorcyclist trying to avoid a cat, which is relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x81ddmt",
+    "decision": "keep",
+    "reason": "The content involves a motorcyclist trying to avoid a cat, which is relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

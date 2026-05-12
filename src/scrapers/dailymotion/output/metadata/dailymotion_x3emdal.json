@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3emdal",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3emdal_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3emdal_audio.mp3",
+  "duration_sec": 48,
+  "duration_seconds": 48.0,
+  "title": "Пса не было дома 10 дней, реакция кошки бесценна - Прослезитесь",
+  "webpage_url": "https://www.dailymotion.com/video/x3emdal",
+  "dm_id": "x3emdal",
+  "views_total": 817,
+  "view_count": 817,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1447969990,
+  "search_query": "две кошки ругаются",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's reaction, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3emdal",
+    "decision": "keep",
+    "reason": "The title suggests a cat's reaction, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

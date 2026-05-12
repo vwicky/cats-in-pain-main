@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x9hoph0",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9hoph0_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9hoph0_audio.mp3",
+  "duration_sec": 56,
+  "duration_seconds": 56.0,
+  "title": "Pompes funèbres : enterrer ou incinérer son animal ?",
+  "webpage_url": "https://www.dailymotion.com/video/x9hoph0",
+  "dm_id": "x9hoph0",
+  "views_total": 2264,
+  "view_count": 2264,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "pompes funèbres",
+    "animaux",
+    "chiens",
+    "chats",
+    "mort",
+    "vétérinaire",
+    "décès",
+    "deuil",
+    "famille"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Perdre un animal de compagnie est une épreuve difficile. Et au-delà de la tristesse, une question se pose : que faire du corps de votre animal ? Désormais, il existe des services de pompes funèbres pour animaux. Que proposent-elles ? Le Dr Pierre Fabing, vétérinaire, vous apporte des réponses.<br /><br />#Chien #Chat #Animaux",
+  "created_time": 1744302515,
+  "search_query": "chat malade chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses the loss of pets, including cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9hoph0",
+    "decision": "keep",
+    "reason": "The video discusses the loss of pets, including cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

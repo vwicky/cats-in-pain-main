@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x36y35l",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x36y35l_video.mp4",
+  "audio_path": "output/videos/dailymotion_x36y35l_audio.mp3",
+  "duration_sec": 47,
+  "duration_seconds": 47.0,
+  "title": "Толстый кот Гарфилд покоряет интернет!",
+  "webpage_url": "https://www.dailymotion.com/video/x36y35l",
+  "dm_id": "x36y35l",
+  "views_total": 9776,
+  "view_count": 9776,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1442272933,
+  "search_query": "кот, выслеживающий добычу",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title mentions a cat and suggests it is entertaining.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x36y35l",
+    "decision": "keep",
+    "reason": "The title mentions a cat and suggests it is entertaining.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x992mew",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x992mew_video.mp4",
+  "audio_path": "output/videos/dailymotion_x992mew_audio.mp3",
+  "duration_sec": 18,
+  "duration_seconds": 18.0,
+  "title": "La persecución de un gato a un pájaro que recuerda a  Piolín y el Gato Silvestre y que termina de la forma menos esperada",
+  "webpage_url": "https://www.dailymotion.com/video/x992mew",
+  "dm_id": "x992mew",
+  "views_total": 32200,
+  "view_count": 32200,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1731483028,
+  "search_query": "gatos hablando con pájaros",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat chasing a bird, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x992mew",
+    "decision": "keep",
+    "reason": "The title suggests a cat chasing a bird, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

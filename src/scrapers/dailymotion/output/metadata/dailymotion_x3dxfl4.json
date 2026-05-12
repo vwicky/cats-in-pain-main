@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3dxfl4",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3dxfl4_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3dxfl4_audio.mp3",
+  "duration_sec": 28,
+  "duration_seconds": 28.0,
+  "title": "Побег кота",
+  "webpage_url": "https://www.dailymotion.com/video/x3dxfl4",
+  "dm_id": "x3dxfl4",
+  "views_total": 1649,
+  "view_count": 1649,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1447629716,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat's escape, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3dxfl4",
+    "decision": "keep",
+    "reason": "The title indicates a cat's escape, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

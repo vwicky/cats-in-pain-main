@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9xchq6",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9xchq6_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9xchq6_audio.mp3",
+  "duration_sec": 27,
+  "duration_seconds": 27.0,
+  "title": "Giappone, un gatto alla guida della stazione: Yontama è il nuovo «capostazione» di Kishi",
+  "webpage_url": "https://www.dailymotion.com/video/x9xchq6",
+  "dm_id": "x9xchq6",
+  "views_total": 811,
+  "view_count": 811,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "Un incarico simbolico che rinnova una tradizione avviata quasi vent’anni fa e diventata un sorprendente motore di rilancio turistico, al punto da contribuire alla sopravvivenza stessa della linea ferroviaria. Durante la cerimonia di investitura è stato presentato anche l’«apprendista» Rokutama, destinato a raccoglierne un giorno l’eredità. Un omaggio speciale è andato a Nitama, il predecessore di Yontama, scomparso lo scorso novembre e ora nominato capo onorario.",
+  "created_time": 1767881309,
+  "search_query": "comportamento di un gatto ferito",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Features a cat in a unique role.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9xchq6",
+    "decision": "keep",
+    "reason": "Features a cat in a unique role.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

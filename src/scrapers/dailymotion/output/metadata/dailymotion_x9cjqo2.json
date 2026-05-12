@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x9cjqo2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9cjqo2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9cjqo2_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Bucarest, aiutare i gatti senzatetto e l'ambiente con i nuovi distributori automatici nei parchi",
+  "webpage_url": "https://www.dailymotion.com/video/x9cjqo2",
+  "dm_id": "x9cjqo2",
+  "views_total": 6095,
+  "view_count": 6095,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "Romania",
+    "Bucharest",
+    "Riciclaggio",
+    "Animali"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "Bucarest ha introdotto distributori automatici ecologici nei parchi Tineretului, Floreasca e Circului, che offrono cibo e acqua ai gatti randagi in cambio di bottiglie e lattine riciclate",
+  "created_time": 1737146926,
+  "search_query": "gatti che riposano pacificamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Discusses helping stray cats with automatic feeders.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9cjqo2",
+    "decision": "keep",
+    "reason": "Discusses helping stray cats with automatic feeders.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

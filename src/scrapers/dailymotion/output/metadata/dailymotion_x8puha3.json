@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8puha3",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8puha3_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8puha3_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Als die süße Katze ihre Augen öffnet, kriegen es alle mit der Angst zu tun!",
+  "webpage_url": "https://www.dailymotion.com/video/x8puha3",
+  "dm_id": "x8puha3",
+  "views_total": 4076,
+  "view_count": 4076,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "„Potato“ ist ein süßer Kater, der am liebsten den ganzen Tag verschläft. Aber wehe, er sieht dich direkt an! Ein Blick aus seinen Augen sorgt für Gänsehaut.",
+  "created_time": 1700644918,
+  "search_query": "Katze, die Beute verfolgt",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description suggests a cat's behavior that could be interesting.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8puha3",
+    "decision": "keep",
+    "reason": "The description suggests a cat's behavior that could be interesting.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

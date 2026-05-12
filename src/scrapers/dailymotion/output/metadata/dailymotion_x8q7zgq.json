@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8q7zgq",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8q7zgq_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8q7zgq_audio.mp3",
+  "duration_sec": 40,
+  "duration_seconds": 40.0,
+  "title": "Gatito sale de una regadera, pero lo que sale después deja a la gente en shock",
+  "webpage_url": "https://www.dailymotion.com/video/x8q7zgq",
+  "dm_id": "x8q7zgq",
+  "views_total": 11025,
+  "view_count": 11025,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "¿Cuántos gatitos caben en una regadera de jardín? Esta pregunta, aunque parece broma, ha sido hecha por muchas personas después de ver un video.",
+  "created_time": 1701693871,
+  "search_query": "gatitos juguetones relajándose",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a kitten emerging from a watering can, which is likely to be playful or amusing.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8q7zgq",
+    "decision": "keep",
+    "reason": "The title suggests a kitten emerging from a watering can, which is likely to be playful or amusing.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

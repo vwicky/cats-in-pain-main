@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9dkfyy",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9dkfyy_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9dkfyy_audio.mp3",
+  "duration_sec": 46,
+  "duration_seconds": 46.0,
+  "title": "Sortir son chat en laisse ?",
+  "webpage_url": "https://www.dailymotion.com/video/x9dkfyy",
+  "dm_id": "x9dkfyy",
+  "views_total": 2378,
+  "view_count": 2378,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1738762712,
+  "search_query": "chat malade en traitement",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a discussion about taking a cat outside, plausible real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9dkfyy",
+    "decision": "keep",
+    "reason": "The title suggests a discussion about taking a cat outside, plausible real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x4z5cl9",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x4z5cl9_video.mp4",
+  "audio_path": "output/videos/dailymotion_x4z5cl9_audio.mp3",
+  "duration_sec": 55,
+  "duration_seconds": 55.0,
+  "title": "Il Gatto Crede che la Padrona stia Annegando e Cerca Disperatamente di Salvarla",
+  "webpage_url": "https://www.dailymotion.com/video/x4z5cl9",
+  "dm_id": "x4z5cl9",
+  "views_total": 4907,
+  "view_count": 4907,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "",
+  "created_time": 1477476739,
+  "search_query": "gatto che insegue la preda",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests the cat is trying to save its owner, indicating concern.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x4z5cl9",
+    "decision": "keep",
+    "reason": "The title suggests the cat is trying to save its owner, indicating concern.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

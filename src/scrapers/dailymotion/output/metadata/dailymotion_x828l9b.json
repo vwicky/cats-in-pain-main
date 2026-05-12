@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x828l9b",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x828l9b_video.mp4",
+  "audio_path": "output/videos/dailymotion_x828l9b_audio.mp3",
+  "duration_sec": 47,
+  "duration_seconds": 47.0,
+  "title": "Un chat face à un miroir",
+  "webpage_url": "https://www.dailymotion.com/video/x828l9b",
+  "dm_id": "x828l9b",
+  "views_total": 69011,
+  "view_count": 69011,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Société",
+    "Vidéos"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": " Ce chat n'a pas besoin de jouets pour s'amuser. Il lui suffit d'un miroir pour s'éclater comme un fou. Trop mignon !",
+  "created_time": 1624632112,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat playing with its reflection in a mirror, which is typical cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x828l9b",
+    "decision": "keep",
+    "reason": "The video features a cat playing with its reflection in a mirror, which is typical cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x39othd",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x39othd_video.mp4",
+  "audio_path": "output/videos/dailymotion_x39othd_audio.mp3",
+  "duration_sec": 56,
+  "duration_seconds": 56.0,
+  "title": "Нападение озверевшего кота на крупную собаку!",
+  "webpage_url": "https://www.dailymotion.com/video/x39othd",
+  "dm_id": "x39othd",
+  "views_total": 3244,
+  "view_count": 3244,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1444862713,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates an aggressive encounter between a cat and a dog, fitting the agonistic behavior category.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x39othd",
+    "decision": "keep",
+    "reason": "The title indicates an aggressive encounter between a cat and a dog, fitting the agonistic behavior category.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

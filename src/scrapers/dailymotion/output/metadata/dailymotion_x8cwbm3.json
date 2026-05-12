@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8cwbm3",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8cwbm3_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8cwbm3_audio.mp3",
+  "duration_sec": 36,
+  "duration_seconds": 36.0,
+  "title": "Gato fica ferido ao prender pata no portão e Bombeiros são acionados no Riviera",
+  "webpage_url": "https://www.dailymotion.com/video/x8cwbm3",
+  "dm_id": "x8cwbm3",
+  "views_total": 14123,
+  "view_count": 14123,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Spanish",
+  "description": "Gato fica ferido ao prender pata no portão e Bombeiros são acionados no Riviera",
+  "created_time": 1659780913,
+  "search_query": "postura defensiva de gato",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title describes a cat injury, which is relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8cwbm3",
+    "decision": "keep",
+    "reason": "The title describes a cat injury, which is relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

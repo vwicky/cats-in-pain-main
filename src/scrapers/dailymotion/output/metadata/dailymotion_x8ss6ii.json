@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8ss6ii",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8ss6ii_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8ss6ii_audio.mp3",
+  "duration_sec": 10,
+  "duration_seconds": 10.0,
+  "title": "Cats play but also love each other",
+  "webpage_url": "https://www.dailymotion.com/video/x8ss6ii",
+  "dm_id": "x8ss6ii",
+  "views_total": 1020,
+  "view_count": 1020,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1708043868,
+  "search_query": "cats hissing at each other",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title indicates playful interaction between cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8ss6ii",
+    "decision": "keep",
+    "reason": "Title indicates playful interaction between cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

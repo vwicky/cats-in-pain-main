@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x3gx14",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3gx14_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3gx14_audio.mp3",
+  "duration_sec": 10,
+  "duration_seconds": 10.0,
+  "title": "fight cats - bagarre de chats",
+  "webpage_url": "https://www.dailymotion.com/video/x3gx14",
+  "dm_id": "x3gx14",
+  "views_total": 941,
+  "view_count": 941,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "fight",
+    "baston",
+    "bagarre",
+    "cats"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "bastons entre chats",
+  "created_time": 1194960123,
+  "search_query": "bagarre de chats dehors",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description indicate a fight between cats, which is relevant cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3gx14",
+    "decision": "keep",
+    "reason": "The title and description indicate a fight between cats, which is relevant cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x988oue",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x988oue_video.mp4",
+  "audio_path": "output/videos/dailymotion_x988oue_audio.mp3",
+  "duration_sec": 52,
+  "duration_seconds": 52.0,
+  "title": "Gato \"atípico\" de Joinville soma milhões de visualizações e tem fãs dos EUA à Tailândia",
+  "webpage_url": "https://www.dailymotion.com/video/x988oue",
+  "dm_id": "x988oue",
+  "views_total": 21176,
+  "view_count": 21176,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Spanish",
+  "description": "Leia em nsctotal.com.br",
+  "created_time": 1730220188,
+  "search_query": "compilación de peleas de gatos",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title suggests a unique cat, plausible content about a real cat.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x988oue",
+    "decision": "keep",
+    "reason": "Title suggests a unique cat, plausible content about a real cat.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

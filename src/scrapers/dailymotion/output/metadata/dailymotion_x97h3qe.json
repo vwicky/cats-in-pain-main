@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x97h3qe",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x97h3qe_video.mp4",
+  "audio_path": "output/videos/dailymotion_x97h3qe_audio.mp3",
+  "duration_sec": 36,
+  "duration_seconds": 36.0,
+  "title": "Hund geht über die Regenbogenbrücke: Wie die Katze reagiert, geht durch Mark und Bein",
+  "webpage_url": "https://www.dailymotion.com/video/x97h3qe",
+  "dm_id": "x97h3qe",
+  "views_total": 13678,
+  "view_count": 13678,
+  "likes_total": 3,
+  "like_count": 3,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Hund geht über die Regenbogenbrücke: Wie die Katze reagiert, geht durch Mark und Bein",
+  "created_time": 1729151100,
+  "search_query": "Katze, die Beute verfolgt",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Involves a cat reacting to a significant event.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x97h3qe",
+    "decision": "keep",
+    "reason": "Involves a cat reacting to a significant event.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

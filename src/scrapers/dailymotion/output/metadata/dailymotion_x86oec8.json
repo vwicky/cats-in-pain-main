@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x86oec8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x86oec8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x86oec8_audio.mp3",
+  "duration_sec": 42,
+  "duration_seconds": 42.0,
+  "title": "FEMME ACTUELLE - Quand deux chats activent des sonnettes pour manger leurs croquettes",
+  "webpage_url": "https://www.dailymotion.com/video/x86oec8",
+  "dm_id": "x86oec8",
+  "views_total": 1239,
+  "view_count": 1239,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "guid_5384747695001",
+    "uuid_246f8096-0d74-4f68-8d15-48d24a0639da",
+    "channel_le-mag",
+    "animaux",
+    "animaux pratique",
+    "Buzz",
+    "chats",
+    "fac",
+    "sonnettes",
+    "twitter"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1640846705,
+  "search_query": "cris d'accouplement des chats",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features cats activating bells to get food, indicating cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x86oec8",
+    "decision": "keep",
+    "reason": "The video features cats activating bells to get food, indicating cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

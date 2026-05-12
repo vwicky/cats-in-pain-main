@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x7s9ask",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7s9ask_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7s9ask_audio.mp3",
+  "duration_sec": 51,
+  "duration_seconds": 51.0,
+  "title": "Votre chat tremble quelle causes",
+  "webpage_url": "https://www.dailymotion.com/video/x7s9ask",
+  "dm_id": "x7s9ask",
+  "views_total": 606,
+  "view_count": 606,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Clip",
+    "Chat",
+    "ANIMAUX",
+    "Tremblement du chat"
+  ],
+  "channel": "creation",
+  "channel_title": "creation",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Plus discrets et moins impressionnants que des convulsions, les tremblements chez le chat peuvent avoir diverses origines. Faisons le point sur le sujet, pour comprendre pourquoi les chats tremblent parfois.<br />Comme souvent, un seul symptôme peut correspondre à des causes très différentes, certaines étant anodines, d'autres bien plus graves.<br /><br />Le froid, tout simplement : les chats peuvent souffrir du froid tout autant que nous, ainsi, lorsque les jours frais s'installent et que votre chat n'a pas encore mis son pelage d'hiver, il peut revenir de sa promenade matinale en tremblant de froid.<br />Les rêves : le sommeil des chats comporte des phases paradoxales et des phases profondes, comme chez nous. Les chats ont donc des moments de rêve lors du sommeil paradoxal, et ils se manifestent par des tremblements et des tressautements, accompagnés parfois de petits miaulements.<br />Le stress et la peur : lorsqu'un chat est sous pression, il arrive qu'il évacue son stress en tremblant, dans les moments où justement il peut se détendre (câlins, préparation au sommeil). Par contre, une peur intense peut aussi provoquer des tremblements incontrôlés, le chat est tellement tendu que tous ses muscles tremblent.<br />L'excitation et la concentration : quand il est en partie de chasse, que tous ses sens sont en alerte devant une proie potentielle, le chat peut être pris de tremblements, liés à la concentration et à son excitation, il peut aussi miauler en « caquetant » ou claquer des dents.<br />Un empoisonnement ou une intoxication : les poisons, les désherbants ou les tue-limaces, par exemple, causent des dommages au niveau neurologique. Certains peuvent malheureusement entraîner la mort du chat.<br />La douleur : les chats ont tendance à cacher les symptômes lorsqu'ils ont mal quelque part, mais quand on les connaît bien, on peut repérer des changements dans leur comportement. Un chat prostré, replié sur lui-même, le visage fermé et le corps tremblant est très certainement en train de souffrir.<br />Les maladies : certaines maladies provoquent des douleurs corporelles, comme les maladies articulaires. Des pathologies congénitales, des dysfonctionnements neurologiques, une insuffisance rénale ou encore l'hypothyroïdie peuvent aussi entraîner ce symptôme de chat qui tremble (accompagné d'autres symptômes).<br />La fièvre : enfin, le chat peut être pris de tremblements en cas de forte fièvre. Au-delà de 39-39.5°C, le chat a de la température. Il est abattu, prostré, et tremble de tout son corps.<br /><br />L'un des réflexes à avoir si on constate des tremblements chez son chat est la prise de température par voie rectale, grâce à un thermomètre électronique à embout souple.<br /><br />Elle vous donnera une bonne indication de son état et c'est aussi l'une des premières questions que vous posera le vétérinaire si vous l'appelez. Il faut arriver à déterminer si les tremblements sont anodins ou s'ils cachent un souci de santé.<br /><br />Pour déterminer un diagnostic, respectez le protocole suivant :<br />- Essayez de remarquer si votre chat tremble à des instants précis et/ou récurrents (au moment de la sieste, après les repas etc) ;<br />- Rappelez-vous si ces tremblements sont présents depuis qu'il est jeune ou s'ils sont arrivés soudainement ;<br />- Quel temps fait-il dehors ? Votre petit félin est-il rentré mouillé jusqu'aux os ?<br />- Semble t-il abattu ? Est-il fiévreux ? Reste t-il prostré sans bouger ? A-t-il l'air d'avoir mal quelque part ? Semble t-il perdu, dérouté ?<br /><br />Toutes ces questions peuvent vous permettre de faire le point et de définir si une consultation vétérinaire s'impose. Le vétérinaire fera un examen complet pour établir son diagnostic et donner un traitement adapté, si besoin. Dans tous les cas, ne laissez pas traîner une situation qui vous questionne ou vous inquiète.",
+  "created_time": 1582735964,
+  "search_query": "chat mal à l'aise chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video addresses the causes of trembling in cats, indicating a medical context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7s9ask",
+    "decision": "keep",
+    "reason": "The video addresses the causes of trembling in cats, indicating a medical context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

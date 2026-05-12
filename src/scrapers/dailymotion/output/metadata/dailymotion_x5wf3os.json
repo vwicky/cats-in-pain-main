@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x5wf3os",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5wf3os_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5wf3os_audio.mp3",
+  "duration_sec": 15,
+  "duration_seconds": 15.0,
+  "title": "Un lynx miaule comme un chat",
+  "webpage_url": "https://www.dailymotion.com/video/x5wf3os",
+  "dm_id": "x5wf3os",
+  "views_total": 1065,
+  "view_count": 1065,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1502278848,
+  "search_query": "chat qui miaule fort",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a lynx vocalizing like a cat.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5wf3os",
+    "decision": "keep",
+    "reason": "The title suggests a lynx vocalizing like a cat.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

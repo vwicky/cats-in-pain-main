@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x89tvty",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x89tvty_video.mp4",
+  "audio_path": "output/videos/dailymotion_x89tvty_audio.mp3",
+  "duration_sec": 42,
+  "duration_seconds": 42.0,
+  "title": "FEMME ACTUELLE - Ce chat adorable utilise le langage des signes",
+  "webpage_url": "https://www.dailymotion.com/video/x89tvty",
+  "dm_id": "x89tvty",
+  "views_total": 10452,
+  "view_count": 10452,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "tv",
+  "channel_title": "tv",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1649436322,
+  "search_query": "cris d'accouplement des chats",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat using sign language, indicating a focus on cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x89tvty",
+    "decision": "keep",
+    "reason": "The title suggests a cat using sign language, indicating a focus on cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

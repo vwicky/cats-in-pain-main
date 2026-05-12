@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x7j5s9",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7j5s9_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7j5s9_audio.mp3",
+  "duration_sec": 21,
+  "duration_seconds": 21.0,
+  "title": "Говорящий кот",
+  "webpage_url": "https://www.dailymotion.com/video/x7j5s9",
+  "dm_id": "x7j5s9",
+  "views_total": 11458,
+  "view_count": 11458,
+  "likes_total": 2,
+  "like_count": 2,
+  "tags": [
+    "Говорящий",
+    "кот"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1227727216,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a talking cat, which implies vocalization.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7j5s9",
+    "decision": "keep",
+    "reason": "The title suggests a talking cat, which implies vocalization.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

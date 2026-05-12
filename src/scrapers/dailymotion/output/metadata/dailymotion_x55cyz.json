@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x55cyz",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x55cyz_video.mp4",
+  "audio_path": "output/videos/dailymotion_x55cyz_audio.mp3",
+  "duration_sec": 41,
+  "duration_seconds": 41.0,
+  "title": "tarcin ile badem",
+  "webpage_url": "https://www.dailymotion.com/video/x55cyz",
+  "dm_id": "x55cyz",
+  "views_total": 2109,
+  "view_count": 2109,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cats",
+    "friend"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "tr",
+  "query_language": "English",
+  "description": "first meet at home...",
+  "created_time": 1208717622,
+  "search_query": "cat warning sounds",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and tags indicate a meeting between cats, suggesting real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x55cyz",
+    "decision": "keep",
+    "reason": "The title and tags indicate a meeting between cats, suggesting real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

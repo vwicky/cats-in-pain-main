@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x24slv",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x24slv_video.mp4",
+  "audio_path": "output/videos/dailymotion_x24slv_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "chat mignon qui aime les caresses",
+  "webpage_url": "https://www.dailymotion.com/video/x24slv",
+  "dm_id": "x24slv",
+  "views_total": 926,
+  "view_count": 926,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "chat",
+    "mignon",
+    "miaou",
+    "chinon",
+    "goutière",
+    "fun"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "oh regardez il est ty pas tout mimi ce joli petit chat? et il aime bien la caméra",
+  "created_time": 1180634524,
+  "search_query": "chat qui ronronne sur les genoux",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description indicate a cat enjoying affection, fitting the behavior category.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x24slv",
+    "decision": "keep",
+    "reason": "The title and description indicate a cat enjoying affection, fitting the behavior category.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x28y0pn",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x28y0pn_video.mp4",
+  "audio_path": "output/videos/dailymotion_x28y0pn_audio.mp3",
+  "duration_sec": 48,
+  "duration_seconds": 48.0,
+  "title": "Une bagarre impressionnante entre deux chats",
+  "webpage_url": "https://www.dailymotion.com/video/x28y0pn",
+  "dm_id": "x28y0pn",
+  "views_total": 2200,
+  "view_count": 2200,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Chat",
+    "Bagarre",
+    "fight",
+    "dbz"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "French",
+  "description": "Ces deux chats vont se battre comme des personnages de DBZ !",
+  "created_time": 1414672905,
+  "search_query": "bagarre de chats dehors",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description suggest a fight between two cats, which is relevant cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x28y0pn",
+    "decision": "keep",
+    "reason": "The title and description suggest a fight between two cats, which is relevant cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

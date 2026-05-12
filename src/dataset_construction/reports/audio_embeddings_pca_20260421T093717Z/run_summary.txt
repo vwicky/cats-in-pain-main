@@ -1,0 +1,9 @@
+Generated (UTC): 2026-04-21T09:38:18.449247+00:00
+Audio root: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/dataset_construction/separeted_audios
+Fine-tuned checkpoint: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/models/checkpoints_audio_emotions/best_model_final.pth
+PANNs pretrained: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/audio_classifier_utils/pretrained_weights/Cnn14_16k_mAP=0.438.pth
+Files processed: 7329
+Successful: 7329
+Failed (load): 0
+Embedding shape: (7329, 2048)
+Outputs: predictions.csv, embeddings.npy, audio_emotion_bundle.npz, pca_emotion_scatter.png

@@ -1,0 +1,34 @@
+{
+  "video_id": "dailymotion_xjgeus",
+  "source": "dailymotion",
+  "video_path": "output/videos/dailymotion_xjgeus_video.mp4",
+  "audio_path": "output/audio/dailymotion_xjgeus_audio.mp3",
+  "duration_sec": 23,
+  "title": "Cat gets caught barking by a human and resumes meowing",
+  "webpage_url": "https://www.dailymotion.com/video/xjgeus",
+  "dm_id": "xjgeus",
+  "views_total": 1006,
+  "likes_total": 0,
+  "tags": [
+    "cat",
+    "barking",
+    "meowing"
+  ],
+  "channel": "animals",
+  "language": "en",
+  "description": "",
+  "created_time": 1308735021,
+  "search_query": "cat meowing",
+  "tag_filter": {
+    "passed": true
+  },
+  "gpt_filter": {
+    "video_id": "dailymotion_xjgeus",
+    "decision": "keep",
+    "reason": "The title indicates a cat vocalizing, which is relevant content.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3e9xwu",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3e9xwu_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3e9xwu_audio.mp3",
+  "duration_sec": 13,
+  "duration_seconds": 13.0,
+  "title": "Дьявольский Кот ! Ржач полный",
+  "webpage_url": "https://www.dailymotion.com/video/x3e9xwu",
+  "dm_id": "x3e9xwu",
+  "views_total": 12288,
+  "view_count": 12288,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1447795426,
+  "search_query": "кот громко мяукает",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a humorous portrayal of a cat, likely showcasing its behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3e9xwu",
+    "decision": "keep",
+    "reason": "The title suggests a humorous portrayal of a cat, likely showcasing its behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x6y2ovj",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6y2ovj_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6y2ovj_audio.mp3",
+  "duration_sec": 42,
+  "duration_seconds": 42.0,
+  "title": "Gatinho que sobreviveu a incêndio fez nunca pensou que voltaria a ver sua mãe novamente",
+  "webpage_url": "https://www.dailymotion.com/video/x6y2ovj",
+  "dm_id": "x6y2ovj",
+  "views_total": 6783,
+  "view_count": 6783,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gato reencontra dona"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pt",
+  "query_language": "Spanish",
+  "description": "Gatinho que sobreviveu a incêndio fez nunca pensou que voltaria a ver sua mãe novamente",
+  "created_time": 1543522700,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat that survived a fire, indicating a rescue or pain context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6y2ovj",
+    "decision": "keep",
+    "reason": "The video features a cat that survived a fire, indicating a rescue or pain context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

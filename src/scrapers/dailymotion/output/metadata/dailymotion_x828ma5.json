@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x828ma5",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x828ma5_video.mp4",
+  "audio_path": "output/videos/dailymotion_x828ma5_audio.mp3",
+  "duration_sec": 43,
+  "duration_seconds": 43.0,
+  "title": "Un chat saute sur la serviette de bain de sa maîtresse",
+  "webpage_url": "https://www.dailymotion.com/video/x828ma5",
+  "dm_id": "x828ma5",
+  "views_total": 3261,
+  "view_count": 3261,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Société",
+    "Vidéos"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Cette femme se filme dans la salle de bain, afin de prouver à ses amis que ce qu'elle a raconté est vrai ! Et ce qu'il se passe est vraiment drôle : son chat saute sur la serviette qui retient ses cheveux ! Et il ne bouge pas d'un poil.",
+  "created_time": 1624633520,
+  "search_query": "chat sautant sur sa proie",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat jumping on a towel, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x828ma5",
+    "decision": "keep",
+    "reason": "The video features a cat jumping on a towel, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

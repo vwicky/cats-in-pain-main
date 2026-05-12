@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x6x9xko",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6x9xko_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6x9xko_audio.mp3",
+  "duration_sec": 39,
+  "duration_seconds": 39.0,
+  "title": "Playing with cat",
+  "webpage_url": "https://www.dailymotion.com/video/x6x9xko",
+  "dm_id": "x6x9xko",
+  "views_total": 1549,
+  "view_count": 1549,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Cat playing"
+  ],
+  "channel": "lifestyle",
+  "channel_title": "lifestyle",
+  "language": "en",
+  "query_language": "English",
+  "description": "Funny videos",
+  "created_time": 1542363337,
+  "search_query": "happy cat playing",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat is being played with, indicating cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6x9xko",
+    "decision": "keep",
+    "reason": "The title suggests a cat is being played with, indicating cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

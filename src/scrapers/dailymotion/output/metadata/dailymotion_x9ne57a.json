@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x9ne57a",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9ne57a_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9ne57a_audio.mp3",
+  "duration_sec": 9,
+  "duration_seconds": 9.0,
+  "title": "Gata é resgatada após ser pintada de rosa pela tutora em Araxá",
+  "webpage_url": "https://www.dailymotion.com/video/x9ne57a",
+  "dm_id": "x9ne57a",
+  "views_total": 93595,
+  "view_count": 93595,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gato pintado de rosa",
+    "resgate de gato pintado de rosa",
+    "araxá minas gerais",
+    "notícias de araxá",
+    "minas gerais",
+    "notícias mg",
+    "animais",
+    "gatos"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Uma gata foi resgatada na segunda-feira (21/7) após ser pintada de rosa pela tutora em Araxá (MG) <br /><br />Imagens: Redes Sociais <br /><br />Acesse o site: https://em.com.br / https://uai.com.br <br /><br />SE INSCREVA EM NOSSO CANAL NO YOUTUBE: https://www.youtube.com/@PortalUai <br /><br />Siga o Portal UAI nas redes sociais: <br /><br />Instagram - https://instagram.com/estadodeminas/ <br />Twitter -  https://twitter.com/em_com/ <br />Facebook - https://www.facebook.com/EstadodeMinas <br /><br />#minasgerais #gato #araxa",
+  "created_time": 1753195450,
+  "search_query": "compilação de brigas de gatos",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video is about a cat being rescued after being painted, which is relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9ne57a",
+    "decision": "keep",
+    "reason": "The video is about a cat being rescued after being painted, which is relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

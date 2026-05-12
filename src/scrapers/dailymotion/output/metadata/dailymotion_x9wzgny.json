@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x9wzgny",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9wzgny_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9wzgny_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Le premier hôtel de luxe pour chats a ouvert à Lyon",
+  "webpage_url": "https://www.dailymotion.com/video/x9wzgny",
+  "dm_id": "x9wzgny",
+  "views_total": 4004,
+  "view_count": 4004,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "lyon",
+    "actulyon",
+    "chats",
+    "animaux",
+    "cats"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Le GentleCat Grand Hôtel a ouvert ses portes début décembre dans le 2e arrondissement de Lyon",
+  "created_time": 1767428710,
+  "search_query": "posture défensive de chat",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a luxury hotel for cats, which is relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9wzgny",
+    "decision": "keep",
+    "reason": "The video discusses a luxury hotel for cats, which is relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

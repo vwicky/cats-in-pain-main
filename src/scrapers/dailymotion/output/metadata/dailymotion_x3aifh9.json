@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x3aifh9",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3aifh9_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3aifh9_audio.mp3",
+  "duration_sec": 41,
+  "duration_seconds": 41.0,
+  "title": "Кот и собака дерутся! Кто кого? ))",
+  "webpage_url": "https://www.dailymotion.com/video/x3aifh9",
+  "dm_id": "x3aifh9",
+  "views_total": 14732,
+  "view_count": 14732,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Драка",
+    "кошка с собакой",
+    "с собакой",
+    "дружба"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Кот и собака дерутся! Кто кого? ))",
+  "created_time": 1445458132,
+  "search_query": "кот, выслеживающий добычу",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a fight between a cat and a dog, indicating agonistic behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3aifh9",
+    "decision": "keep",
+    "reason": "The title suggests a fight between a cat and a dog, indicating agonistic behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9hivx4",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9hivx4_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9hivx4_audio.mp3",
+  "duration_sec": 46,
+  "duration_seconds": 46.0,
+  "title": "澳洲老猫与剧毒蛇惊险缠斗 幸存归来令人惊叹",
+  "webpage_url": "https://www.dailymotion.com/video/x9hivx4",
+  "dm_id": "x9hivx4",
+  "views_total": 1122,
+  "view_count": 1122,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "zh",
+  "query_language": "Japanese",
+  "description": "澳洲布里斯本一名女子蕾贝卡（Rebecca Daynes）在脸书分享惊险经历，她的爱猫梅贝尔（Mabel）平时喜欢外出晒太阳，某天却意外回家时，脖子竟被一条粗长“项链”紧紧缠住——竟是世界第二毒蛇“东部褐蛇”（Eastern Brown Snake）！ <br /><br />当时蕾贝卡起初以为是普通蟒蛇，毫不犹豫拿起钳子就动手解救，成功将蛇驱赶走。事后她为了求证蛇的品种，将照片传给对蛇类相当了解的儿子，结果被告知：“这条蛇90%是东部褐蛇。” <br /><br />等儿子赶回家，那条毒蛇还在门口，满身伤痕却依然具有攻击性，最终逃进花园失去踪影。幸运的是，经过48小时观察，梅贝尔并未出现中毒迹象。 <br /><br />新闻链接：https://www.kwongwah.com.my/?p=1625724",
+  "created_time": 1744096258,
+  "search_query": "猫の不快のサイン",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a cat's encounter with a snake, indicating real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9hivx4",
+    "decision": "keep",
+    "reason": "The video discusses a cat's encounter with a snake, indicating real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

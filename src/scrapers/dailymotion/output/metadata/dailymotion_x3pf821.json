@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x3pf821",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3pf821_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3pf821_audio.mp3",
+  "duration_sec": 55,
+  "duration_seconds": 55.0,
+  "title": "Щенок пытается поиграть с котом, но кот не умолим ПРИКОЛ ПРО КОТА И ЩЕНКА",
+  "webpage_url": "https://www.dailymotion.com/video/x3pf821",
+  "dm_id": "x3pf821",
+  "views_total": 20868,
+  "view_count": 20868,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "prikoli",
+    "video",
+    "clip",
+    "best",
+    "rolik",
+    "смешно",
+    "comedy"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1454157468,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a playful interaction between a puppy and a cat.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3pf821",
+    "decision": "keep",
+    "reason": "The title indicates a playful interaction between a puppy and a cat.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

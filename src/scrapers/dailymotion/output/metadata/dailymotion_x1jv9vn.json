@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x1jv9vn",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x1jv9vn_video.mp4",
+  "audio_path": "output/videos/dailymotion_x1jv9vn_audio.mp3",
+  "duration_sec": 29,
+  "duration_seconds": 29.0,
+  "title": "cat fanyy videos",
+  "webpage_url": "https://www.dailymotion.com/video/x1jv9vn",
+  "dm_id": "x1jv9vn",
+  "views_total": 1476,
+  "view_count": 1476,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Riaz Uddin Ahamed Siddique"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "cat fanyy videos 26-03-2014 riaz ali zardari",
+  "created_time": 1395850099,
+  "search_query": "noisy cat videos",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests it features cat videos, which may include real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x1jv9vn",
+    "decision": "keep",
+    "reason": "The title suggests it features cat videos, which may include real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x356ovt",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x356ovt_video.mp4",
+  "audio_path": "output/videos/dailymotion_x356ovt_audio.mp3",
+  "duration_sec": 44,
+  "duration_seconds": 44.0,
+  "title": "Первая встреча кота и ребенка",
+  "webpage_url": "https://www.dailymotion.com/video/x356ovt",
+  "dm_id": "x356ovt",
+  "views_total": 40087,
+  "view_count": 40087,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1441585304,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's interaction with a child, which is relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x356ovt",
+    "decision": "keep",
+    "reason": "The title suggests a cat's interaction with a child, which is relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

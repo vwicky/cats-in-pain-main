@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x844ei2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x844ei2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x844ei2_audio.mp3",
+  "duration_sec": 46,
+  "duration_seconds": 46.0,
+  "title": "Gato com sete vidas",
+  "webpage_url": "https://www.dailymotion.com/video/x844ei2",
+  "dm_id": "x844ei2",
+  "views_total": 15615,
+  "view_count": 15615,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Gato com sete vidas",
+  "created_time": 1631515121,
+  "search_query": "gatos conversando com pássaros",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat-related theme.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x844ei2",
+    "decision": "keep",
+    "reason": "The title suggests a cat-related theme.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

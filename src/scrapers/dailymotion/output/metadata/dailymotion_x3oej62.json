@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3oej62",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3oej62_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3oej62_audio.mp3",
+  "duration_sec": 47,
+  "duration_seconds": 47.0,
+  "title": "У кота садится батарейка",
+  "webpage_url": "https://www.dailymotion.com/video/x3oej62",
+  "dm_id": "x3oej62",
+  "views_total": 4874,
+  "view_count": 4874,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1453762505,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat with a low battery, possibly indicating fatigue or resting.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3oej62",
+    "decision": "keep",
+    "reason": "The title suggests a cat with a low battery, possibly indicating fatigue or resting.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

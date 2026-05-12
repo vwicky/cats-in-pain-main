@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x5pbpwu",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5pbpwu_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5pbpwu_audio.mp3",
+  "duration_sec": 44,
+  "duration_seconds": 44.0,
+  "title": "Gato briga na sala forte e feio com cão até que de repente o impensável acontece... TÃO FOFO!",
+  "webpage_url": "https://www.dailymotion.com/video/x5pbpwu",
+  "dm_id": "x5pbpwu",
+  "views_total": 2339,
+  "view_count": 2339,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "gato",
+    "tão fofo",
+    "cão",
+    "festinhas"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "O dia certamente não estava a correr bem para este gato e acabou por descarregar todos os seus problemas no cão lá de casa. Felizmente o pastor alemão encarou tudo na brincadeira, mesmo quando o felino tentava acertar-lhe com as garras. <br /> <br />E foi talvez por isso, que o gato acabou por perceber que o cão não tinha culpa pelo seu mau dia... e após alguns segundos, fez algo muito fofo como quem pede desculpa. :)",
+  "created_time": 1496760847,
+  "search_query": "gatos conversando com pássaros",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat engaging in agonistic behavior with a dog.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5pbpwu",
+    "decision": "keep",
+    "reason": "The title indicates a cat engaging in agonistic behavior with a dog.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

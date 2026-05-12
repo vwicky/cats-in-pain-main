@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x38krrh",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x38krrh_video.mp4",
+  "audio_path": "output/videos/dailymotion_x38krrh_audio.mp3",
+  "duration_sec": 14,
+  "duration_seconds": 14.0,
+  "title": "Скорость и ловкость этой кошки просто зашкаливает! Охота на птичку!",
+  "webpage_url": "https://www.dailymotion.com/video/x38krrh",
+  "dm_id": "x38krrh",
+  "views_total": 48404,
+  "view_count": 48404,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1443999420,
+  "search_query": "кошки, шипящие на птиц",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat hunting behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x38krrh",
+    "decision": "keep",
+    "reason": "The title suggests a cat hunting behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

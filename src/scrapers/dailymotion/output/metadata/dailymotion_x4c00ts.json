@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x4c00ts",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x4c00ts_video.mp4",
+  "audio_path": "output/videos/dailymotion_x4c00ts_audio.mp3",
+  "duration_sec": 34,
+  "duration_seconds": 34.0,
+  "title": "Кот украл у соседей тигра",
+  "webpage_url": "https://www.dailymotion.com/video/x4c00ts",
+  "dm_id": "x4c00ts",
+  "views_total": 755,
+  "view_count": 755,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1463903482,
+  "search_query": "кот, выслеживающий добычу",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat stealing, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x4c00ts",
+    "decision": "keep",
+    "reason": "The title suggests a cat stealing, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

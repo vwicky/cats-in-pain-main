@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x5jx9x",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5jx9x_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5jx9x_audio.mp3",
+  "duration_sec": 35,
+  "duration_seconds": 35.0,
+  "title": "L'attaque de Léon, mon chat-tigre en pleine nuit",
+  "webpage_url": "https://www.dailymotion.com/video/x5jx9x",
+  "dm_id": "x5jx9x",
+  "views_total": 653,
+  "view_count": 653,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "tigre",
+    "chat",
+    "fou"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1211741994,
+  "search_query": "courtes vidéos de chats en chasse",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat attacking, which fits agonistic behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5jx9x",
+    "decision": "keep",
+    "reason": "The title indicates a cat attacking, which fits agonistic behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x5tbon",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5tbon_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5tbon_audio.mp3",
+  "duration_sec": 25,
+  "duration_seconds": 25.0,
+  "title": "[VIDEO DIVERTENTI] - gatto esulta dopo goal",
+  "webpage_url": "https://www.dailymotion.com/video/x5tbon",
+  "dm_id": "x5tbon",
+  "views_total": 885,
+  "view_count": 885,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "tifosi",
+    "gatti"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "",
+  "created_time": 1213717837,
+  "search_query": "recupero del gatto dopo l'intervento",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat celebrating, likely involving vocalization.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5tbon",
+    "decision": "keep",
+    "reason": "The title suggests a cat celebrating, likely involving vocalization.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x5hck4a",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5hck4a_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5hck4a_audio.mp3",
+  "duration_sec": 49,
+  "duration_seconds": 49.0,
+  "title": "Why Do Cats Purr?",
+  "webpage_url": "https://www.dailymotion.com/video/x5hck4a",
+  "dm_id": "x5hck4a",
+  "views_total": 48046,
+  "view_count": 48046,
+  "likes_total": 5,
+  "like_count": 5,
+  "tags": [],
+  "channel": "lifestyle",
+  "channel_title": "lifestyle",
+  "language": "en",
+  "query_language": "en",
+  "description": "Yes, they do purr when they're happy, but purrs can also be signs of distress.",
+  "created_time": 1491407820,
+  "search_query": "cat purring",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description discuss purring, which is a vocalization behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5hck4a",
+    "decision": "keep",
+    "reason": "The title and description discuss purring, which is a vocalization behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

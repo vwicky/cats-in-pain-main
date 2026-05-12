@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x98yx3c",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x98yx3c_video.mp4",
+  "audio_path": "output/videos/dailymotion_x98yx3c_audio.mp3",
+  "duration_sec": 18,
+  "duration_seconds": 18.0,
+  "title": "El emocionante reencuentro de un gato con su dueña tras días desaparecido por la DANA de Valencia",
+  "webpage_url": "https://www.dailymotion.com/video/x98yx3c",
+  "dm_id": "x98yx3c",
+  "views_total": 29200,
+  "view_count": 29200,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1731333620,
+  "search_query": "gatos luchando por territorio",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests an emotional reunion with a cat, relevant to real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x98yx3c",
+    "decision": "keep",
+    "reason": "The title suggests an emotional reunion with a cat, relevant to real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

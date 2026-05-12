@@ -1,0 +1,209 @@
+# TikTok cat behavior pipeline — isolated from data_pipeline_v2.
+# Run from repo root: python src/scrapers/tiktok/src/pipeline.py --config src/scrapers/tiktok/config/pipeline.yaml
+#
+# Authentication (TikTok often requires cookies):
+#   - Set download.cookie_file to a Netscape cookie file path, and/or
+#   - Set download.cookies_from_browser, e.g. "chrome" or "firefox" (see yt-dlp --cookies-from-browser), and/or
+#   - Export COOKIE_FILE=/path/to/cookies.txt
+#
+run_name: "tiktok_pipeline_run"
+run_notes: "Run 3: more languages + stronger hashtag diversity; GPT temp; prior video_id dedup via metadata/log"
+
+search:
+  # Optional: only generate/scrape some behavioral buckets (default: all five).
+  # Pain/Vet-only example (vet, pain, injury, surgery, emergency):
+  # behavior_categories:
+  #   - Pain/Vet
+  # 5 behavioral categories × N = GPT hashtag strings per run; N=66 → 330 hashtag URLs to scrape
+  seed_queries_per_category: 66
+  # Use at least this many entries from target_languages (cycle labels per tag). Set ≥ len(target_languages) to use every language.
+  languages_per_query: 32
+  max_results_per_query: 50
+  openai_api_key: ""
+  query_generation_model: "gpt-4o-mini"
+  # Slightly higher = more diverse GPT hashtags (new cache when this changes)
+  query_generation_temperature: 0.65
+  # Pain/Vet gets more GPT hashtag slots than the other four categories (class balance + vet/pain focus).
+  # Set seed_queries_per_category_pain_vet explicitly to override the multiplier.
+  pain_vet_hashtag_boost: 1.5
+  # seed_queries_per_category_pain_vet: 99
+  # When regenerating queries, pass tag_label strings from the previous tiktok_generated_queries.jsonl
+  # so GPT avoids the same hashtag pools (video_ids are still skipped separately via metadata/log).
+  query_generation_avoid_prior_hashtags: true
+  prior_hashtag_hints_max: 250
+  prior_hashtag_hints_max_chars: 12000
+  # Reserved for future use; within-run duplicate video_ids are always skipped when scraping.
+  deduplicate_across_queries: true
+  # Optional overrides for download-stage yt-dlp (single videos). If empty, same keys under download.* apply.
+  cookie_file: "cookies.txt"
+  cookies_from_browser: ""
+  # Optional install ID (IID) for TikTok mobile API (used by download-stage yt-dlp only).
+  tiktok_app_info: ""
+  # Hashtag pages: Playwright scrolls the DOM (yt-dlp’s tiktok:tag extractor is unreliable).
+  # After pip install playwright: run `python -m playwright install` in your venv (macOS ARM: pulls chrome-headless-shell).
+  playwright:
+    # false = visible Chromium (local Mac): you can solve CAPTCHA / accept cookies; set true for unattended runs.
+    headless: false
+    goto_timeout_ms: 20000
+    # Time to wait for first /video/ link (manual CAPTCHA / login in headed mode — increase if needed).
+    wait_for_video_timeout_ms: 60000
+    # Brief pause after navigation so TikTok’s React shell can render before we wait for /video/ links.
+    post_goto_sleep_sec: 3
+    max_scroll_attempts: 10
+    scroll_pause_sec: 2.5
+    wheel_delta_y: 3000
+    viewport_width: 1280
+    viewport_height: 720
+    # Chromium user-data dir (persistent cookies/session). Gitignored by default under src/scrapers/tiktok/.
+    user_data_dir: "src/scrapers/tiktok/tiktok_profile"
+    user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  # Optional extra seed URLs (hashtag or user pages); merged with GPT/hardcoded seeds
+  extra_seed_urls: []
+  target_languages:
+    - "English"
+    - "Ukrainian"
+    - "Russian"
+    - "French"
+    - "German"
+    - "Spanish"
+    - "Japanese"
+    - "Thai"
+    - "Arabic"
+    - "Portuguese"
+    - "Korean"
+    - "Italian"
+    - "Polish"
+    - "Turkish"
+    - "Hindi"
+    - "Vietnamese"
+    - "Dutch"
+    - "Indonesian"
+    - "Czech"
+    - "Romanian"
+    - "Swedish"
+    - "Norwegian"
+    - "Greek"
+    - "Hebrew"
+    - "Malay"
+    - "Tagalog"
+    - "Hungarian"
+    - "Bengali"
+    - "Finnish"
+    - "Danish"
+    - "Slovak"
+    - "Persian"
+
+# After Playwright search, fill title/description/tags/duration via yt-dlp (no video download).
+# Uses cookies from metadata_enrich → download → search (first non-empty wins).
+metadata_enrich:
+  enabled: true
+  # If true, only call yt-dlp when title, description, tags, and hashtags are all empty (typical after hashtag-grid scrape).
+  only_when_empty: true
+  # Concurrent yt-dlp metadata fetches (I/O bound). Use 1 for strictly sequential behavior.
+  parallel_workers: 8
+  sleep_interval: 1.5
+  max_retries: 2
+  cookie_file: ""
+  cookies_from_browser: ""
+
+tag_filter:
+  # No YouTube categories — duration + keywords + optional music heuristics
+  reject_title_keywords:
+    - "minecraft"
+    - "fortnite"
+    - "gameplay"
+    - "cartoon"
+    - "animation"
+    - "cgi"
+  reject_description_keywords: []
+  require_min_duration_sec: 1
+  require_max_duration_sec: 120
+  # If any keyword matches track/title/sound metadata (when present), discard
+  reject_if_track_title_keywords:
+    - "official music video"
+    - "mv"
+  # If true and we have track metadata but no description/hashtags, optional discard (see tag_filter.py)
+  discard_trending_sound_only_when_no_text: false
+
+gpt_filter:
+  model: "gpt-4o-mini"
+  # System vs user message: rules adapted from data_pipeline_v2; edit these files instead of Python.
+  system_prompt_file: "src/scrapers/tiktok/config/gpt_filter_system_prompt.md"
+  user_prompt_prefix_file: "src/scrapers/tiktok/config/gpt_filter_user_prompt_prefix.md"
+  # Legacy: if set and system_prompt_file is omitted, rules_file is loaded as the system prompt only.
+  # rules_file: "src/scrapers/tiktok/config/gpt_filter_rules.md"
+  batch_size: 10
+  # Concurrent OpenAI calls (thread pool); 1 = serial. Watch rate limits on your API tier.
+  parallel_workers: 5
+  max_retries: 3
+  temperature: 0.0
+  openai_api_key: ""
+  cost_estimate_per_1k_tokens: 0.000150
+
+download:
+  # Rate limiting (TikTok is aggressive)
+  sleep_interval: 2
+  max_sleep_interval: 5
+  # Clip length: yt-dlp match_filter rejects before full download (see downloader.py)
+  max_clip_seconds: 120
+  absolute_max_duration_seconds: 120
+  min_clip_seconds: 1
+  max_filesize_bytes: 524288000
+  max_height: 1080
+  audio_format: "mp3"
+  audio_quality: "192"
+  retries: 3
+  fragment_retries: 3
+  cookie_file: ""
+  cookies_from_browser: ""
+  tmp_dir: "src/scrapers/tiktok/tmp_downloads"
+  output_dir: "data/dataset/tiktok_videos"
+  # Skip set: never re-download IDs present here (plus metadata + pipeline_log)
+  legacy_dataset_jsonl: "data/dataset/tiktok_final_dataset.jsonl"
+
+yolo:
+  weights: "models/yolo/yolov8m.pt"
+  conf: 0.5
+  imgsz: 640
+  cat_class_id: 15
+  min_segment_duration: 3.0
+  min_chunk_duration: 3.0
+  max_chunk_duration: 7.0
+  frame_skip: 4
+  require_single_cat: true
+  processing_timeout_sec: 300
+  processing_workers: 1
+  parallel_yolo_device: "mps"
+  # If true, removes downloaded MP4/MP3 after each video is processed — frees disk but you cannot
+  # re-run the process stage without re-downloading. Use false while iterating on YOLO/audio settings.
+  delete_source_media_after_processing: false
+  # If true (default), skip videos that already appear in metadata with ≥1 snippet — avoids re-running YOLO on resume.
+  # Set false only when you intentionally want to re-process everything with new settings.
+  skip_videos_already_in_metadata: true
+
+audio:
+  backend: yamnet
+  cat_prob_threshold: 0.65
+  yamnet_patch_batch_size: 32
+  yamnet_aggregate_cat_classes: sum
+  yamnet_include_roaring_cats: false
+  model_path: models/audio_preclassifier/voting_classifier_with-add-data.pkl
+  v2_model_path: _archive/audio_preclassifier_v2/runs/run_20260408_221318/best_model.pkl
+  prefer_v2: true
+  feature_set: mfcc_delta_spectral
+  waveform_normalize: none
+  waveform_normalize_eps: 1.0e-09
+  waveform_normalize_noise_floor: 0.01
+  waveform_normalize_rms_target: 0.1
+  # Optional: directory for temporary MP3s used by v2 predict_one (defaults to system temp). Use an external drive if the boot disk is full.
+  predict_temp_dir: ""
+
+output:
+  snippets_dir: "data/dataset/tiktok_snippets"
+  metadata_file: "data/dataset/tiktok_metadata.jsonl"
+  pipeline_log: "src/scrapers/tiktok/logs/pipeline_log.jsonl"
+  runs_dir: "src/scrapers/tiktok/runs"
+
+reporting:
+  log_interval: 10
+  save_plots: true

@@ -1,0 +1,100 @@
+# Dailymotion scraper — YOLO + audio process stage (same modules as data_pipeline_v2).
+# Run from repo root: python src/scrapers/dailymotion/main.py --config src/scrapers/dailymotion/config/pipeline.yaml
+#
+# Requires: data_pipeline_v2 on PYTHONPATH (main.py adds it), torch, ultralytics, etc.
+
+run_name: "dailymotion_run"
+
+# GPT query generation (same idea as data_pipeline_v2 / TikTok). Cached under src/scrapers/dailymotion/logs/.
+# Changing this block invalidates dm_generated_queries cache (hash) and regenerates queries on next run.
+search:
+  openai_api_key: ""
+  # Bumps hash → regenerates dm_generated_queries when seeds/prompts change in code.
+  query_prompt_version: 2
+  query_generation_model: "gpt-4o-mini"
+  seed_queries_per_category: 6
+  # How many entries from target_languages below are used per seed (after multilingual expand).
+  languages_per_query: 10
+  # If true, skip GPT/cache and use only the static SEARCH_QUERIES list in config.py
+  use_static_queries: false
+  # More languages → more distinct regional/title mixes; overlaps less with English-only head results.
+  target_languages:
+    - "English"
+    - "Ukrainian"
+    - "Russian"
+    - "French"
+    - "German"
+    - "Spanish"
+    - "Italian"
+    - "Polish"
+    - "Portuguese"
+    - "Japanese"
+  # Collapse identical query strings before search (saves API calls; less redundant overlap).
+  dedupe_identical_queries: true
+  # Randomize order so one language/category does not always fill the candidate pool first.
+  shuffle_query_order: true
+  # Omit or set null for a different shuffle each run; set an int for reproducible order.
+  shuffle_seed: null
+  # Cycle sort modes per query so results are not all the same relevance-ranked head pages.
+  rotate_sort_orders: true
+  sort_orders:
+    - "relevance"
+    - "recent"
+    - "visited-week"
+    - "random"
+  # API + post-search gates (override defaults in config.py)
+  min_video_duration_seconds: 2
+  max_video_duration_seconds: 180
+
+gpt_filter:
+  openai_api_key: ""
+  # Parallel OpenAI batch requests (ThreadPoolExecutor). Lower if you hit rate limits.
+  parallel_workers: 5
+
+download:
+  max_duration_seconds: 180
+  max_filesize_bytes: 524288000
+  max_height: 1080
+  audio_format: "mp3"
+  audio_quality: "192"
+  retries: 3
+  fragment_retries: 3
+  tmp_dir: "src/scrapers/dailymotion/tmp_downloads"
+  output_dir: "src/scrapers/dailymotion/output/videos"
+  legacy_dataset_jsonl: "data/dataset/dailymotion_legacy_dataset.jsonl"
+
+yolo:
+  weights: "models/yolo/yolov8x.pt"
+  conf: 0.50
+  imgsz: 640
+  cat_class_id: 15
+  min_segment_duration: 3.0
+  min_chunk_duration: 3.0
+  max_chunk_duration: 7.0
+  frame_skip: 6
+  require_single_cat: true
+  processing_timeout_sec: 300
+  processing_workers: 1
+  parallel_yolo_device: "mps"
+  delete_source_media_after_processing: false
+
+audio:
+  backend: yamnet
+  cat_prob_threshold: 0.65
+  yamnet_patch_batch_size: 32
+  yamnet_aggregate_cat_classes: sum
+  yamnet_include_roaring_cats: false
+  model_path: "models/audio_preclassifier/voting_classifier_with-add-data.pkl"
+  v2_model_path: "_archive/audio_preclassifier_v2/runs/run_20260408_221318/best_model.pkl"
+  prefer_v2: true
+  feature_set: "mfcc_delta_spectral"
+  waveform_normalize: none
+  waveform_normalize_eps: 1.0e-9
+  waveform_normalize_noise_floor: 0.01
+  waveform_normalize_rms_target: 0.1
+
+output:
+  snippets_dir: "src/scrapers/dailymotion/dataset/dailymotion_snippets"
+  metadata_file: "src/scrapers/dailymotion/dataset/dailymotion_metadata.jsonl"
+  pipeline_log: "src/scrapers/dailymotion/logs/dailymotion_pipeline_log.jsonl"
+  runs_dir: "src/scrapers/dailymotion/runs"

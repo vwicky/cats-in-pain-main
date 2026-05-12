@@ -1,0 +1,449 @@
+================================================================================
+Cats-in-Pain-Bachelors — Audio pipeline comprehensive report
+================================================================================
+
+
+--------------------------------------------------------------------------------
+1. TITLE, DATE, PURPOSE
+--------------------------------------------------------------------------------
+Title: Cats-in-Pain-Bachelors — Audio pipeline comprehensive report
+Inventory reference date: 2026-05-06
+
+Purpose:
+  Single plaintext inventory covering YAMNet → AudioSep → CatEmotionModel,
+  configs and checkpoints, scraper inference touchpoints, committed metrics
+  from emotion_labeling_report.txt and thesis figure_report.txt (audio excerpts),
+  vendor AudioSep evaluation scope, reproducibility commands, and explicit gaps:
+  notably no automated mixture-vs-separated AudioSep consistency study in-repo.
+
+
+--------------------------------------------------------------------------------
+2. PIPELINE FLOW (HIGH LEVEL)
+--------------------------------------------------------------------------------
+
+Diagram (conceptual DAG):
+
+  Input video
+       |
+       +-- ffmpeg --> extracted_audio.wav (16 kHz mono)
+       |
+       +-- YAMNet --> P(cat) aggregated over time frames
+                      |
+                      +-- P(cat) >= threshold --> AUDIO BRANCH
+                      |         |
+                      |         +-- AudioSep (text query e.g. "cat sounds")
+                      |         |         --> separated_audio.wav (written)
+                      |         +-- CatEmotionModel (10-class softmax)
+                      |
+                      +-- P(cat) < threshold  --> VIDEO BRANCH (ViTPose + ST-GCN meta; out of scope here)
+
+Sampling-rate note:
+  - YAMNet path and ffmpeg extraction use 16 kHz for inference (pipeline).
+  - AudioSep loads/resynthesizes internally at 32 kHz per vendored AudioSep/pipeline.py.
+  - CatEmotionModel consumes waveforms at AudioConfig.sample_rate (16 kHz; 7 s target).
+
+
+--------------------------------------------------------------------------------
+3. IMPLEMENTATION MAP (FILE → ROLE)
+--------------------------------------------------------------------------------
+
+Inference (end-to-end video → branch)
+  src/inference/pipeline.py
+    CLI entry; ffmpeg audio extract (-ar 16000 mono); loads YamNetRunner; run_yamnet;
+    branch to run_audio_branch or run_video_branch; sliding-window split mode optional.
+  src/inference/audio_branch.py
+    load_audiosep / run_audiosep / load_emotion_model / run_emotion_inference /
+    run_audio_branch (sep then classify).
+  src/inference/README.md
+    Human-readable flow, artifact table, pipeline_result JSON examples, checkpoints table.
+
+YAMNet (PyTorch stack — inference + default scraper pipeline_v2)
+  audio/audio-pre-classifier/src/yamnet_runner.py
+    torch_audioset YAMNet; cat-class index discovery; max over-frame aggregation for P(cat).
+  audio/audio-pre-classifier/src/config.py
+    SAMPLE_RATE 16000; CAT_KEYWORDS; AGGREGATE_CAT_CLASSES; INCLUDE_ROARING_CATS; patch batch size.
+  audio/audio-pre-classifier/src/evaluate_v2_data.py
+    Offline binary cat vs non-cat evaluation (metrics.csv, confusion matrix, ROC-AUC when applicable).
+  audio/audio-pre-classifier/README.md
+    P(cat) definition, stress-test guidance (non-cat roots / manifest), CLI examples.
+
+YAMNet (TensorFlow Hub — legacy YouTube gate)
+  src/scrapers/youtube/src/audio_filter.py
+    YamNetCatGate: configurable cat_sound_classes + yamnet_threshold (see youtube pipeline.yaml).
+
+Audio gating inside multi-source downloader / processor (PyTorch YamNet backend)
+  src/scrapers/data_pipeline_v2/src/audio_classifier.py
+    AudioClassifier: backend "yamnet" delegates to YamNetRunner on pydub chunks.
+  src/scrapers/data_pipeline_v2/config/pipeline.yaml (and sibling YAML variants)
+    audio.backend, cat_prob_threshold, yamnet_* knobs.
+
+AudioSep (vendored)
+  AudioSep/pipeline.py
+    build_audiosep; separate_audio (librosa 32 kHz mono; CLAP text condition; WAV output).
+
+CatEmotionModel (10-class PANNs backbone)
+  audio/audio-emotion-classifier/src/audio_classifier_utils/models/cnn14.py
+    CatEmotionModel definition (used by inference + 04_audio_classification.py).
+  audio/audio-emotion-classifier/inference/04_audio_classification.py
+    Batch inference over separated WAV/MP3 tree; predictions JSONL; plots; emotion_labeling_report.txt.
+  audio/audio-emotion-classifier/scripts/audio_emotion_inference_embeddings_pca.py
+    Optional PCA / embedding export on separated audio tree.
+
+Batch separation alongside dataset_audio tree
+  AudioSep/separeted_audios/separate_cat_sounds.py
+    Batch AudioSep runs (paths anchored relative to vendor AudioSep tree / repo layout as coded).
+  src/dataset_construction/separeted_audios/separate_cat_sounds.py
+    Copy/adaptation: see Section 9 (path caveat).
+
+Dataset construction docs
+  src/dataset_construction/README.md
+    Step 04 pointer; paths to separeted_audios spelling; checkpoint expectations.
+
+Reporting / thesis figures tied to merged manifest audio_label_10
+  src/dataset_construction/paper_figures/generate_plots.py
+  src/dataset_construction/paper_figures/output_pngs/figure_report.txt
+  Companion tables table_*_audio_label_10*.txt in same folder.
+
+Related (uses audio pseudo-labels, not separation consistency ablation)
+  video/pose-models/scripts/p4_pose_body_region_ablation.py
+    --audio10-manifest: ST-GCN evaluation conditioned on confident audio_label_10 holdout rows.
+
+
+--------------------------------------------------------------------------------
+4. CONFIGURATIONS (DEFAULTS AND NOTABLE DIFFERENCES)
+--------------------------------------------------------------------------------
+
+Inference CLI defaults (ArgumentDefaultsHelpFormatter in pipeline.py):
+  --cat-threshold 0.5  (routes to AUDIO branch when P(cat) >= 0.5)
+  Default AudioSep YAML: AudioSep/config/audiosep_base.yaml
+  Default AudioSep ckpt: AudioSep/checkpoint/audiosep_base_4M_steps.ckpt
+  Default emotion ckpt helper text: models/audio_emotions/best_model_final.pth
+                           (resolved like audio_branch.EMOTION_CKPT_CANDIDATES)
+
+Inference audio_branch.py specifics:
+  Text query passed to AudioSep: default string "cat sounds".
+  Separation output filename in run dir: separated_audio.wav
+  IDX_TO_CLASS (10-way): Angry, Defence, Fighting, Happy, HuntingMind, Mating,
+    MotherCall, Paining, Resting, Warning (indices 0..9).
+
+audio-pre-classifier config.py (evaluation / development defaults):
+  DEFAULT_THRESHOLD 0.02 for binary predictions in evaluate_v2_data (not identical to inference 0.5).
+  INCLUDE_ROARING_CATS false by default.
+
+data_pipeline_v2 default YAML (scraping / chunk gating — PyTorch YamNet backend):
+  audio.backend: yamnet
+  cat_prob_threshold: 0.65
+  yamnet_aggregate_cat_classes: sum
+  yamnet_include_roaring_cats: false
+
+youtube scraper YAML (tensorflow_hub YamNetGate):
+  audio.yamnet_threshold: 0.30 (when use_yamnet true)
+  cat_sound_classes: Cat, Meow, Purr, Hiss
+
+CatEmotionModel AudioConfig (audio_classifier_utils/audio_config.py):
+  sample_rate: 16000
+  target_length: 7 * sample_rate  (seven seconds padded/trimmed)
+  pretrained backbone checkpoint path default:
+    audio_classifier_utils/pretrained_weights/Cnn14_16k_mAP=0.438.pth
+
+
+--------------------------------------------------------------------------------
+5. DEPENDENCIES AND CHECKPOINTS
+--------------------------------------------------------------------------------
+
+Root inference audio branch extras (AudioSep stack):
+  src/inference/requirements-audiosep.txt
+    lightning>=2,<3 ; huggingface_hub ; transformers ; h5py
+
+Expected weight locations (summarized from src/inference/README.md):
+  AudioSep/checkpoint/audiosep_base_4M_steps.ckpt
+  AudioSep/checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt (CLAP HTSAT; cwd-sensitive load)
+  models/audio_emotions/best_model_final.pth (alternately checkpoints/best_model_final.pth)
+  audio/audio-emotion-classifier/src/audio_classifier_utils/pretrained_weights/Cnn14_16k_mAP=0.438.pth
+
+Torch YAMNet: installed via audio/audio-pre-classifier/requirements.txt (torch_audioset).
+
+
+--------------------------------------------------------------------------------
+6. DATASET / SCRAPER INTEGRATION
+--------------------------------------------------------------------------------
+
+For multi-host collection (data_pipeline_v2), tracked processing uses AudioClassifier
+with YAMNet v3 backend for per-chunk "cat sound" gating aggregated against
+cat_prob_threshold — see configs under src/scrapers/data_pipeline_v2/config/.
+
+YouTube path may still use YamNetCatGate (TensorFlow Hub) with discrete class subset
+rather than aggregated torch_audioset indices.
+
+Design consistency: scraped candidates are gated on raw/chunk audio; bulk emotion
+pseudo-labeling for manifests runs on SEPARATED files under src/dataset_construction/
+separeted_audios/ via 04_audio_classification.py (distinct stage from downloader gate).
+
+
+--------------------------------------------------------------------------------
+7. COMMITTED RESULT ARTIFACTS (VERBATIM / EXCERPTS)
+--------------------------------------------------------------------------------
+
+7.A  emotion_labeling_report.txt — full verbatim copy as present in-repo
+------------------------------------------------------------------------------
+(source path: src/dataset_construction/reports/emotion_labeling_report.txt)
+
+04_audio_classification report
+Generated (UTC): 2026-04-19T08:58:10.897235+00:00
+Audio root: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/dataset_construction/separeted_audios
+Fine-tuned checkpoint: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/models/checkpoints_audio_emotions/best_model_final.pth
+PANNs backbone (AudioConfig): /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/audio_classifier_utils/pretrained_weights/Cnn14_16k_mAP=0.438.pth
+Files discovered: 7329
+Successfully labeled: 7329
+Failed (load/decode): 0
+
+Predicted class counts (successful rows only):
+  Mating: 1409
+  Happy: 1155
+  Resting: 1116
+  Paining: 1055
+  HuntingMind: 997
+  MotherCall: 764
+  Angry: 509
+  Fighting: 196
+  Warning: 82
+  Defence: 46
+
+Confidence (max softmax) — mean: 0.7321
+Confidence — median: 0.7538
+
+
+----------------------------------------------------------------------
+Note: Paths in the pasted report mirror the submitter workstation; runnable
+layouts from README use repository-relative roots (typically
+src/dataset_construction/separeted_audios/ from REPO_ROOT).
+
+7.B  thesis figure_report.txt — excerpts: header + Figures 9–12 + manifest scale
+------------------------------------------------------------------------------
+(source path: src/dataset_construction/paper_figures/output_pngs/figure_report.txt)
+
+
+Bachelor thesis — figure report (auto-generated)
+==============================================================================
+
+Manifest:              /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/src/dataset_construction/manifests/final_dataset_v2.jsonl
+Rows read:             7318
+n_missing_label5:      1071 (null final_label_5 on manifest; reference only for merged five-class target)
+n_missing_audio10:     0 (rows with null audio_label_10; excluded from audio ten-class plots and table 4 face)
+Generated:               2026-05-06 17:55 UTC
+
+
+Figure 9 — fig_09_audio10_labels_twopanel.png
+
+In-figure title: Audio ten-class + audio binary label distribution
+Logical fields: audio_label_10, audio_label_binary
+Exclusions: n_missing_audio10 = 0; panels use non-null values only.
+  Rows with non-null audio_label_10: 7318
+  Left: crest palette, bars sorted by descending count; colors keyed to canonical class order.
+    Canonical reference order: Angry, Defence, Fighting, Happy, HuntingMind, Mating, MotherCall, Paining, Resting, Warning
+  Right: first two crest stops (binary; same ramp as fig 07).
+
+Figure 10 — fig_10_audio10_setting_rownorm_heatmap.png
+
+Row-normalized audio ten-class × Indoor/Outdoor/Mixed
+Logical fields: audio_label_10, setting_tri
+Exclusions: n_missing_audio10 = 0; rows used 7318
+Annotation: '—' for undefined row; '0.00' for true zeros.
+
+Figure 11 — fig_11_audio10_location_rownorm_heatmap.png
+
+Row-normalized audio ten-class × location (top-k + other)
+location_top_k = 6
+Rows used: 7318
+
+Figure 12 — fig_12_audio10_behavior_rownorm_heatmap.png
+
+Row-normalized audio ten-class × primary behavior (top 8 + min-count other)
+behavior_min_count = 10
+Rows used: 7318
+
+
+Table 4 — table_04_face_by_audio_label_10.txt
+
+Face True/False/missing by audio ten-class label (audio_label_10)
+Exclusions: n_missing_audio10 = 0; non-null audio_label_10 rows only.
+Canonical row order: Angry, Defence, Fighting, Happy, HuntingMind, Mating, MotherCall, Paining, Resting, Warning
+
+
+7.C  Archive notebook — raw vs processed: committed stdout snapshot (one saved run)
+------------------------------------------------------------------------------
+(source: _archive/top_level_notebooks/checking_extraction_real_vs_distribution.ipynb
+ embedded cell outputs from executed cells — not an external .csv)
+
+Data pairing (printed earlier in notebook): ✓ Extracted **2961** paired samples
+(raw ``NAYA_DATA_AUG1X`` vs ``processed/processed``, matched by stem).
+
+Step 3 — OVERALL METRICS (mean row = interpretable aggregates)
+      cosine_sim     l2_dist  kl_symmetric  pred_agrees
+mean      0.9304   26.455299        0.2906       0.9409
+(std / min / max rows also saved in notebook; omitted here for brevity)
+
+Interpretation hooks: ``pred_agrees`` mean **0.9409** ⇒ **94.09%** raw vs processed
+emotion prediction agreement; **175 / 2961** samples flipped (**5.9%**).
+
+Step 3 — PER-CLASS ``pred_agrees`` (means; worst classes listed first by cosine_sim sort)
+  MotherCall  0.8919 | Warning     0.8267 | Resting     0.9730 | Defence     0.9519
+  Fighting    0.9500 | HuntingMind 0.9723 | Paining     0.9175 | Mating      0.9834
+  Angry       0.9767 | Happy       0.9663
+
+Step 4 — Fréchet + MMD (printed summary from same committed run)
+  MMD (RBF kernel) : **0.002481**
+  Baseline FD  (real vs real split) : **112.6509**
+  Baseline MMD (real vs real split) : **0.000616**
+  FD ratio  (drift / baseline) : **1.19x**
+  MMD ratio (drift / baseline) : **4.03x**
+
+Note: Figures (UMAP) are embedded as PNG blobs inside the notebook, not exported as
+standalone files next to this report. ``plt.savefig(\"umap_drift.png\")`` appears in code
+but that file path is **not** committed in-repo.
+
+
+--------------------------------------------------------------------------------
+8. UPSTREAM AudioSep EVALUATION (VENDOR TREE)
+--------------------------------------------------------------------------------
+
+Under AudioSep/evaluation/*.py and AudioSep/benchmark.py the upstream project computes
+classic source-separation diagnostics (SDR / SISDR, etc.) on public mixture datasets.
+These benchmarks assess AudioSep acoustic separation fidelity — they do not measure
+Cats-in-Pain CatEmotionModel agreement before vs after separation, nor pain routing.
+
+
+--------------------------------------------------------------------------------
+9. LIMITATIONS, GAPS, AND IMPLEMENTATION CAVEATS
+--------------------------------------------------------------------------------
+
+9.A  AudioSep-vs-raw "consistency" testing: notebooks vs runnable scripts
+   There is **no** small standalone Python module under ``src/`` or ``audio/`` that
+   reproducibly reruns mixture-vs-separated stress tests from the CLI.
+
+   There **is** substantial exploratory/stress-style analysis (prediction agreement,
+   KL, Fréchet distance, MMD, UMAP embeddings) comparing **paired** NAYA files in
+   ``data/audio_cat-classification/raw/NAYA_DATA_AUG1X`` vs sibling paths under
+   ``data/audio_cat-classification/processed/processed/`` (same stems, AudioSep-like
+   pipeline output as used in that workflow), in:
+
+     _archive/top_level_notebooks/checking_extraction_real_vs_distribution.ipynb
+
+   That notebook computes ``real_preds`` vs ``proc_preds`` alignment, symmetric KL,
+   and distribution drift (notebook output on one run cites e.g. ~94.09% prediction
+   agreement, FD ratio ~1.19× baseline, MMD ratio ~4.03× baseline) and discusses
+   per-class fragility (e.g. MotherCall vs Resting, Warning agreement). Narrative in
+   the notebook sometimes refers generically to "U-Net"; the comparison is framed as
+   raw vs separation-processed audio for the emotion model — treat as archival
+   research notes, not a pinned regression test.
+   **Tabulated stdout from that notebook’s committed run appears in §7.C** (2961 pairs,
+   175 flips, per-class breakdown, FD/MMD block).
+
+   See **Section 11** for every AudioSep-touching notebook/script path located.
+
+   YAMNet-only stress-testing (non-cat roots / manifest): see
+   audio/audio-pre-classifier/README.md and evaluate_v2_data.py — not AudioSep.
+
+   Design-time pipeline consistency: CLI inference audio branch + Step 04 both run
+   CatEmotionModel after separation with default AudioSep query "cat sounds" unless
+   overridden in code.
+
+9.B  separate_cat_sounds.py copy under dataset_construction
+   File: src/dataset_construction/separeted_audios/separate_cat_sounds.py
+   The module sets REPO_ROOT = parent of the separeted_audios folder (i.e.
+   src/dataset_construction), not the repository root. Default AudioSep config paths
+   like REPO_ROOT / "config/audiosep_base.yaml" would then not resolve to
+   AudioSep/config/ at the real repo root unless the script was modified or run with
+   adjusted paths. Prefer the maintained script under AudioSep/separeted_audios/
+   for batch separation unless this copy is repaired.
+
+9.C  Manifest merge after Step 04
+   src/dataset_construction/README.md notes that merge of metadata_clean_03 into
+   metadata_clean_04 after audio classification was not implemented at doc time;
+   final_dataset still consumes metadata_clean_04 when that pipeline is complete.
+
+
+--------------------------------------------------------------------------------
+10. HOW TO REPRODUCE (ORDERED COMMANDS FROM REPO DOCS)
+--------------------------------------------------------------------------------
+
+From repository root unless noted.
+
+10.1  YAMNet pre-classifier environment
+  pip install -r audio/audio-pre-classifier/requirements.txt
+
+10.2  YAMNet evaluation (binary cat vs non-cat metrics)
+  cd audio/audio-pre-classifier
+  PYTHONPATH=. python src/evaluate_v2_data.py --help
+
+10.3  Inference audio branch dependencies
+  pip install -r src/inference/requirements-audiosep.txt
+
+10.4  End-to-end inference (single video)
+  python src/inference/pipeline.py --video path/to/clip.mp4
+  Optional: --cat-threshold, --audiosep-config, --audiosep-ckpt, --emotion-ckpt
+  Sliding windows: --split-window-sec N --split-step-sec M
+
+10.5  Batch emotion labels on separated audio (Step 04)
+  python audio/audio-emotion-classifier/inference/04_audio_classification.py
+  (defaults as in audio-emotion-classifier README; dry-run and --limit supported)
+
+10.6  Regenerate thesis audio figures (if manifest available)
+  See src/dataset_construction/paper_figures/ and generate_plots.py usage in that package.
+
+10.7  Index of related commands
+  docs/script-index.md (inference row, audio emotion row, YAMNet evaluation row)
+
+10.8  Archive AudioSep / raw-vs-processed analysis (Jupyter)
+  Open from repo root (paths may need adjusting for your machine):
+    _archive/top_level_notebooks/checking_extraction_real_vs_distribution.ipynb
+
+
+--------------------------------------------------------------------------------
+11. AudioSep-RELATED NOTEBOOKS AND SCRIPTS (FULL INDEX)
+--------------------------------------------------------------------------------
+
+Project-specific (Cats-in-Pain)
+
+  _archive/top_level_notebooks/checking_extraction_real_vs_distribution.ipynb
+    Paired comparison: raw NAYA tree vs processed tree; CatEmotionModel prediction
+    agreement; KL; Fréchet distance + MMD on embeddings; UMAP “Clean” vs
+    “AudioSep Processed” scatter with paired displacement lines; written analysis
+    cells (MotherCall / Warning / Paining behavior after processing).
+
+  src/human_validation/labeling_cat_audios.ipynb
+    References ROOT_DIR_PROCESSED for human labeling workflow (processed cat audios);
+    not a separation benchmark, but ties validation UI to a processed-audio tree.
+
+  AudioSep/separeted_audios/separate_cat_sounds.py
+    Batch separation with build_audiosep + separate_audio; JSONL batch log support.
+
+  src/dataset_construction/separeted_audios/separate_cat_sounds.py
+    Copy of batch script; see §9.B for REPO_ROOT path caveat.
+
+  src/inference/audio_branch.py
+    Production integration: load_audiosep, run_audiosep, emotion on separated wav.
+
+  AudioSep/predict.py
+    Small wrapper class around build_audiosep + inference entry.
+
+Vendored upstream (Audio-AGI AudioSep)
+
+  AudioSep/trying_separation.ipynb
+    Interactive build_audiosep / separate_audio examples; batch loop with text query;
+    notes on 32 kHz and resampling.
+
+  AudioSep/AudioSep_Colab.ipynb
+    Colab-oriented clone, checkpoint download, separate_audio demo.
+
+  AudioSep/benchmark.py
+    Official checkpoint evaluation driver (public separation benchmarks).
+
+  AudioSep/evaluate_*.py under AudioSep/evaluation/
+    Dataset-specific SDR/SISDR-style evaluation scripts (Audioset, ESC-50, Music,
+    AudioCaps, Clotho, VGGSound).
+
+
+--------------------------------------------------------------------------------
+DOCUMENT END
+--------------------------------------------------------------------------------

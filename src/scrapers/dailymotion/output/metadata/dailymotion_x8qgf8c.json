@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8qgf8c",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8qgf8c_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8qgf8c_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Kätzchen verwüstet die Wohnung: Russe kennt kein Pardon!",
+  "webpage_url": "https://www.dailymotion.com/video/x8qgf8c",
+  "dm_id": "x8qgf8c",
+  "views_total": 26063,
+  "view_count": 26063,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Nach dem Motto „Wer Dreck macht, muss ihn auch selber wegmachen“ hat ein Russe seine Katze zu einer ungewöhnlichen Aufräumaktion verdonnert. Tierfreunde fragen sich: Ist das noch in Ordnung?",
+  "created_time": 1702310775,
+  "search_query": "Verhalten einer verletzten Katze",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a cat causing a mess, which suggests playful or mischievous behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8qgf8c",
+    "decision": "keep",
+    "reason": "The video involves a cat causing a mess, which suggests playful or mischievous behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

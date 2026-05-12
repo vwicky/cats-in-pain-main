@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x3nbri9",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3nbri9_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3nbri9_audio.mp3",
+  "duration_sec": 43,
+  "duration_seconds": 43.0,
+  "title": "Funny cat rolling in catnip toys",
+  "webpage_url": "https://www.dailymotion.com/video/x3nbri9",
+  "dm_id": "x3nbri9",
+  "views_total": 1054,
+  "view_count": 1054,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Catnip",
+    "cat",
+    "toys",
+    "funny",
+    "meow"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1453240485,
+  "search_query": "cat stalking a toy",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat rolling in catnip toys, which is typical playful behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3nbri9",
+    "decision": "keep",
+    "reason": "The video shows a cat rolling in catnip toys, which is typical playful behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

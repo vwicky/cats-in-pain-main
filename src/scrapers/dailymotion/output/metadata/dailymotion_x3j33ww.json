@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3j33ww",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3j33ww_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3j33ww_audio.mp3",
+  "duration_sec": 52,
+  "duration_seconds": 52.0,
+  "title": "Кот слушает гимн России стоя (ПАТРИОТ)",
+  "webpage_url": "https://www.dailymotion.com/video/x3j33ww",
+  "dm_id": "x3j33ww",
+  "views_total": 1028,
+  "view_count": 1028,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Кот слушает гимн России стоя",
+  "created_time": 1450835923,
+  "search_query": "кот громко мяукает",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat listening to music, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3j33ww",
+    "decision": "keep",
+    "reason": "The title suggests a cat listening to music, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

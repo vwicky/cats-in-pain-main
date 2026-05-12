@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3s8k1k",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3s8k1k_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3s8k1k_audio.mp3",
+  "duration_sec": 46,
+  "duration_seconds": 46.0,
+  "title": "Странная хореография. Strange choreography. latino cat",
+  "webpage_url": "https://www.dailymotion.com/video/x3s8k1k",
+  "dm_id": "x3s8k1k",
+  "views_total": 805,
+  "view_count": 805,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "fun",
+    "cat",
+    "prikoli",
+    "video",
+    "clip",
+    "best",
+    "rolik",
+    "смешно",
+    "comedy"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1455544513,
+  "search_query": "loud cat yowling videos",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat is involved in a strange choreography.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3s8k1k",
+    "decision": "keep",
+    "reason": "The title suggests a cat is involved in a strange choreography.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

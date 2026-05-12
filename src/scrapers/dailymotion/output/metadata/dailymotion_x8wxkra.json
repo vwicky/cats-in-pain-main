@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8wxkra",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8wxkra_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8wxkra_audio.mp3",
+  "duration_sec": 58,
+  "duration_seconds": 58.0,
+  "title": "Katzen nehmen den Kühlschrank ins Visier: Dieses Video bringt alle zum Lachen!",
+  "webpage_url": "https://www.dailymotion.com/video/x8wxkra",
+  "dm_id": "x8wxkra",
+  "views_total": 84687,
+  "view_count": 84687,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "DAS ist einfach köstlich! Diese beiden ungezogenen Katzen werden auf frischer Tat dabei erwischt, wie sie den Kühlschrank ihres Besitzers plündern wollen.",
+  "created_time": 1713340912,
+  "search_query": "Katzen, die friedlich ruhen",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features cats attempting to access food, which is typical cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8wxkra",
+    "decision": "keep",
+    "reason": "The video features cats attempting to access food, which is typical cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

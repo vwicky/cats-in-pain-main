@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x16e4u",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x16e4u_video.mp4",
+  "audio_path": "output/videos/dailymotion_x16e4u_audio.mp3",
+  "duration_sec": 7,
+  "duration_seconds": 7.0,
+  "title": "Chat",
+  "webpage_url": "https://www.dailymotion.com/video/x16e4u",
+  "dm_id": "x16e4u",
+  "views_total": 1048,
+  "view_count": 1048,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "chat",
+    "marrant",
+    "peur",
+    "news"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "chat  ki a peur",
+  "created_time": 1171130543,
+  "search_query": "chat chassant sa proie",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description suggests a cat showing fear, which is a plausible behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x16e4u",
+    "decision": "keep",
+    "reason": "The description suggests a cat showing fear, which is a plausible behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x6b7txa",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6b7txa_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6b7txa_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "15 chiens et chats qui n'auraient pas du jouer avec les abeilles",
+  "webpage_url": "https://www.dailymotion.com/video/x6b7txa",
+  "dm_id": "x6b7txa",
+  "views_total": 574,
+  "view_count": 574,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Drole",
+    "Insolite",
+    "Animal",
+    "chien",
+    "chat",
+    "lol",
+    "fun",
+    "animal de compagnie",
+    "piqure",
+    "abeille"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "15 chiens et chats qui n'auraient pas du jouer avec les abeilles",
+  "created_time": 1512581438,
+  "search_query": "chats qui piaillent et bavardent",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title mentions both dogs and cats, suggesting playful interactions.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6b7txa",
+    "decision": "keep",
+    "reason": "The title mentions both dogs and cats, suggesting playful interactions.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x36y3w3",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x36y3w3_video.mp4",
+  "audio_path": "output/videos/dailymotion_x36y3w3_audio.mp3",
+  "duration_sec": 35,
+  "duration_seconds": 35.0,
+  "title": "Кот офигел!",
+  "webpage_url": "https://www.dailymotion.com/video/x36y3w3",
+  "dm_id": "x36y3w3",
+  "views_total": 14959,
+  "view_count": 14959,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1442275079,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's reaction.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x36y3w3",
+    "decision": "keep",
+    "reason": "The title suggests a cat's reaction.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

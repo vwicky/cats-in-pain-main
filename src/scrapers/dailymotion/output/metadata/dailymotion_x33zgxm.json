@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x33zgxm",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x33zgxm_video.mp4",
+  "audio_path": "output/videos/dailymotion_x33zgxm_audio.mp3",
+  "duration_sec": 41,
+  "duration_seconds": 41.0,
+  "title": "Le chat Philo vs Chatière",
+  "webpage_url": "https://www.dailymotion.com/video/x33zgxm",
+  "dm_id": "x33zgxm",
+  "views_total": 1487,
+  "view_count": 1487,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "Portuguese",
+  "description": "Le chat Philo vs Chatière.<br />Plus de vidéos et de buzz sur : http://breakforbuzz.com",
+  "created_time": 1441108606,
+  "search_query": "vídeos de gatos barulhentos",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat is involved in a humorous situation.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x33zgxm",
+    "decision": "keep",
+    "reason": "The title suggests a cat is involved in a humorous situation.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

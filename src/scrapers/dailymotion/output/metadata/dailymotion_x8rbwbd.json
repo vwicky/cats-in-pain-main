@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8rbwbd",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8rbwbd_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8rbwbd_audio.mp3",
+  "duration_sec": 48,
+  "duration_seconds": 48.0,
+  "title": "Marzyła o tatuażu z kocim motywem. To, co jej zrobiono, jest koszmarne",
+  "webpage_url": "https://www.dailymotion.com/video/x8rbwbd",
+  "dm_id": "x8rbwbd",
+  "views_total": 21272,
+  "view_count": 21272,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "Pewna dziewczyna udała się do salonu na tatuaż, który oddałby jej miłość do kotów. Efekt przeszedł jednak najśmielsze oczekiwania.",
+  "created_time": 1704882255,
+  "search_query": "dźwięki ostrzegawcze kotów",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat-related tattoo, indicating a connection to cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8rbwbd",
+    "decision": "keep",
+    "reason": "The title suggests a cat-related tattoo, indicating a connection to cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

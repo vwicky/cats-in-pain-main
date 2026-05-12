@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x8ngaqz",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8ngaqz_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8ngaqz_audio.mp3",
+  "duration_sec": 59,
+  "duration_seconds": 59.0,
+  "title": "Il gatto ordina al cane di sdraiarsi e lui obbedisce: il web piange dalle risate (Video)",
+  "webpage_url": "https://www.dailymotion.com/video/x8ngaqz",
+  "dm_id": "x8ngaqz",
+  "views_total": 509,
+  "view_count": 509,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gatto",
+    "cane",
+    "risate"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "Questo gatto ha così tanto potere sul cane che tutto ciò che deve fare è agitare la zampa e Fido fa quello che vuole.",
+  "created_time": 1692869996,
+  "search_query": "gatto che insegue la preda",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat interacting with a dog, suggesting playful or commanding behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8ngaqz",
+    "decision": "keep",
+    "reason": "The video shows a cat interacting with a dog, suggesting playful or commanding behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

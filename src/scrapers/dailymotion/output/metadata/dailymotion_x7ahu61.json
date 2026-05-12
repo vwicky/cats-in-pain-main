@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x7ahu61",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7ahu61_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7ahu61_audio.mp3",
+  "duration_sec": 15,
+  "duration_seconds": 15.0,
+  "title": "Le paradis des chats ! Regardez comment ils semblent à l'aise dans ce centre de soin pour chat !",
+  "webpage_url": "https://www.dailymotion.com/video/x7ahu61",
+  "dm_id": "x7ahu61",
+  "views_total": 11315,
+  "view_count": 11315,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1559912953,
+  "search_query": "chat mal à l'aise chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a focus on cats in a care center.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7ahu61",
+    "decision": "keep",
+    "reason": "The title suggests a focus on cats in a care center.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

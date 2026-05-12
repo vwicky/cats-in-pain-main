@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x53v6su",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x53v6su_video.mp4",
+  "audio_path": "output/videos/dailymotion_x53v6su_audio.mp3",
+  "duration_sec": 51,
+  "duration_seconds": 51.0,
+  "title": "Un chat cajole un chien affaibli à son retour de chez le vétérinaire",
+  "webpage_url": "https://www.dailymotion.com/video/x53v6su",
+  "dm_id": "x53v6su",
+  "views_total": 17516,
+  "view_count": 17516,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "chein",
+    "cajole"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1480347343,
+  "search_query": "chat chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat interacting with a dog, suggesting normal cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x53v6su",
+    "decision": "keep",
+    "reason": "The video features a cat interacting with a dog, suggesting normal cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

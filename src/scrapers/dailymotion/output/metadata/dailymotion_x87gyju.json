@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x87gyju",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x87gyju_video.mp4",
+  "audio_path": "output/videos/dailymotion_x87gyju_audio.mp3",
+  "duration_sec": 35,
+  "duration_seconds": 35.0,
+  "title": "Diese Katze hat nach acht Jahren zu ihrer Familie zurückgefunden",
+  "webpage_url": "https://www.dailymotion.com/video/x87gyju",
+  "dm_id": "x87gyju",
+  "views_total": 3069,
+  "view_count": 3069,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "uuid_e75e49d9-d28d-4b71-8128-63db57d68d41",
+    "guid_2282",
+    "katze",
+    "tier"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "de",
+  "query_language": "German",
+  "description": "",
+  "created_time": 1643733519,
+  "search_query": "Katze Warnsounds",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat returning to its family, indicating a real cat context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x87gyju",
+    "decision": "keep",
+    "reason": "The title suggests a cat returning to its family, indicating a real cat context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

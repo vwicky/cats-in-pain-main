@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x80fptq",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x80fptq_video.mp4",
+  "audio_path": "output/videos/dailymotion_x80fptq_audio.mp3",
+  "duration_sec": 48,
+  "duration_seconds": 48.0,
+  "title": "Le crumble aux pommes du chat qui tousse",
+  "webpage_url": "https://www.dailymotion.com/video/x80fptq",
+  "dm_id": "x80fptq",
+  "views_total": 13225,
+  "view_count": 13225,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "crumble aux pommes du chat qui tousse",
+    "crumble aux pommes",
+    "crumble aux fruits",
+    "desserts aux pommes",
+    "crumble à la cannelle",
+    "crumble",
+    "desserts",
+    "gouters",
+    "cuisine du monde",
+    "desserts américains"
+  ],
+  "channel": "creation",
+  "channel_title": "creation",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Cette recette est rapide et facile à faire avec les enfants , ils adorent aussi la déguster !",
+  "created_time": 1617733728,
+  "search_query": "chats détendus à la maison",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat-related recipe, which is plausible.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x80fptq",
+    "decision": "keep",
+    "reason": "The title suggests a cat-related recipe, which is plausible.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

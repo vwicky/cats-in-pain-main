@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8n27b2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8n27b2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8n27b2_audio.mp3",
+  "duration_sec": 55,
+  "duration_seconds": 55.0,
+  "title": "Achtung, eine Katze hat erstmals in Europa einen Menschen damit infiziert!",
+  "webpage_url": "https://www.dailymotion.com/video/x8n27b2",
+  "dm_id": "x8n27b2",
+  "views_total": 2621,
+  "view_count": 2621,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Eine Katze überträgt eine Krankheit auf den Menschen, die Hautblasen verursacht.<br /><br />https://wamiz.de/neuigkeiten/168290/achtung-eine-katze-hat-erstmals-in-europa-einen-menschen-damit-infiziert",
+  "created_time": 1691413340,
+  "search_query": "glückliche Katze, die schnurrt",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Discusses a cat transmitting a disease to humans, relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8n27b2",
+    "decision": "keep",
+    "reason": "Discusses a cat transmitting a disease to humans, relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x45o912",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x45o912_video.mp4",
+  "audio_path": "output/videos/dailymotion_x45o912_audio.mp3",
+  "duration_sec": 14,
+  "duration_seconds": 14.0,
+  "title": "Gatto che atterra un bambino! Esilarante!",
+  "webpage_url": "https://www.dailymotion.com/video/x45o912",
+  "dm_id": "x45o912",
+  "views_total": 1393,
+  "view_count": 1393,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "",
+  "created_time": 1461105574,
+  "search_query": "comportamento di un gatto ferito",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Describes a cat interacting with a child, likely real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x45o912",
+    "decision": "keep",
+    "reason": "Describes a cat interacting with a child, likely real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

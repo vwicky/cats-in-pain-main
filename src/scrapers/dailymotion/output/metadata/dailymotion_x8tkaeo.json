@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x8tkaeo",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8tkaeo_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8tkaeo_audio.mp3",
+  "duration_sec": 23,
+  "duration_seconds": 23.0,
+  "title": "Un chat qui sait recevoir",
+  "webpage_url": "https://www.dailymotion.com/video/x8tkaeo",
+  "dm_id": "x8tkaeo",
+  "views_total": 10783,
+  "view_count": 10783,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "drole",
+    "animal",
+    "mignon",
+    "insolite"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un chat qui sait recevoir",
+  "created_time": 1709197592,
+  "search_query": "chat blessé qui boite",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat in a social context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8tkaeo",
+    "decision": "keep",
+    "reason": "The title suggests a cat in a social context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

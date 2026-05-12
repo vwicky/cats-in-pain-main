@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x9xmwb4",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9xmwb4_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9xmwb4_audio.mp3",
+  "duration_sec": 31,
+  "duration_seconds": 31.0,
+  "title": "Mulher adota gato que defendeu de agressão no Pará: 'Só agradecer'",
+  "webpage_url": "https://www.dailymotion.com/video/x9xmwb4",
+  "dm_id": "x9xmwb4",
+  "views_total": 745,
+  "view_count": 745,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Noticias",
+    "Últimas Notícias",
+    "Portal Terra",
+    "Terra"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Mulher adota gato que defendeu de agressão no Pará: 'Só agradecer'",
+  "created_time": 1768268869,
+  "search_query": "gato perseguindo a presa",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Involves a cat adoption story.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9xmwb4",
+    "decision": "keep",
+    "reason": "Involves a cat adoption story.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

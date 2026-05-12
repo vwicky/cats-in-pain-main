@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8b3tsq",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8b3tsq_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8b3tsq_audio.mp3",
+  "duration_sec": 29,
+  "duration_seconds": 29.0,
+  "title": "Happy Cats 006",
+  "webpage_url": "https://www.dailymotion.com/video/x8b3tsq",
+  "dm_id": "x8b3tsq",
+  "views_total": 579,
+  "view_count": 579,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1653485771,
+  "search_query": "happy cat playing",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a focus on happy cats, likely showcasing their behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8b3tsq",
+    "decision": "keep",
+    "reason": "The title suggests a focus on happy cats, likely showcasing their behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

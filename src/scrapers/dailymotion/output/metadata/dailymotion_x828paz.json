@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x828paz",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x828paz_video.mp4",
+  "audio_path": "output/videos/dailymotion_x828paz_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "Qui aurait cru qu’un chat et chien pouvaient s’entendre",
+  "webpage_url": "https://www.dailymotion.com/video/x828paz",
+  "dm_id": "x828paz",
+  "views_total": 669,
+  "view_count": 669,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Société",
+    "Vidéos"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "La solidarité avant tout ! C’est le principe qui lie d’amitié ce chat et ce chien. Lorsque leurs maîtres ont le dos tourné, les deux animaux complotent ensemble pour savoir comment ils pourront jouer… La preuve en images !",
+  "created_time": 1624637750,
+  "search_query": "chat qui gazouille en regardant les oiseaux",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat and dog interacting, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x828paz",
+    "decision": "keep",
+    "reason": "The video shows a cat and dog interacting, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x8y6zou",
+  "source": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8y6zou_video.mp4",
+  "audio_path": "output/audio/dailymotion_x8y6zou_audio.mp3",
+  "duration_sec": 21,
+  "title": "Cat Reacts to Owner Meowing at Her",
+  "webpage_url": "https://www.dailymotion.com/video/x8y6zou",
+  "dm_id": "x8y6zou",
+  "views_total": 3512,
+  "likes_total": 1,
+  "tags": [
+    "animal",
+    "cat",
+    "catch",
+    "english",
+    "fail",
+    "fingers",
+    "funny",
+    "hold",
+    "indoor",
+    "jump",
+    "laugh",
+    "music",
+    "new york",
+    "nobody",
+    "north america",
+    "pet",
+    "pets",
+    "play",
+    "playful",
+    "react",
+    "usa"
+  ],
+  "channel": "news",
+  "language": "en",
+  "description": "This person played with their cat, Zoe, by making meowing sounds and moving their hand. They meowed and moved their fingers in front of Zoe's face, which irritated her and caused her to jump and catch hold of her owner's hand.<br /><br />The underlying music rights are not available for license. For use of the video with the track(s) contained therein, please contact the music publisher(s) or relevant rightsholder(s).",
+  "created_time": 1715167034,
+  "search_query": "cat meowing",
+  "tag_filter": {
+    "passed": true
+  },
+  "gpt_filter": {
+    "video_id": "dailymotion_x8y6zou",
+    "decision": "keep",
+    "reason": "The title and description suggest a cat reacting to meowing, indicating vocalization.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x7bji08",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7bji08_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7bji08_audio.mp3",
+  "duration_sec": 19,
+  "duration_seconds": 19.0,
+  "title": "Ce chat  n'aime vraiment pas qu'on dérange sa sieste. Regardez sa réaction !!",
+  "webpage_url": "https://www.dailymotion.com/video/x7bji08",
+  "dm_id": "x7bji08",
+  "views_total": 10108,
+  "view_count": 10108,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1560956782,
+  "search_query": "chat chassant sa proie",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat reacting negatively to being disturbed during its nap, suggesting typical cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7bji08",
+    "decision": "keep",
+    "reason": "The title indicates a cat reacting negatively to being disturbed during its nap, suggesting typical cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

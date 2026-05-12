@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_xa47pd8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xa47pd8_video.mp4",
+  "audio_path": "output/videos/dailymotion_xa47pd8_audio.mp3",
+  "duration_sec": 20,
+  "duration_seconds": 20.0,
+  "title": "funny cats muted 5",
+  "webpage_url": "https://www.dailymotion.com/video/xa47pd8",
+  "dm_id": "xa47pd8",
+  "views_total": 654,
+  "view_count": 654,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cat",
+    "funny",
+    "meme",
+    "kitty",
+    "kitties",
+    "cats",
+    "pets",
+    "pet",
+    "animals"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1775237246,
+  "search_query": "happy cat purring",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and tags suggest it features real cats, despite being labeled as a meme.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xa47pd8",
+    "decision": "keep",
+    "reason": "The title and tags suggest it features real cats, despite being labeled as a meme.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

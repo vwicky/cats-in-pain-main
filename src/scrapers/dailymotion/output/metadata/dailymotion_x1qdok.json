@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x1qdok",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x1qdok_video.mp4",
+  "audio_path": "output/videos/dailymotion_x1qdok_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "chat obese qui fait de la gym",
+  "webpage_url": "https://www.dailymotion.com/video/x1qdok",
+  "dm_id": "x1qdok",
+  "views_total": 1269,
+  "view_count": 1269,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "chat",
+    "gym",
+    "marrant",
+    "fun"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1176744339,
+  "search_query": "chat qui miaule pour de la nourriture",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat engaging in playful or humorous activity.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x1qdok",
+    "decision": "keep",
+    "reason": "The title suggests a cat engaging in playful or humorous activity.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

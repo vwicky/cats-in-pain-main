@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x5fc6hb",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5fc6hb_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5fc6hb_audio.mp3",
+  "duration_sec": 46,
+  "duration_seconds": 46.0,
+  "title": "A este gatito le construyeron una caja especial para jugar, y el resultado NO TIENE PRECIO... ¡Solo míralo!",
+  "webpage_url": "https://www.dailymotion.com/video/x5fc6hb",
+  "dm_id": "x5fc6hb",
+  "views_total": 3434,
+  "view_count": 3434,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Gato"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "Portuguese",
+  "description": "",
+  "created_time": 1490005129,
+  "search_query": "gato feliz ronronando",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat playing with a specially made box.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5fc6hb",
+    "decision": "keep",
+    "reason": "The title suggests a cat playing with a specially made box.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

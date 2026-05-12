@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x7mer7v",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7mer7v_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7mer7v_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Este perro y este gato luchan juntos contra una rata gigante y se hacen virales",
+  "webpage_url": "https://www.dailymotion.com/video/x7mer7v",
+  "dm_id": "x7mer7v",
+  "views_total": 3683,
+  "view_count": 3683,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "perro",
+    "lucha",
+    "rata",
+    "gato"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Épico...Un perro y un gato han decidido dejar de lado su naturaleza y se han unido para hacer frente al roedor.<br /><br />La pelea, casi a muerte, entre los tres animales ha sido tendencia mundial.<br /><br />Fue la propietaria del felino y el can quien grabó esta cómica escena.<br /><br />El vídeo muestra cómo los dos animales se enfrentan a una rata en la casa de su propietaria.<br /><br />El roedor, que, además, es de un tamaño considerable, se ve arrinconado por el perro y el gato, que no paran de intimidarlo.<br /><br />Un giro de los acontecimientos<br /><br />En un principio, las imágenes muestran a la rata acosada e intimidada por los otros dos mamíferos.<br /><br />No obstante, un inesperado cambio en el guion de esta curiosa historia hace que el roedor conteste los ataques e, incluso, se sobreponga.<br /><br />Por sorpresa, la rata deja inmóvil el gato y hace retroceder al perro de su posición dominante.<br /><br />Al final, sin embargo, la rata se va de la casa, para alivio de la propietaria de los dos animales y de la vivienda.<br /><br />El vídeo ha causado gran tendencia entre los internautas, que se han mostrado sorprendidos con la actitud de una rata que, siendo minoría, acaba ganando el gato y el perro.",
+  "created_time": 1570610037,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat and dog fighting a rat, indicating real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7mer7v",
+    "decision": "keep",
+    "reason": "The video features a cat and dog fighting a rat, indicating real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

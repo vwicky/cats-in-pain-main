@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8xp4u2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8xp4u2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8xp4u2_audio.mp3",
+  "duration_sec": 59,
+  "duration_seconds": 59.0,
+  "title": "Le vétérinaire passe un coup de fil pour un chat errant : ce qu'il propose va changer sa vie 9 mois plus tard (vidéo)",
+  "webpage_url": "https://www.dailymotion.com/video/x8xp4u2",
+  "dm_id": "x8xp4u2",
+  "views_total": 4517,
+  "view_count": 4517,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Le chat Blizzard vivait dans les rues depuis des années avant qu'un passant lui vienne en aide.",
+  "created_time": 1714479367,
+  "search_query": "chat chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a stray cat and its life-changing experience after being helped.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8xp4u2",
+    "decision": "keep",
+    "reason": "The video discusses a stray cat and its life-changing experience after being helped.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

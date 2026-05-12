@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x8pom09",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8pom09_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8pom09_audio.mp3",
+  "duration_sec": 59,
+  "duration_seconds": 59.0,
+  "title": "Kraków - schronisko dla zwierzat, nowy budynek dla kotów",
+  "webpage_url": "https://www.dailymotion.com/video/x8pom09",
+  "dm_id": "x8pom09",
+  "views_total": 3468,
+  "view_count": 3468,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Kraków",
+    "schronisko",
+    "zwierzęta",
+    "opieka",
+    "nowy budynek",
+    "koty",
+    "kot",
+    "azyl"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "Kraków - schronisko dla zwierzat, nowy budynek dla kotów",
+  "created_time": 1700144585,
+  "search_query": "kot głośno miauczy",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description indicate a focus on a cat shelter, relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8pom09",
+    "decision": "keep",
+    "reason": "The title and description indicate a focus on a cat shelter, relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

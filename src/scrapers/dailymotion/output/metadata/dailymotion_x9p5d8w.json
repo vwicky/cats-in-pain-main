@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9p5d8w",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9p5d8w_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9p5d8w_audio.mp3",
+  "duration_sec": 11,
+  "duration_seconds": 11.0,
+  "title": "Gato Preto e Bia Miranda se envolvem em acidente após Porsche bater em poste",
+  "webpage_url": "https://www.dailymotion.com/video/x9p5d8w",
+  "dm_id": "x9p5d8w",
+  "views_total": 3648,
+  "view_count": 3648,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "",
+  "created_time": 1755706342,
+  "search_query": "gatos piando e conversando",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat-related incident.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9p5d8w",
+    "decision": "keep",
+    "reason": "The title suggests a cat-related incident.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

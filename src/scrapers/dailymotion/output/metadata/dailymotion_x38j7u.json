@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x38j7u",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x38j7u_video.mp4",
+  "audio_path": "output/videos/dailymotion_x38j7u_audio.mp3",
+  "duration_sec": 49,
+  "duration_seconds": 49.0,
+  "title": "Après Spider Cochon on a Spider Chat",
+  "webpage_url": "https://www.dailymotion.com/video/x38j7u",
+  "dm_id": "x38j7u",
+  "views_total": 1212,
+  "view_count": 1212,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "spider",
+    "cochon",
+    "chat",
+    "mur",
+    "grimper",
+    "drole"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Voila le cousin de Spider Cochon, et oui dans la famille on sait aussi monter au mur.",
+  "created_time": 1192652818,
+  "search_query": "chat après vaccination",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and tags suggest it features a cat, likely climbing.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x38j7u",
+    "decision": "keep",
+    "reason": "The title and tags suggest it features a cat, likely climbing.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

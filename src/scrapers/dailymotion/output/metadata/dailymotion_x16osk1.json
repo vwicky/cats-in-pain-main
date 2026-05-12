@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x16osk1",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x16osk1_video.mp4",
+  "audio_path": "output/videos/dailymotion_x16osk1_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "Videos de Risa: Gato que te tira al suelo todo lo que le pongas al lado (tepillao.com)",
+  "webpage_url": "https://www.dailymotion.com/video/x16osk1",
+  "dm_id": "x16osk1",
+  "views_total": 8589,
+  "view_count": 8589,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "tepillao",
+    "videos de gatos",
+    "videos de risa",
+    "videos chistosos",
+    "videos graciosos",
+    "gatos de risa",
+    "gatos chistosos",
+    "gatos graciosos",
+    "gatos divertidos",
+    "gatos cabrones"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "http://www.tepillao.com/no-me-pongas-eso-ahi-que-te-lo-tiro-video_00e737621.html",
+  "created_time": 1383336972,
+  "search_query": "videos de gatos ruidosos",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a funny cat video involving a cat knocking things over.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x16osk1",
+    "decision": "keep",
+    "reason": "The title suggests a funny cat video involving a cat knocking things over.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

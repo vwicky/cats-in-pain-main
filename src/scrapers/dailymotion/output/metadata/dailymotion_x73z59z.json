@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x73z59z",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x73z59z_video.mp4",
+  "audio_path": "output/videos/dailymotion_x73z59z_audio.mp3",
+  "duration_sec": 11,
+  "duration_seconds": 11.0,
+  "title": "Réaction de deux chats face à un chat autotuné",
+  "webpage_url": "https://www.dailymotion.com/video/x73z59z",
+  "dm_id": "x73z59z",
+  "views_total": 671,
+  "view_count": 671,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1552303936,
+  "search_query": "bagarre de chats dehors",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title mentions cats, making it plausible that it features real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x73z59z",
+    "decision": "keep",
+    "reason": "The title mentions cats, making it plausible that it features real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

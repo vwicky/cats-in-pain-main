@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3r7obc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3r7obc_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3r7obc_audio.mp3",
+  "duration_sec": 21,
+  "duration_seconds": 21.0,
+  "title": "Попугай допрашивает кота",
+  "webpage_url": "https://www.dailymotion.com/video/x3r7obc",
+  "dm_id": "x3r7obc",
+  "views_total": 3813,
+  "view_count": 3813,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1455084901,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests interaction between a parrot and a cat, which could involve real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3r7obc",
+    "decision": "keep",
+    "reason": "The title suggests interaction between a parrot and a cat, which could involve real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

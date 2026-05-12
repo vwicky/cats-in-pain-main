@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x9lq65m",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9lq65m_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9lq65m_audio.mp3",
+  "duration_sec": 8,
+  "duration_seconds": 8.0,
+  "title": "Turquia: Gaivota aprende a miar para ganhar comida",
+  "webpage_url": "https://www.dailymotion.com/video/x9lq65m",
+  "dm_id": "x9lq65m",
+  "views_total": 828,
+  "view_count": 828,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gato",
+    "gaivota",
+    "turquia",
+    "viral"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Spanish",
+  "description": "Imagens: Redes Sociais<br /><br />Acesse o site: https://em.com.br / https://uai.com.br<br /><br />SE INSCREVA EM NOSSO CANAL NO YOUTUBE: https://www.youtube.com/@PortalUai<br /><br />Siga o Portal UAI nas redes sociais: <br /><br />Instagram - https://instagram.com/estadodeminas/ <br />Twitter -  https://twitter.com/em_com/<br />Facebook - https://www.facebook.com/EstadodeMinas <br />",
+  "created_time": 1750607686,
+  "search_query": "dos gatos discutiendo",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title mentions a cat learning to meow, which is relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9lq65m",
+    "decision": "keep",
+    "reason": "The title mentions a cat learning to meow, which is relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

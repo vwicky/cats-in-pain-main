@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x9n6tag",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9n6tag_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9n6tag_audio.mp3",
+  "duration_sec": 8,
+  "duration_seconds": 8.0,
+  "title": "Cat takes a relaxing evening walk and looks completely content",
+  "webpage_url": "https://www.dailymotion.com/video/x9n6tag",
+  "dm_id": "x9n6tag",
+  "views_total": 5590,
+  "view_count": 5590,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Gustine",
+    "US",
+    "Funny",
+    "Cat",
+    "Evening Walk",
+    "Cat Walking",
+    "Joyful Cat",
+    "Cat on Stroll",
+    "Happy Pet",
+    "Feline Fun"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "Lisa shared this clip of a cat named Tinky, who confidently joined her on an evening walk.<br /><br />With a spring in every step and tail held high, Tinky looked like the streets were made just for it.<br /><br />It casually turned the road into a personal runway.<br /><br />No leash, no hesitation; just one joyful cat soaking in golden hour glam like a pro.<br /><br />Lisa’s regular walking buddy, Tinky, walked with the kind of charm that could outshine a sunset.<br />WooGlobe Ref : WGA868791<br />For licensing and to use this video, please email licensing@wooglobe.com",
+  "created_time": 1752854461,
+  "search_query": "cats battling for territory",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat enjoying a walk, which is real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9n6tag",
+    "decision": "keep",
+    "reason": "The video shows a cat enjoying a walk, which is real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

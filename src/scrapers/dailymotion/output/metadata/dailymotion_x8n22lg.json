@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8n22lg",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8n22lg_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8n22lg_audio.mp3",
+  "duration_sec": 19,
+  "duration_seconds": 19.0,
+  "title": "\"Es el dueño\": Hombre fue sorprendido al intentar espantar a un gatito de una tienda",
+  "webpage_url": "https://www.dailymotion.com/video/x8n22lg",
+  "dm_id": "x8n22lg",
+  "views_total": 511,
+  "view_count": 511,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1691399966,
+  "search_query": "gatitos juguetones relajándose",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a man is surprised by a kitten, indicating potential real cat interaction.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8n22lg",
+    "decision": "keep",
+    "reason": "The title suggests a man is surprised by a kitten, indicating potential real cat interaction.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

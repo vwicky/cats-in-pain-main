@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x3wxg",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3wxg_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3wxg_audio.mp3",
+  "duration_sec": 47,
+  "duration_seconds": 47.0,
+  "title": "cat fight!",
+  "webpage_url": "https://www.dailymotion.com/video/x3wxg",
+  "dm_id": "x3wxg",
+  "views_total": 584,
+  "view_count": 584,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "megakater.nl",
+    "de poesjes"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "nl",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1148059675,
+  "search_query": "cat fight outside",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title suggests a cat fight.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3wxg",
+    "decision": "keep",
+    "reason": "Title suggests a cat fight.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9hmlg8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9hmlg8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9hmlg8_audio.mp3",
+  "duration_sec": 44,
+  "duration_seconds": 44.0,
+  "title": "Lo zoo di San Diego ha un nuovo residente: un gatto pescatore di 8 anni",
+  "webpage_url": "https://www.dailymotion.com/video/x9hmlg8",
+  "dm_id": "x9hmlg8",
+  "views_total": 543,
+  "view_count": 543,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "shortfilms",
+  "channel_title": "shortfilms",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "",
+  "created_time": 1744215600,
+  "search_query": "comportamento di un gatto ferito",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat as a resident, indicating potential cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9hmlg8",
+    "decision": "keep",
+    "reason": "The title suggests a cat as a resident, indicating potential cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

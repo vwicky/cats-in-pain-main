@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3jat6e",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3jat6e_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3jat6e_audio.mp3",
+  "duration_sec": 27,
+  "duration_seconds": 27.0,
+  "title": "приколы с котами!  кот бокс смотрит mp4",
+  "webpage_url": "https://www.dailymotion.com/video/x3jat6e",
+  "dm_id": "x3jat6e",
+  "views_total": 13296,
+  "view_count": 13296,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "прикол",
+    "юмор",
+    "ржака",
+    "приколы с детьми",
+    "приколы с животными",
+    "птички",
+    "детки",
+    "fun animals",
+    "humor"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Видеоролики о смешных зверюшках! Птички, кошки, собачки, рыбки, хомячки и другие забавные животные!!! Приколы животные. <br />Videos of funny little creatures! Birds, cats, dogs, fish, hamsters and other fun animals!",
+  "created_time": 1450969586,
+  "search_query": "две кошки ругаются",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description suggest it features funny cat moments.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3jat6e",
+    "decision": "keep",
+    "reason": "The title and description suggest it features funny cat moments.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

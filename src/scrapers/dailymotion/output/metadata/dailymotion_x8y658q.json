@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x8y658q",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8y658q_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8y658q_audio.mp3",
+  "duration_sec": 36,
+  "duration_seconds": 36.0,
+  "title": "Véto & Co",
+  "webpage_url": "https://www.dailymotion.com/video/x8y658q",
+  "dm_id": "x8y658q",
+  "views_total": 3574,
+  "view_count": 3574,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "plurimedia_1133232",
+    "video_plurimedia"
+  ],
+  "channel": "tv",
+  "channel_title": "tv",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Trois nouveaux vétérinaires ont rejoint \"Véto and Co\". Hélène dirige avec passion une clinique de la région namuroise dont elle fera partager la vie trépidante au service des chiens, chats, et autres volatiles. En région bruxelloise, lina et Maxence, à bord d'ambulances animalières, volent jour et nuit au secours d'animaux en détresse. Enfin, Audrey, une éducatrice canine en étroite relation avec les vétérinaires, essaie de résoudre les petits travers, qu'ils soient sérieux ou cocasses, de nos compagnons à quatre pattes. Hélène reçoit deux chiots qui se battent pour rester en vie, un chat bagarreur, un jeune chien amoureux qui fugue pour se rendre à des rendez-vous galants. Elle accueille également une famille pour la visite d'un des leurs hospitalisé.",
+  "created_time": 1715114496,
+  "search_query": "chat mal à l'aise chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description mentions cats in a veterinary context, suggesting real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8y658q",
+    "decision": "keep",
+    "reason": "The description mentions cats in a veterinary context, suggesting real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

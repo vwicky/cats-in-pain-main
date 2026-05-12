@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x8jpxdc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8jpxdc_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8jpxdc_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "Panique en chaîne",
+  "webpage_url": "https://www.dailymotion.com/video/x8jpxdc",
+  "dm_id": "x8jpxdc",
+  "views_total": 1831,
+  "view_count": 1831,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "panique",
+    "chat"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Panique en chaîne chez les chats",
+  "created_time": 1680527704,
+  "search_query": "chat malade chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a focus on cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8jpxdc",
+    "decision": "keep",
+    "reason": "The title suggests a focus on cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

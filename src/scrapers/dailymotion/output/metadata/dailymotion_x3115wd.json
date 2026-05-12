@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3115wd",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3115wd_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3115wd_audio.mp3",
+  "duration_sec": 7,
+  "duration_seconds": 7.0,
+  "title": "Смешной кот гавкает ))) Смотреть всем !",
+  "webpage_url": "https://www.dailymotion.com/video/x3115wd",
+  "dm_id": "x3115wd",
+  "views_total": 5451,
+  "view_count": 5451,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Смешной кот гавкает ))) Смотреть всем !",
+  "created_time": 1439160112,
+  "search_query": "кот громко мяукает",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat barking, which is unusual but still cat-related.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3115wd",
+    "decision": "keep",
+    "reason": "The title suggests a cat barking, which is unusual but still cat-related.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

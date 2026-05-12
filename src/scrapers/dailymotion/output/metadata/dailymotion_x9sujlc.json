@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9sujlc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9sujlc_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9sujlc_audio.mp3",
+  "duration_sec": 28,
+  "duration_seconds": 28.0,
+  "title": "自分の好きなキャラクター3選！",
+  "webpage_url": "https://www.dailymotion.com/video/x9sujlc",
+  "dm_id": "x9sujlc",
+  "views_total": 555,
+  "view_count": 555,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ja",
+  "query_language": "Japanese",
+  "description": "自分の好きなキャラクターを自分なりに動画として、作ってみました。<br />また、他の自己紹介動画をアップするので、そちらの動画も見てみてください！",
+  "created_time": 1761722397,
+  "search_query": "うるさい猫の動画",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a focus on characters, possibly including cats.",
+  "gpt_confidence": "low",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9sujlc",
+    "decision": "keep",
+    "reason": "The title suggests a focus on characters, possibly including cats.",
+    "confidence": "low",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

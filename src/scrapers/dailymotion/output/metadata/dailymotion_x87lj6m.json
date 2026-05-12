@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x87lj6m",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x87lj6m_video.mp4",
+  "audio_path": "output/videos/dailymotion_x87lj6m_audio.mp3",
+  "duration_sec": 39,
+  "duration_seconds": 39.0,
+  "title": "Découvrez Sasha, le chat qui adore nager !",
+  "webpage_url": "https://www.dailymotion.com/video/x87lj6m",
+  "dm_id": "x87lj6m",
+  "views_total": 2311,
+  "view_count": 2311,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "uuid_9dda9d40-f986-451c-90cc-b028269c905b",
+    "guid_96190",
+    "best-friends",
+    "so-cute",
+    "chat"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1643948242,
+  "search_query": "chat qui ronronne sur les genoux",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat that enjoys swimming, indicating a unique behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x87lj6m",
+    "decision": "keep",
+    "reason": "The title suggests a cat that enjoys swimming, indicating a unique behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

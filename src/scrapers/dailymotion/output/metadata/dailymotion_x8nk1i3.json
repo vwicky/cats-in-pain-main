@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8nk1i3",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8nk1i3_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8nk1i3_audio.mp3",
+  "duration_sec": 35,
+  "duration_seconds": 35.0,
+  "title": "Vídeo impressionante: gato invade o campo, rouba a bola e 'faz golaço'",
+  "webpage_url": "https://www.dailymotion.com/video/x8nk1i3",
+  "dm_id": "x8nk1i3",
+  "views_total": 768,
+  "view_count": 768,
+  "likes_total": 2,
+  "like_count": 2,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "O bichano é um verdadeiro craque",
+  "created_time": 1693313755,
+  "search_query": "gatos piando e conversando",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat engaging in playful behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8nk1i3",
+    "decision": "keep",
+    "reason": "The video features a cat engaging in playful behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

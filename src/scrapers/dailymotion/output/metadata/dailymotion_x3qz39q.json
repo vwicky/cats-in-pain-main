@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3qz39q",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3qz39q_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3qz39q_audio.mp3",
+  "duration_sec": 42,
+  "duration_seconds": 42.0,
+  "title": "Реакция кота на сирень - Funny cat's reaction to the lilac Смотреть всем, смешной Котэ!",
+  "webpage_url": "https://www.dailymotion.com/video/x3qz39q",
+  "dm_id": "x3qz39q",
+  "views_total": 955,
+  "view_count": 955,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Ukrainian",
+  "description": "",
+  "created_time": 1454917307,
+  "search_query": "захисна поза кота",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's reaction to lilac, indicating a cat-focused video.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3qz39q",
+    "decision": "keep",
+    "reason": "The title suggests a cat's reaction to lilac, indicating a cat-focused video.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

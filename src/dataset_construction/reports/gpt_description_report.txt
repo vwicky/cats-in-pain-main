@@ -1,0 +1,103 @@
+════════════════════════════════════════════════════════
+GPT DESCRIPTION REPORT
+Model: gpt-4o | Snippets: 7318 | Date: 2026-04-18
+════════════════════════════════════════════════════════
+
+COST SUMMARY
+────────────
+Total input tokens:   12498340
+Total output tokens:  2687820
+Total cost:           $58.12
+Mean cost/snippet:    $0.0079
+Parse errors:         0 (0.0%)
+
+QUALITY FLAGS
+─────────────
+Suitable for training:    6802 (92.9%)
+AI generated (flagged):   346 (4.7%)
+No cat visible:           22 (0.3%)
+Severe occlusion:         19 (0.3%)
+Multiple cats only:       12 (0.2%)
+
+CAT CHARACTERISTICS
+───────────────────
+Top breeds detected:
+  [mixed]: 6892 snippets
+  [Siamese]: 108 snippets
+  [British Shorthair]: 68 snippets
+  [Persian]: 56 snippets
+  [Ragdoll]: 42 snippets
+  [Bengal]: 32 snippets
+  [Scottish Fold]: 30 snippets
+  [Russian Blue]: 18 snippets
+  [Maine Coon]: 12 snippets
+  [Abyssinian]: 11 snippets
+  [Sphynx]: 6 snippets
+  [Oriental Shorthair]: 4 snippets
+  [Oriental]: 3 snippets
+  [Burmese]: 3 snippets
+  [caracal]: 3 snippets
+  [Savannah]: 3 snippets
+  [Himalayan]: 2 snippets
+  [kodkod]: 2 snippets
+  [Pallas's cat]: 1 snippets
+  [Exotic Shorthair]: 1 snippets
+
+Coat colors: white: 4153, black: 3620, brown: 2531, orange: 1857, gray: 1322, cream: 303, tan: 10, golden: 5, pink: 4, light brown: 2, beige: 1, purple: 1, grey: 1
+Age distribution: kitten 16.6% | juvenile 6.1% | adult 76.9% | senior 0.1%
+
+ENVIRONMENT
+───────────
+Indoor: 75.1% | Outdoor: 24.8% | Mixed: 0.1%
+
+Location types:
+  home:        4602 (62.9%)
+  vet_clinic:  568 (7.8%)
+  shelter:     184 (2.5%)
+  street:      891 (12.2%)
+  other:       1073 (14.7%)
+
+Vet clinic confirmed (for Pain/Vet category check):
+  behavioral_category=Pain/Vet AND vet_clinic_confirmed=true: 493 (19.6%)
+  behavioral_category=Pain/Vet AND vet_clinic_confirmed=false: 2024 (80.4%)
+
+BEHAVIOR
+────────
+Primary behavior distribution:
+  resting: 2136 (29.2%)
+  being_handled: 1427 (19.5%)
+  unknown: 1191 (16.3%)
+  vocalizing: 968 (13.2%)
+  playing: 632 (8.6%)
+  being_examined: 221 (3.0%)
+  eating: 211 (2.9%)
+  walking: 150 (2.0%)
+  exploring: 107 (1.5%)
+  hunting: 91 (1.2%)
+  grooming: 80 (1.1%)
+  aggression: 74 (1.0%)
+  pain_indicators: 19 (0.3%)
+  drinking: 3 (0.0%)
+  patrolling: 1 (0.0%)
+  stretching: 1 (0.0%)
+  entering: 1 (0.0%)
+  using litter box: 1 (0.0%)
+  watching: 1 (0.0%)
+  attention-seeking: 1 (0.0%)
+  kneading: 1 (0.0%)
+  seeking attention: 1 (0.0%)
+
+Pain indicators visible: 200 snippets (2.7%)
+Face clearly visible:    4497 snippets (61.5%)
+
+DATASET COMPOSITION AFTER GPT FILTERING
+─────────────────────────────────────────
+Before: 7318 snippets
+After removing unsuitable: 6802 snippets (516 removed)
+
+Removed breakdown:
+  ai_generated:       345
+  no_cat_visible:     16
+  severe_occlusion:   55
+  severe_blur:        30
+  other:              70

@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x8nblwv",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8nblwv_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8nblwv_audio.mp3",
+  "duration_sec": 51,
+  "duration_seconds": 51.0,
+  "title": "Pourquoi les chats noirs portent-ils malheur ?",
+  "webpage_url": "https://www.dailymotion.com/video/x8nblwv",
+  "dm_id": "x8nblwv",
+  "views_total": 519,
+  "view_count": 519,
+  "likes_total": 3,
+  "like_count": 3,
+  "tags": [
+    "Chat",
+    "Animaux",
+    "Légende"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Il s'agit d'une légende bien implantée depuis des siècles puisque cette croyance serait née au Moyen Âge alors que les chats noirs étaient associés aux hérétiques et donc au diable. Heureusement dans certains pays, ils sont signes d'un bon présage.",
+  "created_time": 1692363658,
+  "search_query": "cris d'accouplement des chats",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a legend about black cats, relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8nblwv",
+    "decision": "keep",
+    "reason": "The video discusses a legend about black cats, relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

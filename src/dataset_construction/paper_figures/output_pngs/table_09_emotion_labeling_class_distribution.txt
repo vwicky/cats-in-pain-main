@@ -1,0 +1,19 @@
+Table 9 — Emotion model predicted class distribution
+
+Caption: Batch inference on separated audios (CatEmotionModel / 04_audio_classification).
+Source: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/src/dataset_construction/reports/emotion_labeling_report.txt
+
+Class             Count  % of total
+------------------------------------
+Angry               509       6.95%
+Defence              46       0.63%
+Fighting            196       2.67%
+Happy              1155      15.76%
+HuntingMind         997      13.60%
+Mating             1409      19.22%
+MotherCall          764      10.42%
+Paining            1055      14.39%
+Resting            1116      15.23%
+Warning              82       1.12%
+------------------------------------
+Total              7329     100.00%

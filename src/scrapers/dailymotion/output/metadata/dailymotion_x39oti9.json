@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x39oti9",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x39oti9_video.mp4",
+  "audio_path": "output/videos/dailymotion_x39oti9_audio.mp3",
+  "duration_sec": 50,
+  "duration_seconds": 50.0,
+  "title": "Реакция кота на пальцы!",
+  "webpage_url": "https://www.dailymotion.com/video/x39oti9",
+  "dm_id": "x39oti9",
+  "views_total": 1316,
+  "view_count": 1316,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1444862756,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's reaction to fingers, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x39oti9",
+    "decision": "keep",
+    "reason": "The title suggests a cat's reaction to fingers, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

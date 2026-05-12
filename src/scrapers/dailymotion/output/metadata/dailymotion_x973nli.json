@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x973nli",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x973nli_video.mp4",
+  "audio_path": "output/videos/dailymotion_x973nli_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "Tierheim filmt unglaubliches Katzentalent: Schon am nächsten Tag meldet sich jemand!",
+  "webpage_url": "https://www.dailymotion.com/video/x973nli",
+  "dm_id": "x973nli",
+  "views_total": 17518,
+  "view_count": 17518,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Das Talent dieses Kätzchens erregt die Aufmerksamkeit zahlreicher Menschen und verhilft ihm so zu einem neuen Leben.",
+  "created_time": 1728570327,
+  "search_query": "verspielte Kätzchen entspannen",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a kitten showcasing talent, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x973nli",
+    "decision": "keep",
+    "reason": "The title suggests a kitten showcasing talent, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

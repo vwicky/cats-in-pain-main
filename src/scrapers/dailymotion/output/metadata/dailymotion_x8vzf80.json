@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8vzf80",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8vzf80_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8vzf80_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "Il décide d’emmener son chat chez le toiletteur : le résultat provoque la frayeur de l’autre matou de la famille",
+  "webpage_url": "https://www.dailymotion.com/video/x8vzf80",
+  "dm_id": "x8vzf80",
+  "views_total": 7459,
+  "view_count": 7459,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Même l'autre chat de la famille n'a pas reconnu son copain ...<br /><br />",
+  "created_time": 1711708521,
+  "search_query": "signes de douleur chez le chat chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title suggests a cat grooming context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8vzf80",
+    "decision": "keep",
+    "reason": "Title suggests a cat grooming context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

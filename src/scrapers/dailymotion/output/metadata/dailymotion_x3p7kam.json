@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x3p7kam",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3p7kam_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3p7kam_audio.mp3",
+  "duration_sec": 18,
+  "duration_seconds": 18.0,
+  "title": "Кот в раздумьях, будет дождь или нет",
+  "webpage_url": "https://www.dailymotion.com/video/x3p7kam",
+  "dm_id": "x3p7kam",
+  "views_total": 5458,
+  "view_count": 5458,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "prikoli",
+    "video",
+    "clip",
+    "best",
+    "rolik",
+    "смешно",
+    "comedy",
+    "fun"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1454071705,
+  "search_query": "кот в ветеринарной клинике",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's contemplative behavior, which is plausible.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3p7kam",
+    "decision": "keep",
+    "reason": "The title suggests a cat's contemplative behavior, which is plausible.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

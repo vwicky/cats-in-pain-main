@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x3932v9",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3932v9_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3932v9_audio.mp3",
+  "duration_sec": 51,
+  "duration_seconds": 51.0,
+  "title": "Погладь кота",
+  "webpage_url": "https://www.dailymotion.com/video/x3932v9",
+  "dm_id": "x3932v9",
+  "views_total": 2946,
+  "view_count": 2946,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Погладь кота"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Погладь кота",
+  "created_time": 1444396239,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests interaction with a cat.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3932v9",
+    "decision": "keep",
+    "reason": "The title suggests interaction with a cat.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

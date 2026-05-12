@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8qsvuu",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8qsvuu_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8qsvuu_audio.mp3",
+  "duration_sec": 40,
+  "duration_seconds": 40.0,
+  "title": "Llega a clase con un gatito: el gesto del profesor deja boquiabiertos a los alumnos (vídeo)",
+  "webpage_url": "https://www.dailymotion.com/video/x8qsvuu",
+  "dm_id": "x8qsvuu",
+  "views_total": 7917,
+  "view_count": 7917,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Llega a clase con un gatito: el gesto del profesor deja boquiabiertos a los alumnos (vídeo)",
+  "created_time": 1703256819,
+  "search_query": "gatitos juguetones relajándose",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a kitten in a classroom setting, which is likely to be cat-related.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8qsvuu",
+    "decision": "keep",
+    "reason": "The video features a kitten in a classroom setting, which is likely to be cat-related.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

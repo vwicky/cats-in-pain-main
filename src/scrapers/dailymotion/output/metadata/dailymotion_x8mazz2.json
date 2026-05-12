@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8mazz2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8mazz2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8mazz2_audio.mp3",
+  "duration_sec": 15,
+  "duration_seconds": 15.0,
+  "title": "\"Eso es amor puro\": Gatito conmueve por su reacción al ver a su dueño fallecido",
+  "webpage_url": "https://www.dailymotion.com/video/x8mazz2",
+  "dm_id": "x8mazz2",
+  "views_total": 1991,
+  "view_count": 1991,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1688618437,
+  "search_query": "gatitos juguetones relajándose",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a kitten's emotional reaction to seeing its deceased owner, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8mazz2",
+    "decision": "keep",
+    "reason": "The title indicates a kitten's emotional reaction to seeing its deceased owner, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

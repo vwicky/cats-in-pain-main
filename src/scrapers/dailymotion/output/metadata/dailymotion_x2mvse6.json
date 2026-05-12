@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x2mvse6",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2mvse6_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2mvse6_audio.mp3",
+  "duration_sec": 58,
+  "duration_seconds": 58.0,
+  "title": "When two cats and one box",
+  "webpage_url": "https://www.dailymotion.com/video/x2mvse6",
+  "dm_id": "x2mvse6",
+  "views_total": 42809,
+  "view_count": 42809,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "When",
+    "two",
+    "cats",
+    "one",
+    "box"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1429200656,
+  "search_query": "two cats arguing",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates two cats interacting with a box, which is typical cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2mvse6",
+    "decision": "keep",
+    "reason": "The title indicates two cats interacting with a box, which is typical cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

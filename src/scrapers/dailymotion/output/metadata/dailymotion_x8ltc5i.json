@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x8ltc5i",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8ltc5i_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8ltc5i_audio.mp3",
+  "duration_sec": 25,
+  "duration_seconds": 25.0,
+  "title": "Un chat très en colère chez le vétérinaire",
+  "webpage_url": "https://www.dailymotion.com/video/x8ltc5i",
+  "dm_id": "x8ltc5i",
+  "views_total": 1280,
+  "view_count": 1280,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "chat",
+    "veterinaire",
+    "colere",
+    "fun",
+    "drole",
+    "insolite",
+    "animal"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un chat très en colère chez le vétérinaire",
+  "created_time": 1686924007,
+  "search_query": "chat chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat at the vet, likely showing vocalization or stress.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8ltc5i",
+    "decision": "keep",
+    "reason": "The title indicates a cat at the vet, likely showing vocalization or stress.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8ndwan",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8ndwan_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8ndwan_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "Eis 'Kit Kat', o gato de 13 anos que saltou 9 vezes à corda em 1 minuto",
+  "webpage_url": "https://www.dailymotion.com/video/x8ndwan",
+  "dm_id": "x8ndwan",
+  "views_total": 603,
+  "view_count": 603,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Eis 'Kit Kat', o gato de 13 anos que saltou 9 vezes à corda em 1 minuto",
+  "created_time": 1692640541,
+  "search_query": "gato feliz ronronando",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat performing a jumping activity, which is a plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8ndwan",
+    "decision": "keep",
+    "reason": "The video features a cat performing a jumping activity, which is a plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

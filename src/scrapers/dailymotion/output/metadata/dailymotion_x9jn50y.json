@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x9jn50y",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9jn50y_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9jn50y_audio.mp3",
+  "duration_sec": 53,
+  "duration_seconds": 53.0,
+  "title": "Armadilha fotográfica em parque municipal de Navegantes",
+  "webpage_url": "https://www.dailymotion.com/video/x9jn50y",
+  "dm_id": "x9jn50y",
+  "views_total": 18264,
+  "view_count": 18264,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "navegantes",
+    "animais"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Câmera flagrou desde os raros mão-peladas até cutias e gato selvagem. <br /><br />Imagem: Divulgação",
+  "created_time": 1747424345,
+  "search_query": "gatos piando e conversando",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video captures a wild cat among other animals, relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9jn50y",
+    "decision": "keep",
+    "reason": "The video captures a wild cat among other animals, relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

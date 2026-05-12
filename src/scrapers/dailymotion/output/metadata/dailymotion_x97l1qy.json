@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x97l1qy",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x97l1qy_video.mp4",
+  "audio_path": "output/videos/dailymotion_x97l1qy_audio.mp3",
+  "duration_sec": 20,
+  "duration_seconds": 20.0,
+  "title": "Cuando despierta se siente observada: sus gatos la miran fijamente y se da cuenta de una verdad inexorable (Vídeo)",
+  "webpage_url": "https://www.dailymotion.com/video/x97l1qy",
+  "dm_id": "x97l1qy",
+  "views_total": 25504,
+  "view_count": 25504,
+  "likes_total": 2,
+  "like_count": 2,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Si pensaba que al tener gatos podría despertar rodeada de ternura y cariño, enseguida se dio cuenta de que esa la realidad era bien diferente...",
+  "created_time": 1729242959,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description implies a cat's behavior and interaction with a human.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x97l1qy",
+    "decision": "keep",
+    "reason": "The description implies a cat's behavior and interaction with a human.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

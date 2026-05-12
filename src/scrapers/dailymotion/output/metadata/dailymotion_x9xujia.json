@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x9xujia",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9xujia_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9xujia_audio.mp3",
+  "duration_sec": 53,
+  "duration_seconds": 53.0,
+  "title": "La voisine danoise",
+  "webpage_url": "https://www.dailymotion.com/video/x9xujia",
+  "dm_id": "x9xujia",
+  "views_total": 16870,
+  "view_count": 16870,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "plurimedia_1253481",
+    "video_plurimedia"
+  ],
+  "channel": "tv",
+  "channel_title": "tv",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Nouvellement installée dans un petit immeuble de Reykjavik, Ditte Jensen, ex-agent des services secrets danois, mène une vie paisible et discrète. La retraitée cultive son potager, salue ses voisins et participe aux réunions de copropriété. Mais le jour où un chat fait ses besoins dans son plant de carottes, Ditte règle l'affront de façon expéditive. Parallèlement, les résidents désespèrent des nuisances provoquées par Thorir, un voisin qui fait la fête des nuits entières avec sa chaîne stéréo à fond. Constatant l'inaction de la police, ils se sont résignés à subir. Mais voilà que la nouvelle voisine danoise décide de mettre son grain de sel...",
+  "created_time": 1768501259,
+  "search_query": "posture défensive de chat",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description mentions a cat causing an issue, which is relevant.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9xujia",
+    "decision": "keep",
+    "reason": "The description mentions a cat causing an issue, which is relevant.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

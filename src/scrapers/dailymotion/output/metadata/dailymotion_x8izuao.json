@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x8izuao",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8izuao_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8izuao_audio.mp3",
+  "duration_sec": 43,
+  "duration_seconds": 43.0,
+  "title": "Vídeo hilário: nenhum humano defende o pão de cada dia como esse gato",
+  "webpage_url": "https://www.dailymotion.com/video/x8izuao",
+  "dm_id": "x8izuao",
+  "views_total": 673,
+  "view_count": 673,
+  "likes_total": 2,
+  "like_count": 2,
+  "tags": [
+    "gato"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "O vídeo hilário de um gatinho que briga com qualquer pessoa que se aproxime de sua comida vai melhorar sua semana!<br /><br />O clipe foi compartilhado pela organização de resgate de felinos Cherwell Cats Protection, do Reino Unido, e mostra uma dupla de gatinhos que foram resgatados recentemente.<br /><br />“Eric e Ernie se amam muito. Eles têm 7 meses, mas não tiveram o melhor começo e estão muito nervosos com as pessoas”, diz a legenda compartilhada junto com o vídeo.<br /><br />Em seguida, a Cherwell Cats Protection explicou que os felinos estarão disponíveis para adoção em breve. “Ernie sibila se você invadir o espaço dele. No momento certo procuraremos uma pessoa que tenha muita paciência.”<br /><br />“Espero que encontrem a pessoa que precisa deles. Adotar gatos tímidos é gratificante quando eles finalmente confiam em você, eles são os melhores”, escreveu um usuário do Twitter nos comentários da publicação. “Eles são tão lindos”, afirmou outro internauta.<br /><br />Vídeo: reprodução twitter @cherwellcats",
+  "created_time": 1678477550,
+  "search_query": "vídeos curtos de gatos caçando",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat being protective of its food.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8izuao",
+    "decision": "keep",
+    "reason": "The video shows a cat being protective of its food.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

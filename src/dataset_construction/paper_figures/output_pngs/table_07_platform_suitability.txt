@@ -1,0 +1,12 @@
+Platform × suitability for training
+==========================================================================================
+Manifest rows (total): 7318
+Logical fields: top-level `platform` (fallback `source` for URL shorthand) + same suitability extraction as fig_01 / table_01.
+Platforms shown: YouTube and TikTok only.
+
+Platform       Suitable Not suitable  Missing    Total     % suit
+-----------------------------------------------------------------
+YouTube            4715         1219        0     5934       79.5%
+TikTok             1071          313        0     1384       77.4%
+
+% suit = Suitable / Total (within each row), Total = Suitable + Not suitable + Missing.

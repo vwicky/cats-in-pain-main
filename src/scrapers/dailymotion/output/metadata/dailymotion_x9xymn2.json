@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x9xymn2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9xymn2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9xymn2_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "مباركة الكلاب والقطط بالمياه المقدّسة في مدريد",
+  "webpage_url": "https://www.dailymotion.com/video/x9xymn2",
+  "dm_id": "x9xymn2",
+  "views_total": 628,
+  "view_count": 628,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "catholicism",
+    "church",
+    "cats",
+    "dog"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "ar",
+  "query_language": "English",
+  "description": "مباركة الكلاب والقطط بالمياه المقدّسة في مدريد<br /><br />اصطحب عشرات من أصحاب الحيوانات الأليفة في مدريد كلابهم وقططهم إلى كنيسة القديس أنطونيوس، حيث نالت البركة بالمياه المقدّسة بمناسبة عيده.<br /><br />لمزيد من القراءة :  http://arabic.euronews.com/2026/01/17/dogs-and-cats-blessed-with-holy-water-in-madrid<br /><br />سجل: يورونيوز متوفرة باثنا عشرة لغة",
+  "created_time": 1768665706,
+  "search_query": "cats chirping and chattering",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Involves blessing of cats, relevant to cat culture.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9xymn2",
+    "decision": "keep",
+    "reason": "Involves blessing of cats, relevant to cat culture.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

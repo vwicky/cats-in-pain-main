@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9k06s0",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9k06s0_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9k06s0_audio.mp3",
+  "duration_sec": 20,
+  "duration_seconds": 20.0,
+  "title": "Kobieta filmuje dwa psy i kota, po czym zaczyna płakać (video)",
+  "webpage_url": "https://www.dailymotion.com/video/x9k06s0",
+  "dm_id": "x9k06s0",
+  "views_total": 10495,
+  "view_count": 10495,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "Ten widok chwyta za serce nie tylko właścicielkę samochodu: dwa psy i kotek siedzą przed podjazdem z głębokim smutkiem w oczach.",
+  "created_time": 1747983154,
+  "search_query": "rehabilitacja kota po operacji",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description mentions a cat and its emotional state, which is plausible.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9k06s0",
+    "decision": "keep",
+    "reason": "The description mentions a cat and its emotional state, which is plausible.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

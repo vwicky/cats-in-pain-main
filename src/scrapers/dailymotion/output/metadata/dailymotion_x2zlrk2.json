@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x2zlrk2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2zlrk2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2zlrk2_audio.mp3",
+  "duration_sec": 57,
+  "duration_seconds": 57.0,
+  "title": "Kitty vs. Mirror",
+  "webpage_url": "https://www.dailymotion.com/video/x2zlrk2",
+  "dm_id": "x2zlrk2",
+  "views_total": 17117,
+  "view_count": 17117,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "Sorry about quality I am new to Dailymotion",
+  "created_time": 1438132299,
+  "search_query": "calm kitty moments",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat interacting with a mirror, which is plausible cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2zlrk2",
+    "decision": "keep",
+    "reason": "The title indicates a cat interacting with a mirror, which is plausible cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

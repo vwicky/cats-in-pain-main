@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x6kq5x",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6kq5x_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6kq5x_audio.mp3",
+  "duration_sec": 49,
+  "duration_seconds": 49.0,
+  "title": "Bélitz : chat qui s'amuse devant un ordinateur",
+  "webpage_url": "https://www.dailymotion.com/video/x6kq5x",
+  "dm_id": "x6kq5x",
+  "views_total": 755,
+  "view_count": 755,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "Bélitz",
+    "chat",
+    "ordinateur",
+    "msn",
+    "poisson"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1219924510,
+  "search_query": "chat qui guette un jouet",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat playing in front of a computer, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6kq5x",
+    "decision": "keep",
+    "reason": "The title suggests a cat playing in front of a computer, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

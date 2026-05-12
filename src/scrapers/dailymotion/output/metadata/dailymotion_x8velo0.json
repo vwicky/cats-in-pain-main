@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8velo0",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8velo0_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8velo0_audio.mp3",
+  "duration_sec": 57,
+  "duration_seconds": 57.0,
+  "title": "Video. Un gatto ogni sera condivide il suo cibo con un randagio: il loro rituale intenerisce gli internauti",
+  "webpage_url": "https://www.dailymotion.com/video/x8velo0",
+  "dm_id": "x8velo0",
+  "views_total": 10653,
+  "view_count": 10653,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "Non si direbbe che i mici siano generosi. Invece Rocco ci dimostra che i gatti possono essere altruisti!",
+  "created_time": 1711120137,
+  "search_query": "gatti che riposano pacificamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat sharing food with a stray, indicating altruistic behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8velo0",
+    "decision": "keep",
+    "reason": "The video features a cat sharing food with a stray, indicating altruistic behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

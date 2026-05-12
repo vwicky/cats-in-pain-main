@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x3nuyls",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3nuyls_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3nuyls_audio.mp3",
+  "duration_sec": 47,
+  "duration_seconds": 47.0,
+  "title": "FUNNY CATS - THE STALLONE CAT - THE ROCKY CAT - SO FUNNY",
+  "webpage_url": "https://www.dailymotion.com/video/x3nuyls",
+  "dm_id": "x3nuyls",
+  "views_total": 5201,
+  "view_count": 5201,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cats"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "zh",
+  "query_language": "English",
+  "description": "the funny cats",
+  "created_time": 1453486548,
+  "search_query": "sick cat at the vet",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and tags suggest it features real cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3nuyls",
+    "decision": "keep",
+    "reason": "The title and tags suggest it features real cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

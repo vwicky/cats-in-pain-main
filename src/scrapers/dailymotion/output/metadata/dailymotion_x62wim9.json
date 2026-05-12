@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x62wim9",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x62wim9_video.mp4",
+  "audio_path": "output/videos/dailymotion_x62wim9_audio.mp3",
+  "duration_sec": 48,
+  "duration_seconds": 48.0,
+  "title": "[Insolite] Le chat qui dit ''maman''",
+  "webpage_url": "https://www.dailymotion.com/video/x62wim9",
+  "dm_id": "x62wim9",
+  "views_total": 1110,
+  "view_count": 1110,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1548970200,
+  "search_query": "chat agressif qui grogne",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title suggests a cat vocalizing the word 'maman'.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x62wim9",
+    "decision": "keep",
+    "reason": "Title suggests a cat vocalizing the word 'maman'.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

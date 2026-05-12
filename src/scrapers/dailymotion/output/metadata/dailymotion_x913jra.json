@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x913jra",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x913jra_video.mp4",
+  "audio_path": "output/videos/dailymotion_x913jra_audio.mp3",
+  "duration_sec": 41,
+  "duration_seconds": 41.0,
+  "title": "Verona, l'ultimo colpo dell'inafferrabile ladro-gatto",
+  "webpage_url": "https://www.dailymotion.com/video/x913jra",
+  "dm_id": "x913jra",
+  "views_total": 18540,
+  "view_count": 18540,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "Da San Zeno a Piazza Erbe passando per Porta Nuova, sempre con la stessa tecnica. Il ladro-gatto si intrufola nei locali di Verona a quattro zampe: è l’incubo degli esercenti veronesi ma, nonostante sia stato più volte immortalato dalle telecamere della videosorveglianza, sin qui si è dimostrato dimostrando imprendibile. Il perché è presto detto: oltre a colpire a volto coperto e con una tecnica da vero e proprio habitué, userebbe dei guanti: sui luoghi scassinati e derubati, gli investigatori non hanno trovato il minimo segno di impronte digitali. Il filmato lo riprende durante il furto all'Osteria La Torre, nella centralissima piazza Erbe.  ",
+  "created_time": 1719571774,
+  "search_query": "gatto che insegue la preda",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat involved in theft, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x913jra",
+    "decision": "keep",
+    "reason": "The title suggests a cat involved in theft, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

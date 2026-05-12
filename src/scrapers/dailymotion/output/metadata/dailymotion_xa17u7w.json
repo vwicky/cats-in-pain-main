@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_xa17u7w",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xa17u7w_video.mp4",
+  "audio_path": "output/videos/dailymotion_xa17u7w_audio.mp3",
+  "duration_sec": 39,
+  "duration_seconds": 39.0,
+  "title": "Rabia soigne les chats malades d'Oujda",
+  "webpage_url": "https://www.dailymotion.com/video/xa17u7w",
+  "dm_id": "xa17u7w",
+  "views_total": 1602,
+  "view_count": 1602,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "🐾 À Oujda au Maroc, Rabia consacre son quotidien à soigner les chats de la ville.<br /><br />🙏 Grâce à la solidarité de sa communauté, elle offre un toit et des soins vitaux aux oubliés comme la petite Mimi.<br /><br />❤️ Malgré la fatigue des années, son dévouement reste inébranlable pour offrir un avenir à chaque chat errant.",
+  "created_time": 1772636870,
+  "search_query": "chat malade en traitement",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Focuses on caring for sick cats, relevant to real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xa17u7w",
+    "decision": "keep",
+    "reason": "Focuses on caring for sick cats, relevant to real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x2zlkst",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2zlkst_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2zlkst_audio.mp3",
+  "duration_sec": 57,
+  "duration_seconds": 57.0,
+  "title": "Kitty vs. Mirror",
+  "webpage_url": "https://www.dailymotion.com/video/x2zlkst",
+  "dm_id": "x2zlkst",
+  "views_total": 7221,
+  "view_count": 7221,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "kittens playing in my house. take A look!",
+  "created_time": 1438127368,
+  "search_query": "playful kittens relaxing",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description indicate kittens playing, which is plausible cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2zlkst",
+    "decision": "keep",
+    "reason": "The title and description indicate kittens playing, which is plausible cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

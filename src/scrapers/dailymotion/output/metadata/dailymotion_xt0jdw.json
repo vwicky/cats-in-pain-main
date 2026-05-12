@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_xt0jdw",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xt0jdw_video.mp4",
+  "audio_path": "output/videos/dailymotion_xt0jdw_audio.mp3",
+  "duration_sec": 43,
+  "duration_seconds": 43.0,
+  "title": "Гостеприимный кот",
+  "webpage_url": "https://www.dailymotion.com/video/xt0jdw",
+  "dm_id": "xt0jdw",
+  "views_total": 1511,
+  "view_count": 1511,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "гостеприимный кот"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Гостеприимный кот",
+  "created_time": 1345745350,
+  "search_query": "кот, выслеживающий добычу",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's hospitable behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xt0jdw",
+    "decision": "keep",
+    "reason": "The title suggests a cat's hospitable behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

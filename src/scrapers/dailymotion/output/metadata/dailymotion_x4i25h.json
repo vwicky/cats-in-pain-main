@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x4i25h",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x4i25h_video.mp4",
+  "audio_path": "output/videos/dailymotion_x4i25h_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "Un chat qui attaque",
+  "webpage_url": "https://www.dailymotion.com/video/x4i25h",
+  "dm_id": "x4i25h",
+  "views_total": 812,
+  "view_count": 812,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Chat",
+    "attaque",
+    "violence",
+    "marrant",
+    "drole",
+    "funny"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Cette vidéo fait flipper! Qui ne connait pas le regard scarface des chats?",
+  "created_time": 1203957447,
+  "search_query": "chat blessé qui boite",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat attacking, which is a plausible agonistic behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x4i25h",
+    "decision": "keep",
+    "reason": "The video shows a cat attacking, which is a plausible agonistic behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x56kl07",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x56kl07_video.mp4",
+  "audio_path": "output/videos/dailymotion_x56kl07_audio.mp3",
+  "duration_sec": 23,
+  "duration_seconds": 23.0,
+  "title": "Gato é atacado por filhote brincalhão – e reage de forma diferente do que qualquer um espera.",
+  "webpage_url": "https://www.dailymotion.com/video/x56kl07",
+  "dm_id": "x56kl07",
+  "views_total": 704,
+  "view_count": 704,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1482917643,
+  "search_query": "gatos luchando por territorio",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a playful interaction between a cat and a kitten, indicating potential play behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x56kl07",
+    "decision": "keep",
+    "reason": "The title suggests a playful interaction between a cat and a kitten, indicating potential play behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

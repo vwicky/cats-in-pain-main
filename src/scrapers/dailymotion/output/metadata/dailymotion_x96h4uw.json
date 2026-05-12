@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x96h4uw",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x96h4uw_video.mp4",
+  "audio_path": "output/videos/dailymotion_x96h4uw_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "NO COMMENT: Letonia homenajea a un famoso gato muy querido por los vecinos",
+  "webpage_url": "https://www.dailymotion.com/video/x96h4uw",
+  "dm_id": "x96h4uw",
+  "views_total": 1016,
+  "view_count": 1016,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Letonia",
+    "Pintura",
+    "Mundo animal",
+    "gato doméstico",
+    "no comment"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "El gato Melocotón, muy querido por los habitantes de Riga, la capital de Letonia, ha sido homenajeado con una obra del artista Eriks Caune.",
+  "created_time": 1727672579,
+  "search_query": "comportamiento agresivo de los gatos",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video is about a beloved cat in Latvia, suggesting real cat content.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x96h4uw",
+    "decision": "keep",
+    "reason": "The video is about a beloved cat in Latvia, suggesting real cat content.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

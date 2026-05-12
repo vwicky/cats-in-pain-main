@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x2zhtzm",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2zhtzm_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2zhtzm_audio.mp3",
+  "duration_sec": 31,
+  "duration_seconds": 31.0,
+  "title": "Kitten Watching Hockey(ipad)",
+  "webpage_url": "https://www.dailymotion.com/video/x2zhtzm",
+  "dm_id": "x2zhtzm",
+  "views_total": 7211,
+  "view_count": 7211,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cat",
+    "videos",
+    "are",
+    "fun"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "We enjoy you precense, be sure to follow us on Twitter for more cat videos!",
+  "created_time": 1438045780,
+  "search_query": "defensive cat posture",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a kitten watching hockey, which is relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2zhtzm",
+    "decision": "keep",
+    "reason": "The video features a kitten watching hockey, which is relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

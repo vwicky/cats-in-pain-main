@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_xm3r7e",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xm3r7e_video.mp4",
+  "audio_path": "output/videos/dailymotion_xm3r7e_audio.mp3",
+  "duration_sec": 29,
+  "duration_seconds": 29.0,
+  "title": "Turtle on a Cat Chase",
+  "webpage_url": "https://www.dailymotion.com/video/xm3r7e",
+  "dm_id": "xm3r7e",
+  "views_total": 1738,
+  "view_count": 1738,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "turtle",
+    "tortoise",
+    "cats",
+    "kitten",
+    "pets",
+    "animals",
+    "chase",
+    "run",
+    "annoys",
+    "cute"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "This cat is on a run with a turtle nipping at its heels!",
+  "created_time": 1320261150,
+  "search_query": "cat pouncing on prey",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat being chased by a turtle, indicating active behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xm3r7e",
+    "decision": "keep",
+    "reason": "The video shows a cat being chased by a turtle, indicating active behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

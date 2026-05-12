@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x3hdfsp",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3hdfsp_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3hdfsp_audio.mp3",
+  "duration_sec": 54,
+  "duration_seconds": 54.0,
+  "title": "Ce chat est unique, il marche avec des prothèses",
+  "webpage_url": "https://www.dailymotion.com/video/x3hdfsp",
+  "dm_id": "x3hdfsp",
+  "views_total": 3436,
+  "view_count": 3436,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "Prothèse",
+    "opération",
+    "Vétérinaire",
+    "Refuge",
+    "Unique",
+    "Zoomin"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Alors qu'il était encore tout petit, il a été trouvé dans un camping et emmené dans un refuge de l'État américain du Nevada. C'est là que...",
+  "created_time": 1449594501,
+  "search_query": "chat chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a cat with prosthetics, indicating a medical context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3hdfsp",
+    "decision": "keep",
+    "reason": "The video discusses a cat with prosthetics, indicating a medical context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

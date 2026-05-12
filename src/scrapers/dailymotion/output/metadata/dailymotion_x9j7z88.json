@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9j7z88",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9j7z88_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9j7z88_audio.mp3",
+  "duration_sec": 39,
+  "duration_seconds": 39.0,
+  "title": "七条路巴刹卖糕小贩报警了！ 严斥传言与事实不符",
+  "webpage_url": "https://www.dailymotion.com/video/x9j7z88",
+  "dm_id": "x9j7z88",
+  "views_total": 1028,
+  "view_count": 1028,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "zh",
+  "query_language": "Japanese",
+  "description": "传七条路巴刹卖糕小贩虐猫案，有关卖糕小贩则回应：“传言跟真正发生的事情不符，我们已经报警了！”。<br />https://www.kwongwah.com.my/?p=1637787",
+  "created_time": 1746793700,
+  "search_query": "猫の不快のサイン",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a cat abuse rumor, indicating a cat-related context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9j7z88",
+    "decision": "keep",
+    "reason": "The video discusses a cat abuse rumor, indicating a cat-related context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

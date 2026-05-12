@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x8zkaxc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8zkaxc_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8zkaxc_audio.mp3",
+  "duration_sec": 44,
+  "duration_seconds": 44.0,
+  "title": "Para não atropelar gato, motorista desvia e atinge C4 estacionado",
+  "webpage_url": "https://www.dailymotion.com/video/x8zkaxc",
+  "dm_id": "x8zkaxc",
+  "views_total": 966,
+  "view_count": 966,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Cascavel"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Para não atropelar gato, motorista desvia e atinge C4 estacionado",
+  "created_time": 1717416425,
+  "search_query": "gatos piando e conversando",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a driver avoiding a cat, indicating a real cat behavior context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8zkaxc",
+    "decision": "keep",
+    "reason": "The video involves a driver avoiding a cat, indicating a real cat behavior context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

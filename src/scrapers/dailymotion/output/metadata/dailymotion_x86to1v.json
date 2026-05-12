@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x86to1v",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x86to1v_video.mp4",
+  "audio_path": "output/videos/dailymotion_x86to1v_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "La vie secrète des chats : Le chat : meilleur ami de l'homme ?",
+  "webpage_url": "https://www.dailymotion.com/video/x86to1v",
+  "dm_id": "x86to1v",
+  "views_total": 3094,
+  "view_count": 3094,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "guid_5995706795001",
+    "uuid_cfaf4099-23b8-4aec-981f-227f5b4913a0",
+    "channel_bandes-annonces",
+    "La vie secrète des chats 141368853",
+    "TFX"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1641326808,
+  "search_query": "bruits de reproduction des chats",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title suggests a cat-related video, likely discussing cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x86to1v",
+    "decision": "keep",
+    "reason": "Title suggests a cat-related video, likely discussing cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

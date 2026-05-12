@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x3h096b",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3h096b_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3h096b_audio.mp3",
+  "duration_sec": 55,
+  "duration_seconds": 55.0,
+  "title": "Мужик натравил кота на большую собаку",
+  "webpage_url": "https://www.dailymotion.com/video/x3h096b",
+  "dm_id": "x3h096b",
+  "views_total": 21968,
+  "view_count": 21968,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Мужик",
+    "натравил",
+    "кота",
+    "на",
+    "большую",
+    "собаку"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Мужик натравил кота на большую собаку",
+  "created_time": 1449333765,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates an interaction between a cat and a dog, suggesting potential agonistic behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3h096b",
+    "decision": "keep",
+    "reason": "The title indicates an interaction between a cat and a dog, suggesting potential agonistic behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

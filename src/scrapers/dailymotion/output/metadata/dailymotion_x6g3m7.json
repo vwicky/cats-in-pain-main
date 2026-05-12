@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x6g3m7",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6g3m7_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6g3m7_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "Trash-Talking Boxing Cat",
+  "webpage_url": "https://www.dailymotion.com/video/x6g3m7",
+  "dm_id": "x6g3m7",
+  "views_total": 3090,
+  "view_count": 3090,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "funny",
+    "cat",
+    "videos",
+    "boxing",
+    "kitten",
+    "kitty",
+    "cute",
+    "silly",
+    "stupid"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "en",
+  "description": "This tough little kitty is training to be a world champion prize fighter and trash-talker! See him beat the feathers out of his sparring partner! Video by Daniel Wolfert & Brandon James.",
+  "created_time": 1218814656,
+  "search_query": "cat talking",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat engaging in a playful and competitive behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6g3m7",
+    "decision": "keep",
+    "reason": "The title suggests a cat engaging in a playful and competitive behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x9hbizw",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9hbizw_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9hbizw_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Refugio rescata a 30 gatos en una casa: un gatito de apariencia única sorprende a todos",
+  "webpage_url": "https://www.dailymotion.com/video/x9hbizw",
+  "dm_id": "x9hbizw",
+  "views_total": 2025,
+  "view_count": 2025,
+  "likes_total": 5,
+  "like_count": 5,
+  "tags": [
+    "News Gato"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "El refugio PAWS de Chicago ha acogido recientemente una camada de gatitos, pero la apariencia de uno de ellos ha llamado la atención de todos.",
+  "created_time": 1743775749,
+  "search_query": "signos de malestar en gatos",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a rescue of kittens, indicating a context of care and potential behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9hbizw",
+    "decision": "keep",
+    "reason": "The video discusses a rescue of kittens, indicating a context of care and potential behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

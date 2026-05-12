@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x4tm2fc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x4tm2fc_video.mp4",
+  "audio_path": "output/videos/dailymotion_x4tm2fc_audio.mp3",
+  "duration_sec": 56,
+  "duration_seconds": 56.0,
+  "title": "Dialogue surréaliste entre deux chats !",
+  "webpage_url": "https://www.dailymotion.com/video/x4tm2fc",
+  "dm_id": "x4tm2fc",
+  "views_total": 651,
+  "view_count": 651,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Dialogue",
+    "buzger",
+    "chat"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1474130817,
+  "search_query": "deux chats en confrontation",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a surreal dialogue between two cats, indicating real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x4tm2fc",
+    "decision": "keep",
+    "reason": "The title suggests a surreal dialogue between two cats, indicating real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

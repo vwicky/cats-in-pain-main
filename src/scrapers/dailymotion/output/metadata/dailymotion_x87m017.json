@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x87m017",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x87m017_video.mp4",
+  "audio_path": "output/videos/dailymotion_x87m017_audio.mp3",
+  "duration_sec": 31,
+  "duration_seconds": 31.0,
+  "title": "Une femme adopte un chat malade destiné à mourir euthanasié en refuge",
+  "webpage_url": "https://www.dailymotion.com/video/x87m017",
+  "dm_id": "x87m017",
+  "views_total": 1345,
+  "view_count": 1345,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "uuid_cd8885e9-341f-4a52-b611-3154da4efcea",
+    "guid_105047",
+    "chat",
+    "animal",
+    "sauvetage",
+    "best-friends"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1643975362,
+  "search_query": "chat malade en traitement",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Involves a cat being adopted from a shelter, relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x87m017",
+    "decision": "keep",
+    "reason": "Involves a cat being adopted from a shelter, relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

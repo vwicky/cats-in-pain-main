@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x844eku",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x844eku_video.mp4",
+  "audio_path": "output/videos/dailymotion_x844eku_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "Des fans de Miami sauvent un chat de la chute d'un pont supérieur",
+  "webpage_url": "https://www.dailymotion.com/video/x844eku",
+  "dm_id": "x844eku",
+  "views_total": 1202,
+  "view_count": 1202,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Des fans de Miami sauvent un chat de la chute d'un pont supérieur",
+  "created_time": 1631515403,
+  "search_query": "bruits de reproduction des chats",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video depicts fans saving a cat, indicating a real cat in a potentially distressing situation.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x844eku",
+    "decision": "keep",
+    "reason": "The video depicts fans saving a cat, indicating a real cat in a potentially distressing situation.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

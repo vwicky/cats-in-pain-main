@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x34es79",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x34es79_video.mp4",
+  "audio_path": "output/videos/dailymotion_x34es79_audio.mp3",
+  "duration_sec": 22,
+  "duration_seconds": 22.0,
+  "title": "Cat gets kicked hard",
+  "webpage_url": "https://www.dailymotion.com/video/x34es79",
+  "dm_id": "x34es79",
+  "views_total": 15584,
+  "view_count": 15584,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "Cat",
+    "gets",
+    "kicked",
+    "hard"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "tr",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1441284598,
+  "search_query": "sick cat getting treatment",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat is involved in a potentially harmful situation.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x34es79",
+    "decision": "keep",
+    "reason": "The title suggests a cat is involved in a potentially harmful situation.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x8zmabq",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8zmabq_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8zmabq_audio.mp3",
+  "duration_sec": 33,
+  "duration_seconds": 33.0,
+  "title": "Der Mensch stellt ein Fütterungsgerät für verwaiste Kätzchen mit einem weichen Katzenspielzeug her.",
+  "webpage_url": "https://www.dailymotion.com/video/x8zmabq",
+  "dm_id": "x8zmabq",
+  "views_total": 4044,
+  "view_count": 4044,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Mann",
+    "schafft",
+    "Fütterung",
+    "Gerät",
+    "verwaiste",
+    "Kätzchen",
+    "Katze",
+    "weich",
+    "Spielzeug",
+    "innovative"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "de",
+  "query_language": "German",
+  "description": "Nachdem er die Kätzchen gefunden hatte, die sich in seinem Haus versteckten, versuchte Bai zunächst, sie mit Spritzen zu füttern, aber die Kätzchen kämpften.<br /><br />Sein Gerät simuliert die Form und Weichheit einer Katze, wodurch sich die Kätzchen wohler fühlen.",
+  "created_time": 1717498973,
+  "search_query": "glückliche Katze, die schnurrt",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves feeding orphaned kittens, which is relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8zmabq",
+    "decision": "keep",
+    "reason": "The video involves feeding orphaned kittens, which is relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x14d5ex",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x14d5ex_video.mp4",
+  "audio_path": "output/videos/dailymotion_x14d5ex_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "Un chat pris en flagrant délit de vol",
+  "webpage_url": "https://www.dailymotion.com/video/x14d5ex",
+  "dm_id": "x14d5ex",
+  "views_total": 565,
+  "view_count": 565,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Délit",
+    "Chat",
+    "Voleur",
+    "Armoire",
+    "Vêtement",
+    "Flagrant"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1382648209,
+  "search_query": "courtes vidéos de chats en chasse",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat caught in the act of stealing, which is a behavior of interest.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x14d5ex",
+    "decision": "keep",
+    "reason": "The video features a cat caught in the act of stealing, which is a behavior of interest.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

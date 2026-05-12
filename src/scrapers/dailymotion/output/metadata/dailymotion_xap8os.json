@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_xap8os",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xap8os_video.mp4",
+  "audio_path": "output/videos/dailymotion_xap8os_audio.mp3",
+  "duration_sec": 16,
+  "duration_seconds": 16.0,
+  "title": "Micetto travolto dalla palla",
+  "webpage_url": "https://www.dailymotion.com/video/xap8os",
+  "dm_id": "xap8os",
+  "views_total": 1121,
+  "view_count": 1121,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "animali",
+    "gatti",
+    "divertimento",
+    "felini",
+    "palla"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "Povero piccolo micio!!",
+  "created_time": 1254670592,
+  "search_query": "video brevi di gatti",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description indicate a cat is involved in playful behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xap8os",
+    "decision": "keep",
+    "reason": "The title and description indicate a cat is involved in playful behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

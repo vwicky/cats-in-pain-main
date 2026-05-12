@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x88wjiz",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x88wjiz_video.mp4",
+  "audio_path": "output/videos/dailymotion_x88wjiz_audio.mp3",
+  "duration_sec": 21,
+  "duration_seconds": 21.0,
+  "title": "Cet homme a piégé son chat avec des bandes de cire",
+  "webpage_url": "https://www.dailymotion.com/video/x88wjiz",
+  "dm_id": "x88wjiz",
+  "views_total": 1025,
+  "view_count": 1025,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "uuid_5cdd34d3-a49e-4da8-8156-7f6b4d7ac8a6",
+    "guid_46870",
+    "chat",
+    "insolite"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1646941279,
+  "search_query": "bruits de reproduction des chats",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat is involved in a playful or surprising situation.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x88wjiz",
+    "decision": "keep",
+    "reason": "The title suggests a cat is involved in a playful or surprising situation.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

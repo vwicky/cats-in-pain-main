@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x7mmtdc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7mmtdc_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7mmtdc_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "El gato ninja intenta gastar una broma al conejo pero algo sale mal…",
+  "webpage_url": "https://www.dailymotion.com/video/x7mmtdc",
+  "dm_id": "x7mmtdc",
+  "views_total": 5275,
+  "view_count": 5275,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gato",
+    "broma",
+    "conejo"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Portuguese",
+  "description": "El vídeo va del gato ninja que quiso gastar una broma a un conejo pero algo salió mal…<br /><br />Los animales no nos dejan de sorpender.<br /><br />Los gatos, en concreto, tienen mala fama, dicen que son ariscos, malhumorados y que «odian» a los humanos, algunos también son juguetones, es el caso del gato del que hoy queremos hablar, él quiere jugar al típico juego del «gato y el ratón» pero con un conejo. (Los 21 beneficios de tener gato… según los amantes de los gatos)<br /><br />Es como una de esas caricaturas de Tom y Jerry, cuando Tom se esconde detrás de una farola y desaparece, y luego acecha a su presa desprevenida. Pero este conejito no es tonto.<br /><br />Al parecer, ya jugó a este juego antes y no tiene ganas de volverlo a hacer.<br /><br />El conejo decide no jugar, pero para que el gato no se cabree, decide quedarse quieto como si fuese una estatua.<br /><br />Naturalmente, el vídeo se ha vuelto viral y los espectadores tienen innumerables interpretaciones de lo que realmente está sucediendo en esa habitación.",
+  "created_time": 1571011315,
+  "search_query": "vídeos curtos de gatos caçando",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat attempting to prank another animal, indicating playful behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7mmtdc",
+    "decision": "keep",
+    "reason": "The title suggests a cat attempting to prank another animal, indicating playful behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

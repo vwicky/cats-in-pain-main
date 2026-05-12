@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x8lqhli",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8lqhli_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8lqhli_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Veterinários resgatam animais de região alagada em Kherson, na Ucrânia",
+  "webpage_url": "https://www.dailymotion.com/video/x8lqhli",
+  "dm_id": "x8lqhli",
+  "views_total": 651,
+  "view_count": 651,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Veterina",
+    "resgatam",
+    "animais",
+    "regia",
+    "alagada",
+    "Kherson"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Veterinários resgatam animais de região alagada em Kherson, na Ucrânia. Valentina e Leonid Stoyanov compartilharam o trabalho para salvar os animais. Eles usam embarcações para acessar a área e resgatar, em sua maioria, cães e gatos. A região ficou inundada após um ataque romper a barragem de Nova Kakhovka. A destruição ocorreu no último dia 6, e forçou moradores a fugir de suas casas.  #terranoticias <br /><br /><br />Acompanhe as principais notícias do Brasil e do mundo no Terra ▸ https://www.terra.com.br<br />-------------<br />Siga o Terra nas redes sociais<br />Facebook▸ https://www.facebook.com/terrabrasil<br />Instagram ▸ http://instagram.com/terrabrasil<br />Twitter ▸ https://twitter.com/terra<br />TikTok ▸ https://www.tiktok.com/@terrabrasil<br />Pinterest ▸ https://br.pinterest.com/terrabrasil",
+  "created_time": 1686672336,
+  "search_query": "gatos piando e conversando",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves veterinarians rescuing animals, including cats, indicating a context of care.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8lqhli",
+    "decision": "keep",
+    "reason": "The video involves veterinarians rescuing animals, including cats, indicating a context of care.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

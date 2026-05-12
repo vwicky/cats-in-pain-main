@@ -1,0 +1,120 @@
+# ST-GCN–DeepLabCut (39-keypoint SuperAnimal quadruped, single cat_id split)
+# Paths are relative to repository root unless noted.
+
+data:
+  manifest: "src/dataset_construction/manifests/final_dataset_v2.jsonl"
+  dlc_dir: "data/dataset/deeplabcut_really_labeled"
+  # Filename = {snippet_id}{dlc_h5_suffix}.h5 — suffix must end with .h5 (leading _ optional in yaml).
+  # If several HDF5 exist per snippet (before/after adapt, snapshots), the loader picks the
+  # shortest name among those ending with this suffix (your clean export from ls | head).
+  dlc_h5_suffix: "_superanimal_quadruped_hrnet_w32_fasterrcnn_mobilenet_v3_large_fpn.h5"
+  n_frames: 35
+  n_keypoints: 39
+  n_channels: 3
+  # After first HDF5 read, reuse normalized (pose, mask) — big speedup vs parsing .h5 every step.
+  # ram: in-process only (default; use num_workers=0). disk: .pt under disk_dir, survives restarts.
+  pose_cache:
+    backend: ram # off | ram | disk
+    disk_dir: "video/pose-models/cache/dlc_poses"
+  # Pre-built DLC QC enrichment JSONL (analogous to data.vitpose_qc for ViTPose).
+  # Build with: python video/pose-models/scripts/build_dlc_qc_enrichment.py
+  # Default gates (conservative trash filter — removes clearly failed tracking only):
+  #   mean_dlc_likelihood >= 0.20  AND  frac_high_conf_frames >= 0.10
+  # Tighter alternatives: --min-mean-likelihood 0.30 --min-frac-high-conf 0.20
+  # Run audit_dlc_joint_likelihood.py + inspect dlc_qc_enrichment_summary.txt before tightening.
+  # default_ok_if_missing: true — snippets absent from the JSONL (no HDF5) are not re-penalised
+  # (load_dataset_for_deeplabcut already drops them via the h5-path step).
+  dlc_qc:
+    filter: true
+    enrichment: "src/dataset_construction/reports/dlc_qc_enrichment.jsonl"
+    default_ok_if_missing: true
+
+clip_quality:
+  # Mean likelihood over all T×J in the raw clip (before temporal padding).
+  # These thresholds match the conservative gates used by build_dlc_qc_enrichment.py (0.20/0.10).
+  # Run ``python video/pose-models/scripts/audit_dlc_joint_likelihood.py`` before tightening.
+  clip_mean_likelihood_threshold: 0.20
+  # Fraction of frames whose mean_j(likelihood) >= per_frame_mean_likelihood_threshold.
+  min_fraction_high_conf_frames: 0.10
+  # If unset, per-frame gate uses clip_mean_likelihood_threshold.
+  per_frame_mean_likelihood_threshold: null
+  # exclude: drop failing clips from train/val load (live HDF5 scan at startup — slower).
+  # keep: rely on data.dlc_qc JSONL gate above (pre-built offline, analogous to ViTPose QC).
+  on_low_confidence: keep
+
+labels:
+  # Multiclass head: ``classes`` (order = class index 0..K-1). Omit to fall back to ``classes_5``.
+  # Binary head still uses ``final_label_binary`` when present, else pain = (label == binary_pain_class).
+  classes:
+    - Angry
+    - Defence
+    - Fighting
+    - Happy
+    - HuntingMind
+    - Mating
+    - MotherCall
+    - Paining
+    - Resting
+    - Warning
+  binary_pain_class: "Paining"
+  label_field: "audio_label_10"
+  # Optional: drop classes from skeleton training (matched on ``label_field`` values).
+  # Example (audio-primary, weak posture signal): [Angry, Warning, MotherCall]
+  exclude_classes_from_training: []
+
+normalization:
+  root_joint: 0
+  # Default: back_base–tail_base (hip-ish) scale. Alternative less tied to guarding compression:
+  # scale_joints: [0, 17]   # nose–throat_base (longer, more rigid chain — tune with your DLC graph).
+  scale_joints: [19, 23]
+  clamp_xy: [-0.5, 1.5]
+  drop_low_confidence_frames: true
+  confidence_threshold: 0.40
+
+augmentation:
+  enable_horizontal_flip: true
+  temporal_jitter: true
+  temporal_jitter_max_shift: 2
+  gaussian_noise_sigma: 0.005
+  joint_dropout_prob: 0.025
+  joint_dropout_conf_threshold: 0.10
+  legacy_random_joint_dropout: false
+  # Optional extras (see ``data_engineering._apply_train_augmentation``):
+  temporal_speed_jitter: false
+  temporal_speed_min: 0.8
+  temporal_speed_max: 1.2
+  rotation_augment_max_deg: 0
+  confidence_weighted_gaussian_noise: false
+
+split:
+  n_folds: 3
+  # Target validation share of **rows** (pick the StratifiedGroupKFold fold closest
+  # to this fraction). When set, effective n_splits ≈ round(1 / val_fraction), capped
+  # by n_groups and n_samples; ``n_folds`` is ignored for this split.
+  val_fraction: 0.2
+  random_state: 42
+  group_field: "cat_id"
+  stratify_field: "audio_label_10"
+
+training:
+  epochs: 1000
+  batch_size: 4
+  optimizer: "adamw"
+  lr: 3.0e-5
+  weight_decay: 0.025
+  scheduler: "cosine_with_warmup"
+  warmup_epochs: 5
+  cosine_eta_min: 1.0e-7
+  focal_gamma: 1.0
+  use_class_weights: true
+  # Pain vs no-pain only. Auxiliary multiclass head (5- or 10-way) is not wired here yet;
+  # set binary_only: false only when training_loop exposes a joint auxiliary loss.
+  binary_only: true
+  early_stop_metric: "val_macro_f1_binary"
+  early_stop_patience: 100
+  early_stop_min_delta: 0.0
+  grad_clip_norm: 1.0
+
+output:
+  runs_dir: "video/pose-models/runs"
+  log_interval_batches: 20

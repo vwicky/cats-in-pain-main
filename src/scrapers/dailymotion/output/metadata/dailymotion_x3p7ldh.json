@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3p7ldh",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3p7ldh_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3p7ldh_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "Кот прикольно сидит на жопе, а потом резко падает",
+  "webpage_url": "https://www.dailymotion.com/video/x3p7ldh",
+  "dm_id": "x3p7ldh",
+  "views_total": 2501,
+  "view_count": 2501,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "FUN",
+    "CAT",
+    "prikoli",
+    "video",
+    "clip",
+    "best",
+    "rolik",
+    "смешно",
+    "comedy"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1454071561,
+  "search_query": "кот на ветеринарном осмотре",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat sitting and then falling, which is typical cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3p7ldh",
+    "decision": "keep",
+    "reason": "The title suggests a cat sitting and then falling, which is typical cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

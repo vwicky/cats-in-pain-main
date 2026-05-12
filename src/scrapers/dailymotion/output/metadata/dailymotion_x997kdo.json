@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x997kdo",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x997kdo_video.mp4",
+  "audio_path": "output/videos/dailymotion_x997kdo_audio.mp3",
+  "duration_sec": 28,
+  "duration_seconds": 28.0,
+  "title": "Dog and cat share adorable FaceTime moment that is melting everyone’s heart",
+  "webpage_url": "https://www.dailymotion.com/video/x997kdo",
+  "dm_id": "x997kdo",
+  "views_total": 542,
+  "view_count": 542,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "News Chien"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "Technology isn’t just bringing people closer; it’s connecting pets, too, as this adorable TikTok video reveals.",
+  "created_time": 1731672694,
+  "search_query": "cats chirping and chattering",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat and dog interacting, suggesting a positive social behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x997kdo",
+    "decision": "keep",
+    "reason": "The video features a cat and dog interacting, suggesting a positive social behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

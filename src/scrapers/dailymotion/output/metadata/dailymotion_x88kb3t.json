@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x88kb3t",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x88kb3t_video.mp4",
+  "audio_path": "output/videos/dailymotion_x88kb3t_audio.mp3",
+  "duration_sec": 49,
+  "duration_seconds": 49.0,
+  "title": "Este es el chocolate más peligroso para perros y gatos",
+  "webpage_url": "https://www.dailymotion.com/video/x88kb3t",
+  "dm_id": "x88kb3t",
+  "views_total": 2104,
+  "view_count": 2104,
+  "likes_total": 2,
+  "like_count": 2,
+  "tags": [
+    "Mascotas",
+    "perros",
+    "chocolate",
+    "gatos",
+    "mvs noticias",
+    "información",
+    "noticias"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Portuguese",
+  "description": "El grado de peligrosidad también depende de la cantidad de consumo, así como el tamaño y raza de tu mascota, por ello, debes de cuidar que no coman chocolate.<br /><br />Aquí toda la información: https://mvsnoticias.com/noticias/wellness/cuidado-este-es-el-chocolate-mas-danino-para-perros-y-gatos/<br /><br />Recuerda suscribirte a nuestro canal.<br /><br />Para mantenerte informado sigue nuestras redes sociales:<br /><br />Twitter: @MVSNoticias<br />Facebook: /MVSNoticias<br />Instagram: mvsnoticias",
+  "created_time": 1646578849,
+  "search_query": "gatos chamando para acasalar",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description discuss cats in a relevant context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x88kb3t",
+    "decision": "keep",
+    "reason": "The title and description discuss cats in a relevant context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

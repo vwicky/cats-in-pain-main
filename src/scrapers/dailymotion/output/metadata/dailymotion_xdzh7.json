@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_xdzh7",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xdzh7_video.mp4",
+  "audio_path": "output/videos/dailymotion_xdzh7_audio.mp3",
+  "duration_sec": 4,
+  "duration_seconds": 4.0,
+  "title": "\"gato\"",
+  "webpage_url": "https://www.dailymotion.com/video/xdzh7",
+  "dm_id": "xdzh7",
+  "views_total": 1987,
+  "view_count": 1987,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "movimiento",
+    "parkour",
+    "gato",
+    "yume69",
+    "badalona",
+    "street"
+  ],
+  "channel": "sport",
+  "channel_title": "sport",
+  "language": "es",
+  "query_language": "Portuguese",
+  "description": "me ice este gato ace poco i pense en colgarlo.... <br />me costo lo sullo pero al final salio xD",
+  "created_time": 1158088938,
+  "search_query": "gato miando alto",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description suggest a cat-related video with movement.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xdzh7",
+    "decision": "keep",
+    "reason": "The title and description suggest a cat-related video with movement.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

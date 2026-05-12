@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3au7fk",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3au7fk_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3au7fk_audio.mp3",
+  "duration_sec": 32,
+  "duration_seconds": 32.0,
+  "title": "Кот решил поиграть с пылесосом",
+  "webpage_url": "https://www.dailymotion.com/video/x3au7fk",
+  "dm_id": "x3au7fk",
+  "views_total": 4210,
+  "view_count": 4210,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1445663732,
+  "search_query": "кот громко мяукает",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat playing with a vacuum cleaner, suggesting playful behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3au7fk",
+    "decision": "keep",
+    "reason": "The title indicates a cat playing with a vacuum cleaner, suggesting playful behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

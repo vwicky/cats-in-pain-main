@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x8e78j8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8e78j8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8e78j8_audio.mp3",
+  "duration_sec": 59,
+  "duration_seconds": 59.0,
+  "title": "Un gato bombero en la CDMX",
+  "webpage_url": "https://www.dailymotion.com/video/x8e78j8",
+  "dm_id": "x8e78j8",
+  "views_total": 629,
+  "view_count": 629,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gatos",
+    "bomberos",
+    "cdmx"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1664911463,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat involved in a firefighting context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8e78j8",
+    "decision": "keep",
+    "reason": "The title suggests a cat involved in a firefighting context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

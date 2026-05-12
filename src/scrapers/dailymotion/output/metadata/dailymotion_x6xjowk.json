@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x6xjowk",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6xjowk_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6xjowk_audio.mp3",
+  "duration_sec": 55,
+  "duration_seconds": 55.0,
+  "title": "Le kiff infini d'un chat à qui on a donné de l'herbe à chat en récompense de son don de sang",
+  "webpage_url": "https://www.dailymotion.com/video/x6xjowk",
+  "dm_id": "x6xjowk",
+  "views_total": 28750,
+  "view_count": 28750,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Après avoir donné son sang dans une clinique vétérinaire à Littleton dans le Colorado, le chat Gouda a été récompensé avec un peu d'herbe à chat déposée sur une table. Il a aussitôt plongé sa tête dedans et n'a jamais été aussi heureux !",
+  "created_time": 1542795362,
+  "search_query": "chat mal à l'aise chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat enjoying catnip after a blood donation, indicating positive behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6xjowk",
+    "decision": "keep",
+    "reason": "The video shows a cat enjoying catnip after a blood donation, indicating positive behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

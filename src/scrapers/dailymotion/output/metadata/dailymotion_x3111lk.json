@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3111lk",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3111lk_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3111lk_audio.mp3",
+  "duration_sec": 14,
+  "duration_seconds": 14.0,
+  "title": "Кот медвежатник!!",
+  "webpage_url": "https://www.dailymotion.com/video/x3111lk",
+  "dm_id": "x3111lk",
+  "views_total": 9503,
+  "view_count": 9503,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Кот открыл банку с молоком сам!!!",
+  "created_time": 1439157883,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat interacting with a can of milk, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3111lk",
+    "decision": "keep",
+    "reason": "The title suggests a cat interacting with a can of milk, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

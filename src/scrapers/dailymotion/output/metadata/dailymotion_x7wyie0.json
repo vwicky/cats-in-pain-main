@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x7wyie0",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7wyie0_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7wyie0_audio.mp3",
+  "duration_sec": 21,
+  "duration_seconds": 21.0,
+  "title": "Un chat défend un enfant qui se fait attaquer par un chien",
+  "webpage_url": "https://www.dailymotion.com/video/x7wyie0",
+  "dm_id": "x7wyie0",
+  "views_total": 1507,
+  "view_count": 1507,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un chat se comporte comme un héros et va sauver le petit garçon. <br />Un chien méchant attaque un enfant dans la rue. Heureusement, un chat vient au secours du petit garçon.",
+  "created_time": 1603273875,
+  "search_query": "chat qui guette un jouet",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat defending a child from a dog, which suggests agonistic behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7wyie0",
+    "decision": "keep",
+    "reason": "The title indicates a cat defending a child from a dog, which suggests agonistic behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

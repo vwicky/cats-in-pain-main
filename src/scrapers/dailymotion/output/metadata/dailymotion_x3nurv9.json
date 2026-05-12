@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x3nurv9",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3nurv9_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3nurv9_audio.mp3",
+  "duration_sec": 23,
+  "duration_seconds": 23.0,
+  "title": "Funny Cat At Kathmandu,Nepal",
+  "webpage_url": "https://www.dailymotion.com/video/x3nurv9",
+  "dm_id": "x3nurv9",
+  "views_total": 5085,
+  "view_count": 5085,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cat"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "funny cats",
+  "created_time": 1453484226,
+  "search_query": "cat at vet checkup",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description suggest a focus on a real cat, making it plausible for the dataset.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3nurv9",
+    "decision": "keep",
+    "reason": "The title and description suggest a focus on a real cat, making it plausible for the dataset.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

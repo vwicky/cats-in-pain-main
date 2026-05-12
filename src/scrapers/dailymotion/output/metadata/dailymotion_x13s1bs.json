@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x13s1bs",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x13s1bs_video.mp4",
+  "audio_path": "output/videos/dailymotion_x13s1bs_audio.mp3",
+  "duration_sec": 20,
+  "duration_seconds": 20.0,
+  "title": "cat vs cat",
+  "webpage_url": "https://www.dailymotion.com/video/x13s1bs",
+  "dm_id": "x13s1bs",
+  "views_total": 569,
+  "view_count": 569,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "dm:source=androidapp"
+  ],
+  "channel": "webcam",
+  "channel_title": "webcam",
+  "language": "es",
+  "query_language": "es",
+  "description": "cat vs cat",
+  "created_time": 1377649847,
+  "search_query": "cat chattering",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a confrontation between cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x13s1bs",
+    "decision": "keep",
+    "reason": "The title indicates a confrontation between cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

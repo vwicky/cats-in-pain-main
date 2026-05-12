@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9mycxq",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9mycxq_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9mycxq_audio.mp3",
+  "duration_sec": 19,
+  "duration_seconds": 19.0,
+  "title": "Ne mettez jamais un chat en colère ! 🤣 🐈 #comédie #shorts",
+  "webpage_url": "https://www.dailymotion.com/video/x9mycxq",
+  "dm_id": "x9mycxq",
+  "views_total": 4463,
+  "view_count": 4463,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "lifestyle",
+  "channel_title": "lifestyle",
+  "language": "en",
+  "query_language": "French",
+  "description": "#animal #drôle  🤩✨ Ne passez pas à côté—ABONNEZ-VOUS et SUIVEZ-NOUS pour votre dose quotidienne de créativité !<br />#astuces #DIY #bricolage #transformation<br /><br />Cette vidéo est réalisée dans un but de divertissement. Nous ne faisons aucune garantie quant à sa faisabilité, sa fiabilité ou les risques qui l’entourent. Toute action basée sur les informations recueillies dans cette vidéo n'engage que vous et nous déclinons toute responsabilité en cas de dommages ou de pertes. Il relève de la responsabilité du spectateur de faire preuve de jugement, d'attention et de toutes les précautions nécessaires en vue de reproduire ces actions.<br /><br />La vidéo suivante peut mettre en scène des activités pratiquées par nos acteurs dans un environnement contrôlé. S'il vous plait, faites preuve de jugement, d'attention et de toutes les précautions nécessaires si vous prévoyez de les reproduire.",
+  "created_time": 1753167600,
+  "search_query": "courtes vidéos de chats qui dorment",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a humorous take on a cat's behavior, likely involving vocalization or reaction.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9mycxq",
+    "decision": "keep",
+    "reason": "The title suggests a humorous take on a cat's behavior, likely involving vocalization or reaction.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

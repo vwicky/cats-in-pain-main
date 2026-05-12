@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x38onno",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x38onno_video.mp4",
+  "audio_path": "output/videos/dailymotion_x38onno_audio.mp3",
+  "duration_sec": 12,
+  "duration_seconds": 12.0,
+  "title": "Когда кот понял, что он теперь не единственный друг!))",
+  "webpage_url": "https://www.dailymotion.com/video/x38onno",
+  "dm_id": "x38onno",
+  "views_total": 14272,
+  "view_count": 14272,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1444088775,
+  "search_query": "кот, выслеживающий добычу",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat adjusting to a new friend, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x38onno",
+    "decision": "keep",
+    "reason": "The title suggests a cat adjusting to a new friend, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3g583w",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3g583w_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3g583w_audio.mp3",
+  "duration_sec": 6,
+  "duration_seconds": 6.0,
+  "title": "Кот сломался",
+  "webpage_url": "https://www.dailymotion.com/video/x3g583w",
+  "dm_id": "x3g583w",
+  "views_total": 18030,
+  "view_count": 18030,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1448851823,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat-related context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3g583w",
+    "decision": "keep",
+    "reason": "The title suggests a cat-related context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

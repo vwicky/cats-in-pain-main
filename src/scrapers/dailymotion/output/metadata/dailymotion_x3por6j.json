@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3por6j",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3por6j_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3por6j_audio.mp3",
+  "duration_sec": 56,
+  "duration_seconds": 56.0,
+  "title": "Ce chat n'est PAS très content de la visite de cet étrange intrus.",
+  "webpage_url": "https://www.dailymotion.com/video/x3por6j",
+  "dm_id": "x3por6j",
+  "views_total": 7387,
+  "view_count": 7387,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "French",
+  "description": "Regardez bien lorsque la caméra se dirige vers la droite de l'image....",
+  "created_time": 1454307904,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat reacting to an intruder, indicating real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3por6j",
+    "decision": "keep",
+    "reason": "The title suggests a cat reacting to an intruder, indicating real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

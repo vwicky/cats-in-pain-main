@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x953skg",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x953skg_video.mp4",
+  "audio_path": "output/videos/dailymotion_x953skg_audio.mp3",
+  "duration_sec": 17,
+  "duration_seconds": 17.0,
+  "title": "Short video mia big cat",
+  "webpage_url": "https://www.dailymotion.com/video/x953skg",
+  "dm_id": "x953skg",
+  "views_total": 2749,
+  "view_count": 2749,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1725392090,
+  "search_query": "cat warning sounds",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat, though vague, it is plausible.",
+  "gpt_confidence": "low",
+  "gpt_filter": {
+    "video_id": "dailymotion_x953skg",
+    "decision": "keep",
+    "reason": "The title suggests a cat, though vague, it is plausible.",
+    "confidence": "low",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

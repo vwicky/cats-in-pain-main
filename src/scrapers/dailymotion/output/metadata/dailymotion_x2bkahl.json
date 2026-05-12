@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x2bkahl",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2bkahl_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2bkahl_audio.mp3",
+  "duration_sec": 49,
+  "duration_seconds": 49.0,
+  "title": "gatoimplorando",
+  "webpage_url": "https://www.dailymotion.com/video/x2bkahl",
+  "dm_id": "x2bkahl",
+  "views_total": 2283,
+  "view_count": 2283,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gato",
+    "implorar",
+    "comida"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "",
+  "created_time": 1417520963,
+  "search_query": "gato feliz ronronando",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and tags suggest a cat begging for food, which is a plausible behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2bkahl",
+    "decision": "keep",
+    "reason": "The title and tags suggest a cat begging for food, which is a plausible behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

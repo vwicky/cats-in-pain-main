@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9g9btq",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9g9btq_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9g9btq_audio.mp3",
+  "duration_sec": 20,
+  "duration_seconds": 20.0,
+  "title": "La desternillante pelea entre un gato y un ratón que arrasa en redes sociales",
+  "webpage_url": "https://www.dailymotion.com/video/x9g9btq",
+  "dm_id": "x9g9btq",
+  "views_total": 247374,
+  "view_count": 247374,
+  "likes_total": 4,
+  "like_count": 4,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1742237869,
+  "search_query": "gato en la clínica veterinaria",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a humorous interaction between a cat and a mouse.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9g9btq",
+    "decision": "keep",
+    "reason": "The title suggests a humorous interaction between a cat and a mouse.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

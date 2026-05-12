@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3bgkxv",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3bgkxv_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3bgkxv_audio.mp3",
+  "duration_sec": 59,
+  "duration_seconds": 59.0,
+  "title": "Кот, познавший дзен и бесстрашная улитка",
+  "webpage_url": "https://www.dailymotion.com/video/x3bgkxv",
+  "dm_id": "x3bgkxv",
+  "views_total": 1797,
+  "view_count": 1797,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1446116449,
+  "search_query": "кот, выслеживающий добычу",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat experiencing a calm or meditative state, plausible real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3bgkxv",
+    "decision": "keep",
+    "reason": "The title suggests a cat experiencing a calm or meditative state, plausible real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

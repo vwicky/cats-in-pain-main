@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_xso9hq",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xso9hq_video.mp4",
+  "audio_path": "output/videos/dailymotion_xso9hq_audio.mp3",
+  "duration_sec": 23,
+  "duration_seconds": 23.0,
+  "title": "Кот ест кактус",
+  "webpage_url": "https://www.dailymotion.com/video/xso9hq",
+  "dm_id": "xso9hq",
+  "views_total": 1451,
+  "view_count": 1451,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "кот ест кактус"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Кот ест кактус",
+  "created_time": 1344353164,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat eating a cactus, which suggests a unique behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xso9hq",
+    "decision": "keep",
+    "reason": "The title indicates a cat eating a cactus, which suggests a unique behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

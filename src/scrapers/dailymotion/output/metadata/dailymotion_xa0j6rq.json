@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_xa0j6rq",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xa0j6rq_video.mp4",
+  "audio_path": "output/videos/dailymotion_xa0j6rq_audio.mp3",
+  "duration_sec": 15,
+  "duration_seconds": 15.0,
+  "title": "Bonjour Drink , Pour calmer et apaiser mon anxiété 💛",
+  "webpage_url": "https://www.dailymotion.com/video/xa0j6rq",
+  "dm_id": "xa0j6rq",
+  "views_total": 787,
+  "view_count": 787,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "people",
+  "channel_title": "people",
+  "language": "fr",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1771776388,
+  "search_query": "calm kitty moments",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a calming activity, possibly involving a cat.",
+  "gpt_confidence": "low",
+  "gpt_filter": {
+    "video_id": "dailymotion_xa0j6rq",
+    "decision": "keep",
+    "reason": "The title suggests a calming activity, possibly involving a cat.",
+    "confidence": "low",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

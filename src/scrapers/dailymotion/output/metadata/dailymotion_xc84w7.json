@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_xc84w7",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xc84w7_video.mp4",
+  "audio_path": "output/videos/dailymotion_xc84w7_audio.mp3",
+  "duration_sec": 49,
+  "duration_seconds": 49.0,
+  "title": "Petit chat qui mange",
+  "webpage_url": "https://www.dailymotion.com/video/xc84w7",
+  "dm_id": "xc84w7",
+  "views_total": 1273,
+  "view_count": 1273,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cat",
+    "chat",
+    "petit",
+    "mignon",
+    "marrant",
+    "720p"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Filmer avec le Samsung WB5000 en 720p",
+  "created_time": 1266144227,
+  "search_query": "chat blessé qui boite",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat eating, which is a normal behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xc84w7",
+    "decision": "keep",
+    "reason": "The video shows a cat eating, which is a normal behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

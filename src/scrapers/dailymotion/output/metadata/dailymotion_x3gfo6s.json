@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3gfo6s",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3gfo6s_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3gfo6s_audio.mp3",
+  "duration_sec": 34,
+  "duration_seconds": 34.0,
+  "title": "Кот Украл у Соседей Тигра",
+  "webpage_url": "https://www.dailymotion.com/video/x3gfo6s",
+  "dm_id": "x3gfo6s",
+  "views_total": 4196,
+  "view_count": 4196,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1449011274,
+  "search_query": "кот, выслеживающий добычу",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title implies a cat is involved in a humorous situation with a tiger, suggesting real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3gfo6s",
+    "decision": "keep",
+    "reason": "The title implies a cat is involved in a humorous situation with a tiger, suggesting real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

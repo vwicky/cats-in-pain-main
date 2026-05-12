@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x5sc9af",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5sc9af_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5sc9af_audio.mp3",
+  "duration_sec": 20,
+  "duration_seconds": 20.0,
+  "title": "Un chat joue avec les toilettes",
+  "webpage_url": "https://www.dailymotion.com/video/x5sc9af",
+  "dm_id": "x5sc9af",
+  "views_total": 845,
+  "view_count": 845,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Chat",
+    "lesdebiles"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1498999873,
+  "search_query": "chat heureux qui joue",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat interacting with a toilet, which is a plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5sc9af",
+    "decision": "keep",
+    "reason": "The title suggests a cat interacting with a toilet, which is a plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

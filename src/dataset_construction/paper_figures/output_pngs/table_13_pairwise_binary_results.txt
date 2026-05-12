@@ -1,0 +1,211 @@
+Table 13 — Pairwise binary ST-GCN: all 45 class pairs
+
+Context: Track C fits C(10,2)=45 unordered one-vs-one binary classifiers on audio_label_10 clips,
+each pair with training.binary_only: true (see run_p4_pairwise.py). This table is the aggregated CSV:
+for each pair it keeps the training with highest val_macro_f1_binary when multiple grids exist.
+
+Related:
+  - video/pose-models/config_p4_pairwise.yaml — pairwise defaults (same manifest/pose wiring as 10-class)
+  - video/pose-models/run_p4_pairwise.py — launches pair-specific binary runs
+  - src/dataset_construction/reports/export_pairwise_run_summary_metrics.py — builds this CSV from a bundle
+  - Typical bundle root (per export script docstring): runs/pose-models/p4_pairwise_ensemble_bundle_20260428/
+
+Source excerpts (verbatim from repository files):
+
+--- Excerpt: video/pose-models/config_p4_pairwise.yaml (lines 1-45 of 84) ---
+# P4 (17-kp) — binary class-pair runs (all C(10,2)=45 unordered pairs) on
+# ``audio_label_10``. Use with ``run_p4_pairwise.py`` (it loads the manifest
+# with the multiclass head, then sets ``training.binary_only: true`` per pair).
+#
+# Stabilized training: lower LR, small batches, more epochs, patient early stop.
+#
+# Example:
+#   .venv/bin/python3 video/pose-models/run_p4_pairwise.py \\
+#     --config video/pose-models/config_p4_pairwise.yaml \\
+#     --experiment-name p4_pairwise_10
+
+# ── Data ────────────────────────────────────────────────────
+data:
+  manifest: "src/dataset_construction/manifests/final_dataset_v2.jsonl"
+  pose_v1_dir: "data/dataset/embeddings/pose/labeled"
+  pose_v2_dir: "data/dataset/embeddings/pose/v2"
+  pose_extraction_index: "src/dataset_construction/reports/pose_extraction_index.jsonl"
+  vitpose_qc:
+    filter: true
+    enrichment: "src/dataset_construction/reports/vitpose_qc_enrichment.jsonl"
+    default_ok_if_missing: true
+    attach_enrichment_columns: true
+  n_frames: 35
+  n_keypoints: 17
+  n_channels: 3
+  # Speed: cache normalized (pose, mask) tensors (see data_engineering.PoseDataset)
+  pose_cache:
+    backend: ram # ram (default) | disk | off
+    # disk_dir: "video/pose-models/cache/vit_poses"  # if backend: disk
+
+# ── Label space (10-way load; per-pair training is binary-only) ──────────
+labels:
+  classes:
+    - Angry
+    - Defence
+    - Fighting
+    - Happy
+    - HuntingMind
+    - Mating
+    - MotherCall
+    - Paining
+    - Resting
+    - Warning
+  binary_pain_class: "Paining"
+  label_field: "audio_label_10"
+
+--- Excerpt: src/dataset_construction/reports/export_pairwise_run_summary_metrics.py (lines 1-95 of 99) ---
+#!/usr/bin/env python3
+"""Aggregate ST-GCN pairwise run_summary.json files into one CSV.
+
+Walks a p4_pairwise_ensemble_bundle_* directory, finds every
+**/training/run_summary.json, and emits one row per unique class pair
+(key = sorted(class_names) joined by '|'). When multiple trainings exist for the
+same pair (e.g. hyperparameter grids), keeps the row with highest
+metrics.val_macro_f1_binary.
+
+Usage:
+  python src/dataset_construction/reports/export_pairwise_run_summary_metrics.py \\
+    --bundle runs/pose-models/p4_pairwise_ensemble_bundle_20260428 \\
+    --output src/dataset_construction/reports/pairwise_run_summary_metrics.csv
+"""
+
+from __future__ import annotations
+
+import argparse
+import csv
+import json
+from pathlib import Path
+
+
+def pair_key(class_names: list[str] | None) -> str | None:
+    if not class_names or len(class_names) != 2:
+        return None
+    a, b = class_names[0], class_names[1]
+    return "|".join(sorted((a.strip(), b.strip())))
+
+
+def main() -> None:
+    p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    p.add_argument(
+        "--bundle",
+        type=Path,
+        required=True,
+        help="Path to p4_pairwise_ensemble_bundle_* root.",
+    )
+    p.add_argument(
+        "--output",
+        type=Path,
+        required=True,
+        help="Output CSV path.",
+    )
+    args = p.parse_args()
+    bundle: Path = args.bundle.resolve()
+    if not bundle.is_dir():
+        raise SystemExit(f"bundle not found or not a directory: {bundle}")
+
+    best: dict[str, dict] = {}
+    for run_summary in bundle.rglob("training/run_summary.json"):
+        try:
+            data = json.loads(run_summary.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            continue
+        key = pair_key(data.get("class_names"))
+        if not key:
+            continue
+        metrics = data.get("metrics") or {}
+        f1 = float(
+            metrics.get("val_macro_f1_binary", metrics.get("val_macro_f1_5", 0.0))
+        )
+        auc = float(metrics.get("val_auc_roc", 0.0))
+        row = {
+            "pair": key,
+            "pain_inclusive": "Paining" in key.split("|"),
+            "n_train": data.get("n_train", ""),
+            "n_val": data.get("n_val", ""),
+            "best_epoch": data.get("best_epoch", ""),
+            "val_macro_f1_binary": round(f1, 6),
+            "val_auc_roc": round(auc, 6),
+            "run_summary_rel": str(run_summary.relative_to(bundle)),
+        }
+        prev = best.get(key)
+        if prev is None or f1 > float(prev["val_macro_f1_binary"]):
+            best[key] = row
+
+    rows = sorted(best.values(), key=lambda r: (not r["pain_inclusive"], r["pair"]))
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    fieldnames = [
+        "pair",
+        "pain_inclusive",
+        "n_train",
+        "n_val",
+        "best_epoch",
+        "val_macro_f1_binary",
+        "val_auc_roc",
+        "run_summary_rel",
+    ]
+    with args.output.open("w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=fieldnames)
+        w.writeheader()
+        w.writerows(rows)
+
+    print(f"Wrote {len(rows)} rows to {args.output}")
+
+Note: export_pairwise_run_summary_metrics.py sorts by (pain_inclusive, pair name). This .txt table
+re-sorts rows by Macro F1 descending within pain-inclusive and non-pain groups.
+
+Sort: pain-inclusive pairs first (Macro F1 descending), then non-pain pairs (Macro F1 descending).
+Source: src/dataset_construction/reports/pairwise_run_summary_metrics.csv (verbatim val_auc_roc / val_macro_f1_binary / counts).
+
+Pair                   Pain-inclusive  N train   N val   Macro F1    AUC-ROC
+------------------------------------------------------------------------------
+Paining|Resting                   Yes     1257     314     0.7606   0.820567
+Fighting|Paining                  Yes      680     171   0.688562   0.731034
+Paining|Warning                   Yes      622     155   0.670493   0.656552
+HuntingMind|Paining               Yes     1194     299   0.665249   0.680251
+Mating|Paining                    Yes     1390     346   0.640131   0.668557
+MotherCall|Paining                Yes     1073     263   0.636682   0.633013
+Happy|Paining                     Yes     1205     301   0.635929    0.64821
+Angry|Paining                     Yes      858     216   0.614286   0.599315
+Defence|Paining                   Yes      604     151   0.586597   0.814943
+Fighting|Resting                   No      779     195   0.794368   0.857988
+Fighting|HuntingMind               No      716     180   0.784367   0.813686
+Fighting|Warning                   No      144      36   0.777778   0.785455
+Fighting|MotherCall                No      591     148   0.768729   0.794797
+Defence|Fighting                   No      127      31   0.756672   0.646667
+Happy|Resting                      No     1303     326   0.721568   0.740253
+Defence|Warning                    No       66      18   0.721362   0.675325
+Angry|Mating                       No     1091     271    0.71079   0.733973
+Fighting|Mating                    No      911     228   0.698147    0.75019
+Angry|MotherCall                   No      767     195   0.691734   0.688891
+Happy|MotherCall                   No     1114     280   0.688261   0.709233
+Angry|Fighting                     No      382      95   0.684481       0.58
+Angry|Resting                      No      958     239   0.683024   0.698014
+Happy|Warning                      No      668     167    0.65912   0.635781
+Fighting|Happy                     No      726     183   0.655738    0.71754
+Happy|HuntingMind                  No     1241     310   0.651482   0.621664
+Mating|MotherCall                  No     1298     326   0.646629   0.666306
+Happy|Mating                       No     1436     358   0.646166   0.648182
+Angry|Warning                      No      323      80   0.638009   0.705714
+MotherCall|Resting                 No     1168     291   0.636977    0.68445
+Defence|Mating                     No      834     209   0.636774   0.633005
+Defence|Resting                    No      703     175   0.635569   0.451677
+Angry|Happy                        No      905     227   0.633807   0.637489
+HuntingMind|MotherCall             No     1104     277   0.627363   0.618757
+HuntingMind|Resting                No     1293     323   0.626772   0.595289
+Angry|Defence                      No      305      76   0.625616   0.641667
+Angry|HuntingMind                  No      897     222   0.625241   0.653552
+HuntingMind|Mating                 No     1424     357   0.623153   0.625838
+Defence|HuntingMind                No      640     160   0.615385   0.636364
+Mating|Resting                     No     1487     372   0.609356   0.604177
+MotherCall|Warning                 No      532     133   0.591543   0.706408
+HuntingMind|Warning                No      658     164   0.576714   0.573052
+Defence|Happy                      No      650     163   0.490625   0.585987
+Defence|MotherCall                 No      515     128      0.488   0.583333
+Mating|Warning                     No      849     216   0.485714   0.554943
+Resting|Warning                    No      719     181    0.48433    0.45615

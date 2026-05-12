@@ -1,0 +1,36 @@
+{
+  "created_utc": "20260428T205847Z",
+  "audio_dir": "human_validation_app/cat_audios_copy_processed",
+  "n_audio_files_scanned": 1424,
+  "n_manifest_rows": 1424,
+  "n_with_v1_pose_join": 1308,
+  "class_counts_audio10": {
+    "Resting": 169,
+    "Paining": 161,
+    "Happy": 127,
+    "Mating": 359,
+    "HuntingMind": 324,
+    "MotherCall": 100,
+    "Fighting": 35,
+    "Angry": 87,
+    "Warning": 37,
+    "Defence": 25
+  },
+  "v2_manifest_checked": "dataset_construction/manifests/final_dataset_v2.jsonl",
+  "n_stems_overlapping_v2": 0,
+  "v2_overlap_stems_sample": [],
+  "min_confidence_high": 0.7,
+  "from_jsonl": null,
+  "class_order": [
+    "Angry",
+    "Defence",
+    "Fighting",
+    "Happy",
+    "HuntingMind",
+    "Mating",
+    "MotherCall",
+    "Paining",
+    "Resting",
+    "Warning"
+  ]
+}

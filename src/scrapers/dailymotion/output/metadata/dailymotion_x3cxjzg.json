@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3cxjzg",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3cxjzg_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3cxjzg_audio.mp3",
+  "duration_sec": 47,
+  "duration_seconds": 47.0,
+  "title": "Активный кот и равнодушный кот",
+  "webpage_url": "https://www.dailymotion.com/video/x3cxjzg",
+  "dm_id": "x3cxjzg",
+  "views_total": 4743,
+  "view_count": 4743,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1447005148,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a comparison of two cats' behaviors.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3cxjzg",
+    "decision": "keep",
+    "reason": "The title suggests a comparison of two cats' behaviors.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

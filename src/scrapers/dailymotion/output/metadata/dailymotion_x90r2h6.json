@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x90r2h6",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x90r2h6_video.mp4",
+  "audio_path": "output/videos/dailymotion_x90r2h6_audio.mp3",
+  "duration_sec": 41,
+  "duration_seconds": 41.0,
+  "title": "Mean ducks turn up their audacity to 11 and attack a nice cat",
+  "webpage_url": "https://www.dailymotion.com/video/x90r2h6",
+  "dm_id": "x90r2h6",
+  "views_total": 2547,
+  "view_count": 2547,
+  "likes_total": 4,
+  "like_count": 4,
+  "tags": [
+    "Smethport",
+    "USA",
+    "Shareable",
+    "Entertainment",
+    "Funny",
+    "Hilarious",
+    "Ducks vs Cat",
+    "Cat vs Ducks",
+    "Pets are Awesome",
+    "Animal Antics"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "Hilarious footage has surfaced of a cat learning that 'ducks together strong!' <br /><br />Shared by Nolan, this chucklesome clip features a duo of mischievous ducks deciding to pick a fight with a cat minding his own business. <br /><br />\"My ducks, Mustang and Sally, attacked my cat Casper,\" the filmer commented. <br /><br />At first, the feline is taken aback by his feathered fellas' audacity. However, Casper is quick and smart enough to realize that the odds aren't in his favor and instantly flees the scene.<br /><br /><br />Location: Smethport, USA                                     <br />WooGlobe Ref : WGA824580<br />For licensing and to use this video, please email licensing@wooglobe.com",
+  "created_time": 1719050601,
+  "search_query": "loud cat yowling videos",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a cat is involved in an interaction with ducks.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x90r2h6",
+    "decision": "keep",
+    "reason": "The description indicates a cat is involved in an interaction with ducks.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

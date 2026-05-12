@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x56kqxd",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x56kqxd_video.mp4",
+  "audio_path": "output/videos/dailymotion_x56kqxd_audio.mp3",
+  "duration_sec": 23,
+  "duration_seconds": 23.0,
+  "title": "Este gato es abordado por un perrito muy juguetón. La forma en que reaccionó nadie se la esperaba.",
+  "webpage_url": "https://www.dailymotion.com/video/x56kqxd",
+  "dm_id": "x56kqxd",
+  "views_total": 3921,
+  "view_count": 3921,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1482921477,
+  "search_query": "gatos luchando por territorio",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat's reaction to a playful dog.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x56kqxd",
+    "decision": "keep",
+    "reason": "The title indicates a cat's reaction to a playful dog.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

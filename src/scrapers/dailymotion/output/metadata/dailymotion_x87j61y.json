@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x87j61y",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x87j61y_video.mp4",
+  "audio_path": "output/videos/dailymotion_x87j61y_audio.mp3",
+  "duration_sec": 22,
+  "duration_seconds": 22.0,
+  "title": "Katze läuft wie ein Pferd",
+  "webpage_url": "https://www.dailymotion.com/video/x87j61y",
+  "dm_id": "x87j61y",
+  "views_total": 534,
+  "view_count": 534,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "uuid_52fe0727-0990-4260-b964-fdae0c9ad9b0",
+    "guid_13208",
+    "katze",
+    "tier"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "de",
+  "query_language": "German",
+  "description": "",
+  "created_time": 1643836217,
+  "search_query": "Katze, die Beute verfolgt",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat walking, which is plausible behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x87j61y",
+    "decision": "keep",
+    "reason": "The title suggests a cat walking, which is plausible behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x3axmel",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3axmel_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3axmel_audio.mp3",
+  "duration_sec": 11,
+  "duration_seconds": 11.0,
+  "title": "Забавный котик",
+  "webpage_url": "https://www.dailymotion.com/video/x3axmel",
+  "dm_id": "x3axmel",
+  "views_total": 1163,
+  "view_count": 1163,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "кот",
+    "прикол",
+    "юмор"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1445722232,
+  "search_query": "кот, выслеживающий добычу",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a funny cat, which is plausible.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3axmel",
+    "decision": "keep",
+    "reason": "The title indicates a funny cat, which is plausible.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

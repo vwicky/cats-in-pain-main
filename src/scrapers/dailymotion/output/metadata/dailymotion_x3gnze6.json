@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3gnze6",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3gnze6_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3gnze6_audio.mp3",
+  "duration_sec": 50,
+  "duration_seconds": 50.0,
+  "title": "Хозяин научил кота делать так",
+  "webpage_url": "https://www.dailymotion.com/video/x3gnze6",
+  "dm_id": "x3gnze6",
+  "views_total": 27633,
+  "view_count": 27633,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Хозяин научил кота делать так",
+  "created_time": 1449143233,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat performing a learned behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3gnze6",
+    "decision": "keep",
+    "reason": "The title suggests a cat performing a learned behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

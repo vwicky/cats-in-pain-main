@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x6c78um",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6c78um_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6c78um_audio.mp3",
+  "duration_sec": 55,
+  "duration_seconds": 55.0,
+  "title": "お風呂に入る飼い主さんを「溺れている」と勘違いして必死に助けようとする猫に感動",
+  "webpage_url": "https://www.dailymotion.com/video/x6c78um",
+  "dm_id": "x6c78um",
+  "views_total": 805,
+  "view_count": 805,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ja",
+  "query_language": "Japanese",
+  "description": "",
+  "created_time": 1514187335,
+  "search_query": "鳥におしゃべりする猫",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat trying to help its owner in the bath, indicating concern.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6c78um",
+    "decision": "keep",
+    "reason": "The video features a cat trying to help its owner in the bath, indicating concern.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

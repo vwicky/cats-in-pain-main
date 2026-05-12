@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x8timl8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8timl8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8timl8_audio.mp3",
+  "duration_sec": 52,
+  "duration_seconds": 52.0,
+  "title": "Cute Cat proves herself the master seamstress by sewing a bag *Hilarious*",
+  "webpage_url": "https://www.dailymotion.com/video/x8timl8",
+  "dm_id": "x8timl8",
+  "views_total": 727,
+  "view_count": 727,
+  "likes_total": 4,
+  "like_count": 4,
+  "tags": [
+    "USA",
+    "Hilarious Skit",
+    "Laughter Pill",
+    "Laughing Dose",
+    "Hilarious",
+    "Laughable",
+    "Trending",
+    "Trending Video",
+    "Hilarious Video",
+    "Funny Video"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "In this comical skit video, a cute cat appears to showcase impressive sewing skills by \"sewing\" a bag. The scene is hilarious as the cat looks convincingly like it's engaged in sewing, but in reality, it's being held in a position that creates the illusion. Despite the humor, it's essential to recognize that the cat isn't actually performing the task. This distinction adds to the comedic effect while ensuring viewers understand the playful nature of the video and the limitations of animal capabilities.<br />Location: Ga<br />WooGlobe Ref : WGA505689<br />For licensing and to use this video, please email licensing@wooglobe.com",
+  "created_time": 1709128954,
+  "search_query": "loud cat yowling videos",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat is humorously engaged in an activity.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8timl8",
+    "decision": "keep",
+    "reason": "The title suggests a cat is humorously engaged in an activity.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

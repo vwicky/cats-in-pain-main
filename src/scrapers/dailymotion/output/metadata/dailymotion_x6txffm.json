@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x6txffm",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6txffm_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6txffm_audio.mp3",
+  "duration_sec": 8,
+  "duration_seconds": 8.0,
+  "title": "Gato é flagrado embaixo do caminho de vidro na Praça Tiradentes",
+  "webpage_url": "https://www.dailymotion.com/video/x6txffm",
+  "dm_id": "x6txffm",
+  "views_total": 1170,
+  "view_count": 1170,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Praça Tiradentes",
+    "Curitiba",
+    "caminho de vidro",
+    "sítio arqueológico"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Spanish",
+  "description": "Além de estar sujo e com partes quebradas, o caminho de vidro que cobre um sítio arqueológico localizado na Praça Tiradentes possui até moradores de quatro patas. Na última quarta-feira (19), um gato foi flagrado passeando embaixo dos vidros, ou seja, em cima dos vestígios do piso original da praça, possivelmente construído durante o período Imperial do Brasil na segunda metade do século 19. Ratos também já foram vistos no local.",
+  "created_time": 1537462987,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat in an archaeological site, indicating real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6txffm",
+    "decision": "keep",
+    "reason": "The video shows a cat in an archaeological site, indicating real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

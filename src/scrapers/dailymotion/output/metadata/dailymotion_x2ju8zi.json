@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x2ju8zi",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2ju8zi_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2ju8zi_audio.mp3",
+  "duration_sec": 32,
+  "duration_seconds": 32.0,
+  "title": "Cat and turtle playing",
+  "webpage_url": "https://www.dailymotion.com/video/x2ju8zi",
+  "dm_id": "x2ju8zi",
+  "views_total": 3415,
+  "view_count": 3415,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Turtle",
+    "cat",
+    "playing"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "Cat and turtle playing",
+  "created_time": 1426669916,
+  "search_query": "happy cat playing",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description indicate a cat playing, which fits cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2ju8zi",
+    "decision": "keep",
+    "reason": "The title and description indicate a cat playing, which fits cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

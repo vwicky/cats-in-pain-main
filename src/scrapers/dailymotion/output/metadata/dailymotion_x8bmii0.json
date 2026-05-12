@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8bmii0",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8bmii0_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8bmii0_audio.mp3",
+  "duration_sec": 21,
+  "duration_seconds": 21.0,
+  "title": "Gato é resgatado após ficar com a cabeça presa dentro de lata de achocolatado, em Teófilo Otoni",
+  "webpage_url": "https://www.dailymotion.com/video/x8bmii0",
+  "dm_id": "x8bmii0",
+  "views_total": 649,
+  "view_count": 649,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1655071171,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a cat being rescued after getting its head stuck, indicating a potential pain or vet context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8bmii0",
+    "decision": "keep",
+    "reason": "The video involves a cat being rescued after getting its head stuck, indicating a potential pain or vet context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x5ibzhr",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5ibzhr_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5ibzhr_audio.mp3",
+  "duration_sec": 25,
+  "duration_seconds": 25.0,
+  "title": "Un gato camina y percibe el olor del café fresco... ¡Tienes que ver cómo reacciona! Jajajaja",
+  "webpage_url": "https://www.dailymotion.com/video/x5ibzhr",
+  "dm_id": "x5ibzhr",
+  "views_total": 2841,
+  "view_count": 2841,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "Gato"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "Portuguese",
+  "description": "",
+  "created_time": 1492241622,
+  "search_query": "gato feliz ronronando",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat reacting to the smell of coffee, indicating real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5ibzhr",
+    "decision": "keep",
+    "reason": "The title suggests a cat reacting to the smell of coffee, indicating real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

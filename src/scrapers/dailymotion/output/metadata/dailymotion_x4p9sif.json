@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x4p9sif",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x4p9sif_video.mp4",
+  "audio_path": "output/videos/dailymotion_x4p9sif_audio.mp3",
+  "duration_sec": 45,
+  "duration_seconds": 45.0,
+  "title": "Cat and Puppy Enjoy Their Friendly Boxing Match",
+  "webpage_url": "https://www.dailymotion.com/video/x4p9sif",
+  "dm_id": "x4p9sif",
+  "views_total": 772,
+  "view_count": 772,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Europe",
+    "Collie",
+    "Northern Europe",
+    "Boxing",
+    "Dog",
+    "Cat",
+    "United Kingdom"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "<br />        <p>This collie pup, Benji, and his older cat pal, enjoy the occasional bout of fisticuffs. Their owner happened to catch them playing with each other in this video. Benji was the more attacking of the too, with the cat utilizing a more defensive game-plan. In the end, the bout ended in a draw. Credit: Facebook/Benji</p><br />",
+  "created_time": 1471574314,
+  "search_query": "cat at vet clinic",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates playful interaction between a cat and a dog.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x4p9sif",
+    "decision": "keep",
+    "reason": "The description indicates playful interaction between a cat and a dog.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

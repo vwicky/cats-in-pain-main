@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x93p1b8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x93p1b8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x93p1b8_audio.mp3",
+  "duration_sec": 52,
+  "duration_seconds": 52.0,
+  "title": "Ratuje trzy maleńkie kocięta. Jeden z nich dziękuje jej w najpiękniejszy możliwy sposób (video)",
+  "webpage_url": "https://www.dailymotion.com/video/x93p1b8",
+  "dm_id": "x93p1b8",
+  "views_total": 3935,
+  "view_count": 3935,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "Akcja ratunkowa, którą śledzimy na TikTok z zapartym tchem i wilgotnymi oczami.",
+  "created_time": 1723533669,
+  "search_query": "figlarne kocięta odpoczywają",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Involves rescuing kittens, relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x93p1b8",
+    "decision": "keep",
+    "reason": "Involves rescuing kittens, relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

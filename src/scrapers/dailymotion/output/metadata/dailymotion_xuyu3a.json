@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_xuyu3a",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xuyu3a_video.mp4",
+  "audio_path": "output/videos/dailymotion_xuyu3a_audio.mp3",
+  "duration_sec": 41,
+  "duration_seconds": 41.0,
+  "title": "Cat in a box",
+  "webpage_url": "https://www.dailymotion.com/video/xuyu3a",
+  "dm_id": "xuyu3a",
+  "views_total": 1316,
+  "view_count": 1316,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "05443 cat sit sleep box table strange funny",
+    "Cats"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "<p>Yep. Thats it. A cat in a box.</p>",
+  "created_time": 1352464154,
+  "search_query": "two cats in a standoff",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat in a box, which is plausible cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xuyu3a",
+    "decision": "keep",
+    "reason": "The video features a cat in a box, which is plausible cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

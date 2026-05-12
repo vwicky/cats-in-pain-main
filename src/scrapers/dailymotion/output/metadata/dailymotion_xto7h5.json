@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_xto7h5",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xto7h5_video.mp4",
+  "audio_path": "output/videos/dailymotion_xto7h5_audio.mp3",
+  "duration_sec": 36,
+  "duration_seconds": 36.0,
+  "title": "Desafio: Onde está o quarto gato?",
+  "webpage_url": "https://www.dailymotion.com/video/xto7h5",
+  "dm_id": "xto7h5",
+  "views_total": 22712,
+  "view_count": 22712,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Gato",
+    "Escondido",
+    "momento fofo",
+    "gatinho"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "",
+  "created_time": 1347908020,
+  "search_query": "momentos calmos com gatinhos",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat is hidden, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xto7h5",
+    "decision": "keep",
+    "reason": "The title suggests a cat is hidden, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

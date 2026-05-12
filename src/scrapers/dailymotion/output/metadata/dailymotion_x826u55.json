@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x826u55",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x826u55_video.mp4",
+  "audio_path": "output/videos/dailymotion_x826u55_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "¡Descubre por qué este es el gato más cariñoso del mundo!",
+  "webpage_url": "https://www.dailymotion.com/video/x826u55",
+  "dm_id": "x826u55",
+  "views_total": 632,
+  "view_count": 632,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Ocio",
+    "Ocio  TV"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "Spanish",
+  "description": " Para que luego digan que los gatos no son cariñosos... ¡No te pierdas cómo actúa este minino al lado de su dueño! Seguro que tú también quieres una mascota así, que te pida besos a cada momento...",
+  "created_time": 1624476310,
+  "search_query": "gatos luchando por territorio",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a cat's affectionate behavior, relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x826u55",
+    "decision": "keep",
+    "reason": "The video discusses a cat's affectionate behavior, relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

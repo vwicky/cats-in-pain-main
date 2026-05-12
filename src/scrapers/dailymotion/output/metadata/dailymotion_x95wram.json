@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x95wram",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x95wram_video.mp4",
+  "audio_path": "output/videos/dailymotion_x95wram_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "La reacción de esta mamá gata al ataque de sus 7 gatitos se hace viral (Vídeo)",
+  "webpage_url": "https://www.dailymotion.com/video/x95wram",
+  "dm_id": "x95wram",
+  "views_total": 6515,
+  "view_count": 6515,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "La imagen demuestra que muchos gatos parecen no estar preparados para afrontar la realidad de la maternidad. ¡El vídeo habla por sí solo!",
+  "created_time": 1726758615,
+  "search_query": "postura defensiva de gato",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a mother cat reacting to her kittens, which is relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x95wram",
+    "decision": "keep",
+    "reason": "The video shows a mother cat reacting to her kittens, which is relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

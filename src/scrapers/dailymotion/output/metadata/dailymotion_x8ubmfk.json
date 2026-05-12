@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8ubmfk",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8ubmfk_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8ubmfk_audio.mp3",
+  "duration_sec": 57,
+  "duration_seconds": 57.0,
+  "title": "Video. Pensa di aver investito un gatto: quando scende per controllare non crede ai suoi occhi",
+  "webpage_url": "https://www.dailymotion.com/video/x8ubmfk",
+  "dm_id": "x8ubmfk",
+  "views_total": 7328,
+  "view_count": 7328,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "La richiesta d'aiuto arrivata a tre poliziotti americani aveva dell'incredibile. Si sono prodigati per portare a buon fine quel salvataggio eccezionale.",
+  "created_time": 1710323215,
+  "search_query": "comportamento di un gatto ferito",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video describes a cat rescue situation, relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8ubmfk",
+    "decision": "keep",
+    "reason": "The video describes a cat rescue situation, relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

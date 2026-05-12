@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_xsszmx",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xsszmx_video.mp4",
+  "audio_path": "output/videos/dailymotion_xsszmx_audio.mp3",
+  "duration_sec": 16,
+  "duration_seconds": 16.0,
+  "title": "Умный кот",
+  "webpage_url": "https://www.dailymotion.com/video/xsszmx",
+  "dm_id": "xsszmx",
+  "views_total": 2216,
+  "view_count": 2216,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "умный кот"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Умный кот",
+  "created_time": 1344923755,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat is being portrayed as intelligent, which is plausible.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xsszmx",
+    "decision": "keep",
+    "reason": "The title suggests a cat is being portrayed as intelligent, which is plausible.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x527fn",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x527fn_video.mp4",
+  "audio_path": "output/videos/dailymotion_x527fn_audio.mp3",
+  "duration_sec": 20,
+  "duration_seconds": 20.0,
+  "title": "i miei gattini che si menano!!!",
+  "webpage_url": "https://www.dailymotion.com/video/x527fn",
+  "dm_id": "x527fn",
+  "views_total": 756,
+  "view_count": 756,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "miei",
+    "gatti"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "due ei miei gattini che giocano assieme",
+  "created_time": 1208092867,
+  "search_query": "gattini giocherelloni che si rilassano",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features kittens playing together.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x527fn",
+    "decision": "keep",
+    "reason": "The video features kittens playing together.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

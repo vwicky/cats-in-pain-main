@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_xbgpx",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xbgpx_video.mp4",
+  "audio_path": "output/videos/dailymotion_xbgpx_audio.mp3",
+  "duration_sec": 7,
+  "duration_seconds": 7.0,
+  "title": "Pelea de GATOS",
+  "webpage_url": "https://www.dailymotion.com/video/xbgpx",
+  "dm_id": "xbgpx",
+  "views_total": 1533,
+  "view_count": 1533,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "ESTA",
+    "DIVERTIDO"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Portuguese",
+  "description": "",
+  "created_time": 1156336580,
+  "search_query": "sons de alerta de gato",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a fight between cats.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xbgpx",
+    "decision": "keep",
+    "reason": "The title indicates a fight between cats.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x398i5w",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x398i5w_video.mp4",
+  "audio_path": "output/videos/dailymotion_x398i5w_audio.mp3",
+  "duration_sec": 48,
+  "duration_seconds": 48.0,
+  "title": "Пса небыло дома 10 дней. Реакция кошки бесценна!",
+  "webpage_url": "https://www.dailymotion.com/video/x398i5w",
+  "dm_id": "x398i5w",
+  "views_total": 4001,
+  "view_count": 4001,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1444518819,
+  "search_query": "две кошки ругаются",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's reaction, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x398i5w",
+    "decision": "keep",
+    "reason": "The title suggests a cat's reaction, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

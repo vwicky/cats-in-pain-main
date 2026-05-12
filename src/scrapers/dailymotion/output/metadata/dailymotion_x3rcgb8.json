@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x3rcgb8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3rcgb8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3rcgb8_audio.mp3",
+  "duration_sec": 45,
+  "duration_seconds": 45.0,
+  "title": "A dog, a cat, and a rat walk into a room",
+  "webpage_url": "https://www.dailymotion.com/video/x3rcgb8",
+  "dm_id": "x3rcgb8",
+  "views_total": 3128,
+  "view_count": 3128,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Cats",
+    "dogs",
+    "play",
+    "fun",
+    "funny",
+    "коты",
+    "собаки"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "A dog, a cat, and a rat walk into a room",
+  "created_time": 1455361828,
+  "search_query": "говорящие коты",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description mentions a cat, making it plausible for real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3rcgb8",
+    "decision": "keep",
+    "reason": "The description mentions a cat, making it plausible for real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

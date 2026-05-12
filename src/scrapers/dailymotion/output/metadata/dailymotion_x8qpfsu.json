@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x8qpfsu",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8qpfsu_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8qpfsu_audio.mp3",
+  "duration_sec": 15,
+  "duration_seconds": 15.0,
+  "title": "La Nasa invia un video con un gatto dallo spazio profondo",
+  "webpage_url": "https://www.dailymotion.com/video/x8qpfsu",
+  "dm_id": "x8qpfsu",
+  "views_total": 576,
+  "view_count": 576,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Scienza e Tecnologia",
+    "askanews_20231219_video_10103157"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "Roma, 19 dic. (askanews) - La Nasa ha annunciato di aver utilizzato un sistema di comunicazione laser all'avanguardia per inviare un video di ad alta definizione dallo spazio profondo. Circa 15 secondi con protagonista un gatto soriano arancione di nome Taters che insegue una luce laser su un divano. È il primo video a essere trasmesso in questo modo, inviato dal trasmettitore a bordo della sonda Psyche, che sta viaggiando verso la fascia principale di asteroidi tra Marte e Giove, a quasi 19 milioni di miglia dalla Terra. Il segnale codificato è stato poi ricevuto dal telescopio Hale dell'Osservatorio Palomar del Caltech, nella contea di San Diego, e da lì inviato al Jet Propulsion Laboratory (JPL) della Nasa nella California meridionale.Il segnale video ha impiegato circa 101 secondi per raggiungere la Terra, inviato al tasso di bit massimo del sistema di 267 megabit al secondo; un esperimento per verificare se è possibile trasmettere dati dallo spazio profondo a velocità maggiore rispetto ai sistemi di radiofrequenza usati dalle missioni spaziali, anche in vista di nuovi studi su Marte. Le missioni spaziali si sono tradizionalmente affidate alle onde radio per inviare e ricevere dati, ma il lavoro con i laser può aumentare la velocità dei dati da 10 a 100 volte.Il gatto del test è di un dipendente del JPL della Nasa. Ma perché proprio un gatto per l'esperimento? Quando l'interesse americano per la televisione iniziò a crescere negli anni '20, fu trasmessa una statua di Felix the Cat come immagine di prova. E se i gatti possono rivendicare il titolo di migliori amici dell'uomo,difficile contestare il loro dominio sul web quando si tratta di video virali e meme.",
+  "created_time": 1702978271,
+  "search_query": "comportamento di un gatto ferito",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a real cat is featured in a playful context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8qpfsu",
+    "decision": "keep",
+    "reason": "The description indicates a real cat is featured in a playful context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x35k6pn",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x35k6pn_video.mp4",
+  "audio_path": "output/videos/dailymotion_x35k6pn_audio.mp3",
+  "duration_sec": 9,
+  "duration_seconds": 9.0,
+  "title": "То чувство, когда кот танцует тверк лучше тебя",
+  "webpage_url": "https://www.dailymotion.com/video/x35k6pn",
+  "dm_id": "x35k6pn",
+  "views_total": 21027,
+  "view_count": 21027,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1441711957,
+  "search_query": "кот, выслеживающий добычу",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat dancing, which is plausible.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x35k6pn",
+    "decision": "keep",
+    "reason": "The title suggests a cat dancing, which is plausible.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x31105l",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x31105l_video.mp4",
+  "audio_path": "output/videos/dailymotion_x31105l_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "Прикол Кот интересно просит жрать!",
+  "webpage_url": "https://www.dailymotion.com/video/x31105l",
+  "dm_id": "x31105l",
+  "views_total": 3922,
+  "view_count": 3922,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Прикол Кот интересно просит жрать!",
+  "created_time": 1439157090,
+  "search_query": "кот, выслеживающий добычу",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat humorously asking for food, indicating a typical cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x31105l",
+    "decision": "keep",
+    "reason": "The title suggests a cat humorously asking for food, indicating a typical cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

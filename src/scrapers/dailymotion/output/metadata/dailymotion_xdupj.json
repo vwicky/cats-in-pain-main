@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_xdupj",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xdupj_video.mp4",
+  "audio_path": "output/videos/dailymotion_xdupj_audio.mp3",
+  "duration_sec": 25,
+  "duration_seconds": 25.0,
+  "title": "chat de fou",
+  "webpage_url": "https://www.dailymotion.com/video/xdupj",
+  "dm_id": "xdupj",
+  "views_total": 1784,
+  "view_count": 1784,
+  "likes_total": 7,
+  "like_count": 7,
+  "tags": [
+    "chat",
+    "fou",
+    "psychopathe",
+    "drole",
+    "delirant",
+    "animaux",
+    "rc_gtr"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "On peut dire aussi que ce chat est vraiment fou ou psychopathe !! lol",
+  "created_time": 1157989932,
+  "search_query": "compilation de combats de chats",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title and tags suggest a cat's behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xdupj",
+    "decision": "keep",
+    "reason": "Title and tags suggest a cat's behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

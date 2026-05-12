@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8ykway",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8ykway_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8ykway_audio.mp3",
+  "duration_sec": 36,
+  "duration_seconds": 36.0,
+  "title": "Seine-et-Marne : ils tombent sur une boîte de transport pour chats en plein milieu de la forêt, et elle n'est pas vide",
+  "webpage_url": "https://www.dailymotion.com/video/x8ykway",
+  "dm_id": "x8ykway",
+  "views_total": 655,
+  "view_count": 655,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Lors d'une balade en forêt, des promeneurs ont fait une bien triste découverte.<br /><br />",
+  "created_time": 1715863971,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video mentions a cat transport box found in the forest, suggesting a cat-related context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8ykway",
+    "decision": "keep",
+    "reason": "The video mentions a cat transport box found in the forest, suggesting a cat-related context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

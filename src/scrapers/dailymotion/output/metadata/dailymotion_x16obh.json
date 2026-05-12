@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x16obh",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x16obh_video.mp4",
+  "audio_path": "output/videos/dailymotion_x16obh_audio.mp3",
+  "duration_sec": 7,
+  "duration_seconds": 7.0,
+  "title": "Cat fight",
+  "webpage_url": "https://www.dailymotion.com/video/x16obh",
+  "dm_id": "x16obh",
+  "views_total": 534,
+  "view_count": 534,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "funny",
+    "cats"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1171211708,
+  "search_query": "cat fight outside",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title and tags suggest a cat fight.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x16obh",
+    "decision": "keep",
+    "reason": "Title and tags suggest a cat fight.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

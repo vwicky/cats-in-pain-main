@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x39iq3",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x39iq3_video.mp4",
+  "audio_path": "output/videos/dailymotion_x39iq3_audio.mp3",
+  "duration_sec": 55,
+  "duration_seconds": 55.0,
+  "title": "Katzen TV",
+  "webpage_url": "https://www.dailymotion.com/video/x39iq3",
+  "dm_id": "x39iq3",
+  "views_total": 1437,
+  "view_count": 1437,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Katze",
+    "Waschmaschine",
+    "animals"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "de",
+  "query_language": "German",
+  "description": "",
+  "created_time": 1192961650,
+  "search_query": "Katzen, die sich anknurren",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title suggests cat-related content.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x39iq3",
+    "decision": "keep",
+    "reason": "Title suggests cat-related content.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

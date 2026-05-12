@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x9vateo",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9vateo_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9vateo_audio.mp3",
+  "duration_sec": 53,
+  "duration_seconds": 53.0,
+  "title": "Un gato callejero distrae al atacante a la hora de chutar... ¡y falla!",
+  "webpage_url": "https://www.dailymotion.com/video/x9vateo",
+  "dm_id": "x9vateo",
+  "views_total": 6773,
+  "view_count": 6773,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Gatos"
+  ],
+  "channel": "sport",
+  "channel_title": "sport",
+  "language": "es",
+  "query_language": "Portuguese",
+  "description": "El diario La Gazzetta dello Sport publica un vídeo en el que un gato callejero irrumpe en el campo durante un partido de la liga de Turquía, se tumba en la portería y distrae al futbolista rival haciéndole fallar el tiro. ",
+  "created_time": 1765270862,
+  "search_query": "gato perseguindo a presa",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a street cat distracting a player, relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9vateo",
+    "decision": "keep",
+    "reason": "The video features a street cat distracting a player, relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

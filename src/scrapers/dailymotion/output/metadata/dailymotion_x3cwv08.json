@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3cwv08",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3cwv08_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3cwv08_audio.mp3",
+  "duration_sec": 14,
+  "duration_seconds": 14.0,
+  "title": "Кота застукали, потрясающая реакция))",
+  "webpage_url": "https://www.dailymotion.com/video/x3cwv08",
+  "dm_id": "x3cwv08",
+  "views_total": 2715,
+  "view_count": 2715,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1446985089,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's surprising reaction, likely indicating playful or amusing behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3cwv08",
+    "decision": "keep",
+    "reason": "The title suggests a cat's surprising reaction, likely indicating playful or amusing behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x2mv356",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2mv356_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2mv356_audio.mp3",
+  "duration_sec": 50,
+  "duration_seconds": 50.0,
+  "title": "Découvrez le chat le plus adorable au monde ! (Radamenes)",
+  "webpage_url": "https://www.dailymotion.com/video/x2mv356",
+  "dm_id": "x2mv356",
+  "views_total": 667,
+  "view_count": 667,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Vétérinaire",
+    "chat",
+    "mignon",
+    "gentil",
+    "adorable",
+    "aide",
+    "calin"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Radamenes est un chat noir qui vit dans une clinique vétérinaire à Bydgoszcz en Pologne. Quand il avait environ 2 mois, ce chat à échappé de peu à la mort, car il était très malade. Mais la vétérinaire a pu miraculeusement le sauver.  <br />Depuis ce jour, le chat vit avec la vétérinaire dans la clinique où il joue les infirmiers ! <br />Quand un animal sort de chirurgie, Radamenes s’approche de lui pour le réconforter et le soutenir moralement, il se colle contre eux pour leur faire des massages et des calins",
+  "created_time": 1429189401,
+  "search_query": "chat chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video tells the story of a rescued cat, showcasing its life in a vet clinic.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2mv356",
+    "decision": "keep",
+    "reason": "The video tells the story of a rescued cat, showcasing its life in a vet clinic.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

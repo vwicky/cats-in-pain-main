@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x95qeno",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x95qeno_video.mp4",
+  "audio_path": "output/videos/dailymotion_x95qeno_audio.mp3",
+  "duration_sec": 40,
+  "duration_seconds": 40.0,
+  "title": "Hilarious footage of grumpy cat rejecting kitten with growls and hisses",
+  "webpage_url": "https://www.dailymotion.com/video/x95qeno",
+  "dm_id": "x95qeno",
+  "views_total": 2582,
+  "view_count": 2582,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "La Verne",
+    "United States",
+    "Shareable",
+    "Entertainment",
+    "Cat Hissing",
+    "Cat Growling",
+    "Kitten",
+    "Cat Jealous",
+    "Funny",
+    "Pets are Awesome"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "en",
+  "description": "Hilarious footage has emerged of a cat clearly rejecting the idea that 'Sharing is Caring.' <br /><br />The comical clip shared by Cassidy shows her dramatic older cat hissing and growling at the mere sight of a kitten. <br /><br />The grumpy kitty is in no mood to care for a kitten she didn’t give birth to and doesn’t hesitate to show her annoyance. <br /><br />Meanwhile, the kitten remains unbothered and continues her day without any unnecessary drama.<br />Location: La Verne, United States<br />                                   <br />WooGlobe Ref : WGA411562<br />For licensing and to use this video, please email licensing@wooglobe.com",
+  "created_time": 1726484676,
+  "search_query": "cat hissing",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Features a cat vocalizing with growls and hisses towards a kitten.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x95qeno",
+    "decision": "keep",
+    "reason": "Features a cat vocalizing with growls and hisses towards a kitten.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

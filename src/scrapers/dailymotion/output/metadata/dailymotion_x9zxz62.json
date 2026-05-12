@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x9zxz62",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9zxz62_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9zxz62_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "Así es el mejor gato del mundo",
+  "webpage_url": "https://www.dailymotion.com/video/x9zxz62",
+  "dm_id": "x9zxz62",
+  "views_total": 953,
+  "view_count": 953,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Gatos"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "El mejor gato del mundo ha hecho su aparición en una exposición en Moscú. El gato abisinio de Rusia, de un año y medio de edad, llamado Darlen Fleur Dalmore Black, fue coronado «Mejor gato» de 2025 por la Federación Mundial de Gatos tras competir en más de 40 exposiciones internacionales y asegurarse el primer puesto entre casi 1500 competidores.<br /><br />Darlen cumplió con todos los estándares de la raza abisinia, que se evalúan en función del equilibrio general, la colocación de las orejas, la estructura de la cabeza, el tono muscular, la expresión de los ojos y la uniformidad del pelaje.<br /><br />El movimiento y el temperamento también son importantes, ya que los animales reciben puntuaciones basadas en su comportamiento en la pista.",
+  "created_time": 1771008613,
+  "search_query": "comportamiento agresivo de los gatos",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat that has been recognized in a competition.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9zxz62",
+    "decision": "keep",
+    "reason": "The video features a cat that has been recognized in a competition.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

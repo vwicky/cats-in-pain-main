@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x3vkfaw",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3vkfaw_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3vkfaw_audio.mp3",
+  "duration_sec": 39,
+  "duration_seconds": 39.0,
+  "title": "Instant meûgnon : le chat-qui-aimait-la-neige",
+  "webpage_url": "https://www.dailymotion.com/video/x3vkfaw",
+  "dm_id": "x3vkfaw",
+  "views_total": 851,
+  "view_count": 851,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "Neige",
+    "Poudreuse",
+    "Jouer",
+    "mignon",
+    "Lolcat",
+    "Chou",
+    "Hiver",
+    "Froid",
+    "Zoomin"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Ce n'est pas banal, un chat qui adore jouer et gambader dans la poudreuse ! Il insiste même pour que son maître vienne le rejoindre !",
+  "created_time": 1456997167,
+  "search_query": "chat qui ronronne sur les genoux",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat playing in the snow, indicating playful behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3vkfaw",
+    "decision": "keep",
+    "reason": "The video shows a cat playing in the snow, indicating playful behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_xi5q72",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xi5q72_video.mp4",
+  "audio_path": "output/videos/dailymotion_xi5q72_audio.mp3",
+  "duration_sec": 57,
+  "duration_seconds": 57.0,
+  "title": "Chat forestier - son 1",
+  "webpage_url": "https://www.dailymotion.com/video/xi5q72",
+  "dm_id": "xi5q72",
+  "views_total": 5691,
+  "view_count": 5691,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "chat",
+    "forestier",
+    "felis",
+    "silvestris",
+    "cri",
+    "son",
+    "miaulement",
+    "feulement",
+    "grognement"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Chat forestier ( Felis silvestris silvestris )<br />Miaulement de rut",
+  "created_time": 1302698506,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Video features vocalizations of a wild cat species.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xi5q72",
+    "decision": "keep",
+    "reason": "Video features vocalizations of a wild cat species.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

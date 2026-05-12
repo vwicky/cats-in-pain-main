@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9fwzzo",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9fwzzo_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9fwzzo_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "El inesperado ataque de un halcón que intenta atrapar a un gatito pero algo se lo acaba impidiendo",
+  "webpage_url": "https://www.dailymotion.com/video/x9fwzzo",
+  "dm_id": "x9fwzzo",
+  "views_total": 1849,
+  "view_count": 1849,
+  "likes_total": 17,
+  "like_count": 17,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1741678160,
+  "search_query": "gatitos juguetones relajándose",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat being attacked by a hawk, suggesting a real cat context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9fwzzo",
+    "decision": "keep",
+    "reason": "The title indicates a cat being attacked by a hawk, suggesting a real cat context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

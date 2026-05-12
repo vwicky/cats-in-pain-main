@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x8x0jyo",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8x0jyo_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8x0jyo_audio.mp3",
+  "duration_sec": 25,
+  "duration_seconds": 25.0,
+  "title": "Gato se agarra a carro para sobreviver a tempestade em Dubai",
+  "webpage_url": "https://www.dailymotion.com/video/x8x0jyo",
+  "dm_id": "x8x0jyo",
+  "views_total": 1997,
+  "view_count": 1997,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gato",
+    "dubai"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Reprodução/X",
+  "created_time": 1713454419,
+  "search_query": "gatos chamando para acasalar",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's survival story during a storm.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8x0jyo",
+    "decision": "keep",
+    "reason": "The title suggests a cat's survival story during a storm.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

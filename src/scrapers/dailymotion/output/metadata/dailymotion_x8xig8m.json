@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x8xig8m",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8xig8m_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8xig8m_audio.mp3",
+  "duration_sec": 25,
+  "duration_seconds": 25.0,
+  "title": "Nourrir des chats bien disciplinés... et tout part en cacahuète",
+  "webpage_url": "https://www.dailymotion.com/video/x8xig8m",
+  "dm_id": "x8xig8m",
+  "views_total": 2398,
+  "view_count": 2398,
+  "likes_total": 3,
+  "like_count": 3,
+  "tags": [
+    "drole",
+    "fail",
+    "chat",
+    "dressage",
+    "insolite",
+    "raté"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Nourrir des chats bien disciplinés... et tout part en cacahuète<br />Feeding goes not as planed",
+  "created_time": 1714149573,
+  "search_query": "deux chats en confrontation",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests feeding cats, which indicates real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8xig8m",
+    "decision": "keep",
+    "reason": "The title suggests feeding cats, which indicates real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

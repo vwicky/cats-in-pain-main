@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x51zjbs",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x51zjbs_video.mp4",
+  "audio_path": "output/videos/dailymotion_x51zjbs_audio.mp3",
+  "duration_sec": 12,
+  "duration_seconds": 12.0,
+  "title": "Gato pensa que está numa cavalaria e anda como um cavalo",
+  "webpage_url": "https://www.dailymotion.com/video/x51zjbs",
+  "dm_id": "x51zjbs",
+  "views_total": 1989,
+  "view_count": 1989,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Cavalo",
+    "gato"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "",
+  "created_time": 1479167592,
+  "search_query": "comportamento de um gato ferido",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat behaving in a humorous way.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x51zjbs",
+    "decision": "keep",
+    "reason": "The title suggests a cat behaving in a humorous way.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9ym5ly",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9ym5ly_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9ym5ly_audio.mp3",
+  "duration_sec": 41,
+  "duration_seconds": 41.0,
+  "title": "Mohammed, le poissonnier et ses chats !",
+  "webpage_url": "https://www.dailymotion.com/video/x9ym5ly",
+  "dm_id": "x9ym5ly",
+  "views_total": 1405,
+  "view_count": 1405,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "🐈 🇲🇦 Mohammed, poissonnier à Sidi Slimane, aide les chats de la rue depuis qu’il a 12 ans.<br />🐾 Plus de 10 chats chez lui, et toute une bande qui le suit quand il travaille.<br />🤍 Grâce à sa communauté, il peut nourrir toujours plus de chats, même sans poisson.",
+  "created_time": 1769522402,
+  "search_query": "chat malade chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a person helping street cats, indicating real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9ym5ly",
+    "decision": "keep",
+    "reason": "The video features a person helping street cats, indicating real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

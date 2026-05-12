@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8ut6uw",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8ut6uw_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8ut6uw_audio.mp3",
+  "duration_sec": 50,
+  "duration_seconds": 50.0,
+  "title": "Uroczy czy przerażający? Wygląd tego kota budzi powszechne zdziwienie",
+  "webpage_url": "https://www.dailymotion.com/video/x8ut6uw",
+  "dm_id": "x8ut6uw",
+  "views_total": 17054,
+  "view_count": 17054,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "Ten kot miał zostać uśpiony, ale zamiast tego, stał się gwiazdą internetów.",
+  "created_time": 1710910802,
+  "search_query": "kot głośno miauczy",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description mentions a cat that was supposed to be euthanized, suggesting a real cat context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8ut6uw",
+    "decision": "keep",
+    "reason": "The description mentions a cat that was supposed to be euthanized, suggesting a real cat context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

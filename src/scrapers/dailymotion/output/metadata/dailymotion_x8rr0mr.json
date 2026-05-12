@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x8rr0mr",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8rr0mr_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8rr0mr_audio.mp3",
+  "duration_sec": 27,
+  "duration_seconds": 27.0,
+  "title": "Un son familier pour ce chat... miam miam",
+  "webpage_url": "https://www.dailymotion.com/video/x8rr0mr",
+  "dm_id": "x8rr0mr",
+  "views_total": 1697,
+  "view_count": 1697,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "insolite",
+    "nourriture",
+    "drole",
+    "lol",
+    "fun",
+    "animal",
+    "animal de compagnie"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un son familier pour ce chat... miam miam<br />Familiar sound for this cat",
+  "created_time": 1706163602,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat responding to a familiar sound, likely related to food.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8rr0mr",
+    "decision": "keep",
+    "reason": "The title suggests a cat responding to a familiar sound, likely related to food.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

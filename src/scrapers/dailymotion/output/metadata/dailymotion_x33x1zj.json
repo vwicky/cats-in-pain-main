@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x33x1zj",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x33x1zj_video.mp4",
+  "audio_path": "output/videos/dailymotion_x33x1zj_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "КОТ И ПЕС КТО ЛУЧШЕ БОКСИРУЕТ",
+  "webpage_url": "https://www.dailymotion.com/video/x33x1zj",
+  "dm_id": "x33x1zj",
+  "views_total": 2731,
+  "view_count": 2731,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1441069114,
+  "search_query": "кот, выслеживающий добычу",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat is boxing with a dog, indicating playful behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x33x1zj",
+    "decision": "keep",
+    "reason": "The title suggests a cat is boxing with a dog, indicating playful behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

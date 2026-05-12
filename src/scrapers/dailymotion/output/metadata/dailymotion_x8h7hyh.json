@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x8h7hyh",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8h7hyh_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8h7hyh_audio.mp3",
+  "duration_sec": 58,
+  "duration_seconds": 58.0,
+  "title": "Vídeo hilário: gato fica possesso com bagunça e ‘enquadra’ cão arruaceiro",
+  "webpage_url": "https://www.dailymotion.com/video/x8h7hyh",
+  "dm_id": "x8h7hyh",
+  "views_total": 956,
+  "view_count": 956,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cachorro"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "https://petepop.ig.com.br/video-hilario-gato-fica-possesso-com-bagunca-e-enquadra-cao-arruaceiro/<br /><br /><br />O vídeo de um gato enquadrando um husky siberiano arruaceiro que estava fazendo uma grande bagunça no banheiro de casa viralizou na internet!<br /><br />O clipe, compartilhado no Twitter na última quarta-feira (11), mostra um cachorro molhando todo o banheiro de água enquanto cava o fundo de uma bacia vermelha.<br /><br />Vídeo: Reprodução Twitter @majeliskucing<br />#cachorro  #husky  #gato #gatogracioso #catvideos #Vídeohilário",
+  "created_time": 1673645495,
+  "search_query": "gatos piando e conversando",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a cat reacting to a dog, indicating possible agonistic behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8h7hyh",
+    "decision": "keep",
+    "reason": "The video involves a cat reacting to a dog, indicating possible agonistic behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

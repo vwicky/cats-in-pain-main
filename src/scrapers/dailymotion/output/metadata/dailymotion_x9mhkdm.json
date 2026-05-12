@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x9mhkdm",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9mhkdm_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9mhkdm_audio.mp3",
+  "duration_sec": 34,
+  "duration_seconds": 34.0,
+  "title": "Un chat dragueur se fait violemment rejeter par une chatte de mauvaise humeur – la vidéo devient virale",
+  "webpage_url": "https://www.dailymotion.com/video/x9mhkdm",
+  "dm_id": "x9mhkdm",
+  "views_total": 4335,
+  "view_count": 4335,
+  "likes_total": 2,
+  "like_count": 2,
+  "tags": [
+    "pp",
+    "chatte"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Une vidéo hilarante fait sensation sur les réseaux sociaux : on y voit un chat charmeur se faire rembarrer de façon mémorable en tentant d’approcher une chatte visiblement peu réceptive à ses avances.<br /><br />La scène comique a déjà accumulé plus de 4,3 millions de vues et 31 000 mentions « j’aime », en plus de centaines de commentaires amusés d’internautes.<br /><br />Légendée « Romance féline », la séquence — partagée sur le compte X @buitengebieden — montre le moment où le matou, plein d’assurance, s’approche de sa cible, pour recevoir en retour un coup de patte pas du tout amical.<br /><br />Source et images : X @buitengebieden<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />",
+  "created_time": 1751919513,
+  "search_query": "courtes vidéos de chats qui se prélassent",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Features a cat's behavior in a social context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9mhkdm",
+    "decision": "keep",
+    "reason": "Features a cat's behavior in a social context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

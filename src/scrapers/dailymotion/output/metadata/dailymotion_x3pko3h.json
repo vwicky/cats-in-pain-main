@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x3pko3h",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3pko3h_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3pko3h_audio.mp3",
+  "duration_sec": 51,
+  "duration_seconds": 51.0,
+  "title": "Comment apprendre au chat à faire ses besoins dans les toilettes",
+  "webpage_url": "https://www.dailymotion.com/video/x3pko3h",
+  "dm_id": "x3pko3h",
+  "views_total": 863,
+  "view_count": 863,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Animal",
+    "Toilette",
+    "Cuvette",
+    "LOL",
+    "Mignon",
+    "tuto",
+    "chat",
+    "faire pipi",
+    "animal mignon",
+    "animal de compagnie"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Comment apprendre au chat à faire ses besoins dans les toilettes",
+  "created_time": 1454258348,
+  "search_query": "chats se reposant paisiblement",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Video discusses training a cat to use the toilet.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3pko3h",
+    "decision": "keep",
+    "reason": "Video discusses training a cat to use the toilet.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

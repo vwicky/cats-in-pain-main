@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8qqpbz",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8qqpbz_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8qqpbz_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Schielende Katze bekommt zu Weihnachten die beste Überraschung überhaupt!",
+  "webpage_url": "https://www.dailymotion.com/video/x8qqpbz",
+  "dm_id": "x8qqpbz",
+  "views_total": 4596,
+  "view_count": 4596,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Crosby wird auf dem Parkplatz eines Hotels im US-Bundesstaat Colorado gefunden und gewinnt trotz oder gerade wegen seines Schielens die Herzen seiner Retter. Zu Weihnachten bekommt er ein Geschenk, mit dem er nicht gerechnet hat.",
+  "created_time": 1703081731,
+  "search_query": "Katze, die Beute verfolgt",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Describes a rescued cat and its heartwarming story.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8qqpbz",
+    "decision": "keep",
+    "reason": "Describes a rescued cat and its heartwarming story.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

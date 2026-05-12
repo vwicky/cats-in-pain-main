@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x33m248",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x33m248_video.mp4",
+  "audio_path": "output/videos/dailymotion_x33m248_audio.mp3",
+  "duration_sec": 24,
+  "duration_seconds": 24.0,
+  "title": "Кот услышал дверной звонок и очень удивился",
+  "webpage_url": "https://www.dailymotion.com/video/x33m248",
+  "dm_id": "x33m248",
+  "views_total": 2973,
+  "view_count": 2973,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1440882419,
+  "search_query": "кот громко мяукает",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat reacting to a doorbell, which is plausible behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x33m248",
+    "decision": "keep",
+    "reason": "The title suggests a cat reacting to a doorbell, which is plausible behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

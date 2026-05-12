@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9jz5cu",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9jz5cu_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9jz5cu_audio.mp3",
+  "duration_sec": 39,
+  "duration_seconds": 39.0,
+  "title": "Dono morre e 80 gatos ficam abandonados em casarão de Florianópolis",
+  "webpage_url": "https://www.dailymotion.com/video/x9jz5cu",
+  "dm_id": "x9jz5cu",
+  "views_total": 5591,
+  "view_count": 5591,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Spanish",
+  "description": "Cerca de 80 gatos vivem em situação de abandono em um casarão no bairro Coqueiros, em Florianópolis, desde a morte do tutor dos animais, Flamir Duarte, de 72 anos, ocorrida no final de abril. O caso mobilizou a comunidade, que se uniu para tentar garantir alimentação, cuidados e adoção para os animais. Créditos: Divulgação",
+  "created_time": 1747932621,
+  "search_query": "compilación de peleas de gatos",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses abandoned cats and their situation, which is relevant to real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9jz5cu",
+    "decision": "keep",
+    "reason": "The video discusses abandoned cats and their situation, which is relevant to real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

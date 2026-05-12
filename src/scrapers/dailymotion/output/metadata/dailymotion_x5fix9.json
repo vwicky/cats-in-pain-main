@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x5fix9",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5fix9_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5fix9_audio.mp3",
+  "duration_sec": 34,
+  "duration_seconds": 34.0,
+  "title": "Chat qui se réveille",
+  "webpage_url": "https://www.dailymotion.com/video/x5fix9",
+  "dm_id": "x5fix9",
+  "views_total": 1642,
+  "view_count": 1642,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Chat",
+    "Réveil"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1210850519,
+  "search_query": "chats qui s'appellent",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat waking up, indicating normal behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5fix9",
+    "decision": "keep",
+    "reason": "The title suggests a cat waking up, indicating normal behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

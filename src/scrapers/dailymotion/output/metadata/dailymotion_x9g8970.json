@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x9g8970",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9g8970_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9g8970_audio.mp3",
+  "duration_sec": 48,
+  "duration_seconds": 48.0,
+  "title": "Ramadan : Des chats perturbés par les heures de repas deviennent les stars de TikTok",
+  "webpage_url": "https://www.dailymotion.com/video/x9g8970",
+  "dm_id": "x9g8970",
+  "views_total": 2409,
+  "view_count": 2409,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "chat",
+    "video",
+    "ramadan",
+    "reseaux sociaux",
+    "animaux",
+    "tiktok"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Qui a osé chambouler les habitudes des chats ? On le sait, ces animaux détestent que leur quotidien soit perturbé, ils adorent leur petite routine. Quand ils retrouvent leurs maîtres et leurs maîtresses à 5 heures du matin pour manger avant le lever du soleil pendant le ramadan, leurs visages expriment complètement leur questionnement.<br />",
+  "created_time": 1742201250,
+  "search_query": "bruits de reproduction des chats",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses cats and their routines during Ramadan, suggesting real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9g8970",
+    "decision": "keep",
+    "reason": "The video discusses cats and their routines during Ramadan, suggesting real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

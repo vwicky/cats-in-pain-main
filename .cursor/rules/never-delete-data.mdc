@@ -1,0 +1,11 @@
+---
+description: Never delete dataset assets; use manifests, archives, or flags instead
+alwaysApply: true
+---
+
+# Never delete data
+
+- Do **not** delete video files, audio, images, manifests, human labels, or model checkpoints as a routine way to clean or fix pipelines.
+- Prefer **dropping or editing rows in manifests**, moving files to an **`archive/`** (or dated) folder, or adding **metadata flags** (e.g. `excluded: true`) so data remains recoverable.
+- Scripts in this repo must **not** call `unlink`, `os.remove`, `Path.unlink`, `shutil.rmtree`, or shell `rm` on raw dataset or user-generated assets unless the user **explicitly** asks for destructive removal.
+- Pipeline steps should be **non-destructive**: write new manifest versions under `dataset_construction/manifests/` or `reports/` without touching originals under `dataset/` unless specified.

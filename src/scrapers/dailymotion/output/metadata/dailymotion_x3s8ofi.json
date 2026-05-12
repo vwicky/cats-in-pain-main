@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3s8ofi",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3s8ofi_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3s8ofi_audio.mp3",
+  "duration_sec": 46,
+  "duration_seconds": 46.0,
+  "title": "Кот загрыз Спанч Боба",
+  "webpage_url": "https://www.dailymotion.com/video/x3s8ofi",
+  "dm_id": "x3s8ofi",
+  "views_total": 5656,
+  "view_count": 5656,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "funny",
+    "cats",
+    "prikoli",
+    "video",
+    "clip",
+    "best",
+    "rolik",
+    "смешно",
+    "comedy"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1455545864,
+  "search_query": "кот громко мяукает",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat interacting with a character, likely in a humorous context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3s8ofi",
+    "decision": "keep",
+    "reason": "The title indicates a cat interacting with a character, likely in a humorous context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

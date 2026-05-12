@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x3o0wx6",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3o0wx6_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3o0wx6_audio.mp3",
+  "duration_sec": 24,
+  "duration_seconds": 24.0,
+  "title": "Смешные. Короткие. Приколы.104",
+  "webpage_url": "https://www.dailymotion.com/video/x3o0wx6",
+  "dm_id": "x3o0wx6",
+  "views_total": 7497,
+  "view_count": 7497,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Кошки",
+    "Animal",
+    "prikol",
+    "video",
+    "clip",
+    "comedy",
+    "rolik",
+    "yumor"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1453568781,
+  "search_query": "две кошки ругаются",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The tags suggest the video is about cats, despite the vague title.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3o0wx6",
+    "decision": "keep",
+    "reason": "The tags suggest the video is about cats, despite the vague title.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

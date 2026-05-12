@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x3i3pqu",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3i3pqu_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3i3pqu_audio.mp3",
+  "duration_sec": 57,
+  "duration_seconds": 57.0,
+  "title": "► Pelea entre Gato y Gallo - INEDITO - humor gatos - video divertido gatos - risa gatos ch",
+  "webpage_url": "https://www.dailymotion.com/video/x3i3pqu",
+  "dm_id": "x3i3pqu",
+  "views_total": 690,
+  "view_count": 690,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Video gatos divertidos",
+    "video gatos chistosos",
+    "reirse con gatos",
+    "video animales divertidos",
+    "video animales chistosos",
+    "gatos locos",
+    "gatos graciosos",
+    "gatos hablando"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "Portuguese",
+  "description": "Pelea entre Gato y Gallo - INEDITO. Videos de gatos divertidos y chistosos. Seguro que te vas a reír sin parar. Seguramente los gatos son los animales mas .<br /><br /><br /><br /><br /><br />Perro Evita Pelea De Gatos! jaja. Videos de gatos divertidos y chistosos. Seguro que te vas a reír sin parar. Seguramente los gatos son los animales mas tiernos .<br /><br />Descubre esta dieta revolucionaria para PERDER PESO: Este gato se comporta como un humano borracho, buscando pelea y gritando .",
+  "created_time": 1450118865,
+  "search_query": "gato miando alto",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description indicate a humorous fight between a cat and a rooster, which is relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3i3pqu",
+    "decision": "keep",
+    "reason": "The title and description indicate a humorous fight between a cat and a rooster, which is relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

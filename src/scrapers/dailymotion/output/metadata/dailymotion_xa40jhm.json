@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_xa40jhm",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xa40jhm_video.mp4",
+  "audio_path": "output/videos/dailymotion_xa40jhm_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "Iran : des secouristes extraient un chat enseveli sous les décombres après des frappes",
+  "webpage_url": "https://www.dailymotion.com/video/xa40jhm",
+  "dm_id": "xa40jhm",
+  "views_total": 9575,
+  "view_count": 9575,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "iran",
+    "guerre",
+    "guerre économique",
+    "animaux",
+    "chat"
+  ],
+  "channel": "tv",
+  "channel_title": "tv",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1775050553,
+  "search_query": "comportement d'un chat blessé",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves rescuing a cat, indicating a context of pain or vet-related behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xa40jhm",
+    "decision": "keep",
+    "reason": "The video involves rescuing a cat, indicating a context of pain or vet-related behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

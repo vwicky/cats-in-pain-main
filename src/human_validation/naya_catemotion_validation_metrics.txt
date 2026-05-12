@@ -1,0 +1,77 @@
+================================================================================
+CatEmotionModel — NAYA validation metrics (from notebook outputs)
+================================================================================
+Source: _archive/top_level_notebooks/audio_classifier.ipynb (saved cell outputs)
+Split: val_loader from build_file_list(NAYA_DATA_AUG1X), test_size=0.2 stratified
+Validation size: n = 593 samples total across 10 classes
+
+Note on “0.908” macro F1: the notebook prints macro-averaged F1 = 0.9078 on this
+same 593-sample validation set (baseline evaluation, no perturbation). Rounding
+to three decimals gives 0.908.
+
+Note on confusion matrix: the notebook calls sklearn.confusion_matrix and plots
+seaborn heatmap with fmt='d' (integer counts). Saved outputs do not include the
+numeric confusion matrix or a row-normalized version — only the figure. To get a
+normalized matrix, re-run evaluation with the same checkpoint, val_loader, and
+e.g. confusion_matrix(..., normalize='true') or divide rows by support.
+
+
+--------------------------------------------------------------------------------
+1. Per-class classification report (baseline = unmodified val audio)
+--------------------------------------------------------------------------------
+Identical to stdout from: run_hypothesis_tests(..., test_mode='baseline', ...)
+
+              precision    recall  f1-score   support
+
+       Angry     0.8966    0.8667    0.8814        60
+     Defence     0.9825    0.9655    0.9739        58
+    Fighting     0.9333    0.9333    0.9333        60
+       Happy     0.8983    0.8833    0.8908        60
+ HuntingMind     0.9492    0.9655    0.9573        58
+      Mating     0.8194    0.9672    0.8872        61
+  MotherCall     0.9811    0.8814    0.9286        59
+     Paining     0.7627    0.7759    0.7692        58
+     Resting     1.0000    0.9831    0.9915        59
+     Warning     0.8793    0.8500    0.8644        60
+
+    accuracy                         0.9073       593
+   macro avg     0.9102    0.9072    0.9078       593
+weighted avg     0.9099    0.9073    0.9076       593
+
+Class index order (repo standard): 0 Angry, 1 Defence, 2 Fighting, 3 Happy,
+4 HuntingMind, 5 Mating, 6 MotherCall, 7 Paining, 8 Resting, 9 Warning.
+
+
+--------------------------------------------------------------------------------
+2. Normalised confusion matrix
+--------------------------------------------------------------------------------
+Paper-style row-normalised heatmap (same plotting path as fig_21 in
+generate_plots._plot_row_norm_heatmap: seaborn crest, vmin/vmax 0–1, 300 dpi):
+
+  src/dataset_construction/paper_figures/output_pngs/fig_23_naya_catemotion_val_confusion_rownorm_heatmap.png
+
+Integer counts used for that figure (and margins matching the table above) are
+in:
+
+  src/dataset_construction/paper_figures/output_pngs/table_14_naya_catemotion_val_confusion_counts.txt
+
+Counts are not stored in the archived notebook; they were reconstructed from
+this file’s precision/recall/support (off-diagonal via a feasible-transport LP;
+see plot_naya_catemotion_confusion_heatmap.py). Re-run the notebook’s
+plot_confusion_matrix after loading best_model_final.pth to get the exact
+per-snippet matrix from the checkpoint.
+
+
+--------------------------------------------------------------------------------
+3. Expected Calibration Error (ECE)
+--------------------------------------------------------------------------------
+From plot_reliability_diagram_and_ece(cnn14_model, val_loader, device=...):
+
+  ECE = 0.0243
+
+Definition in notebook: 10 equal-width bins on max predicted probability;
+ECE = sum over bins of (fraction of samples in bin) * |accuracy_in_bin - confidence_in_bin|.
+
+================================================================================
+End
+================================================================================

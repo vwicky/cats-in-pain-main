@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x4uj13q",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x4uj13q_video.mp4",
+  "audio_path": "output/videos/dailymotion_x4uj13q_audio.mp3",
+  "duration_sec": 43,
+  "duration_seconds": 43.0,
+  "title": "Regardez la technique de chasse incroyable de ce chat très malin!",
+  "webpage_url": "https://www.dailymotion.com/video/x4uj13q",
+  "dm_id": "x4uj13q",
+  "views_total": 665,
+  "view_count": 665,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Animal",
+    "Chasse",
+    "LOL",
+    "chat",
+    "technique de chasse",
+    "fun",
+    "animal de compagnie"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Regardez la technique de chasse incroyable de ce chat très malin! <br /> <br />Cet internaute allemand passionné de chat connu sous le nom de Foxkat s'est toujours demandé comment son félin arrivait à attraper des oiseaux! Fin aout il a installer une GoPro dans son jardin et a filmé une séance de chasse de son chat noir. Et vous allez comprendre que les chats sont très malins!",
+  "created_time": 1474723596,
+  "search_query": "courtes vidéos de chats en chasse",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat hunting, which is a natural behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x4uj13q",
+    "decision": "keep",
+    "reason": "The video features a cat hunting, which is a natural behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

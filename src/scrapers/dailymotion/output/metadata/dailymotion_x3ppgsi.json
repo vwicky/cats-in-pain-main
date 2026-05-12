@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3ppgsi",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3ppgsi_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3ppgsi_audio.mp3",
+  "duration_sec": 34,
+  "duration_seconds": 34.0,
+  "title": "Кот Украл у Соседей Тигра",
+  "webpage_url": "https://www.dailymotion.com/video/x3ppgsi",
+  "dm_id": "x3ppgsi",
+  "views_total": 3095,
+  "view_count": 3095,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1454312749,
+  "search_query": "кот, выслеживающий добычу",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat-related scenario.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3ppgsi",
+    "decision": "keep",
+    "reason": "The title suggests a cat-related scenario.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x3i8fhl",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3i8fhl_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3i8fhl_audio.mp3",
+  "duration_sec": 14,
+  "duration_seconds": 14.0,
+  "title": "Котик в шоке от запаха носков))) Я УГОРАЛ ПОЛ ДНЯ!!! СМОТРЕТЬ!!!",
+  "webpage_url": "https://www.dailymotion.com/video/x3i8fhl",
+  "dm_id": "x3i8fhl",
+  "views_total": 11227,
+  "view_count": 11227,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Позитив",
+    "ПРИКОЛ",
+    "КОТ",
+    "ЗАПАХ",
+    "ЮМОР"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Котик в шоке от запаха носков)))",
+  "created_time": 1450208326,
+  "search_query": "кот громко мяукает",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat reacting humorously to a smell.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3i8fhl",
+    "decision": "keep",
+    "reason": "The title suggests a cat reacting humorously to a smell.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

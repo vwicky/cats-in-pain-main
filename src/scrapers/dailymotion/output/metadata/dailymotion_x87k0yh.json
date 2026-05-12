@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x87k0yh",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x87k0yh_video.mp4",
+  "audio_path": "output/videos/dailymotion_x87k0yh_audio.mp3",
+  "duration_sec": 8,
+  "duration_seconds": 8.0,
+  "title": "Chat contre rat : vous serez surpris de voir qui gagne cette bataille",
+  "webpage_url": "https://www.dailymotion.com/video/x87k0yh",
+  "dm_id": "x87k0yh",
+  "views_total": 915,
+  "view_count": 915,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "uuid_4dcba5f1-4196-4fe8-9c1d-8c89cb0db7b8",
+    "guid_78292",
+    "animaux",
+    "insolite"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1643870073,
+  "search_query": "vidéos de chats qui parlent",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a confrontation between a cat and a rat, indicating agonistic behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x87k0yh",
+    "decision": "keep",
+    "reason": "The title suggests a confrontation between a cat and a rat, indicating agonistic behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

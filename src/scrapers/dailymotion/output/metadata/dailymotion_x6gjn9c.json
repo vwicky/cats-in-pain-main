@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x6gjn9c",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6gjn9c_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6gjn9c_audio.mp3",
+  "duration_sec": 48,
+  "duration_seconds": 48.0,
+  "title": "Le cauchemar d'un pompier qui va lutter très longtemps pour se saisir de chat",
+  "webpage_url": "https://www.dailymotion.com/video/x6gjn9c",
+  "dm_id": "x6gjn9c",
+  "views_total": 1202,
+  "view_count": 1202,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "La vidéo insolite du jour, d'un pompier qui va lutter un certain temps pour attraper un chat qui n'a pas vraiment l'air de vouloir se laisser faire ! L'homme montait d'abord sur une échelle pour avoir plus facile, et c'est ensuite une véritable course poursuite qui se joue entre lui et le félin !",
+  "created_time": 1521451994,
+  "search_query": "chats qui siffle entre eux",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a firefighter trying to catch a cat, indicating real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6gjn9c",
+    "decision": "keep",
+    "reason": "The video features a firefighter trying to catch a cat, indicating real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

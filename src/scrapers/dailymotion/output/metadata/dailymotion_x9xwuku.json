@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9xwuku",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9xwuku_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9xwuku_audio.mp3",
+  "duration_sec": 15,
+  "duration_seconds": 15.0,
+  "title": "La tête de mon chat 🤣",
+  "webpage_url": "https://www.dailymotion.com/video/x9xwuku",
+  "dm_id": "x9xwuku",
+  "views_total": 1069,
+  "view_count": 1069,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "sport",
+  "channel_title": "sport",
+  "language": "fr",
+  "query_language": "French",
+  "description": "#courseapied #running #trail",
+  "created_time": 1768581540,
+  "search_query": "posture défensive de chat",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a humorous take on a cat, which is plausible.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9xwuku",
+    "decision": "keep",
+    "reason": "The title suggests a humorous take on a cat, which is plausible.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

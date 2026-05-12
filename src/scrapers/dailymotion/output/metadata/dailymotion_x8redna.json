@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8redna",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8redna_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8redna_audio.mp3",
+  "duration_sec": 25,
+  "duration_seconds": 25.0,
+  "title": "Le chat reconnaît ce que porte le policier : la scène qui se déroule à 7H du matin dans ce salon est lunaire (vidéo)",
+  "webpage_url": "https://www.dailymotion.com/video/x8redna",
+  "dm_id": "x8redna",
+  "views_total": 14356,
+  "view_count": 14356,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Le 10 janvier, Jess a eu un réveil des plus originaux ! ",
+  "created_time": 1705068707,
+  "search_query": "courtes vidéos de chats qui se prélassent",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Involves a cat's interaction with a human.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8redna",
+    "decision": "keep",
+    "reason": "Involves a cat's interaction with a human.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

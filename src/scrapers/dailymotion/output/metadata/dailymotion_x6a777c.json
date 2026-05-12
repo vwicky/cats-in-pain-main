@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x6a777c",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6a777c_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6a777c_audio.mp3",
+  "duration_sec": 34,
+  "duration_seconds": 34.0,
+  "title": "Un chat fait ami ami avec oiseau",
+  "webpage_url": "https://www.dailymotion.com/video/x6a777c",
+  "dm_id": "x6a777c",
+  "views_total": 544,
+  "view_count": 544,
+  "likes_total": 3,
+  "like_count": 3,
+  "tags": [
+    "chat",
+    "oiseau",
+    "ami"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Le félin se montre très délicat avec l’oiseau. <br /> <br />Dans la commune de Nigran en Espagne, un oiseau est tranquillement posé sur le bord d’un bocal. Juste derrière lui se trouve Luvino, un chat qui semble plutôt intrigué. Avec la plus grande des délicatesses, l’animal va poser sa patte sur l’oiseau à plusieurs reprises, sans pour autant lui faire de mal.",
+  "created_time": 1511277143,
+  "search_query": "moments calmes avec des chats",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat interacting delicately with a bird.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6a777c",
+    "decision": "keep",
+    "reason": "The video features a cat interacting delicately with a bird.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x4ldie",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x4ldie_video.mp4",
+  "audio_path": "output/videos/dailymotion_x4ldie_audio.mp3",
+  "duration_sec": 41,
+  "duration_seconds": 41.0,
+  "title": "La terreur des WC",
+  "webpage_url": "https://www.dailymotion.com/video/x4ldie",
+  "dm_id": "x4ldie",
+  "views_total": 6711,
+  "view_count": 6711,
+  "likes_total": 5,
+  "like_count": 5,
+  "tags": [
+    "chat",
+    "chaton",
+    "chats",
+    "chatons",
+    "bêtises",
+    "humour",
+    "bêtise",
+    "joke",
+    "cat",
+    "kitten"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "English",
+  "description": "Pour un papier toilette encore plus doux ! lol :D",
+  "created_time": 1204643629,
+  "search_query": "cat in hunting mode",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Content mentions cats and kittens, likely showing real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x4ldie",
+    "decision": "keep",
+    "reason": "Content mentions cats and kittens, likely showing real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

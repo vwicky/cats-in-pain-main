@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x8wazb6",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8wazb6_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8wazb6_audio.mp3",
+  "duration_sec": 43,
+  "duration_seconds": 43.0,
+  "title": "Gata agredida no Rio de Janeiro recebe atendimento veterinário",
+  "webpage_url": "https://www.dailymotion.com/video/x8wazb6",
+  "dm_id": "x8wazb6",
+  "views_total": 838,
+  "view_count": 838,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "atendimento",
+    "veterinário",
+    "gata"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Animal foi maltratada por uma mulher na Zona Oeste da cidade",
+  "created_time": 1712239135,
+  "search_query": "gato doente no veterinário",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat receiving veterinary care after being abused.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8wazb6",
+    "decision": "keep",
+    "reason": "The video shows a cat receiving veterinary care after being abused.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

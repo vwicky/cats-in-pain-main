@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x60gqfg",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x60gqfg_video.mp4",
+  "audio_path": "output/videos/dailymotion_x60gqfg_audio.mp3",
+  "duration_sec": 28,
+  "duration_seconds": 28.0,
+  "title": "Когда ты кривляешься, а ему всё равно",
+  "webpage_url": "https://www.dailymotion.com/video/x60gqfg",
+  "dm_id": "x60gqfg",
+  "views_total": 14813,
+  "view_count": 14813,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Забавный сюжет про симпатичную кошечку, которая очень хочет завести отношения с котом, всем видом это демонстрирующую, и сидящего рядом с ней кота, странным образом равнодушно относящегося с тому, что он видит перед собой, смотреть видео прикол онлайн \"Когда ты кривляешься, а ему всё равно\".",
+  "created_time": 1505213168,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat's humorous behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x60gqfg",
+    "decision": "keep",
+    "reason": "The video features a cat's humorous behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

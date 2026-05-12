@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x86o2ld",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x86o2ld_video.mp4",
+  "audio_path": "output/videos/dailymotion_x86o2ld_audio.mp3",
+  "duration_sec": 45,
+  "duration_seconds": 45.0,
+  "title": "SIMONE : Ce chat déteste la voix de sa maîtresse",
+  "webpage_url": "https://www.dailymotion.com/video/x86o2ld",
+  "dm_id": "x86o2ld",
+  "views_total": 2251,
+  "view_count": 2251,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "guid_6067411207001",
+    "uuid_c3484cc6-98b7-4607-b02a-5f4ad05ea39d",
+    "channel_simone",
+    "chanson",
+    "chat",
+    "Drôle",
+    "fac",
+    "simone",
+    "smile"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1640827164,
+  "search_query": "chat chassant sa proie",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat's dislike for its owner's voice, suggesting vocalization.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x86o2ld",
+    "decision": "keep",
+    "reason": "The title indicates a cat's dislike for its owner's voice, suggesting vocalization.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

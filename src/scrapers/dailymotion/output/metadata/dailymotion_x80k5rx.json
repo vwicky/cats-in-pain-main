@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x80k5rx",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x80k5rx_video.mp4",
+  "audio_path": "output/videos/dailymotion_x80k5rx_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "Corpo de Bombeiros é mobilizado para resgatar filhote de gato que ficou preso em árvore na Rua Bom Jesus",
+  "webpage_url": "https://www.dailymotion.com/video/x80k5rx",
+  "dm_id": "x80k5rx",
+  "views_total": 1162,
+  "view_count": 1162,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Corpo de Bombeiros é mobilizado para resgatar filhote de gato que ficou preso em árvore na Rua Bom Jesus",
+  "created_time": 1618193324,
+  "search_query": "gatos piando e conversando",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a rescue of a kitten, relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x80k5rx",
+    "decision": "keep",
+    "reason": "The video involves a rescue of a kitten, relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

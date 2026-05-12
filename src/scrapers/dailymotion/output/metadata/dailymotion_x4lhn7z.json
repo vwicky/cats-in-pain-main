@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x4lhn7z",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x4lhn7z_video.mp4",
+  "audio_path": "output/videos/dailymotion_x4lhn7z_audio.mp3",
+  "duration_sec": 14,
+  "duration_seconds": 14.0,
+  "title": "Cat relaxing in a basket with some chickens",
+  "webpage_url": "https://www.dailymotion.com/video/x4lhn7z",
+  "dm_id": "x4lhn7z",
+  "views_total": 2537,
+  "view_count": 2537,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Cat",
+    "Chicken",
+    "Chicks",
+    "Relax",
+    "Animal",
+    "cute"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "There is nothing to describe really..",
+  "created_time": 1469256730,
+  "search_query": "two cats in a standoff",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description suggests a cat relaxing, which is plausible behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x4lhn7z",
+    "decision": "keep",
+    "reason": "The description suggests a cat relaxing, which is plausible behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

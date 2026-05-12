@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x997vwc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x997vwc_video.mp4",
+  "audio_path": "output/videos/dailymotion_x997vwc_audio.mp3",
+  "duration_sec": 58,
+  "duration_seconds": 58.0,
+  "title": "Owczarek niemiecki spotyka kota na smyczy. Jego reakcja jest komiczna",
+  "webpage_url": "https://www.dailymotion.com/video/x997vwc",
+  "dm_id": "x997vwc",
+  "views_total": 189166,
+  "view_count": 189166,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "News Chien",
+    "News Chat"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "Dwa psy na smyczy, które spotykają się spacerze, to zupełnie co innego niż spotkanie psa z.... kotem na smyczy.",
+  "created_time": 1732108620,
+  "search_query": "dwa koty się kłócą",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a German shepherd encountering a cat, which is relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x997vwc",
+    "decision": "keep",
+    "reason": "The video features a German shepherd encountering a cat, which is relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

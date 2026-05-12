@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x6aa1n",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6aa1n_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6aa1n_audio.mp3",
+  "duration_sec": 32,
+  "duration_seconds": 32.0,
+  "title": "Les effets de la télévision sur les chats.",
+  "webpage_url": "https://www.dailymotion.com/video/x6aa1n",
+  "dm_id": "x6aa1n",
+  "views_total": 5798,
+  "view_count": 5798,
+  "likes_total": 4,
+  "like_count": 4,
+  "tags": [
+    "chat",
+    "tele",
+    "effets",
+    "lol",
+    "les",
+    "télévision",
+    "sur",
+    "chats."
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Voilà le résultat d'une surexposition a la télévision. Le chat intrigué par son programme entend un bruit derrière lui et la c'est le drame. A force d'avoir trop regarder la télé, il se fige sur l'objectif comme une groupie décérébré devant la star ac. N'étant déja pas gâter par la nature...",
+  "created_time": 1217361036,
+  "search_query": "chat qui ronronne sur les genoux",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description suggest a cat's behavior related to television.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6aa1n",
+    "decision": "keep",
+    "reason": "The title and description suggest a cat's behavior related to television.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

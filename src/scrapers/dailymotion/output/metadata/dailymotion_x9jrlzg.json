@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x9jrlzg",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9jrlzg_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9jrlzg_audio.mp3",
+  "duration_sec": 33,
+  "duration_seconds": 33.0,
+  "title": "Un chat a été attrapé aux abords d'une prison au Costa Rica avec de la drogue sur son dos",
+  "webpage_url": "https://www.dailymotion.com/video/x9jrlzg",
+  "dm_id": "x9jrlzg",
+  "views_total": 585,
+  "view_count": 585,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "bfmsocial",
+    "animaux",
+    "insolite",
+    "drogues",
+    "costa rica",
+    "trafic",
+    "cannabis",
+    "crack",
+    "prison",
+    "#shorts"
+  ],
+  "channel": "tv",
+  "channel_title": "tv",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Une drôle d'arrestation. Un chat a été attrapé alors qu'il se baladait dans un des espaces verts de la prison de Pococi au Costa Rica. Le problème, c'est que ce chat transportait sur son dos deux sachets contenant plus de 235g de cannabis et près de 68g de pâte de crack. Les drogues ont été confisquées, et le chat surnommé \"Narcomichi\" a été remis au Service national de la santé animal pour une évaluation de santé. ",
+  "created_time": 1747651208,
+  "search_query": "posture défensive de chat",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title mentions a cat involved in an unusual situation, suggesting real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9jrlzg",
+    "decision": "keep",
+    "reason": "The title mentions a cat involved in an unusual situation, suggesting real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3aivd5",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3aivd5_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3aivd5_audio.mp3",
+  "duration_sec": 39,
+  "duration_seconds": 39.0,
+  "title": "кот ругается 3",
+  "webpage_url": "https://www.dailymotion.com/video/x3aivd5",
+  "dm_id": "x3aivd5",
+  "views_total": 23919,
+  "view_count": 23919,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "кот ругается 3",
+  "created_time": 1445471546,
+  "search_query": "кот, выслеживающий добычу",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat vocalizing, which fits the vocalizing category.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3aivd5",
+    "decision": "keep",
+    "reason": "The title suggests a cat vocalizing, which fits the vocalizing category.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

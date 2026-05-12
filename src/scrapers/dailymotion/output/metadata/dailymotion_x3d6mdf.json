@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3d6mdf",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3d6mdf_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3d6mdf_audio.mp3",
+  "duration_sec": 33,
+  "duration_seconds": 33.0,
+  "title": "Découvrez la réaction incroyable de ses chats lorsqu'il se déguise",
+  "webpage_url": "https://www.dailymotion.com/video/x3d6mdf",
+  "dm_id": "x3d6mdf",
+  "views_total": 712,
+  "view_count": 712,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1447160402,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a reaction of cats, likely involving their behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3d6mdf",
+    "decision": "keep",
+    "reason": "The title suggests a reaction of cats, likely involving their behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

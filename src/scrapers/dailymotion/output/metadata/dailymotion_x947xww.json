@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x947xww",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x947xww_video.mp4",
+  "audio_path": "output/videos/dailymotion_x947xww_audio.mp3",
+  "duration_sec": 16,
+  "duration_seconds": 16.0,
+  "title": "Adorable cat surprisingly holds her own in impromptu boxing showdown with man",
+  "webpage_url": "https://www.dailymotion.com/video/x947xww",
+  "dm_id": "x947xww",
+  "views_total": 573,
+  "view_count": 573,
+  "likes_total": 39,
+  "like_count": 39,
+  "tags": [
+    "Oswego",
+    "New York",
+    "USA",
+    "Shareable",
+    "Entertainment",
+    "Funny",
+    "Hilarious",
+    "Pets are Awesome",
+    "Boxing Cat",
+    "Cat Boxing"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "Canelo Álvarez, Devin Haney, and Tyson Fury have nothing on the paw-some boxer featured in this clip. <br /><br />\"This video shows my boyfriend boxing our friend’s cat, Eileen!\" the filmer, Faith, told WooGlobe. \"Eileen is a boxing cat!\" <br /><br />The way the kitty balances on her hind paws with a face of unwavering concentration is both adorable and impressive. <br /><br />Additionally, Eileen’s precision in dodging the man’s punches should make viewers wonder why big promoters aren’t flocking to feature her in the main event of a blockbuster stadium show.<br />Location: Oswego, New York, USA                                     <br />WooGlobe Ref : WGA918784<br />For licensing and to use this video, please email licensing@wooglobe.com",
+  "created_time": 1723990201,
+  "search_query": "cat in hunting mode",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat engaging in a playful boxing scenario.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x947xww",
+    "decision": "keep",
+    "reason": "The video features a cat engaging in a playful boxing scenario.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x31120t",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x31120t_video.mp4",
+  "audio_path": "output/videos/dailymotion_x31120t_audio.mp3",
+  "duration_sec": 40,
+  "duration_seconds": 40.0,
+  "title": "Когда я кашляю, мой кот крякает)))",
+  "webpage_url": "https://www.dailymotion.com/video/x31120t",
+  "dm_id": "x31120t",
+  "views_total": 4933,
+  "view_count": 4933,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Когда я кашляю, мой кот крякает)))",
+  "created_time": 1439158124,
+  "search_query": "кот громко мяукает",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat vocalizing in response to coughing, indicating vocal behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x31120t",
+    "decision": "keep",
+    "reason": "The title suggests a cat vocalizing in response to coughing, indicating vocal behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

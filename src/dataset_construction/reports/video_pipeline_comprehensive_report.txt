@@ -1,0 +1,1238 @@
+================================================================================
+VIDEO PIPELINE COMPREHENSIVE REPORT
+================================================================================
+Repository: Cats-in-Pain-Bachelors (relative paths from repo root unless noted)
+Generated for thesis/paper documentation. Non-destructive; cites manifests and
+code only — no dataset removal.
+
+================================================================================
+1. SCOPE: TWO DISTINCT GPT-ON-VIDEO TRACKS
+================================================================================
+
+Do not conflate these:
+
+(1) GPT-4o DATASET DESCRIPTION (enrichment, NOT Feline Grimace Scale)
+    - Script: src/dataset_construction/02_gpt_description.py
+    - Model: gpt-4o (src/dataset_construction/config.yaml, gpt_description.model)
+    - Prompt: src/dataset_construction/config/gpt_description_prompt.md
+      → JSON for video_quality, cats, environment, behavior, dataset_flags
+    - Frames: 3 per snippet at fractions 0.15, 0.50, 0.85; resize longest side
+      512 px; 3 images per API call.
+
+(2) FGS LLM EVALUATION (Feline Grimace Scale + behavioral schema)
+    - Notebooks: video/gpt-fgs/cat_pain_llm_eval.ipynb
+                 video/gpt-fgs/cat_pain_llm_eval_local.ipynb
+    - Protocol (AU scoring, consensus, threshold): §4.2; model may be
+      cloud (OpenAI) or local per notebook configuration.
+    - Default MANIFEST in notebooks: dataset/final_dataset.jsonl (legacy path;
+      align with src/dataset_construction/manifests/final_dataset_v2.jsonl if
+      cells are updated).
+
+================================================================================
+2. DATA UTILISATION BY TRACK
+================================================================================
+
+2.1 LLM — GPT-4o dataset description
+    Input manifest:  src/dataset_construction/manifests/metadata_clean_01.jsonl
+    Output manifest:   src/dataset_construction/manifests/metadata_clean_02.jsonl
+    Snippet roots:     src/dataset_construction/config.yaml → sources.snippets_dirs
+                       (e.g. data/dataset/snippets_v2, data/dataset/tiktok_snippets,
+                       data/dataset/snippets) — first match wins per snippet_id.
+    Sidecar outputs:   src/dataset_construction/reports/gpt_description_cache.jsonl
+                       src/dataset_construction/reports/gpt_descriptions.jsonl
+                       src/dataset_construction/reports/gpt_description_report.txt
+    Supervision:       None (enrichment only).
+
+2.2 LLM — FGS evaluation notebooks
+    Notebooks:         video/gpt-fgs/cat_pain_llm_eval.ipynb,
+                       video/gpt-fgs/cat_pain_llm_eval_local.ipynb
+    Scoring protocol:  §4.2 (five action units, consensus, fgs_total, pain threshold).
+    Manifest:          Notebook constant (often dataset/final_dataset.jsonl). Cells that
+                       still point here are not automatically aligned with
+                       src/dataset_construction/manifests/final_dataset_v2.jsonl until
+                       the notebook paths are updated.
+    Optional priors:   dataset/cleaned_labels.jsonl; paths under
+                       human_validation_app/... or src/human_validation/...
+                       for cat_emotion_predictions — verify notebook cells.
+    Run outputs:       runs/llm_eval/llm_predictions*.jsonl,
+                       runs/llm_eval_local/llm_predictions_*.jsonl
+    Supervision:       Manifest labels for metric computation vs LLM outputs.
+
+2.3 CNN — EfficientNet-B3 fine-tuning (video/cnn-finetuning/)
+    default.yaml:      data/dataset/final_dataset_with_cat_id.jsonl
+                       + optional src/human_validation/video_audio_human_validation/
+                         cat_emotion_predictions.jsonl
+    v2 primary config: video/cnn-finetuning/config/v2.yaml — manifest
+                       src/dataset_construction/manifests/final_dataset_v2.jsonl (5786 clips
+                       in the reference run below); EfficientNet-B3 (IMAGENET1K_V1),
+                       attention pool over 3 frames, image 300×300; freeze backbone 10 epochs,
+                       unfreeze 1 block; head MLP 128-d, dropout 0.60.
+    Training (v2):     AdamW — lr_backbone 1e-6, lr_head 1e-3, weight_decay 0.05;
+                       cosine schedule; batch_size 16; epochs 60; early_stop_metric
+                       val_macro_f1, patience 12, min_delta 0.001; Focal loss γ=2.0 on
+                       both heads; total training loss = focal 5-way + **0.3 ×** focal
+                       binary (train.py); use_class_weights true.
+                       random rotation ±15°, random erasing p=0.10.
+    CV / evaluation:   3-fold StratifiedGroupKFold with groups=cat_id (train.py).
+    Video decode:      On-the-fly + YOLO bbox crop, or precomputed_frames_dir
+                       (see v2.yaml) with train=random 3 frames / val=evenly spaced.
+    Labels:            final_label_5 → 5-class index + binary via binary_map
+                       (Paining → Pain).
+    Sampling:          Training random_inner (10–90% of clip); validation
+                       uniform_inner. YOLO: yolov8x in config/v2.yaml and gemini.yaml.
+    Reference CV run:  runs/cnn-finetuning/efficientnet_b3_v2_5class_20260420_191539/
+                       final_report.txt — 5786 clips; 3-fold StratifiedGroupKFold (cat_id);
+                       binary head: macro F1 0.438±0.025, sensitivity 0.691±0.060,
+                       specificity 0.460±0.059; 5-way macro F1 0.249±0.011; per-class
+                       5-way F1 (e.g. Paining 0.282±0.007). Argmax→binary_map row in same
+                       file differs (sens/spec trade-off).
+
+2.4 Pose extraction — ViTPose + YOLO (easyViTPose)
+    Driver:            video/easyViTPose/extraction/06_pose_extraction.py
+    Config:            src/dataset_construction/config.yaml → pose_extraction
+                       (n_frames 35, target_fps 5.0, max_clip_duration 7.0,
+                       vitpose-h-apt36k, yolov8x, yolo_conf 0.35, n_keypoints 17)
+    Index:             src/dataset_construction/reports/pose_extraction_index.jsonl
+    Embeddings:        data/dataset/embeddings/pose/v2 (+ v1 pose/labeled legacy)
+    Supervision:       None at extraction.
+
+2.5 ST-GCN / P4 training (video/pose-models/)
+    Manifest:          src/dataset_construction/manifests/final_dataset_v2.jsonl
+    Pose dirs:         data/dataset/embeddings/pose/v2, pose/labeled (v1)
+    Label fields:      final_label_5 + audio_high_confidence (5-class config);
+                       audio_label_10 + audio_high_confidence (10-class + pairwise)
+    Pose normalization (normalize_pose_array in video/pose-models/data_engineering.py;
+      YAML blocks in config_p4_10class.yaml, config_p4_pairwise.yaml):
+      — Subtract root joint (root_joint index from cfg, default 0) in x,y.
+      — Scale by mean inter-joint distance between scale_joints (default [5,6]).
+      — Clamp x,y to clamp_xy (default [-0.5, 1.5]); zero low-confidence keypoints
+        (confidence < confidence_threshold, default 0.10); optional drop of frames
+        where any joint is below threshold (drop_low_confidence_frames).
+    Track A (10-class): video/pose-models/config_p4_10class.yaml — AdamW lr 3e-5,
+      weight_decay 0.01, cosine schedule, batch_size 32, focal_gamma 2.0,
+      use_class_weights true, epochs up to 1000, early_stop_metric val_macro_f1 (10-way),
+      early_stop_patience 100, grad_clip_norm 1.0. Split: n_folds 5, group_field cat_id,
+      stratify_field audio_label_10. Example fold sizes from
+      runs/pose-models/p4_audio_10class_macrof1_lr3e5_20260428_183753/P4/fraction_100/
+      cv_results.csv fold 0: n_train≈4246, n_val≈1061.
+    Track C (pairwise): config_p4_pairwise.yaml — same normalization; training
+      binary-only via run_p4_pairwise.py: batch_size 4, lr 1e-4, weight_decay 0.01,
+      epochs 120, early_stop_metric val_macro_f1_binary, patience 30; split still
+      n_folds 5 × cat_id for fold choice inside the pairwise runner.
+    QC (ViTPose):      Gate file src/dataset_construction/reports/vitpose_qc_enrichment.jsonl;
+                       summary src/dataset_construction/reports/vitpose_qc_enrichment_summary.txt
+                       — of 5786 clips successfully scored on final_dataset_v2,
+                       vitpose_qc_ok true on 5307, false on 479; Paining 724/783 pass
+                       (92.5%) under the stated gates (min_mean_conf=0.3,
+                       max_y_range=10.0 on real frames).
+    Splits:            StratifiedGroupKFold by cat_id (see YAML split.*).
+
+2.6 Inference-only video branch (src/inference/)
+    Input:             User video file (CLI: src/inference/pipeline.py).
+    Routing:           YAMNet P(cat); if below threshold → video branch.
+    Artifacts:         ViTPose+YOLO @ 5 Hz, raw_poses.npy (35,17,3), 9 pairwise
+                       P4 ST-GCN → LogReg meta. See src/inference/README.md.
+
+2.7 Ablations — extra data
+    Body-region mask:  video/pose-models/scripts/p4_pose_body_region_ablation.py
+                       optional --audio10-manifest from
+                       src/dataset_construction/build_holdout_audio10_human_validation.py
+    Stack analysis:    video/pose-models/scripts/analyze_stack_ablation.py
+                       reads prob_train.csv / prob_val.csv from a stack run dir.
+
+================================================================================
+3. ST-GCN (P4) ARCHITECTURE & TRAINING TAXONOMY (final_dataset_v2)
+================================================================================
+
+3.1 Network (video/pose-models/models/p4_pose_stgcn.py, models/blocks.py)
+    - Input: (T,V,C) with T=35, V=17, C=3 (x, y, confidence) after normalization.
+    - Encoder: STGCN_Encoder — three STGCNBlock stages, channel schedule
+      dims→32→64→64 (dims=3 default).
+    - Graph: fixed 17-joint feline adjacency _cat_adjacency; normalized A.
+    - Each STGCNBlock: spatial graph conv with A, BatchNorm2d, temporal Conv2d
+      kernel (3,1) same padding, residual.
+    - Pooling: mean over time, mean over joints → 64-D embedding.
+    - Heads: MLPBlock(64→128→K) → logits_5 (historic name; K=5, 10, or 2);
+      MLPBlock(64→128→2) → logits_binary (pain vs non-pain).
+
+3.2 Loss / objectives (video/pose-models/training_loop.py)
+    - binary_only false: focal loss on logits_5 (K-way) AND logits_binary vs
+      binary_label_int; macro-F1 + top-3 (K≥3) + binary metrics.
+    - binary_only true (pairwise): binary focal; early_stop_metric typically
+      val_macro_f1_binary; n_classes=2 for head width.
+
+3.3 Track summary table
+    ---------------------------------------------------------------------------
+    Track | Label field      | K / role          | binary_only | Dual heads | #models
+    ---------------------------------------------------------------------------
+    A     | audio_label_10   | 10-class general  | false       | yes        | 1 shared
+    B     | final_label_5    | 5 merged classes| false       | yes        | 1 shared
+    C     | audio_label_10   | OvO per pair      | true        | binary only| 45 pairwise
+    ---------------------------------------------------------------------------
+
+    Track A — config: video/pose-models/config_p4_10class.yaml
+              Classes: Angry, Defence, Fighting, Happy, HuntingMind, Mating,
+              MotherCall, Paining, Resting, Warning (audio_label_10).
+              Early stop: val_macro_f1 on 10-way head.
+
+    Track B — config: video/pose-models/config.yaml (pose-models)
+              Classes: final_label_5 + binary_pain_class Paining.
+
+    Track C — script: video/pose-models/run_p4_pairwise.py
+              config: video/pose-models/config_p4_pairwise.yaml
+              C(10,2)=45 unordered pairs.
+              Pain-inclusive pairs: 9 (Paining vs each other class).
+              Non-pain-only pairs: C(9,2)=36 among non-Paining classes.
+              Check: 9 + 36 = 45.
+              pair_binary_neg_pos (class_subset_utils.py): if Paining in pair,
+              it is positive class (1); else lexicographic order for 0/1.
+
+3.4 Stacking feature sets (train_stgcn_dlc_stack.py)
+    - 45 features: all pairwise softmax positives; meta target can be 10-way
+      audio_label_10 OR binary with --meta-binary-pain.
+    - 9 features: --pain-pair-models-only — matches production inference
+      (src/inference/stgcn_loader.py FEATURE_COLUMNS).
+
+================================================================================
+4. DEEPLABCUT (SUPERANIMAL) VS easyViTPose (ViTPose)
+================================================================================
+
+4.1 What DeepLabCut does here
+    - Model zoo: superanimal_quadruped; inference via
+      deeplabcut.modelzoo.api.superanimal_inference.video_inference
+    - Extraction script: video/deep-lab-cut/extraction/06_pose_extraction_superanimal.py
+    - Config block: src/dataset_construction/config.yaml → pose_extraction_superanimal
+      (35 frames, 5 Hz, max 7 s, 39 keypoints, output_dir superanimal_v2).
+    - Index: src/dataset_construction/reports/pose_extraction_superanimal_index.jsonl
+    - HDF5 training data: data/dataset/deeplabcut_really_labeled (suffix pattern in
+      video/pose-models/config_stgcn_dlc.yaml, dlc_h5_suffix).
+    - ST-GCN–DLC training: video/pose-models/run_stgcn_deeplabcut_train.py
+      + video/pose-models/config_stgcn_dlc.yaml (n_keypoints 39, dlc_qc, clip_quality).
+
+4.2 LLM FGS protocol (video/gpt-fgs/cat_pain_llm_eval.ipynb)
+    The notebook instructs the model to score **five** FGS-style action units per **frame**,
+    each on a 0–2 scale, using JSON keys **ear_position**, **orbital_tightening**,
+    **muzzle_tension**, **whiskers_change**, **head_position** (the user-facing text in
+    the prompt uses the corresponding plain-language labels: ear position, orbital
+    tightening, muzzle tension, whiskers change, head position).
+    **Consensus across frames:** for each AU, the clip-level value is the **maximum**
+    across frames. **fgs_total** is the **sum** of those five consensus AU scores (maximum
+    10). **pain_binary** is **Pain** if **fgs_total >= 4**, otherwise **No_Pain**
+    (see consensus / evaluation cells; also used when deriving pain from **fgs_total**
+    columns in analysis).
+    The fixed comparison rows **GPT-4o FGS (corrected)** (macro F1 **0.353**, sens. **0.702**,
+    spec. **0.332**) / **label-derived** in video/cnn-finetuning/src/evaluate.py are
+    **hard-coded constants** in the GPT-4o rows of `evaluate.py` (see `write_final_report`) — not produced by the CNN training
+    pipeline. They are **not** computed on **final_dataset_v2** unless someone re-runs LLM
+    evaluation and overwrites these literals.
+    **Notebook cohort (confirmed):** `cat_pain_llm_eval.ipynb` sets
+    `MANIFEST_PATH = "dataset/final_dataset.jsonl"` (legacy). Unless that cell is changed,
+    FGS metrics computed in the notebook are **not** on the same manifest as
+    `src/dataset_construction/manifests/final_dataset_v2.jsonl`. Treat CNN (v2) vs LLM
+    (FGS) rows as **different cohorts** in write-ups unless you re-evaluate FGS on v2.
+
+4.3 Similarities to ViTPose pipeline
+    - Same cohort goal: final_dataset_v2.jsonl; temporal sampling 35 bins @ 5 Hz,
+      ≤7 s; .npy tensors + masks; JSONL index with status/errors.
+    - Parallel QC: dlc_qc_enrichment.jsonl vs vitpose_qc_enrichment.jsonl
+      (build_dlc_qc_enrichment.py).
+
+4.4 Differences (thesis-critical)
+    ---------------------------------------------------------------------------
+    Aspect          | ViTPose path                    | DLC SuperAnimal path
+    ---------------------------------------------------------------------------
+    Keypoints       | 17 (APT-36k cat layout)         | 39 (quadruped vocabulary)
+    Detector        | YOLO (e.g. yolov8x)             | Zoo FasterRCNN-style bundle
+    Stack           | PyTorch                         | TensorFlow + DLC
+    ST-GCN model    | P4PoseSTGCN (17-joint graph)    | stgcn_deeplabcut_model (39 kp)
+    Production CLI  | Yes (src/inference)             | No — ViTPose only in live path
+    ---------------------------------------------------------------------------
+
+4.5 Naming clarification
+    video/pose-models/scripts/train_stgcn_dlc_stack.py trains the meta-learner on
+    ViTPose pairwise ST-GCN checkpoints (.npy / P4), NOT on DLC HDF5. Run names
+    stgcn_dlc_stack_* are historical.
+
+4.6 Results — no single repo-wide ViTPose-vs-DLC accuracy table
+    - Exploratory: src/dataset_construction/notebooks/superanimal_pose_esteem.ipynb
+      (arrays (35,39,3), pixel-space coordinates).
+    - QC / coverage: src/dataset_construction/reports/dlc_qc_enrichment_summary.txt,
+      dlc_qc_excluded_ids.txt; pose_extraction_superanimal_index.jsonl mixes
+      status=done and status=error (e.g. env/tf_keras issues in past runs).
+
+    Example ST-GCN–DLC training snapshot (local run on disk):
+    runs/pose-models/stgcn_deeplabcut_20260423_133939/training/run_summary.json
+    - model_id P6, ST-GCN-DeepLabCut, binary Pain vs No_Pain
+    - val_macro_f1_binary ≈ 0.522, val_accuracy_binary ≈ 0.827, val_auc_roc ≈ 0.519
+    (imbalanced pain class — interpret with care.)
+
+4.7 How to find DLC-related artifacts in the repo
+    (1) rg -i "deeplabcut|superanimal|stgcn_dlc|pose_extraction_superanimal"
+    (2) Read pose_extraction_superanimal in src/dataset_construction/config.yaml
+        and video/pose-models/config_stgcn_dlc.yaml
+    (3) Reports: pose_extraction_superanimal_index.jsonl, dlc_qc_enrichment*.jsonl,
+        dlc_qc_*summary*.txt
+    (4) Data dirs (often gitignored): data/dataset/embeddings/pose/superanimal_v2,
+        data/dataset/deeplabcut_really_labeled
+    (5) Scripts: 06_pose_extraction_superanimal.py, run_stgcn_deeplabcut_train.py,
+        video/pose-models/deeplabcut_pose_io.py
+
+================================================================================
+5. META-LEARNER (STACKING) — APPROACHES, EXPERIMENTS, BEST NUMBERS ON DISK
+================================================================================
+
+5.1 Primary script
+    video/pose-models/scripts/train_stgcn_dlc_stack.py
+    Features: one probability per pairwise base model (softmax positive class for
+    OvO binary heads). build_run_specs() sweeps:
+
+    - LogisticRegression L1 (saga): C ∈ {0.001, 0.01, 0.1, 1, 10, 100}
+    - LogisticRegression L2 (lbfgs): same C; class_weight balanced; max_iter 2000
+    - ElasticNet (SGD-style grid): alpha ∈ {1e-4,1e-3,1e-2} × l1_ratio {0.15,0.5,0.85}
+    - RandomForestClassifier: 5 configs (n_estimators / max_depth)
+    - XGBClassifier: 7 combos; hist tree; binary or multiclass objective
+    - LGBMClassifier: 5 configs
+    - MLPClassifier: hidden in {(64),(128),(256),(128,64),(256,128),(64,32),
+      (128,64,32),(256,128,64)} × alpha {1e-4,1e-3,1e-2}
+    - SVC RBF: C ∈ {0.1,1,10,100} × gamma {scale, auto}
+    - KNeighborsClassifier: k ∈ {3,5,9,15} × weights {uniform, distance}
+    - GaussianNB: single run
+
+    CLI: --holdout-manifest, --model-dirs-json (45 dirs), --pain-pair-models-only,
+    --meta-binary-pain, --min-best-epoch, --audio-confidence-filter, --cv-splits,
+    --split-fraction, --random-seed
+
+5.2 Legacy 8-voter stack
+    video/pose-models/scripts/train_p4_pair_stack_logreg.py
+    Eight pairwise P4 logits (Defence–Paining excluded per docstring), LogReg on
+    8-D prob vector; holdout data/dataset/final_dataset.jsonl (legacy 5-class).
+
+5.3 Post-hoc stack ablation
+    video/pose-models/scripts/analyze_stack_ablation.py
+    Six-voter refit (default drops Warning–Paining, Angry–Paining), bootstrap AUC,
+    Resting–Paining single baseline, ECE / calibration.
+
+5.4 Production default (inference)
+    src/inference/stgcn_loader.py DEFAULT_STACK_RUN:
+      runs/pose-models/stgcn_dlc_stack_20260504_235843/run_05/
+    model.pkl: sklearn LogisticRegression L2, C=1.0 (val_metrics.json run_index 5).
+    Shipped for deployment — not necessarily the highest macro-F1 in the sweep.
+
+5.5 Run A — runs/pose-models/stgcn_dlc_stack_20260504_235843/stack_report.txt
+    Protocol: --meta-binary-pain, --pain-pair-models-only (9 features),
+    min_best_epoch=10, 5-fold CV on meta-train (see val_metrics per run_*).
+    Holdout: 901 clips (601 train / 300 val); binary pain vs non-pain from
+    audio_label_10; 38 train pain / 19 val pain.
+
+    Best overall (all families): MLP run_index 20, alpha=0.001, hidden [64]
+      val_macro_f1=0.5251, val_binary_f1_pain=0.1404, val_binary_auc_roc=0.6730,
+      val_accuracy=0.8367
+
+    Best LogReg L2 (family): run_index 7, C=10.0
+      val_macro_f1=0.5136, val_binary_f1_pain=0.1942, val_binary_auc_roc=0.6542
+
+    Best LogReg L1 (family): run_index 6
+      val_macro_f1=0.4979
+
+    Shipped inference checkpoint: run_05 LogReg L2 C=1.0
+      val_macro_f1=0.4936, val_binary_f1_pain=0.1864, val_binary_auc_roc=0.6876
+
+    Family ranking (mean val_macro_f1, Run A sweep subset):
+      logreg_l2 0.4846, xgboost 0.4712, mlp 0.4666, lightgbm 0.4571,
+      random_forest 0.4171, logreg_l1 0.4052
+
+    Warning: Paining|Warning base model mean P(pos)≈0.91 (near-degenerate).
+
+5.6 Run B — runs/pose-models/stgcn_dlc_stack_20260505_002322/stack_report.txt
+    Protocol: min_best_epoch=15, 3-fold CV; extended meta-zoo (incl. SVM, KNN, GNB).
+    Holdout: 986 clips (658 train / 328 val); 48 train pain / 24 val pain.
+
+    Best overall: SVM RBF run_index 69, C=100, gamma=auto
+      val_macro_f1=0.5127, val_binary_f1_pain=0.2097, val_binary_auc_roc=0.6140,
+      val_accuracy=0.7012
+
+    Best LogReg L1: run_index 6, C=1.0
+      val_macro_f1=0.5069, val_binary_f1_pain=0.1522
+
+    Best LogReg L2 (best per family line): run_index 1, C=0.001
+      val_macro_f1≈0.4608 (see master_results.csv row run_index 1)
+
+    Best per family highlights:
+      gaussian_nb run 78 macro_f1=0.5089
+      knn run 70 macro_f1=0.5020
+      xgboost run 27 macro_f1=0.4971
+      elasticnet run 14 macro_f1=0.1118
+
+    Family ranking (mean val_macro_f1):
+      gaussian_nb 0.5089, knn 0.4855, mlp 0.4810, svm_rbf 0.4785, xgboost 0.4759,
+      logreg_l2 0.4580, lightgbm 0.4434, random_forest 0.4028, logreg_l1 0.3396,
+      elasticnet 0.0912
+
+5.7 Run C — 35 pairwise features (runs/pose-models/stgcn_dlc_stack_20260504_234915/stack_report.txt)
+    Same stacking script as Run A/B but **without** --pain-pair-models-only: pairwise logits
+    from 45 possible OvO models after a **quality filter**. **n_input=45**, **n_kept=35**,
+    **n_dropped=10** pairs whose best_epoch fell below min_best_epoch (stated in report:
+    min_best_epoch=10). Dropped pairs include e.g. Angry|Fighting, Angry|Happy,
+    Resting|Warning (see full list in stack_report.txt).
+    Best overall model in that sweep: **XGBoost** (hyperparams learning_rate=0.01,
+    max_depth=3, n_estimators=100) with **val_macro_f1=0.5207**, val_auc_roc=0.5926,
+    val_accuracy=0.8300 on the stated holdout (901 clips; meta binary pain).
+    **No committed stack_report** in this repo uses **n_kept=45** with the same
+    filter protocol — a search for n_kept=45 under runs/pose-models returned none;
+    all-45-binary-input stacking for the same holdout was therefore not documented here.
+
+5.8 Interpretation
+    - Global best sweep models are not always LogisticRegression — MLP wins Run A,
+      SVM RBF wins Run B on val_macro_f1.
+    - Best within sklearn LogReg: Run A L2 C=10 (run_07); Run B L1 C=1 (run_06) on
+      macro-F1 among LogReg rows.
+    - Product CLI keeps run_05 L2 C=1 for simpler joblib deployment and
+      interpretability vs rerunning best-of-breed cells.
+
+================================================================================
+6. VIDEO MODEL RESULTS — LLM, CNN, P4 ST-GCN, STACKING
+================================================================================
+
+6.1 CNN + LLM reference baselines (video/cnn-finetuning)
+    **CNN on final_dataset_v2** (3-fold StratifiedGroupKFold × cat_id), documented run:
+    runs/cnn-finetuning/efficientnet_b3_v2_5class_20260420_191539/final_report.txt
+      Binary head (mean ± std): macro F1 **0.438 ± 0.025**, sensitivity **0.691 ± 0.060**,
+      specificity **0.460 ± 0.059**; 5-way macro F1 **0.249 ± 0.011**; class counts
+      and per-class F1 — see that file.
+    **evaluate.py comparison rows** (printed in every CNN final_report.txt) —
+    Neural F1-OOF, GPT-4o FGS (corrected), GPT-4o label-derived — are **fixed constants**
+    in video/cnn-finetuning/src/evaluate.py for side-by-side display; they are **not**
+    recomputed each training run.
+    **LLM FGS:** the notebook uses **dataset/final_dataset.jsonl** by default (§4.2).
+    The **evaluate.py** GPT-4o FGS / label-derived numbers beside the CNN table are **fixed
+    literals**, not a fresh evaluation on v2 — **do not** describe them as "LLM on
+    final_dataset_v2" without a new run.
+
+6.2 Track A — P4 ST-GCN 10-class audio (StratifiedGroupKFold × cat_id, 5 folds)
+    Frozen run directory:
+    runs/pose-models/p4_audio_10class_macrof1_lr3e5_20260428_183753/P4/fraction_100/
+    Hyperparameter snapshot: **config_used.yaml** (same directory).
+    Aggregated metrics: **cv_summary.json** — mean ± std over 5 folds:
+      10-way macro F1 **0.1452 ± 0.0092**; binary macro F1 **0.4374 ± 0.0320**;
+      sensitivity **0.609 ± 0.129**, specificity **0.489 ± 0.095**;
+      ROC AUC **0.570 ± 0.015**.
+    Per-class mean F1 (10-way) in the same JSON — **Defence** and **Warning** both have
+    **mean F1 0 and std 0** across all five folds: the model never achieves a non-zero
+    F1 on those labels in validation. This goes together with **extreme class imbalance**
+    (e.g. in the full `final_dataset_v2.jsonl` manifest, **Defence** and **Warning** are
+    among the smallest **audio_label_10** classes by count) and very small per-fold
+    validation supports (illustration — fold 0 `per_class_report.txt`: Defence support **6**,
+    Warning support **10** in that fold's val split).
+    **Confusion matrix (read-out):** for each CV fold, PNGs are written under
+    `fold_k/` — e.g. **fold_0/confusion_matrix_10class.png** (10×10, row-normalized with
+    counts annotated) and **fold_0/confusion_matrix_binary.png**. There is **no**
+    `confusion_matrix_10class.txt` in fold dirs because CV training uses
+    `write_txt_artifacts=False` in `training_loop.py` (text matrices are optional);
+    use the PNG or re-export from code if you need an ASCII table.
+    Sklearn **per_class_report.txt** in the same folder gives precision/recall/F1 and
+    support per class (not the full off-diagonal matrix in text form).
+    Resting and Mating are among the higher per-class F1 entries in `cv_summary.json`;
+    see that file for the full table.
+    Per-fold sizes example (fold 0, cv_results.csv): **n_train≈4246**, **n_val≈1061**.
+
+6.3 Track C — Pairwise binary ST-GCN (45 OvO base models)
+    Bundle root used for ensemble / stacking:
+    runs/pose-models/p4_pairwise_ensemble_bundle_20260428/
+    Each **training/run_summary.json** holds **metrics.val_macro_f1_binary**,
+    **val_auc_roc**, **n_train**, **n_val** for one trained pair.
+    **Aggregated table (best val_macro_f1_binary per pair across grid duplicates):**
+    src/dataset_construction/reports/pairwise_run_summary_metrics.csv
+    (generated by src/dataset_construction/reports/export_pairwise_run_summary_metrics.py).
+    Example row (canonical pain–rest pair):
+    individual_binary_pairs/01_Paining_Resting__restsingsweep_gs0030/training/run_summary.json
+    → val_macro_f1_binary **≈0.761**, val_auc_roc **≈0.821**, n_train/n_val **1257/314**.
+    Summary over the 45 rows in that CSV (best F1 per pair): pain-inclusive **9** pairs
+    mean macro-F1 **≈0.655** (std ≈0.050); non-pain-only **36** pairs mean **≈0.650**
+    (std ≈0.080); overall mean **≈0.651**.
+
+6.4 Stacking meta-learner — 9 vs 35 vs filtered 45 features
+    **9 features:** production-aligned **--pain-pair-models-only** (pain-inclusive OvO
+    logits only) — Runs **5.5** (stgcn_dlc_stack_20260504_235843) and **5.6**
+    (stgcn_dlc_stack_20260505_002322); see §3.4, §5.5–5.6.
+    **35 features:** Run **5.7** — starts from **n_input=45**, drops **10** low–early-stop
+    pairs, **n_kept=35**; best reported **val_macro_f1=0.5207** (XGBoost).
+    **45 features without dropping:** not recorded in an on-repo stack_report for this
+    holdout (see §5.7).
+    **Sample size / uncertainty:** meta-learner validation pain counts are small (e.g.
+    Run A stack_report: **19** val pain / **300** val clips; Run B: **24** / **328**).
+    Reported differences in **val_macro_f1** across model families are on the order of
+    **~0.04** — narrow compared to **bootstrap AUC** uncertainty in the voter ablation
+    (Appendix D / §7.2: roughly **±0.12–0.14** on AUC at 95%). Family rankings on the
+    meta-validation split should be treated as **exploratory**, not definitive.
+
+6.5 Quick pointers
+    ViTPose QC counts — §2.5; FGS definitions — §4.2; DLC vs ViTPose — §4.3–4.7.
+
+================================================================================
+7. ABLATIONS (POSE & STACK)
+================================================================================
+
+7.1 Pose body-region ablation
+    Script: video/pose-models/scripts/p4_pose_body_region_ablation.py
+    Report: runs/pose-models/p4_pose_region_ablation_20260429_170054/ablation_report.txt
+    **Scope (not all 9 pain pairs):** the shipped ablation_report covers **five**
+    pain-involved OvO heads — **Paining|Resting**, **Fighting|Paining**, **Warning|Paining**,
+    **HuntingMind|Paining**, **Mating|Paining** — matching the script's
+    `--audio10-preset paining_pairs` / five-model preset in the docstring.
+    **Angry|Paining**, **Defence|Paining**, **Happy|Paining**, and **MotherCall|Paining**
+    were **not** included in this run; do **not** claim full 9-pair ablation coverage.
+    Protocol (abbrev.): human-validation holdout with CNN14 pseudo-labels; audio_conf > 0.65;
+      ViTPose QC gates (mean_conf≥0.3, y_range<10); joint **zeroing** after
+      normalize_pose for masks: **drop_head** joints **0;1;2**; **drop_front_leg_L**
+      **5;6;7**; **drop_front_leg_R** **8;9;10**; hind legs **11–16**; combined paws /
+      paws+head as listed in the report table.
+    **Warning|Paining degeneracy:** for **Warning|Paining**, every ablation row shows the
+      **same** macro_F1 (**0.4375**) and the delta table is all **zeros** — the underlying
+      pairwise model behavior is **near-constant** (predicting the positive class for
+      essentially all holdout samples at score > 0.5), so **joint masking does not change**
+      the thresholded decision. This aligns with the stacking report's note that
+      **Paining|Warning** has **mean P(pos)≈0.91** (degenerate base model). **Do not**
+      interpret the Warning|Paining ablation block as showing meaningful body-region
+      sensitivity.
+    Example **deltas vs full** (macro F1) for non-degenerate pairs: **Paining_Resting** —
+      drop_all_paws −0.083; drop_all_paws_and_head −0.204. **Fighting_Paining** —
+      drop_head −0.058; drop_both_front_legs +0.038; drop_all_paws −0.157. **Mating_Paining**
+      — drop_front_leg_L +0.044 vs full. Full tables and per-pair **n**, **AUC** in
+      ablation_report.txt.
+
+7.2 Stack voter ablation (8- vs 6-voter logistic stack)
+    Analysis: runs/pose-models/p4_stack_logreg_20260425_115412/analysis/comparison_metrics.json
+    **Dropped voters in 6-voter setup:** Warning–Paining, Angry–Paining (see **dropped**
+      in JSON). **8-voter** auc_roc **0.6381**; **6-voter** auc_roc **0.6455** on the
+      same holdout split (macro_f1 and confusion counts identical in this file).
+    Bootstrap AUC / ECE also recorded (**bootstrap_ci**, **ece** keys). The bootstrap
+      intervals (**~±0.13** on AUC) overlap heavily — **8-voter vs 6-voter** ranking is
+      not statistically conclusive on this split.
+    Single Resting–Paining baseline row: **single_resting_paining** (auc_roc **0.6361**).
+
+================================================================================
+8. END-TO-END INFERENCE FLOW (ASCII)
+================================================================================
+
+  Input video
+       |
+       v
+  ffmpeg -> 16 kHz mono WAV
+       |
+       v
+  YAMNet P(cat)
+       |
+       +-- P(cat) >= threshold --> AUDIO: AudioSep + CatEmotionModel (10-class)
+       |
+       +-- P(cat) < threshold  --> VIDEO:
+               ViTPose + YOLO8x @ 5 Hz -> (35,17,3) raw_poses.npy
+               9 x P4 pairwise ST-GCN -> pairwise probabilities
+               sklearn LogReg meta (default run_05) -> P(pain), decision
+
+  CLI: python src/inference/pipeline.py --video <path>
+  Docs: src/inference/README.md
+
+================================================================================
+9. COMPLETE APPROACH INVENTORY (CHECKLIST)
+================================================================================
+
+ [ ] GPT-4o snippet description (02_gpt_description.py, gpt_description_prompt.md)
+ [ ] FGS LLM eval notebooks (video/gpt-fgs/)
+ [ ] EfficientNet-B3 CNN (video/cnn-finetuning/, configs default/gemini/v2)
+ [ ] ViTPose extraction (video/easyViTPose/extraction/06_pose_extraction.py)
+ [ ] P4 ST-GCN Track A 10-class (config_p4_10class.yaml)
+ [ ] P4 ST-GCN Track B 5-class + binary (config.yaml)
+ [ ] P4 pairwise 45 OvO (run_p4_pairwise.py, config_p4_pairwise.yaml)
+  [ ] Meta-learner zoo (train_stgcn_dlc_stack.py) — 9 vs 35 vs 45→35-filtered features
+ [ ] Legacy 8-voter LogReg stack (train_p4_pair_stack_logreg.py)
+ [ ] Stack ablation analyzer (analyze_stack_ablation.py)
+ [ ] DeepLabCut SuperAnimal extraction + ST-GCN–DLC train (06_pose_*, run_stgcn_deeplabcut_train.py)
+ [ ] Inference pipeline (src/inference/pipeline.py, video_branch.py, stgcn_loader.py)
+ [ ] Pose body-region ablation (p4_pose_body_region_ablation.py)
+
+================================================================================
+10. FILE & PATH INDEX (PRIMARY ARTIFACTS)
+================================================================================
+
+Verbatim copies of selected metrics files (thesis paste): §11 Appendix.
+
+Dataset construction
+  src/dataset_construction/config.yaml
+  src/dataset_construction/02_gpt_description.py
+  src/dataset_construction/config/gpt_description_prompt.md
+  src/dataset_construction/manifests/metadata_clean_01.jsonl
+  src/dataset_construction/manifests/metadata_clean_02.jsonl
+  src/dataset_construction/manifests/final_dataset_v2.jsonl
+  src/dataset_construction/reports/gpt_descriptions.jsonl
+  src/dataset_construction/reports/gpt_description_cache.jsonl
+  src/dataset_construction/reports/pose_extraction_index.jsonl
+  src/dataset_construction/reports/pose_extraction_superanimal_index.jsonl
+  src/dataset_construction/reports/vitpose_qc_enrichment.jsonl
+  src/dataset_construction/reports/vitpose_qc_enrichment_summary.txt
+  src/dataset_construction/reports/pairwise_run_summary_metrics.csv
+  src/dataset_construction/reports/export_pairwise_run_summary_metrics.py
+  src/dataset_construction/reports/video_pipeline_comprehensive_report.txt
+  src/dataset_construction/reports/dlc_qc_enrichment_summary.txt
+  src/dataset_construction/notebooks/superanimal_pose_esteem.ipynb
+
+Video / GPT-FGS
+  video/gpt-fgs/cat_pain_llm_eval.ipynb
+  video/gpt-fgs/cat_pain_llm_eval_local.ipynb
+
+CNN
+  video/cnn-finetuning/config/default.yaml
+  video/cnn-finetuning/config/v2.yaml
+  video/cnn-finetuning/config/gemini.yaml
+  video/cnn-finetuning/src/train.py
+  video/cnn-finetuning/src/model.py
+  video/cnn-finetuning/src/dataset.py
+  video/cnn-finetuning/src/evaluate.py
+
+ViTPose / easyViTPose
+  video/easyViTPose/extraction/06_pose_extraction.py
+  video/easyViTPose/easy_ViTPose/inference.py (VitInference)
+
+DeepLabCut
+  video/deep-lab-cut/extraction/06_pose_extraction_superanimal.py
+  video/deep-lab-cut/requirements-superanimal.txt
+  video/pose-models/run_stgcn_deeplabcut_train.py
+  video/pose-models/config_stgcn_dlc.yaml
+  video/pose-models/deeplabcut_pose_io.py
+  video/pose-models/models/stgcn_deeplabcut_model.py
+
+Pose models (P4 ST-GCN)
+  video/pose-models/models/p4_pose_stgcn.py
+  video/pose-models/models/blocks.py
+  video/pose-models/training_loop.py
+  video/pose-models/run_p4_pairwise.py
+  video/pose-models/class_subset_utils.py
+  video/pose-models/config.yaml
+  video/pose-models/config_p4_10class.yaml
+  video/pose-models/config_p4_pairwise.yaml
+
+Stacking & ablations
+  video/pose-models/scripts/train_stgcn_dlc_stack.py
+  video/pose-models/scripts/train_p4_pair_stack_logreg.py
+  video/pose-models/scripts/analyze_stack_ablation.py
+  video/pose-models/scripts/p4_pose_body_region_ablation.py
+
+Inference
+  src/inference/pipeline.py
+  src/inference/video_branch.py
+  src/inference/pose_assembler.py
+  src/inference/stgcn_loader.py
+  src/inference/README.md
+
+Runs (examples on disk; may be gitignored partially)
+  runs/cnn-finetuning/efficientnet_b3_v2_5class_20260420_191539/final_report.txt
+  runs/pose-models/p4_audio_10class_macrof1_lr3e5_20260428_183753/P4/fraction_100/cv_summary.json
+  runs/pose-models/p4_audio_10class_macrof1_lr3e5_20260428_183753/P4/fraction_100/fold_0/confusion_matrix_10class.png
+  runs/pose-models/p4_audio_10class_macrof1_lr3e5_20260428_183753/P4/fraction_100/fold_0/per_class_report.txt
+  runs/pose-models/p4_audio_10class_macrof1_lr3e5_20260428_183753/config_used.yaml
+  runs/pose-models/p4_pairwise_ensemble_bundle_20260428/
+  runs/pose-models/stgcn_dlc_stack_20260504_234915/stack_report.txt
+  runs/pose-models/p4_pose_region_ablation_20260429_170054/ablation_report.txt
+  runs/pose-models/p4_stack_logreg_20260425_115412/analysis/comparison_metrics.json
+  runs/pose-models/stgcn_dlc_stack_20260504_235843/
+  runs/pose-models/stgcn_dlc_stack_20260505_002322/
+  runs/pose-models/stgcn_deeplabcut_20260423_133939/
+  runs/llm_eval/  runs/llm_eval_local/
+
+Root docs
+  README.md
+  docs/script-index.md
+  report.txt
+
+================================================================================
+11. APPENDIX — VERBATIM SOURCE ARTIFACTS
+================================================================================
+
+The following blocks are byte-for-byte copies of files in the repository
+(except this header). Use them for thesis tables without retyping numbers.
+Repo-relative paths from the project root are given in each subsection title.
+
+--------------------------------------------------------------------------------
+A. src/dataset_construction/reports/pairwise_run_summary_metrics.csv
+--------------------------------------------------------------------------------
+pair,pain_inclusive,n_train,n_val,best_epoch,val_macro_f1_binary,val_auc_roc,run_summary_rel
+Angry|Paining,True,858,216,426,0.614286,0.599315,individual_binary_pairs/06_Angry_Paining__pain_finetune_8/training/run_summary.json
+Defence|Paining,True,604,151,18,0.586597,0.814943,full_sweep_runs/p4_defence_paining_finetune_hparam_sweep_20260425_111428/hparams_grid/gs0002_lr1e-05_bs8_wd0.01_g2.0_cosine/binary__Defence__Paining/training/run_summary.json
+Fighting|Paining,True,680,171,246,0.688562,0.731034,individual_binary_pairs/07_Fighting_Paining__pain_8_baseline/training/run_summary.json
+Happy|Paining,True,1205,301,39,0.635929,0.64821,individual_binary_pairs/05_Happy_Paining__pain_finetune_8/training/run_summary.json
+HuntingMind|Paining,True,1194,299,56,0.665249,0.680251,individual_binary_pairs/03_HuntingMind_Paining__pain_finetune_8/training/run_summary.json
+Mating|Paining,True,1390,346,63,0.640131,0.668557,individual_binary_pairs/09_Mating_Paining__pain_finetune_8/training/run_summary.json
+MotherCall|Paining,True,1073,263,137,0.636682,0.633013,individual_binary_pairs/04_MotherCall_Paining__pain_finetune_8/training/run_summary.json
+Paining|Resting,True,1257,314,415,0.7606,0.820567,individual_binary_pairs/01_Paining_Resting__restsingsweep_gs0030/training/run_summary.json
+Paining|Warning,True,622,155,21,0.670493,0.656552,individual_binary_pairs/02_Paining_Warning__pain_finetune_8/training/run_summary.json
+Angry|Defence,False,305,76,85,0.625616,0.641667,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0011__binary__Angry__Defence__lr1e-04_bs4_wd0.05_g2.0_cosine/binary__Angry__Defence/training/run_summary.json
+Angry|Fighting,False,382,95,7,0.684481,0.58,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0016__binary__Angry__Fighting__lr5e-05_bs4_wd0.01_g0.0_cosine/binary__Angry__Fighting/training/run_summary.json
+Angry|Happy,False,905,227,0,0.633807,0.637489,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0038__binary__Angry__Happy__lr5e-05_bs8_wd0.05_g0.0_cosine/binary__Angry__Happy/training/run_summary.json
+Angry|HuntingMind,False,897,222,35,0.625241,0.653552,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0062__binary__Angry__HuntingMind__lr1e-04_bs8_wd0.05_g0.0_cosine/binary__Angry__HuntingMind/training/run_summary.json
+Angry|Mating,False,1091,271,18,0.71079,0.733973,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0067__binary__Angry__Mating__lr5e-05_bs4_wd0.05_g2.0_cosine/binary__Angry__Mating/training/run_summary.json
+Angry|MotherCall,False,767,195,92,0.691734,0.688891,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0090__binary__Angry__MotherCall__lr1e-04_bs4_wd0.05_g0.0_cosine/binary__Angry__MotherCall/training/run_summary.json
+Angry|Resting,False,958,239,197,0.683024,0.698014,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0099__binary__Angry__Resting__lr5e-05_bs4_wd0.05_g2.0_cosine/binary__Angry__Resting/training/run_summary.json
+Angry|Warning,False,323,80,0,0.638009,0.705714,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0118__binary__Angry__Warning__lr5e-05_bs8_wd0.05_g0.0_cosine/binary__Angry__Warning/training/run_summary.json
+Defence|Fighting,False,127,31,23,0.756672,0.646667,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0143__binary__Defence__Fighting__lr1e-04_bs8_wd0.05_g2.0_cosine/binary__Defence__Fighting/training/run_summary.json
+Defence|Happy,False,650,163,0,0.490625,0.585987,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0159__binary__Defence__Happy__lr1e-04_bs8_wd0.05_g2.0_cosine/binary__Defence__Happy/training/run_summary.json
+Defence|HuntingMind,False,640,160,112,0.615385,0.636364,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0175__binary__Defence__HuntingMind__lr1e-04_bs8_wd0.05_g2.0_cosine/binary__Defence__HuntingMind/training/run_summary.json
+Defence|Mating,False,834,209,66,0.636774,0.633005,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0186__binary__Defence__Mating__lr1e-04_bs4_wd0.05_g0.0_cosine/binary__Defence__Mating/training/run_summary.json
+Defence|MotherCall,False,515,128,0,0.488,0.583333,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0192__binary__Defence__MotherCall__lr5e-05_bs4_wd0.01_g0.0_cosine/binary__Defence__MotherCall/training/run_summary.json
+Defence|Resting,False,703,175,92,0.635569,0.451677,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0223__binary__Defence__Resting__lr1e-04_bs8_wd0.05_g2.0_cosine/binary__Defence__Resting/training/run_summary.json
+Defence|Warning,False,66,18,2,0.721362,0.675325,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0224__binary__Defence__Warning__lr5e-05_bs4_wd0.01_g0.0_cosine/binary__Defence__Warning/training/run_summary.json
+Fighting|Happy,False,726,183,81,0.655738,0.71754,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0255__binary__Fighting__Happy__lr1e-04_bs8_wd0.05_g2.0_cosine/binary__Fighting__Happy/training/run_summary.json
+Fighting|HuntingMind,False,716,180,226,0.784367,0.813686,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0266__binary__Fighting__HuntingMind__lr1e-04_bs4_wd0.05_g0.0_cosine/binary__Fighting__HuntingMind/training/run_summary.json
+Fighting|Mating,False,911,228,50,0.698147,0.75019,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0283__binary__Fighting__Mating__lr1e-04_bs4_wd0.05_g2.0_cosine/binary__Fighting__Mating/training/run_summary.json
+Fighting|MotherCall,False,591,148,135,0.768729,0.794797,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0298__binary__Fighting__MotherCall__lr1e-04_bs4_wd0.05_g0.0_cosine/binary__Fighting__MotherCall/training/run_summary.json
+Fighting|Resting,False,779,195,112,0.794368,0.857988,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0318__binary__Fighting__Resting__lr1e-04_bs8_wd0.05_g0.0_cosine/binary__Fighting__Resting/training/run_summary.json
+Fighting|Warning,False,144,36,292,0.777778,0.785455,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0327__binary__Fighting__Warning__lr5e-05_bs8_wd0.05_g2.0_cosine/binary__Fighting__Warning/training/run_summary.json
+Happy|HuntingMind,False,1241,310,114,0.651482,0.621664,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0351__binary__Happy__HuntingMind__lr1e-04_bs8_wd0.05_g2.0_cosine/binary__Happy__HuntingMind/training/run_summary.json
+Happy|Mating,False,1436,358,6,0.646166,0.648182,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0356__binary__Happy__Mating__lr5e-05_bs8_wd0.01_g0.0_cosine/binary__Happy__Mating/training/run_summary.json
+Happy|MotherCall,False,1114,280,115,0.688261,0.709233,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0368__binary__Happy__MotherCall__lr5e-05_bs4_wd0.01_g0.0_cosine/binary__Happy__MotherCall/training/run_summary.json
+Happy|Resting,False,1303,326,61,0.721568,0.740253,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0391__binary__Happy__Resting__lr5e-05_bs8_wd0.05_g2.0_cosine/binary__Happy__Resting/training/run_summary.json
+Happy|Warning,False,668,167,90,0.65912,0.635781,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0415__binary__Happy__Warning__lr1e-04_bs8_wd0.05_g2.0_cosine/binary__Happy__Warning/training/run_summary.json
+HuntingMind|Mating,False,1424,357,6,0.623153,0.625838,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0419__binary__HuntingMind__Mating__lr5e-05_bs4_wd0.05_g2.0_cosine/binary__HuntingMind__Mating/training/run_summary.json
+HuntingMind|MotherCall,False,1104,277,98,0.627363,0.618757,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0436__binary__HuntingMind__MotherCall__lr5e-05_bs8_wd0.01_g0.0_cosine/binary__HuntingMind__MotherCall/training/run_summary.json
+HuntingMind|Resting,False,1293,323,59,0.626772,0.595289,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0458__binary__HuntingMind__Resting__lr1e-04_bs4_wd0.05_g0.0_cosine/binary__HuntingMind__Resting/training/run_summary.json
+HuntingMind|Warning,False,658,164,43,0.576714,0.573052,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0479__binary__HuntingMind__Warning__lr1e-04_bs8_wd0.05_g2.0_cosine/binary__HuntingMind__Warning/training/run_summary.json
+Mating|MotherCall,False,1298,326,180,0.646629,0.666306,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0487__binary__Mating__MotherCall__lr5e-05_bs8_wd0.05_g2.0_cosine/binary__Mating__MotherCall/training/run_summary.json
+Mating|Resting,False,1487,372,11,0.609356,0.604177,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0508__binary__Mating__Resting__lr1e-04_bs8_wd0.01_g0.0_cosine/binary__Mating__Resting/training/run_summary.json
+Mating|Warning,False,849,216,0,0.485714,0.554943,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0512__binary__Mating__Warning__lr5e-05_bs4_wd0.01_g0.0_cosine/binary__Mating__Warning/training/run_summary.json
+MotherCall|Resting,False,1168,291,102,0.636977,0.68445,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0543__binary__MotherCall__Resting__lr1e-04_bs8_wd0.05_g2.0_cosine/binary__MotherCall__Resting/training/run_summary.json
+MotherCall|Warning,False,532,133,182,0.591543,0.706408,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0551__binary__MotherCall__Warning__lr5e-05_bs8_wd0.05_g2.0_cosine/binary__MotherCall__Warning/training/run_summary.json
+Resting|Warning,False,719,181,0,0.48433,0.45615,full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0567__binary__Resting__Warning__lr5e-05_bs8_wd0.05_g2.0_cosine/binary__Resting__Warning/training/run_summary.json
+
+--------------------------------------------------------------------------------
+B. runs/cnn-finetuning/efficientnet_b3_v2_5class_20260420_191539/final_report.txt
+--------------------------------------------------------------------------------
+════════════════════════════════════════════════════════
+TRAINING REPORT: efficientnet_b3_v2_5class
+Run directory: cnn_finetune/runs/efficientnet_b3_v2_5class_20260420_191539
+Date: 2026-04-20 | Elapsed: 240m 6s
+════════════════════════════════════════════════════════
+
+CONFIGURATION
+───────────────
+Backbone:         EfficientNet-B3 (IMAGENET1K_V1)
+Pooling:          attention (3 frames)
+Bbox crop:        yes (YOLOv8x, conf=0.4, pad=20%)
+Image size:       300×300
+Freeze epochs:    10 | Unfreeze blocks: 1
+Head hidden dim:  128 | Dropout: 0.6
+Epochs:           60 (early stop patience=12)
+Batch size:       16
+LR backbone:      1e-06 | LR head: 0.001
+Loss:             Focal (γ=2.0) + 0.3×binary
+CV:               3-fold StratifiedGroupKFold (cat_id groups)
+
+DATA
+────
+Total clips:      5786
+Paining                 783  (13.5%) → Pain
+Positive_Baseline      1825  (31.5%) → No_Pain
+Agonistic               554  ( 9.6%) → No_Pain
+Vocalizing             1785  (30.9%) → No_Pain
+HuntingMind             839  (14.5%) → No_Pain
+
+5-CLASS RESULTS (mean ± std over 3 folds)
+─────────────────────────────────────────────
+Accuracy:     0.250 ± 0.010
+Macro F1:     0.249 ± 0.011
+Weighted F1:  0.249 ± 0.010
+
+Per-class F1:
+  Paining                0.282 ± 0.007
+  Positive_Baseline      0.272 ± 0.021
+  Agonistic              0.237 ± 0.037
+  Vocalizing             0.220 ± 0.013
+  HuntingMind            0.237 ± 0.010
+
+BINARY RESULTS (mean ± std over 3 folds)
+─────────────────────────────────────────────
+[from binary head]
+Sensitivity:  0.691 ± 0.060
+Specificity:  0.460 ± 0.059
+Macro F1:     0.438 ± 0.025
+
+[derived from 5-class argmax via binary_map]
+Sensitivity:  0.421 ± 0.008
+Specificity:  0.754 ± 0.005
+Macro F1:     0.550 ± 0.005
+
+BEST FOLD
+──────────
+Fold 1 | val_macro_f1=0.262 | sensitivity=0.632 | epoch=24
+
+COMPARISON WITH PREVIOUS RESULTS
+───────────────────────────────────
+Method                         │ Macro F1 │ Sensitivity │ Specificity
+──────────────────────────────┼──────────┼─────────────┼────────────
+EfficientNet-B3 (this run)     │  0.438   │    0.691    │   0.460
+Neural F1-OOF (pose+CLIP)      │  0.679   │    0.447    │   0.915
+GPT-4o FGS (corrected)         │  0.353   │    0.702    │   0.332
+GPT-4o label-derived           │  0.532   │    0.155    │   0.905
+════════════════════════════════════════════════════════
+
+--------------------------------------------------------------------------------
+C. runs/pose-models/p4_audio_10class_macrof1_lr3e5_20260428_183753/P4/fraction_100/cv_summary.json
+--------------------------------------------------------------------------------
+{
+  "model_id": "P4",
+  "model_name": "Pose-ST-GCN",
+  "fraction": 1.0,
+  "n_folds": 5,
+  "mean_macro_f1_5": 0.14516316347415442,
+  "std_macro_f1_5": 0.00923979651198763,
+  "mean_macro_f1_binary": 0.43738514926006716,
+  "std_macro_f1_binary": 0.03203629676268086,
+  "mean_sensitivity": 0.6091570881226053,
+  "std_sensitivity": 0.1293165827926358,
+  "mean_specificity": 0.48940512302791045,
+  "std_specificity": 0.0952211527281635,
+  "mean_accuracy_5": 0.19748008044146959,
+  "std_accuracy_5": 0.012864976598658998,
+  "mean_accuracy_binary": 0.5057334959202401,
+  "std_accuracy_binary": 0.06544632278250287,
+  "mean_auc_roc": 0.5703922349774365,
+  "std_auc_roc": 0.015171549080148687,
+  "mean_per_class_f1_Angry": 0.16098009473485464,
+  "std_per_class_f1_Angry": 0.0530393150140323,
+  "mean_per_class_recall_Angry": 0.24285714285714283,
+  "std_per_class_recall_Angry": 0.08329931278350429,
+  "mean_per_class_precision_Angry": 0.12269174885687444,
+  "std_per_class_precision_Angry": 0.042441183721331086,
+  "mean_per_class_f1_Defence": 0.0,
+  "std_per_class_f1_Defence": 0.0,
+  "mean_per_class_recall_Defence": 0.0,
+  "std_per_class_recall_Defence": 0.0,
+  "mean_per_class_precision_Defence": 0.0,
+  "std_per_class_precision_Defence": 0.0,
+  "mean_per_class_f1_Fighting": 0.1504512116628079,
+  "std_per_class_f1_Fighting": 0.0962911006066724,
+  "mean_per_class_recall_Fighting": 0.20400000000000001,
+  "std_per_class_recall_Fighting": 0.11248079388981409,
+  "mean_per_class_precision_Fighting": 0.1481890243902439,
+  "std_per_class_precision_Fighting": 0.1366476115786468,
+  "mean_per_class_f1_Happy": 0.15329592608879553,
+  "std_per_class_f1_Happy": 0.049331846256111096,
+  "mean_per_class_recall_Happy": 0.1189776253470521,
+  "std_per_class_recall_Happy": 0.06611716456800115,
+  "mean_per_class_precision_Happy": 0.2722556275053962,
+  "std_per_class_precision_Happy": 0.02092266305453922,
+  "mean_per_class_f1_HuntingMind": 0.1347772997317243,
+  "std_per_class_f1_HuntingMind": 0.06182213735602919,
+  "mean_per_class_recall_HuntingMind": 0.12602495543672015,
+  "std_per_class_recall_HuntingMind": 0.07289812086398925,
+  "mean_per_class_precision_HuntingMind": 0.1820872757574278,
+  "std_per_class_precision_HuntingMind": 0.03948612312256007,
+  "mean_per_class_f1_Mating": 0.24262233115059967,
+  "std_per_class_f1_Mating": 0.01502227625494315,
+  "mean_per_class_recall_Mating": 0.24015509925376777,
+  "std_per_class_recall_Mating": 0.03693828806821195,
+  "mean_per_class_precision_Mating": 0.24993245978649004,
+  "std_per_class_precision_Mating": 0.013502300338633278,
+  "mean_per_class_f1_MotherCall": 0.16625322081077604,
+  "std_per_class_f1_MotherCall": 0.03524325601529907,
+  "mean_per_class_recall_MotherCall": 0.19601492736238837,
+  "std_per_class_recall_MotherCall": 0.05815616268773225,
+  "mean_per_class_precision_MotherCall": 0.17854432473222173,
+  "std_per_class_precision_MotherCall": 0.07791244698230515,
+  "mean_per_class_f1_Paining": 0.13658504945940703,
+  "std_per_class_f1_Paining": 0.028569430911277772,
+  "mean_per_class_recall_Paining": 0.10903256704980843,
+  "std_per_class_recall_Paining": 0.031141017890532054,
+  "mean_per_class_precision_Paining": 0.24362116245368265,
+  "std_per_class_precision_Paining": 0.11639915236727347,
+  "mean_per_class_f1_Resting": 0.30666650110257915,
+  "std_per_class_f1_Resting": 0.030151425607600858,
+  "mean_per_class_recall_Resting": 0.36012530455969366,
+  "std_per_class_recall_Resting": 0.03847697069493566,
+  "mean_per_class_precision_Resting": 0.2697468408987164,
+  "std_per_class_precision_Resting": 0.03556609128736933,
+  "mean_per_class_f1_Warning": 0.0,
+  "std_per_class_f1_Warning": 0.0,
+  "mean_per_class_recall_Warning": 0.0,
+  "std_per_class_recall_Warning": 0.0,
+  "mean_per_class_precision_Warning": 0.0,
+  "std_per_class_precision_Warning": 0.0
+}
+
+--------------------------------------------------------------------------------
+D. runs/pose-models/p4_stack_logreg_20260425_115412/analysis/comparison_metrics.json
+--------------------------------------------------------------------------------
+{
+  "8_voter": {
+    "accuracy": 0.6689,
+    "macro_f1": 0.546,
+    "sensitivity": 0.55,
+    "specificity": 0.6875,
+    "precision_pain": 0.2157,
+    "auc_roc": 0.6381,
+    "tp": 11,
+    "tn": 88,
+    "fp": 40,
+    "fn": 9
+  },
+  "6_voter": {
+    "accuracy": 0.6689,
+    "macro_f1": 0.546,
+    "sensitivity": 0.55,
+    "specificity": 0.6875,
+    "precision_pain": 0.2157,
+    "auc_roc": 0.6455,
+    "tp": 11,
+    "tn": 88,
+    "fp": 40,
+    "fn": 9
+  },
+  "single_resting_paining": {
+    "accuracy": 0.6149,
+    "macro_f1": 0.5228,
+    "sensitivity": 0.65,
+    "specificity": 0.6094,
+    "precision_pain": 0.2063,
+    "auc_roc": 0.6361,
+    "tp": 13,
+    "tn": 78,
+    "fp": 50,
+    "fn": 7
+  },
+  "dropped": [
+    "Warning-Paining",
+    "Angry-Paining"
+  ],
+  "pair_names_8": [
+    "Resting-Paining",
+    "Angry-Paining",
+    "Happy-Paining",
+    "HuntingMind-Paining",
+    "MotherCall-Paining",
+    "Warning-Paining",
+    "Mating-Paining",
+    "Fighting-Paining"
+  ],
+  "pair_names_6": [
+    "Resting-Paining",
+    "Happy-Paining",
+    "HuntingMind-Paining",
+    "MotherCall-Paining",
+    "Mating-Paining",
+    "Fighting-Paining"
+  ],
+  "bootstrap_ci": {
+    "8-voter stack": {
+      "auc": 0.6380859375,
+      "ci_low": 0.5071745045977236,
+      "ci_high": 0.7660390619012281
+    },
+    "6-voter stack": {
+      "auc": 0.6455078125,
+      "ci_low": 0.5042510345631521,
+      "ci_high": 0.7791931895380434
+    },
+    "Resting-Paining alone": {
+      "auc": 0.6361328125,
+      "ci_low": 0.5067235622029735,
+      "ci_high": 0.7621231016970148
+    }
+  },
+  "ece": {
+    "8-voter stack": 0.30029,
+    "6-voter stack": 0.3044,
+    "Resting-Paining alone": 0.32555
+  },
+  "lr6_converged": true,
+  "lr6_n_iter": 9,
+  "lr6_coef": {
+    "Resting-Paining": 1.8891571391855544,
+    "Happy-Paining": -0.8515795547215058,
+    "HuntingMind-Paining": 0.4026976759243188,
+    "MotherCall-Paining": -0.530542667188711,
+    "Mating-Paining": 1.1038158706406709,
+    "Fighting-Paining": -0.2266563267251155
+  }
+}
+
+--------------------------------------------------------------------------------
+E. src/dataset_construction/reports/vitpose_qc_enrichment_summary.txt
+--------------------------------------------------------------------------------
+Built: 2026-04-23T19:37:16.882954+00:00Z
+Manifest: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/dataset_construction/manifests/final_dataset_v2.jsonl
+Gates: min_mean_conf=0.3  max_y_range=10.0  (real frames, channel 2 conf)
+Manifest lines scanned: 7318  (suitable only unless --include-unsuitable)
+Clips successfully scored: 5786
+  vitpose_qc_ok=True:  5307
+  vitpose_qc_ok=False: 479
+  skipped (no pose file): 0
+  skipped (unusable array): 0
+Wrote: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/dataset_construction/reports/vitpose_qc_enrichment.jsonl
+Wrote: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/dataset_construction/reports/vitpose_qc_excluded_ids.txt
+Elapsed: 3.3s
+Paining: 724 / 783 pass gates (92.5%)
+
+--------------------------------------------------------------------------------
+F. runs/pose-models/stgcn_dlc_stack_20260504_234915/stack_report.txt
+--------------------------------------------------------------------------------
+ST-GCN DLC stacking report
+========================
+Generated: 2026-05-04 23:50:56.495038
+
+Dataset summary:
+  total=901
+  train=601
+  val=300
+  class_counts={'Resting': 139, 'Paining': 57, 'Mating': 221, 'Happy': 67, 'HuntingMind': 240, 'MotherCall': 72, 'Angry': 49, 'Fighting': 21, 'Defence': 13, 'Warning': 22}
+  train_class_counts={'Resting': 93, 'Paining': 38, 'Mating': 147, 'Happy': 45, 'HuntingMind': 160, 'Angry': 33, 'MotherCall': 48, 'Defence': 8, 'Warning': 15, 'Fighting': 14}
+  val_class_counts={'MotherCall': 24, 'Fighting': 7, 'Happy': 22, 'Mating': 74, 'HuntingMind': 80, 'Paining': 19, 'Resting': 46, 'Defence': 5, 'Angry': 16, 'Warning': 7}
+  meta_task=binary (pain vs non-pain from audio_label_10)
+  meta_binary_train_counts={'non_pain': 563, 'Paining': 38}
+  meta_binary_val_counts={'non_pain': 281, 'Paining': 19}
+
+Pairwise input filter (training/run_summary.json):
+  min_best_epoch=10  (0-based index in training/run_summary.json (training_loop early-stopping checkpoint epoch))
+  n_input=45  n_kept=35  n_dropped=10
+  Dropped:
+    Angry|Fighting  best_epoch=7
+    Angry|Happy  best_epoch=0
+    Angry|Warning  best_epoch=0
+    Defence|Happy  best_epoch=0
+    Defence|MotherCall  best_epoch=0
+    Defence|Warning  best_epoch=2
+    Happy|Mating  best_epoch=6
+    HuntingMind|Mating  best_epoch=6
+    Mating|Warning  best_epoch=0
+    Resting|Warning  best_epoch=0
+
+Pairwise models (35):
+Angry|Defence: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pairwise_ensemble_bundle_20260428/full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0015__binary__Angry__Defence__lr1e-04_bs8_wd0.05_g2.0_cosine/binary__Angry__Defence
+Angry|HuntingMind: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pairwise_ensemble_bundle_20260428/full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0062__binary__Angry__HuntingMind__lr1e-04_bs8_wd0.05_g0.0_cosine/binary__Angry__HuntingMind
+Angry|Mating: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pairwise_ensemble_bundle_20260428/full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0067__binary__Angry__Mating__lr5e-05_bs4_wd0.05_g2.0_cosine/binary__Angry__Mating
+Angry|MotherCall: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pairwise_ensemble_bundle_20260428/full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0090__binary__Angry__MotherCall__lr1e-04_bs4_wd0.05_g0.0_cosine/binary__Angry__MotherCall
+Angry|Paining: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pairwise_ensemble_bundle_20260428/individual_binary_pairs/06_Angry_Paining__pain_finetune_8
+Angry|Resting: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pairwise_ensemble_bundle_20260428/full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0099__binary__Angry__Resting__lr5e-05_bs4_wd0.05_g2.0_cosine/binary__Angry__Resting
+Defence|Fighting: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pairwise_ensemble_bundle_20260428/full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0143__binary__Defence__Fighting__lr1e-04_bs8_wd0.05_g2.0_cosine/binary__Defence__Fighting
+Defence|HuntingMind: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pairwise_ensemble_bundle_20260428/full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0175__binary__Defence__HuntingMind__lr1e-04_bs8_wd0.05_g2.0_cosine/binary__Defence__HuntingMind
+Defence|Mating: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pairwise_ensemble_bundle_20260428/full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0191__binary__Defence__Mating__lr1e-04_bs8_wd0.05_g2.0_cosine/binary__Defence__Mating
+Defence|Paining: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pairwise_ensemble_bundle_20260428/full_sweep_runs/p4_defence_paining_finetune_hparam_sweep_20260425_111428/hparams_grid/gs0002_lr1e-05_bs8_wd0.01_g2.0_cosine/binary__Defence__Paining
+Defence|Resting: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pairwise_ensemble_bundle_20260428/full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0223__binary__Defence__Resting__lr1e-04_bs8_wd0.05_g2.0_cosine/binary__Defence__Resting
+Fighting|Happy: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pairwise_ensemble_bundle_20260428/full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0255__binary__Fighting__Happy__lr1e-04_bs8_wd0.05_g2.0_cosine/binary__Fighting__Happy
+Fighting|HuntingMind: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pairwise_ensemble_bundle_20260428/full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0270__binary__Fighting__HuntingMind__lr1e-04_bs8_wd0.05_g0.0_cosine/binary__Fighting__HuntingMind
+Fighting|Mating: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pairwise_ensemble_bundle_20260428/full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0283__binary__Fighting__Mating__lr1e-04_bs4_wd0.05_g2.0_cosine/binary__Fighting__Mating
+Fighting|MotherCall: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pairwise_ensemble_bundle_20260428/full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0298__binary__Fighting__MotherCall__lr1e-04_bs4_wd0.05_g0.0_cosine/binary__Fighting__MotherCall
+Fighting|Paining: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pairwise_ensemble_bundle_20260428/individual_binary_pairs/08_Fighting_Paining__fighting_finetune
+Fighting|Resting: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pairwise_ensemble_bundle_20260428/full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0318__binary__Fighting__Resting__lr1e-04_bs8_wd0.05_g0.0_cosine/binary__Fighting__Resting
+Fighting|Warning: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pairwise_ensemble_bundle_20260428/full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0335__binary__Fighting__Warning__lr1e-04_bs8_wd0.05_g2.0_cosine/binary__Fighting__Warning
+Happy|HuntingMind: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pairwise_ensemble_bundle_20260428/full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0351__binary__Happy__HuntingMind__lr1e-04_bs8_wd0.05_g2.0_cosine/binary__Happy__HuntingMind
+Happy|MotherCall: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pairwise_ensemble_bundle_20260428/full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0368__binary__Happy__MotherCall__lr5e-05_bs4_wd0.01_g0.0_cosine/binary__Happy__MotherCall
+Happy|Paining: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pairwise_ensemble_bundle_20260428/individual_binary_pairs/05_Happy_Paining__pain_finetune_8
+Happy|Resting: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pairwise_ensemble_bundle_20260428/full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0391__binary__Happy__Resting__lr5e-05_bs8_wd0.05_g2.0_cosine/binary__Happy__Resting
+Happy|Warning: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pairwise_ensemble_bundle_20260428/full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0415__binary__Happy__Warning__lr1e-04_bs8_wd0.05_g2.0_cosine/binary__Happy__Warning
+HuntingMind|MotherCall: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pairwise_ensemble_bundle_20260428/full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0436__binary__HuntingMind__MotherCall__lr5e-05_bs8_wd0.01_g0.0_cosine/binary__HuntingMind__MotherCall
+HuntingMind|Paining: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pairwise_ensemble_bundle_20260428/individual_binary_pairs/03_HuntingMind_Paining__pain_finetune_8
+HuntingMind|Resting: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pairwise_ensemble_bundle_20260428/full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0458__binary__HuntingMind__Resting__lr1e-04_bs4_wd0.05_g0.0_cosine/binary__HuntingMind__Resting
+HuntingMind|Warning: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pairwise_ensemble_bundle_20260428/full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0479__binary__HuntingMind__Warning__lr1e-04_bs8_wd0.05_g2.0_cosine/binary__HuntingMind__Warning
+Mating|MotherCall: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pairwise_ensemble_bundle_20260428/full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0487__binary__Mating__MotherCall__lr5e-05_bs8_wd0.05_g2.0_cosine/binary__Mating__MotherCall
+Mating|Paining: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pairwise_ensemble_bundle_20260428/individual_binary_pairs/09_Mating_Paining__pain_finetune_8
+Mating|Resting: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pairwise_ensemble_bundle_20260428/full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0508__binary__Mating__Resting__lr1e-04_bs8_wd0.01_g0.0_cosine/binary__Mating__Resting
+MotherCall|Paining: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pairwise_ensemble_bundle_20260428/individual_binary_pairs/04_MotherCall_Paining__pain_finetune_8
+MotherCall|Resting: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pairwise_ensemble_bundle_20260428/full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0543__binary__MotherCall__Resting__lr1e-04_bs8_wd0.05_g2.0_cosine/binary__MotherCall__Resting
+MotherCall|Warning: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pairwise_ensemble_bundle_20260428/full_sweep_runs/p4_nonpain36_grid_16_20260424_211353/hparams_grid/gs0555__binary__MotherCall__Warning__lr1e-04_bs4_wd0.05_g2.0_cosine/binary__MotherCall__Warning
+Paining|Resting: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pairwise_ensemble_bundle_20260428/individual_binary_pairs/01_Paining_Resting__restsingsweep_gs0030
+Paining|Warning: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pairwise_ensemble_bundle_20260428/individual_binary_pairs/02_Paining_Warning__pain_finetune_8
+
+Best run overall:
+  run_index=15 family=xgboost
+  hyperparams={"learning_rate": 0.01, "max_depth": 3, "n_estimators": 100}
+  val_accuracy=0.8300
+  val_macro_f1=0.5207
+  val_weighted_f1=0.8570
+  val_top3_accuracy=0.8300
+  val_auc_roc=0.5926
+  val_ece=0.6657
+  val_binary_f1_pain=0.1356
+  val_binary_precision_pain=0.1000
+  val_binary_recall_pain=0.2105
+  val_binary_accuracy=0.8300
+  val_binary_auc_roc=0.5926
+  val_f1_non_pain=0.9057
+  val_f1_Paining=0.1356
+
+Best per family:
+lightgbm: run=18 macro_f1=0.4706 top3=0.7400
+logreg_l1: run=0 macro_f1=0.4836 top3=0.9367
+logreg_l2: run=1 macro_f1=0.4918 top3=0.6400
+mlp: run=24 macro_f1=0.5060 top3=0.7000
+random_forest: run=11 macro_f1=0.4663 top3=0.7533
+xgboost: run=15 macro_f1=0.5207 top3=0.8300
+
+Family ranking (mean val_macro_f1):
+xgboost: 0.4956
+logreg_l2: 0.4763
+mlp: 0.4739
+lightgbm: 0.4646
+logreg_l1: 0.4281
+random_forest: 0.4202
+
+Top-5 features from best tree-like model:
+best tree-like run: 15
+  Happy|MotherCall: 0.067474
+  HuntingMind|Paining: 0.065030
+  Defence|HuntingMind: 0.061840
+  Mating|Paining: 0.060837
+  Fighting|Happy: 0.055483
+
+Top-5 logreg coefficients (sum abs across classes):
+best logreg-like run: 1
+  Fighting|MotherCall: 0.120159
+  Angry|Paining: 0.113597
+  Paining|Resting: 0.111427
+  Fighting|Resting: 0.109482
+  Happy|MotherCall: 0.095382
+
+Degenerate base model warnings:
+  Paining|Warning: mean(P(pos))=0.9099
+
+--------------------------------------------------------------------------------
+G. runs/pose-models/p4_pose_region_ablation_20260429_170054/ablation_report.txt
+--------------------------------------------------------------------------------
+P4 pose body-region ablation
+===========================
+
+Audio-10 human-validation holdout: y_true from CNN14 pseudo-labels (audio_label_10) restricted to each model's OvO pair; score = P(class_pos_label_int_1). Rows require audio_confidence > 0.65 and existing v1 pose_path. Clip IDs are disjoint from final_dataset_v2 snippet_id set (see holdout build script). Applied low_quality_pose exclusion (train_p4_pair_stack_logreg rule). Applied ViTPose QC gates mean_conf>=0.3, y_range<10.0 (enrichment cache: dataset_construction/reports/vitpose_qc_enrichment.jsonl).
+
+Per-model × ablation (macro_* = sklearn macro average over binary classes; 
+ f1_pain / precision_pain / recall_pain = **positive OvO class** (pair_meta class_pos_label_int_1)):
+
+          model_key               ablation                        joints_zeroed  threshold     n  accuracy  macro_f1  macro_precision  macro_recall  f1_pain  precision_pain  recall_pain  auc_roc  seconds
+    Paining_Resting                   full                                             0.5 107.0  0.728972  0.689855         0.683296      0.724231 0.579710        0.487805     0.714286 0.742767     0.36
+    Paining_Resting              drop_head                                0;1;2        0.5 107.0  0.728972  0.689855         0.683296      0.724231 0.579710        0.487805     0.714286 0.739150     0.07
+    Paining_Resting       drop_front_leg_L                                5;6;7        0.5 107.0  0.757009  0.710208         0.700509      0.731691 0.593750        0.527778     0.678571 0.753165     0.06
+    Paining_Resting       drop_front_leg_R                               8;9;10        0.5 107.0  0.775701  0.732500         0.721440      0.755877 0.625000        0.555556     0.714286 0.749096     0.06
+    Paining_Resting   drop_both_front_legs                         5;6;7;8;9;10        0.5 107.0  0.803738  0.754292         0.747241      0.763336 0.644068        0.612903     0.678571 0.736438     0.06
+    Paining_Resting        drop_hind_leg_L                             11;12;13        0.5 107.0  0.747664  0.706671         0.697587      0.736890 0.597015        0.512821     0.714286 0.746383     0.07
+    Paining_Resting        drop_hind_leg_R                             14;15;16        0.5 107.0  0.757009  0.715192         0.705187      0.743219 0.606061        0.526316     0.714286 0.752712     0.07
+    Paining_Resting    drop_both_hind_legs                    11;12;13;14;15;16        0.5 107.0  0.710280  0.673299         0.670058      0.711573 0.563380        0.465116     0.714286 0.739150     0.08
+    Paining_Resting          drop_all_paws       5;6;7;8;9;10;11;12;13;14;15;16        0.5 107.0  0.747664  0.607099         0.657971      0.598553 0.372093        0.533333     0.285714 0.727848     0.09
+    Paining_Resting drop_all_paws_and_head 0;1;2;5;6;7;8;9;10;11;12;13;14;15;16        0.5 107.0  0.738318  0.485577         0.623786      0.523056 0.125000        0.500000     0.071429 0.671338     0.07
+   Fighting_Paining                   full                                             0.5  40.0  0.625000  0.563636         0.562678      0.565476 0.727273        0.740741     0.714286 0.592262     0.08
+   Fighting_Paining              drop_head                                0;1;2        0.5  40.0  0.575000  0.505455         0.505698      0.505952 0.690909        0.703704     0.678571 0.577381     0.04
+   Fighting_Paining       drop_front_leg_L                                5;6;7        0.5  40.0  0.625000  0.542334         0.543887      0.541667 0.736842        0.724138     0.750000 0.589286     0.04
+   Fighting_Paining       drop_front_leg_R                               8;9;10        0.5  40.0  0.600000  0.544160         0.543956      0.547619 0.703704        0.730769     0.678571 0.595238     0.04
+   Fighting_Paining   drop_both_front_legs                         5;6;7;8;9;10        0.5  40.0  0.650000  0.601140         0.598901      0.607143 0.740741        0.769231     0.714286 0.574405     0.04
+   Fighting_Paining        drop_hind_leg_L                             11;12;13        0.5  40.0  0.650000  0.583333         0.583333      0.583333 0.750000        0.750000     0.750000 0.633929     0.18
+   Fighting_Paining        drop_hind_leg_R                             14;15;16        0.5  40.0  0.625000  0.563636         0.562678      0.565476 0.727273        0.740741     0.714286 0.630952     0.07
+   Fighting_Paining    drop_both_hind_legs                    11;12;13;14;15;16        0.5  40.0  0.625000  0.594320         0.597187      0.613095 0.705882        0.782609     0.642857 0.687500     0.04
+   Fighting_Paining          drop_all_paws       5;6;7;8;9;10;11;12;13;14;15;16        0.5  40.0  0.425000  0.406834         0.671429      0.589286 0.303030        1.000000     0.178571 0.714286     0.04
+   Fighting_Paining drop_all_paws_and_head 0;1;2;5;6;7;8;9;10;11;12;13;14;15;16        0.5  40.0  0.400000  0.386189         0.578431      0.547619 0.294118        0.833333     0.178571 0.675595     0.03
+    Warning_Paining                   full                                             0.5  36.0  0.777778  0.437500         0.388889      0.500000 0.875000        0.777778     1.000000 0.694196     0.09
+    Warning_Paining              drop_head                                0;1;2        0.5  36.0  0.777778  0.437500         0.388889      0.500000 0.875000        0.777778     1.000000 0.716518     0.03
+    Warning_Paining       drop_front_leg_L                                5;6;7        0.5  36.0  0.777778  0.437500         0.388889      0.500000 0.875000        0.777778     1.000000 0.716518     0.03
+    Warning_Paining       drop_front_leg_R                               8;9;10        0.5  36.0  0.777778  0.437500         0.388889      0.500000 0.875000        0.777778     1.000000 0.707589     0.03
+    Warning_Paining   drop_both_front_legs                         5;6;7;8;9;10        0.5  36.0  0.777778  0.437500         0.388889      0.500000 0.875000        0.777778     1.000000 0.716518     0.04
+    Warning_Paining        drop_hind_leg_L                             11;12;13        0.5  36.0  0.777778  0.437500         0.388889      0.500000 0.875000        0.777778     1.000000 0.685268     0.11
+    Warning_Paining        drop_hind_leg_R                             14;15;16        0.5  36.0  0.777778  0.437500         0.388889      0.500000 0.875000        0.777778     1.000000 0.743304     0.05
+    Warning_Paining    drop_both_hind_legs                    11;12;13;14;15;16        0.5  36.0  0.777778  0.437500         0.388889      0.500000 0.875000        0.777778     1.000000 0.689732     0.03
+    Warning_Paining          drop_all_paws       5;6;7;8;9;10;11;12;13;14;15;16        0.5  36.0  0.777778  0.437500         0.388889      0.500000 0.875000        0.777778     1.000000 0.631696     0.03
+    Warning_Paining drop_all_paws_and_head 0;1;2;5;6;7;8;9;10;11;12;13;14;15;16        0.5  36.0  0.777778  0.437500         0.388889      0.500000 0.875000        0.777778     1.000000 0.591518     0.04
+HuntingMind_Paining                   full                                             0.5 178.0  0.544944  0.484390         0.544944      0.584762 0.307692        0.202247     0.642857 0.604762     0.17
+HuntingMind_Paining              drop_head                                0;1;2        0.5 178.0  0.561798  0.496738         0.550303      0.594762 0.315789        0.209302     0.642857 0.579762     0.12
+HuntingMind_Paining       drop_front_leg_L                                5;6;7        0.5 178.0  0.573034  0.500074         0.546367      0.586905 0.309091        0.207317     0.607143 0.592857     0.12
+HuntingMind_Paining       drop_front_leg_R                               8;9;10        0.5 178.0  0.578652  0.509101         0.555802      0.604762 0.324324        0.216867     0.642857 0.594524     0.10
+HuntingMind_Paining   drop_both_front_legs                         5;6;7;8;9;10        0.5 178.0  0.589888  0.506963         0.544490      0.582381 0.304762        0.207792     0.571429 0.589048     0.11
+HuntingMind_Paining        drop_hind_leg_L                             11;12;13        0.5 178.0  0.544944  0.492949         0.560468      0.613810 0.330579        0.215054     0.714286 0.631190     0.10
+HuntingMind_Paining        drop_hind_leg_R                             14;15;16        0.5 178.0  0.505618  0.459489         0.540689      0.575952 0.301587        0.193878     0.678571 0.614048     0.10
+HuntingMind_Paining    drop_both_hind_legs                    11;12;13;14;15;16        0.5 178.0  0.432584  0.406960         0.526957      0.547143 0.283688        0.176991     0.714286 0.627143     0.10
+HuntingMind_Paining          drop_all_paws       5;6;7;8;9;10;11;12;13;14;15;16        0.5 178.0  0.623596  0.542346         0.571456      0.631429 0.349515        0.240000     0.642857 0.666429     0.12
+HuntingMind_Paining drop_all_paws_and_head 0;1;2;5;6;7;8;9;10;11;12;13;14;15;16        0.5 178.0  0.758427  0.550901         0.550220      0.551667 0.245614        0.241379     0.250000 0.594762     0.12
+     Mating_Paining                   full                                             0.5 181.0  0.629834  0.521900         0.543074      0.576797 0.294737        0.208955     0.500000 0.626401     0.21
+     Mating_Paining              drop_head                                0;1;2        0.5 181.0  0.618785  0.507629         0.531225      0.555672 0.273684        0.194030     0.464286 0.621965     0.13
+     Mating_Paining       drop_front_leg_L                                5;6;7        0.5 181.0  0.690608  0.565947         0.569000      0.612745 0.333333        0.250000     0.500000 0.650677     0.10
+     Mating_Paining       drop_front_leg_R                               8;9;10        0.5 181.0  0.657459  0.548229         0.561632      0.607726 0.326087        0.234375     0.535714 0.651144     0.15
+     Mating_Paining   drop_both_front_legs                         5;6;7;8;9;10        0.5 181.0  0.707182  0.570917         0.569759      0.607960 0.329114        0.254902     0.464286 0.652544     0.12
+     Mating_Paining        drop_hind_leg_L                             11;12;13        0.5 181.0  0.668508  0.556373         0.566346      0.614262 0.333333        0.241935     0.535714 0.655812     0.11
+     Mating_Paining        drop_hind_leg_R                             14;15;16        0.5 181.0  0.646409  0.546366         0.564550      0.615780 0.333333        0.235294     0.571429 0.639706     0.12
+     Mating_Paining    drop_both_hind_legs                    11;12;13;14;15;16        0.5 181.0  0.602210  0.524934         0.562995      0.618814 0.333333        0.225000     0.642857 0.644841     0.23
+     Mating_Paining          drop_all_paws       5;6;7;8;9;10;11;12;13;14;15;16        0.5 181.0  0.723757  0.525482         0.524808      0.530229 0.218750        0.194444     0.250000 0.661648     0.12
+     Mating_Paining drop_all_paws_and_head 0;1;2;5;6;7;8;9;10;11;12;13;14;15;16        0.5 181.0  0.817680  0.525839         0.562834      0.527428 0.153846        0.272727     0.107143 0.643674     0.12
+
+Deltas vs full:
+
+          model_key               ablation  delta_macro_f1  delta_macro_precision  delta_macro_recall  delta_f1_pain  delta_precision_pain  delta_recall_pain
+    Paining_Resting              drop_head        0.000000               0.000000            0.000000       0.000000              0.000000           0.000000
+    Paining_Resting       drop_front_leg_L        0.020353               0.017213            0.007460       0.014040              0.039973          -0.035715
+    Paining_Resting       drop_front_leg_R        0.042645               0.038144            0.031646       0.045290              0.067751           0.000000
+    Paining_Resting   drop_both_front_legs        0.064437               0.063945            0.039105       0.064358              0.125098          -0.035715
+    Paining_Resting        drop_hind_leg_L        0.016816               0.014291            0.012659       0.017305              0.025016           0.000000
+    Paining_Resting        drop_hind_leg_R        0.025337               0.021891            0.018988       0.026351              0.038511           0.000000
+    Paining_Resting    drop_both_hind_legs       -0.016556              -0.013238           -0.012658      -0.016330             -0.022689           0.000000
+    Paining_Resting          drop_all_paws       -0.082756              -0.025325           -0.125678      -0.207617              0.045528          -0.428572
+    Paining_Resting drop_all_paws_and_head       -0.204278              -0.059510           -0.201175      -0.454710              0.012195          -0.642857
+   Fighting_Paining              drop_head       -0.058181              -0.056980           -0.059524      -0.036364             -0.037037          -0.035715
+   Fighting_Paining       drop_front_leg_L       -0.021302              -0.018791           -0.023809       0.009569             -0.016603           0.035714
+   Fighting_Paining       drop_front_leg_R       -0.019476              -0.018722           -0.017857      -0.023569             -0.009972          -0.035715
+   Fighting_Paining   drop_both_front_legs        0.037504               0.036223            0.041667       0.013468              0.028490           0.000000
+   Fighting_Paining        drop_hind_leg_L        0.019697               0.020655            0.017857       0.022727              0.009259           0.035714
+   Fighting_Paining        drop_hind_leg_R        0.000000               0.000000            0.000000       0.000000              0.000000           0.000000
+   Fighting_Paining    drop_both_hind_legs        0.030684               0.034509            0.047619      -0.021391              0.041868          -0.071429
+   Fighting_Paining          drop_all_paws       -0.156802               0.108751            0.023810      -0.424243              0.259259          -0.535715
+   Fighting_Paining drop_all_paws_and_head       -0.177447               0.015753           -0.017857      -0.433155              0.092592          -0.535715
+    Warning_Paining              drop_head        0.000000               0.000000            0.000000       0.000000              0.000000           0.000000
+    Warning_Paining       drop_front_leg_L        0.000000               0.000000            0.000000       0.000000              0.000000           0.000000
+    Warning_Paining       drop_front_leg_R        0.000000               0.000000            0.000000       0.000000              0.000000           0.000000
+    Warning_Paining   drop_both_front_legs        0.000000               0.000000            0.000000       0.000000              0.000000           0.000000
+    Warning_Paining        drop_hind_leg_L        0.000000               0.000000            0.000000       0.000000              0.000000           0.000000
+    Warning_Paining        drop_hind_leg_R        0.000000               0.000000            0.000000       0.000000              0.000000           0.000000
+    Warning_Paining    drop_both_hind_legs        0.000000               0.000000            0.000000       0.000000              0.000000           0.000000
+    Warning_Paining          drop_all_paws        0.000000               0.000000            0.000000       0.000000              0.000000           0.000000
+    Warning_Paining drop_all_paws_and_head        0.000000               0.000000            0.000000       0.000000              0.000000           0.000000
+HuntingMind_Paining              drop_head        0.012348               0.005359            0.010000       0.008097              0.007055           0.000000
+HuntingMind_Paining       drop_front_leg_L        0.015684               0.001423            0.002143       0.001399              0.005070          -0.035714
+HuntingMind_Paining       drop_front_leg_R        0.024711               0.010858            0.020000       0.016632              0.014620           0.000000
+HuntingMind_Paining   drop_both_front_legs        0.022573              -0.000454           -0.002381      -0.002930              0.005545          -0.071428
+HuntingMind_Paining        drop_hind_leg_L        0.008559               0.015524            0.029048       0.022887              0.012807           0.071429
+HuntingMind_Paining        drop_hind_leg_R       -0.024901              -0.004255           -0.008810      -0.006105             -0.008369           0.035714
+HuntingMind_Paining    drop_both_hind_legs       -0.077430              -0.017987           -0.037619      -0.024004             -0.025256           0.071429
+HuntingMind_Paining          drop_all_paws        0.057956               0.026512            0.046667       0.041823              0.037753           0.000000
+HuntingMind_Paining drop_all_paws_and_head        0.066511               0.005276           -0.033095      -0.062078              0.039132          -0.392857
+     Mating_Paining              drop_head       -0.014271              -0.011849           -0.021125      -0.021053             -0.014925          -0.035714
+     Mating_Paining       drop_front_leg_L        0.044047               0.025926            0.035948       0.038596              0.041045           0.000000
+     Mating_Paining       drop_front_leg_R        0.026329               0.018558            0.030929       0.031350              0.025420           0.035714
+     Mating_Paining   drop_both_front_legs        0.049017               0.026685            0.031163       0.034377              0.045947          -0.035714
+     Mating_Paining        drop_hind_leg_L        0.034473               0.023272            0.037465       0.038596              0.032980           0.035714
+     Mating_Paining        drop_hind_leg_R        0.024466               0.021476            0.038983       0.038596              0.026339           0.071429
+     Mating_Paining    drop_both_hind_legs        0.003034               0.019921            0.042017       0.038596              0.016045           0.142857
+     Mating_Paining          drop_all_paws        0.003582              -0.018266           -0.046568      -0.075987             -0.014511          -0.250000
+     Mating_Paining drop_all_paws_and_head        0.003939               0.019760           -0.049369      -0.140891              0.063772          -0.392857
+
+Artifacts: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/model_training_v2/runs/p4_pose_region_ablation_20260429_170054
+
+
+--------------------------------------------------------------------------------
+H. Track A fold 0 — classification report + confusion matrix artifacts
+--------------------------------------------------------------------------------
+**confusion_matrix_10class.png** — row-normalized 10×10 heatmap (best epoch) at:
+  runs/pose-models/p4_audio_10class_macrof1_lr3e5_20260428_183753/P4/fraction_100/fold_0/confusion_matrix_10class.png
+**confusion_matrix_binary.png** — binary pain vs non-pain at:
+  .../fold_0/confusion_matrix_binary.png
+CV folds omit `.txt` confusion exports (`write_txt_artifacts=False` in training_loop);
+use PNG or re-evaluate to emit ASCII counts.
+
+runs/pose-models/p4_audio_10class_macrof1_lr3e5_20260428_183753/P4/fraction_100/fold_0/per_class_report.txt
+              precision    recall  f1-score   support
+
+       Angry       0.09      0.27      0.13        70
+     Defence       0.00      0.00      0.00         6
+    Fighting       0.07      0.54      0.13        26
+       Happy       0.27      0.10      0.14       156
+ HuntingMind       0.16      0.13      0.14       154
+      Mating       0.31      0.18      0.22       203
+  MotherCall       0.16      0.14      0.15       122
+     Paining       0.26      0.13      0.18       144
+     Resting       0.29      0.28      0.28       170
+     Warning       0.00      0.00      0.00        10
+
+    accuracy                           0.18      1061
+   macro avg       0.16      0.18      0.14      1061
+weighted avg       0.23      0.18      0.18      1061
+================================================================================
+END OF REPORT
+================================================================================

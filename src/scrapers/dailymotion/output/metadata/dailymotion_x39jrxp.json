@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x39jrxp",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x39jrxp_video.mp4",
+  "audio_path": "output/videos/dailymotion_x39jrxp_audio.mp3",
+  "duration_sec": 59,
+  "duration_seconds": 59.0,
+  "title": "Кот, отдай тыщу!",
+  "webpage_url": "https://www.dailymotion.com/video/x39jrxp",
+  "dm_id": "x39jrxp",
+  "views_total": 17622,
+  "view_count": 17622,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1444771078,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat in a situation that could involve interaction or play.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x39jrxp",
+    "decision": "keep",
+    "reason": "The title suggests a cat in a situation that could involve interaction or play.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

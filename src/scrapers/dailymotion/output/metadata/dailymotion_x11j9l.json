@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x11j9l",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x11j9l_video.mp4",
+  "audio_path": "output/videos/dailymotion_x11j9l_audio.mp3",
+  "duration_sec": 7,
+  "duration_seconds": 7.0,
+  "title": "pepsi et luna 2",
+  "webpage_url": "https://www.dailymotion.com/video/x11j9l",
+  "dm_id": "x11j9l",
+  "views_total": 1365,
+  "view_count": 1365,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "chats",
+    "bagarre",
+    "drôle",
+    "mignon",
+    "amour",
+    "morsure"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "La suite des aventures de nos périlleux amis les animaux !!! XD Apèrs la séance de câlins, voilà la séance des bagarres ! mdr Je les adores...",
+  "created_time": 1169503087,
+  "search_query": "bagarre de chats dehors",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates playful and possibly agonistic behavior between cats.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x11j9l",
+    "decision": "keep",
+    "reason": "The description indicates playful and possibly agonistic behavior between cats.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

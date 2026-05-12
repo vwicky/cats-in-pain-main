@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x6obwvh",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6obwvh_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6obwvh_audio.mp3",
+  "duration_sec": 45,
+  "duration_seconds": 45.0,
+  "title": "Gatinhos a descansar em uma sala reagem a terremoto momentos antes de acontecer",
+  "webpage_url": "https://www.dailymotion.com/video/x6obwvh",
+  "dm_id": "x6obwvh",
+  "views_total": 19120,
+  "view_count": 19120,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "gatinhos pressentem terramoto",
+    "gatos pressentem",
+    "gatos adivinham"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Felizmente todos eles acabaram em segurança e sem quaisquer ferimentos.",
+  "created_time": 1531330957,
+  "search_query": "gatinhos brincalhões relaxando",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features cats reacting to an earthquake, indicating awareness.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6obwvh",
+    "decision": "keep",
+    "reason": "The video features cats reacting to an earthquake, indicating awareness.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

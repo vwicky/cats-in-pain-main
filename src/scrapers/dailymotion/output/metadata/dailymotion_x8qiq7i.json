@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8qiq7i",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8qiq7i_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8qiq7i_audio.mp3",
+  "duration_sec": 42,
+  "duration_seconds": 42.0,
+  "title": "Gatto rivela un improbabile talento al cane: oltre 13 milioni di persone riguardano il video più volte (Video)",
+  "webpage_url": "https://www.dailymotion.com/video/x8qiq7i",
+  "dm_id": "x8qiq7i",
+  "views_total": 10014,
+  "view_count": 10014,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "I gatti sono acrobati sopraffini. Ogni giorno sfidano le leggi della natura lasciando chi li guarda senza parole.",
+  "created_time": 1702479407,
+  "search_query": "comportamento di un gatto ferito",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video highlights a cat's acrobatic talent, relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8qiq7i",
+    "decision": "keep",
+    "reason": "The video highlights a cat's acrobatic talent, relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

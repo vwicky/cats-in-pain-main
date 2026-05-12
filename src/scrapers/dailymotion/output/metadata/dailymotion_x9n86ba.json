@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9n86ba",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9n86ba_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9n86ba_audio.mp3",
+  "duration_sec": 51,
+  "duration_seconds": 51.0,
+  "title": "Piacenza, il gatto finisce nel pozzo e viene salvato dai vigili del fuoco",
+  "webpage_url": "https://www.dailymotion.com/video/x9n86ba",
+  "dm_id": "x9n86ba",
+  "views_total": 7119,
+  "view_count": 7119,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "Besenzone, gattino cade in un pozzo profondo 8 metri: salvato dai vigili del fuoco e adottato dalla donna che l’ha trovato. È successo nella tarda mattinata di sabato 19 luglio, a Besenzone, in provincia di Piacenza. Una piccola disavventura a lieto fine per il piccolo felino che è precipitato in un pozzo secco adiacente ad un vecchio cascinale abbandonato nelle campagne tra i campi dorati dal caldo estivo. Un miagolio flebile e disperato ha catturato, per sua fortuna, l’attenzione di una donna del posto, conosciuta per la sua dedizione alla piccola colonia felina che vive nei pressi della struttura rurale. Senza esitare, ha chiamato il numero unico di emergenza 112, lanciando così l’allarme. Sul posto è intervenuta la squadra dei vigili del fuoco del distaccamento di Fiorenzuola d’ArdaCon l’uso delle tecniche Saf (Speleo alpino fluviali), uno dei pompieri si è calato con imbragatura e corda all’interno dello stretto cunicolo di circa 70 centimetri di diametro. Un’operazione delicata, eseguita con precisione e sangue freddo, che si è conclusa con il recupero del micetto, provato ma in buone condizioni.Il cucciolo è stato affidato alla signora che lo aveva segnalato e che, commossa, ha deciso di prendersene cura e adottarlo. I vigili, nel frattempo, gli hanno dato un nome simbolico: «Barbara», in onore della loro santa protettrice.Sul posto sono giunti anche i carabinieri di Cortemaggiore, allertati per mettere in sicurezza l’area. Il pozzo, infatti, rappresenta un grave pericolo per persone e animali, essendo completamente privo di copertura e visibile solo da pochi metri di distanza. Verrà ora segnalato formalmente al proprietario del terreno per gli interventi di messa in sicurezza.",
+  "created_time": 1752932732,
+  "search_query": "postura difensiva del gatto",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video describes a cat being rescued, which is relevant to real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9n86ba",
+    "decision": "keep",
+    "reason": "The video describes a cat being rescued, which is relevant to real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

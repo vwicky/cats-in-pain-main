@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x9gtigi",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9gtigi_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9gtigi_audio.mp3",
+  "duration_sec": 23,
+  "duration_seconds": 23.0,
+  "title": "Frau rettet eine frierende Katze: 24 Stunden später ist sie fassungslos, was unter ihrem Bett liegt",
+  "webpage_url": "https://www.dailymotion.com/video/x9gtigi",
+  "dm_id": "x9gtigi",
+  "views_total": 36311,
+  "view_count": 36311,
+  "likes_total": 4,
+  "like_count": 4,
+  "tags": [
+    "News Katze"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Vor ungefähr zwei Monaten findet Damaris aus New York eine Katze vor einem Laden und bemerkt sofort, dass sie Hilfe benötigt.",
+  "created_time": 1743852300,
+  "search_query": "Katze nach der Impfung",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a woman rescuing a freezing cat, which is relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9gtigi",
+    "decision": "keep",
+    "reason": "The video discusses a woman rescuing a freezing cat, which is relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

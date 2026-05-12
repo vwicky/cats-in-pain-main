@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x32xzh1",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x32xzh1_video.mp4",
+  "audio_path": "output/videos/dailymotion_x32xzh1_audio.mp3",
+  "duration_sec": 44,
+  "duration_seconds": 44.0,
+  "title": "Сонные котята - Няшность 100%",
+  "webpage_url": "https://www.dailymotion.com/video/x32xzh1",
+  "dm_id": "x32xzh1",
+  "views_total": 5632,
+  "view_count": 5632,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1440464866,
+  "search_query": "игривые котята отдыхают",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests sleepy kittens, indicating real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x32xzh1",
+    "decision": "keep",
+    "reason": "The title suggests sleepy kittens, indicating real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

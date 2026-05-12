@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x6gna9w",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6gna9w_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6gna9w_audio.mp3",
+  "duration_sec": 43,
+  "duration_seconds": 43.0,
+  "title": "Un chat dénonce son acolyte",
+  "webpage_url": "https://www.dailymotion.com/video/x6gna9w",
+  "dm_id": "x6gna9w",
+  "views_total": 31704,
+  "view_count": 31704,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "mignon"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un chat dénonce son acolyte. En rentrant chez lui, un homme a constaté qu’un sac de litière avait été éventré, le maitre va donc poser la question fatidique ! Qui es le coupable ? <br /><br />★ Un petit tour sur notre site ► http://breakforbuzz.com<br />★ Rejoins-nous sur Facebook ► https://www.facebook.com/breakforbuzz<br />★ Rejoins-nous sur Twitter ► https://twitter.com/Breakforbuzzcom",
+  "created_time": 1521640549,
+  "search_query": "chat malade chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat and its behavior, making it suitable for the dataset.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6gna9w",
+    "decision": "keep",
+    "reason": "The video features a cat and its behavior, making it suitable for the dataset.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

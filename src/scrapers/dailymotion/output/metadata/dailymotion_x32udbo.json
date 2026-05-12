@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x32udbo",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x32udbo_video.mp4",
+  "audio_path": "output/videos/dailymotion_x32udbo_audio.mp3",
+  "duration_sec": 53,
+  "duration_seconds": 53.0,
+  "title": "Очень смелый Кот",
+  "webpage_url": "https://www.dailymotion.com/video/x32udbo",
+  "dm_id": "x32udbo",
+  "views_total": 565,
+  "view_count": 565,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1440408490,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a brave cat, which could imply various behaviors.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x32udbo",
+    "decision": "keep",
+    "reason": "The title suggests a brave cat, which could imply various behaviors.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

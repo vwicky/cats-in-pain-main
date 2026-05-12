@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3p7pfw",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3p7pfw_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3p7pfw_audio.mp3",
+  "duration_sec": 29,
+  "duration_seconds": 29.0,
+  "title": "Кот не может слезть с крыши. Классный прикол про кота",
+  "webpage_url": "https://www.dailymotion.com/video/x3p7pfw",
+  "dm_id": "x3p7pfw",
+  "views_total": 5005,
+  "view_count": 5005,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "funny",
+    "cats",
+    "prikoli",
+    "video",
+    "clip",
+    "best",
+    "rolik",
+    "смешно",
+    "comedy"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Ukrainian",
+  "description": "",
+  "created_time": 1454072902,
+  "search_query": "захисна поза кота",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat stuck on a roof, suggesting a humorous situation involving a cat.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3p7pfw",
+    "decision": "keep",
+    "reason": "The title indicates a cat stuck on a roof, suggesting a humorous situation involving a cat.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8tks20",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8tks20_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8tks20_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Ces chats qui ont pour habitude d'observer les oiseaux dans la mangeoire sont subjugués par un invité surprise (vidéo)",
+  "webpage_url": "https://www.dailymotion.com/video/x8tks20",
+  "dm_id": "x8tks20",
+  "views_total": 1323,
+  "view_count": 1323,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Alors que ces chats ont pour habitude d'observer les petits oiseaux qui viennent se nourrir juste derrière leur fenêtre, ils ont été surpris par un invité de taille.",
+  "created_time": 1709215192,
+  "search_query": "chats qui parlent aux oiseaux",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features cats observing birds, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8tks20",
+    "decision": "keep",
+    "reason": "The video features cats observing birds, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_xa41unc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xa41unc_video.mp4",
+  "audio_path": "output/videos/dailymotion_xa41unc_audio.mp3",
+  "duration_sec": 49,
+  "duration_seconds": 49.0,
+  "title": "funny cats 1",
+  "webpage_url": "https://www.dailymotion.com/video/xa41unc",
+  "dm_id": "xa41unc",
+  "views_total": 538,
+  "view_count": 538,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cat",
+    "funny",
+    "meme",
+    "kitty",
+    "kitties",
+    "cats",
+    "pets",
+    "pet",
+    "animals"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1775063594,
+  "search_query": "happy cat purring",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests funny cat content, which is plausible.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xa41unc",
+    "decision": "keep",
+    "reason": "The title suggests funny cat content, which is plausible.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

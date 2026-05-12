@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9kfym4",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9kfym4_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9kfym4_audio.mp3",
+  "duration_sec": 17,
+  "duration_seconds": 17.0,
+  "title": "Niña corre tras un vehículo después de ser presuntamente abandonada en la calle",
+  "webpage_url": "https://www.dailymotion.com/video/x9kfym4",
+  "dm_id": "x9kfym4",
+  "views_total": 601,
+  "view_count": 601,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Niña corre tras un vehículo después de ser presuntamente abandonada en la calle",
+  "created_time": 1748527609,
+  "search_query": "gato después de la vacunación",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat that may have been abandoned, which is relevant to real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9kfym4",
+    "decision": "keep",
+    "reason": "The title suggests a cat that may have been abandoned, which is relevant to real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

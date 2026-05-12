@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8nfjd3",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8nfjd3_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8nfjd3_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "Vídeo impressionante: gata fica exausta com sua ninhada de filhotes esfomeados",
+  "webpage_url": "https://www.dailymotion.com/video/x8nfjd3",
+  "dm_id": "x8nfjd3",
+  "views_total": 890,
+  "view_count": 890,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Haja leite para tantos gatinhos!",
+  "created_time": 1692795964,
+  "search_query": "gatinhos brincalhões relaxando",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat with kittens, indicating real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8nfjd3",
+    "decision": "keep",
+    "reason": "The title suggests a cat with kittens, indicating real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

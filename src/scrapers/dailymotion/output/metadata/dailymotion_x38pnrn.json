@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x38pnrn",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x38pnrn_video.mp4",
+  "audio_path": "output/videos/dailymotion_x38pnrn_audio.mp3",
+  "duration_sec": 14,
+  "duration_seconds": 14.0,
+  "title": "Кота застукали, потрясающая реакция))",
+  "webpage_url": "https://www.dailymotion.com/video/x38pnrn",
+  "dm_id": "x38pnrn",
+  "views_total": 614,
+  "view_count": 614,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "кот"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Кота застукали, потрясающая реакция))",
+  "created_time": 1444113474,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's reaction, indicating possible interesting behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x38pnrn",
+    "decision": "keep",
+    "reason": "The title suggests a cat's reaction, indicating possible interesting behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

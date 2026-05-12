@@ -1,0 +1,12 @@
+Face visibility by five-class label (gpt_face_clearly_visible)
+============================================================
+(Table uses rows with non-null final_label_5 only.)
+n_missing_label5 (global excluded from label-based plots): 1071
+
+emotion                     face=True face=False    missing      total
+------------------------------------------------------------------
+Agonistic                         403        216          0        619
+HuntingMind                       450        426          0        876
+Paining                           642        218          0        860
+Positive_Baseline                1207        797          0       2004
+Vocalizing                       1123        765          0       1888

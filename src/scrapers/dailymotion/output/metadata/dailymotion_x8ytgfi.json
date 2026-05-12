@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8ytgfi",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8ytgfi_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8ytgfi_audio.mp3",
+  "duration_sec": 51,
+  "duration_seconds": 51.0,
+  "title": "大卷尾空襲橘貓輪流暴打 (民眾提供)",
+  "webpage_url": "https://www.dailymotion.com/video/x8ytgfi",
+  "dm_id": "x8ytgfi",
+  "views_total": 5524,
+  "view_count": 5524,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "zh",
+  "query_language": "Japanese",
+  "description": "大卷尾空襲橘貓輪流暴打 <br />https://news.ltn.com.tw/news/life/breakingnews/4679396 <br /> <br />被愛貓族認為戰鬥力滿滿的橘貓也有虎落平陽的一天，地點則是位在成功分局與地政事務所前的大斜坡下。民眾發現，近來俗稱「烏秋」的鳥類對散步經過的橘貓進行飽合式攻擊，雖橘貓已呈現「飛機耳」表現不耐，也只能照既定路線離去。俗稱烏秋的大卷尾，由於有領域性，加上其空中迴轉半徑小、速度快，因此動作更靈活，在鄉間甚至 <br /> <br />---------------------------------------------------- <br /> <br />我們的頻道➔ http://video.ltn.com.tw <br />YouTube➔ https://www.youtube.com/user/tvforltn <br />Dailymotion➔ https://www.dailymotion.com/LibertyTimes",
+  "created_time": 1716275954,
+  "search_query": "攻撃的な猫の行動",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat is involved in a conflict with birds.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8ytgfi",
+    "decision": "keep",
+    "reason": "The title suggests a cat is involved in a conflict with birds.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

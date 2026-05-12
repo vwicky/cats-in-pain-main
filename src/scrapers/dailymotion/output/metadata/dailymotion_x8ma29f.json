@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8ma29f",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8ma29f_video.mp4.part-Frag15.part",
+  "audio_path": "output/videos/dailymotion_x8ma29f_audio.mp3",
+  "duration_sec": 46,
+  "duration_seconds": 46.0,
+  "title": "Vídeo hilário: cão e gato se encaram, ensaiam luta, mas ambos têm reações dramáticas",
+  "webpage_url": "https://www.dailymotion.com/video/x8ma29f",
+  "dm_id": "x8ma29f",
+  "views_total": 26603,
+  "view_count": 26603,
+  "likes_total": 9,
+  "like_count": 9,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "O vídeo hilário de um gato e um cachorro ensaiando uma luta, mas tendo reações muito dramáticas no final, está fazendo os internautas caírem na gargalhada!<br /><br /> ( Reprodução Twitter @Yoda4ever)",
+  "created_time": 1688544409,
+  "search_query": "gatos piando e conversando",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video depicts a humorous interaction between a cat and a dog, suggesting playful behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8ma29f",
+    "decision": "keep",
+    "reason": "The video depicts a humorous interaction between a cat and a dog, suggesting playful behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x3nucsg",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3nucsg_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3nucsg_audio.mp3",
+  "duration_sec": 48,
+  "duration_seconds": 48.0,
+  "title": "Funny Cat puts her hands up high!",
+  "webpage_url": "https://www.dailymotion.com/video/x3nucsg",
+  "dm_id": "x3nucsg",
+  "views_total": 4985,
+  "view_count": 4985,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "funny",
+    "cat"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "funny cat",
+  "created_time": 1453477464,
+  "search_query": "cat at vet clinic",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a funny cat, indicating typical cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3nucsg",
+    "decision": "keep",
+    "reason": "The video features a funny cat, indicating typical cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

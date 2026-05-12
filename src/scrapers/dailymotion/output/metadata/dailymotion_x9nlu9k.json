@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x9nlu9k",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9nlu9k_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9nlu9k_audio.mp3",
+  "duration_sec": 56,
+  "duration_seconds": 56.0,
+  "title": "Chickadee outsmarts an indoor cat who thought she had the perfect ambush",
+  "webpage_url": "https://www.dailymotion.com/video/x9nlu9k",
+  "dm_id": "x9nlu9k",
+  "views_total": 80252,
+  "view_count": 80252,
+  "likes_total": 3,
+  "like_count": 3,
+  "tags": [
+    "Quinte West",
+    "Ontario",
+    "Canada",
+    "Funny",
+    "Cat Fails",
+    "Funny Pets",
+    "Chickadee Escape",
+    "Sneaky Kitty",
+    "Cat Jump Fail",
+    "Cat Hunting"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "Kathy shared this clip of a cat who decided that a backyard chickadee was going to be her lunch.<br /><br />\"Storm is one of my indoor cats,\" she told WooGlobe.<br /><br />\"She loves to chill out with us in our enclosed backyard in the summer months.\"<br /><br />Storm spotted the fluttery guest, narrowed her eyes, crouched into full stealth mode, and waited for destiny to call.<br /><br />This clip shows her going to try and catch this little chickadee, but it didn't end in her favor.<br /><br />The leap was dramatic, the timing was right, but the outcome was tragically wrong<br />WooGlobe Ref : WGA620207<br />For licensing and to use this video, please email licensing@wooglobe.com",
+  "created_time": 1753534910,
+  "search_query": "cats chirping and chattering",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a cat attempting to hunt a bird, suggesting natural behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9nlu9k",
+    "decision": "keep",
+    "reason": "The description indicates a cat attempting to hunt a bird, suggesting natural behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

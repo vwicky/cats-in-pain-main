@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x92q01a",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x92q01a_video.mp4",
+  "audio_path": "output/videos/dailymotion_x92q01a_audio.mp3",
+  "duration_sec": 33,
+  "duration_seconds": 33.0,
+  "title": "Il a dû tant souffrir : apparu avec une blessure au visage, ce chat recueilli en refuge aimerait avoir une famille",
+  "webpage_url": "https://www.dailymotion.com/video/x92q01a",
+  "dm_id": "x92q01a",
+  "views_total": 5741,
+  "view_count": 5741,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Ce pauvre chat a dû affronter des souffrances immenses lorsqu'il était dans les rues.<br /><br />",
+  "created_time": 1721731252,
+  "search_query": "cris d'accouplement des chats",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat with an injury, relevant to pain or vet context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x92q01a",
+    "decision": "keep",
+    "reason": "The video features a cat with an injury, relevant to pain or vet context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x3nuyh5",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3nuyh5_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3nuyh5_audio.mp3",
+  "duration_sec": 45,
+  "duration_seconds": 45.0,
+  "title": "Funny cat, A beautiful day, in A cats life",
+  "webpage_url": "https://www.dailymotion.com/video/x3nuyh5",
+  "dm_id": "x3nuyh5",
+  "views_total": 5157,
+  "view_count": 5157,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cats"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "zh",
+  "query_language": "English",
+  "description": "the funny cats",
+  "created_time": 1453486495,
+  "search_query": "two cats in a standoff",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and tags suggest it features real cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3nuyh5",
+    "decision": "keep",
+    "reason": "The title and tags suggest it features real cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

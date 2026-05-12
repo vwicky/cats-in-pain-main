@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x828j4k",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x828j4k_video.mp4",
+  "audio_path": "output/videos/dailymotion_x828j4k_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Un chaton frôle la mort",
+  "webpage_url": "https://www.dailymotion.com/video/x828j4k",
+  "dm_id": "x828j4k",
+  "views_total": 7625,
+  "view_count": 7625,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Société",
+    "Vidéos"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Cet homme va sauver la vie de ce petit chat.",
+  "created_time": 1624629216,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title and description indicate a cat in a rescue context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x828j4k",
+    "decision": "keep",
+    "reason": "Title and description indicate a cat in a rescue context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

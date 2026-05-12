@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x3qlrbo",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3qlrbo_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3qlrbo_audio.mp3",
+  "duration_sec": 33,
+  "duration_seconds": 33.0,
+  "title": "Кот ищет дичь на снегу",
+  "webpage_url": "https://www.dailymotion.com/video/x3qlrbo",
+  "dm_id": "x3qlrbo",
+  "views_total": 761,
+  "view_count": 761,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Pet",
+    "comedy",
+    "прикол",
+    "Кот",
+    "Смешные видео",
+    "animal",
+    "cat",
+    "домашнее животное"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Смешные видео",
+  "created_time": 1454673109,
+  "search_query": "кот на ветеринарном осмотре",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat is engaged in a humorous activity, likely real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3qlrbo",
+    "decision": "keep",
+    "reason": "The title suggests a cat is engaged in a humorous activity, likely real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

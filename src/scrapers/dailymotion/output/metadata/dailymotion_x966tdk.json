@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x966tdk",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x966tdk_video.mp4",
+  "audio_path": "output/videos/dailymotion_x966tdk_audio.mp3",
+  "duration_sec": 39,
+  "duration_seconds": 39.0,
+  "title": "Myrtle at the Sheffield Cats Shelter is looking for a home",
+  "webpage_url": "https://www.dailymotion.com/video/x966tdk",
+  "dm_id": "x966tdk",
+  "views_total": 5456,
+  "view_count": 5456,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "Sheffield",
+    "The Star",
+    "South Yorkshire",
+    "Chloe Aslett",
+    "Cats"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "Myrtle at the Sheffield Cats Shelter is looking for a home",
+  "created_time": 1727194389,
+  "search_query": "cat at the vet looking uncomfortable",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a cat looking for a home, which is relevant to real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x966tdk",
+    "decision": "keep",
+    "reason": "The description indicates a cat looking for a home, which is relevant to real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

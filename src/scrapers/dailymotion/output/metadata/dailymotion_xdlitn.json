@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_xdlitn",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xdlitn_video.mp4",
+  "audio_path": "output/videos/dailymotion_xdlitn_audio.mp3",
+  "duration_sec": 5,
+  "duration_seconds": 5.0,
+  "title": "Il gatto cool",
+  "webpage_url": "https://www.dailymotion.com/video/xdlitn",
+  "dm_id": "xdlitn",
+  "views_total": 6431,
+  "view_count": 6431,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gatto",
+    "cat",
+    "cool",
+    "figo",
+    "yeah",
+    "atteggia"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "Si atteggia alla grande, prossima star del web?",
+  "created_time": 1275999523,
+  "search_query": "comportamento di un gatto ferito",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat and suggests playful behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xdlitn",
+    "decision": "keep",
+    "reason": "The video features a cat and suggests playful behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

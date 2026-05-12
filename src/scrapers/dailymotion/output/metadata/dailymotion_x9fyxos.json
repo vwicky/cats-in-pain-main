@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9fyxos",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9fyxos_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9fyxos_audio.mp3",
+  "duration_sec": 11,
+  "duration_seconds": 11.0,
+  "title": "Un chat grimpe tout en haut de la Concordia en Bolivie 🇧🇴",
+  "webpage_url": "https://www.dailymotion.com/video/x9fyxos",
+  "dm_id": "x9fyxos",
+  "views_total": 2845,
+  "view_count": 2845,
+  "likes_total": 2,
+  "like_count": 2,
+  "tags": [],
+  "channel": "travel",
+  "channel_title": "travel",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un chat grimpe tout en haut de la Concordia en Bolivie 🇧🇴 avec @lucerorevollo<br /><br />Un chat a été repéré au sommet de l’emblématique statue du Cristo de la Concordia en #Bolivie, intriguant les internautes sur la manière dont il a pu s’y rendre. 🎥 : Lucero Revello<br /><br />A vitre avis, comment le chat a bien pu arriver ici ? 🥹<br /><br />#statue #lessplendeursdumonde #voyager #splendeur #beautifuldestinations #splendeursdumonde #destination #building #jesuschrist #cochabamba #cat #cristo",
+  "created_time": 1741770909,
+  "search_query": "courtes vidéos de chats en chasse",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat climbing a statue in Bolivia.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9fyxos",
+    "decision": "keep",
+    "reason": "The video features a cat climbing a statue in Bolivia.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

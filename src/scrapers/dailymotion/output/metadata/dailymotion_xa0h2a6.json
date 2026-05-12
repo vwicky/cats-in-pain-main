@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_xa0h2a6",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xa0h2a6_video.mp4",
+  "audio_path": "output/videos/dailymotion_xa0h2a6_audio.mp3",
+  "duration_sec": 46,
+  "duration_seconds": 46.0,
+  "title": "Crash Test : Fontaine à eau sans fil pour chat - Bandit",
+  "webpage_url": "https://www.dailymotion.com/video/xa0h2a6",
+  "dm_id": "xa0h2a6",
+  "views_total": 653,
+  "view_count": 653,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "guide shopping",
+    "bons plans",
+    "achats"
+  ],
+  "channel": "lifestyle",
+  "channel_title": "lifestyle",
+  "language": "fr",
+  "query_language": "French",
+  "description": "😼La fontaine que votre chat va adorer !<br /><br />Avec Bandit, l’eau reste fraîche, claire et sans odeur grâce à son système de filtration magique ✨<br /><br />✨ Sans fil & pratique – Liberté totale, placez-la où vous voulez.<br />🔇 Ultra silencieuse – Idéale même pour les chats sensibles au bruit.<br />🧼 Facile à nettoyer – Entretien rapide pour une hygiène parfaite.<br /> Grande capacité 2,5L – Parfaite pour plusieurs jours d’hydratation.<br /><br />Encouragez votre chat à boire plus et prenez soin de sa santé au quotidien ❤️<br /><br />👉 Disponible maintenant : https://amzn.to/46jFuT6 <br /><br />#Banditchat #frenchbandit #fontaineaeau #chatlife #chatsheureux #accessoireshats #petlovers #ronrontherapy #instachat #amourdeschats #guideachat #leparisien #guideshopping",
+  "created_time": 1771747206,
+  "search_query": "posture défensive de chat",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a cat water fountain, relevant to cat care.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xa0h2a6",
+    "decision": "keep",
+    "reason": "The video discusses a cat water fountain, relevant to cat care.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

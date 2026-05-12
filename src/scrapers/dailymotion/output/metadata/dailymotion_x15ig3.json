@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x15ig3",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x15ig3_video.mp4",
+  "audio_path": "output/videos/dailymotion_x15ig3_audio.mp3",
+  "duration_sec": 9,
+  "duration_seconds": 9.0,
+  "title": "11122006",
+  "webpage_url": "https://www.dailymotion.com/video/x15ig3",
+  "dm_id": "x15ig3",
+  "views_total": 583,
+  "view_count": 583,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gatto",
+    "che",
+    "apre",
+    "porta"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "",
+  "created_time": 1170852002,
+  "search_query": "gatto che insegue la preda",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The tags suggest a cat-related video, likely involving a cat opening a door.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x15ig3",
+    "decision": "keep",
+    "reason": "The tags suggest a cat-related video, likely involving a cat opening a door.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

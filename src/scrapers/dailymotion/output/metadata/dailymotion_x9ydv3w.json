@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9ydv3w",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9ydv3w_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9ydv3w_audio.mp3",
+  "duration_sec": 15,
+  "duration_seconds": 15.0,
+  "title": "This Bengal cat is basically a tiny leopard with main character energy 🐆✨",
+  "webpage_url": "https://www.dailymotion.com/video/x9ydv3w",
+  "dm_id": "x9ydv3w",
+  "views_total": 1803,
+  "view_count": 1803,
+  "likes_total": 14,
+  "like_count": 14,
+  "tags": [],
+  "channel": "people",
+  "channel_title": "people",
+  "language": "fr",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1769195557,
+  "search_query": "cat in hunting mode",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests it features a real cat.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9ydv3w",
+    "decision": "keep",
+    "reason": "The title suggests it features a real cat.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

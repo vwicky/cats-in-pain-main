@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3dpgbv",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3dpgbv_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3dpgbv_audio.mp3",
+  "duration_sec": 52,
+  "duration_seconds": 52.0,
+  "title": "Как загипнотизировать кота",
+  "webpage_url": "https://www.dailymotion.com/video/x3dpgbv",
+  "dm_id": "x3dpgbv",
+  "views_total": 2301,
+  "view_count": 2301,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1447459981,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a method to hypnotize a cat, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3dpgbv",
+    "decision": "keep",
+    "reason": "The title suggests a method to hypnotize a cat, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

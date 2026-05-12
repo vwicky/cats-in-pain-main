@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x826p9a",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x826p9a_video.mp4",
+  "audio_path": "output/videos/dailymotion_x826p9a_audio.mp3",
+  "duration_sec": 33,
+  "duration_seconds": 33.0,
+  "title": "¡A este gato solo lo despierta el olor a comida!",
+  "webpage_url": "https://www.dailymotion.com/video/x826p9a",
+  "dm_id": "x826p9a",
+  "views_total": 1498,
+  "view_count": 1498,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Ocio",
+    "Ocio  TV"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "Portuguese",
+  "description": "No te pierdas la reacción de este gato cuando escucha y huele su comida. ¡De lo más gracioso!",
+  "created_time": 1624469798,
+  "search_query": "gato doente no veterinário",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat reacting to food, which is relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x826p9a",
+    "decision": "keep",
+    "reason": "The video shows a cat reacting to food, which is relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

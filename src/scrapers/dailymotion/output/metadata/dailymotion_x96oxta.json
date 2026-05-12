@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x96oxta",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x96oxta_video.mp4",
+  "audio_path": "output/videos/dailymotion_x96oxta_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "Kittens",
+  "webpage_url": "https://www.dailymotion.com/video/x96oxta",
+  "dm_id": "x96oxta",
+  "views_total": 8178,
+  "view_count": 8178,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "en",
+  "query_language": "en",
+  "description": "",
+  "created_time": 1727970202,
+  "search_query": "kitten sounds",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates kittens, suggesting real cat content.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x96oxta",
+    "decision": "keep",
+    "reason": "The title indicates kittens, suggesting real cat content.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

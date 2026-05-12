@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x7vgcej",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7vgcej_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7vgcej_audio.mp3",
+  "duration_sec": 33,
+  "duration_seconds": 33.0,
+  "title": "Cats Can Spread Coronavirus To Other Cats",
+  "webpage_url": "https://www.dailymotion.com/video/x7vgcej",
+  "dm_id": "x7vgcej",
+  "views_total": 553,
+  "view_count": 553,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Cat",
+    "Zoonoses",
+    "Bat Virome",
+    "Sarbecovirus",
+    "Animal Virology",
+    "Human Interaction With Cats"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "en",
+  "query_language": "English",
+  "description": "A new study is the latest to bring some mixed news when it comes to covid-19 and cats. The study found evidence that cats infected with the coronavirus that causes covid-19 can easily spread it to other cats within two days of exposure. However, none of these cats documented in the study become sick once infected,… Read more...",
+  "created_time": 1596840035,
+  "search_query": "cats calling each other",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses cats and coronavirus, relevant to cat health.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7vgcej",
+    "decision": "keep",
+    "reason": "The video discusses cats and coronavirus, relevant to cat health.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

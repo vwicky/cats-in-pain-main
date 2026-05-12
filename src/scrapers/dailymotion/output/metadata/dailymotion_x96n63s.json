@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x96n63s",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x96n63s_video.mp4",
+  "audio_path": "output/videos/dailymotion_x96n63s_audio.mp3",
+  "duration_sec": 28,
+  "duration_seconds": 28.0,
+  "title": "Cat love 1",
+  "webpage_url": "https://www.dailymotion.com/video/x96n63s",
+  "dm_id": "x96n63s",
+  "views_total": 1145,
+  "view_count": 1145,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "id",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1727898944,
+  "search_query": "cat after vaccination",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests it features a cat.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x96n63s",
+    "decision": "keep",
+    "reason": "The title suggests it features a cat.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

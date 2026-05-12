@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8uboum",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8uboum_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8uboum_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Abbandona un gatto in un trasportino davanti al rifugio: la lettera all'interno è straziante",
+  "webpage_url": "https://www.dailymotion.com/video/x8uboum",
+  "dm_id": "x8uboum",
+  "views_total": 4675,
+  "view_count": 4675,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "Una bellissima gatta è stata abbandonata davanti ad un rifugio con accanto una triste lettera. Qualche settimana dopo, è arrivata una dolce sorpresa.",
+  "created_time": 1710326318,
+  "search_query": "gatto in modalità caccia",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a cat being abandoned, which is relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8uboum",
+    "decision": "keep",
+    "reason": "The video involves a cat being abandoned, which is relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

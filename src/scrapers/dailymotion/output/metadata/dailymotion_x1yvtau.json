@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x1yvtau",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x1yvtau_video.mp4",
+  "audio_path": "output/videos/dailymotion_x1yvtau_audio.mp3",
+  "duration_sec": 45,
+  "duration_seconds": 45.0,
+  "title": "雪で作ったトンネルをくぐるコーギー犬",
+  "webpage_url": "https://www.dailymotion.com/video/x1yvtau",
+  "dm_id": "x1yvtau",
+  "views_total": 512,
+  "view_count": 512,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "動物",
+    "猫　",
+    "ぬこ",
+    "犬　",
+    "萌え",
+    "可愛い",
+    "動画",
+    "cat",
+    "ccute",
+    "cute"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ja",
+  "query_language": "Japanese",
+  "description": "",
+  "created_time": 1402223103,
+  "search_query": "短い猫の動画",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Tags suggest potential cat content, despite focus on a dog.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x1yvtau",
+    "decision": "keep",
+    "reason": "Tags suggest potential cat content, despite focus on a dog.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x81qexc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x81qexc_video.mp4",
+  "audio_path": "output/videos/dailymotion_x81qexc_audio.mp3",
+  "duration_sec": 47,
+  "duration_seconds": 47.0,
+  "title": "10 Ways to Save Money on Pet Expenses",
+  "webpage_url": "https://www.dailymotion.com/video/x81qexc",
+  "dm_id": "x81qexc",
+  "views_total": 3255,
+  "view_count": 3255,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "discounts",
+    "expenses",
+    "finance",
+    "news",
+    "pets",
+    "spending",
+    "cat",
+    "cats",
+    "discount",
+    "dog"
+  ],
+  "channel": "lifestyle",
+  "channel_title": "lifestyle",
+  "language": "en",
+  "query_language": "English",
+  "description": "Our beloved furry friends can cost thousands annually—unless, of course, you're a savvy pet owner who knows how and where to save money.",
+  "created_time": 1622758066,
+  "search_query": "cat after vaccination",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and tags indicate a focus on pet expenses, likely involving cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x81qexc",
+    "decision": "keep",
+    "reason": "The title and tags indicate a focus on pet expenses, likely involving cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

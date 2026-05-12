@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x2zlkfr",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2zlkfr_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2zlkfr_audio.mp3",
+  "duration_sec": 20,
+  "duration_seconds": 20.0,
+  "title": "Playtime in Cat Tunnel",
+  "webpage_url": "https://www.dailymotion.com/video/x2zlkfr",
+  "dm_id": "x2zlkfr",
+  "views_total": 18393,
+  "view_count": 18393,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1438127020,
+  "search_query": "cat resting in sun",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat playing in a tunnel, indicating playful behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2zlkfr",
+    "decision": "keep",
+    "reason": "The title suggests a cat playing in a tunnel, indicating playful behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

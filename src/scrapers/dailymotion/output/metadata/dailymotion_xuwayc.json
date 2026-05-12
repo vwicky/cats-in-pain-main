@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_xuwayc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xuwayc_video.mp4",
+  "audio_path": "output/videos/dailymotion_xuwayc_audio.mp3",
+  "duration_sec": 22,
+  "duration_seconds": 22.0,
+  "title": "El Gato y El Calcetin de Navidad",
+  "webpage_url": "https://www.dailymotion.com/video/xuwayc",
+  "dm_id": "xuwayc",
+  "views_total": 583,
+  "view_count": 583,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Cats",
+    "cat kitty worst stocking Merry Christmas neko gato rhianna how to history pearl jam kardashian calico learn tricky pet amazing funny video Cute Kitten Cats Meow Dog Kittens Playing peor mejor calcetin navidad feliz"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "Portuguese",
+  "description": "Jungle the Worst Kitty recoge su calcetin de Navidad. Hay mas a  <br />http://www.worstkitty.com.",
+  "created_time": 1352238182,
+  "search_query": "sons de alerta de gato",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat interacting with a Christmas stocking.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xuwayc",
+    "decision": "keep",
+    "reason": "The video features a cat interacting with a Christmas stocking.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

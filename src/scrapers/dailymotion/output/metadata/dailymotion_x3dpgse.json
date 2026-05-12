@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3dpgse",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3dpgse_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3dpgse_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "Кот храпит)))",
+  "webpage_url": "https://www.dailymotion.com/video/x3dpgse",
+  "dm_id": "x3dpgse",
+  "views_total": 1731,
+  "view_count": 1731,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1447460549,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat is snoring, indicating a resting behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3dpgse",
+    "decision": "keep",
+    "reason": "The title suggests a cat is snoring, indicating a resting behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

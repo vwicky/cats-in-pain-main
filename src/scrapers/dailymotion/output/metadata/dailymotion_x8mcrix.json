@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x8mcrix",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8mcrix_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8mcrix_audio.mp3",
+  "duration_sec": 55,
+  "duration_seconds": 55.0,
+  "title": "Vidéo hilarante : rien ne peut divertir un chat extrêmement ennuyé",
+  "webpage_url": "https://www.dailymotion.com/video/x8mcrix",
+  "dm_id": "x8mcrix",
+  "views_total": 1033,
+  "view_count": 1033,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Vidéo hilarante",
+    "chat",
+    "chat extrêmement ennuyé"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pt",
+  "query_language": "French",
+  "description": "<br /><br />La vidéo hilarante d'un chaton ennuyé qui ne parvient pas à être diverti même par un jouet amusant fait éclater de rire les internautes !<br />\"Calme\", indique la légende partagée avec la vidéo sur Twitter jeudi dernier (6). Dans les commentaires, les internautes se sont amusés de la scène.<br /><br />\"Je contemple mes choix de vie\", a plaisanté un utilisateur de Twitter. \"Il fait trop chaud pour bouger aujourd'hui. C'est tellement moi !\", a déclaré un autre. \"J'ai presque pu entendre le soupir\", a ajouté un troisième internaute.<br /><br /><br /><br /><br />https://petepop.com.br/video-hilarante-rien-ne-peut-divertir-un-chat-extremement-ennuye/",
+  "created_time": 1688804258,
+  "search_query": "chats se battent pour le territoire",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a bored kitten, which is relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8mcrix",
+    "decision": "keep",
+    "reason": "The video features a bored kitten, which is relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

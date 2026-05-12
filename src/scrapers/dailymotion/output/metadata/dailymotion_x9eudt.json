@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x9eudt",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9eudt_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9eudt_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "Moustache le chat",
+  "webpage_url": "https://www.dailymotion.com/video/x9eudt",
+  "dm_id": "x9eudt",
+  "views_total": 534,
+  "view_count": 534,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "moustache",
+    "chat",
+    "eyka"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Après \"mon ptit poney\" après \"la chaussure\" voici MOUSTACHE LE CHAT lol",
+  "created_time": 1243437662,
+  "search_query": "chat chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a focus on a cat, which could indicate real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9eudt",
+    "decision": "keep",
+    "reason": "The title suggests a focus on a cat, which could indicate real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x9vbzea",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9vbzea_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9vbzea_audio.mp3",
+  "duration_sec": 29,
+  "duration_seconds": 29.0,
+  "title": "Un caméraman suit un chat sans le voir",
+  "webpage_url": "https://www.dailymotion.com/video/x9vbzea",
+  "dm_id": "x9vbzea",
+  "views_total": 1887,
+  "view_count": 1887,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cameraman",
+    "chat"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un caméraman suit parfaitement un chat qui s'est précipité dans les tribunes d'un stade de baseball",
+  "created_time": 1765302159,
+  "search_query": "posture défensive de chat",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cameraman following a cat, suggesting real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9vbzea",
+    "decision": "keep",
+    "reason": "The video features a cameraman following a cat, suggesting real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

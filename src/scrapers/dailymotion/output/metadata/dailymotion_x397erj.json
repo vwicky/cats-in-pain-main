@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x397erj",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x397erj_video.mp4",
+  "audio_path": "output/videos/dailymotion_x397erj_audio.mp3",
+  "duration_sec": 21,
+  "duration_seconds": 21.0,
+  "title": "Après être passé sur le billard, ce chat verse de chaudes larmes !",
+  "webpage_url": "https://www.dailymotion.com/video/x397erj",
+  "dm_id": "x397erj",
+  "views_total": 81488,
+  "view_count": 81488,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "passe",
+    "billard",
+    "chat",
+    "verse",
+    "chaudes",
+    "larmes"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "http://buzzfil.net <br />Les chats peuvent-ils ressentir des émotions ? Telle est la question que se posent certains individus, mais plus après avoir visionnée cette vidéo. La vidéo en question fait actuellement le buzz sur le web. Ce chat a été opéré et a obtenu une seconde vie. Après l'opération, il laisse apparaitre quelques larmes certainement causées par des allergies. Son regard triste accompagné de larmes m'a fendu le cœur. Regardez !",
+  "created_time": 1444490729,
+  "search_query": "chat après vaccination",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video depicts a cat that seems emotional after surgery.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x397erj",
+    "decision": "keep",
+    "reason": "The video depicts a cat that seems emotional after surgery.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

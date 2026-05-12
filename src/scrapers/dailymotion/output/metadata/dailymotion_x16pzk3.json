@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x16pzk3",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x16pzk3_video.mp4",
+  "audio_path": "output/videos/dailymotion_x16pzk3_audio.mp3",
+  "duration_sec": 29,
+  "duration_seconds": 29.0,
+  "title": "Immobiliser son chat... Solution du Vétérinaire!",
+  "webpage_url": "https://www.dailymotion.com/video/x16pzk3",
+  "dm_id": "x16pzk3",
+  "views_total": 2082,
+  "view_count": 2082,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Chat",
+    "Immobiliser",
+    "Vétérinaire",
+    "Animal",
+    "bouge",
+    "plus bouger",
+    "bébé chat",
+    "véto",
+    "solution",
+    "commet faire"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Les chats qui bougent trop ça énerve les véto... Celui ci à trouvé la solution. Mettre une pince à cheveux sur le cou du chat. Et il ne bouge plus du tout!",
+  "created_time": 1383471910,
+  "search_query": "chat chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a method to restrain a cat, indicating a vet context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x16pzk3",
+    "decision": "keep",
+    "reason": "The video discusses a method to restrain a cat, indicating a vet context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3dxg8u",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3dxg8u_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3dxg8u_audio.mp3",
+  "duration_sec": 24,
+  "duration_seconds": 24.0,
+  "title": "Пошел вон из моего дома))",
+  "webpage_url": "https://www.dailymotion.com/video/x3dxg8u",
+  "dm_id": "x3dxg8u",
+  "views_total": 2513,
+  "view_count": 2513,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1447630400,
+  "search_query": "расслабленные коты дома",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat-related context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3dxg8u",
+    "decision": "keep",
+    "reason": "The title suggests a cat-related context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

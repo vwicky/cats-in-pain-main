@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x9xlxv0",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9xlxv0_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9xlxv0_audio.mp3",
+  "duration_sec": 14,
+  "duration_seconds": 14.0,
+  "title": "Woman trips over while trying to stop a cat from entering home",
+  "webpage_url": "https://www.dailymotion.com/video/x9xlxv0",
+  "dm_id": "x9xlxv0",
+  "views_total": 2652,
+  "view_count": 2652,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Saint Petersburg",
+    "Russia",
+    "Funny",
+    "Fails",
+    "Feline Chaos",
+    "Funny Falls",
+    "Door Drama",
+    "Clumsy Moments",
+    "Unexpected",
+    "Chaos"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "The clip features a woman who just walked in from a long day and found her doorway hosting an uninvited furry guest.<br /><br />The outside cat clearly had VIP energy, refusing to respect boundaries, and was dead set on entering like it owned the place.<br /><br />As the door swung open, it made a sneaky move and slid in with her.<br /><br />She tried every trick in the book to keep it out, but fate had other ideas.<br /><br />She tripped, fell, and the cat claimed victory.<br /><br />Sometimes the universe just ships cats and chaos together.<br />WooGlobe Ref : WGA351022<br />For licensing and to use this video, please email licensing@wooglobe.com",
+  "created_time": 1768219238,
+  "search_query": "cats battling for territory",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat trying to enter a home, indicating typical cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9xlxv0",
+    "decision": "keep",
+    "reason": "The video features a cat trying to enter a home, indicating typical cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

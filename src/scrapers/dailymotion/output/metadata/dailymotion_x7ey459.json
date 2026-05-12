@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x7ey459",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7ey459_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7ey459_audio.mp3",
+  "duration_sec": 20,
+  "duration_seconds": 20.0,
+  "title": "Ce chat profite des caresses de sa maman avec beaucoup d'humour. Admirez !",
+  "webpage_url": "https://www.dailymotion.com/video/x7ey459",
+  "dm_id": "x7ey459",
+  "views_total": 13720,
+  "view_count": 13720,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1564707769,
+  "search_query": "bruits de reproduction des chats",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat enjoying affection, which is typical cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7ey459",
+    "decision": "keep",
+    "reason": "The video shows a cat enjoying affection, which is typical cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

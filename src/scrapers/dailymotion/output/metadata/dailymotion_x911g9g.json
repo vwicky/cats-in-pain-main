@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x911g9g",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x911g9g_video.mp4",
+  "audio_path": "output/videos/dailymotion_x911g9g_audio.mp3",
+  "duration_sec": 42,
+  "duration_seconds": 42.0,
+  "title": "Gato le huele el trasero a su amigo: ¡su reacción mata de risa a todo TikTok! (Vídeo)",
+  "webpage_url": "https://www.dailymotion.com/video/x911g9g",
+  "dm_id": "x911g9g",
+  "views_total": 18186,
+  "view_count": 18186,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Los gatos tienen la capacidad de hacernos reír hasta en el momento más triste del día. ¡Compruébalo!",
+  "created_time": 1719491602,
+  "search_query": "comportamiento agresivo de los gatos",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a humorous interaction between cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x911g9g",
+    "decision": "keep",
+    "reason": "The title suggests a humorous interaction between cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

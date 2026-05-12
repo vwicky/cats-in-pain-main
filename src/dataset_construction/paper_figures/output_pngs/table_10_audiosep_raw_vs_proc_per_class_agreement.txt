@@ -1,0 +1,18 @@
+Table 10 — Raw vs AudioSep-processed: per-class prediction agreement
+
+Caption: Mean pred_agrees (raw vs paired processed clip, same stems). Lower = more brittle.
+Source: _archive/top_level_notebooks/checking_extraction_real_vs_distribution.ipynb (committed stdout)
+Sort: ascending by pred_agrees (%).
+
+Class             pred_agrees (%)
+----------------------------------
+Warning                     82.67
+MotherCall                  89.19
+Paining                     91.75
+Fighting                    95.00
+Defence                     95.19
+Happy                       96.63
+HuntingMind                 97.23
+Resting                     97.30
+Angry                       97.67
+Mating                      98.34

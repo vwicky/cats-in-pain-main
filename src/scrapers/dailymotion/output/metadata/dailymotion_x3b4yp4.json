@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3b4yp4",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3b4yp4_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3b4yp4_audio.mp3",
+  "duration_sec": 19,
+  "duration_seconds": 19.0,
+  "title": "子猫の夏ちゃんとウサギのロップくん",
+  "webpage_url": "https://www.dailymotion.com/video/x3b4yp4",
+  "dm_id": "x3b4yp4",
+  "views_total": 710,
+  "view_count": 710,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ja",
+  "query_language": "Japanese",
+  "description": "動画チャンネルの主役、猫の夏ちゃんが子猫の時に今は亡きパパウサギのロップくんと遊ぶ動画です。",
+  "created_time": 1445918995,
+  "search_query": "遊び好きな子猫がリラックス",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat playing with a rabbit, which is relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3b4yp4",
+    "decision": "keep",
+    "reason": "The video features a cat playing with a rabbit, which is relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

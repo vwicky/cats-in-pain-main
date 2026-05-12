@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x4p5ycz",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x4p5ycz_video.mp4",
+  "audio_path": "output/videos/dailymotion_x4p5ycz_audio.mp3",
+  "duration_sec": 42,
+  "duration_seconds": 42.0,
+  "title": "two cats love with each other",
+  "webpage_url": "https://www.dailymotion.com/video/x4p5ycz",
+  "dm_id": "x4p5ycz",
+  "views_total": 526,
+  "view_count": 526,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "دو بلیوں کی حرکتیں چیک کرو ویڈیو نے انٹرنیٹ پر دھوم مچا دی ؟؟",
+  "created_time": 1471511765,
+  "search_query": "cats hissing at each other",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title suggests affectionate behavior between two cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x4p5ycz",
+    "decision": "keep",
+    "reason": "Title suggests affectionate behavior between two cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

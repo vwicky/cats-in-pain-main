@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x8z9mqs",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8z9mqs_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8z9mqs_audio.mp3",
+  "duration_sec": 50,
+  "duration_seconds": 50.0,
+  "title": "Esta es la mejor forma para llamar a un gato y no es hacer \"pspsps\", según un estudio",
+  "webpage_url": "https://www.dailymotion.com/video/x8z9mqs",
+  "dm_id": "x8z9mqs",
+  "views_total": 8747,
+  "view_count": 8747,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gatos",
+    "comunicación",
+    "llamar",
+    "felinos"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Las personas que conviven con gatos saben perfectamente el carácter tan particular que tienen estos animales de origen salvaje, pero que se han acostumbrado a convivir con los humanos y se han domesticado, de tal forma que responden e interactúan con sus dueños de forma frecuente, aunque muchas veces hay que conocer algunos gestos o señales que, por lo general, pasan desapercibidos.<br /><br />De hecho, hay gatos que son muy \"habladores\" y maúllan cada vez que quieren comida, están contentos o tienen alguna queja, una forma de comunicación muy asociada a los humanos, ya que rara vez usan el maullido con sus iguales. Los dueños de gatos, por su parte, también tienen algunas fórmulas para comunicarse con los felinos, como el famoso sonido \"pspsps\" para llamar la atención gatuna.<br /><br />Sin embargo, un reciente ha demostrado que esta fórmula tan famosa no es la mejor manera de llamar a tu gato. Puede ser que a algunas personas le haya resultado efectiva y que, al escuchar ese \"pspsps\", el gato haya acudido a la llamada del humano, pero se puede probar otra fórmula.La mejor manera de comunicarte con tu gato<br />Así lo demuestran en el estudio Multimodal Communication in the Human–Cat Relationship (Comunicación multimodal en la relación humano-gato), llevado a cabo por el Laboratorio de Etología Comparada y Cognición de la Universidad de Nanterre, en París, publicado en MDPI, donde se centraron en tres formas diferentes de interactuar con los felinos: vocal, visual y bimodal (combinando vocal y visual).<br /><br />\"Descubrimos que la modalidad de comunicación tenía un efecto significativo en la latencia en el tiempo que tardaban los gatos en acercarse a un humano\", explican en el estudio, donde comentan que los gatos interactúan \"significativamente más rápido\" cuando se trata de una comunicación visual o bimodal, en comparación con una comunicación solo vocal.<br /><br />\"Se debe alentar a las personas a utilizar señales comunicativas visuales apropiadas al interactuar con gatos\"<br />De este modo, sugieren con sus conclusiones que \"se debe alentar a las personas a utilizar señales comunicativas visuales apropiadas al interactuar con gatos, especialmente con individuos desconocidos\", en lugar de basarse en una comunicación solo vocal, que es la que se da cuando se hace el típico \"pspsps\", sobre todo, cuando se trata de llamar la atención de un gato extraño.<br /><br />Sí que es cierto que se hace una puntualización, extraída de los resultados del estudio, indicando que la comunicación vocal puede ser más exitosa con los gatos conocidos, mientras que las \"señales visuales podrían llegar a dominar cuando se trata de comunicación con un humano desconocido\".",
+  "created_time": 1716974078,
+  "search_query": "postura defensiva de gato",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description discuss how to call a cat, indicating real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8z9mqs",
+    "decision": "keep",
+    "reason": "The title and description discuss how to call a cat, indicating real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

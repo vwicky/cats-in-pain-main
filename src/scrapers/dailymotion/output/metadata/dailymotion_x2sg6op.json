@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x2sg6op",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2sg6op_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2sg6op_audio.mp3",
+  "duration_sec": 35,
+  "duration_seconds": 35.0,
+  "title": "Cat fight or cat sex?",
+  "webpage_url": "https://www.dailymotion.com/video/x2sg6op",
+  "dm_id": "x2sg6op",
+  "views_total": 655,
+  "view_count": 655,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Cat",
+    "fight",
+    "or",
+    "cat"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "Cat fight or cat sex?",
+  "created_time": 1433270349,
+  "search_query": "cat fight outside",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title and description suggest a cat fight.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2sg6op",
+    "decision": "keep",
+    "reason": "Title and description suggest a cat fight.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

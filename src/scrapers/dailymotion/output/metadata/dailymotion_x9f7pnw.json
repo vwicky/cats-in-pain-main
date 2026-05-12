@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x9f7pnw",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9f7pnw_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9f7pnw_audio.mp3",
+  "duration_sec": 19,
+  "duration_seconds": 19.0,
+  "title": "Frau wacht auf und wird von ihren Katzen angestarrt: Plötzlich erkennt sie eine bittere Wahrheit (Video)",
+  "webpage_url": "https://www.dailymotion.com/video/x9f7pnw",
+  "dm_id": "x9f7pnw",
+  "views_total": 31005,
+  "view_count": 31005,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "News chat"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Sie denkt, sie würde mit ihren Katzen inmitten von Zärtlichkeit und Liebe aufwachen, doch letztendlich begreift sie, dass es sich um etwas ganz anderes handelt.",
+  "created_time": 1741073100,
+  "search_query": "Warnsounds von Katzen",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description implies a scenario involving real cats and their behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9f7pnw",
+    "decision": "keep",
+    "reason": "The description implies a scenario involving real cats and their behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

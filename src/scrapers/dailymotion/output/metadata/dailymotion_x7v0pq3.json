@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x7v0pq3",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7v0pq3_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7v0pq3_audio.mp3",
+  "duration_sec": 59,
+  "duration_seconds": 59.0,
+  "title": "Crías del felino más letal del mundo prueban carne por primera vez",
+  "webpage_url": "https://www.dailymotion.com/video/x7v0pq3",
+  "dm_id": "x7v0pq3",
+  "views_total": 1851,
+  "view_count": 1851,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "zoo",
+    "san",
+    "diego",
+    "felino",
+    "gato",
+    "patinegro",
+    "carne",
+    "caza",
+    "letal"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Ryder y Skyler han probado carne por primera vez en su vida.<br /><br />Son hermanos, gatos patinegros y han nacido en el zoológico de San Diego (California, EEUU).<br /><br />Esta especie está considerada el felino más mortífero del mundo, ya que sus cacerías tienen éxito el 60 % de las veces.<br /><br />En una sola noche, un gato patinegro puede consumir hasta 14 roedores y aves.<br /><br />Estos animales son naturales del sur del continente africano, donde quedan alrededor de 10.000 ejemplares.",
+  "created_time": 1594793804,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features young cats trying meat for the first time, which is a typical behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7v0pq3",
+    "decision": "keep",
+    "reason": "The video features young cats trying meat for the first time, which is a typical behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

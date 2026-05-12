@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x93ws8m",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x93ws8m_video.mp4",
+  "audio_path": "output/videos/dailymotion_x93ws8m_audio.mp3",
+  "duration_sec": 25,
+  "duration_seconds": 25.0,
+  "title": "Opiekun nie może znaleźć kociąt. Okazuje się, że kotka ukryła je w nieprawdopodobnym miejscu (video)",
+  "webpage_url": "https://www.dailymotion.com/video/x93ws8m",
+  "dm_id": "x93ws8m",
+  "views_total": 25327,
+  "view_count": 25327,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "Kotka miała dobrego nosa. Wiedziała, gdzie jej kociaki będą w pełni bezpieczne.",
+  "created_time": 1724158380,
+  "search_query": "chora kotka u weterynarza",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a cat hiding her kittens, which is plausible cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x93ws8m",
+    "decision": "keep",
+    "reason": "The video discusses a cat hiding her kittens, which is plausible cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

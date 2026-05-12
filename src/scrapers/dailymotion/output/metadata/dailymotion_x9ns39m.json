@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9ns39m",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9ns39m_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9ns39m_audio.mp3",
+  "duration_sec": 43,
+  "duration_seconds": 43.0,
+  "title": "Pelago, gattino randagio si infila in un tubo: salvato, viene adottato dalla proprietaria della casa",
+  "webpage_url": "https://www.dailymotion.com/video/x9ns39m",
+  "dm_id": "x9ns39m",
+  "views_total": 59433,
+  "view_count": 59433,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "I Vigili del fuoco sono intervenuti nel comune di Pelago in Piazza Lorenzo Ghiberti, per il salvataggio di un piccolo gatto randagio, che si era infilato in un tubo di sfiato per la l'aerazione di un vespaio di una civile abitazione.  <br /> <br />I pompieri hanno rotto parte del muro e tagliato la tubazione corrugata recuperando così il felino che era rimasto incastrato a testa in giù. <br /> <br />Il piccolo gattino in buone condizioni è stato consegnato alla proprietaria dell’abitazione che lo ha portato per un controllo al veterinario e ha deciso di tenerlo mettendogli il nome \"Tubo”.",
+  "created_time": 1753784973,
+  "search_query": "gatto in modalità caccia",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a stray kitten being rescued, which is relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9ns39m",
+    "decision": "keep",
+    "reason": "The video features a stray kitten being rescued, which is relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9hd8bs",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9hd8bs_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9hd8bs_audio.mp3",
+  "duration_sec": 6,
+  "duration_seconds": 6.0,
+  "title": "Même les chats sont fans de Cristiano !",
+  "webpage_url": "https://www.dailymotion.com/video/x9hd8bs",
+  "dm_id": "x9hd8bs",
+  "views_total": 2384,
+  "view_count": 2384,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "people",
+  "channel_title": "people",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1743857032,
+  "search_query": "posture défensive de chat",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests cats are involved, though the context is unclear.",
+  "gpt_confidence": "low",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9hd8bs",
+    "decision": "keep",
+    "reason": "The title suggests cats are involved, though the context is unclear.",
+    "confidence": "low",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

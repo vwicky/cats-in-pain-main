@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x4ej79j",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x4ej79j_video.mp4",
+  "audio_path": "output/videos/dailymotion_x4ej79j_audio.mp3",
+  "duration_sec": 27,
+  "duration_seconds": 27.0,
+  "title": "【funny cat ねこ＆きじとら＆かわいい＆おもしろ＆癒し】屋根裏部屋のとらおうチャン♪",
+  "webpage_url": "https://www.dailymotion.com/video/x4ej79j",
+  "dm_id": "x4ej79j",
+  "views_total": 639,
+  "view_count": 639,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ja",
+  "query_language": "Japanese",
+  "description": "【関連URL】（ネットビジネスで稼ぐ方法） <br />http://goo.gl/iYVtLZ <br />※ド素人が月30万を稼いで脱サラできた、初心者にも分かりやすいノウハウを期間限定で無料公開中！ <br /> <br />『3ヶ月で英語が話せるようになるには？』 <br />http://directlink.jp/tracking/af/1442180/t5feIvEq/ <br /> <br /> <br />『ebay輸出バイブル』（返金保証有り） <br />http://www.infotop.jp/click.php?aid=316398&iid=67623 <br /> <br /> <br />『これから起業する人へ』 <br />http://directlink.jp/tracking/af/1442180/xWfgTSh1/ <br /> <br />『売上が伸び悩む時に読む本』 <br />http://directlink.jp/tracking/af/1442180/2HHlkXsu-22l1JG0B/ <br /> <br />『契約を結ぼうと思わせる心理テクニック』 <br />http://directlink.jp/tracking/af/1442180/pSw71woV/ <br /> <br />『有望な見込み客が勝手に集まってくる最強人脈システム』 <br />http://directlink.jp/tracking/af/1442180/1i55UnJk <br /> <br />（エビル) <br />http://goo.gl/6SKryf <br /> <br />特典付 <br />http://goo.gl/619Prg <br /> <br />（youtube） <br />http://goo.gl/MLHFgE <br /> <br />特典付 <br />http://goo.gl/QWIz5e <br /> <br />（ニコチューブ） <br />http://goo.gl/5MecyF <br /> <br />特典付 <br />http://goo.gl/qrVZMk <br /> <br />（ハイブリッド） <br />http://goo.gl/5h43Tw <br /> <br />特典付 <br />http://goo.gl/MndHpY <br /> <br /> <br />【funny cat】チャンネル登録お願い致します。 <br />ゆかいでかわいい仔猫とらおうちゃんの日常動画をUPしていきます。 <br /> <br />【関連HP】 <br />http://www.lp-kun.com/web/lp_kun14555332265845 <br /> <br />【関連ワード】 <br />猫　おもしろ　かわいい　赤ちゃん　セレブ　鳴き声　癒し　助ける　体当たり　恩返し　ねこ　好き　funny cat　仔猫　ネコ　ペット　動物　キャラクター　とらおう　虎王 miau pet animal character cat talking  youtube 動画 アップ プライベート 日常 運転\" animal Terrível Catfight Dqn Worlds 面白動画 cat 고양이 猫 ふなっしー \"재미 영상\" Ever World Greatest ひどい ゆるキャラ First Parking Fight Drive awesome 観覧注意 とらおうチャンネル  体当たり  稼ぐ 方法 特典 ネットビジネス ドンキ　ドンペン　ジバニャン <br /> <br />【関連動画】 <br />（だるまさんが転んにゃ) <br />https://www.youtube.com/watch?v=fzzjgBAaWZw <br /> <br />(まるです） <br />https://www.youtube.com/watch?v=z_AbfPXTKms <br /> <br />（funny cats) <br />https://www.youtube.com/watch?v=Wbt_M7nK0-o",
+  "created_time": 1465061586,
+  "search_query": "鳥におしゃべりする猫",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat in an attic, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x4ej79j",
+    "decision": "keep",
+    "reason": "The title suggests a cat in an attic, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

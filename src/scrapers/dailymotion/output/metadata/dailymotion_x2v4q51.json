@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x2v4q51",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2v4q51_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2v4q51_audio.mp3",
+  "duration_sec": 18,
+  "duration_seconds": 18.0,
+  "title": "cat new urdu talking",
+  "webpage_url": "https://www.dailymotion.com/video/x2v4q51",
+  "dm_id": "x2v4q51",
+  "views_total": 695,
+  "view_count": 695,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "dm:source=androidapp"
+  ],
+  "channel": "webcam",
+  "channel_title": "webcam",
+  "language": "en",
+  "query_language": "en",
+  "description": "follow and funs",
+  "created_time": 1435078237,
+  "search_query": "cat talking",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a talking cat, which implies vocalization.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2v4q51",
+    "decision": "keep",
+    "reason": "The title suggests a talking cat, which implies vocalization.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

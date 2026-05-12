@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x95cv1g",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x95cv1g_video.mp4",
+  "audio_path": "output/videos/dailymotion_x95cv1g_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "Cat song | \"Adorable Cats for Kids: Fun and Playful Kittens!\"...",
+  "webpage_url": "https://www.dailymotion.com/video/x95cv1g",
+  "dm_id": "x95cv1g",
+  "views_total": 4579,
+  "view_count": 4579,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Cats",
+    "Cat lover",
+    "Adorable cat",
+    "Fun for kids",
+    "Kids songs",
+    "Nursery Rhymes",
+    "Kitten",
+    "Kitty"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "Get ready to sing along with our \"Cute Cats Song\" – a fun and cheerful tune all about adorable kittens! This delightful song for kids introduces different cats as they play, purr, and explore their surroundings. Perfect for toddlers and preschoolers, this catchy melody is sure to bring smiles to your little ones as they watch the playful cats.<br /><br />The colorful animation and cute characters will keep children entertained while encouraging them to sing, dance, and enjoy the magic of music. Join us for more fun songs and videos designed just for kids!",
+  "created_time": 1725817426,
+  "search_query": "playful kittens relaxing",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a song about playful kittens, indicating cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x95cv1g",
+    "decision": "keep",
+    "reason": "The video features a song about playful kittens, indicating cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

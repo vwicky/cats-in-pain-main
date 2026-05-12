@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3cmaq1",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3cmaq1_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3cmaq1_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Уйди! Уйди! Говорящий кот",
+  "webpage_url": "https://www.dailymotion.com/video/x3cmaq1",
+  "dm_id": "x3cmaq1",
+  "views_total": 27236,
+  "view_count": 27236,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1446770867,
+  "search_query": "кот, выслеживающий добычу",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a talking cat, which is plausible for cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3cmaq1",
+    "decision": "keep",
+    "reason": "The title suggests a talking cat, which is plausible for cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

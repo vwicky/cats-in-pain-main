@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x9n89ko",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9n89ko_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9n89ko_audio.mp3",
+  "duration_sec": 28,
+  "duration_seconds": 28.0,
+  "title": "Cats meet a new kitten with suspicious stares and silence",
+  "webpage_url": "https://www.dailymotion.com/video/x9n89ko",
+  "dm_id": "x9n89ko",
+  "views_total": 32944,
+  "view_count": 32944,
+  "likes_total": 29,
+  "like_count": 29,
+  "tags": [
+    "Türkiye",
+    "Animals and Pets",
+    "New Kitten",
+    "Cat Meeting",
+    "Funny Cats",
+    "Cat Reaction",
+    "Pet Introduction",
+    "Feline Drama",
+    "Cat Standoff",
+    "Cat Family"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "Funda shared this clip with a solid life lesson: 'Some squads need time to warm up.'<br /><br />Her new kitten stepped in like it was ready for cuddles and chaos, but the existing feline crew had other plans.<br /><br />They stared in silence, throwing side-eyes sharper than claws.<br /><br />No hissing, no fighting; just a slow-motion judgment session.<br /><br />But behind every cold stare is a future cuddle buddy.<br /><br />Hopefully, this little fluffball will win their hearts soon.<br />WooGlobe Ref : WGA556271<br />For licensing and to use this video, please email licensing@wooglobe.com",
+  "created_time": 1752937293,
+  "search_query": "playful kittens relaxing",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video depicts cats meeting a new kitten, which is relevant to cat social behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9n89ko",
+    "decision": "keep",
+    "reason": "The video depicts cats meeting a new kitten, which is relevant to cat social behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

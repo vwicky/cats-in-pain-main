@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_xa06zpo",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xa06zpo_video.mp4",
+  "audio_path": "output/videos/dailymotion_xa06zpo_audio.mp3",
+  "duration_sec": 39,
+  "duration_seconds": 39.0,
+  "title": "Essai de la trend curcuma avec un  chat au Maroc. Oui je sais je suis très en retard 🥲 (filmé en juin 2025)",
+  "webpage_url": "https://www.dailymotion.com/video/xa06zpo",
+  "dm_id": "xa06zpo",
+  "views_total": 1028,
+  "view_count": 1028,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "people",
+  "channel_title": "people",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1771277881,
+  "search_query": "posture défensive de chat",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title mentions a cat in a context that suggests real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xa06zpo",
+    "decision": "keep",
+    "reason": "The title mentions a cat in a context that suggests real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

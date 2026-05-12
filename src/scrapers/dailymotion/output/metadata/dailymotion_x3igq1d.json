@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x3igq1d",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3igq1d_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3igq1d_audio.mp3",
+  "duration_sec": 23,
+  "duration_seconds": 23.0,
+  "title": "Приколы с котами! Храбрый котик!))",
+  "webpage_url": "https://www.dailymotion.com/video/x3igq1d",
+  "dm_id": "x3igq1d",
+  "views_total": 58015,
+  "view_count": 58015,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "pets",
+    "animals",
+    "nature",
+    "fun"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Ukrainian",
+  "description": "Наши верные друзья - наши забавные животные!!! Веселые смешные видео о птичках, собачках, кошечках, рыбках и других забавных зверюшках!<br />Our good friends - our funny animals! Funny funny video about the birds, dogs, kitties, fish and other fun little animals! Приколы.",
+  "created_time": 1450358789,
+  "search_query": "котик після операції",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates it features funny videos about cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3igq1d",
+    "decision": "keep",
+    "reason": "The description indicates it features funny videos about cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

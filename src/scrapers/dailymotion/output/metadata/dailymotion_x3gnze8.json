@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3gnze8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3gnze8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3gnze8_audio.mp3",
+  "duration_sec": 23,
+  "duration_seconds": 23.0,
+  "title": "Кот злодей чуть не поломал камеру!",
+  "webpage_url": "https://www.dailymotion.com/video/x3gnze8",
+  "dm_id": "x3gnze8",
+  "views_total": 14444,
+  "view_count": 14444,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Кот злодей чуть не поломал камеру!",
+  "created_time": 1449143246,
+  "search_query": "кот громко мяукает",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a mischievous cat, which implies playful behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3gnze8",
+    "decision": "keep",
+    "reason": "The title suggests a mischievous cat, which implies playful behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

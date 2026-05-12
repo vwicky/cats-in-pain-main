@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x9qhhle",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9qhhle_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9qhhle_audio.mp3",
+  "duration_sec": 40,
+  "duration_seconds": 40.0,
+  "title": "Katzenmama adoptiert Maus - das Netz feiert sie",
+  "webpage_url": "https://www.dailymotion.com/video/x9qhhle",
+  "dm_id": "x9qhhle",
+  "views_total": 2742,
+  "view_count": 2742,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "Katze",
+    "Maus",
+    "TikTok"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "de",
+  "query_language": "German",
+  "description": "Hoppla! Da hat sich eine Maus in einen Wurf neugeborener Kätzchen eingeschlichen. Die Katzenmutter scheint das nicht zu stören.",
+  "created_time": 1757768130,
+  "search_query": "verspielte Kätzchen entspannen",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description involves a mother cat and her kittens, which is relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9qhhle",
+    "decision": "keep",
+    "reason": "The description involves a mother cat and her kittens, which is relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

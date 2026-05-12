@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x84gm1q",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x84gm1q_video.mp4",
+  "audio_path": "output/videos/dailymotion_x84gm1q_audio.mp3",
+  "duration_sec": 16,
+  "duration_seconds": 16.0,
+  "title": "cute cat with funny sleeping style 2021 lol",
+  "webpage_url": "https://www.dailymotion.com/video/x84gm1q",
+  "dm_id": "x84gm1q",
+  "views_total": 928,
+  "view_count": 928,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cute cat",
+    "cute cat sleep"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "cute cat with funny sleeping style 2021 lol",
+  "created_time": 1632736295,
+  "search_query": "relaxed cat sleeping",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cute cat sleeping in a funny position, which is typical cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x84gm1q",
+    "decision": "keep",
+    "reason": "The video features a cute cat sleeping in a funny position, which is typical cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

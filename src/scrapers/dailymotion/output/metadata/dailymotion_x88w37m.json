@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x88w37m",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x88w37m_video.mp4",
+  "audio_path": "output/videos/dailymotion_x88w37m_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "La réaction de ce chat qui entend le distributeur de croquettes : mythique",
+  "webpage_url": "https://www.dailymotion.com/video/x88w37m",
+  "dm_id": "x88w37m",
+  "views_total": 902,
+  "view_count": 902,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "reaction",
+    "drole",
+    "fun",
+    "croquette",
+    "animal de compagnie",
+    "rigolo"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "La réaction de ce chat qui entend le distributeur de croquettes : mythique",
+  "created_time": 1646986923,
+  "search_query": "vidéos de chats qui parlent",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat reacting to a food dispenser, suggesting vocalization or excitement.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x88w37m",
+    "decision": "keep",
+    "reason": "The video features a cat reacting to a food dispenser, suggesting vocalization or excitement.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

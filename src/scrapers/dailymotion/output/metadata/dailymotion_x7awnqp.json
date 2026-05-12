@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x7awnqp",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7awnqp_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7awnqp_audio.mp3",
+  "duration_sec": 45,
+  "duration_seconds": 45.0,
+  "title": "Chat sur le toit d'une voiture sur l'autoroute",
+  "webpage_url": "https://www.dailymotion.com/video/x7awnqp",
+  "dm_id": "x7awnqp",
+  "views_total": 126430,
+  "view_count": 126430,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "voiture",
+    "autoroute",
+    "chat"
+  ],
+  "channel": "auto",
+  "channel_title": "auto",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Cet automobiliste aux Etats-Unis ne s'est pas apercu qu'un chat s'était installé sur sa voiture. Le pauvre matou a donc pris l'autoroute dans une position risquée. Heureusement, le conducteur a pu être prévenu à temps par un autre automobiliste.",
+  "created_time": 1560325020,
+  "search_query": "chat qui ronronne sur les genoux",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat on a car, which is plausible real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7awnqp",
+    "decision": "keep",
+    "reason": "The video features a cat on a car, which is plausible real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

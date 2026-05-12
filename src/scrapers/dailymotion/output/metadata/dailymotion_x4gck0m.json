@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x4gck0m",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x4gck0m_video.mp4",
+  "audio_path": "output/videos/dailymotion_x4gck0m_audio.mp3",
+  "duration_sec": 50,
+  "duration_seconds": 50.0,
+  "title": "Ce gros pitbull ne veut pas réveiller le chat qui dort... Sur la pointe des pieds !",
+  "webpage_url": "https://www.dailymotion.com/video/x4gck0m",
+  "dm_id": "x4gck0m",
+  "views_total": 527,
+  "view_count": 527,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Pitbull",
+    "Animal",
+    "Humour",
+    "Adorable",
+    "chat",
+    "lol",
+    "fun",
+    "dort",
+    "pointe des pieds"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Ce gros pitbull ne veut pas réveiller le chat qui dort... Sur la pointe des pieds ! <br /> <br />Nervous Pitbull Carefully Tiptoes Past Sleeping Cat",
+  "created_time": 1465922380,
+  "search_query": "chat détendu qui dort",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat sleeping while a dog tiptoes around it, indicating a peaceful interaction.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x4gck0m",
+    "decision": "keep",
+    "reason": "The video features a cat sleeping while a dog tiptoes around it, indicating a peaceful interaction.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

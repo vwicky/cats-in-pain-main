@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x98rcno",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x98rcno_video.mp4",
+  "audio_path": "output/videos/dailymotion_x98rcno_audio.mp3",
+  "duration_sec": 33,
+  "duration_seconds": 33.0,
+  "title": "Elle voit un chaton au beau milieu de la mer et fait quelque chose qui choque les policiers (Vidéo)",
+  "webpage_url": "https://www.dailymotion.com/video/x98rcno",
+  "dm_id": "x98rcno",
+  "views_total": 6985,
+  "view_count": 6985,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Des vacances placées sous le signe d'une belle rencontre pour cette femme qui n'a pas hésité à se jeter à l'eau pour sauver un chaton.",
+  "created_time": 1730977794,
+  "search_query": "chatons joueurs qui se détendent",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a woman saving a kitten, which is cat-related.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x98rcno",
+    "decision": "keep",
+    "reason": "The video involves a woman saving a kitten, which is cat-related.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

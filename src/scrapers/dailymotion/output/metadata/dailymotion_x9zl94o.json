@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x9zl94o",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9zl94o_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9zl94o_audio.mp3",
+  "duration_sec": 58,
+  "duration_seconds": 58.0,
+  "title": "Cachorrinha conhecida por odiar gatos vira mãe adotiva de filhote felino #shorts",
+  "webpage_url": "https://www.dailymotion.com/video/x9zl94o",
+  "dm_id": "x9zl94o",
+  "views_total": 885,
+  "view_count": 885,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Noticias",
+    "Últimas Notícias",
+    "Portal Terra",
+    "Terra"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Spanish",
+  "description": "Cachorrinha conhecida por odiar gatos vira mãe adotiva de filhote felino #shorts",
+  "created_time": 1770673434,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a dog adopting a kitten, which relates to cat behavior in a social context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9zl94o",
+    "decision": "keep",
+    "reason": "The video features a dog adopting a kitten, which relates to cat behavior in a social context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x8ee30l",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8ee30l_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8ee30l_audio.mp3",
+  "duration_sec": 13,
+  "duration_seconds": 13.0,
+  "title": "CUTE CAT",
+  "webpage_url": "https://www.dailymotion.com/video/x8ee30l",
+  "dm_id": "x8ee30l",
+  "views_total": 860,
+  "view_count": 860,
+  "likes_total": 2,
+  "like_count": 2,
+  "tags": [
+    "Kucing lucu",
+    "Funny Cat",
+    "Cat",
+    "Kucing",
+    "Animal",
+    "Binatang",
+    "Hewan Lucu",
+    "Binatang Lucu",
+    "Blackpink",
+    "BTS"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "Kucing-kucing lucu yang sedang bermain satu sama lain.",
+  "created_time": 1665556666,
+  "search_query": "cat after vaccination",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description mentions cute cats playing, indicating real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8ee30l",
+    "decision": "keep",
+    "reason": "The description mentions cute cats playing, indicating real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

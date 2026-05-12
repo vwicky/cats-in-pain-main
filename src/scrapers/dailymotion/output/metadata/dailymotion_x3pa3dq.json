@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x3pa3dq",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3pa3dq_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3pa3dq_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Кот дрессирует хозяина. АХААХ)))",
+  "webpage_url": "https://www.dailymotion.com/video/x3pa3dq",
+  "dm_id": "x3pa3dq",
+  "views_total": 1994,
+  "view_count": 1994,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Позитив",
+    "ПРИКОЛ",
+    "ЮМОР",
+    "КОТ"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Кот дрессирует хозяина",
+  "created_time": 1454095155,
+  "search_query": "кот, выслеживающий добычу",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat interacting humorously with its owner.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3pa3dq",
+    "decision": "keep",
+    "reason": "The title suggests a cat interacting humorously with its owner.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

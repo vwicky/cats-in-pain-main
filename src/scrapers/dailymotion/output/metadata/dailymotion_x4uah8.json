@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x4uah8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x4uah8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x4uah8_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "Gamelle",
+  "webpage_url": "https://www.dailymotion.com/video/x4uah8",
+  "dm_id": "x4uah8",
+  "views_total": 4651,
+  "view_count": 4651,
+  "likes_total": 3,
+  "like_count": 3,
+  "tags": [
+    "gamelle",
+    "chat",
+    "minu",
+    "drole",
+    "nan",
+    "énorme",
+    "ouai",
+    "bienfait",
+    "tous"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "mein petit chat qui fai son bo  ki se scratch par terre",
+  "created_time": 1206455548,
+  "search_query": "chats se reposant paisiblement",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Video features a cat scratching and playing.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x4uah8",
+    "decision": "keep",
+    "reason": "Video features a cat scratching and playing.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

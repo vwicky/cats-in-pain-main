@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3dl4r0",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3dl4r0_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3dl4r0_audio.mp3",
+  "duration_sec": 15,
+  "duration_seconds": 15.0,
+  "title": "Cat Mom with Sign of Love Brought Her Kitten into Man’s Heart!",
+  "webpage_url": "https://www.dailymotion.com/video/x3dl4r0",
+  "dm_id": "x3dl4r0",
+  "views_total": 1293,
+  "view_count": 1293,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "Kitten enjoying his first belly rubs.",
+  "created_time": 1447395000,
+  "search_query": "cat discomfort signs",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a kitten enjoying belly rubs, indicating positive cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3dl4r0",
+    "decision": "keep",
+    "reason": "The video features a kitten enjoying belly rubs, indicating positive cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

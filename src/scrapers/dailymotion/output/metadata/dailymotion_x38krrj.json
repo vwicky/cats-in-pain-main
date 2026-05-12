@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x38krrj",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x38krrj_video.mp4",
+  "audio_path": "output/videos/dailymotion_x38krrj_audio.mp3",
+  "duration_sec": 26,
+  "duration_seconds": 26.0,
+  "title": "Сообразительный кот помог котенку! Смотри как!",
+  "webpage_url": "https://www.dailymotion.com/video/x38krrj",
+  "dm_id": "x38krrj",
+  "views_total": 8922,
+  "view_count": 8922,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1443999425,
+  "search_query": "кот громко мяукает",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title indicates a cat helping a kitten, suggesting positive behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x38krrj",
+    "decision": "keep",
+    "reason": "Title indicates a cat helping a kitten, suggesting positive behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

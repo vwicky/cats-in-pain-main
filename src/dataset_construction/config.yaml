@@ -1,0 +1,205 @@
+# Paths are relative to REPO_ROOT (parent of src/dataset_construction/)
+sources:
+  # Inputs for 00_merge_metadata.py (original files are never modified)
+  metadata_v2: "data/dataset/metadata_v2.jsonl"
+  tiktok_metadata: "data/dataset/tiktok_metadata.jsonl"
+  # Unified manifest: metadata_v2 + tiktok_metadata with ``source`` on each record
+  metadata_merged: "src/dataset_construction/manifests/metadata_merged.jsonl"
+
+  # Video snippet root directories — all platforms (search order: first match wins)
+  snippets_dirs:
+    - "data/dataset/snippets_v2"        # YouTube + DailyMotion (pipeline v2)
+    - "data/dataset/tiktok_snippets"      # TikTok numeric video IDs — required for TikTok rows
+    - "data/dataset/snippets"             # legacy / other collections (if present)
+
+  # Expected total: ~7500+ snippets (YouTube + TikTok + DailyMotion)
+  # If a snippet_id from the manifest cannot be resolved in any
+  # of the above directories, it is flagged as missing.
+
+output:
+  reports_dir:   "src/dataset_construction/reports"
+  manifests_dir: "src/dataset_construction/manifests"
+
+static_detection:
+  # Strict "truly static": every BGR frame vs first frame; short-circuit on first change.
+  # Mean abs diff across BGR channels (0–255). Codec noise needs a small non-zero cutoff.
+  variance_threshold: 0.5
+  workers: 1                     # increase for parallel processing
+
+gpt_description:
+  model: "gpt-4o"
+  frames_per_snippet: 3         # beginning, middle, end
+  frame_positions: [0.15, 0.50, 0.85]  # as fraction of duration
+  image_size: 512               # resize longest side to N px before sending
+  image_quality: "auto"         # OpenAI detail param: auto|low|high
+  workers: 5                    # parallel ThreadPoolExecutor workers (API + decode)
+  batch_size: 1                 # 1 snippet per API call (3 images per call)
+  max_retries: 3
+  retry_base_delay: 2.0
+  requests_per_minute: 50       # rate limit guard
+  cost_per_1k_input_tokens: 0.0025   # gpt-4o pricing, update if changed
+  cost_per_1k_output_tokens: 0.0100
+  cache_file: "src/dataset_construction/reports/gpt_description_cache.jsonl"
+  prompt_file: "src/dataset_construction/config/gpt_description_prompt.md"
+  skip_already_described: true  # resume support via cache
+  input_manifest: "src/dataset_construction/manifests/metadata_clean_01.jsonl"
+  output_manifest: "src/dataset_construction/manifests/metadata_clean_02.jsonl"
+  descriptions_jsonl: "src/dataset_construction/reports/gpt_descriptions.jsonl"
+  report_txt: "src/dataset_construction/reports/gpt_description_report.txt"
+
+cat_id:
+  # Frame extraction
+  frame_positions: [0.15, 0.50, 0.85]   # fallback order; primary = 0.50
+  bbox_padding: 0.10
+  embed_size: 224
+  # RGB crops after YOLO (same tensors CLIP sees). Skips video decode + YOLO on reruns
+  # when signature matches embed_size, yolo_conf, bbox_padding, weights, frame order.
+  bbox_crop_cache: "src/dataset_construction/reports/cat_id_bbox_crops.npz"
+
+  # YOLO
+  yolo_weights: "models/yolo/yolov8x.pt"
+  yolo_conf: 0.40
+
+  # CLIP
+  clip_model: "ViT-B-16"
+  clip_pretrained: "laion2b_s34b_b88k"
+  embedding_batch_size: 64
+  embedding_cache: "src/dataset_construction/reports/clip_embeddings.npz"
+
+  # FAISS
+  faiss_nprobe: 10                 # search thoroughness; raise if recall low
+
+  # Merge thresholds (union-find rules, applied in priority order)
+  thresholds:
+    same_video: null               # unconditional — null means always merge
+    same_channel_breed_coat: 0.82
+    same_channel: 0.88
+    cross_channel_bbox_both: 0.95
+    cross_channel_any_fallback: 0.97
+
+  # GPT verification
+  gpt_verify: true
+  gpt_verify_model: "gpt-4o"
+  gpt_verify_sim_low: 0.88         # verify pairs with similarity in
+  gpt_verify_sim_high: 0.95        # [sim_low, sim_high] AND same channel
+                                   # AND different video_id
+  gpt_verify_max_pairs: 500        # cap to control cost
+  gpt_verify_cost_per_1k_input: 0.0025
+  gpt_verify_cost_per_1k_output: 0.0100
+  gpt_verify_max_retries: 8
+  gpt_verify_retry_base_delay: 2.0
+
+  # CV validation
+  cv_folds: 5
+  cv_min_cats_per_fold: 15         # warn if any fold falls below this
+
+  # Paths (resolved under REPO_ROOT)
+  # Input: prefer channel-resolved manifest from check_channel_ids.py (coverage ≥70% writes
+  # metadata_clean_03_channels.jsonl). That gives stable channel_id for Rules 2–3 and GPT verify.
+  # First-time GPT→cat_id only: use metadata_clean_02.jsonl until check_channel_ids has been run.
+  input_manifest: "src/dataset_construction/manifests/metadata_clean_03_channels.jsonl"
+  output_manifest: "src/dataset_construction/manifests/metadata_clean_03.jsonl"
+  assignments_csv: "src/dataset_construction/reports/cat_id_assignments.csv"
+  report_txt: "src/dataset_construction/reports/cat_id_report.txt"
+  gpt_verify_prompt_file: "src/dataset_construction/config/gpt_catid_prompt.md"
+
+# Thesis / paper figures helpers (channel-resolution GPT estimates for cost tables).
+paper_figures:
+  channel_resolution_gpt:
+    estimated: true
+    api_calls: 0
+    input_tokens: 0
+    output_tokens: 0
+    # After a real GPT follow-up run, fill the fields above and set estimated: false if reconciled.
+
+  # Pipeline survivor funnel for thesis subsection.
+  # search / keyword_filter / llm_filter are VIDEO-level unique candidate counts
+  # aggregated across all pipeline v2 runs (duplicate video_ids removed).
+  # Source: runs/data-pipeline-v2/*/stage_{1,2,3}_*/kept.jsonl + candidates.jsonl,
+  # excluding dl_01..dl_06 sub-runs (they share stage_1/stage_2 with parent 20260413_120918).
+  # Downstream stages (Download onwards) count SNIPPETS from the merged manifests.
+  pipeline_funnel:
+    search: 89005         # unique video candidates from stage_1_search/candidates.jsonl
+    keyword_filter: 45760 # unique video IDs in stage_2_tag_filter/kept.jsonl
+    llm_filter: 19385     # unique video IDs in stage_3_gpt_filter/kept.jsonl
+    download_manifest: null
+    static_removal_manifest: null
+    gpt_manifest: null
+    processing: null
+    skip_duplicate_plateau_in_plot: true
+
+final_dataset:
+  confidence_threshold: 0.45      # audio label minimum confidence to keep
+  margin_threshold: 0.05          # gap between top-1 and top-2 audio prob
+  label_map_10_to_5:
+    Angry: Agonistic
+    Defence: Agonistic
+    Fighting: Agonistic
+    Happy: Positive_Baseline
+    Resting: Positive_Baseline
+    Mating: Vocalizing
+    Warning: Vocalizing
+    MotherCall: Vocalizing
+    HuntingMind: HuntingMind
+    Paining: Paining
+  binary_map:
+    Paining: Pain
+    Positive_Baseline: No_Pain
+    Agonistic: No_Pain
+    Vocalizing: No_Pain
+    HuntingMind: No_Pain
+  input_manifest: "src/dataset_construction/manifests/metadata_clean_03.jsonl"
+  assignments_csv: "src/dataset_construction/reports/cat_id_assignments.csv"
+  gpt_descriptions_jsonl: "src/dataset_construction/reports/gpt_descriptions.jsonl"
+  audio_predictions_jsonl: "src/dataset_construction/reports/separated_audios_emotion_predictions.jsonl"
+  separated_audio_root: "src/dataset_construction/separeted_audios"
+  output_manifest: "src/dataset_construction/manifests/final_dataset_v2.jsonl"
+  merge_report_txt: "src/dataset_construction/reports/05_merge_report.txt"
+  merge_log_jsonl: "src/dataset_construction/reports/05_merge_log.jsonl"
+
+pose_extraction:
+  n_frames: 35
+  target_fps: 5.0
+  max_clip_duration: 7.0
+  # Padded pose timesteps (after shorter clips): repeat_last | repeat_first | zeros
+  # (aliases: last, first, zero). repeat_* copies x,y from real frame, conf=0 on padded slots.
+  pad_strategy: "zeros"
+  image_size: [192, 256]
+  output_dir: "data/dataset/embeddings/pose/v2"
+  cache_index: "src/dataset_construction/reports/pose_extraction_index.jsonl"
+  device: "auto"
+  skip_existing: true
+  workers: 1
+  # Legacy manifest (~715 clips) used only to probe existing pose .npy coordinate convention at startup.
+  legacy_pose_manifest: "data/dataset/final_dataset.jsonl"
+  # ViTPose weights; vitpose_dataset / vitpose_model_name must match the checkpoint family.
+  vitpose_checkpoint: "models/pose_est/vitpose-h-apt36k.pth"
+  vitpose_dataset: "apt36k"
+  vitpose_model_name: "h"
+  yolo_weights: "models/yolo/yolov8x.pt"
+  # Matches VitInference hardcoded box filter (~0.35 in video/easyViTPose/inference.py). Do not lower to 0.30
+  # without replacing that library gate; 0.35 avoids extra false cat boxes vs 0.30.
+  yolo_conf: 0.35
+  yolo_cat_class: 15
+  yolo_size: 320
+  bbox_expand: 0.10
+  n_keypoints: 17
+  # Parallelism / throughput (single GPU: use batch + prefetch; multi-process clips on one GPU hurts).
+  decode_prefetch: 2               # decode next clip(s) on threads while ViTPose runs (>1 overlaps OpenCV/ffmpeg)
+  vitpose_forward_batch: 1       # set 4–8 for faster ViTPose (>1 uses top-1 YOLO box/frame, not multi-candidate voting)
+
+# DeepLabCut SuperAnimal-Quadruped (separate from ViTPose pipeline; run ``06_pose_extraction_superanimal.py``).
+pose_extraction_superanimal:
+  n_frames: 35
+  target_fps: 5.0
+  max_clip_duration: 7.0
+  pad_value: 0.0
+  output_dir: "data/dataset/embeddings/pose/superanimal_v2"
+  cache_index: "src/dataset_construction/reports/pose_extraction_superanimal_index.jsonl"
+  skip_existing: true
+  # PyTorch DLC 3.x style names; ignored by DeepLabCut 2.3.x (TF superanimal_zoo path).
+  dlc_model: "hrnet_w32"
+  dlc_detector: "fasterrcnn_resnet50_fpn_v2"
+  n_keypoints: 39
+  # Optional: for validation printout comparing shapes to legacy ViTPose clips
+  legacy_pose_manifest: "data/dataset/final_dataset.jsonl"

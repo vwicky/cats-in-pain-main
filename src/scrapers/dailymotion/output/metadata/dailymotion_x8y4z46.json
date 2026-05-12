@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8y4z46",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8y4z46_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8y4z46_audio.mp3",
+  "duration_sec": 31,
+  "duration_seconds": 31.0,
+  "title": "Katze sitzt an eiskaltem Fluss fest: Mit dieser Wendung rechnet keiner!",
+  "webpage_url": "https://www.dailymotion.com/video/x8y4z46",
+  "dm_id": "x8y4z46",
+  "views_total": 56079,
+  "view_count": 56079,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Eine Katze befindet sich in einer misslichen Lage und braucht dringend Hilfe, doch mit diesem Ausgang der Geschichte rechnen ihre Retter nicht.",
+  "created_time": 1715066311,
+  "search_query": "Verhalten einer verletzten Katze",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a cat in a difficult situation needing help.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8y4z46",
+    "decision": "keep",
+    "reason": "The description indicates a cat in a difficult situation needing help.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

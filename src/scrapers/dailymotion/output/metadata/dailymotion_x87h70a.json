@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x87h70a",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x87h70a_video.mp4",
+  "audio_path": "output/videos/dailymotion_x87h70a_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "Katze sitzt jeden Tag auf dem gleichen Gullideckel. Der Grund ist zum Heulen!",
+  "webpage_url": "https://www.dailymotion.com/video/x87h70a",
+  "dm_id": "x87h70a",
+  "views_total": 592,
+  "view_count": 592,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "uuid_2ee7f9f6-4078-4844-a1ac-20ef73e3d5a3",
+    "guid_8384",
+    "tier",
+    "katze",
+    "unterhaltung"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "de",
+  "query_language": "German",
+  "description": "",
+  "created_time": 1643743880,
+  "search_query": "Katze in der Tierklinik",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video suggests a cat's emotional attachment to a specific location, relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x87h70a",
+    "decision": "keep",
+    "reason": "The video suggests a cat's emotional attachment to a specific location, relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

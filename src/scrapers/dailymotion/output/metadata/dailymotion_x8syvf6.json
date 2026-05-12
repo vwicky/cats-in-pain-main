@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8syvf6",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8syvf6_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8syvf6_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Katze steckt im Maul vom Schäferhund fest: Frauchen gerät in Panik (Video)",
+  "webpage_url": "https://www.dailymotion.com/video/x8syvf6",
+  "dm_id": "x8syvf6",
+  "views_total": 25687,
+  "view_count": 25687,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Diese beiden Vierbeiner sind einfach atemberaubend.",
+  "created_time": 1708359938,
+  "search_query": "Katze in der Tierklinik",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat is involved in a tense situation with a dog, indicating potential agonistic behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8syvf6",
+    "decision": "keep",
+    "reason": "The title suggests a cat is involved in a tense situation with a dog, indicating potential agonistic behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x2ix0ic",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2ix0ic_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2ix0ic_audio.mp3",
+  "duration_sec": 48,
+  "duration_seconds": 48.0,
+  "title": "Un chat content de retrouver son ami le chien après une séparation",
+  "webpage_url": "https://www.dailymotion.com/video/x2ix0ic",
+  "dm_id": "x2ix0ic",
+  "views_total": 1417,
+  "view_count": 1417,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "chat",
+    "chien",
+    "lolcat",
+    "loldog",
+    "content",
+    "retrouvailles",
+    "amis",
+    "copain",
+    "retrouver",
+    "mignon"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Jasper le chat est content de retrouver Bow-Z le chien après une séparation de 10 jours. Le chat fait un gros câlin à son ami le chien qui ne sait pas trop comment réagir face à ce débordement d'amour",
+  "created_time": 1425739607,
+  "search_query": "chat en convalescence après une opération",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat reuniting with a dog, showcasing positive interaction.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2ix0ic",
+    "decision": "keep",
+    "reason": "The video features a cat reuniting with a dog, showcasing positive interaction.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

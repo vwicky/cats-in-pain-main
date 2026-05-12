@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x38hpd8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x38hpd8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x38hpd8_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "Кот эгоист.)",
+  "webpage_url": "https://www.dailymotion.com/video/x38hpd8",
+  "dm_id": "x38hpd8",
+  "views_total": 17446,
+  "view_count": 17446,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1443882405,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's behavior, even though the description is empty.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x38hpd8",
+    "decision": "keep",
+    "reason": "The title suggests a cat's behavior, even though the description is empty.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x8m81x8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8m81x8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8m81x8_audio.mp3",
+  "duration_sec": 14,
+  "duration_seconds": 14.0,
+  "title": "Un chat pressé de monter à bord",
+  "webpage_url": "https://www.dailymotion.com/video/x8m81x8",
+  "dm_id": "x8m81x8",
+  "views_total": 3597,
+  "view_count": 3597,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "saut",
+    "bateau"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Le jour où elle a appris que son chat était un excellent nageur",
+  "created_time": 1688369249,
+  "search_query": "compilation de combats de chats",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description suggest a cat-related activity.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8m81x8",
+    "decision": "keep",
+    "reason": "The title and description suggest a cat-related activity.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

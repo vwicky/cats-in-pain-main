@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3s218k",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3s218k_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3s218k_audio.mp3",
+  "duration_sec": 52,
+  "duration_seconds": 52.0,
+  "title": "Крысы достают кота. Funny and Cute Animals",
+  "webpage_url": "https://www.dailymotion.com/video/x3s218k",
+  "dm_id": "x3s218k",
+  "views_total": 1180,
+  "view_count": 1180,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cats",
+    "funny",
+    "prikoli",
+    "video",
+    "clip",
+    "best",
+    "rolik",
+    "смешно",
+    "comedy"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Ukrainian",
+  "description": "",
+  "created_time": 1455452601,
+  "search_query": "захисна поза кота",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests interaction between a cat and rats, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3s218k",
+    "decision": "keep",
+    "reason": "The title suggests interaction between a cat and rats, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

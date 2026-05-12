@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8u65vo",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8u65vo_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8u65vo_audio.mp3",
+  "duration_sec": 17,
+  "duration_seconds": 17.0,
+  "title": "Wystawa kotów Palmiarni Poznańskiej",
+  "webpage_url": "https://www.dailymotion.com/video/x8u65vo",
+  "dm_id": "x8u65vo",
+  "views_total": 24718,
+  "view_count": 24718,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "Polish",
+  "description": "Poznań, 10.03.2024",
+  "created_time": 1710076705,
+  "search_query": "dźwięki ostrzegawcze kotów",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat exhibition, which likely features real cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8u65vo",
+    "decision": "keep",
+    "reason": "The title suggests a cat exhibition, which likely features real cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

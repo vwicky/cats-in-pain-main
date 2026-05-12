@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9hxq2m",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9hxq2m_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9hxq2m_audio.mp3",
+  "duration_sec": 45,
+  "duration_seconds": 45.0,
+  "title": "Mutter und Tochter gehen an einer Katze zur Adoption vorbei: Plötzlich sind alle Pläne durcheinander (Video)",
+  "webpage_url": "https://www.dailymotion.com/video/x9hxq2m",
+  "dm_id": "x9hxq2m",
+  "views_total": 48281,
+  "view_count": 48281,
+  "likes_total": 5,
+  "like_count": 5,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Sie machen nur einen Rundgang in einer Tierhandlung, als sie dieser Katze begegnen, die zur Adoption angeboten wird.",
+  "created_time": 1744722907,
+  "search_query": "Katze nach der Impfung",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a cat available for adoption, suggesting real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9hxq2m",
+    "decision": "keep",
+    "reason": "The video involves a cat available for adoption, suggesting real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

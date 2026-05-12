@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9cethi",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9cethi_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9cethi_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "Tajemnicze odgłosy za ścianą. Kobieta rozkuwa ścianę i nie wierzy własnym oczom",
+  "webpage_url": "https://www.dailymotion.com/video/x9cethi",
+  "dm_id": "x9cethi",
+  "views_total": 3764,
+  "view_count": 3764,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "Mieszkanka domu usłyszała dziwne dźwięki dochodzące zza ściany i była oszołomiona, gdy odkryła ich pochodzenie.",
+  "created_time": 1736953959,
+  "search_query": "dźwięki ostrzegawcze kotów",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description hints at mysterious sounds possibly related to cats, making it plausible.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9cethi",
+    "decision": "keep",
+    "reason": "The description hints at mysterious sounds possibly related to cats, making it plausible.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

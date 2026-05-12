@@ -1,0 +1,106 @@
+========================================================
+CAT ID ASSIGNMENT REPORT
+========================================================
+
+INPUT
+-----
+Total snippets:         7318
+Embeddable:             6802 (92.9%)
+Skipped (no cat):       20 (0.3%)
+Skipped (unsuitable):   496 (6.8%)
+Extraction failed:      0 (0.0% of embeddable in work set)
+
+CHANNEL (string used as _channel on every snippet)
+-----------------------------------------------------
+Source is the first non-empty field on the *parent video row*, in order:
+  channel_id > channel > uploader_id > author_id; otherwise video_id (fallback).
+Values from "channel" (e.g. display names) are used when they appear before
+a usable channel_id; stable channel_id is preferred when present.
+
+_channel_source among work-set embeddable snippets (N=6802):
+  channel_id: 6790 (99.8%)
+  channel: 0 (0.0%)
+  uploader_id: 0 (0.0%)
+  author_id: 0 (0.0%)
+  video_id_fallback: 12 (0.2%)
+
+WHY CHANNEL CAN STILL PRODUCE LOW Rule 2–3 OR GPT COUNTS
+---------------------------------------------------------
+Channels are always compared; they are not silently dropped. Counts depend on
+how _channel lines up across *pairs* of snippets, not on whether the field exists:
+
+  Rule 1 — same video_id: merges all snippets from one video (no _channel test).
+
+  Rules 2–3 — need the *same* _channel, high CLIP similarity, and different
+  components; Rule 2 also needs matching GPT breed + coat. If many parents
+use video_id fallback as _channel, different videos almost always have different
+_channel, so cross-video "same channel" merges are rare (Rule 1 already merged
+same-video snippets). That often yields 0 for Rules 2–3 even when "channel" is set.
+
+  Rules 4–5 — need *different* _channel (cross-channel). With video_id fallback,
+  different videos usually differ, so these rules can still merge (see Rule 4).
+
+  GPT verification — only pairs with same _channel and *different* video_id;
+  if _channel is always per-video (fallback), the candidate set is empty (0 pairs).
+  Use a stable id shared across videos (e.g. channel_id) on the manifest to enable it.
+
+THIS RUN — FRAME / CLIP I/O (not clustering quality)
+------------------------------------------------------
+YOLO detections:        6714 (98.7% of work-set embeddable)
+Fallback (full frame):  88
+Bbox RGB from disk:    6802
+Bbox RGB extracted:    0
+CLIP loaded from cache: 6802
+CLIP newly computed:   0
+
+Cache note: 'from disk' counts bbox reuse in this process only. The first
+completed run after clearing the bbox npz shows 0 here while writing the file;
+the next run with the same cat_id settings should show a large 'from disk' count.
+Clustering below matches a prior run whenever CLIP inputs and merge rules match.
+
+CLUSTERING
+------------
+Unique cat_ids:         2699
+Singleton cats:         1064
+Multi-snippet cats:     1119 cats covering 5738 snippets
+Largest cluster:        290 snippets (cat_id=cat_-O4TzeFvjyo_snip_0)
+
+Merges by rule (union-find; order is priority, not chronological):
+  Rule 1 same_video:              4318 merges
+  Rule 2 channel+breed+coat:      231 merges
+  Rule 3 same_channel:            12 merges
+  Rule 4 cross_channel_bbox:      58 merges
+  Rule 5 cross_channel_fallback:  0 merges
+  GPT verified:                   0 merges ($0.00)
+
+GPT VERIFICATION
+----------------
+Pairs evaluated:    0
+Verified same:      0 -> merged
+Verified different: 0 -> kept separate
+Uncertain:          0 -> kept separate (conservative)
+Parse errors:       0
+Total cost:         $0.00
+
+CV VALIDATION
+-------------
+Mode: StratifiedGroupKFold
+CV VALIDATION (5-fold, groups=cat_id)
+Fold | Val snippets | Unique cats | Unique videos | Leakage
+-----+--------------+-------------+---------------+----------
+    1 |         1361 |         440 |           503 | none OK
+    2 |         1361 |         440 |           505 | none OK
+    3 |         1361 |         441 |           493 | none OK
+    4 |         1359 |         420 |           486 | none OK
+    5 |         1360 |         442 |           497 | none OK
+
+Leakage detected: none OK
+
+RE-RUNNING WITHOUT REDOING YOLO OR CLIP
+----------------------------------------
+Use the on-disk bbox crop npz and CLIP embedding npz: run the same script
+without --rebuild-crop-cache and without --rebuild-cache (see module docstring).
+Keep cat_id.embedding_cache and cat_id.bbox_crop_cache paths in config.yaml
+pointing at the files from a completed run; same cat_id signature as when they were built.
+
+========================================================

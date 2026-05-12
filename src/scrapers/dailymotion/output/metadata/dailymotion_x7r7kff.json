@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x7r7kff",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7r7kff_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7r7kff_audio.mp3",
+  "duration_sec": 56,
+  "duration_seconds": 56.0,
+  "title": "Dramático rescate de un gatito en pleno centro platense",
+  "webpage_url": "https://www.dailymotion.com/video/x7r7kff",
+  "dm_id": "x7r7kff",
+  "views_total": 1748,
+  "view_count": 1748,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "La Plata",
+    "gatito",
+    "gato",
+    "rescate",
+    "Bomberos"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Ocurre en 5 entre 53 y 54. Fuerte operativo de bomberos",
+  "created_time": 1580238125,
+  "search_query": "postura defensiva de gato",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a rescue operation for a kitten, fitting the Pain_or_vet category.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7r7kff",
+    "decision": "keep",
+    "reason": "The description indicates a rescue operation for a kitten, fitting the Pain_or_vet category.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

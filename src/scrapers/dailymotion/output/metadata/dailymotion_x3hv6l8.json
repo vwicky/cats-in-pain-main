@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x3hv6l8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3hv6l8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3hv6l8_audio.mp3",
+  "duration_sec": 58,
+  "duration_seconds": 58.0,
+  "title": "Два брата болтают и гуляют по кровати",
+  "webpage_url": "https://www.dailymotion.com/video/x3hv6l8",
+  "dm_id": "x3hv6l8",
+  "views_total": 9385,
+  "view_count": 9385,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Два",
+    "брата",
+    "болтают",
+    "гуляют",
+    "по",
+    "кровати"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Два брата болтают и гуляют по кровати",
+  "created_time": 1449918357,
+  "search_query": "кошки чирикают и болтают",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests two brothers, likely referring to cats, engaging in activity.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3hv6l8",
+    "decision": "keep",
+    "reason": "The title suggests two brothers, likely referring to cats, engaging in activity.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

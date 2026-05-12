@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3a8kus",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3a8kus_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3a8kus_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "Кота посадили на диету и закрыли кухню",
+  "webpage_url": "https://www.dailymotion.com/video/x3a8kus",
+  "dm_id": "x3a8kus",
+  "views_total": 16570,
+  "view_count": 16570,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1445292960,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat is on a diet, indicating a behavioral context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3a8kus",
+    "decision": "keep",
+    "reason": "The title suggests a cat is on a diet, indicating a behavioral context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x7h8ca6",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7h8ca6_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7h8ca6_audio.mp3",
+  "duration_sec": 15,
+  "duration_seconds": 15.0,
+  "title": "Un chat heureux est un chat qui danse.Trop chou !",
+  "webpage_url": "https://www.dailymotion.com/video/x7h8ca6",
+  "dm_id": "x7h8ca6",
+  "views_total": 5862,
+  "view_count": 5862,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1566567922,
+  "search_query": "chat blessé qui boite",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a happy cat dancing, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7h8ca6",
+    "decision": "keep",
+    "reason": "The title suggests a happy cat dancing, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

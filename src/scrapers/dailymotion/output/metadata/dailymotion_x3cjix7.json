@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3cjix7",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3cjix7_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3cjix7_audio.mp3",
+  "duration_sec": 33,
+  "duration_seconds": 33.0,
+  "title": "Кот и шарик! Доигрался",
+  "webpage_url": "https://www.dailymotion.com/video/x3cjix7",
+  "dm_id": "x3cjix7",
+  "views_total": 6763,
+  "view_count": 6763,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1446722160,
+  "search_query": "кот громко мяукает",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat playing with a balloon, which is typical cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3cjix7",
+    "decision": "keep",
+    "reason": "The title suggests a cat playing with a balloon, which is typical cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x8wcfz2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8wcfz2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8wcfz2_audio.mp3",
+  "duration_sec": 48,
+  "duration_seconds": 48.0,
+  "title": "Cat Playing",
+  "webpage_url": "https://www.dailymotion.com/video/x8wcfz2",
+  "dm_id": "x8wcfz2",
+  "views_total": 714,
+  "view_count": 714,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cat",
+    "play",
+    "fun"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "Indulge in the adorable antics of our furry friend in this charming video titled \"Feline Fun: Captivating Cat Playtime!\" Watch in awe as our playful cat companion engages in a myriad of delightful activities that are sure to bring a smile to your face.<br /><br />From bounding around with boundless energy to cleverly maneuvering through intricate obstacle courses, this video captures the essence of feline curiosity and agility. Witness the sheer joy and enthusiasm as our agile cat leaps, pounces, and frolics with unmatched grace.<br /><br />But the fun doesn't stop there! Our feline star also showcases its affinity for toys, showcasing a wide array of entertaining playthings that stimulate its natural instincts. From feather wands to jingling balls, every moment is filled with excitement and amusement.<br /><br />As you watch this captivating video, you'll be mesmerized by the charm and charisma of our furry protagonist. Whether it's chasing shadows or engaging in a game of hide-and-seek, there's never a dull moment with our playful cat.<br /><br />So sit back, relax, and enjoy the enchanting world of \"Feline Fun: Captivating Cat Playtime!\" Don't forget to share this delightful video with your friends and family to spread the joy of feline",
+  "created_time": 1712297179,
+  "search_query": "happy cat playing",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description indicate a cat engaging in playful activities.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8wcfz2",
+    "decision": "keep",
+    "reason": "The title and description indicate a cat engaging in playful activities.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

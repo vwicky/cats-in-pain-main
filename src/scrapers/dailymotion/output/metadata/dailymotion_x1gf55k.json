@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x1gf55k",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x1gf55k_video.mp4",
+  "audio_path": "output/videos/dailymotion_x1gf55k_audio.mp3",
+  "duration_sec": 39,
+  "duration_seconds": 39.0,
+  "title": "\"Pris en otage\" par leur chat, ils appellent la police",
+  "webpage_url": "https://www.dailymotion.com/video/x1gf55k",
+  "dm_id": "x1gf55k",
+  "views_total": 1896,
+  "view_count": 1896,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Animaux"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un chat persan de 10 kilos s'en est pris au bébé d'un couple américain, qui s'est réfugié dans une chambre et a demandé l'aide des secours.<br /><br />Retrouver toutes les infos sur la vidéo sur : http://www.francetvinfo.fr/animaux/video-pris-en-otage-par-leur-chat-ils-appellent-la-police_550437.html",
+  "created_time": 1394623299,
+  "search_query": "chats qui s'appellent",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a cat's behavior causing a situation requiring help.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x1gf55k",
+    "decision": "keep",
+    "reason": "The video involves a cat's behavior causing a situation requiring help.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

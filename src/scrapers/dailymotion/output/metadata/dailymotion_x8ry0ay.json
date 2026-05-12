@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8ry0ay",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8ry0ay_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8ry0ay_audio.mp3",
+  "duration_sec": 59,
+  "duration_seconds": 59.0,
+  "title": "Katze merkt, wer ihr Futter weg gefressen hat: Die Antwort nicht knallhart (Video)",
+  "webpage_url": "https://www.dailymotion.com/video/x8ry0ay",
+  "dm_id": "x8ry0ay",
+  "views_total": 169870,
+  "view_count": 169870,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Vielleicht sind die beiden Katzen Freunde, aber beim Thema Futter hört wohl auch ihre Freundschaft auf ...",
+  "created_time": 1706696143,
+  "search_query": "Katze, die Beute verfolgt",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a conflict over food between two cats.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8ry0ay",
+    "decision": "keep",
+    "reason": "The description indicates a conflict over food between two cats.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

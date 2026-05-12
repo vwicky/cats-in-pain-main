@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3cpfa3",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3cpfa3_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3cpfa3_audio.mp3",
+  "duration_sec": 49,
+  "duration_seconds": 49.0,
+  "title": "Кот укладывается спать",
+  "webpage_url": "https://www.dailymotion.com/video/x3cpfa3",
+  "dm_id": "x3cpfa3",
+  "views_total": 5143,
+  "view_count": 5143,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1446822256,
+  "search_query": "кот, выслеживающий добычу",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat settling down to sleep, which is typical cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3cpfa3",
+    "decision": "keep",
+    "reason": "The title indicates a cat settling down to sleep, which is typical cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x4mcqyd",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x4mcqyd_video.mp4",
+  "audio_path": "output/videos/dailymotion_x4mcqyd_audio.mp3",
+  "duration_sec": 54,
+  "duration_seconds": 54.0,
+  "title": "Une maman chat retrouve ses petits après un trajet de 45 kilomètres",
+  "webpage_url": "https://www.dailymotion.com/video/x4mcqyd",
+  "dm_id": "x4mcqyd",
+  "views_total": 27066,
+  "view_count": 27066,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Mignon",
+    "Maman",
+    "chat",
+    "chatons",
+    "divers"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Découverts dans un seau par un ouvrier de Naples (États-Unis), ces petits chatons ont pu retrouver leur maman. Elle se trouvait à 45 kilomètres d'eux et a été ramenée à ses petits par les services animaliers.",
+  "created_time": 1469785654,
+  "search_query": "chat en convalescence après une opération",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video depicts a mother cat reuniting with her kittens, a significant cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x4mcqyd",
+    "decision": "keep",
+    "reason": "The video depicts a mother cat reuniting with her kittens, a significant cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

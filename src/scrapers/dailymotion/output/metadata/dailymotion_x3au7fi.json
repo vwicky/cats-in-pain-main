@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3au7fi",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3au7fi_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3au7fi_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "кот грязнуля",
+  "webpage_url": "https://www.dailymotion.com/video/x3au7fi",
+  "dm_id": "x3au7fi",
+  "views_total": 1413,
+  "view_count": 1413,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1445663722,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat-related video.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3au7fi",
+    "decision": "keep",
+    "reason": "The title suggests a cat-related video.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x75bdkm",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x75bdkm_video.mp4",
+  "audio_path": "output/videos/dailymotion_x75bdkm_audio.mp3",
+  "duration_sec": 13,
+  "duration_seconds": 13.0,
+  "title": "Il n'y a rien de plus beau qu'un chat qui dort. Adorable !",
+  "webpage_url": "https://www.dailymotion.com/video/x75bdkm",
+  "dm_id": "x75bdkm",
+  "views_total": 11169,
+  "view_count": 11169,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1554462965,
+  "search_query": "vidéos de chats qui parlent",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat sleeping, which is typical cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x75bdkm",
+    "decision": "keep",
+    "reason": "The title suggests a cat sleeping, which is typical cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

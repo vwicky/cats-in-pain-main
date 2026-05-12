@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_xbgfcy",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xbgfcy_video.mp4",
+  "audio_path": "output/videos/dailymotion_xbgfcy_audio.mp3",
+  "duration_sec": 29,
+  "duration_seconds": 29.0,
+  "title": "mon chat qui parle (2)",
+  "webpage_url": "https://www.dailymotion.com/video/xbgfcy",
+  "dm_id": "xbgfcy",
+  "views_total": 1083,
+  "view_count": 1083,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "animaux",
+    "chat",
+    "tigrer"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1260535351,
+  "search_query": "chat blessé qui boite",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat vocalizing.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xbgfcy",
+    "decision": "keep",
+    "reason": "The title suggests a cat vocalizing.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

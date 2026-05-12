@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x6cpqd5",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6cpqd5_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6cpqd5_audio.mp3",
+  "duration_sec": 22,
+  "duration_seconds": 22.0,
+  "title": "Ce chat va avoir la peur de sa vie!",
+  "webpage_url": "https://www.dailymotion.com/video/x6cpqd5",
+  "dm_id": "x6cpqd5",
+  "views_total": 767,
+  "view_count": 767,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Animal",
+    "chat",
+    "lol",
+    "fun",
+    "drole",
+    "animal de compagnie",
+    "peur",
+    "faire peur"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Ce chat va avoir la peur de sa vie!",
+  "created_time": 1515249948,
+  "search_query": "chat chassant sa proie",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat experiencing fear, which is relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6cpqd5",
+    "decision": "keep",
+    "reason": "The title suggests a cat experiencing fear, which is relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

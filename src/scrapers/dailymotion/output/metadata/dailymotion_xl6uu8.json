@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_xl6uu8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xl6uu8_video.mp4",
+  "audio_path": "output/videos/dailymotion_xl6uu8_audio.mp3",
+  "duration_sec": 43,
+  "duration_seconds": 43.0,
+  "title": "Patty-Cake Cats",
+  "webpage_url": "https://www.dailymotion.com/video/xl6uu8",
+  "dm_id": "xl6uu8",
+  "views_total": 1218,
+  "view_count": 1218,
+  "likes_total": 2,
+  "like_count": 2,
+  "tags": [
+    "cats",
+    "kittens",
+    "pets",
+    "animals",
+    "patty-cake",
+    "paws",
+    "mirrors",
+    "amazing",
+    "funny",
+    "pettube"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "These two cats mirror each other so well that they anticipate each other’s movements!",
+  "created_time": 1316481083,
+  "search_query": "cats hissing at each other",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates two cats mirroring each other's movements, suggesting playful interaction.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xl6uu8",
+    "decision": "keep",
+    "reason": "The description indicates two cats mirroring each other's movements, suggesting playful interaction.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

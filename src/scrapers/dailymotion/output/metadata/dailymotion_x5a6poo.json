@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x5a6poo",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5a6poo_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5a6poo_audio.mp3",
+  "duration_sec": 22,
+  "duration_seconds": 22.0,
+  "title": "Ce chat s’échappe de chez lui et sème la zizanie dans un magasin pour animaux (1)",
+  "webpage_url": "https://www.dailymotion.com/video/x5a6poo",
+  "dm_id": "x5a6poo",
+  "views_total": 4197,
+  "view_count": 4197,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Animaux",
+    "chat",
+    "échappe",
+    "magasin"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "http://buzzfil.net <br />Se retrouver seul face à une situation dont on rêve depuis toujours est la meilleure chose qui peut nous arriver. Si vous n’en êtes pas convaincus, rappelez-vous de la première fois ou vous vous vous êtes retrouvé dans un grande cantine avec au menu tous les plats dont vous raffolez. Ou encore lorsque votre maman vous a laissé jouer pour la première fois toute seule chez IKEA. <br />Il se trouve que c’est cette même euphorie qui anime notre cher ami. Dans ce cas, vous serez en mesure de comprendre ce qui lui est passé par la tête pour qu’il s’enfuie de chez lui et qu’il parvienne à s’infiltrer dans un magasin spécialisé pour animaux. Vous pouvez donc comprendre l’ampleur de la situation.  <br />On le voit dons dans la vidéo ci-dessous en train de s’amuser comme un fou au niveau du rayon herbe. <br /> <br />http://mashable.france24.com/mashallow/20170130-chat-magasin-animaux-jouets-delire <br /> <br />https://youtu.be/_YudzneyjzM",
+  "created_time": 1485877348,
+  "search_query": "signes d'inconfort chez les chats",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Similar to the first video, it suggests a cat escaping and causing chaos in a pet store.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5a6poo",
+    "decision": "keep",
+    "reason": "Similar to the first video, it suggests a cat escaping and causing chaos in a pet store.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x3wpjc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3wpjc_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3wpjc_audio.mp3",
+  "duration_sec": 32,
+  "duration_seconds": 32.0,
+  "title": "mon chat qui s'exite sur un bras",
+  "webpage_url": "https://www.dailymotion.com/video/x3wpjc",
+  "dm_id": "x3wpjc",
+  "views_total": 556,
+  "view_count": 556,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "mordre",
+    "exiter",
+    "méchant",
+    "chatte",
+    "griffes"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "voila mon chat qui s'exite sur le bras de remi :p:p:p",
+  "created_time": 1199112098,
+  "search_query": "chat qui ronronne sur les genoux",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat getting excited on a person's arm, indicating playful or active behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3wpjc",
+    "decision": "keep",
+    "reason": "The video shows a cat getting excited on a person's arm, indicating playful or active behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

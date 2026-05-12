@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x34bnks",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x34bnks_video.mp4",
+  "audio_path": "output/videos/dailymotion_x34bnks_audio.mp3",
+  "duration_sec": 42,
+  "duration_seconds": 42.0,
+  "title": "Реакция кота на сирень Такого я еще не видел",
+  "webpage_url": "https://www.dailymotion.com/video/x34bnks",
+  "dm_id": "x34bnks",
+  "views_total": 29782,
+  "view_count": 29782,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "★★★ 100$ в день - легко! Зарабатывайте на курсе рубля без риска! Откройте счет и получите $1000 на баланс! <br />► https://goo.gl/gLR5LQ ◄",
+  "created_time": 1441240936,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's reaction to lilacs, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x34bnks",
+    "decision": "keep",
+    "reason": "The title suggests a cat's reaction to lilacs, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

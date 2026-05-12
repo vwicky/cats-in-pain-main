@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x2tieoz",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2tieoz_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2tieoz_audio.mp3",
+  "duration_sec": 47,
+  "duration_seconds": 47.0,
+  "title": "Le Chat de Pallas",
+  "webpage_url": "https://www.dailymotion.com/video/x2tieoz",
+  "dm_id": "x2tieoz",
+  "views_total": 2559,
+  "view_count": 2559,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "chat",
+    "pallas"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Le Chat de Pallas également appelé Manul, est un chat sauvage originaire d’Asie centrale. Il fait partie de la famille des félins mais possède son propre genre, celui de l'Otocolobus. Il est très ressemblant à un chat domestique, mais ce qui en fait sa particularité se sont ses drôles d’oreilles, ses yeux et pupilles rondes, ses pattes courtes, son visage aplati et ses drôles d’expressions faciales. Il vit dans les steppes rocheuses et désertique de la Russie, Chine, Iran, Mongolie, Tibet, Kazakhstan et peut être observé vers 4000m d'altitude. Cet animal sauvage aime vivre de façon solitaire et il est impossible de l'apprivoiser.",
+  "created_time": 1434008794,
+  "search_query": "posture défensive de chat",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a wild cat species, which is still relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2tieoz",
+    "decision": "keep",
+    "reason": "The video discusses a wild cat species, which is still relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

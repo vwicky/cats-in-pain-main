@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x94ey0o",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x94ey0o_video.mp4",
+  "audio_path": "output/videos/dailymotion_x94ey0o_audio.mp3",
+  "duration_sec": 56,
+  "duration_seconds": 56.0,
+  "title": "Se reencuentra con su gato tras 11 años desaparecido: \"Pensé que era una broma. Es un milagro\"",
+  "webpage_url": "https://www.dailymotion.com/video/x94ey0o",
+  "dm_id": "x94ey0o",
+  "views_total": 5170,
+  "view_count": 5170,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Después de que su gatito Sam Sam the Kittycat Man desapareciera hace 11 años, Jennifer Ravenel no podía sostener otro gato en su regazo. Su corazón nunca pudo superar la pérdida de aquel gato montaraz que había rescatado del hueco de un árbol en su granja de Carolina del Sur.<br /><br />Pero ahora Sam ha regresado al regazo de Ravenel, gracias a su decisión de ponerle un microchip.",
+  "created_time": 1724312152,
+  "search_query": "gatitos juguetones relajándose",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a cat reuniting with its owner after many years, which is relevant to real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x94ey0o",
+    "decision": "keep",
+    "reason": "The video discusses a cat reuniting with its owner after many years, which is relevant to real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

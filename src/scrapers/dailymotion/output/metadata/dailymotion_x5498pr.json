@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x5498pr",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5498pr_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5498pr_audio.mp3",
+  "duration_sec": 59,
+  "duration_seconds": 59.0,
+  "title": "Questo gatto è un genio! I bicchieri si spostano e lui sa sempre sotto quale è la pallina!",
+  "webpage_url": "https://www.dailymotion.com/video/x5498pr",
+  "dm_id": "x5498pr",
+  "views_total": 759,
+  "view_count": 759,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "urbanvideo"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "",
+  "created_time": 1480709989,
+  "search_query": "gatto in clinica veterinaria",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat performing a clever trick.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5498pr",
+    "decision": "keep",
+    "reason": "The title suggests a cat performing a clever trick.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

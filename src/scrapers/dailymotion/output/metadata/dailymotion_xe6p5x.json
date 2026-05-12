@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_xe6p5x",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xe6p5x_video.mp4",
+  "audio_path": "output/videos/dailymotion_xe6p5x_audio.mp3",
+  "duration_sec": 21,
+  "duration_seconds": 21.0,
+  "title": "Chat bizarre, vidéo cracra",
+  "webpage_url": "https://www.dailymotion.com/video/xe6p5x",
+  "dm_id": "xe6p5x",
+  "views_total": 1131,
+  "view_count": 1131,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Chat",
+    "refuge",
+    "Sos",
+    "Chats"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un chat en mauvais état a été trouvé",
+  "created_time": 1280340026,
+  "search_query": "courtes vidéos de chats",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Describes a cat in poor condition, likely related to pain or vet context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xe6p5x",
+    "decision": "keep",
+    "reason": "Describes a cat in poor condition, likely related to pain or vet context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

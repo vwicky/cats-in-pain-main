@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9390dc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9390dc_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9390dc_audio.mp3",
+  "duration_sec": 47,
+  "duration_seconds": 47.0,
+  "title": "Woman adopts aggressive kitten; her other cat steps in to help",
+  "webpage_url": "https://www.dailymotion.com/video/x9390dc",
+  "dm_id": "x9390dc",
+  "views_total": 915,
+  "view_count": 915,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "A kitten's switch from aggressive to affectionate has captured the hearts of online viewers and it's all thanks to the support of her new feline sibling.",
+  "created_time": 1722419012,
+  "search_query": "aggressive cat growling",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a kitten's behavior change with the help of another cat.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9390dc",
+    "decision": "keep",
+    "reason": "The video shows a kitten's behavior change with the help of another cat.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

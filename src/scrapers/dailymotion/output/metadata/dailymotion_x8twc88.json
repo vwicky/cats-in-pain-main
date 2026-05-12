@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8twc88",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8twc88_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8twc88_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Süß oder dämonisch? Vielen gefriert bei dieser Katze das Blut in den Adern",
+  "webpage_url": "https://www.dailymotion.com/video/x8twc88",
+  "dm_id": "x8twc88",
+  "views_total": 11947,
+  "view_count": 11947,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Erst wirkt der Kater wie ein ganz normaler Stubentiger. Doch wenn er dich anschaut, ist es ein echter Schock! Vor ihm zittert inzwischen sogar das Internet.",
+  "created_time": 1709650296,
+  "search_query": "Katze in der Tierklinik",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's behavior is being discussed, which could indicate interesting cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8twc88",
+    "decision": "keep",
+    "reason": "The title suggests a cat's behavior is being discussed, which could indicate interesting cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

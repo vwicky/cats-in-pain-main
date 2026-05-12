@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8ri3wh",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8ri3wh_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8ri3wh_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "« Elle ne sait pas où elle est » : une chatte souffrant de démence provoque les pleurs de 2M de personnes",
+  "webpage_url": "https://www.dailymotion.com/video/x8ri3wh",
+  "dm_id": "x8ri3wh",
+  "views_total": 9316,
+  "view_count": 9316,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Sur TikTok, une internaute a partagé un moment de tendresse entre sa mère et son chat atteint d'une démence féline. Une séquence adorable qui est rapidement devenue virale.",
+  "created_time": 1705394328,
+  "search_query": "chats qui siffle entre eux",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat with dementia, which relates to a medical context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8ri3wh",
+    "decision": "keep",
+    "reason": "The video features a cat with dementia, which relates to a medical context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

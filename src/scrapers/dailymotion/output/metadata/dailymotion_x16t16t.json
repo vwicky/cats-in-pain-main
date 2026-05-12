@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x16t16t",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x16t16t_video.mp4",
+  "audio_path": "output/videos/dailymotion_x16t16t_audio.mp3",
+  "duration_sec": 46,
+  "duration_seconds": 46.0,
+  "title": "Cat Goes Crazy at the Door",
+  "webpage_url": "https://www.dailymotion.com/video/x16t16t",
+  "dm_id": "x16t16t",
+  "views_total": 592,
+  "view_count": 592,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Storyful",
+    "viral videos",
+    "funny cat videos",
+    "Lilly the cat goes crazy",
+    "Cat Goes Crazy at the Door",
+    "Stefanie Weiß",
+    "animal humor videos"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "<p>One-year-old cat Lilly was getting crazy in front of Stefanie Weiß’s closed terrace door for quite some time. Lilly would only lose her cool when she saw Stefanie’s other cat, named Filou. But it wasn’t because she wanted to get tough, it was only because she wanted to play! Credit: Stefanie Weiß.</p>",
+  "created_time": 1383635543,
+  "search_query": "cat at vet checkup",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat displaying playful behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x16t16t",
+    "decision": "keep",
+    "reason": "The video features a cat displaying playful behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

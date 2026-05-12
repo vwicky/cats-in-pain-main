@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x1adxlp",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x1adxlp_video.mp4",
+  "audio_path": "output/videos/dailymotion_x1adxlp_audio.mp3",
+  "duration_sec": 55,
+  "duration_seconds": 55.0,
+  "title": "Chat trop mignon qui joue dans un seau!",
+  "webpage_url": "https://www.dailymotion.com/video/x1adxlp",
+  "dm_id": "x1adxlp",
+  "views_total": 1010,
+  "view_count": 1010,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Chat",
+    "Adorable",
+    "Sceau",
+    "animal",
+    "bébé chat",
+    "mignon",
+    "joue",
+    "jouer",
+    "idiot",
+    "chat trop mignon"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Trop adorable ce petit chat qui joue comme un petit fou dans un seau!",
+  "created_time": 1390845326,
+  "search_query": "chat heureux qui joue",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description suggest a cute cat playing, which fits typical cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x1adxlp",
+    "decision": "keep",
+    "reason": "The title and description suggest a cute cat playing, which fits typical cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

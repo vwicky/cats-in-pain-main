@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x86o4mp",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x86o4mp_video.mp4",
+  "audio_path": "output/videos/dailymotion_x86o4mp_audio.mp3",
+  "duration_sec": 46,
+  "duration_seconds": 46.0,
+  "title": "FEMME ACTUELLE - Chat : les signes qui prouvent qu’il est heureux !",
+  "webpage_url": "https://www.dailymotion.com/video/x86o4mp",
+  "dm_id": "x86o4mp",
+  "views_total": 529476,
+  "view_count": 529476,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "guid_6045773975001",
+    "uuid_cb7f8ba8-0149-48f9-9106-d11bded49f77",
+    "channel_le-mag",
+    "animaux",
+    "bonheur",
+    "chat",
+    "fac",
+    "flux",
+    "wochit"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1640830670,
+  "search_query": "signes d'inconfort chez les chats",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The content discusses signs of a happy cat, relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x86o4mp",
+    "decision": "keep",
+    "reason": "The content discusses signs of a happy cat, relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

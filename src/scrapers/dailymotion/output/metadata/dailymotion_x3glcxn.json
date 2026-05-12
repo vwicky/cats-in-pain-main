@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3glcxn",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3glcxn_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3glcxn_audio.mp3",
+  "duration_sec": 33,
+  "duration_seconds": 33.0,
+  "title": "Кот и бутылка сока, кот отжигает",
+  "webpage_url": "https://www.dailymotion.com/video/x3glcxn",
+  "dm_id": "x3glcxn",
+  "views_total": 6902,
+  "view_count": 6902,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1449101440,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat's playful behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3glcxn",
+    "decision": "keep",
+    "reason": "The title indicates a cat's playful behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x340n47",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x340n47_video.mp4",
+  "audio_path": "output/videos/dailymotion_x340n47_audio.mp3",
+  "duration_sec": 48,
+  "duration_seconds": 48.0,
+  "title": "Ce chat passe en mode ninja pour sauver ses petits !",
+  "webpage_url": "https://www.dailymotion.com/video/x340n47",
+  "dm_id": "x340n47",
+  "views_total": 699,
+  "view_count": 699,
+  "likes_total": 2,
+  "like_count": 2,
+  "tags": [
+    "chat",
+    "chatons",
+    "bébé",
+    "chien",
+    "fail"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1441110003,
+  "search_query": "chat en mode furtif",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat engaging in protective behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x340n47",
+    "decision": "keep",
+    "reason": "The title suggests a cat engaging in protective behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

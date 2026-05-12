@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x8v94em",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8v94em_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8v94em_audio.mp3",
+  "duration_sec": 28,
+  "duration_seconds": 28.0,
+  "title": "Sensacja hodowlana - Taraje urodziły się w Toruniu",
+  "webpage_url": "https://www.dailymotion.com/video/x8v94em",
+  "dm_id": "x8v94em",
+  "views_total": 42543,
+  "view_count": 42543,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "taraj",
+    "kujawsko-pomorskie",
+    "zwierzęta",
+    "koty"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "W Toruniu rozmnożono rzadką odmianę kota",
+  "created_time": 1711027505,
+  "search_query": "głośne koty wideo",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses the breeding of a rare cat breed.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8v94em",
+    "decision": "keep",
+    "reason": "The video discusses the breeding of a rare cat breed.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

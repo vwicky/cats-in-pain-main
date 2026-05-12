@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x20gfb3",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x20gfb3_video.mp4",
+  "audio_path": "output/videos/dailymotion_x20gfb3_audio.mp3",
+  "duration_sec": 12,
+  "duration_seconds": 12.0,
+  "title": "Жесткий апер кот ))) или Что делает большая киска , когда ей что то не нравится ))))",
+  "webpage_url": "https://www.dailymotion.com/video/x20gfb3",
+  "dm_id": "x20gfb3",
+  "views_total": 1692,
+  "view_count": 1692,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Ашера",
+    "кот",
+    "котэ",
+    "киска",
+    "поимел",
+    "жестко",
+    "смотреть",
+    "дырочка",
+    "кискаласкать"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1403985626,
+  "search_query": "кот громко мяукает",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat reacting negatively, indicating possible vocalization or behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x20gfb3",
+    "decision": "keep",
+    "reason": "The title suggests a cat reacting negatively, indicating possible vocalization or behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x6t17w4",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6t17w4_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6t17w4_audio.mp3",
+  "duration_sec": 29,
+  "duration_seconds": 29.0,
+  "title": "Ce chat aux canines sur-développées ressemble à un vampire",
+  "webpage_url": "https://www.dailymotion.com/video/x6t17w4",
+  "dm_id": "x6t17w4",
+  "views_total": 1618,
+  "view_count": 1618,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Depuis quelques jours, les internautes se passionnent pour Mingus, un chat de race oriental shorthair disposant d'une particularité. En effet, il possède des canines sur-développées qui lui donnent l'apparence d'un petit vampire.",
+  "created_time": 1535964627,
+  "search_query": "chat qui gazouille en regardant les oiseaux",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat with a unique physical trait, making it plausible cat content.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6t17w4",
+    "decision": "keep",
+    "reason": "The video features a cat with a unique physical trait, making it plausible cat content.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x98aj3q",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x98aj3q_video.mp4",
+  "audio_path": "output/videos/dailymotion_x98aj3q_audio.mp3",
+  "duration_sec": 40,
+  "duration_seconds": 40.0,
+  "title": "Verzweifelter Mann nimmt seine Katze mit zur Prüfung: Dann reagiert der Lehrer so",
+  "webpage_url": "https://www.dailymotion.com/video/x98aj3q",
+  "dm_id": "x98aj3q",
+  "views_total": 10345,
+  "view_count": 10345,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Verzweifelter Mann nimmt seine Katze mit zur Prüfung: Dann reagiert der Lehrer so",
+  "created_time": 1730288721,
+  "search_query": "Katze nach der Impfung",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat is involved in a humorous or emotional context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x98aj3q",
+    "decision": "keep",
+    "reason": "The title indicates a cat is involved in a humorous or emotional context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

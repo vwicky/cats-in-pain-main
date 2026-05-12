@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_xnxkn",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xnxkn_video.mp4",
+  "audio_path": "output/videos/dailymotion_xnxkn_audio.mp3",
+  "duration_sec": 33,
+  "duration_seconds": 33.0,
+  "title": "Le-chat-de-copperfield",
+  "webpage_url": "https://www.dailymotion.com/video/xnxkn",
+  "dm_id": "xnxkn",
+  "views_total": 682,
+  "view_count": 682,
+  "likes_total": 2,
+  "like_count": 2,
+  "tags": [
+    "chat",
+    "copperfield",
+    "cat",
+    "magie",
+    "magique",
+    "minou",
+    "fun"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "French",
+  "description": "Un chat rentre dans un pot de verre",
+  "created_time": 1163885128,
+  "search_query": "posture défensive de chat",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title suggests a cat interacting with an object, plausible real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xnxkn",
+    "decision": "keep",
+    "reason": "Title suggests a cat interacting with an object, plausible real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

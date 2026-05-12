@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x9l1wpm",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9l1wpm_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9l1wpm_audio.mp3",
+  "duration_sec": 23,
+  "duration_seconds": 23.0,
+  "title": "Operación rescate del gato Michi en Soria",
+  "webpage_url": "https://www.dailymotion.com/video/x9l1wpm",
+  "dm_id": "x9l1wpm",
+  "views_total": 6758,
+  "view_count": 6758,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Rescate",
+    "sucesos",
+    "mascotas",
+    "Soria"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "A veces vale más maña que fuerza. Profesionalidad en este caso la de un bombero del parque de Soria en la operación rescate de un gato, que había saltado desde un cuarto piso a un andamio de un edificio contiguo y no podía regresar a su vivienda.",
+  "created_time": 1749469923,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a rescue operation for a cat, indicating a context of potential pain or vet-related behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9l1wpm",
+    "decision": "keep",
+    "reason": "The video involves a rescue operation for a cat, indicating a context of potential pain or vet-related behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

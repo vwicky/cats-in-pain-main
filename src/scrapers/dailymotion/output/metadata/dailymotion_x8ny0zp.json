@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8ny0zp",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8ny0zp_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8ny0zp_audio.mp3",
+  "duration_sec": 56,
+  "duration_seconds": 56.0,
+  "title": "Moradores pedem auxílio para resgatarem gatinho que estaria há 7 dias preso em árvore",
+  "webpage_url": "https://www.dailymotion.com/video/x8ny0zp",
+  "dm_id": "x8ny0zp",
+  "views_total": 1301,
+  "view_count": 1301,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Moradores pedem auxílio para resgatarem gatinho que estaria há 7 dias preso em árvore",
+  "created_time": 1694196655,
+  "search_query": "gatinhos brincalhões relaxando",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat in distress needing rescue, indicating real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8ny0zp",
+    "decision": "keep",
+    "reason": "The title suggests a cat in distress needing rescue, indicating real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x75nkli",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x75nkli_video.mp4",
+  "audio_path": "output/videos/dailymotion_x75nkli_audio.mp3",
+  "duration_sec": 24,
+  "duration_seconds": 24.0,
+  "title": "Quand un chat se met au Yoga. Ses positions sont hilarantes !",
+  "webpage_url": "https://www.dailymotion.com/video/x75nkli",
+  "dm_id": "x75nkli",
+  "views_total": 9686,
+  "view_count": 9686,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1554992399,
+  "search_query": "chat qui se repose au soleil",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat engaging in amusing yoga poses.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x75nkli",
+    "decision": "keep",
+    "reason": "The title indicates a cat engaging in amusing yoga poses.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x86octi",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x86octi_video.mp4",
+  "audio_path": "output/videos/dailymotion_x86octi_audio.mp3",
+  "duration_sec": 44,
+  "duration_seconds": 44.0,
+  "title": "FEMME ACTUELLE - L'astuce géniale pour retirer les poils de chat ou chien",
+  "webpage_url": "https://www.dailymotion.com/video/x86octi",
+  "dm_id": "x86octi",
+  "views_total": 27606,
+  "view_count": 27606,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "guid_5609131465001",
+    "uuid_6f432409-1020-4573-aa22-d0a49e43e983",
+    "channel_le-mag",
+    "chats",
+    "chiens",
+    "déco",
+    "fac",
+    "flux",
+    "maison pratique",
+    "poils"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1640844535,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a practical tip related to cat hair.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x86octi",
+    "decision": "keep",
+    "reason": "The title indicates a practical tip related to cat hair.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

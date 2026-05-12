@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3aiv9u",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3aiv9u_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3aiv9u_audio.mp3",
+  "duration_sec": 59,
+  "duration_seconds": 59.0,
+  "title": "Кот-воришка. Украл тысячу и не отдает.",
+  "webpage_url": "https://www.dailymotion.com/video/x3aiv9u",
+  "dm_id": "x3aiv9u",
+  "views_total": 24910,
+  "view_count": 24910,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Кот-воришка. Украл тысячу и не отдает.",
+  "created_time": 1445471248,
+  "search_query": "кот громко мяукает",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat is stealing money, indicating playful or mischievous behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3aiv9u",
+    "decision": "keep",
+    "reason": "The title suggests a cat is stealing money, indicating playful or mischievous behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x9hhyoe",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9hhyoe_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9hhyoe_audio.mp3",
+  "duration_sec": 20,
+  "duration_seconds": 20.0,
+  "title": "Quand ton chat joue les pyromanes",
+  "webpage_url": "https://www.dailymotion.com/video/x9hhyoe",
+  "dm_id": "x9hhyoe",
+  "views_total": 2128,
+  "view_count": 2128,
+  "likes_total": 3,
+  "like_count": 3,
+  "tags": [
+    "fail",
+    "chat",
+    "animal",
+    "insolite",
+    "drole",
+    "fun",
+    "humour"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Quand ton chat joue les pyromanes<br />Cat's tail is on fire",
+  "created_time": 1744222595,
+  "search_query": "chat heureux qui joue",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat playing with fire, which suggests a dangerous situation but still involves a cat.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9hhyoe",
+    "decision": "keep",
+    "reason": "The title indicates a cat playing with fire, which suggests a dangerous situation but still involves a cat.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

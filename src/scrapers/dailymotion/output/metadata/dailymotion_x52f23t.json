@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x52f23t",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x52f23t_video.mp4",
+  "audio_path": "output/videos/dailymotion_x52f23t_audio.mp3",
+  "duration_sec": 15,
+  "duration_seconds": 15.0,
+  "title": "Casal adotou \"gato mais triste do mundo\" e a transformação é surpreendente",
+  "webpage_url": "https://www.dailymotion.com/video/x52f23t",
+  "dm_id": "x52f23t",
+  "views_total": 29076,
+  "view_count": 29076,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pt",
+  "query_language": "Spanish",
+  "description": "Este gatinho chama-se Benben e foi apelidado de \"gato mais triste do mundo\", quando estava a passar os seus dias num abrigo... à espera de ser abatido. Foi parar ao abrigo depois de ser atacado por um animal de maior porte, onde ficou com a espinha esmagada, várias lacerações profundas e uma orelha desfeita. O \"olhar triste\" era devido ao excesso de pele no rosto. <br /> <br />Os voluntários do abrigo diziam que era como se Benben soubesse que ia ser morto em breve.... e então deixou de comer, beber e até mexer-se. Ao ver a situação do animal, uma mulher generosa que trabalha para uma clínica veterinária decidiu adotá-lo. \"Conseguimos adotá-lo no dia antes da eutanásia que estava programada e levámos o Benben para casa\", contou a senhora. Quando o gato chegou à nova casa, conseguir fazer uma transformação incrível apenas passado uma hora. \"Ele ficou instantaneamente a ronronar, sorrir, e a chegar-se a nós para receber carinho\", disse a nova dona. \"Gosto de pensar que ele sabia que estava seguro e que tinha agora uma casa onde viver\". <br /> <br />Mesmo depois do veterinário ter dito que Benben nunca mais voltaria a andar, ele só não anda, como até consegue mesmo correr e saltar pequenas distâncias. Hoje em dia o \"gato mais triste do mundo\" é um felino feliz... fica com algumas imagens e um vídeo de Benben a tentar apanhar peixes num tablet.",
+  "created_time": 1479397710,
+  "search_query": "compilación de peleas de gatos",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Focuses on a cat's transformation after rescue, relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x52f23t",
+    "decision": "keep",
+    "reason": "Focuses on a cat's transformation after rescue, relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

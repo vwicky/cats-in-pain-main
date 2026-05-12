@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x37pjvm",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x37pjvm_video.mp4.part-Frag5.part",
+  "audio_path": "output/videos/dailymotion_x37pjvm_audio.mp3",
+  "duration_sec": 20,
+  "duration_seconds": 20.0,
+  "title": "Кот Смотрит Бокс) Ржака))",
+  "webpage_url": "https://www.dailymotion.com/video/x37pjvm",
+  "dm_id": "x37pjvm",
+  "views_total": 48556,
+  "view_count": 48556,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1443143277,
+  "search_query": "кот, выслеживающий добычу",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat watching boxing, which is plausible.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x37pjvm",
+    "decision": "keep",
+    "reason": "The title suggests a cat watching boxing, which is plausible.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

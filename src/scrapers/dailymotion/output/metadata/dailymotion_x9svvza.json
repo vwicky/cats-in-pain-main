@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x9svvza",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9svvza_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9svvza_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "Un gatito fue rescatado en medio del incendio de una vivienda, presentaba quemaduras y afectaciones por el humo",
+  "webpage_url": "https://www.dailymotion.com/video/x9svvza",
+  "dm_id": "x9svvza",
+  "views_total": 703,
+  "view_count": 703,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "en vivo"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1761760095,
+  "search_query": "gatitos juguetones relajándose",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Describes a kitten rescued from a fire, indicating a pain context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9svvza",
+    "decision": "keep",
+    "reason": "Describes a kitten rescued from a fire, indicating a pain context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

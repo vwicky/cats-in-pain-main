@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x38e91l",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x38e91l_video.mp4",
+  "audio_path": "output/videos/dailymotion_x38e91l_audio.mp3",
+  "duration_sec": 49,
+  "duration_seconds": 49.0,
+  "title": "Un chat n'aime pas la flûte traversière",
+  "webpage_url": "https://www.dailymotion.com/video/x38e91l",
+  "dm_id": "x38e91l",
+  "views_total": 523,
+  "view_count": 523,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un chat n'aime pas la flûte traversière.<br />Plus de vidéos et de buzz sur : http://breakforbuzz.com",
+  "created_time": 1443790337,
+  "search_query": "chat heureux qui ronronne",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's reaction to music, indicating real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x38e91l",
+    "decision": "keep",
+    "reason": "The title suggests a cat's reaction to music, indicating real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

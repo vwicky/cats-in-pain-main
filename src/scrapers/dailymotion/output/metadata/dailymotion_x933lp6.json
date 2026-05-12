@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x933lp6",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x933lp6_video.mp4",
+  "audio_path": "output/videos/dailymotion_x933lp6_audio.mp3",
+  "duration_sec": 14,
+  "duration_seconds": 14.0,
+  "title": "Former stray cat plays with cat teaser stick for the first time",
+  "webpage_url": "https://www.dailymotion.com/video/x933lp6",
+  "dm_id": "x933lp6",
+  "views_total": 764,
+  "view_count": 764,
+  "likes_total": 21,
+  "like_count": 21,
+  "tags": [
+    "Guangzhou",
+    "China",
+    "Orange Fuzzball",
+    "Stray Cat",
+    "Cat Teaser",
+    "Feathery Toy",
+    "Cat Playtime",
+    "Cute Cat",
+    "Cat Pouncing",
+    "Cat Playing"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "This little orange fuzzball, a former stray with sunshine in his fur, got the biggest surprise!<br /><br />He'd never seen a cat teaser before, and his eyes went wide as saucers when a feathery thing started dancing in the air.<br /><br />With a tiny leap and a surprised meow, he was off!<br /><br />He stalked the feathery critter with the intensity of a jungle hunter, then pounced with a wiggle of his whole tiny body. <br /><br />It was love at first pounce.<br /><br />You could practically hear him purring, This is the best game ever!<br />Location: Guangzhou, China                                    <br />WooGlobe Ref : WGA984531<br />For licensing and to use this video, please email licensing@wooglobe.com",
+  "created_time": 1722247658,
+  "search_query": "cat pouncing on prey",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat playing with a teaser stick, which is typical playful behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x933lp6",
+    "decision": "keep",
+    "reason": "The video features a cat playing with a teaser stick, which is typical playful behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

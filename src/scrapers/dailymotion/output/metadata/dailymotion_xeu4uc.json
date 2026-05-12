@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_xeu4uc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xeu4uc_video.mp4",
+  "audio_path": "output/videos/dailymotion_xeu4uc_audio.mp3",
+  "duration_sec": 46,
+  "duration_seconds": 46.0,
+  "title": "kitten",
+  "webpage_url": "https://www.dailymotion.com/video/xeu4uc",
+  "dm_id": "xeu4uc",
+  "views_total": 5555,
+  "view_count": 5555,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "pl",
+  "query_language": "pl",
+  "description": "",
+  "created_time": 1284601594,
+  "search_query": "kitten sounds",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a real kitten, which is plausible content.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xeu4uc",
+    "decision": "keep",
+    "reason": "The title suggests a real kitten, which is plausible content.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

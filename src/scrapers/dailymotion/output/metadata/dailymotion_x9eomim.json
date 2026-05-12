@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9eomim",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9eomim_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9eomim_audio.mp3",
+  "duration_sec": 23,
+  "duration_seconds": 23.0,
+  "title": "Mann hört um 3 Uhr morgens laute Geräusche: Ein Übeltäter lauert im Wohnzimmer (Video).",
+  "webpage_url": "https://www.dailymotion.com/video/x9eomim",
+  "dm_id": "x9eomim",
+  "views_total": 3251,
+  "view_count": 3251,
+  "likes_total": 2,
+  "like_count": 2,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Liam Maguire lebt in Australien.",
+  "created_time": 1740909936,
+  "search_query": "laute Katzenvideos",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a potential cat-related disturbance in the living room.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9eomim",
+    "decision": "keep",
+    "reason": "The title suggests a potential cat-related disturbance in the living room.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

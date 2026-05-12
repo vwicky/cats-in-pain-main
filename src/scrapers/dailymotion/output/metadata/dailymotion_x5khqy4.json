@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x5khqy4",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5khqy4_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5khqy4_audio.mp3",
+  "duration_sec": 36,
+  "duration_seconds": 36.0,
+  "title": "Un docker sauve un chat tombé à l'eau d'une noyade certaine",
+  "webpage_url": "https://www.dailymotion.com/video/x5khqy4",
+  "dm_id": "x5khqy4",
+  "views_total": 1016,
+  "view_count": 1016,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Scott, docker des Royals Docks de Londres était sur le bord du quai quand il a vu un chat tomber dans la Tamise en se battant avec un congénère. <br /> <br />L'homme n'a pas hésité un instant et s'est précipité au secours du chat qu'il a heureusement réussi à repêcher en l'attrapant par la peau du cou.",
+  "created_time": 1493717639,
+  "search_query": "moments calmes avec des chats",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a rescue of a cat from drowning.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5khqy4",
+    "decision": "keep",
+    "reason": "The video features a rescue of a cat from drowning.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

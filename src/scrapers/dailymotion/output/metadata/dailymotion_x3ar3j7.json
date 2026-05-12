@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3ar3j7",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3ar3j7_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3ar3j7_audio.mp3",
+  "duration_sec": 59,
+  "duration_seconds": 59.0,
+  "title": "Кот-воришка. Украл тысячу и не отдает.",
+  "webpage_url": "https://www.dailymotion.com/video/x3ar3j7",
+  "dm_id": "x3ar3j7",
+  "views_total": 33427,
+  "view_count": 33427,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Кот-воришка. Украл тысячу и не отдает.",
+  "created_time": 1445610285,
+  "search_query": "кот, выслеживающий добычу",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat engaging in playful or mischievous behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3ar3j7",
+    "decision": "keep",
+    "reason": "The title suggests a cat engaging in playful or mischievous behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

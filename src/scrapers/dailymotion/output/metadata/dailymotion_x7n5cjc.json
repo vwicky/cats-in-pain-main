@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x7n5cjc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7n5cjc_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7n5cjc_audio.mp3",
+  "duration_sec": 7,
+  "duration_seconds": 7.0,
+  "title": "Los veterinarios consiguen que la famosa gata obesa y perezosa camine por la cinta de correr",
+  "webpage_url": "https://www.dailymotion.com/video/x7n5cjc",
+  "dm_id": "x7n5cjc",
+  "views_total": 787,
+  "view_count": 787,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gato",
+    "gordo",
+    "cinta",
+    "correr"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Fuente:YT",
+  "created_time": 1572254450,
+  "search_query": "postura defensiva de gato",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat is involved in a vet context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7n5cjc",
+    "decision": "keep",
+    "reason": "The title suggests a cat is involved in a vet context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

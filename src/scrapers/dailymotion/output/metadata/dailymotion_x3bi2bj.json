@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x3bi2bj",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3bi2bj_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3bi2bj_audio.mp3",
+  "duration_sec": 36,
+  "duration_seconds": 36.0,
+  "title": "Кот - Монстр!!!",
+  "webpage_url": "https://www.dailymotion.com/video/x3bi2bj",
+  "dm_id": "x3bi2bj",
+  "views_total": 2718,
+  "view_count": 2718,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "кот",
+    "собака",
+    "смешное",
+    "прикол",
+    "животные",
+    "ржач"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1446138030,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a humorous portrayal of a cat, likely showcasing typical cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3bi2bj",
+    "decision": "keep",
+    "reason": "The title suggests a humorous portrayal of a cat, likely showcasing typical cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

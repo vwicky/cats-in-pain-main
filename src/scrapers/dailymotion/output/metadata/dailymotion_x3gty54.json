@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3gty54",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3gty54_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3gty54_audio.mp3",
+  "duration_sec": 54,
+  "duration_seconds": 54.0,
+  "title": "Маленькие котята любят этого человека",
+  "webpage_url": "https://www.dailymotion.com/video/x3gty54",
+  "dm_id": "x3gty54",
+  "views_total": 11973,
+  "view_count": 11973,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Маленькие котята любят этого человека",
+  "created_time": 1449230038,
+  "search_query": "игривые котята отдыхают",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests kittens showing affection, indicating real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3gty54",
+    "decision": "keep",
+    "reason": "The title suggests kittens showing affection, indicating real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

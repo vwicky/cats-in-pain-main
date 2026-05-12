@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x81tc0r",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x81tc0r_video.mp4",
+  "audio_path": "output/videos/dailymotion_x81tc0r_audio.mp3",
+  "duration_sec": 27,
+  "duration_seconds": 27.0,
+  "title": "Bombeiros são chamados para resgatar gato em residência no Centro",
+  "webpage_url": "https://www.dailymotion.com/video/x81tc0r",
+  "dm_id": "x81tc0r",
+  "views_total": 2354,
+  "view_count": 2354,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Bombeiros são chamados para resgatar gato em residência no Centro",
+  "created_time": 1623113329,
+  "search_query": "gatos chamando para acasalar",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Involves rescuing a cat, indicating a potential pain or vet context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x81tc0r",
+    "decision": "keep",
+    "reason": "Involves rescuing a cat, indicating a potential pain or vet context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

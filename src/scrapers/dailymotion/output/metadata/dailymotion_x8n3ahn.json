@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x8n3ahn",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8n3ahn_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8n3ahn_audio.mp3",
+  "duration_sec": 28,
+  "duration_seconds": 28.0,
+  "title": "Festa del gatto, giro in volante per la mascotte della polizia Romina",
+  "webpage_url": "https://www.dailymotion.com/video/x8n3ahn",
+  "dm_id": "x8n3ahn",
+  "views_total": 3960,
+  "view_count": 3960,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "italpress",
+    "gatto",
+    "polizia",
+    "poggibonsi",
+    "siena",
+    "festa",
+    "Cronaca",
+    "Pillole"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "SIENA (ITALPRESS) - Per la festa del gatto, i poliziotti del commissariato di Poggibonsi (Siena) hanno regalato alla loro mascotte Romina un giro in volante. <br /> <br />col4/gsl",
+  "created_time": 1691502772,
+  "search_query": "gatto in modalità caccia",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat as a police mascot, which is relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8n3ahn",
+    "decision": "keep",
+    "reason": "The video features a cat as a police mascot, which is relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

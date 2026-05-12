@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x7mgwhy",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7mgwhy_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7mgwhy_audio.mp3",
+  "duration_sec": 39,
+  "duration_seconds": 39.0,
+  "title": "Vídeo Viral: el gato malvado finge ser estatua para dar una zurra al nuevo perro de la familia",
+  "webpage_url": "https://www.dailymotion.com/video/x7mgwhy",
+  "dm_id": "x7mgwhy",
+  "views_total": 1313,
+  "view_count": 1313,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gato",
+    "perro",
+    "paliza",
+    "zurra",
+    "leche",
+    "simula",
+    "estatua",
+    "felino"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "El malvado gato simula ser una estatua golpear en múltiples al nuevo perro de la familia, además de desconcertarlo.<br /><br />El can anda tan despistado, que no sabe ni por dónde le llegan las leches.",
+  "created_time": 1570709793,
+  "search_query": "postura defensiva de gato",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Video features a cat interacting with a dog, suggesting real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7mgwhy",
+    "decision": "keep",
+    "reason": "Video features a cat interacting with a dog, suggesting real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

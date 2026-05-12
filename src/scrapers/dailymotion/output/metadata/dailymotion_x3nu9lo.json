@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x3nu9lo",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3nu9lo_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3nu9lo_audio.mp3",
+  "duration_sec": 22,
+  "duration_seconds": 22.0,
+  "title": "FUNNY soccer fan (CAT VIDEOS)",
+  "webpage_url": "https://www.dailymotion.com/video/x3nu9lo",
+  "dm_id": "x3nu9lo",
+  "views_total": 5254,
+  "view_count": 5254,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cat"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "funny cat",
+  "created_time": 1453476128,
+  "search_query": "short cat sleeping videos",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Video is focused on a funny cat.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3nu9lo",
+    "decision": "keep",
+    "reason": "Video is focused on a funny cat.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

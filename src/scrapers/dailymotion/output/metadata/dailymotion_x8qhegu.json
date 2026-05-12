@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8qhegu",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8qhegu_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8qhegu_audio.mp3",
+  "duration_sec": 42,
+  "duration_seconds": 42.0,
+  "title": "Kot odkrywa, że ma ogon i jest zszokowany: będziecie płakać ze śmiechu  (video)",
+  "webpage_url": "https://www.dailymotion.com/video/x8qhegu",
+  "dm_id": "x8qhegu",
+  "views_total": 116699,
+  "view_count": 116699,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "Koty są dziwne, prawda?",
+  "created_time": 1702388476,
+  "search_query": "kot głośno miauczy",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat discovering its tail, indicating playful behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8qhegu",
+    "decision": "keep",
+    "reason": "The title suggests a cat discovering its tail, indicating playful behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

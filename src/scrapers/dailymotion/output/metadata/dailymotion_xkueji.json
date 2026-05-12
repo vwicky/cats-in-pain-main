@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_xkueji",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xkueji_video.mp4",
+  "audio_path": "output/videos/dailymotion_xkueji_audio.mp3",
+  "duration_sec": 59,
+  "duration_seconds": 59.0,
+  "title": "Cat Vs. Cat Balloon",
+  "webpage_url": "https://www.dailymotion.com/video/xkueji",
+  "dm_id": "xkueji",
+  "views_total": 1471,
+  "view_count": 1471,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "en",
+  "description": "Who will win this match?",
+  "created_time": 1314986435,
+  "search_query": "cat vocalization",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a competitive interaction between cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xkueji",
+    "decision": "keep",
+    "reason": "The title suggests a competitive interaction between cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

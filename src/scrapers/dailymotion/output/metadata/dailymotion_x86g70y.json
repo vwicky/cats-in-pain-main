@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x86g70y",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x86g70y_video.mp4",
+  "audio_path": "output/videos/dailymotion_x86g70y_audio.mp3",
+  "duration_sec": 24,
+  "duration_seconds": 24.0,
+  "title": "Ce chat fait des abdos à la salle de muscu",
+  "webpage_url": "https://www.dailymotion.com/video/x86g70y",
+  "dm_id": "x86g70y",
+  "views_total": 1272,
+  "view_count": 1272,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "animal",
+    "abdos",
+    "drole",
+    "fun",
+    "chat sport",
+    "rigolo",
+    "humour"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Ce chat fait des abdos à la salle de muscu",
+  "created_time": 1640086819,
+  "search_query": "bruits de reproduction des chats",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat doing an amusing activity, suggesting playful behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x86g70y",
+    "decision": "keep",
+    "reason": "The video features a cat doing an amusing activity, suggesting playful behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

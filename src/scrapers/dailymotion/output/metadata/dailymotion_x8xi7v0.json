@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8xi7v0",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8xi7v0_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8xi7v0_audio.mp3",
+  "duration_sec": 45,
+  "duration_seconds": 45.0,
+  "title": "Retrouvé 5 ans après sa disparition, l'histoire de ce chat rappelle l'importance de la puce électronique",
+  "webpage_url": "https://www.dailymotion.com/video/x8xi7v0",
+  "dm_id": "x8xi7v0",
+  "views_total": 2151,
+  "view_count": 2151,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Sans sa puce électronique d'identification, ce beau chat n'aurait probablement jamais retrouvé sa famille.",
+  "created_time": 1714140836,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a cat's story related to identification and family reunion.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8xi7v0",
+    "decision": "keep",
+    "reason": "The video discusses a cat's story related to identification and family reunion.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

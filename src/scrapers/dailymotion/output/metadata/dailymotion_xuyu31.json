@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_xuyu31",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xuyu31_video.mp4",
+  "audio_path": "output/videos/dailymotion_xuyu31_audio.mp3",
+  "duration_sec": 15,
+  "duration_seconds": 15.0,
+  "title": "Really tough behind a glass door",
+  "webpage_url": "https://www.dailymotion.com/video/xuyu31",
+  "dm_id": "xuyu31",
+  "views_total": 1384,
+  "view_count": 1384,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "06150 dog cat inside outside glass door fight funny",
+    "Cats"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "<p>Not sure who would win but these two are ready to go</p>",
+  "created_time": 1352464149,
+  "search_query": "cat fight outside",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description suggests a potential fight between cats, which is relevant cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xuyu31",
+    "decision": "keep",
+    "reason": "The description suggests a potential fight between cats, which is relevant cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

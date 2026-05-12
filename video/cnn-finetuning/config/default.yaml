@@ -1,0 +1,69 @@
+# ── Identity ────────────────────────────────────────────────
+run_name: "efficientnet_b3_bbox_5class"
+run_notes: "EfficientNet-B3, bbox crop, 5-class + binary head, mean pool 3 frames"
+
+# ── Data ────────────────────────────────────────────────────
+manifest_path: "data/dataset/final_dataset_with_cat_id.jsonl"
+predictions_jsonl: "src/human_validation/video_audio_human_validation/cat_emotion_predictions.jsonl"
+frames_per_clip: 12
+frame_sample_strategy: "uniform_inner"   # sample in [10%, 90%] of clip
+image_size: 300                          # EfficientNet-B3 native input
+use_bbox_crop: true
+bbox_padding: 0.10                       # 20% padding around YOLO box
+yolo_weights: "models/yolo/yolov8l.pt"
+yolo_conf: 0.40
+yolo_imgsz: 640
+video_extensions: [".mp4", ".avi", ".mov", ".mkv", ".webm"]
+
+# ── Label space ─────────────────────────────────────────────
+classes_5:
+  - "Paining"
+  - "Positive_Baseline"
+  - "Agonistic"
+  - "Vocalizing"
+  - "HuntingMind"
+
+binary_map:                              # maps 5-class → binary
+  Paining: "Pain"
+  Positive_Baseline: "No_Pain"
+  Agonistic: "No_Pain"
+  Vocalizing: "No_Pain"
+  HuntingMind: "No_Pain"
+
+# ── Model ───────────────────────────────────────────────────
+backbone: "efficientnet_b3"
+backbone_weights: "IMAGENET1K_V1"        # torchvision pretrained string
+freeze_backbone_epochs: 10               # freeze backbone for first N epochs
+unfreeze_blocks: 2                       # unfreeze last N blocks after freeze period
+pooling: "attention"                     # "mean" | "attention"
+head_hidden_dim: 256
+head_dropout: 0.50
+
+# ── Training ────────────────────────────────────────────────
+cv_folds: 3
+cv_random_state: 42
+batch_size: 16
+epochs: 90
+optimizer: "adamw"
+lr_backbone: 1.0e-5                      # only used after unfreezing
+lr_head: 1.0e-3
+weight_decay: 0.01
+scheduler: "cosine"                      # "cosine" | "step" | "none"
+focal_gamma: 2.0
+use_class_weights: true                  # balanced weights from train fold
+
+# ── Early stopping ──────────────────────────────────────────
+early_stop_metric: "val_macro_f1"        # monitor this
+early_stop_patience: 12
+early_stop_min_delta: 0.001
+
+# ── Augmentation (train only) ───────────────────────────────
+aug_horizontal_flip: true
+aug_color_jitter: true
+aug_random_rotation: 10                  # degrees
+aug_random_erasing: 0.10                 # probability
+
+# ── Output ──────────────────────────────────────────────────
+runs_dir: "video/cnn-finetuning/runs"
+save_best_only: true
+log_interval_batches: 10

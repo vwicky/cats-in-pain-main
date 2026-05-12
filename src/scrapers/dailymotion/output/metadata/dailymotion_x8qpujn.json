@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x8qpujn",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8qpujn_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8qpujn_audio.mp3",
+  "duration_sec": 24,
+  "duration_seconds": 24.0,
+  "title": "Un chat très en colère",
+  "webpage_url": "https://www.dailymotion.com/video/x8qpujn",
+  "dm_id": "x8qpujn",
+  "views_total": 3065,
+  "view_count": 3065,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "insolite",
+    "animal",
+    "drole",
+    "animal de compagnie",
+    "humour"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un chat très en colère",
+  "created_time": 1703063015,
+  "search_query": "chat malade en traitement",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat displaying anger, which is plausible behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8qpujn",
+    "decision": "keep",
+    "reason": "The title suggests a cat displaying anger, which is plausible behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

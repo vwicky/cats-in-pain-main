@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x81vq2z",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x81vq2z_video.mp4",
+  "audio_path": "output/videos/dailymotion_x81vq2z_audio.mp3",
+  "duration_sec": 39,
+  "duration_seconds": 39.0,
+  "title": "Gato fica preso em bueiro e Corpo de Bombeiros é mobilizado para resgate",
+  "webpage_url": "https://www.dailymotion.com/video/x81vq2z",
+  "dm_id": "x81vq2z",
+  "views_total": 764,
+  "view_count": 764,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Cascavel"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Gato fica preso em bueiro e Corpo de Bombeiros é mobilizado para resgate",
+  "created_time": 1623345254,
+  "search_query": "gatos piando e conversando",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a cat rescue, indicating a pain or vet context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x81vq2z",
+    "decision": "keep",
+    "reason": "The video involves a cat rescue, indicating a pain or vet context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x87h2dz",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x87h2dz_video.mp4",
+  "audio_path": "output/videos/dailymotion_x87h2dz_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "Kleines, verlassenes Kätzchen hat eine neue Familie gefunden",
+  "webpage_url": "https://www.dailymotion.com/video/x87h2dz",
+  "dm_id": "x87h2dz",
+  "views_total": 5871,
+  "view_count": 5871,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "uuid_eb01fe41-9f53-4966-8940-a9fc9cb539c7",
+    "guid_5444",
+    "katze",
+    "kitten",
+    "kaetzchen"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "de",
+  "query_language": "German",
+  "description": "",
+  "created_time": 1643738662,
+  "search_query": "verspielte Kätzchen entspannen",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a kitten finding a new family, which is relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x87h2dz",
+    "decision": "keep",
+    "reason": "The video features a kitten finding a new family, which is relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x7ynvdq",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7ynvdq_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7ynvdq_audio.mp3",
+  "duration_sec": 59,
+  "duration_seconds": 59.0,
+  "title": "[CH] Puerta inteligente para mascotas",
+  "webpage_url": "https://www.dailymotion.com/video/x7ynvdq",
+  "dm_id": "x7ynvdq",
+  "views_total": 2907,
+  "view_count": 2907,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "LIFESTYLE",
+    "MASCOTAS",
+    "ANIMALES",
+    "MYQ",
+    "PUERTA INTELIGENTE",
+    "HOGAR",
+    "TECNOLOGÍA"
+  ],
+  "channel": "tech",
+  "channel_title": "tech",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "MyQ Pet Portal es una puerta inteligente para mascotas que se abre cuando se acerca el perro o el gato. Es muy útil para que puedan salir al jardín a hacer sus necesidades o a jugar cuando el dueño no esté en casa.",
+  "created_time": 1610574523,
+  "search_query": "gatos llamando a sus parejas",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a smart door for pets, implying cat involvement.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7ynvdq",
+    "decision": "keep",
+    "reason": "The video discusses a smart door for pets, implying cat involvement.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

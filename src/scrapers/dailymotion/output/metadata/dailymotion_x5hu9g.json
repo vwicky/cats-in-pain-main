@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x5hu9g",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5hu9g_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5hu9g_audio.mp3",
+  "duration_sec": 58,
+  "duration_seconds": 58.0,
+  "title": "Toto après manger",
+  "webpage_url": "https://www.dailymotion.com/video/x5hu9g",
+  "dm_id": "x5hu9g",
+  "views_total": 541,
+  "view_count": 541,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "Toui",
+    "celeste",
+    "eam",
+    "toto"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "toto toui celeste eam",
+  "created_time": 1211308023,
+  "search_query": "chat après vaccination",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and channel suggest it may involve animals.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5hu9g",
+    "decision": "keep",
+    "reason": "The title and channel suggest it may involve animals.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

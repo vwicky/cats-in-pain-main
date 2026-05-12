@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x30sjm3",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x30sjm3_video.mp4",
+  "audio_path": "output/videos/dailymotion_x30sjm3_audio.mp3",
+  "duration_sec": 46,
+  "duration_seconds": 46.0,
+  "title": "▶ Я сказал спать! Кот укладывает малыша)",
+  "webpage_url": "https://www.dailymotion.com/video/x30sjm3",
+  "dm_id": "x30sjm3",
+  "views_total": 8217,
+  "view_count": 8217,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Вот это классный кот! Он заменяет няню для малыша. Ребенку пора спать, а он сидит и разглядывает все вокруг. Тогда кот не выдержал и толкнул малыша. Малыш упал в постель, но тут же поднялся. Тогда кот опять толкнул малыша и лег на него, что бы тот не смог уже встать:)",
+  "created_time": 1438992373,
+  "search_query": "кот в ветеринарной клинике",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a cat interacting with a child, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x30sjm3",
+    "decision": "keep",
+    "reason": "The description indicates a cat interacting with a child, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

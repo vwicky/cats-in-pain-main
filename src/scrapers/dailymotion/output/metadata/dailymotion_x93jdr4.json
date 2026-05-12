@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x93jdr4",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x93jdr4_video.mp4",
+  "audio_path": "output/videos/dailymotion_x93jdr4_audio.mp3",
+  "duration_sec": 25,
+  "duration_seconds": 25.0,
+  "title": "Son chat n'en peut plus de sa maitresse chanteuse",
+  "webpage_url": "https://www.dailymotion.com/video/x93jdr4",
+  "dm_id": "x93jdr4",
+  "views_total": 1179,
+  "view_count": 1179,
+  "likes_total": 5,
+  "like_count": 5,
+  "tags": [
+    "drole",
+    "fail",
+    "animal",
+    "chat",
+    "insolite"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Son chat n'en peut plus de sa maitresse chanteuse",
+  "created_time": 1722942523,
+  "search_query": "courtes vidéos de chats en chasse",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video suggests a cat reacting to its owner's singing.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x93jdr4",
+    "decision": "keep",
+    "reason": "The video suggests a cat reacting to its owner's singing.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

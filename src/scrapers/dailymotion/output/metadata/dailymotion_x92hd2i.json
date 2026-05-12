@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x92hd2i",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x92hd2i_video.mp4",
+  "audio_path": "output/videos/dailymotion_x92hd2i_audio.mp3",
+  "duration_sec": 27,
+  "duration_seconds": 27.0,
+  "title": "Une vétérinaire sort de sa voiture et un chat l'approche : elle comprend tout de suite l'urgence (vidéo)",
+  "webpage_url": "https://www.dailymotion.com/video/x92hd2i",
+  "dm_id": "x92hd2i",
+  "views_total": 8092,
+  "view_count": 8092,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "En s'approchant d'une vétérinaire, ce chat semblait avoir compris à qui demander de l'aide.",
+  "created_time": 1721398026,
+  "search_query": "chat chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat approaching a veterinarian for help, indicating distress.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x92hd2i",
+    "decision": "keep",
+    "reason": "The video shows a cat approaching a veterinarian for help, indicating distress.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

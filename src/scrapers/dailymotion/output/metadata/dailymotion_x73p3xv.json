@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x73p3xv",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x73p3xv_video.mp4",
+  "audio_path": "output/videos/dailymotion_x73p3xv_audio.mp3",
+  "duration_sec": 36,
+  "duration_seconds": 36.0,
+  "title": "Regardez qui vient grattouiller le chat... Tellement adorable",
+  "webpage_url": "https://www.dailymotion.com/video/x73p3xv",
+  "dm_id": "x73p3xv",
+  "views_total": 2002,
+  "view_count": 2002,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chien",
+    "chat",
+    "chien et chat",
+    "mignon",
+    "adorable",
+    "animal",
+    "animal de compagnie",
+    "drole"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Regardez qui vient grattouiller le chat... Tellement adorable",
+  "created_time": 1552039291,
+  "search_query": "chat qui ronronne sur les genoux",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat being petted, which is typical cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x73p3xv",
+    "decision": "keep",
+    "reason": "The video features a cat being petted, which is typical cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x1go5sw",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x1go5sw_video.mp4",
+  "audio_path": "output/videos/dailymotion_x1go5sw_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "Sleepy Cat Enjoys Her Slumber",
+  "webpage_url": "https://www.dailymotion.com/video/x1go5sw",
+  "dm_id": "x1go5sw",
+  "views_total": 700,
+  "view_count": 700,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "storyful",
+    "sleepy cat",
+    "cute cats",
+    "tom omahony comedian",
+    "kitten sleeping",
+    "cute kieent",
+    "cat sleeping"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "<p>Here’s one cat we wouldn’t like to wake in the morning. Tom O’Mahony’s pet is intent on getting her beauty sleep and won’t let anything disturb her as she relaxes under Tom’s bedsheets. Tom found the cat as an abandoned kitten and now he says she’s a real ‘princess.’ Credit: Tom O’Mahony</p>",
+  "created_time": 1394716144,
+  "search_query": "cat enjoying petting",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat sleeping, which is typical cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x1go5sw",
+    "decision": "keep",
+    "reason": "The video shows a cat sleeping, which is typical cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

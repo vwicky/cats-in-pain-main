@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x95dwrg",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x95dwrg_video.mp4",
+  "audio_path": "output/videos/dailymotion_x95dwrg_audio.mp3",
+  "duration_sec": 32,
+  "duration_seconds": 32.0,
+  "title": "Le vétérinaire examine la radio du chat et n’en croit pas ses yeux : « Comment a-t-il pu avaler ça ? »",
+  "webpage_url": "https://www.dailymotion.com/video/x95dwrg",
+  "dm_id": "x95dwrg",
+  "views_total": 8918,
+  "view_count": 8918,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Une situation particulièrement embarrassante pour le maitre du matou.",
+  "created_time": 1725878553,
+  "search_query": "chat chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a cat's medical examination and a surprising finding.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x95dwrg",
+    "decision": "keep",
+    "reason": "The video involves a cat's medical examination and a surprising finding.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

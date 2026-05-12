@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_xuekuh",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xuekuh_video.mp4",
+  "audio_path": "output/videos/dailymotion_xuekuh_audio.mp3",
+  "duration_sec": 13,
+  "duration_seconds": 13.0,
+  "title": "Vidéo de chat rigolo,fait par moi et mon cousin",
+  "webpage_url": "https://www.dailymotion.com/video/xuekuh",
+  "dm_id": "xuekuh",
+  "views_total": 1133,
+  "view_count": 1133,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Ceci est une vidéo amateur tourné par moi et mon cousin montrant son chat se gamellant après avoir essayer de prendre sa balle préferée sur un sofa dépliable instable.J'espere que vous aimerez .N'oubliez pas de poster des commentaires",
+  "created_time": 1350541792,
+  "search_query": "vidéos de chats qui parlent",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a cat playing and being silly, which fits typical cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xuekuh",
+    "decision": "keep",
+    "reason": "The description indicates a cat playing and being silly, which fits typical cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

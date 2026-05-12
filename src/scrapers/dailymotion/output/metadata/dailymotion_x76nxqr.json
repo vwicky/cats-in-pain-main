@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x76nxqr",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x76nxqr_video.mp4",
+  "audio_path": "output/videos/dailymotion_x76nxqr_audio.mp3",
+  "duration_sec": 51,
+  "duration_seconds": 51.0,
+  "title": "Entdecke die witzigsten Katzen des Internets!",
+  "webpage_url": "https://www.dailymotion.com/video/x76nxqr",
+  "dm_id": "x76nxqr",
+  "views_total": 147388,
+  "view_count": 147388,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Entdecke die witzigsten Katzen des Internets! <br /><br />Der Verspielte <br />Mit langen... <br />und mit kurzem Fell. <br /><br />Der Geek <br />Der Schöne, <br />der Charmeur, <br />der Überraschte. <br /><br />Und sogar mit Schnurrbart! <br /><br />Katzen sind einfach die niedlichsten Gefährten.",
+  "created_time": 1556272501,
+  "search_query": "Katzen, die friedlich ruhen",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests it features funny cats, relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x76nxqr",
+    "decision": "keep",
+    "reason": "The title suggests it features funny cats, relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

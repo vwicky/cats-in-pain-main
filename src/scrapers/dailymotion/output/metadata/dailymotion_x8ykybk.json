@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8ykybk",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8ykybk_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8ykybk_audio.mp3",
+  "duration_sec": 28,
+  "duration_seconds": 28.0,
+  "title": "Questi due gattini hanno due modi di comportarsi completamente diversi",
+  "webpage_url": "https://www.dailymotion.com/video/x8ykybk",
+  "dm_id": "x8ykybk",
+  "views_total": 13835,
+  "view_count": 13835,
+  "likes_total": 4,
+  "like_count": 4,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "Il filmato mostra due gattini con due modi completamente diversi di mangiare i croccantini: uno calmo e educato, l'altro ingordo e impaziente. Entrambi, però, sono adorabili.",
+  "created_time": 1715866467,
+  "search_query": "gattini giocherelloni che si rilassano",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows two kittens with different eating behaviors.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8ykybk",
+    "decision": "keep",
+    "reason": "The video shows two kittens with different eating behaviors.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

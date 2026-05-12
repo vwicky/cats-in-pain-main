@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x91yj9k",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x91yj9k_video.mp4",
+  "audio_path": "output/videos/dailymotion_x91yj9k_audio.mp3",
+  "duration_sec": 41,
+  "duration_seconds": 41.0,
+  "title": "Podejrzewają, że ich kot się zatruł. Kiedy weterynarz robi prześwietlenie, odkrywa coś niebywałego",
+  "webpage_url": "https://www.dailymotion.com/video/x91yj9k",
+  "dm_id": "x91yj9k",
+  "views_total": 9126,
+  "view_count": 9126,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "Zdjęcie RTG czaszki kota wprawia w osłupienie weterynarzy na całym świecie.",
+  "created_time": 1721742345,
+  "search_query": "kot głośno miauczy",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a veterinary context involving a cat, relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x91yj9k",
+    "decision": "keep",
+    "reason": "The title indicates a veterinary context involving a cat, relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

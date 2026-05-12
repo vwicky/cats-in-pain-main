@@ -1,0 +1,13 @@
+Built: 2026-04-23T19:37:16.882954+00:00Z
+Manifest: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/dataset_construction/manifests/final_dataset_v2.jsonl
+Gates: min_mean_conf=0.3  max_y_range=10.0  (real frames, channel 2 conf)
+Manifest lines scanned: 7318  (suitable only unless --include-unsuitable)
+Clips successfully scored: 5786
+  vitpose_qc_ok=True:  5307
+  vitpose_qc_ok=False: 479
+  skipped (no pose file): 0
+  skipped (unusable array): 0
+Wrote: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/dataset_construction/reports/vitpose_qc_enrichment.jsonl
+Wrote: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/dataset_construction/reports/vitpose_qc_excluded_ids.txt
+Elapsed: 3.3s
+Paining: 724 / 783 pass gates (92.5%)

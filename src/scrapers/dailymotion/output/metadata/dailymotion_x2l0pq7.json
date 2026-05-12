@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x2l0pq7",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2l0pq7_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2l0pq7_audio.mp3",
+  "duration_sec": 59,
+  "duration_seconds": 59.0,
+  "title": "Un lapin essai de violer un pauvre chat",
+  "webpage_url": "https://www.dailymotion.com/video/x2l0pq7",
+  "dm_id": "x2l0pq7",
+  "views_total": 1033,
+  "view_count": 1033,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Animal",
+    "Fun",
+    "Mignon",
+    "chat",
+    "lapin",
+    "agresser",
+    "marrant",
+    "combat"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Ce lapin un peu excité essai d'agresser un pauvre chat qui va se défendre... Le chaud lapin!",
+  "created_time": 1427653438,
+  "search_query": "chats se reposant paisiblement",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Video features a cat defending itself from a rabbit.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2l0pq7",
+    "decision": "keep",
+    "reason": "Video features a cat defending itself from a rabbit.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x3i8p3x",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3i8p3x_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3i8p3x_audio.mp3",
+  "duration_sec": 51,
+  "duration_seconds": 51.0,
+  "title": "Довела кота до инфаркта",
+  "webpage_url": "https://www.dailymotion.com/video/x3i8p3x",
+  "dm_id": "x3i8p3x",
+  "views_total": 21231,
+  "view_count": 21231,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Довела",
+    "кота",
+    "до",
+    "инфаркта"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Довела кота до инфаркта",
+  "created_time": 1450214334,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat experiencing distress, which is relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3i8p3x",
+    "decision": "keep",
+    "reason": "The title suggests a cat experiencing distress, which is relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

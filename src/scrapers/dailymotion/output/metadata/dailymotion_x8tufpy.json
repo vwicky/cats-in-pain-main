@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8tufpy",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8tufpy_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8tufpy_audio.mp3",
+  "duration_sec": 29,
+  "duration_seconds": 29.0,
+  "title": "O emocionante reencontro entre uma mulher e seu gato após um incêndio devastador",
+  "webpage_url": "https://www.dailymotion.com/video/x8tufpy",
+  "dm_id": "x8tufpy",
+  "views_total": 741,
+  "view_count": 741,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pt",
+  "query_language": "Spanish",
+  "description": "O gatinho foi encontrado vivo oito dias após o incêndio #Valencia #IncendioCampanar",
+  "created_time": 1709572733,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a cat being reunited after a traumatic event, indicating emotional behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8tufpy",
+    "decision": "keep",
+    "reason": "The video involves a cat being reunited after a traumatic event, indicating emotional behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

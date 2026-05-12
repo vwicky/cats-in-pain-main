@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x3nuhyw",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3nuhyw_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3nuhyw_audio.mp3",
+  "duration_sec": 28,
+  "duration_seconds": 28.0,
+  "title": "Funny cat brings its tail",
+  "webpage_url": "https://www.dailymotion.com/video/x3nuhyw",
+  "dm_id": "x3nuhyw",
+  "views_total": 5174,
+  "view_count": 5174,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cats"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "the funny cats",
+  "created_time": 1453479580,
+  "search_query": "cat after vaccination",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description suggest it features a cat's playful behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3nuhyw",
+    "decision": "keep",
+    "reason": "The title and description suggest it features a cat's playful behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

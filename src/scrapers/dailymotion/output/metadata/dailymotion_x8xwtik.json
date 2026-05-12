@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x8xwtik",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8xwtik_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8xwtik_audio.mp3",
+  "duration_sec": 47,
+  "duration_seconds": 47.0,
+  "title": "La vie secrète des chats",
+  "webpage_url": "https://www.dailymotion.com/video/x8xwtik",
+  "dm_id": "x8xwtik",
+  "views_total": 12529,
+  "view_count": 12529,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "plurimedia_1170578",
+    "video_plurimedia",
+    "video_plurimedia_broadcast"
+  ],
+  "channel": "tv",
+  "channel_title": "tv",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Les conflits de voisinages sont courants chez les chats. Ils ont parfois du mal à se supporter. Ils peuvent aussi générer des différends chez les humains lorsqu'ils passent un peu trop de temps chez le voisin. Dans le Nord, Lola a très peur de découvrir que son chat mène une double vie tandis que chez Chloé, première dauphine Miss prestige Artois Hainaut, les chats paraissent plutôt complices. Enfin, la rubrique \"chat de stars\" sera consacré à Simba, le chat de Tatiana Silva, miss météo et reine de beauté.",
+  "created_time": 1714757517,
+  "search_query": "chat mal à l'aise chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses neighborhood conflicts among cats, indicating real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8xwtik",
+    "decision": "keep",
+    "reason": "The video discusses neighborhood conflicts among cats, indicating real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x7nzmn2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7nzmn2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7nzmn2_audio.mp3",
+  "duration_sec": 33,
+  "duration_seconds": 33.0,
+  "title": "La red exige la libertad para el gato Quilty, condenado por dejar escapar a sus compañeros de refugio",
+  "webpage_url": "https://www.dailymotion.com/video/x7nzmn2",
+  "dm_id": "x7nzmn2",
+  "views_total": 603,
+  "view_count": 603,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Quilty",
+    "gato",
+    "libertad",
+    "red"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Al tiempo que los humanos vivimos en un mundo convulso, la justicia no deja de esgrimir gran severidad ante los animales.<br /><br />En las redes sociales cobró enorme popularidad la etiqueta #FreeQuilty (liberad para Quilty), que pedía liberar a un gato 'detenido' en un refugio estadounidense.<br /><br />Quilty fue  'condenado' por saber abrir la puerta y dejar escapar a otros felinos.<br /><br />Después que el ingenioso gato liberó a más de una decena de compañeros en tres ocasiones, los encargados del refugio Friends For Life (Houston, Texas) decidieron condenarlo a un 'confinamiento solitario' en una habitación separada. La historia de Quilty fue compartida a fines de octubre por la misma organización que lo ofrece en adopción.",
+  "created_time": 1573727735,
+  "search_query": "gatos luchando por territorio",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title discusses a cat's situation in a shelter, which is relevant to real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7nzmn2",
+    "decision": "keep",
+    "reason": "The title discusses a cat's situation in a shelter, which is relevant to real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

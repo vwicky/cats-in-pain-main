@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9jww5e",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9jww5e_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9jww5e_audio.mp3",
+  "duration_sec": 40,
+  "duration_seconds": 40.0,
+  "title": "Motociclista desvia de gato e sofre queda no Cascavel Velho",
+  "webpage_url": "https://www.dailymotion.com/video/x9jww5e",
+  "dm_id": "x9jww5e",
+  "views_total": 719,
+  "view_count": 719,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Motociclista desvia de gato e sofre queda no Cascavel Velho",
+  "created_time": 1747845101,
+  "search_query": "gatos piando e conversando",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a motorcyclist avoiding a cat, indicating a real cat presence.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9jww5e",
+    "decision": "keep",
+    "reason": "The video involves a motorcyclist avoiding a cat, indicating a real cat presence.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x7gt7a6",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7gt7a6_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7gt7a6_audio.mp3",
+  "duration_sec": 31,
+  "duration_seconds": 31.0,
+  "title": "Ce superbe chat se fait toiletter tous les 4 mois et on peut voir qu’il aime. Beau minou !",
+  "webpage_url": "https://www.dailymotion.com/video/x7gt7a6",
+  "dm_id": "x7gt7a6",
+  "views_total": 5675,
+  "view_count": 5675,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1566308613,
+  "search_query": "chats se reposant paisiblement",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat being groomed, which is a typical behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7gt7a6",
+    "decision": "keep",
+    "reason": "The video features a cat being groomed, which is a typical behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

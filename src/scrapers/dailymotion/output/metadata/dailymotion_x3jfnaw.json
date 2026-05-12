@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x3jfnaw",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3jfnaw_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3jfnaw_audio.mp3",
+  "duration_sec": 47,
+  "duration_seconds": 47.0,
+  "title": "Чрезмерно ласковый кот",
+  "webpage_url": "https://www.dailymotion.com/video/x3jfnaw",
+  "dm_id": "x3jfnaw",
+  "views_total": 10449,
+  "view_count": 10449,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Чрезмерно",
+    "ласковый",
+    "кот",
+    "Overly",
+    "affectionate",
+    "cat",
+    "забавно"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Чрезмерно ласковый кот",
+  "created_time": 1451065740,
+  "search_query": "кот после операции",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates an overly affectionate cat, suggesting real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3jfnaw",
+    "decision": "keep",
+    "reason": "The title indicates an overly affectionate cat, suggesting real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

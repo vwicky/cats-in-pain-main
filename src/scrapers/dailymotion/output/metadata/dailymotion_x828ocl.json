@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x828ocl",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x828ocl_video.mp4",
+  "audio_path": "output/videos/dailymotion_x828ocl_audio.mp3",
+  "duration_sec": 50,
+  "duration_seconds": 50.0,
+  "title": "Ce chat est en manque d'affection",
+  "webpage_url": "https://www.dailymotion.com/video/x828ocl",
+  "dm_id": "x828ocl",
+  "views_total": 1320,
+  "view_count": 1320,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Société",
+    "Vidéos"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Ce chat semble être en manque d’affection ! Lorsque son maître joue à la console, il ne peut s’empêcher de se frotter contre lui pour lui faire comprendre qu’il est là et qu’il attend ses caresses. Malheureusement pour lui, c’est un échec !",
+  "created_time": 1624636464,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat seeking affection from its owner, which is typical cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x828ocl",
+    "decision": "keep",
+    "reason": "The video shows a cat seeking affection from its owner, which is typical cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

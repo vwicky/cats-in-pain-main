@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9czbiy",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9czbiy_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9czbiy_audio.mp3",
+  "duration_sec": 20,
+  "duration_seconds": 20.0,
+  "title": "Un hombre ingresó con un gato sin pagar entrada al área Cataratas del Iguazú y fue detenido",
+  "webpage_url": "https://www.dailymotion.com/video/x9czbiy",
+  "dm_id": "x9czbiy",
+  "views_total": 5254,
+  "view_count": 5254,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "El pasado jueves, un turista argentino fue detenido en el Parque Nacional Iguazú tras ingresar al área protegida sin abonar la entrada correspondiente y acompañado de un gato.<br />Los guardaparques intentaron convencer al visitante de cumplir con las normativas del lugar, pero el hombre se negó y argumentó a los gritos que, por ser argentino, tenía derecho a hacerlo. Ante la resistencia del turista de retirarse del lugar, el personal del parque llamó a la policía, haciéndose presentes efectivos de la comisaría N° 1.<br />La Administración de Parques Nacionales prohíbe el ingreso de mascotas a las áreas protegidas, según lo establecido en la Resolución HD Nº 59/13, que regula la tenencia de perros, gatos y otras mascotas en estos espacios.<br />Las únicas excepciones contempladas son perros guías para personas con discapacidad o lazarillos para no videntes, quienes deben solicitar autorización previa a la intendencia del parque.<br /><br />MJP",
+  "created_time": 1737760720,
+  "search_query": "comportamiento agresivo de los gatos",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a man with a cat, making it relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9czbiy",
+    "decision": "keep",
+    "reason": "The video involves a man with a cat, making it relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

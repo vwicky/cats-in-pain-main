@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3v1yup",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3v1yup_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3v1yup_audio.mp3",
+  "duration_sec": 20,
+  "duration_seconds": 20.0,
+  "title": "Самый ленивый в мире кот видео",
+  "webpage_url": "https://www.dailymotion.com/video/x3v1yup",
+  "dm_id": "x3v1yup",
+  "views_total": 806,
+  "view_count": 806,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1456807431,
+  "search_query": "кот в ветеринарной клинике",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a lazy cat, which is a common cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3v1yup",
+    "decision": "keep",
+    "reason": "The title suggests a lazy cat, which is a common cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

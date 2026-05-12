@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x87cl92",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x87cl92_video.mp4",
+  "audio_path": "output/videos/dailymotion_x87cl92_audio.mp3",
+  "duration_sec": 43,
+  "duration_seconds": 43.0,
+  "title": "Tips to Keep Your Pets Cool During a Heat Wave",
+  "webpage_url": "https://www.dailymotion.com/video/x87cl92",
+  "dm_id": "x87cl92",
+  "views_total": 13937,
+  "view_count": 13937,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "Here are some ways to make sure your dogs and cats don’t overheat in the rising temperatures.<br />Make sure you know the symptoms of overheating. They can include drooling, excessive panting and increased heart and respiratory rates.<br />Keep your dog away from hot asphalt, as their sensitive paw pads burn easily.<br />Brush your cat’s hair often, as excess fur can trap heat.<br />Trim your dog's hair to help them keep cool, but don’t shave them, as a dog’s coat has layers that protect them from overheating and sunburn.<br />Provide your pet with plenty of water sources inside and outside to make sure they always have easy access to water.",
+  "created_time": 1643224412,
+  "search_query": "cats chirping and chattering",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Discusses keeping pets cool, relevant to cat care.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x87cl92",
+    "decision": "keep",
+    "reason": "Discusses keeping pets cool, relevant to cat care.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

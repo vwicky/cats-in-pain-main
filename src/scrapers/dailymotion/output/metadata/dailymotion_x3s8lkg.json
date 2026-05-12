@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3s8lkg",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3s8lkg_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3s8lkg_audio.mp3",
+  "duration_sec": 36,
+  "duration_seconds": 36.0,
+  "title": "Самый длинный язык. Новая порода котов",
+  "webpage_url": "https://www.dailymotion.com/video/x3s8lkg",
+  "dm_id": "x3s8lkg",
+  "views_total": 2264,
+  "view_count": 2264,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "funny",
+    "cat",
+    "prikoli",
+    "video",
+    "clip",
+    "best",
+    "rolik",
+    "смешно",
+    "comedy"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1455545025,
+  "search_query": "звуки спаривания котов",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title suggests a cat-related video, likely showcasing a cat.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3s8lkg",
+    "decision": "keep",
+    "reason": "Title suggests a cat-related video, likely showcasing a cat.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x9cje46",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9cje46_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9cje46_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Des distributeurs automatiques dans les parcs de Bucarest pour aider les chats sans abri et préserver l'environnement",
+  "webpage_url": "https://www.dailymotion.com/video/x9cje46",
+  "dm_id": "x9cje46",
+  "views_total": 14400,
+  "view_count": 14400,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Roumanie",
+    "Bucarest",
+    "Recyclage",
+    "Monde animal"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Bucarest a mis en place des distributeurs automatiques écologiques dans trois de ses parcs, offrant de la nourriture et de l'eau aux chats errants en échange de bouteilles et de canettes.",
+  "created_time": 1737137109,
+  "search_query": "cris d'accouplement des chats",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses initiatives to help stray cats, indicating a cat-related context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9cje46",
+    "decision": "keep",
+    "reason": "The video discusses initiatives to help stray cats, indicating a cat-related context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

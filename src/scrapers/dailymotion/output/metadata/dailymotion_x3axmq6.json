@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x3axmq6",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3axmq6_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3axmq6_audio.mp3",
+  "duration_sec": 16,
+  "duration_seconds": 16.0,
+  "title": "забавные котята",
+  "webpage_url": "https://www.dailymotion.com/video/x3axmq6",
+  "dm_id": "x3axmq6",
+  "views_total": 1457,
+  "view_count": 1457,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "животные",
+    "прикол",
+    "юмор"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1445722699,
+  "search_query": "игривые котята отдыхают",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title mentions funny kittens, likely involving real cat footage.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3axmq6",
+    "decision": "keep",
+    "reason": "The title mentions funny kittens, likely involving real cat footage.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

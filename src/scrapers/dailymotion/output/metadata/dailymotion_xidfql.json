@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_xidfql",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xidfql_video.mp4",
+  "audio_path": "output/videos/dailymotion_xidfql_audio.mp3",
+  "duration_sec": 6,
+  "duration_seconds": 6.0,
+  "title": "Fafa qui joue (Chat Bengal)",
+  "webpage_url": "https://www.dailymotion.com/video/xidfql",
+  "dm_id": "xidfql",
+  "views_total": 762,
+  "view_count": 762,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Chat",
+    "Bengal",
+    "joue",
+    "jeux"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Fafa, super Bengal qui joue, on peut voir la rapidité du petit félin ! héhé",
+  "created_time": 1303582701,
+  "search_query": "chat blessé qui boite",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a Bengal cat playing, which is typical cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xidfql",
+    "decision": "keep",
+    "reason": "The video features a Bengal cat playing, which is typical cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8rpdrd",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8rpdrd_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8rpdrd_audio.mp3",
+  "duration_sec": 42,
+  "duration_seconds": 42.0,
+  "title": "2 mois après son adoption, le chat prouve à tout le monde que ce qu'ils pensaient était faux (vidéo)",
+  "webpage_url": "https://www.dailymotion.com/video/x8rpdrd",
+  "dm_id": "x8rpdrd",
+  "views_total": 7876,
+  "view_count": 7876,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Le 18 décembre, Carolyn l'humaine du chat roux Atlas a vécu une scène à laquelle elle ne s'attendait pas du tout. ",
+  "created_time": 1706002238,
+  "search_query": "chat après vaccination",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video appears to show a cat's behavior after adoption, indicating real cat content.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8rpdrd",
+    "decision": "keep",
+    "reason": "The video appears to show a cat's behavior after adoption, indicating real cat content.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

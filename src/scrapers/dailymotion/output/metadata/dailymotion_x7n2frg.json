@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x7n2frg",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7n2frg_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7n2frg_audio.mp3",
+  "duration_sec": 13,
+  "duration_seconds": 13.0,
+  "title": "Esta gata gorda 'como una vaca' simula hacer ejercicio en la cinta moviendo una sola pata",
+  "webpage_url": "https://www.dailymotion.com/video/x7n2frg",
+  "dm_id": "x7n2frg",
+  "views_total": 22184,
+  "view_count": 22184,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gata",
+    "gorda",
+    "cinta"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "El video en el que una gata obesa 'protesta' mientras se resiste a hacer ejercicio en una cinta de correr que se encuentra en una clínica veterinaria de Bellingham (Washington, EE.UU.) se ha hecho viral en la Red.<br /><br />En las imágenes se aprecian las protestas de Cinder ('ceniza', en español), un felino abandonado al que diseñaron un plan de adelgazamiento que incluye ejercicios en el agua.",
+  "created_time": 1572079062,
+  "search_query": "gato en la clínica veterinaria",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat simulating exercise, relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7n2frg",
+    "decision": "keep",
+    "reason": "The video features a cat simulating exercise, relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x828kvm",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x828kvm_video.mp4",
+  "audio_path": "output/videos/dailymotion_x828kvm_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "Un enfant autiste retrouve son chat après trois mois d'absence",
+  "webpage_url": "https://www.dailymotion.com/video/x828kvm",
+  "dm_id": "x828kvm",
+  "views_total": 10413,
+  "view_count": 10413,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Familles",
+    "aufeminin.TV"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Quand cet enfant autiste retrouve son chat, il ne peut pas cacher son émotion. Moment très très émouvant !",
+  "created_time": 1624631570,
+  "search_query": "chat après vaccination",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features an emotional reunion between a child and their cat.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x828kvm",
+    "decision": "keep",
+    "reason": "The video features an emotional reunion between a child and their cat.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

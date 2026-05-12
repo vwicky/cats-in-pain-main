@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x3ad5yu",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3ad5yu_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3ad5yu_audio.mp3",
+  "duration_sec": 56,
+  "duration_seconds": 56.0,
+  "title": "кот и кошка ругаются",
+  "webpage_url": "https://www.dailymotion.com/video/x3ad5yu",
+  "dm_id": "x3ad5yu",
+  "views_total": 20957,
+  "view_count": 20957,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "кот и кошка",
+    "ругаются"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "кот и кошка ругаются",
+  "created_time": 1445369491,
+  "search_query": "две кошки ругаются",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description indicate two cats arguing, which is plausible cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3ad5yu",
+    "decision": "keep",
+    "reason": "The title and description indicate two cats arguing, which is plausible cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

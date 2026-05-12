@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x4bqery",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x4bqery_video.mp4",
+  "audio_path": "output/videos/dailymotion_x4bqery_audio.mp3",
+  "duration_sec": 42,
+  "duration_seconds": 42.0,
+  "title": "A reação impagável de um gato na sua primeira viagem de carro",
+  "webpage_url": "https://www.dailymotion.com/video/x4bqery",
+  "dm_id": "x4bqery",
+  "views_total": 35474,
+  "view_count": 35474,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "Viagem",
+    "gato",
+    "carro",
+    "primeira vez"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Confere a reação de um gato que saiu para um passeio de carro com o seu dono pela primeira vez... e certamente a última. Pela cara do bichano não estava a gostar nada da experiência!",
+  "created_time": 1463763962,
+  "search_query": "comportamento de um gato ferido",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Features a cat's reaction during a car ride.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x4bqery",
+    "decision": "keep",
+    "reason": "Features a cat's reaction during a car ride.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

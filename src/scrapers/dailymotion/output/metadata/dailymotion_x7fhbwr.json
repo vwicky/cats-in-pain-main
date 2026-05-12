@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x7fhbwr",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7fhbwr_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7fhbwr_audio.mp3",
+  "duration_sec": 56,
+  "duration_seconds": 56.0,
+  "title": "6 alimentos prohibidos para perros y gatos",
+  "webpage_url": "https://www.dailymotion.com/video/x7fhbwr",
+  "dm_id": "x7fhbwr",
+  "views_total": 5355,
+  "view_count": 5355,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Las mascotas son la mejor compañía, y en muchos casos, forman parte de la familia. Es por eso que debe tener cuidado y 1. Chocolate 2. Leche 3. Queso 4. Huesos cocidos 5. Jamón y carnes grasas 6. Cebollas y ajos",
+  "created_time": 1565265161,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses foods that are harmful to both dogs and cats, relevant to their health and behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7fhbwr",
+    "decision": "keep",
+    "reason": "The video discusses foods that are harmful to both dogs and cats, relevant to their health and behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

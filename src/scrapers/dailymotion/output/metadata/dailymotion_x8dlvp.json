@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x8dlvp",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8dlvp_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8dlvp_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "chat en rute",
+  "webpage_url": "https://www.dailymotion.com/video/x8dlvp",
+  "dm_id": "x8dlvp",
+  "views_total": 1238,
+  "view_count": 1238,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "rute"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1234683435,
+  "search_query": "chat malade en traitement",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title indicates a cat in a mating behavior context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8dlvp",
+    "decision": "keep",
+    "reason": "Title indicates a cat in a mating behavior context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

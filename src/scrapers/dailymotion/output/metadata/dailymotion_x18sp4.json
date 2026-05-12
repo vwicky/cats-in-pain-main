@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x18sp4",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x18sp4_video.mp4",
+  "audio_path": "output/videos/dailymotion_x18sp4_audio.mp3",
+  "duration_sec": 5,
+  "duration_seconds": 5.0,
+  "title": "doble gato",
+  "webpage_url": "https://www.dailymotion.com/video/x18sp4",
+  "dm_id": "x18sp4",
+  "views_total": 1885,
+  "view_count": 1885,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "gato",
+    "doble",
+    "parkour",
+    "valencia",
+    "fusk2",
+    "cristian",
+    "traceurs",
+    "riesgo"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Portuguese",
+  "description": "Bueno esto es un salto nuevo que me sace el sabado dia 17, aunque me keda por hacer un salto mas i ya habre aprendido todos los movimientos que se puede hacer en ese lugar ^^ xao",
+  "created_time": 1171829980,
+  "search_query": "gato miando alto",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat performing parkour, which is a plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x18sp4",
+    "decision": "keep",
+    "reason": "The title suggests a cat performing parkour, which is a plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

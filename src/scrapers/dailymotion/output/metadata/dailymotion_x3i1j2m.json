@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3i1j2m",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3i1j2m_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3i1j2m_audio.mp3",
+  "duration_sec": 36,
+  "duration_seconds": 36.0,
+  "title": "Кот заставляет спать ребенка",
+  "webpage_url": "https://www.dailymotion.com/video/x3i1j2m",
+  "dm_id": "x3i1j2m",
+  "views_total": 1306,
+  "view_count": 1306,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1450081495,
+  "search_query": "кот громко мяукает",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title implies a cat is involved in a child's sleeping context, suggesting real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3i1j2m",
+    "decision": "keep",
+    "reason": "The title implies a cat is involved in a child's sleeping context, suggesting real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

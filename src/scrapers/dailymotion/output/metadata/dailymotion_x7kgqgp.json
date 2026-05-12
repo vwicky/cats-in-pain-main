@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x7kgqgp",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7kgqgp_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7kgqgp_audio.mp3",
+  "duration_sec": 46,
+  "duration_seconds": 46.0,
+  "title": "Un chat chasse une pie et va se retrouver encerclé par 10 oiseaux en colère",
+  "webpage_url": "https://www.dailymotion.com/video/x7kgqgp",
+  "dm_id": "x7kgqgp",
+  "views_total": 2594,
+  "view_count": 2594,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "pie",
+    "oiseau",
+    "chasse",
+    "chat",
+    "drole",
+    "fail",
+    "animal",
+    "animal de compagnie",
+    "insolite"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un chat chasse une pie et va se retrouver encerclé par 10 oiseaux en colère",
+  "created_time": 1567931760,
+  "search_query": "courtes vidéos de chats en chasse",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video depicts a cat hunting and interacting with birds, showcasing natural behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7kgqgp",
+    "decision": "keep",
+    "reason": "The video depicts a cat hunting and interacting with birds, showcasing natural behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

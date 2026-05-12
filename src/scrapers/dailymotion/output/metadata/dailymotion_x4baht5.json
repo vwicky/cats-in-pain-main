@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x4baht5",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x4baht5_video.mp4",
+  "audio_path": "output/videos/dailymotion_x4baht5_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "Une enseignante est triste après le décès de son chat...des élèves lui offre 2 chatons",
+  "webpage_url": "https://www.dailymotion.com/video/x4baht5",
+  "dm_id": "x4baht5",
+  "views_total": 10786,
+  "view_count": 10786,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1463587334,
+  "search_query": "chat en convalescence après une opération",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a teacher receiving kittens after the death of her cat.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x4baht5",
+    "decision": "keep",
+    "reason": "The video discusses a teacher receiving kittens after the death of her cat.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

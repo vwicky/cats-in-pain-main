@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3aajo2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3aajo2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3aajo2_audio.mp3",
+  "duration_sec": 36,
+  "duration_seconds": 36.0,
+  "title": "Le chat qui voulait laver les vitres",
+  "webpage_url": "https://www.dailymotion.com/video/x3aajo2",
+  "dm_id": "x3aajo2",
+  "views_total": 23158,
+  "view_count": 23158,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1445330187,
+  "search_query": "chat qui ronronne sur les genoux",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat engaging in a playful or curious behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3aajo2",
+    "decision": "keep",
+    "reason": "The title suggests a cat engaging in a playful or curious behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x51u2sh",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x51u2sh_video.mp4",
+  "audio_path": "output/videos/dailymotion_x51u2sh_audio.mp3",
+  "duration_sec": 23,
+  "duration_seconds": 23.0,
+  "title": "Ce chat s'est fait un pull en peau de poussins",
+  "webpage_url": "https://www.dailymotion.com/video/x51u2sh",
+  "dm_id": "x51u2sh",
+  "views_total": 864,
+  "view_count": 864,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "LOL",
+    "Animal",
+    "Poussin",
+    "Mignon",
+    "Adorable",
+    "chat",
+    "fun",
+    "chat lol",
+    "chat mignon"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Ce chat s'est fait un pull en peau de poussins",
+  "created_time": 1479061220,
+  "search_query": "courtes vidéos de chats en chasse",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat in a humorous situation, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x51u2sh",
+    "decision": "keep",
+    "reason": "The title suggests a cat in a humorous situation, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

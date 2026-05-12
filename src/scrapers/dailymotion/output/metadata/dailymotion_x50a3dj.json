@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x50a3dj",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x50a3dj_video.mp4",
+  "audio_path": "output/videos/dailymotion_x50a3dj_audio.mp3",
+  "duration_sec": 54,
+  "duration_seconds": 54.0,
+  "title": "Gatinha resgatada vai ao céus quando sua mãe lhe dá um bom e relaxante banho.",
+  "webpage_url": "https://www.dailymotion.com/video/x50a3dj",
+  "dm_id": "x50a3dj",
+  "views_total": 1201,
+  "view_count": 1201,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Gato"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1478083378,
+  "search_query": "gato en modo caza",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat being bathed, which is relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x50a3dj",
+    "decision": "keep",
+    "reason": "The video features a cat being bathed, which is relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

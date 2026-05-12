@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x6tcb1l",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6tcb1l_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6tcb1l_audio.mp3",
+  "duration_sec": 39,
+  "duration_seconds": 39.0,
+  "title": "Un raton laveur vient embeter un chat",
+  "webpage_url": "https://www.dailymotion.com/video/x6tcb1l",
+  "dm_id": "x6tcb1l",
+  "views_total": 1276,
+  "view_count": 1276,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "animal",
+    "chat",
+    "raton laveur",
+    "animal de compagnie",
+    "mignon",
+    "lol"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un raton laveur vient embeter un chat",
+  "created_time": 1536513589,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a raccoon bothering a cat, indicating interaction between animals.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6tcb1l",
+    "decision": "keep",
+    "reason": "The video features a raccoon bothering a cat, indicating interaction between animals.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

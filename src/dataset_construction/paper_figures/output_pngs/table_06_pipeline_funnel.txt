@@ -1,0 +1,21 @@
+Pipeline funnel — survivor counts per stage
+====================================================================================================
+Stages Search / Keyword Filter / LLM Filter: unique VIDEO candidates (cross-run deduplicated).
+Stages Download onwards: SNIPPET counts from nested-JSONL manifests.
+Retention = count / previous non-null count (first filled row has no retention).
+
+Stage                           Count  Retention Data source / note                                                                                                                                                        
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Search                              —          — Set paper_figures.pipeline_funnel.search in config.yaml from scraper export.                                                                                              
+Keyword Filter                      —          — Set paper_figures.pipeline_funnel.keyword_filter in config.yaml from scraper export.                                                                                      
+LLM Filter                          —          — Set paper_figures.pipeline_funnel.llm_filter in config.yaml from scraper export.                                                                                          
+Download                         7372          — Snippet count in nested manifest: src/dataset_construction/manifests/metadata_merged.jsonl                                                                                
+Processing                       7372     100.0% Default = Download count (no separate in-repo manifest). Override with processing.                                                                                        
+Static Removal                   7318      99.3% Snippet count after static scan: src/dataset_construction/manifests/metadata_clean_01.jsonl                                                                               
+GPT Description                  7318     100.0% Snippet count in manifest after GPT enrichment: src/dataset_construction/manifests/metadata_clean_02.jsonl                                                                
+Suitability Filter               5786      79.1% suitable_for_training == True on final manifest rows (GPT + cat-ID + audio rules).                                                                                        
+Final Labeled Set                5786     100.0% Training subset: final_label_5 and suitable_for_training True (rows with final_label_5: 6247; manifest rows: 7318).                                                       
+
+Note: Rows with merged label final_label_5 excluded by suitability filtering: 461.
+
+Bar chart omits optional upstream stages until counts are set in config, and may omit adjacent plateaus when skip_duplicate_plateau_in_plot is true.

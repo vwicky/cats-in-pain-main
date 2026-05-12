@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_xamhhi",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xamhhi_video.mp4",
+  "audio_path": "output/videos/dailymotion_xamhhi_audio.mp3",
+  "duration_sec": 26,
+  "duration_seconds": 26.0,
+  "title": "Un chat qui fait le linge",
+  "webpage_url": "https://www.dailymotion.com/video/xamhhi",
+  "dm_id": "xamhhi",
+  "views_total": 3098,
+  "view_count": 3098,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "linge",
+    "animaux",
+    "humour"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "http://www.fanimaux.com",
+  "created_time": 1254051290,
+  "search_query": "chat agressif qui grogne",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Suggests a humorous context involving a cat and laundry.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xamhhi",
+    "decision": "keep",
+    "reason": "Suggests a humorous context involving a cat and laundry.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

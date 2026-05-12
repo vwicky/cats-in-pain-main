@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x7rkdpg",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7rkdpg_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7rkdpg_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Ce chat fait peur avec ses ronflements",
+  "webpage_url": "https://www.dailymotion.com/video/x7rkdpg",
+  "dm_id": "x7rkdpg",
+  "views_total": 569,
+  "view_count": 569,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "ronflement",
+    "chat",
+    "peur"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Des ronflements qui donnent la frousse",
+  "created_time": 1581000023,
+  "search_query": "chats se reposant paisiblement",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat making scary snoring sounds.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7rkdpg",
+    "decision": "keep",
+    "reason": "The video features a cat making scary snoring sounds.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

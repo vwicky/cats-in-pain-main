@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9btkpq",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9btkpq_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9btkpq_audio.mp3",
+  "duration_sec": 57,
+  "duration_seconds": 57.0,
+  "title": "【马大校园猫尸案】 野狗噬猫视频曝光  网：为何有那么多野狗？",
+  "webpage_url": "https://www.dailymotion.com/video/x9btkpq",
+  "dm_id": "x9btkpq",
+  "views_total": 6568,
+  "view_count": 6568,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "zh",
+  "query_language": "Japanese",
+  "description": "警方指出，马大校园周六（1月4日）出现第6宗猫尸案，该校大专生亲睹野狗噬猫。 网民质疑马大校园内，为何有那么多野狗？<br /><br />》》  https://www.kwongwah.com.my/?p=1591238",
+  "created_time": 1736070985,
+  "search_query": "猫の警告音",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a cat-related incident involving dogs.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9btkpq",
+    "decision": "keep",
+    "reason": "The video discusses a cat-related incident involving dogs.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

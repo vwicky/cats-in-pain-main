@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x828l0t",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x828l0t_video.mp4",
+  "audio_path": "output/videos/dailymotion_x828l0t_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Jeu de taupe avec un chat",
+  "webpage_url": "https://www.dailymotion.com/video/x828l0t",
+  "dm_id": "x828l0t",
+  "views_total": 23644,
+  "view_count": 23644,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Société",
+    "Vidéos"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un chat s'amuse à  jouer au jeu de la taupe.",
+  "created_time": 1624631789,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description suggest a cat playing, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x828l0t",
+    "decision": "keep",
+    "reason": "The title and description suggest a cat playing, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x7vsept",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7vsept_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7vsept_audio.mp3",
+  "duration_sec": 54,
+  "duration_seconds": 54.0,
+  "title": "Vierbeinige Hilfe: Katze rettet Kind vor Absturz",
+  "webpage_url": "https://www.dailymotion.com/video/x7vsept",
+  "dm_id": "x7vsept",
+  "views_total": 705,
+  "view_count": 705,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "de",
+  "query_language": "German",
+  "description": "Katzen gelten normalerweise als äußerst uninteressiert, was ihre menschlichen Besitzer angeht. In diesem Video aber wurde eine Katze zum Retter. Fast wäre das Kind die Treppen hinuntergefallen.",
+  "created_time": 1598435379,
+  "search_query": "Katze, die Beute verfolgt",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video depicts a cat saving a child, indicating a notable behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7vsept",
+    "decision": "keep",
+    "reason": "The video depicts a cat saving a child, indicating a notable behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

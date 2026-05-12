@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8lwg6k",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8lwg6k_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8lwg6k_audio.mp3",
+  "duration_sec": 44,
+  "duration_seconds": 44.0,
+  "title": "Vídeo hilário: em duelo de cão e gato, cachorrinho descobre que nem sempre quando um não quer, dois não brigam",
+  "webpage_url": "https://www.dailymotion.com/video/x8lwg6k",
+  "dm_id": "x8lwg6k",
+  "views_total": 25394,
+  "view_count": 25394,
+  "likes_total": 4,
+  "like_count": 4,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "O vídeo de um cachorrinho brigando com um gatinho enquanto outro cãozinho morde seu rabo está fazendo os internautas caírem na gargalhada!",
+  "created_time": 1687247655,
+  "search_query": "momentos calmos com gatinhos",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Video features a cat and dog interacting, suggesting real animal behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8lwg6k",
+    "decision": "keep",
+    "reason": "Video features a cat and dog interacting, suggesting real animal behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x7cun4i",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7cun4i_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7cun4i_audio.mp3",
+  "duration_sec": 29,
+  "duration_seconds": 29.0,
+  "title": "Ce chat court dans une machine à laver",
+  "webpage_url": "https://www.dailymotion.com/video/x7cun4i",
+  "dm_id": "x7cun4i",
+  "views_total": 10847,
+  "view_count": 10847,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "lifestyle",
+  "channel_title": "lifestyle",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1562660744,
+  "search_query": "courtes vidéos de chats",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat interacting with a washing machine, suggesting real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7cun4i",
+    "decision": "keep",
+    "reason": "The title indicates a cat interacting with a washing machine, suggesting real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x7somko",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7somko_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7somko_audio.mp3",
+  "duration_sec": 24,
+  "duration_seconds": 24.0,
+  "title": "Une astuce pour faire fuir les chats",
+  "webpage_url": "https://www.dailymotion.com/video/x7somko",
+  "dm_id": "x7somko",
+  "views_total": 8930,
+  "view_count": 8930,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "feuilles daluminium"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Il fait fuir le chat avec des simples feuilles d'aluminium.<br /><br />En voyant que son chat n'arrête pas de sauter sur le plan de travail de sa cuisine, l'utilisateur TikTok @west_end99 a cherché une solution sur Google et il est tombé sur une astuce avec des feuilles d'aluminium. Il va mettre a exécution l'astuce et place plusieurs feuilles d'aluminium sur son plan de travail.",
+  "created_time": 1584103468,
+  "search_query": "moments calmes avec des chats",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description indicate a cat-related context, likely real behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7somko",
+    "decision": "keep",
+    "reason": "The title and description indicate a cat-related context, likely real behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x91in62",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x91in62_video.mp4",
+  "audio_path": "output/videos/dailymotion_x91in62_audio.mp3",
+  "duration_sec": 41,
+  "duration_seconds": 41.0,
+  "title": "They take their cat to the vet after vomiting; X-ray reveals the unthinkable",
+  "webpage_url": "https://www.dailymotion.com/video/x91in62",
+  "dm_id": "x91in62",
+  "views_total": 1361,
+  "view_count": 1361,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "A curious cat named Kevin faced a harrowing ordeal recently when a routine exploration led to a dangerous encounter with a sewing needle.",
+  "created_time": 1720103197,
+  "search_query": "cat at vet checkup",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a cat in a medical context, which is relevant.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x91in62",
+    "decision": "keep",
+    "reason": "The description indicates a cat in a medical context, which is relevant.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

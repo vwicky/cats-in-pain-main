@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x7nr03h",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7nr03h_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7nr03h_audio.mp3",
+  "duration_sec": 57,
+  "duration_seconds": 57.0,
+  "title": "Vídeo Viral: la langosta feroz y los gatos despavoridos",
+  "webpage_url": "https://www.dailymotion.com/video/x7nr03h",
+  "dm_id": "x7nr03h",
+  "views_total": 5429,
+  "view_count": 5429,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "langosta",
+    "gato",
+    "gatos",
+    "curioso",
+    "susto",
+    "pelea"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Portuguese",
+  "description": "Al principio, viendo la escena, da hasta un poco de pena la langosta, pero a medida que va avanzando el vídeo, los que terminan suscitando piedad son los pobres gatos.<br /><br />Alguno, víctima de su inmensa curiosidad, se lleva el susto de su vida.",
+  "created_time": 1573214349,
+  "search_query": "vídeos curtos de gatos caçando",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves cats reacting to a lobster, suggesting real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7nr03h",
+    "decision": "keep",
+    "reason": "The video involves cats reacting to a lobster, suggesting real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

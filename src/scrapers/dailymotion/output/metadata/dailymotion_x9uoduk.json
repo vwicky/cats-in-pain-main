@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9uoduk",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9uoduk_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9uoduk_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "Grosseto, ferma il traffico sull'Aurelia per salvare un gatto, il video",
+  "webpage_url": "https://www.dailymotion.com/video/x9uoduk",
+  "dm_id": "x9uoduk",
+  "views_total": 4128,
+  "view_count": 4128,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "shortfilms",
+  "channel_title": "shortfilms",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "",
+  "created_time": 1764427180,
+  "search_query": "postura difensiva del gatto",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat-related rescue situation.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9uoduk",
+    "decision": "keep",
+    "reason": "The title suggests a cat-related rescue situation.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x1uudx7",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x1uudx7_video.mp4",
+  "audio_path": "output/videos/dailymotion_x1uudx7_audio.mp3",
+  "duration_sec": 50,
+  "duration_seconds": 50.0,
+  "title": "Gato salva a niño del ataque de un perro salvaje en Los Ángeles, Estados Unidos",
+  "webpage_url": "https://www.dailymotion.com/video/x1uudx7",
+  "dm_id": "x1uudx7",
+  "views_total": 669,
+  "view_count": 669,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Un increíble registro fue el que captaron las cámaras de seguridad de una casa de la localidad de Bakersfield en Estados Unidos. <br /> <br />En las imágenes se puede ver a un perro atacando violentamente a un niño que andaba en su bicicleta por la vereda. Sorpresivamente, el gato de la familia salió a defenderlo, ahuyentando al can. <br /> <br />La valiente acción fue subida por Roger Triantafilo, padre del menor, a Youtube, como una forma de agradecer a la gata llamada Tara. <br /> <br />El niño sólo sufrió unos puntos de sutura, mientras que el perro era de un vecino y se encuentra bajo observación.",
+  "created_time": 1400167135,
+  "search_query": "signos de malestar en gatos",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video depicts a cat saving a child from a dog attack, indicating real cat behavior in a protective context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x1uudx7",
+    "decision": "keep",
+    "reason": "The video depicts a cat saving a child from a dog attack, indicating real cat behavior in a protective context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

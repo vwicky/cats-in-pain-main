@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x2zlivs",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2zlivs_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2zlivs_audio.mp3",
+  "duration_sec": 43,
+  "duration_seconds": 43.0,
+  "title": "Cat Getting BAKED!!(ipad)",
+  "webpage_url": "https://www.dailymotion.com/video/x2zlivs",
+  "dm_id": "x2zlivs",
+  "views_total": 7150,
+  "view_count": 7150,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1438125891,
+  "search_query": "cat after vaccination",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests it features a cat, though the context is unclear.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2zlivs",
+    "decision": "keep",
+    "reason": "The title suggests it features a cat, though the context is unclear.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

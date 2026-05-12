@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3au7fe",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3au7fe_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3au7fe_audio.mp3",
+  "duration_sec": 33,
+  "duration_seconds": 33.0,
+  "title": "звонок для кота!Up for a cat",
+  "webpage_url": "https://www.dailymotion.com/video/x3au7fe",
+  "dm_id": "x3au7fe",
+  "views_total": 1902,
+  "view_count": 1902,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1445663704,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a call for a cat, which could relate to cat behavior.",
+  "gpt_confidence": "low",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3au7fe",
+    "decision": "keep",
+    "reason": "The title suggests a call for a cat, which could relate to cat behavior.",
+    "confidence": "low",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

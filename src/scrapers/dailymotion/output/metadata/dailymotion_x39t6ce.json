@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x39t6ce",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x39t6ce_video.mp4",
+  "audio_path": "output/videos/dailymotion_x39t6ce_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "Что умеет этот кот!!!",
+  "webpage_url": "https://www.dailymotion.com/video/x39t6ce",
+  "dm_id": "x39t6ce",
+  "views_total": 1895,
+  "view_count": 1895,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1444954563,
+  "search_query": "кот громко мяукает",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests showcasing a cat's abilities, likely involving typical cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x39t6ce",
+    "decision": "keep",
+    "reason": "The title suggests showcasing a cat's abilities, likely involving typical cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9mu420",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9mu420_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9mu420_audio.mp3",
+  "duration_sec": 18,
+  "duration_seconds": 18.0,
+  "title": "Le urla di gioia del soccorritore con A. in braccio",
+  "webpage_url": "https://www.dailymotion.com/video/x9mu420",
+  "dm_id": "x9mu420",
+  "views_total": 40820,
+  "view_count": 40820,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "Lo ha trovato e, come un padre fa con un figlio, lo ha stretto forte a sè. Questa la prima emozione vissuta da Dario Mattiuda quando ha trovato A. «Quando l'ho visto era rannicchiato fra le sterpaglie in un punto che avevamo già battuto di notte, senza vederlo-  racconta il volontario. Mattiauda ha individuato A. a circa un chilometro e mezzo dall’ultimo avvistamento, vicino a un vallone: «Era nel bosco... immobile, si è toccato il naso e abbiamo capito che era vivo. Non era spaventato, apparentemente. Non era ferito, solo piccole escoriazioni sulle gambe».  In queste brevi immagini, la gioia del soccorritore nei primi attimi del ritrovamento. Le urla di contentezza e il bacio al piccolo. ",
+  "created_time": 1752418795,
+  "search_query": "video brevi di gatti che dormono",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description suggest a rescue context involving a cat.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9mu420",
+    "decision": "keep",
+    "reason": "The title and description suggest a rescue context involving a cat.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

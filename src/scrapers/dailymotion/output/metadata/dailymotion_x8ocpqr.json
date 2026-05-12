@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8ocpqr",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8ocpqr_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8ocpqr_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "Elle part étudier à l’université : dans sa valise, elle découvre une surprise de son chat",
+  "webpage_url": "https://www.dailymotion.com/video/x8ocpqr",
+  "dm_id": "x8ocpqr",
+  "views_total": 6478,
+  "view_count": 6478,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Une étudiante qui était sur le point de quitter la maison pour aller à l'université ne s'attendait sûrement pas à la réaction de son chat. Ce dernier a souhaité lui laisser un objet dans sa valise.",
+  "created_time": 1695803383,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat leaving a surprise for its owner, indicating cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8ocpqr",
+    "decision": "keep",
+    "reason": "The video features a cat leaving a surprise for its owner, indicating cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

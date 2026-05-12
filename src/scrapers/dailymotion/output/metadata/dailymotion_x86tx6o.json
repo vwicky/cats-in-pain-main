@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x86tx6o",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x86tx6o_video.mp4",
+  "audio_path": "output/videos/dailymotion_x86tx6o_audio.mp3",
+  "duration_sec": 56,
+  "duration_seconds": 56.0,
+  "title": "La vie secrète des chats : tout savoir sur le programme",
+  "webpage_url": "https://www.dailymotion.com/video/x86tx6o",
+  "dm_id": "x86tx6o",
+  "views_total": 143618,
+  "view_count": 143618,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "guid_5976806302001",
+    "uuid_dbbfce72-bd33-44e3-9340-d360432a76d3",
+    "channel_tl-story",
+    "La vie secrète des chats 27378557",
+    "Valérie Damidot",
+    "La vie secrète des chats 119590376",
+    "La vie secrète des chats 120064532",
+    "La vie secrète des chats 120291427",
+    "La vie secrète des chats 119821507",
+    "La vie secrète des chats 137813720"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1641337578,
+  "search_query": "cris d'accouplement des chats",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests it is about cats and their behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x86tx6o",
+    "decision": "keep",
+    "reason": "The title suggests it is about cats and their behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x39xfou",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x39xfou_video.mp4",
+  "audio_path": "output/videos/dailymotion_x39xfou_audio.mp3",
+  "duration_sec": 55,
+  "duration_seconds": 55.0,
+  "title": "Кот и медведь!",
+  "webpage_url": "https://www.dailymotion.com/video/x39xfou",
+  "dm_id": "x39xfou",
+  "views_total": 4207,
+  "view_count": 4207,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1445041065,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat interacting with a bear, which is unusual but still plausible.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x39xfou",
+    "decision": "keep",
+    "reason": "The title suggests a cat interacting with a bear, which is unusual but still plausible.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

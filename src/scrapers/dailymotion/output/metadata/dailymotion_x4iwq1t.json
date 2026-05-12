@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x4iwq1t",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x4iwq1t_video.mp4",
+  "audio_path": "output/videos/dailymotion_x4iwq1t_audio.mp3",
+  "duration_sec": 54,
+  "duration_seconds": 54.0,
+  "title": "Un chaton sort de son enclos pour jouer avec un chiot",
+  "webpage_url": "https://www.dailymotion.com/video/x4iwq1t",
+  "dm_id": "x4iwq1t",
+  "views_total": 3024,
+  "view_count": 3024,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Chiot",
+    "LExpress",
+    "Wochit",
+    "chat",
+    "taiwan"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "C'est bien connu, Internet adore les chats. Mais quand un bébé chat s'échappe de son enclos pour aller s'amuser avec un chiot, c'est toute une communauté qui devient folle. La scène se passe à Taïwan, et la vidéo a été visionnée près de 2 millions de fois en trois jours.",
+  "created_time": 1467213549,
+  "search_query": "courtes vidéos de chats qui se prélassent",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a kitten playing with a puppy, showcasing playful behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x4iwq1t",
+    "decision": "keep",
+    "reason": "The video features a kitten playing with a puppy, showcasing playful behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

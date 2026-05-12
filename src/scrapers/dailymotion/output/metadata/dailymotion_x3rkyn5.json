@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3rkyn5",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3rkyn5_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3rkyn5_audio.mp3",
+  "duration_sec": 46,
+  "duration_seconds": 46.0,
+  "title": "Реакция кота, впервые увидевшего ребенка)))",
+  "webpage_url": "https://www.dailymotion.com/video/x3rkyn5",
+  "dm_id": "x3rkyn5",
+  "views_total": 3271,
+  "view_count": 3271,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1455212089,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat reacting to a child, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3rkyn5",
+    "decision": "keep",
+    "reason": "The title suggests a cat reacting to a child, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

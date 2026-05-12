@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x770n2t",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x770n2t_video.mp4",
+  "audio_path": "output/videos/dailymotion_x770n2t_audio.mp3",
+  "duration_sec": 58,
+  "duration_seconds": 58.0,
+  "title": "Mon chat pétrit : les raisons de ce comportement",
+  "webpage_url": "https://www.dailymotion.com/video/x770n2t",
+  "dm_id": "x770n2t",
+  "views_total": 1025,
+  "view_count": 1025,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Votre chat pétrit votre couette, vos coussins ou même votre ventre ou vos cuisses ? Le pétrissage est un comportement naturel qui apparaît dès les premières tétées.  Cela permet au chaton d’exercer une pression sur la mamelle de sa maman. Ainsi, il stimule la lactation et facilite la libération du lait. Mais parfois, les chats conservent cette habitude à l’âge adulte. Un sevrage trop précoce (avant 8 à 10 semaines) peut expliquer ce comportement, mais ce n’est pas toujours le cas !  Souvent accompagné d’un ronronnement, le pétrissage est source de bien-être pour le chat.  À l’inverse, cela peut signifier son stress ou sa volonté de marquer son territoire.",
+  "created_time": 1556613289,
+  "search_query": "chat qui aime être caressé",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Discusses a natural cat behavior (kneading), relevant to real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x770n2t",
+    "decision": "keep",
+    "reason": "Discusses a natural cat behavior (kneading), relevant to real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x828f4f",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x828f4f_video.mp4",
+  "audio_path": "output/videos/dailymotion_x828f4f_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "Voici le meilleur métier au monde",
+  "webpage_url": "https://www.dailymotion.com/video/x828f4f",
+  "dm_id": "x828f4f",
+  "views_total": 593,
+  "view_count": 593,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Société",
+    "Vidéos"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Imaginez que vous êtes payé à câliner des chats toute la journée... Une clinique vétérinaire dublinoise recherche actuellement un \"câlineur professionnel\" ! Ça vous tente ?",
+  "created_time": 1624623605,
+  "search_query": "cris d'accouplement des chats",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description mentions a job involving cuddling cats, relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x828f4f",
+    "decision": "keep",
+    "reason": "The description mentions a job involving cuddling cats, relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

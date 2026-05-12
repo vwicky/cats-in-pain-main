@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x8kvqxf",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8kvqxf_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8kvqxf_audio.mp3",
+  "duration_sec": 35,
+  "duration_seconds": 35.0,
+  "title": "Un bébé et un chat créent leur propre langage et discutent ensemble",
+  "webpage_url": "https://www.dailymotion.com/video/x8kvqxf",
+  "dm_id": "x8kvqxf",
+  "views_total": 18884,
+  "view_count": 18884,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "#magicmaman",
+    "#wibbitz",
+    "#weekend",
+    "#bébé",
+    "#animaux",
+    "#chatetenfant",
+    "#chat"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Les animaux sont les meilleurs amis des enfants.<br />En regardant la vidéo du babyphone installé dans la chambre de leur fils,<br />des parents ont eu la surprise de voir que leur chat et leur petit garçon discutent ensemble... en miaulant.<br />Nous on craque.<br />",
+  "created_time": 1683899702,
+  "search_query": "chat qui gazouille en regardant les oiseaux",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat interacting with a baby, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8kvqxf",
+    "decision": "keep",
+    "reason": "The video shows a cat interacting with a baby, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

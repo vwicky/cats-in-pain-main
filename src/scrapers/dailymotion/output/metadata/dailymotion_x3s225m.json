@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3s225m",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3s225m_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3s225m_audio.mp3",
+  "duration_sec": 56,
+  "duration_seconds": 56.0,
+  "title": "Жадный кот отнял игрушку у щенка",
+  "webpage_url": "https://www.dailymotion.com/video/x3s225m",
+  "dm_id": "x3s225m",
+  "views_total": 5394,
+  "view_count": 5394,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cats",
+    "fun",
+    "prikoli",
+    "video",
+    "clip",
+    "best",
+    "rolik",
+    "смешно",
+    "comedy"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1455453290,
+  "search_query": "кот громко мяукает",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat taking a toy from a puppy, suggesting interaction.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3s225m",
+    "decision": "keep",
+    "reason": "The title indicates a cat taking a toy from a puppy, suggesting interaction.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

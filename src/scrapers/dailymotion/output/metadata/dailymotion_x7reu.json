@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x7reu",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7reu_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7reu_audio.mp3",
+  "duration_sec": 22,
+  "duration_seconds": 22.0,
+  "title": "helo qui mange de la boite pour chat",
+  "webpage_url": "https://www.dailymotion.com/video/x7reu",
+  "dm_id": "x7reu",
+  "views_total": 791,
+  "view_count": 791,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "helo",
+    "boite",
+    "felix"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "heloise chez laura mange de la boite pour chat ... miam miam",
+  "created_time": 1152879845,
+  "search_query": "chat blessé qui boite",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description suggests a cat eating, which is typical behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7reu",
+    "decision": "keep",
+    "reason": "The description suggests a cat eating, which is typical behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

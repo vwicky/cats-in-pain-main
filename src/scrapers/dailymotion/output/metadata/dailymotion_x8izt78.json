@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x8izt78",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8izt78_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8izt78_audio.mp3",
+  "duration_sec": 53,
+  "duration_seconds": 53.0,
+  "title": "Vídeo hilário: gato exagera na hora do almoço e fica estufado",
+  "webpage_url": "https://www.dailymotion.com/video/x8izt78",
+  "dm_id": "x8izt78",
+  "views_total": 3336,
+  "view_count": 3336,
+  "likes_total": 2,
+  "like_count": 2,
+  "tags": [
+    "gato",
+    "gato exagera na hora do almoço",
+    "Vídeo hilário"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "O vídeo hilário de um gatinho tirando uma soneca de barriga para cima depois de exagerar na hora da refeição está ganhando milhares de corações online!<br /><br />https://petepop.ig.com.br/video-hilario-gato-exagera-na-hora-do-almoco-e-fica-estufado/<br /><br /><br />“Estou cheio”, diz a legenda compartilhada junto com o vídeo, que já recebeu mais de 920 mil visualizações, além de mais de 26 mil curtidas e centenas de comentários de internautas que se divertiram com a cena.<br /><br /><br />“Fofo”, comentou um usuário do Twitter. “Eu fico assim depois do almoço”, disse outro. “Eu não sei o que eu amo mais, o quão fofo você é ou que você se sente tão seguro em sua casa que está dormindo assim”, afirmou um terceiro internauta.<br /><br />Vídeo: reprodução Twitter @Cattuspersonata<br />",
+  "created_time": 1678475892,
+  "search_query": "gatos piando e conversando",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat after a meal, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8izt78",
+    "decision": "keep",
+    "reason": "The video features a cat after a meal, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

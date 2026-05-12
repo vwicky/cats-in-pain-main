@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x6r2kzj",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6r2kzj_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6r2kzj_audio.mp3",
+  "duration_sec": 32,
+  "duration_seconds": 32.0,
+  "title": "Ciclista salva gatinho abandonado colocando-o em sua camisa e ele lhe agradece com beijos",
+  "webpage_url": "https://www.dailymotion.com/video/x6r2kzj",
+  "dm_id": "x6r2kzj",
+  "views_total": 53302,
+  "view_count": 53302,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "ciclista salva gatinho",
+    "ciclista leva gato camisa"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "O gatinho ficou tão grato por ser salvo pelo ciclista que não conseguia parar de beijá-lo, enquanto o homem usava sua camisa para o levar de viagem até sua nova casa.",
+  "created_time": 1533139413,
+  "search_query": "gatinhos brincalhões relaxando",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat being rescued and showing affection.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6r2kzj",
+    "decision": "keep",
+    "reason": "The video features a cat being rescued and showing affection.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_xa0ocn0",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xa0ocn0_video.mp4",
+  "audio_path": "output/videos/dailymotion_xa0ocn0_audio.mp3",
+  "duration_sec": 6,
+  "duration_seconds": 6.0,
+  "title": "Cecina, il gatto salta il cancello e scappa dal lupo",
+  "webpage_url": "https://www.dailymotion.com/video/xa0ocn0",
+  "dm_id": "xa0ocn0",
+  "views_total": 2132,
+  "view_count": 2132,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "shortfilms",
+  "channel_title": "shortfilms",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "",
+  "created_time": 1771969644,
+  "search_query": "postura difensiva del gatto",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat escaping from a wolf, indicating real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xa0ocn0",
+    "decision": "keep",
+    "reason": "The title suggests a cat escaping from a wolf, indicating real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

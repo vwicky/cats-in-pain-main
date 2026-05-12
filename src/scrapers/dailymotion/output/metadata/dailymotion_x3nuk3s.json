@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x3nuk3s",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3nuk3s_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3nuk3s_audio.mp3",
+  "duration_sec": 15,
+  "duration_seconds": 15.0,
+  "title": "Funny Cat Videos For Kid --- Funny Cat Videos",
+  "webpage_url": "https://www.dailymotion.com/video/x3nuk3s",
+  "dm_id": "x3nuk3s",
+  "views_total": 5203,
+  "view_count": 5203,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "funny",
+    "cat"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "funny cats",
+  "created_time": 1453480137,
+  "search_query": "noisy cat videos",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and tags indicate it features funny cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3nuk3s",
+    "decision": "keep",
+    "reason": "The title and tags indicate it features funny cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

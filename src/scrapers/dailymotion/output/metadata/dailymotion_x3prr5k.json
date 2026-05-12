@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3prr5k",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3prr5k_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3prr5k_audio.mp3",
+  "duration_sec": 18,
+  "duration_seconds": 18.0,
+  "title": "Кот и собака в ванной",
+  "webpage_url": "https://www.dailymotion.com/video/x3prr5k",
+  "dm_id": "x3prr5k",
+  "views_total": 19294,
+  "view_count": 19294,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1454333661,
+  "search_query": "кот в ветеринарной клинике",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests interaction between a cat and a dog, which is plausible.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3prr5k",
+    "decision": "keep",
+    "reason": "The title suggests interaction between a cat and a dog, which is plausible.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_xbalbl",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xbalbl_video.mp4",
+  "audio_path": "output/videos/dailymotion_xbalbl_audio.mp3",
+  "duration_sec": 43,
+  "duration_seconds": 43.0,
+  "title": "Gato Assustado por tampinha de garrafa pet",
+  "webpage_url": "https://www.dailymotion.com/video/xbalbl",
+  "dm_id": "xbalbl",
+  "views_total": 685,
+  "view_count": 685,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Gato",
+    "Assustado",
+    "por",
+    "tampinha",
+    "garrafa",
+    "pet"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "pt",
+  "query_language": "Spanish",
+  "description": "Gato Assustado por tampinha de garrafa pet",
+  "created_time": 1259343670,
+  "search_query": "gatos luchando por territorio",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat reacting to an object.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xbalbl",
+    "decision": "keep",
+    "reason": "The title indicates a cat reacting to an object.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3dduh6",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3dduh6_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3dduh6_audio.mp3",
+  "duration_sec": 31,
+  "duration_seconds": 31.0,
+  "title": "Как усыпить кота ) До сих пор смеюсь)))",
+  "webpage_url": "https://www.dailymotion.com/video/x3dduh6",
+  "dm_id": "x3dduh6",
+  "views_total": 12862,
+  "view_count": 12862,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1447494067,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a humorous take on putting a cat to sleep, likely involving cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3dduh6",
+    "decision": "keep",
+    "reason": "The title suggests a humorous take on putting a cat to sleep, likely involving cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_xuz8on",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xuz8on_video.mp4",
+  "audio_path": "output/videos/dailymotion_xuz8on_audio.mp3",
+  "duration_sec": 16,
+  "duration_seconds": 16.0,
+  "title": "Cat on a treadmill",
+  "webpage_url": "https://www.dailymotion.com/video/xuz8on",
+  "dm_id": "xuz8on",
+  "views_total": 2317,
+  "view_count": 2317,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Cats",
+    "03557 cat run walk treadmill weird funny"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "<p>When was the last time you saw a cat on a treadmill</p>",
+  "created_time": 1352492895,
+  "search_query": "purring cat on lap",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat on a treadmill, suggesting an active behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xuz8on",
+    "decision": "keep",
+    "reason": "The video features a cat on a treadmill, suggesting an active behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

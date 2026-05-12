@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9q1el2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9q1el2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9q1el2_audio.mp3",
+  "duration_sec": 53,
+  "duration_seconds": 53.0,
+  "title": "Quando Armani disse: «Nella mia vita ho dimenticato me stesso, non fatelo»",
+  "webpage_url": "https://www.dailymotion.com/video/x9q1el2",
+  "dm_id": "x9q1el2",
+  "views_total": 4106,
+  "view_count": 4106,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "Milano, 4 set. (askanews) - «Ho fatto un percorso molto impegnativo, dimenticando me stesso e questo è molto grave. Ve lo sconsiglio. Lavorate, tenete duro sul vostro lavoro ma non dimenticate che andando a casa trovate il gatto, il cane, il bambino, la mamma, l'amante, non dimenticatelo perché andando avanti hai bisogno di persone al fianco». <br /> <br />[idarticle id=\"2628416\" title=\"Dediche e ricordi. Il mondo della moda (e non solo) rende omaggio a Giorgio Armani\"] <br /> <br />Era il maggio del 2023 e fresco di laurea honoris causa presso l'università Cattolica di Piacenza, dove era nato 89 anni prima, Giorgio Armani affidò ai cronisti una riflessione molto intima. Un pensiero che poi ripeterà più volte negli anni successivi, mostrando il lato più umano e fragile dello stilista visionario e dell'imprenditore di successo che due anni fa gli valse la laurea in Global business management. <br /> <br />[idgallery id=\"1937088\" title=\"Giorgio Armani, tutti i look più iconici delle star sul red carpet\"] <br /> <br />[idarticle id=\"2628486\" title=\"Eredi di Giorgio Armani, il nipote Andrea Camerana, marito della cantante Alexia\"]",
+  "created_time": 1757060108,
+  "search_query": "gatto in modalità caccia",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Mentions cats in a personal context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9q1el2",
+    "decision": "keep",
+    "reason": "Mentions cats in a personal context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

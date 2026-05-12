@@ -1,0 +1,14 @@
+Built: 2026-04-25T21:00:29.403420+00:00Z
+Manifest: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/dataset_construction/manifests/final_dataset_v2.jsonl
+DLC dir: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/dataset/deeplabcut_really_labeled
+Gates: min_mean_likelihood=0.5  min_frac_high_conf=0.4  per_frame_threshold=0.50
+Manifest lines scanned: 7318  (suitable only unless --include-unsuitable)
+Clips successfully scored: 5773
+  dlc_qc_ok=True:  1544
+  dlc_qc_ok=False: 4229
+  skipped (no HDF5 found): 13
+  skipped (HDF5 read error): 0
+Wrote: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/dataset_construction/reports/dlc_qc_enrichment.jsonl
+Wrote: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/dataset_construction/reports/dlc_qc_excluded_ids.txt
+Elapsed: 78.6s
+Paining: 280 / 781 pass gates (35.9%)

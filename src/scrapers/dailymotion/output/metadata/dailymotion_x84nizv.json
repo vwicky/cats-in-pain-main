@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x84nizv",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x84nizv_video.mp4",
+  "audio_path": "output/videos/dailymotion_x84nizv_audio.mp3",
+  "duration_sec": 10,
+  "duration_seconds": 10.0,
+  "title": "Gimme that! | Funny Cat Animal",
+  "webpage_url": "https://www.dailymotion.com/video/x84nizv",
+  "dm_id": "x84nizv",
+  "views_total": 596,
+  "view_count": 596,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "funny",
+    "funny cat",
+    "funny animal"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "Gimme that! | Funny Cat Animal",
+  "created_time": 1633419880,
+  "search_query": "cat after vaccination",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a funny cat, which is plausible content.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x84nizv",
+    "decision": "keep",
+    "reason": "The title suggests a funny cat, which is plausible content.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

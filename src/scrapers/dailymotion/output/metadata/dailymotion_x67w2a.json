@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x67w2a",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x67w2a_video.mp4",
+  "audio_path": "output/videos/dailymotion_x67w2a_audio.mp3",
+  "duration_sec": 44,
+  "duration_seconds": 44.0,
+  "title": "L'adorable chaton fait un ronron.",
+  "webpage_url": "https://www.dailymotion.com/video/x67w2a",
+  "dm_id": "x67w2a",
+  "views_total": 1903,
+  "view_count": 1903,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "chaton",
+    "chat",
+    "mimi",
+    "ronron",
+    "dodo"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Adorable chaton trouvé au fond de mon jardin, sur une toiture.      <br /><br />Avec ses 1Kg 120 il terrifie mes chats qui font 3, 4 et 5 fois son poids !!!    <br /><br />Voilà, après 1 semaine passé en notre compagnie, cet adorable chaton à retrouver ses propriétaires !!!   <br />Tu nous manques petit.",
+  "created_time": 1216806253,
+  "search_query": "chats qui piaillent et bavardent",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a kitten and its purring behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x67w2a",
+    "decision": "keep",
+    "reason": "The video features a kitten and its purring behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

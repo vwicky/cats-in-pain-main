@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x3q7680",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3q7680_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3q7680_audio.mp3",
+  "duration_sec": 49,
+  "duration_seconds": 49.0,
+  "title": "Un renard et un chat se battent pour une saucisse",
+  "webpage_url": "https://www.dailymotion.com/video/x3q7680",
+  "dm_id": "x3q7680",
+  "views_total": 685,
+  "view_count": 685,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "Bagarre",
+    "Saucisse",
+    "renard",
+    "chat",
+    "se battre",
+    "chat renard",
+    "lol",
+    "animal de compagnie"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un renard et un chat se battent pour une saucisse",
+  "created_time": 1454498868,
+  "search_query": "bagarre de chats dehors",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a fight between a fox and a cat.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3q7680",
+    "decision": "keep",
+    "reason": "The title indicates a fight between a fox and a cat.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

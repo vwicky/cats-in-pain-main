@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x1hame",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x1hame_video.mp4",
+  "audio_path": "output/videos/dailymotion_x1hame_audio.mp3",
+  "duration_sec": 7,
+  "duration_seconds": 7.0,
+  "title": "Gatto",
+  "webpage_url": "https://www.dailymotion.com/video/x1hame",
+  "dm_id": "x1hame",
+  "views_total": 1083,
+  "view_count": 1083,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Gatto",
+    "spaventato"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "",
+  "created_time": 1174243388,
+  "search_query": "comportamento di un gatto ferito",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat-related video.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x1hame",
+    "decision": "keep",
+    "reason": "The title suggests a cat-related video.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

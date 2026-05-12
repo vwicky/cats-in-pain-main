@@ -1,0 +1,168 @@
+# ── Identity ─────────────────────────────────────────────────
+run_name: "pipeline_v2_run"
+run_notes: "Run 3: long-tail GPT seeds, global+expanded query dedup, translation diversity"
+
+# ── Stage 1: Search ──────────────────────────────────────────
+search:
+  # Optional: only run certain behavioral buckets (default: all five). Example pain-only YouTube run:
+  #   src/scrapers/data_pipeline_v2/config/pipeline_youtube_pain_en_ja_zh.yaml
+  # active_behavioral_categories: [ "Pain/Vet" ]
+  # English seeds: four categories × 50 + Pain/Vet × 100 = 300 (inventory analysis: Pain/Vet is
+  # overrepresented among lower-yield videos; extra seeds nudge retrieval toward pain-relevant SERPs).
+  seed_queries_per_category: 50
+  seed_queries_per_category_pain_vet: 100
+  languages_per_query: 15
+  # Fewer results per query nudges toward less overlap with other queries' top pages (tune 25–50).
+  max_results_per_query: 40
+  youtube_api_key: ""
+  openai_api_key: ""
+  query_generation_model: "gpt-4o-mini"
+  # GPT temperature for seed JSON (higher → more diverse phrasing; try 0.52–0.65).
+  seed_generation_temperature: 0.58
+  # GPT temperature for multilingual expansion (higher → less generic translations).
+  translation_temperature: 0.35
+  deduplicate_across_queries: true
+  # Parallel YouTube API / yt-dlp calls (I/O bound). 1 = sequential. Lower if you hit rate limits.
+  youtube_search_workers: 8
+  # If > 0 and expanded query count is larger, randomly sample this many before YouTube search (see --search-random-sample)
+  random_sample_queries: 0
+  random_sample_seed: null
+  output_file: "logs/v2_candidates.jsonl"
+  target_languages:
+    - "English"
+    - "Ukrainian"
+    - "Russian"
+    - "French"
+    - "German"
+    - "Spanish"
+    - "Japanese"
+    - "Thai"
+    - "Arabic"
+    - "Portuguese"
+    - "Korean"
+    - "Italian"
+    - "Polish"
+    - "Turkish"
+    - "Hindi"
+    - "Vietnamese"
+    - "Dutch"
+    - "Indonesian"
+    - "Czech"
+    - "Romanian"
+
+# ── Stage 2: Tag filter ──────────────────────────────────────
+tag_filter:
+  allowed_categories:
+    - "Pets & Animals"
+    - "Entertainment"
+    - "People & Blogs"
+    - "Education"
+    - "Howto & Style"
+    - "Nonprofits & Activism"
+    - null
+  reject_title_keywords:
+    - "for cats to watch"
+    - "cat tv"
+    - "cartoon"
+    - "animation"
+    - "cgi"
+    - "minecraft"
+    - "game"
+    - "virtual"
+    - "compilation of compilations"
+    - "reaction"
+    - "singing"
+  require_min_duration_sec: 10
+  require_max_duration_sec: 300
+  output_file: "logs/v2_tag_filtered.jsonl"
+
+# ── Stage 3: GPT filter ──────────────────────────────────────
+gpt_filter:
+  model: "gpt-4o-mini"
+  rules_file: "src/scrapers/data_pipeline_v2/config/gpt_filter_rules.md"
+  batch_size: 10
+  # Parallel OpenAI calls (thread pool); 1 = sequential. Increase if rate limits allow.
+  gpt_filter_workers: 5
+  max_retries: 3
+  temperature: 0.0
+  openai_api_key: ""
+  output_file: "logs/v2_gpt_filtered.jsonl"
+  cost_estimate_per_1k_tokens: 0.000150
+
+# ── Stage 4: Download ────────────────────────────────────────
+download:
+  max_duration_seconds: 300
+  max_filesize_bytes: 524288000
+  max_height: 1080
+  audio_format: "mp3"
+  audio_quality: "192"
+  retries: 3
+  fragment_retries: 3
+  cookie_file: ""
+  cookies_from_browser: ""
+  # yt-dlp: allow fetching YouTube JS challenge solvers (see yt-dlp wiki / EJS). Use [] to forbid.
+  remote_components:
+    - "ejs:github"
+  tmp_dir: "src/scrapers/data_pipeline_v2/tmp_downloads"
+  output_dir: "data/dataset/videos_v2"
+  legacy_dataset_jsonl: "data/dataset/final_dataset.jsonl"
+
+# ── Stage 5: YOLO processing ────────────────────────────────
+yolo:
+  # Speed: smaller weights run much faster than yolov8x (Ultralytics auto-downloads).
+  # Try: models/yolo/yolov8l.pt / models/yolo/yolov8m.pt / yolov8s.pt if you need shorter process stage wall time.
+  weights: "models/yolo/yolov8m.pt"
+  conf: 0.50
+  # Slightly smaller input = faster inference (optional: 512 for more speed).
+  imgsz: 640
+  cat_class_id: 15
+  min_segment_duration: 3.0
+  min_chunk_duration: 3.0
+  max_chunk_duration: 7.0
+  # Higher = fewer YOLO steps per scene (8–16 typical; trade-off vs tracking smoothness).
+  frame_skip: 6
+  require_single_cat: true
+  processing_timeout_sec: 300
+  # 1 = sequential (uses MPS/CUDA when available). >1 uses a process pool; see parallel_yolo_device.
+  processing_workers: 1
+  # Device for YOLO inside each pool worker (processing_workers > 1):
+  #   cpu | mps | cuda | cuda:0 | cuda:1 | … — passed to model.to(...).
+  #   auto — same logic as sequential mode: cuda if torch sees CUDA, else mps if available, else cpu.
+  #     It does NOT force cpu for safety; with multiple workers you may get MPS/CUDA and the logged warnings.
+  #     Use explicit "cpu" if you want CPU-only parallel inference.
+  parallel_yolo_device: "mps"
+  # After a successful processing attempt, remove downloaded video+audio under data/dataset/videos_v2/ to save disk.
+  # Set false if you may re-run `--start-from process` on the same run without re-downloading.
+  delete_source_media_after_processing: true
+
+# ── Stage 6: Audio classifier ───────────────────────────────
+audio:
+  # yamnet = PyTorch YAMNet (audio_preclassification_v3); sklearn = legacy v1/v2 joblib + MFCC features
+  backend: yamnet
+  cat_prob_threshold: 0.65
+  yamnet_patch_batch_size: 32
+  yamnet_aggregate_cat_classes: sum
+  yamnet_include_roaring_cats: false
+  # sklearn-only (ignored when backend: yamnet)
+  model_path: "models/audio_preclassifier/voting_classifier_with-add-data.pkl"
+  v2_model_path: "_archive/audio_preclassifier_v2/runs/run_20260408_221318/best_model.pkl"
+  prefer_v2: true
+  feature_set: "mfcc_delta_spectral"
+  # Per-clip loudness norm — superseded by feature_config inside bundled v2 pickle when present
+  waveform_normalize: none
+  waveform_normalize_eps: 1.0e-9
+  waveform_normalize_noise_floor: 0.01
+  waveform_normalize_rms_target: 0.1
+
+# ── Output ───────────────────────────────────────────────────
+output:
+  snippets_dir: "data/dataset/snippets_v2"
+  metadata_file: "data/dataset/metadata_v2.jsonl"
+  pipeline_log: "logs/v2_pipeline_log.jsonl"
+  runs_dir: "src/scrapers/data_pipeline_v2/runs"
+
+# ── Reporting ────────────────────────────────────────────────
+reporting:
+  log_interval: 10
+  save_plots: true
+  report_file: "reports/pipeline_v2_report.txt"

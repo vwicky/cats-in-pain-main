@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x18hbwc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x18hbwc_video.mp4",
+  "audio_path": "output/videos/dailymotion_x18hbwc_audio.mp3",
+  "duration_sec": 48,
+  "duration_seconds": 48.0,
+  "title": "Un chat attaque une femme",
+  "webpage_url": "https://www.dailymotion.com/video/x18hbwc",
+  "dm_id": "x18hbwc",
+  "views_total": 630,
+  "view_count": 630,
+  "likes_total": 3,
+  "like_count": 3,
+  "tags": [
+    "chat",
+    "femme",
+    "attaque"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Une femme qui essaye de protéger son chien d'un chat agressif va avoir la mauvaise surprise de se faire attaquer par le chat. On peut voir l'animal dans la neige qui va sauter au visage de la femme et la griffer. Une caméra de vidéo surveillance a filmé la scène.",
+  "created_time": 1387224964,
+  "search_query": "courtes vidéos de chats qui se prélassent",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows an aggressive interaction between a cat and a woman.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x18hbwc",
+    "decision": "keep",
+    "reason": "The video shows an aggressive interaction between a cat and a woman.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

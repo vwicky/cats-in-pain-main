@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_xegkt",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xegkt_video.mp4",
+  "audio_path": "output/videos/dailymotion_xegkt_audio.mp3",
+  "duration_sec": 4,
+  "duration_seconds": 4.0,
+  "title": "¿gato-pino gato?",
+  "webpage_url": "https://www.dailymotion.com/video/xegkt",
+  "dm_id": "xegkt",
+  "views_total": 1072,
+  "view_count": 1072,
+  "likes_total": 5,
+  "like_count": 5,
+  "tags": [
+    "parkour"
+  ],
+  "channel": "sport",
+  "channel_title": "sport",
+  "language": "es",
+  "query_language": "Portuguese",
+  "description": "weno es un corto de un colega del grupo(kobe)y queria que dejeis comentarios xq a algunos nos parece solo doble gato y a otros gato con pino gato xD.weno un saludo dw",
+  "created_time": 1158441626,
+  "search_query": "gato miando alto",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat-related video, possibly involving playful behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xegkt",
+    "decision": "keep",
+    "reason": "The title suggests a cat-related video, possibly involving playful behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x7dgrib",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7dgrib_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7dgrib_audio.mp3",
+  "duration_sec": 28,
+  "duration_seconds": 28.0,
+  "title": "Sleepy Head Won't Wake Up",
+  "webpage_url": "https://www.dailymotion.com/video/x7dgrib",
+  "dm_id": "x7dgrib",
+  "views_total": 918,
+  "view_count": 918,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "2016",
+    "Cat",
+    "Animal",
+    "Animals",
+    "Cute",
+    "Sweet",
+    "Adorable",
+    "Funny",
+    "Humorous",
+    "hammock"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "Occurred on January 22, 2016 / Ceara, Brazil<br /><br />Info from Licensor: \"I was trying to convince Januario to have breakfast but he really likes to sleep.\"",
+  "created_time": 1563304233,
+  "search_query": "cat after vaccination",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description suggests a cat is involved and is likely resting.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7dgrib",
+    "decision": "keep",
+    "reason": "The description suggests a cat is involved and is likely resting.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

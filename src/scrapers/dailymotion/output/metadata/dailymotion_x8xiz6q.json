@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8xiz6q",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8xiz6q_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8xiz6q_audio.mp3",
+  "duration_sec": 20,
+  "duration_seconds": 20.0,
+  "title": "Vídeo mostra gato pulando da janela de hotel durante incêndio: \"Agora é para ter apenas seis vidas\"",
+  "webpage_url": "https://www.dailymotion.com/video/x8xiz6q",
+  "dm_id": "x8xiz6q",
+  "views_total": 7745,
+  "view_count": 7745,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "",
+  "created_time": 1714163212,
+  "search_query": "gatos piando e conversando",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat jumping from a hotel window during a fire, indicating a potential rescue context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8xiz6q",
+    "decision": "keep",
+    "reason": "The video shows a cat jumping from a hotel window during a fire, indicating a potential rescue context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8mojat",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8mojat_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8mojat_audio.mp3",
+  "duration_sec": 46,
+  "duration_seconds": 46.0,
+  "title": "In the middle of this pile of toys, everyone has a hard time finding the real cat! (Video)",
+  "webpage_url": "https://www.dailymotion.com/video/x8mojat",
+  "dm_id": "x8mojat",
+  "views_total": 2223,
+  "view_count": 2223,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "Larry the cat is really well hidden, will you be able to find him among the soft toys and other cushions?<br /><br />https://wamiz.co.uk/news/35600/pile-toys-finding-real-cat-video",
+  "created_time": 1689930078,
+  "search_query": "short cat hunting videos",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves finding a real cat among toys, indicating real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8mojat",
+    "decision": "keep",
+    "reason": "The video involves finding a real cat among toys, indicating real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

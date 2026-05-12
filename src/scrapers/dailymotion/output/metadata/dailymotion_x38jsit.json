@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x38jsit",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x38jsit_video.mp4",
+  "audio_path": "output/videos/dailymotion_x38jsit_audio.mp3",
+  "duration_sec": 56,
+  "duration_seconds": 56.0,
+  "title": "Pet Lizards Surprised Pet Cat At Home. the fight of each other going to viral on social media.",
+  "webpage_url": "https://www.dailymotion.com/video/x38jsit",
+  "dm_id": "x38jsit",
+  "views_total": 962,
+  "view_count": 962,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "ar",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1443957127,
+  "search_query": "cats hissing at each other",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat is involved in a fight with lizards.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x38jsit",
+    "decision": "keep",
+    "reason": "The title suggests a cat is involved in a fight with lizards.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

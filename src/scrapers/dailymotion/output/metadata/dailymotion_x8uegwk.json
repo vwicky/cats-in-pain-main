@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8uegwk",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8uegwk_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8uegwk_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Elle emmène son chat chez le vétérinaire pour des problèmes de peau : le diagnostic perturbe 2,2M de personnes (vidéo)",
+  "webpage_url": "https://www.dailymotion.com/video/x8uegwk",
+  "dm_id": "x8uegwk",
+  "views_total": 2744,
+  "view_count": 2744,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Brandy Mink vit dans le sud de l'Illinois avec ses chats Remi, Apollo, Gemini et Aries.",
+  "created_time": 1710410142,
+  "search_query": "chat chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a cat with skin problems, indicating a vet context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8uegwk",
+    "decision": "keep",
+    "reason": "The video involves a cat with skin problems, indicating a vet context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

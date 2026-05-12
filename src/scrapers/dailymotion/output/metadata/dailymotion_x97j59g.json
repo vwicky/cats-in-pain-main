@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x97j59g",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x97j59g_video.mp4",
+  "audio_path": "output/videos/dailymotion_x97j59g_audio.mp3",
+  "duration_sec": 55,
+  "duration_seconds": 55.0,
+  "title": "Man surprises his wife with a kitten after they return from family trip",
+  "webpage_url": "https://www.dailymotion.com/video/x97j59g",
+  "dm_id": "x97j59g",
+  "views_total": 6595,
+  "view_count": 6595,
+  "likes_total": 9,
+  "like_count": 9,
+  "tags": [
+    "United Kingdom",
+    "Kitten",
+    "Cat Love",
+    "Family Surprise",
+    "Cat Adoption",
+    "Family Bonding",
+    "Cat Lover",
+    "Furry Friend",
+    "Kitten Surprise",
+    "New Kitten"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "Max had a plan to surprise his wife after their family trip.<br /><br />During their trip, his wife fell in love with a group of stray cats.<br /><br />While they couldn't bring any of those cats home, Max wanted to keep that love alive.<br /><br />With the help of their three sons, Max brought home a kitten, hoping it would fill the house with the same joy they had experienced on their trip.<br /><br />The moment Max's wife held the little kitten, her face lit up with pure affection.<br /><br />Her love for the tiny furball was instant and undeniable. <br />Location: United Kingdom <br />WooGlobe Ref : WGA596237<br />For licensing and to use this video, please email licensing@wooglobe.com",
+  "created_time": 1729173873,
+  "search_query": "cats battling for territory",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Content involves a kitten and family bonding, relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x97j59g",
+    "decision": "keep",
+    "reason": "Content involves a kitten and family bonding, relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

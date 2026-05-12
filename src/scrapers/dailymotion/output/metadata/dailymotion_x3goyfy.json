@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3goyfy",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3goyfy_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3goyfy_audio.mp3",
+  "duration_sec": 44,
+  "duration_seconds": 44.0,
+  "title": "Ce chat a un ronronnement qui ressemble à un roucoulement",
+  "webpage_url": "https://www.dailymotion.com/video/x3goyfy",
+  "dm_id": "x3goyfy",
+  "views_total": 500,
+  "view_count": 500,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1449156916,
+  "search_query": "chat qui guette un jouet",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat purring, which is a clear vocalization behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3goyfy",
+    "decision": "keep",
+    "reason": "The title suggests a cat purring, which is a clear vocalization behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

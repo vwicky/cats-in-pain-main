@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9p5esw",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9p5esw_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9p5esw_audio.mp3",
+  "duration_sec": 10,
+  "duration_seconds": 10.0,
+  "title": "Gato Preto é preso horas depois de acidente",
+  "webpage_url": "https://www.dailymotion.com/video/x9p5esw",
+  "dm_id": "x9p5esw",
+  "views_total": 3495,
+  "view_count": 3495,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1755708236,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat involved in an accident, which is plausible for real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9p5esw",
+    "decision": "keep",
+    "reason": "The title suggests a cat involved in an accident, which is plausible for real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

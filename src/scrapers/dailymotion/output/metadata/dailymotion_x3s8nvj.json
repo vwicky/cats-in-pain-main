@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3s8nvj",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3s8nvj_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3s8nvj_audio.mp3",
+  "duration_sec": 20,
+  "duration_seconds": 20.0,
+  "title": "Самый большой кот в мире. Норвежский лесной кот",
+  "webpage_url": "https://www.dailymotion.com/video/x3s8nvj",
+  "dm_id": "x3s8nvj",
+  "views_total": 2899,
+  "view_count": 2899,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cats",
+    "fun",
+    "prikoli",
+    "video",
+    "clip",
+    "best",
+    "rolik",
+    "смешно",
+    "comedy"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1455545681,
+  "search_query": "кот после операции",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title refers to a specific breed of cat, which is relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3s8nvj",
+    "decision": "keep",
+    "reason": "The title refers to a specific breed of cat, which is relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

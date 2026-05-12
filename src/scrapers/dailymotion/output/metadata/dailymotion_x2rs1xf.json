@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x2rs1xf",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2rs1xf_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2rs1xf_audio.mp3",
+  "duration_sec": 40,
+  "duration_seconds": 40.0,
+  "title": "La réaction d'un chat face au bruit d'un bout de plastique",
+  "webpage_url": "https://www.dailymotion.com/video/x2rs1xf",
+  "dm_id": "x2rs1xf",
+  "views_total": 2082,
+  "view_count": 2082,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "chat",
+    "réaction",
+    "plastique",
+    "morceau",
+    "bruit",
+    "langue"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Blu le chat réagit bizarrement quand son maître froisse un emballage devant lui. Face au bruit de ce petit morceau de plastique, l'animal fait une drôle de tête et tire la langue, comme si son cerveau s’arrêtait de fonctionner temporairement. Cet homme a peut-être trouvé le point faible caché de nos amis les chats, belle découverte !",
+  "created_time": 1432795295,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description indicate a cat reacting to a noise, which suggests vocalization.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2rs1xf",
+    "decision": "keep",
+    "reason": "The title and description indicate a cat reacting to a noise, which suggests vocalization.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x31mqmz",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x31mqmz_video.mp4.part-Frag6.part",
+  "audio_path": "output/videos/dailymotion_x31mqmz_audio.mp3",
+  "duration_sec": 22,
+  "duration_seconds": 22.0,
+  "title": "Кот спит на капоте машины как человек",
+  "webpage_url": "https://www.dailymotion.com/video/x31mqmz",
+  "dm_id": "x31mqmz",
+  "views_total": 856,
+  "view_count": 856,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Кошка"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1439543328,
+  "search_query": "кот громко мяукает",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title describes a cat sleeping, which is typical cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x31mqmz",
+    "decision": "keep",
+    "reason": "The title describes a cat sleeping, which is typical cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

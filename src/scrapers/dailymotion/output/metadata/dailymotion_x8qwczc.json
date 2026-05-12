@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8qwczc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8qwczc_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8qwczc_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Le chien a très envie de jouer, mais le chat se méprend complètement sur ses intentions (vidéo)",
+  "webpage_url": "https://www.dailymotion.com/video/x8qwczc",
+  "dm_id": "x8qwczc",
+  "views_total": 7615,
+  "view_count": 7615,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Le toutou Maple ne peut pas imaginer que son frère chat Waffles ne veuille pas jouer avec lui. ",
+  "created_time": 1703605802,
+  "search_query": "courtes vidéos de chats qui se prélassent",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates interaction between a dog and a cat.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8qwczc",
+    "decision": "keep",
+    "reason": "The description indicates interaction between a dog and a cat.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

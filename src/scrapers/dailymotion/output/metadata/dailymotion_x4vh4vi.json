@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x4vh4vi",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x4vh4vi_video.mp4",
+  "audio_path": "output/videos/dailymotion_x4vh4vi_audio.mp3",
+  "duration_sec": 28,
+  "duration_seconds": 28.0,
+  "title": "Este es el gato más perezoso del mundo",
+  "webpage_url": "https://www.dailymotion.com/video/x4vh4vi",
+  "dm_id": "x4vh4vi",
+  "views_total": 1198,
+  "view_count": 1198,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gato",
+    "perezoso",
+    "mundo"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Un video compartido en la red social Facebook muestra a un gato muy flojo, tanto así que es incapaz de tomar agua de pie, pues lo hace acostado junto a su plato de agua mojando una de sus patas para luego llevársela a su boca. El portal web Planeta Curioso, reseñó que el video ha sido visto más de 6 millones de veces  <br /> <br />Video cortesía de JaviShaviPets. Tomado de caraotadigital",
+  "created_time": 1475269449,
+  "search_query": "gato en modo caza",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a lazy cat drinking water, which is typical cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x4vh4vi",
+    "decision": "keep",
+    "reason": "The video shows a lazy cat drinking water, which is typical cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

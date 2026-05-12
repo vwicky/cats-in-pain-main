@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x9nopj4",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9nopj4_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9nopj4_audio.mp3",
+  "duration_sec": 25,
+  "duration_seconds": 25.0,
+  "title": "Ce chien tente de surprendre un chat... raté",
+  "webpage_url": "https://www.dailymotion.com/video/x9nopj4",
+  "dm_id": "x9nopj4",
+  "views_total": 1133,
+  "view_count": 1133,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "animal",
+    "drole",
+    "insolite",
+    "chien",
+    "chat",
+    "humour"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Ce chien tente de surprendre un chat... raté",
+  "created_time": 1753684211,
+  "search_query": "posture défensive de chat",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Involves a cat and a dog, likely showing interaction.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9nopj4",
+    "decision": "keep",
+    "reason": "Involves a cat and a dog, likely showing interaction.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

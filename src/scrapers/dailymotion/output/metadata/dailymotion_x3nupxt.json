@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x3nupxt",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3nupxt_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3nupxt_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "Смешной кот и пылесос - funny cat and a vacuum cleaner",
+  "webpage_url": "https://www.dailymotion.com/video/x3nupxt",
+  "dm_id": "x3nupxt",
+  "views_total": 5236,
+  "view_count": 5236,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cat"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "Russian",
+  "description": "funny cats",
+  "created_time": 1453484225,
+  "search_query": "кот, выслеживающий добычу",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description indicate a funny cat with a vacuum cleaner.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3nupxt",
+    "decision": "keep",
+    "reason": "The title and description indicate a funny cat with a vacuum cleaner.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

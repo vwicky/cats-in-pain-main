@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x91y1gc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x91y1gc_video.mp4",
+  "audio_path": "output/videos/dailymotion_x91y1gc_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Familie vermisst ihre Katze und bricht beim Blick in den Käfig im Tierheim zusammen",
+  "webpage_url": "https://www.dailymotion.com/video/x91y1gc",
+  "dm_id": "x91y1gc",
+  "views_total": 21559,
+  "view_count": 21559,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Schon seit zweieinhalb Jahren vermisst diese US-amerikanische Familie ihren treuen Kater Jimmy. Doch als ein Tierheim Fotos einer älteren Katze postet, kommt plötzlich ein Stein ins Rollen.",
+  "created_time": 1720688736,
+  "search_query": "kranke Katze beim Tierarzt",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a family missing their cat, suggesting emotional content related to cats.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x91y1gc",
+    "decision": "keep",
+    "reason": "The title indicates a family missing their cat, suggesting emotional content related to cats.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

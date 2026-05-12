@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x8b268c",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8b268c_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8b268c_audio.mp3",
+  "duration_sec": 56,
+  "duration_seconds": 56.0,
+  "title": "'Sick, rescued cat gets taken care of by owner and his lovely dog '",
+  "webpage_url": "https://www.dailymotion.com/video/x8b268c",
+  "dm_id": "x8b268c",
+  "views_total": 1877,
+  "view_count": 1877,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Spain",
+    "Shareable",
+    "Lifestyle",
+    "AnimalRescue",
+    "Cat",
+    "Kitten",
+    "Cat Rescue",
+    "Rescue Cat",
+    "Sick",
+    "Infections"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "'Nothing can beat the level of satisfaction that comes with caring for someone in desperate need of it. <br /><br />Surfacing from Spain, this delightful montage shows Victor Peña Bilbeny caring for a scrawny kitty that he found abandoned in a garbage can. <br /><br />\"Everything was going well but then Dobby (the cat) stopped eating and had his eyes closed,\" the filmer said. \"I have taken him to the vet. He has conjunctivitis, flu, diarrhea, herpes, and mouth sores. Surely, he got sick because of some very hard first days of life.\"<br /><br />Victor revealed that not only does he have to clean Dobby's nose with saline, but he also has to clean his eyes. <br /><br />\"My dog, ​​Leia continues to take great care of him,\" he added. \"I hope he recovers soon.\"<br /><br /><br />Name: Victor Peña Bilbeny<br />Location: Spain'<br />WooGlobe Ref : WGA087614<br />For licensing and to use this video, please email licensing@wooglobe.com",
+  "created_time": 1653339885,
+  "search_query": "sick cat getting treatment",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Description indicates care for a sick cat.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8b268c",
+    "decision": "keep",
+    "reason": "Description indicates care for a sick cat.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

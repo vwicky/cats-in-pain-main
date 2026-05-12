@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x6sr5w",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6sr5w_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6sr5w_audio.mp3",
+  "duration_sec": 18,
+  "duration_seconds": 18.0,
+  "title": "ojitos de Galahad",
+  "webpage_url": "https://www.dailymotion.com/video/x6sr5w",
+  "dm_id": "x6sr5w",
+  "views_total": 647,
+  "view_count": 647,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Veterinario",
+    "gato"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1221764800,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The tags suggest a veterinary context for a cat, indicating potential real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6sr5w",
+    "decision": "keep",
+    "reason": "The tags suggest a veterinary context for a cat, indicating potential real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x93luie",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x93luie_video.mp4",
+  "audio_path": "output/videos/dailymotion_x93luie_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Trouvé errant avec une plaie qui ne se refermait pas, ce chat est un mystère pour les vétérinaires",
+  "webpage_url": "https://www.dailymotion.com/video/x93luie",
+  "dm_id": "x93luie",
+  "views_total": 5878,
+  "view_count": 5878,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Quand il a été trouvé, ce chat avait une grande plaie qui résistait aux soins.",
+  "created_time": 1722957868,
+  "search_query": "chat chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a cat with a wound, suggesting a vet context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x93luie",
+    "decision": "keep",
+    "reason": "The description indicates a cat with a wound, suggesting a vet context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

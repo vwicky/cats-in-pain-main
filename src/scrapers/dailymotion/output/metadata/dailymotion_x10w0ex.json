@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x10w0ex",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x10w0ex_video.mp4",
+  "audio_path": "output/videos/dailymotion_x10w0ex_audio.mp3",
+  "duration_sec": 55,
+  "duration_seconds": 55.0,
+  "title": "Kitten With Two Faces- Rare 'Janus' Cat Born In US",
+  "webpage_url": "https://www.dailymotion.com/video/x10w0ex",
+  "dm_id": "x10w0ex",
+  "views_total": 1328,
+  "view_count": 1328,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "en",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1371201557,
+  "search_query": "two cats in a standoff",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a rare cat, which is plausible cat behavior content.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x10w0ex",
+    "decision": "keep",
+    "reason": "The title suggests a rare cat, which is plausible cat behavior content.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

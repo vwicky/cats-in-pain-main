@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3i5adj",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3i5adj_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3i5adj_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Как отучить кота ходить по столу",
+  "webpage_url": "https://www.dailymotion.com/video/x3i5adj",
+  "dm_id": "x3i5adj",
+  "views_total": 3380,
+  "view_count": 3380,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1450155030,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a discussion about training a cat, which is relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3i5adj",
+    "decision": "keep",
+    "reason": "The title indicates a discussion about training a cat, which is relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

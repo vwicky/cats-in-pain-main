@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x8yivs",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8yivs_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8yivs_audio.mp3",
+  "duration_sec": 17,
+  "duration_seconds": 17.0,
+  "title": "notre chat qui hurle !",
+  "webpage_url": "https://www.dailymotion.com/video/x8yivs",
+  "dm_id": "x8yivs",
+  "views_total": 6401,
+  "view_count": 6401,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "chat",
+    "humour"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Alors voici notre qui hurle car il a peur de la chienne, pourtant elle ne la pas touché, il a juste eu peur !  <br />( Rassurez vous on ne la pas maltraité) !",
+  "created_time": 1239562360,
+  "search_query": "chat blessé qui boite",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat vocalizing out of fear, which is a real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8yivs",
+    "decision": "keep",
+    "reason": "The video features a cat vocalizing out of fear, which is a real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

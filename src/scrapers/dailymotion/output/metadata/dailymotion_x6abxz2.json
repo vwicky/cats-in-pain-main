@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x6abxz2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6abxz2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6abxz2_audio.mp3",
+  "duration_sec": 43,
+  "duration_seconds": 43.0,
+  "title": "Inspection du sapin de noel.. par le chat qui y élit domicile !",
+  "webpage_url": "https://www.dailymotion.com/video/x6abxz2",
+  "dm_id": "x6abxz2",
+  "views_total": 130385,
+  "view_count": 130385,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "MIGNON"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Inspection du sapin de noël.. par le chat qui y élit domicile !",
+  "created_time": 1511360765,
+  "search_query": "vidéos de chats qui parlent",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat inspecting a Christmas tree, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6abxz2",
+    "decision": "keep",
+    "reason": "The video features a cat inspecting a Christmas tree, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

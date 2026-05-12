@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x8xpm8k",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8xpm8k_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8xpm8k_audio.mp3",
+  "duration_sec": 43,
+  "duration_seconds": 43.0,
+  "title": "La vie secrète des chats",
+  "webpage_url": "https://www.dailymotion.com/video/x8xpm8k",
+  "dm_id": "x8xpm8k",
+  "views_total": 21986,
+  "view_count": 21986,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "plurimedia_1168914",
+    "video_plurimedia",
+    "video_plurimedia_broadcast"
+  ],
+  "channel": "tv",
+  "channel_title": "tv",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Des chats vivant dans le XVIIIe arrondissement de Paris et à Vézénobres, dans un petit village du Gard, sont filmés dans tous leurs déplacements pendant quatre semaines grâce à un dispositif spécial. L'étude comparative doit permettre aux propriétaires de mieux comprendre le comportement de leur compagnon, qui peut parfois s'avérer mystérieux à leur sens.",
+  "created_time": 1714496946,
+  "search_query": "chats qui appellent leurs partenaires",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video focuses on the behavior of real cats in various locations.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8xpm8k",
+    "decision": "keep",
+    "reason": "The video focuses on the behavior of real cats in various locations.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

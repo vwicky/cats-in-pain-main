@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x6sr0ce",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6sr0ce_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6sr0ce_audio.mp3",
+  "duration_sec": 26,
+  "duration_seconds": 26.0,
+  "title": "Le chat a confondu la fillette avec sa litière et s'est lâché",
+  "webpage_url": "https://www.dailymotion.com/video/x6sr0ce",
+  "dm_id": "x6sr0ce",
+  "views_total": 1163,
+  "view_count": 1163,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "La vidéo drôle du jour, enfin... si on se place du côté de la fille qui pleure, c'est plutôt un moment gênant ! Un chat a confondu la fillette avec sa litière et s'est complètement lâché sur elle lors d'un trajet en voiture...",
+  "created_time": 1535456183,
+  "search_query": "chats qui piaillent et bavardent",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Involves a cat in a humorous and awkward situation.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6sr0ce",
+    "decision": "keep",
+    "reason": "Involves a cat in a humorous and awkward situation.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

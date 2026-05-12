@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x7fkr6d",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7fkr6d_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7fkr6d_audio.mp3",
+  "duration_sec": 8,
+  "duration_seconds": 8.0,
+  "title": "Quand un chat décide de se mettre au football, voici ce que ça donne !",
+  "webpage_url": "https://www.dailymotion.com/video/x7fkr6d",
+  "dm_id": "x7fkr6d",
+  "views_total": 7773,
+  "view_count": 7773,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1565376980,
+  "search_query": "chats se reposant paisiblement",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat attempting to play football.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7fkr6d",
+    "decision": "keep",
+    "reason": "The video features a cat attempting to play football.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

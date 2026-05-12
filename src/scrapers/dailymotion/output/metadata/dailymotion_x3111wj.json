@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3111wj",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3111wj_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3111wj_audio.mp3",
+  "duration_sec": 29,
+  "duration_seconds": 29.0,
+  "title": "Сердится жирный кот!",
+  "webpage_url": "https://www.dailymotion.com/video/x3111wj",
+  "dm_id": "x3111wj",
+  "views_total": 9408,
+  "view_count": 9408,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Сердится жирный кот!",
+  "created_time": 1439158045,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat displaying an emotional response, which is plausible.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3111wj",
+    "decision": "keep",
+    "reason": "The title suggests a cat displaying an emotional response, which is plausible.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

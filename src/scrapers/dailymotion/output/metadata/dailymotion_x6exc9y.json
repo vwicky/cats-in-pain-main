@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x6exc9y",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6exc9y_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6exc9y_audio.mp3",
+  "duration_sec": 20,
+  "duration_seconds": 20.0,
+  "title": "Chatons Qui Chantent Joyeux Anniversaire",
+  "webpage_url": "https://www.dailymotion.com/video/x6exc9y",
+  "dm_id": "x6exc9y",
+  "views_total": 18149,
+  "view_count": 18149,
+  "likes_total": 8,
+  "like_count": 8,
+  "tags": [
+    "chatons",
+    "cat",
+    "kittens",
+    "birthday",
+    "singing",
+    "fun"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "English",
+  "description": "HAPPY BIRTHDAY | JOYEUX ANNIVERSAIRE <br />Envoyez, partagez cette video avec vos amis, vos proche pour l'occasion de leur anniversaire. <br />Rejoignez de Très bon coeur sur: <br />SiteWeb: http://detresboncoeur.blogspot.com/ <br /> facebook: https://www.facebook.com/detresboncoeur <br />Ici vous trouvez toutes mes créations c'est surtout des images animé type Ecards <br />Pinterest: https://fr.pinterest.com/DeTresBonCoeur/ <br />123Greetings: http://www.123greetings.com/profile/Coeur/",
+  "created_time": 1518910222,
+  "search_query": "playful kittens relaxing",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Involves kittens and singing, relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6exc9y",
+    "decision": "keep",
+    "reason": "Involves kittens and singing, relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

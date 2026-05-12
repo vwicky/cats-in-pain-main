@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8y4xba",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8y4xba_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8y4xba_audio.mp3",
+  "duration_sec": 51,
+  "duration_seconds": 51.0,
+  "title": "Dieses Kätzchen küsst dauernd den Radfahrer, der es gerettet hat (Video)",
+  "webpage_url": "https://www.dailymotion.com/video/x8y4xba",
+  "dm_id": "x8y4xba",
+  "views_total": 50403,
+  "view_count": 50403,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Dieses Kätzchen küsst dauernd den Radfahrer, der es gerettet hat (Video)",
+  "created_time": 1715064570,
+  "search_query": "verspielte Kätzchen entspannen",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a kitten showing affection, which is typical cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8y4xba",
+    "decision": "keep",
+    "reason": "The video features a kitten showing affection, which is typical cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

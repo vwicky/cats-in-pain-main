@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x90kv7u",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x90kv7u_video.mp4",
+  "audio_path": "output/videos/dailymotion_x90kv7u_audio.mp3",
+  "duration_sec": 19,
+  "duration_seconds": 19.0,
+  "title": "Wchodzi do sypialni i nie może opanować wzruszenia, gdy widzi, co robią jej koty (wideo)",
+  "webpage_url": "https://www.dailymotion.com/video/x90kv7u",
+  "dm_id": "x90kv7u",
+  "views_total": 11144,
+  "view_count": 11144,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "Haley zastała w sypialni naprawdę uroczy widok.",
+  "created_time": 1718801759,
+  "search_query": "koty gadające do ptaków",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cute cat behavior in a bedroom context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x90kv7u",
+    "decision": "keep",
+    "reason": "The title suggests a cute cat behavior in a bedroom context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

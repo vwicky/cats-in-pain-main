@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x6x1awv",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6x1awv_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6x1awv_audio.mp3",
+  "duration_sec": 58,
+  "duration_seconds": 58.0,
+  "title": "Kitten Playing With The Cat Tower Toy",
+  "webpage_url": "https://www.dailymotion.com/video/x6x1awv",
+  "dm_id": "x6x1awv",
+  "views_total": 768,
+  "view_count": 768,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "Kitten Playing With The Cat Tower Toy",
+  "created_time": 1541990407,
+  "search_query": "cat stalking a toy",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description clearly indicate a kitten playing.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6x1awv",
+    "decision": "keep",
+    "reason": "The title and description clearly indicate a kitten playing.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

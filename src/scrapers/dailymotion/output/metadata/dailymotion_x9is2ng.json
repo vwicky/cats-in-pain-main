@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x9is2ng",
+  "source": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9is2ng_video.mp4",
+  "audio_path": "output/audio/dailymotion_x9is2ng_audio.mp3",
+  "duration_sec": 14,
+  "title": "Cat Barks From Window Instead of Meowing",
+  "webpage_url": "https://www.dailymotion.com/video/x9is2ng",
+  "dm_id": "x9is2ng",
+  "views_total": 22098,
+  "likes_total": 35,
+  "tags": [
+    "bark",
+    "bts react",
+    "california",
+    "cat",
+    "couch",
+    "english",
+    "funny",
+    "indoor",
+    "lamp",
+    "looking",
+    "nobody",
+    "outside",
+    "pet",
+    "pets",
+    "strange",
+    "table",
+    "talk",
+    "unexpected",
+    "usa",
+    "weird",
+    "window"
+  ],
+  "channel": "news",
+  "language": "en",
+  "description": "This cat, who's grown up with dogs, had an unexpected reaction to seeing a stranger cat outside her window. She barks instead of meowing, much amazement of someone who isn't familiar with her history.",
+  "created_time": 1746060619,
+  "search_query": "cat meowing",
+  "tag_filter": {
+    "passed": true
+  },
+  "gpt_filter": {
+    "video_id": "dailymotion_x9is2ng",
+    "decision": "keep",
+    "reason": "The description indicates a cat barking instead of meowing, which is a vocalization.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

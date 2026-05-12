@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x4hhahj",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x4hhahj_video.mp4",
+  "audio_path": "output/videos/dailymotion_x4hhahj_audio.mp3",
+  "duration_sec": 51,
+  "duration_seconds": 51.0,
+  "title": "Quand les chiens empêchent les chats de se bagarrer... Dingue",
+  "webpage_url": "https://www.dailymotion.com/video/x4hhahj",
+  "dm_id": "x4hhahj",
+  "views_total": 2109,
+  "view_count": 2109,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Bagarre",
+    "LOL",
+    "Animal",
+    "chien",
+    "chat",
+    "animal de compagnie",
+    "bagarre chat",
+    "violent"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Quand les chiens empêchent les chats de se bagarrer... Dingue",
+  "created_time": 1466435059,
+  "search_query": "bagarre de chats dehors",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a scenario involving cats fighting, which is relevant cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x4hhahj",
+    "decision": "keep",
+    "reason": "The title suggests a scenario involving cats fighting, which is relevant cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

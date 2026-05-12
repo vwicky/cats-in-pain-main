@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x97yxko",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x97yxko_video.mp4",
+  "audio_path": "output/videos/dailymotion_x97yxko_audio.mp3",
+  "duration_sec": 22,
+  "duration_seconds": 22.0,
+  "title": "„Nazywam się Theodore i jestem żółwiem”. Ten kot ze schroniska ubawił internautów do łez",
+  "webpage_url": "https://www.dailymotion.com/video/x97yxko",
+  "dm_id": "x97yxko",
+  "views_total": 1762,
+  "view_count": 1762,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "Ratownicy postanowili nagrać scenę z codziennego życia kota w schronisku. Pozory mylą!",
+  "created_time": 1729780637,
+  "search_query": "kot głośno miauczy",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat in a shelter, indicating real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x97yxko",
+    "decision": "keep",
+    "reason": "The video shows a cat in a shelter, indicating real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

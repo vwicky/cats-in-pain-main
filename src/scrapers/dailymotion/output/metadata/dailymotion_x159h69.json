@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x159h69",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x159h69_video.mp4",
+  "audio_path": "output/videos/dailymotion_x159h69_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "Buzz Le véritable Chat Potté",
+  "webpage_url": "https://www.dailymotion.com/video/x159h69",
+  "dm_id": "x159h69",
+  "views_total": 509,
+  "view_count": 509,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat potté",
+    "video insolite",
+    "chat",
+    "buzz"
+  ],
+  "channel": "tv",
+  "channel_title": "tv",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Pour les vidéos insolites, il y a rarement meilleur sujet que nos amis les animaux. Preuve en est avec ce chat qui a parfaitement conscience de la notion de culpabilité, mais également de ses capacités de séducteur. Découvrez le véritable Chat Potté.",
+  "created_time": 1380312711,
+  "search_query": "courtes vidéos de chats qui se prélassent",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description suggest a cat's behavior and personality.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x159h69",
+    "decision": "keep",
+    "reason": "The title and description suggest a cat's behavior and personality.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

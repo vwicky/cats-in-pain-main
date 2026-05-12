@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9q2nls",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9q2nls_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9q2nls_audio.mp3",
+  "duration_sec": 29,
+  "duration_seconds": 29.0,
+  "title": "Gato com prótese de Jaraguá do Sul",
+  "webpage_url": "https://www.dailymotion.com/video/x9q2nls",
+  "dm_id": "x9q2nls",
+  "views_total": 1165,
+  "view_count": 1165,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Gato Abomi recebeu prótese em Jaraguá do Sul (SC)",
+  "created_time": 1757112390,
+  "search_query": "sons de alerta de gato",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat with a prosthetic, indicating a medical context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9q2nls",
+    "decision": "keep",
+    "reason": "The video features a cat with a prosthetic, indicating a medical context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

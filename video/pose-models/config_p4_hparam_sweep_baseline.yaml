@@ -1,0 +1,71 @@
+# Baseline for ``scripts/sweep_p4_pairwise_hparams.py`` (same as
+# video/pose-models/runs/p4_sweep_paining_restsing_20260423_235721/config_sweep_baseline_applied.yaml).
+# The sweep script still applies per-job hyperparams (lr, batch_size, etc.) and passes
+# epochs / early_stop_patience / grad_clip (defaults: 1000, 100, 1.0) — values below
+# match that reference run after those overrides.
+#
+# Example: single-pair hparam grid (4×4×3×3×2 = 288 cells) for Paining vs Resting:
+#   video/pose-models/scripts/reproduce_sweep_paining_restsing.sh
+
+data:
+  manifest: "src/dataset_construction/manifests/final_dataset_v2.jsonl"
+  pose_v1_dir: "data/dataset/embeddings/pose/labeled"
+  pose_v2_dir: "data/dataset/embeddings/pose/v2"
+  pose_extraction_index: "src/dataset_construction/reports/pose_extraction_index.jsonl"
+  vitpose_qc:
+    filter: true
+    enrichment: "src/dataset_construction/reports/vitpose_qc_enrichment.jsonl"
+    default_ok_if_missing: true
+    attach_enrichment_columns: true
+  n_frames: 35
+  n_keypoints: 17
+  n_channels: 3
+  pose_cache:
+    backend: ram
+
+labels:
+  classes:
+    - Angry
+    - Defence
+    - Fighting
+    - Happy
+    - HuntingMind
+    - Mating
+    - MotherCall
+    - Paining
+    - Resting
+    - Warning
+  binary_pain_class: "Paining"
+  label_field: "audio_label_10"
+  confidence_field: "audio_high_confidence"
+
+normalization:
+  root_joint: 0
+  scale_joints: [5, 6]
+  clamp_xy: [-0.5, 1.5]
+  drop_low_confidence_frames: true
+  confidence_threshold: 0.1
+
+split:
+  n_folds: 5
+  random_state: 42
+  group_field: "cat_id"
+  stratify_field: "audio_label_10"
+
+training:
+  batch_size: 4
+  lr: 0.0001
+  weight_decay: 0.01
+  optimizer: "adamw"
+  scheduler: "cosine"
+  focal_gamma: 2.0
+  use_class_weights: true
+  epochs: 1000
+  early_stop_metric: "val_macro_f1_binary"
+  early_stop_patience: 100
+  early_stop_min_delta: 0.0
+  grad_clip_norm: 1.0
+
+output:
+  runs_dir: "video/pose-models/runs"
+  log_interval_batches: 20

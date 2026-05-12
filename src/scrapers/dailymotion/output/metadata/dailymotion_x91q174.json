@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x91q174",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x91q174_video.mp4",
+  "audio_path": "output/videos/dailymotion_x91q174_audio.mp3",
+  "duration_sec": 41,
+  "duration_seconds": 41.0,
+  "title": "Descubre 2 gatitos en su jardín: su reflejo cambiará su vida para siempre",
+  "webpage_url": "https://www.dailymotion.com/video/x91q174",
+  "dm_id": "x91q174",
+  "views_total": 1904,
+  "view_count": 1904,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Hace dos semanas, el hombre estaba realizando sus labores de jardinería sin saber que cambiaría el destino de dos pequeñas bolas de pelo.",
+  "created_time": 1720430244,
+  "search_query": "gatitos juguetones relajándose",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves discovering kittens in a garden, which is relevant to real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x91q174",
+    "decision": "keep",
+    "reason": "The video involves discovering kittens in a garden, which is relevant to real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

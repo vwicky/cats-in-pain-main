@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x4x92b7",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x4x92b7_video.mp4",
+  "audio_path": "output/videos/dailymotion_x4x92b7_audio.mp3",
+  "duration_sec": 21,
+  "duration_seconds": 21.0,
+  "title": "Quando você vir o jeito de deitar deste gatinho, seu coração vai derreter em menos de 20 segundos! MDS, MUITO FOFO!!",
+  "webpage_url": "https://www.dailymotion.com/video/x4x92b7",
+  "dm_id": "x4x92b7",
+  "views_total": 6407,
+  "view_count": 6407,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Gato",
+    "gatinho"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "Portuguese",
+  "description": "",
+  "created_time": 1476355178,
+  "search_query": "gatinhos brincalhões relaxando",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a kitten in a cute resting position, suitable for a cat behavior dataset.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x4x92b7",
+    "decision": "keep",
+    "reason": "The video features a kitten in a cute resting position, suitable for a cat behavior dataset.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

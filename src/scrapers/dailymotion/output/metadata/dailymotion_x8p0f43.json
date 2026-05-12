@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x8p0f43",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8p0f43_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8p0f43_audio.mp3",
+  "duration_sec": 52,
+  "duration_seconds": 52.0,
+  "title": "Un chat très en colère",
+  "webpage_url": "https://www.dailymotion.com/video/x8p0f43",
+  "dm_id": "x8p0f43",
+  "views_total": 1723,
+  "view_count": 1723,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "animal",
+    "insolite",
+    "veterinaire",
+    "veto",
+    "drole"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un chat très en colère",
+  "created_time": 1697961558,
+  "search_query": "chat chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat displaying anger, likely real behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8p0f43",
+    "decision": "keep",
+    "reason": "The title suggests a cat displaying anger, likely real behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

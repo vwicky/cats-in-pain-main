@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8yfrtw",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8yfrtw_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8yfrtw_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "Veterinária de Joinville resgata gatas ilhadas e emociona tutora que perdeu tudo no RS",
+  "webpage_url": "https://www.dailymotion.com/video/x8yfrtw",
+  "dm_id": "x8yfrtw",
+  "views_total": 1416,
+  "view_count": 1416,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Italian",
+  "description": "Leia em https://www.nsctotal.com.br/",
+  "created_time": 1715614016,
+  "search_query": "gatto in clinica veterinaria",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a rescue of cats, which is relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8yfrtw",
+    "decision": "keep",
+    "reason": "The video involves a rescue of cats, which is relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x17y1ic",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x17y1ic_video.mp4",
+  "audio_path": "output/videos/dailymotion_x17y1ic_audio.mp3",
+  "duration_sec": 9,
+  "duration_seconds": 9.0,
+  "title": "Cat Loses Mind Watching Twirling Toy",
+  "webpage_url": "https://www.dailymotion.com/video/x17y1ic",
+  "dm_id": "x17y1ic",
+  "views_total": 3023,
+  "view_count": 3023,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "Storyful",
+    "Dolly Llama",
+    "San Diego",
+    "Viral videos",
+    "Cat Loses Mind Watching Twirling Toy",
+    "Cat videos"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "<p>Leeroy Jenkins the cat is so fixated on a twirling toy that his head goes into overdrive in this video. Leeroy was adopted from East County Animal Rescue in San Diego, California. He loves wet food, climbing the Christmas tree, and annoying his big sister Lulu. Credit: Crystal Williams</p>",
+  "created_time": 1386076221,
+  "search_query": "cat stalking a toy",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat fixated on a twirling toy, showcasing playful behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x17y1ic",
+    "decision": "keep",
+    "reason": "The video features a cat fixated on a twirling toy, showcasing playful behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

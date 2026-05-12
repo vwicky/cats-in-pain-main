@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x7lea53",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7lea53_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7lea53_audio.mp3",
+  "duration_sec": 10,
+  "duration_seconds": 10.0,
+  "title": "Gato \"muerto de miedo\" pierde una de sus \"siete vidas\" por el grito de su fanatizado amo",
+  "webpage_url": "https://www.dailymotion.com/video/x7lea53",
+  "dm_id": "x7lea53",
+  "views_total": 3750,
+  "view_count": 3750,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Gato",
+    "viral",
+    "fan"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Fuente: RS<br /><br />Gato \"muerto de miedo\" pierde una de sus \"siete vidas\" por el grito de su fanatizado amo",
+  "created_time": 1568884827,
+  "search_query": "gatos luchando por territorio",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a cat reacting fearfully, which is relevant to real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7lea53",
+    "decision": "keep",
+    "reason": "The description indicates a cat reacting fearfully, which is relevant to real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

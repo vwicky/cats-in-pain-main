@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x2lwure",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2lwure_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2lwure_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "кот грязнуля",
+  "webpage_url": "https://www.dailymotion.com/video/x2lwure",
+  "dm_id": "x2lwure",
+  "views_total": 45162,
+  "view_count": 45162,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1428366412,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's behavior related to cleanliness or messiness.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2lwure",
+    "decision": "keep",
+    "reason": "The title suggests a cat's behavior related to cleanliness or messiness.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

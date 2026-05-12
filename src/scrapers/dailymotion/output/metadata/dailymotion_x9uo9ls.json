@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9uo9ls",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9uo9ls_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9uo9ls_audio.mp3",
+  "duration_sec": 55,
+  "duration_seconds": 55.0,
+  "title": "Gattino in difficoltà sull'Aurelia, il camionista si ferma per aiutarlo: il video del salvataggio",
+  "webpage_url": "https://www.dailymotion.com/video/x9uo9ls",
+  "dm_id": "x9uo9ls",
+  "views_total": 44186,
+  "view_count": 44186,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "«Sull'Aurelia tra Alberese e Cupi direzione Grosseto ho bloccato la strada per salvare la vita a un gatto che aveva messo la testa in una scatoletta». A scriverlo è Diego Buccelli - mestiere camionista - sulla propria pagina facebook. Venerdì aveva fermato il proprio autotreno Scania in mezzo alla due corsie per compiere un gesto di altruismo, salvare la vita al felino. Un gesto che però non ha messo tutti d'accordo. Anzi. Sui social, sempre più termometro della società, insieme a tanti complimenti, c'è chi lo ha incolpato di avere compiuto «un'azione troppo rischiosa», chi di «non avere provveduto a schiacciare la scatola in modo corretto» e chi di essere ripartito senza portare con sé l'animale. (Jori Diego Cherubini)",
+  "created_time": 1764422248,
+  "search_query": "gatto in modalità caccia",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a rescue of a cat in distress.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9uo9ls",
+    "decision": "keep",
+    "reason": "The video involves a rescue of a cat in distress.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

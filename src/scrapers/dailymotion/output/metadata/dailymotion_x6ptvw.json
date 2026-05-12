@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x6ptvw",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6ptvw_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6ptvw_audio.mp3",
+  "duration_sec": 8,
+  "duration_seconds": 8.0,
+  "title": "Twix vs. toilet paper",
+  "webpage_url": "https://www.dailymotion.com/video/x6ptvw",
+  "dm_id": "x6ptvw",
+  "views_total": 954,
+  "view_count": 954,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Gatto",
+    "Gatti",
+    "pazzi",
+    "gattino",
+    "funny",
+    "cats",
+    "divertente"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "Con attacco finale.",
+  "created_time": 1221077596,
+  "search_query": "video brevi di gatti",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests playful behavior involving a cat.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6ptvw",
+    "decision": "keep",
+    "reason": "The title suggests playful behavior involving a cat.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

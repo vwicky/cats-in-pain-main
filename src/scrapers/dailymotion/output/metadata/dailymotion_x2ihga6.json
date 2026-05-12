@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x2ihga6",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2ihga6_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2ihga6_audio.mp3",
+  "duration_sec": 23,
+  "duration_seconds": 23.0,
+  "title": "This cat has a hilarious reaction to having teeth brushed",
+  "webpage_url": "https://www.dailymotion.com/video/x2ihga6",
+  "dm_id": "x2ihga6",
+  "views_total": 508,
+  "view_count": 508,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Funny Videos",
+    "Fail Compilation",
+    "Funnies Video",
+    "Laugh Video",
+    "This cat has a hilarious reaction to having teeth brushed"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "This cat has a hilarious reaction to having teeth brushed<br>Link: http://laughworld.net/this-cat-has-a-hilarious-reaction-to-having-teeth-brushed/<br> <br>From source: https://www.facebook.com/video.php?v=822694527802519<br><br>See more: <b>Laugh World - Funny Videos, Funny Pictures, Funny Stories Make You Laugh</b> - http://laughworld.net<br><br>Thank you for joining Laugh World!",
+  "created_time": 1425309369,
+  "search_query": "cat showing teeth",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video depicts a cat reacting to having its teeth brushed, which is relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2ihga6",
+    "decision": "keep",
+    "reason": "The video depicts a cat reacting to having its teeth brushed, which is relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x9t2mos",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9t2mos_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9t2mos_audio.mp3",
+  "duration_sec": 54,
+  "duration_seconds": 54.0,
+  "title": "Un gato interrumpe a Gasperini durante su rueda de prensa: \"Que responda él por mí\"",
+  "webpage_url": "https://www.dailymotion.com/video/x9t2mos",
+  "dm_id": "x9t2mos",
+  "views_total": 1132,
+  "view_count": 1132,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "AS Roma",
+    "Fútbol Internacional"
+  ],
+  "channel": "sport",
+  "channel_title": "sport",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "El animal se coló en la sala de prensa y empezó a maullar fuerte, obligando al entrenador a parar. El entrenador se mostró distendido y relajado pese a tener que parar su rueda de prensa previa al Milán-Roma correspondiente a la jornada 10 de Liga.",
+  "created_time": 1762075905,
+  "search_query": "gatos luchando por territorio",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat interrupting a press conference, likely involving vocalization.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9t2mos",
+    "decision": "keep",
+    "reason": "The video features a cat interrupting a press conference, likely involving vocalization.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

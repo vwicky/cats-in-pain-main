@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x7q2f7n",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7q2f7n_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7q2f7n_audio.mp3",
+  "duration_sec": 26,
+  "duration_seconds": 26.0,
+  "title": "Este gato feroz se enfrenta a una jauría de perros rabiosos y sale victorioso",
+  "webpage_url": "https://www.dailymotion.com/video/x7q2f7n",
+  "dm_id": "x7q2f7n",
+  "views_total": 1230,
+  "view_count": 1230,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gato",
+    "perros",
+    "victorioso"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "El video grabado por cámaras de seguridad muestra la valiente reacción de un gato, que se enfrenta a una jauría de perros y logra espantarlos.<br /><br />El felino reaccionó instantáneamente ante cinco canes que se le acercaron a olfatearle, saltando y arremetiendo contra ellos.<br /><br />Gracias a su rápida respuesta, el gato logró hacer huir a la jauría del lugar.",
+  "created_time": 1578181157,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat confronting a pack of dogs, indicating agonistic behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7q2f7n",
+    "decision": "keep",
+    "reason": "The video shows a cat confronting a pack of dogs, indicating agonistic behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

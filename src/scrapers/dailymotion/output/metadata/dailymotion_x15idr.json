@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x15idr",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x15idr_video.mp4",
+  "audio_path": "output/videos/dailymotion_x15idr_audio.mp3",
+  "duration_sec": 9,
+  "duration_seconds": 9.0,
+  "title": "gatti e animali",
+  "webpage_url": "https://www.dailymotion.com/video/x15idr",
+  "dm_id": "x15idr",
+  "views_total": 1331,
+  "view_count": 1331,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "gattie",
+    "animali"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "gatto apre porta e entra in cucina",
+  "created_time": 1170851615,
+  "search_query": "gatto che insegue la preda",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat entering a kitchen, indicating normal cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x15idr",
+    "decision": "keep",
+    "reason": "The video features a cat entering a kitchen, indicating normal cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

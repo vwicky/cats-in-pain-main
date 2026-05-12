@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x4cc5w9",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x4cc5w9_video.mp4",
+  "audio_path": "output/videos/dailymotion_x4cc5w9_audio.mp3",
+  "duration_sec": 41,
+  "duration_seconds": 41.0,
+  "title": "Um gato destemido defende um menino de DOIS crocodilos",
+  "webpage_url": "https://www.dailymotion.com/video/x4cc5w9",
+  "dm_id": "x4cc5w9",
+  "views_total": 903,
+  "view_count": 903,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "animais",
+    "medo",
+    "gato",
+    "crocodilo",
+    "combate",
+    "batalha",
+    "corajoso"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Dizem que os gatos têm sete vidas, e alguém deve ter dito isso a este gatinho corajoso, pois ele parece não ter medo algum. Veja como nosso herói felino enfrenta não um, mas dois crocodilos que se aproximam de um garotinho que está atrás dele.<br><br>#animais #medo #gato #crocodilo #combate #batalha #corajoso<br><br>http://pandabuzz.com/apps",
+  "created_time": 1464078283,
+  "search_query": "dois gatos brigando",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description suggests a cat defending a child from crocodiles, indicating protective behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x4cc5w9",
+    "decision": "keep",
+    "reason": "The description suggests a cat defending a child from crocodiles, indicating protective behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

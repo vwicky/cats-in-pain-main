@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3j2inn",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3j2inn_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3j2inn_audio.mp3",
+  "duration_sec": 52,
+  "duration_seconds": 52.0,
+  "title": "Надела шапку - у кота инфаркт",
+  "webpage_url": "https://www.dailymotion.com/video/x3j2inn",
+  "dm_id": "x3j2inn",
+  "views_total": 75773,
+  "view_count": 75773,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1450822551,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat reacting to wearing a hat, indicating a possible humorous or startled reaction.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3j2inn",
+    "decision": "keep",
+    "reason": "The title suggests a cat reacting to wearing a hat, indicating a possible humorous or startled reaction.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

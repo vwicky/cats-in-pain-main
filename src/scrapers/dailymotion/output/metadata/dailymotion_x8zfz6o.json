@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8zfz6o",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8zfz6o_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8zfz6o_audio.mp3",
+  "duration_sec": 54,
+  "duration_seconds": 54.0,
+  "title": "購買貓砂驚見佈滿白色菌絲 鏟屎官傻眼：都沒在把關？",
+  "webpage_url": "https://www.dailymotion.com/video/x8zfz6o",
+  "dm_id": "x8zfz6o",
+  "views_total": 1183,
+  "view_count": 1183,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "zh",
+  "query_language": "Japanese",
+  "description": "購買貓砂驚見佈滿白色菌絲 鏟屎官傻眼：都沒在把關？ <br />https://news.ltn.com.tw/news/life/breakingnews/4691458 <br /> <br />家中有兩隻愛猫的吳姓女子，昨日在自家附近的知名連鎖超市購買貓砂，回家打開使用時卻發現疑似發霉，貓砂上面佈滿白色菌絲，還飄出相當難聞的刺鼻腐敗味，吳女傻眼，認為超市和貓砂廠商沒有替產品把關，萬一害貓咪誤食感染生病，後果不堪設想。吳小姐表示，家中一共飼養兩隻貓咪，這次想說幫家裡的貓咪換一個貓砂品牌使用看 <br /> <br />---------------------------------------------------- <br /> <br />我們的頻道➔ http://video.ltn.com.tw <br />YouTube➔ https://www.youtube.com/user/tvforltn <br />Dailymotion➔ https://www.dailymotion.com/LibertyTimes",
+  "created_time": 1717208163,
+  "search_query": "手術後の猫の回復",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Discusses cat litter and potential health risks for cats.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8zfz6o",
+    "decision": "keep",
+    "reason": "Discusses cat litter and potential health risks for cats.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

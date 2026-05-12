@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x45rbh",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x45rbh_video.mp4",
+  "audio_path": "output/videos/dailymotion_x45rbh_audio.mp3",
+  "duration_sec": 12,
+  "duration_seconds": 12.0,
+  "title": "Chat qui joue du piano",
+  "webpage_url": "https://www.dailymotion.com/video/x45rbh",
+  "dm_id": "x45rbh",
+  "views_total": 1286,
+  "view_count": 1286,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "chat",
+    "qui",
+    "joue",
+    "piano",
+    "musique",
+    "chats",
+    "mignon"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "un chat qui joue du piano??? <br />oui et bien en plus!",
+  "created_time": 1201254023,
+  "search_query": "chat blessé qui boite",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat playing the piano, which is a playful behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x45rbh",
+    "decision": "keep",
+    "reason": "The video features a cat playing the piano, which is a playful behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

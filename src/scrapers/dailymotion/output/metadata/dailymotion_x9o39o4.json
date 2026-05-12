@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x9o39o4",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9o39o4_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9o39o4_audio.mp3",
+  "duration_sec": 53,
+  "duration_seconds": 53.0,
+  "title": "Chiens et chats abandonnés : rencontre avec les anges gardiens des animaux de compagnie",
+  "webpage_url": "https://www.dailymotion.com/video/x9o39o4",
+  "dm_id": "x9o39o4",
+  "views_total": 7156,
+  "view_count": 7156,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "SPA",
+    "chiens",
+    "chats"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Plus de 200 000 animaux de compagnie sont abandonnés chaque année. Nous sommes allés dans les refuges, où des bénévoles tentent de les faire adopter.",
+  "created_time": 1754224268,
+  "search_query": "posture défensive de chat",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Discusses abandoned cats, relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9o39o4",
+    "decision": "keep",
+    "reason": "Discusses abandoned cats, relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

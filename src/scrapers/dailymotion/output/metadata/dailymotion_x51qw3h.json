@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x51qw3h",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x51qw3h_video.mp4",
+  "audio_path": "output/videos/dailymotion_x51qw3h_audio.mp3",
+  "duration_sec": 34,
+  "duration_seconds": 34.0,
+  "title": "2 chats sautent en même temps... et atterrissent l'un sur l'autre",
+  "webpage_url": "https://www.dailymotion.com/video/x51qw3h",
+  "dm_id": "x51qw3h",
+  "views_total": 841,
+  "view_count": 841,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "LOL",
+    "Animal",
+    "chat",
+    "saut",
+    "animal de compagnie",
+    "incroyablr",
+    "fail",
+    "fail animal"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "English",
+  "description": "2 chats sautent en même temps... et atterrissent l'un sur l'autre <br /> <br />Cats jump at same time, land directly on top of each other",
+  "created_time": 1478949603,
+  "search_query": "cats hissing at each other",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features two cats jumping and landing on each other, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x51qw3h",
+    "decision": "keep",
+    "reason": "The video features two cats jumping and landing on each other, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

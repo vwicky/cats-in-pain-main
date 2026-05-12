@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8jwarr",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8jwarr_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8jwarr_audio.mp3",
+  "duration_sec": 31,
+  "duration_seconds": 31.0,
+  "title": "Gato escala Sheik durante transmissão ao vivo de oração do Ramadã",
+  "webpage_url": "https://www.dailymotion.com/video/x8jwarr",
+  "dm_id": "x8jwarr",
+  "views_total": 2071,
+  "view_count": 2071,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "",
+  "created_time": 1680965754,
+  "search_query": "comportamento agressivo de gatos",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Video features a cat climbing during a live broadcast, plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8jwarr",
+    "decision": "keep",
+    "reason": "Video features a cat climbing during a live broadcast, plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8px0zi",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8px0zi_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8px0zi_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "El encuentro entre un perro y un gatito arrasa en TikTok, ¡conquista el corazón de más de 200.000 usuarios!",
+  "webpage_url": "https://www.dailymotion.com/video/x8px0zi",
+  "dm_id": "x8px0zi",
+  "views_total": 4272,
+  "view_count": 4272,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Es momento de que veas el adorable encuentro entre un perro muy entusiasmado y un gatito temeroso.",
+  "created_time": 1700822900,
+  "search_query": "gatitos juguetones relajándose",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features an encounter between a dog and a kitten, which is relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8px0zi",
+    "decision": "keep",
+    "reason": "The video features an encounter between a dog and a kitten, which is relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x7sgao1",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7sgao1_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7sgao1_audio.mp3",
+  "duration_sec": 22,
+  "duration_seconds": 22.0,
+  "title": "Gato fica preso entre paredes e Corpo de Bombeiros é acionado para resgate, no Centro",
+  "webpage_url": "https://www.dailymotion.com/video/x7sgao1",
+  "dm_id": "x7sgao1",
+  "views_total": 549,
+  "view_count": 549,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Os militares fizeram alguns buracos no concreto e colocaram uma madeira para servir de rampa, assim, facilitando para que o gato consiga sair….<br /><br />",
+  "created_time": 1583244100,
+  "search_query": "gatos chamando para acasalar",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a cat being rescued, which is relevant to real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7sgao1",
+    "decision": "keep",
+    "reason": "The video involves a cat being rescued, which is relevant to real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

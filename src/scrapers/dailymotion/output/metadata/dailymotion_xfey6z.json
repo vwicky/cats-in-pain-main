@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_xfey6z",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xfey6z_video.mp4",
+  "audio_path": "output/videos/dailymotion_xfey6z_audio.mp3",
+  "duration_sec": 34,
+  "duration_seconds": 34.0,
+  "title": "Chatons en soins",
+  "webpage_url": "https://www.dailymotion.com/video/xfey6z",
+  "dm_id": "xfey6z",
+  "views_total": 571,
+  "view_count": 571,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Chat",
+    "refuge",
+    "Sos",
+    "Chats"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Les petits chatons posés devant le portail sont en traitement chez le vétérinaire, l'appétit est bon mais ils n'ont pas encore la mine du vainqueur.",
+  "created_time": 1288189652,
+  "search_query": "chat malade chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features kittens receiving treatment at the vet.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xfey6z",
+    "decision": "keep",
+    "reason": "The video features kittens receiving treatment at the vet.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

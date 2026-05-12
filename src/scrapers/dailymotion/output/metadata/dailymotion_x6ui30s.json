@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x6ui30s",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6ui30s_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6ui30s_audio.mp3",
+  "duration_sec": 53,
+  "duration_seconds": 53.0,
+  "title": "Il retire une larve énorme du cou de son chat",
+  "webpage_url": "https://www.dailymotion.com/video/x6ui30s",
+  "dm_id": "x6ui30s",
+  "views_total": 2285,
+  "view_count": 2285,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "parasite",
+    "animal",
+    "larve",
+    "fail",
+    "chat",
+    "animal de compagnie",
+    "insecte"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Il retire une larve énorme du cou de son chat",
+  "created_time": 1538384811,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a medical issue involving a cat, relevant to real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6ui30s",
+    "decision": "keep",
+    "reason": "The title indicates a medical issue involving a cat, relevant to real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

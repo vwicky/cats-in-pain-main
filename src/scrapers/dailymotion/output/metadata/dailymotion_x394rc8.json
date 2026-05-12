@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x394rc8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x394rc8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x394rc8_audio.mp3",
+  "duration_sec": 32,
+  "duration_seconds": 32.0,
+  "title": "Dancing cat  Танцующий кот",
+  "webpage_url": "https://www.dailymotion.com/video/x394rc8",
+  "dm_id": "x394rc8",
+  "views_total": 7127,
+  "view_count": 7127,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1444422960,
+  "search_query": "кот громко мяукает",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a dancing cat, which is plausible.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x394rc8",
+    "decision": "keep",
+    "reason": "The title suggests a dancing cat, which is plausible.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

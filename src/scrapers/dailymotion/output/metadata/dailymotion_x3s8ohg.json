@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3s8ohg",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3s8ohg_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3s8ohg_audio.mp3",
+  "duration_sec": 32,
+  "duration_seconds": 32.0,
+  "title": "Кот не мяукает а блеет, как баран",
+  "webpage_url": "https://www.dailymotion.com/video/x3s8ohg",
+  "dm_id": "x3s8ohg",
+  "views_total": 1310,
+  "view_count": 1310,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "funny",
+    "cats",
+    "prikoli",
+    "video",
+    "clip",
+    "best",
+    "rolik",
+    "смешно",
+    "comedy"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1455545866,
+  "search_query": "кот громко мяукает",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat making a sound similar to a sheep, indicating vocalization.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3s8ohg",
+    "decision": "keep",
+    "reason": "The title suggests a cat making a sound similar to a sheep, indicating vocalization.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

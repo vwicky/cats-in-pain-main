@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9jf7a0",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9jf7a0_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9jf7a0_audio.mp3",
+  "duration_sec": 23,
+  "duration_seconds": 23.0,
+  "title": "Kleines Kätzchen verfolgt jungen Mann bis nach Hause: Hätte es nur vorher Bescheid gewusst ...",
+  "webpage_url": "https://www.dailymotion.com/video/x9jf7a0",
+  "dm_id": "x9jf7a0",
+  "views_total": 490322,
+  "view_count": 490322,
+  "likes_total": 11,
+  "like_count": 11,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Das verlassene Katzenkind ist überglücklich, als der Mann nach ihm sieht. Doch Jahre später hat sich die Beziehung völlig anders entwickelt als normalerweise.",
+  "created_time": 1747125528,
+  "search_query": "Katze nach der Impfung",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Content features a kitten and is relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9jf7a0",
+    "decision": "keep",
+    "reason": "Content features a kitten and is relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

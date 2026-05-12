@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x3rax9",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3rax9_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3rax9_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "Syndiquée, la souris n'a plus peur du chat",
+  "webpage_url": "https://www.dailymotion.com/video/x3rax9",
+  "dm_id": "x3rax9",
+  "views_total": 1303,
+  "view_count": 1303,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "souris",
+    "cat",
+    "mouse",
+    "animal",
+    "animaux",
+    "syndicats",
+    "animals"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Les chercheurs de l'Université de Tokyo ont génétiquement neutralisé l'instinct de la souris de se cacher lorsqu'elles repèrent l'odeur ou la présence des chats, ce qui suggère que la peur est génétique et non le fruit de l'expérience. Ces résultats induiraient que l'aversion humaine pour des odeurs dangereuses telles que celle de la nourriture avariée pourraient également être génétiquement programmée. Cette connaissance pourrait servir au développement du traitement de maladies nerveuses liées à la peur, comme les troubles anxieux, les phobies ou les troubles obsessionnels compulsifs (TOC).",
+  "created_time": 1197649667,
+  "search_query": "chat qui aime être caressé",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Discusses the relationship between cats and mice, relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3rax9",
+    "decision": "keep",
+    "reason": "Discusses the relationship between cats and mice, relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

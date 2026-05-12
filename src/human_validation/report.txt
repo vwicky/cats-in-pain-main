@@ -1,0 +1,209 @@
+================================================================================
+Audio emotion classification — information extracted from the repo notebook
+================================================================================
+Generated: 2026-05-11 (updated with _archive/top_level_notebooks/audio_classifier.ipynb)
+
+Source notebooks
+  • Inference / analysis: src/human_validation/labeling_cat_audios.ipynb
+  • Training (archived):  _archive/top_level_notebooks/audio_classifier.ipynb
+
+--------------------------------------------------------------------------------
+1. What this notebook actually contains (important)
+--------------------------------------------------------------------------------
+
+The notebook does NOT implement or document an end-to-end training loop (no
+optimizer, loss, epochs, or learning-rate schedule in the notebook cells).
+
+It documents **using an already fine-tuned CatEmotionModel** for:
+
+  • Loading `AudioConfig` and instantiating `CatEmotionModel`
+  • Loading checkpoint weights (see section 2)
+  • Building a `CatEmotionDataset` with `train=False` and running batched
+    inference with a DataLoader
+  • Optional analysis: class histograms, confidence distributions, 2048-D
+    backbone embeddings via `model.backbone`, t-SNE / clustering metrics
+  • Exporting per-file predictions to JSONL
+
+
+--------------------------------------------------------------------------------
+2. Notebook-specific configuration (as coded in cells)
+--------------------------------------------------------------------------------
+
+Model / config
+  • Class: CatEmotionModel(audio_config) from audio_classifier_utils
+  • Default hyperparameters come from AudioConfig (see section 4)
+
+Device
+  • Model moved to Apple MPS: `.to("mps")` in an early cell
+  • Later cells use: `device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")`
+
+Checkpoint path used in the notebook
+  • `models/checkpoints_audio_emotions/best_model_final.pth`
+  • Loaded with: `torch.load(..., )['model_state_dict']` → `load_state_dict` on the model
+
+Inference data
+  • ROOT_DIR_PROCESSED = `human_validation_app/cat_audios_copy_processed/`
+  • All `.mp3` files in that directory
+  • Samples passed as `(path, -1)` tuples (dummy label index); `train=False` on dataset
+
+DataLoader
+  • batch_size = 32
+  • shuffle = False
+
+Class index map (10-way, identical to rest of repo)
+  • 0 Angry, 1 Defence, 2 Fighting, 3 Happy, 4 HuntingMind, 5 Mating,
+    6 MotherCall, 7 Paining, 8 Resting, 9 Warning
+
+Embedding extraction (notebook utility)
+  • Calls `model.backbone(waveforms)` and reads `output_dict['embedding']`
+  • Stated shape in comments: (Batch, 2048)
+
+JSONL export schema (notebook)
+  • One JSON object per line with: filepath, filename, predicted_class_idx,
+    predicted_class, confidence, and prob_<emotion> for each of the 10 classes
+  • Default output path in notebook:
+    `human_validation_app/video_audio_human_validation/cat_emotion_predictions.jsonl`
+
+
+--------------------------------------------------------------------------------
+3. Training notebook (archived): _archive/top_level_notebooks/audio_classifier.ipynb
+--------------------------------------------------------------------------------
+
+Title in notebook: "Classifing Cat sounds". This is the **full CatEmotionModel
+fine-tuning** workflow (PANNs CNN14 transfer learning). It also includes earlier
+sections on sklearn baselines (RF, voting classifier, dummy) and embeddings —
+below focuses on the neural transfer-learning path.
+
+Data layout (as run in the notebook)
+  • ROOT_DIR = `data/audio_cat-classification/NAYA_DATA_AUG1X` (one subfolder per class)
+  • `build_file_list(ROOT_DIR)` → stratified train/val, val_ratio=0.2, random_state=42
+  • Notebook markdown: pre-generated augmented files (`*_aug*`) were excluded; dynamic
+    augmentation during training is preferred (matches `CatEmotionDataset` + prob 0.4).
+
+Loaders & device
+  • train_loader / val_loader: batch_size=32, train shuffle=True, val shuffle=False
+  • device: `torch.device("mps" if torch.backends.mps.is_available() else "cpu")`
+
+Loss & optimization (Phase 1)
+  • criterion: `torch.nn.CrossEntropyLoss()` (unweighted)
+  • optimizer: AdamW on parameters with requires_grad=True
+      lr=1e-3, weight_decay=1e-4
+  • scheduler: CosineAnnealingLR(optimizer, T_max=phase1_epochs) with T_max=10
+  • Training step: gradient clipping `clip_grad_norm_(..., max_norm=1.0)`
+  • Phase 1: `cnn14_model.freeze_for_phase1()` then 10 epochs; best weights kept
+    by validation macro F1 (`sklearn.metrics.f1_score(..., average="macro")`)
+
+Early-stopping variant (also present in notebook)
+  • Alternative loop: max_epochs=100, patience=10 on val macro F1
+  • Checkpoints under `checkpoints/` with rolling delete of PANN_cnn14_checkpoint_{epoch-3}.pth
+  • Best saved as `checkpoints/best_model.pth`
+
+Two-phase schedule (production path in notebook)
+  Phase 1 — "warm up the classifier head"
+    • phase1_epochs = 10
+    • Same AdamW lr=1e-3, weight_decay=1e-4, CosineAnnealingLR T_max=10
+    • Best Phase 1 state dict: `checkpoints/best_model_phase1.pth` (full state_dict)
+
+  Phase 2 — unfreeze tail of backbone
+    • Load `best_model_phase1.pth` then `cnn14_model.unfreeze_for_phase2()`
+    • AdamW lr=1e-4 (10× lower), weight_decay=1e-4
+    • CosineAnnealingLR T_max=phase2_max_epochs with phase2_max_epochs=50
+    • Early stopping: patience=10 on val macro F1
+    • Rolling checkpoint delete for `PANN_cnn14_ckpt_{epoch-3}.pth`
+    • Best overall: `checkpoints/best_model_final.pth` (dict with model_state_dict,
+      optimizer_state_dict, epoch, val_f1)
+
+Reported runtime & score (markdown cell in notebook)
+  • "ultimate F1 Score is: 0.9078"
+  • Phase 1: ~5 min 6 s (10 epochs)
+  • Phase 2: ~34 min 5 s (47 epochs, last 10 with no improvement)
+
+Notebook analysis & robustness (after training)
+  • Per-class sklearn `classification_report`, confusion matrix heatmap
+  • Markdown interpretation: e.g. confusion between classes 0/7 (Angry/Paining), 3/7, etc.
+  • t-SNE on 2048-D backbone embeddings (`model.backbone` → `embedding`)
+  • Stress test: `evaluate_with_noise` over noise levels 0–50% (Gaussian noise vs RMS)
+  • Hypothesis tests: temporal shift (1 s roll), frequency mask (highpass ~150 Hz via torchaudio)
+  • Grad-CAM-style attribution on `conv_block6` (function `generate_grad_cam`)
+  • Reliability diagram + Expected Calibration Error (ECE)
+
+Checkpoint naming note
+  • Training writes `checkpoints/best_model_final.pth` as a **dict** with keys including
+    `model_state_dict`. The human_validation inference notebook loads with
+    `['model_state_dict']`; keep that consistent when restoring weights.
+
+Other archived notebook (not expanded in this report)
+  • _archive/top_level_notebooks/cat_audio_extraction_model.ipynb — referenced in README;
+    separate from the CNN14 emotion fine-tuning above.
+
+
+--------------------------------------------------------------------------------
+4. Training-relevant design frozen in library code (shared with the archive)
+--------------------------------------------------------------------------------
+
+These modules are imported directly by `audio_classifier.ipynb`. Paths are
+relative to the repo.
+
+Audio preprocessing & labels — audio/audio-emotion-classifier/src/audio_classifier_utils/audio_config.py
+  • sample_rate: 16000 Hz
+  • Spectrogram/Mel params consumed by PANNs Cnn14 internally:
+    window_size 1024, hop_size 320, mel_bins 64, fmin 50, fmax 8000
+  • num_classes: 10
+  • augmentation_prob: 0.4 (training only)
+  • target_length: 7 * sample_rate samples (112_000); rationale in file:
+    ~95th percentile length ~6.81 s in EDA
+
+Dataset behavior — .../audio_classifier_utils/dataset.py (CatEmotionDataset)
+  • Loading: librosa.load(path, sr=config.sample_rate)
+  • Trim to target_length or right-pad with zeros
+  • If train=True and random() < augmentation_prob: time roll ±10% length,
+    random gain in [0.8, 1.2]
+  • Raw waveform returned (no Mel precompute); Cnn14 builds Mel on device
+
+Class-balanced file lists — .../audio_classifier_utils/data_utils.py
+  • `build_file_list(root_dir, val_ratio=0.2, random_state=42)`
+  • Expects **one subdirectory per class name** under root_dir
+  • Includes `.wav` and `.mp3` unless filename contains `_aug`
+  • train_val split: stratified, sklearn train_test_split
+
+Architecture & fine-tuning phases — .../audio_classifier_utils/models/cnn14.py
+  • Backbone: PANNs Cnn14 pretrained on AudioSet
+  • Base weights source (comment in file): Zenodo record 3987831,
+    file `Cnn14_16k_mAP=0.438.pth` (~358.7 MB); loads key `checkpoint['model']`
+    with special handling (drops certain STFT/Mel keys, strict=False)
+  • Head: replaces fc_audioset with Identity; new `nn.Linear(2048, num_classes)`
+  • Two-phase helpers match the archived `audio_classifier.ipynb` schedule
+    (see section 3).
+
+
+--------------------------------------------------------------------------------
+5. Related project documentation (for full pipeline context)
+--------------------------------------------------------------------------------
+
+  • audio/audio-emotion-classifier/README.md — layout, inference commands,
+    checkpoint locations, archived training notebook note
+  • src/dataset_construction/reports/audio_pipeline_comprehensive_report.txt —
+    end-to-end audio DAG (YAMNet → AudioSep → CatEmotionModel), configs,
+    checkpoint paths, inference defaults
+  • Batch inference script parallel to notebook usage:
+    audio/audio-emotion-classifier/inference/04_audio_classification.py
+
+
+--------------------------------------------------------------------------------
+6. Summary
+--------------------------------------------------------------------------------
+
+  • labeling_cat_audios.ipynb: **inference + visualization + JSONL export** on
+    human-validation MP3s; checkpoint path may differ from training output dir.
+
+  • _archive/top_level_notebooks/audio_classifier.ipynb: **full training recipe**
+    (two-phase fine-tune, AdamW, cosine schedule, macro-F1 early stopping,
+    checkpoints, plus stress tests / explainability). Training data path in the
+    notebook: `data/audio_cat-classification/NAYA_DATA_AUG1X`.
+
+  • Shared implementation: `audio/audio-emotion-classifier/src/audio_classifier_utils/`
+    (AudioConfig, CatEmotionDataset, build_file_list, CatEmotionModel).
+
+================================================================================
+End of report
+================================================================================

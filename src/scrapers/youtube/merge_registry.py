@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+"""Merge two global_video_registry.jsonl files (wrapper around src.dedup)."""
+
+from __future__ import annotations
+
+import sys
+from pathlib import Path
+
+_ROOT = Path(__file__).resolve().parent
+if str(_ROOT) not in sys.path:
+    sys.path.insert(0, str(_ROOT))
+
+from src.dedup import main as dedup_main
+
+if __name__ == "__main__":
+    sys.argv = [sys.argv[0], "merge", *sys.argv[1:]]
+    dedup_main()

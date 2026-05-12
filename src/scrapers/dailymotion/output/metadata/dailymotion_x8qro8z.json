@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8qro8z",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8qro8z_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8qro8z_audio.mp3",
+  "duration_sec": 31,
+  "duration_seconds": 31.0,
+  "title": "Taters, el gato de la NASA",
+  "webpage_url": "https://www.dailymotion.com/video/x8qro8z",
+  "dm_id": "x8qro8z",
+  "views_total": 1714,
+  "view_count": 1714,
+  "likes_total": 3,
+  "like_count": 3,
+  "tags": [],
+  "channel": "school",
+  "channel_title": "school",
+  "language": "es",
+  "query_language": "Portuguese",
+  "description": "",
+  "created_time": 1703157490,
+  "search_query": "sons de alerta de gato",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat, which is relevant to the dataset.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8qro8z",
+    "decision": "keep",
+    "reason": "The title suggests a cat, which is relevant to the dataset.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

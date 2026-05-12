@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x993082",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x993082_video.mp4",
+  "audio_path": "output/videos/dailymotion_x993082_audio.mp3",
+  "duration_sec": 46,
+  "duration_seconds": 46.0,
+  "title": "Katze sieht eine neue Katzenklappe. Nach ein paar Sekunden lachen sich alle schlapp!",
+  "webpage_url": "https://www.dailymotion.com/video/x993082",
+  "dm_id": "x993082",
+  "views_total": 466732,
+  "view_count": 466732,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "News Chat"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Für seinen Kater Philo baut er extra eine Katzenklappe in die Tür. Die Samtpfote schaut sich das Ganze erst interessiert an – doch dann macht Philo seinem Halter einen dicken Strich durch die Rechnung.",
+  "created_time": 1731775500,
+  "search_query": "Katze nach der Operation",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat interacting with a new cat flap, which is amusing.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x993082",
+    "decision": "keep",
+    "reason": "The video shows a cat interacting with a new cat flap, which is amusing.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

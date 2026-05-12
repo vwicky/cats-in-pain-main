@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x8zh0lm",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8zh0lm_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8zh0lm_audio.mp3",
+  "duration_sec": 15,
+  "duration_seconds": 15.0,
+  "title": "Gato ajuda cachorro surdo para saber que tutora está em casa; assista",
+  "webpage_url": "https://www.dailymotion.com/video/x8zh0lm",
+  "dm_id": "x8zh0lm",
+  "views_total": 68450,
+  "view_count": 68450,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Gato"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "",
+  "created_time": 1717256405,
+  "search_query": "gatos chamando para acasalar",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat helping a dog, indicating interaction.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8zh0lm",
+    "decision": "keep",
+    "reason": "The title suggests a cat helping a dog, indicating interaction.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x38v3ee",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x38v3ee_video.mp4",
+  "audio_path": "output/videos/dailymotion_x38v3ee_audio.mp3",
+  "duration_sec": 47,
+  "duration_seconds": 47.0,
+  "title": "Хорошо кот плывет в бассейне",
+  "webpage_url": "https://www.dailymotion.com/video/x38v3ee",
+  "dm_id": "x38v3ee",
+  "views_total": 2766,
+  "view_count": 2766,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1444227190,
+  "search_query": "кот в ветеринарной клинике",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat swimming, which is plausible behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x38v3ee",
+    "decision": "keep",
+    "reason": "The title suggests a cat swimming, which is plausible behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

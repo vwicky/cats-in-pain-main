@@ -1,0 +1,109 @@
+machine_id: "pc_gtx1650"
+
+search:
+  seed_queries_per_category: 6
+  languages_per_query: 5
+  max_results_per_query: 50
+  youtube_api_key: ""
+  openai_api_key: ""
+  query_cache_file: "logs/generated_queries.jsonl"
+  query_generation_model: "gpt-4o-mini"
+  seed_generation_temperature: 0.58
+  translation_temperature: 0.35
+  deduplicate_across_queries: true
+  youtube_search_workers: 8
+  random_sample_queries: 0
+  random_sample_seed: null
+  target_languages:
+    - English
+    - Ukrainian
+    - Russian
+    - French
+    - German
+    - Spanish
+    - Japanese
+    - Thai
+    - Arabic
+    - Portuguese
+    - Korean
+    - Italian
+
+tag_filter:
+  allowed_categories:
+    - "Pets & Animals"
+    - "Entertainment"
+    - "People & Blogs"
+    - "Education"
+    - "Howto & Style"
+    - "Nonprofits & Activism"
+    - null
+  reject_title_keywords:
+    - "for cats to watch"
+    - "cat tv"
+    - "cartoon"
+    - "animation"
+    - "cgi"
+    - "minecraft"
+    - "game"
+    - "virtual"
+    - "singing"
+  require_min_duration_sec: 10
+  require_max_duration_sec: 300
+
+gpt_filter:
+  model: "gpt-4o-mini"
+  rules_file: "config/gpt_filter_rules.md"
+  batch_size: 10
+  gpt_filter_workers: 1
+  max_retries: 3
+  temperature: 0.0
+  openai_api_key: ""
+  cost_estimate_per_1k_tokens: 0.000150
+
+download:
+  max_duration_seconds: 300
+  max_filesize_bytes: 524288000
+  max_height: 1080
+  audio_format: "mp3"
+  audio_quality: "192"
+  retries: 3
+  fragment_retries: 3
+  cookie_file: ""
+  cookies_from_browser: ""
+  remote_components:
+    - "ejs:github"
+  tmp_dir: "tmp_downloads"
+  output_dir: "data/dataset/snippets"
+
+yolo:
+  weights: "models/yolo/yolov8x.pt"
+  conf: 0.40
+  imgsz: 640
+  cat_class_id: 15
+  min_segment_duration: 3.0
+  min_chunk_duration: 3.0
+  max_chunk_duration: 7.0
+  frame_skip: 2
+  processing_timeout_sec: 300
+  processing_workers: 1
+  parallel_yolo_device: "auto"
+  delete_source_media_after_processing: false
+  require_single_cat: true
+
+audio:
+  use_yamnet: true
+  yamnet_threshold: 0.30
+  cat_sound_classes:
+    - "Cat"
+    - "Meow"
+    - "Purr"
+    - "Hiss"
+
+output:
+  snippets_dir: "data/dataset/snippets"
+  metadata_file: "data/dataset/metadata.jsonl"
+  registry_file: "global_video_registry.jsonl"
+  runs_dir: "runs"
+
+reporting:
+  log_interval: 10

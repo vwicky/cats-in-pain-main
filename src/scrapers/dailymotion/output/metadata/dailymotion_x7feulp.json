@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x7feulp",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7feulp_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7feulp_audio.mp3",
+  "duration_sec": 58,
+  "duration_seconds": 58.0,
+  "title": "How to Make Sure Cats and Dogs Get Along in 6 Tricks",
+  "webpage_url": "https://www.dailymotion.com/video/x7feulp",
+  "dm_id": "x7feulp",
+  "views_total": 13953,
+  "view_count": 13953,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "Try these 6 tips so your dog and cat can <br />become best friends! 1. Train them individually and then together to better facilitate bonding. 2. Use positive reinforcement to teach friendly, social behavior. 3. Play games together to stimulate their instincts, such as foraging and hunting. 4. Give them their space if they're struggling to get along. 5. Keep them safe so their stress levels will never be too elevated. 6. Swap their beds and towels so they get used to each other's scent.",
+  "created_time": 1565189245,
+  "search_query": "short cat hunting videos",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video provides tips on how cats and dogs can get along, indicating real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7feulp",
+    "decision": "keep",
+    "reason": "The video provides tips on how cats and dogs can get along, indicating real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x8wp6jw",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8wp6jw_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8wp6jw_audio.mp3",
+  "duration_sec": 56,
+  "duration_seconds": 56.0,
+  "title": "Esto es lo que sienten los gatos cuando los abrazamos",
+  "webpage_url": "https://www.dailymotion.com/video/x8wp6jw",
+  "dm_id": "x8wp6jw",
+  "views_total": 68296,
+  "view_count": 68296,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gatos",
+    "felinos",
+    "abrazos"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Los gatos son animales que, aunque domésticos y acostumbrados a convivir con humanos, son considerados muy independientes, ya que mantienen unos rasgos de carácter muy particulares y una forma de comportarse que, para aquellas personas que nunca han vivido con gatos, pueden resultar difíciles de entender.<br /><br />Aunque cada gato es un mundo en cuanto al carácter y a la forma de comportarse en diferentes situaciones, hay algunos rasgos comunes de su personalidad con los que se pueden generalizar, por ejemplo, a la hora de hablar de las muestras de cariño típicas de los humanos, como son los besos o los abrazos.Para los gatos, los besos y los abrazos no tienen el mismo significado que para las personas, por lo que para ellos no es una muestra de cariño, aunque hay algunos muy acostumbrados a la sociabilización con humanos que pueden sentirse cómodos y a gusto en los brazos de su conviviente. Todo ello va a depender del tipo de relación que haya tenido con los humanos y, también, del propio carácter del felino.",
+  "created_time": 1712915442,
+  "search_query": "comportamiento agresivo de los gatos",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses the feelings of cats when hugged, relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8wp6jw",
+    "decision": "keep",
+    "reason": "The video discusses the feelings of cats when hugged, relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

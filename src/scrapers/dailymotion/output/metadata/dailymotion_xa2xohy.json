@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_xa2xohy",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xa2xohy_video.mp4",
+  "audio_path": "output/videos/dailymotion_xa2xohy_audio.mp3",
+  "duration_sec": 23,
+  "duration_seconds": 23.0,
+  "title": "Ce petit garçon caresse ce chat en plein milieu de la rue",
+  "webpage_url": "https://www.dailymotion.com/video/xa2xohy",
+  "dm_id": "xa2xohy",
+  "views_total": 2329,
+  "view_count": 2329,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "people",
+  "channel_title": "people",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1774192864,
+  "search_query": "posture défensive de chat",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat is being petted, which is relevant.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xa2xohy",
+    "decision": "keep",
+    "reason": "The title indicates a cat is being petted, which is relevant.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x965oem",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x965oem_video.mp4",
+  "audio_path": "output/videos/dailymotion_x965oem_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Tierheim sucht mit Hochdruck nach eiskaltem Halter von Katze Hermine",
+  "webpage_url": "https://www.dailymotion.com/video/x965oem",
+  "dm_id": "x965oem",
+  "views_total": 18435,
+  "view_count": 18435,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Seit Wochen schon sind zahlreiche Tierheime randvoll mit ungewollten und ausgesetzten Katzenbabys. Ein Fall aus Österreich von Oktober 2020 sorgt besonders für Entsetzen.",
+  "created_time": 1727166304,
+  "search_query": "Katze Warnsounds",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a search for a cat, relevant to real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x965oem",
+    "decision": "keep",
+    "reason": "The description indicates a search for a cat, relevant to real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

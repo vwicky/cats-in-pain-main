@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x532xv",
+  "source": "dailymotion",
+  "video_path": "output/videos/dailymotion_x532xv_video.mp4",
+  "audio_path": "output/audio/dailymotion_x532xv_audio.mp3",
+  "duration_sec": 58,
+  "title": "Dj cat meow 1",
+  "webpage_url": "https://www.dailymotion.com/video/x532xv",
+  "dm_id": "x532xv",
+  "views_total": 664,
+  "likes_total": 0,
+  "tags": [
+    "meow",
+    "miaou",
+    "neko",
+    "chat",
+    "cat",
+    "kat",
+    "kitty",
+    "chaton",
+    "felin",
+    "lol",
+    "comique",
+    "drole",
+    "marrant",
+    "rigolo",
+    "comic",
+    "animaux",
+    "animal",
+    "sanatos",
+    "minsha"
+  ],
+  "channel": "animals",
+  "language": "fr",
+  "description": "",
+  "created_time": 1208259380,
+  "search_query": "cat meowing",
+  "tag_filter": {
+    "passed": true
+  },
+  "gpt_filter": {
+    "video_id": "dailymotion_x532xv",
+    "decision": "keep",
+    "reason": "The title suggests a cat meowing, which is relevant content.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

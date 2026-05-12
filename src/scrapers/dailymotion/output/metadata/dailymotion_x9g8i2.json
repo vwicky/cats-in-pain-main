@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x9g8i2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9g8i2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9g8i2_audio.mp3",
+  "duration_sec": 14,
+  "duration_seconds": 14.0,
+  "title": "Micetto dorme in piedi",
+  "webpage_url": "https://www.dailymotion.com/video/x9g8i2",
+  "dm_id": "x9g8i2",
+  "views_total": 25745,
+  "view_count": 25745,
+  "likes_total": 4,
+  "like_count": 4,
+  "tags": [
+    "gatti",
+    "animali",
+    "divertimento",
+    "cuccioli"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "",
+  "created_time": 1243798195,
+  "search_query": "video brevi di gatti",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat is sleeping, which is plausible cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9g8i2",
+    "decision": "keep",
+    "reason": "The title suggests a cat is sleeping, which is plausible cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

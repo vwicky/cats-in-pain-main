@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3pfbdr",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3pfbdr_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3pfbdr_audio.mp3",
+  "duration_sec": 50,
+  "duration_seconds": 50.0,
+  "title": "Рыжий кот лает как собака СУПЕР ПРИКОЛ",
+  "webpage_url": "https://www.dailymotion.com/video/x3pfbdr",
+  "dm_id": "x3pfbdr",
+  "views_total": 4374,
+  "view_count": 4374,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "funny",
+    "cats",
+    "prikoli",
+    "video",
+    "clip",
+    "best",
+    "rolik",
+    "смешно",
+    "comedy"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1454159662,
+  "search_query": "short cat sleeping videos",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat making a dog-like sound, indicating vocalization.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3pfbdr",
+    "decision": "keep",
+    "reason": "The title suggests a cat making a dog-like sound, indicating vocalization.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x2zm0fi",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2zm0fi_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2zm0fi_audio.mp3",
+  "duration_sec": 50,
+  "duration_seconds": 50.0,
+  "title": "Abayomiabys Kitten Channel Trailer(ipad)",
+  "webpage_url": "https://www.dailymotion.com/video/x2zm0fi",
+  "dm_id": "x2zm0fi",
+  "views_total": 7260,
+  "view_count": 7260,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1438138740,
+  "search_query": "playful kittens relaxing",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a channel trailer for a kitten channel, likely featuring real cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2zm0fi",
+    "decision": "keep",
+    "reason": "The title suggests a channel trailer for a kitten channel, likely featuring real cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

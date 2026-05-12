@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_xa26xso",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xa26xso_video.mp4",
+  "audio_path": "output/videos/dailymotion_xa26xso_audio.mp3",
+  "duration_sec": 22,
+  "duration_seconds": 22.0,
+  "title": "Vigilant cat follows daily duty to wake little boy every morning reliably",
+  "webpage_url": "https://www.dailymotion.com/video/xa26xso",
+  "dm_id": "xa26xso",
+  "views_total": 2169,
+  "view_count": 2169,
+  "likes_total": 2,
+  "like_count": 2,
+  "tags": [
+    "Buna",
+    "Texas",
+    "USA",
+    "Cute",
+    "Cats",
+    "Vigilant Cat",
+    "Morning Routine",
+    "Cat Alarm",
+    "Responsible Pet",
+    "Funny Cat"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "Kristina shared this clip of a cat who takes its self-assigned duty very seriously.<br /><br />''Our cat loves to wake up our son every morning,'' Kristina told WooGlobe.<br /><br />While her son was still deep in sleep, the cat carefully approached, nudging and pawing, determined to carry out its daily mission.<br /><br />It’s a routine the feline follows with unwavering dedication, a tiny guardian ensuring mornings never start late.<br /><br />Each gentle poke and persistent nudge highlights the commitment of this furry little overseer.<br />WooGlobe Ref : WGA187668<br />For licensing and to use this video, please email licensing@wooglobe.com",
+  "created_time": 1773752676,
+  "search_query": "cats battling for territory",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Describes a cat waking a child, indicating real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xa26xso",
+    "decision": "keep",
+    "reason": "Describes a cat waking a child, indicating real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

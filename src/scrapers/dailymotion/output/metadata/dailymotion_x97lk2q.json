@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x97lk2q",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x97lk2q_video.mp4",
+  "audio_path": "output/videos/dailymotion_x97lk2q_audio.mp3",
+  "duration_sec": 48,
+  "duration_seconds": 48.0,
+  "title": "Unusual behavior: Cat becomes aggressive and chases girl after she teases him",
+  "webpage_url": "https://www.dailymotion.com/video/x97lk2q",
+  "dm_id": "x97lk2q",
+  "views_total": 1327,
+  "view_count": 1327,
+  "likes_total": 4,
+  "like_count": 4,
+  "tags": [
+    "Vimercate",
+    "Italy",
+    "Cats",
+    "Cat Behavior",
+    "Playful Cat",
+    "Cat Chasing",
+    "Cat Teasing",
+    "Funny Animals",
+    "Pet Antics",
+    "Animal Humor"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "This girl playfully passed by her cat named Sun, gently teasing him and expecting a fun response.<br /><br />However, Sun wasn't in a playful mood at all. Instead of joining in the fun, his reaction took a turn.<br /><br />It was as if he decided to teach her a lesson for her mischief. Suddenly, Sun became aggressive and began to chase her.<br /><br />As the chase unfolded, he pounced at her with his paws, showing a side of him that was quite unusual.<br /><br />The girl ran around nervously as she tried to escape his playful wrath.<br />Location: Vimercate, Italy                                    <br />WooGlobe Ref : WGA597046<br />For licensing and to use this video, please email licensing@wooglobe.com",
+  "created_time": 1729260578,
+  "search_query": "aggressive cat growling",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat becoming aggressive after being teased.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x97lk2q",
+    "decision": "keep",
+    "reason": "The video features a cat becoming aggressive after being teased.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

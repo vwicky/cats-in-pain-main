@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x9npff0",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9npff0_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9npff0_audio.mp3",
+  "duration_sec": 15,
+  "duration_seconds": 15.0,
+  "title": "Heartwarming scene as child befriends kittens brought to the beach by another family",
+  "webpage_url": "https://www.dailymotion.com/video/x9npff0",
+  "dm_id": "x9npff0",
+  "views_total": 35043,
+  "view_count": 35043,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "Thailand",
+    "Kittens",
+    "Playing with Kittens",
+    "Shareable",
+    "Travel",
+    "Cute",
+    "Wholesome",
+    "Adorable",
+    "Gentle",
+    "Kids and Cats"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "The fact that it is 2025 and people are still forming friendships over their love for cats is a promising sign for humanity's future. <br /><br />\"While visiting the beach, we met a couple who coincidentally brought their new kittens with them,\" the filmer, Michael, told WooGlobe. \"Our kids both love animals, so we went straight over to make friends.\"<br /><br />The way the adorable lad is playing with the kittens would make anyone think that the kittens are his. His joy and gentle demeanor show that he is being raised right.<br /><br /><br />WooGlobe Ref : WGA342769<br />For licensing and to use this video, please email licensing@wooglobe.com",
+  "created_time": 1753700476,
+  "search_query": "cats battling for territory",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features kittens and interactions with children, suggesting real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9npff0",
+    "decision": "keep",
+    "reason": "The video features kittens and interactions with children, suggesting real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

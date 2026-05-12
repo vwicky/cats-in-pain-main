@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x2gxa7r",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2gxa7r_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2gxa7r_audio.mp3",
+  "duration_sec": 35,
+  "duration_seconds": 35.0,
+  "title": "Chat Thug Life",
+  "webpage_url": "https://www.dailymotion.com/video/x2gxa7r",
+  "dm_id": "x2gxa7r",
+  "views_total": 1904,
+  "view_count": 1904,
+  "likes_total": 5,
+  "like_count": 5,
+  "tags": [
+    "mauvais",
+    "chat"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Dans une maison, un beau chat persan sur la table du salon décide de faire tomber la télécommande par terre en la poussant avec sa patte. L'animal tente de réitérer l'opération avec un petit verre posé sur la table, mais sa maîtresse, Jennifer Morales, va lui demander de ne pas faire cela. Le chat s'interrompt, regarde sa maitresse... puis n'en fait qu'à sa tête.",
+  "created_time": 1423646379,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video depicts a cat engaging in playful behavior by knocking items off a table.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2gxa7r",
+    "decision": "keep",
+    "reason": "The video depicts a cat engaging in playful behavior by knocking items off a table.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

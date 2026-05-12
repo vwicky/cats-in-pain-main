@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8zf22y",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8zf22y_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8zf22y_audio.mp3",
+  "duration_sec": 49,
+  "duration_seconds": 49.0,
+  "title": "Un chat de 17 ans « pleure sa maman » après s'être retrouvé dans un refuge suite à son décès",
+  "webpage_url": "https://www.dailymotion.com/video/x8zf22y",
+  "dm_id": "x8zf22y",
+  "views_total": 945,
+  "view_count": 945,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Une scène vraiment très triste.",
+  "created_time": 1717174380,
+  "search_query": "chat après vaccination",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat mourning its owner, indicating emotional behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8zf22y",
+    "decision": "keep",
+    "reason": "The video features a cat mourning its owner, indicating emotional behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

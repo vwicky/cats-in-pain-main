@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x370xrw",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x370xrw_video.mp4",
+  "audio_path": "output/videos/dailymotion_x370xrw_audio.mp3",
+  "duration_sec": 36,
+  "duration_seconds": 36.0,
+  "title": "Кот говорит Оооооо, чуваки!",
+  "webpage_url": "https://www.dailymotion.com/video/x370xrw",
+  "dm_id": "x370xrw",
+  "views_total": 19113,
+  "view_count": 19113,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1442365182,
+  "search_query": "кот, выслеживающий добычу",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat vocalizing, which fits the vocalizing category.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x370xrw",
+    "decision": "keep",
+    "reason": "The title suggests a cat vocalizing, which fits the vocalizing category.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

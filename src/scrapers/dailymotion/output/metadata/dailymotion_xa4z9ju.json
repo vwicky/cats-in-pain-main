@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_xa4z9ju",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xa4z9ju_video.mp4",
+  "audio_path": "output/videos/dailymotion_xa4z9ju_audio.mp3",
+  "duration_sec": 13,
+  "duration_seconds": 13.0,
+  "title": "Petite compilation de mes incroyables sauts !",
+  "webpage_url": "https://www.dailymotion.com/video/xa4z9ju",
+  "dm_id": "xa4z9ju",
+  "views_total": 635,
+  "view_count": 635,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "sport",
+  "channel_title": "sport",
+  "language": "fr",
+  "query_language": "German",
+  "description": "Tout est une question de précision !",
+  "created_time": 1775743200,
+  "search_query": "Katze Kampf Compilation",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a compilation of impressive jumps, likely involving cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xa4z9ju",
+    "decision": "keep",
+    "reason": "The title suggests a compilation of impressive jumps, likely involving cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

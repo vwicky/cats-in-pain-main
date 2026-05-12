@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x8wzn4a",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8wzn4a_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8wzn4a_audio.mp3",
+  "duration_sec": 52,
+  "duration_seconds": 52.0,
+  "title": "Taïwan : le métro de Taipei propose des trains spéciaux pour les animaux de compagnie",
+  "webpage_url": "https://www.dailymotion.com/video/x8wzn4a",
+  "dm_id": "x8wzn4a",
+  "views_total": 330342,
+  "view_count": 330342,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "transports",
+    "chien",
+    "animaux",
+    "chat",
+    "animaux de compagnie",
+    "métro",
+    "stations de métro",
+    "Taïwan"
+  ],
+  "channel": "tv",
+  "channel_title": "tv",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1713432027,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video mentions cats in the context of public transport, suggesting real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8wzn4a",
+    "decision": "keep",
+    "reason": "The video mentions cats in the context of public transport, suggesting real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

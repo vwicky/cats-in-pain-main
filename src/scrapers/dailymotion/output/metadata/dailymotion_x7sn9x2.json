@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x7sn9x2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7sn9x2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7sn9x2_audio.mp3",
+  "duration_sec": 54,
+  "duration_seconds": 54.0,
+  "title": "12 datos curiosos de los gatos",
+  "webpage_url": "https://www.dailymotion.com/video/x7sn9x2",
+  "dm_id": "x7sn9x2",
+  "views_total": 312027,
+  "view_count": 312027,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "animales",
+    "mascotas",
+    "entretenimiento",
+    "gatos",
+    "videoo"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Portuguese",
+  "description": "12 datos curiosos de los gatos",
+  "created_time": 1583948097,
+  "search_query": "sons de alerta de gato",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates interesting facts about cats, relevant to the dataset.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7sn9x2",
+    "decision": "keep",
+    "reason": "The title indicates interesting facts about cats, relevant to the dataset.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

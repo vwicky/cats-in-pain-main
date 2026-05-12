@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x3nw8ib",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3nw8ib_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3nw8ib_audio.mp3",
+  "duration_sec": 51,
+  "duration_seconds": 51.0,
+  "title": "Humor: Vea cómo este gato le muerde el cabello a su dueña mientras escuchaba música",
+  "webpage_url": "https://www.dailymotion.com/video/x3nw8ib",
+  "dm_id": "x3nw8ib",
+  "views_total": 1156,
+  "view_count": 1156,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gato",
+    "muerde",
+    "cabello"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Este video capta el momento en el que un gato encaramado arriba de su dueña ; juega con su cabello mordiendolo . <br /> <br />Video cortesía de AineHowTo",
+  "created_time": 1453506535,
+  "search_query": "gatos hablando con pájaros",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat interacting playfully with its owner.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3nw8ib",
+    "decision": "keep",
+    "reason": "The video features a cat interacting playfully with its owner.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

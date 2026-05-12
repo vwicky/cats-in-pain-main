@@ -1,0 +1,23 @@
+# TikTok pipeline — keep yt-dlp recent (single-video download still uses yt-dlp).
+yt-dlp>=2024.1.0
+# Hashtag discovery uses a headless browser (tiktok:tag extractor is unreliable in yt-dlp).
+playwright>=1.40.0
+ultralytics>=8.4.0
+scenedetect>=0.6.0
+opencv-python>=4.8.0
+librosa>=0.10.0
+pydub>=0.25.0
+openai>=1.0.0
+pyyaml>=6.0
+tqdm>=4.65.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+scikit-learn>=1.3.0
+numpy>=1.24.0
+joblib>=1.3.0
+torch>=2.0.0
+torchaudio>=2.1.0
+soundfile>=0.12.0
+torch-audioset @ git+https://github.com/w-hc/torch_audioset.git@daed697ddcd1d2f7304cc3c2b1b4295ac7e304e4
+python-dotenv>=1.0.0

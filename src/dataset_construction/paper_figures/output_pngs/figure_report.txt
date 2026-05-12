@@ -1,0 +1,306 @@
+Bachelor thesis — figure report (auto-generated)
+==============================================================================
+
+Manifest:              /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/src/dataset_construction/manifests/final_dataset_v2.jsonl
+Rows read:             7318
+n_missing_label5:      1071 (null final_label_5 on manifest; reference only for merged five-class target)
+n_missing_audio10:     0 (rows with null audio_label_10; excluded from audio ten-class plots and table 4 face)
+Generated:               2026-05-11 18:18 UTC
+
+CLI thresholds
+------------------------------------------------------------------------------
+  location_other_min:    50
+  behavior_min_count:    10
+  location_top_k:        6
+
+Shared methodology
+------------------------------------------------------------------------------
+Outputs from generate_plots.py: PNG (300 dpi, bbox tight), seaborn-whitegrid;
+flat gpt_* fields from merged manifest unless nested under gpt_description.
+Figures 09–12: audio ten-class (audio_label_10); table 4 is face × audio class.
+Figures 13–14: pipeline funnel + platform × suitability stacks; tables 6–8 (includes lighting×blur grid).
+
+
+------------------------------------------------------------------------------
+Figure 1 — fig_01_suitability.png
+------------------------------------------------------------------------------
+
+In-figure title: Suitable for training
+
+Description:
+  Bar chart counts suitable vs not suitable for training (GPT / merged flags).
+
+Logical fields used:
+  dataset_flags.suitable_for_training, suitable_for_training, gpt_suitable_for_training
+
+Exclusions applied:
+  None (all manifest rows). Boolean coercion failures -> 'Missing / unspecified' if bar shown.
+
+Key counts:
+  True: 5786
+  False: 1532
+
+------------------------------------------------------------------------------
+Table 1 — table_01_suitability.txt
+------------------------------------------------------------------------------
+
+Caption: Suitable for training counts
+
+Same categories as fig_01 (two-column category, count).
+Logical fields: dataset_flags.suitable_for_training, suitable_for_training, gpt_suitable_for_training
+Exclusions: none (all manifest rows).
+  True: 5786
+  False: 1532
+
+------------------------------------------------------------------------------
+Figure 2 — fig_02_exclusion_reasons.png
+------------------------------------------------------------------------------
+
+In-figure title: GPT exclusion reasons (non-null gpt_exclusion_reason)
+Logical fields: gpt_exclusion_reason
+Pairs with table_02_exclusion_reasons.txt (horizontal bars, crest via _bar_palette).
+Exclusions applied: null / empty strings omitted.
+Key counts: non-null reason rows 626; distinct reasons 10.
+
+------------------------------------------------------------------------------
+Table 2 — table_02_exclusion_reasons.txt
+------------------------------------------------------------------------------
+
+Caption: Exclusion reason counts
+
+Description: Two-column table (reason, count), non-null gpt_exclusion_reason only.
+
+Logical fields used: gpt_exclusion_reason
+
+Exclusions applied:
+  Null / empty exclusion strings omitted.
+
+Key counts:
+  Non-null reasons: 626
+  Distinct reasons: 10
+
+------------------------------------------------------------------------------
+Figure 3 — fig_03_breed_distribution.png
+------------------------------------------------------------------------------
+
+In-figure title: Top 10 breed guesses (breed_extracted)
+
+Horizontal bar chart (crest); pairs with table_03_top10_breeds.txt.
+
+Logical fields used: breed_extracted (nested cats / gpt_breed_guess)
+
+Exclusions applied:
+  Rows without breed guess omitted.
+
+Key counts: rows with breed guess 7298
+
+------------------------------------------------------------------------------
+Table 3 — table_03_top10_breeds.txt
+------------------------------------------------------------------------------
+
+Caption: Top 10 breed guesses
+
+Logical fields used: nested cats / gpt_breed_guess (breed_extracted)
+
+Exclusions applied:
+  Rows without breed guess omitted from ranking.
+
+Key counts: rows with breed 7298
+
+------------------------------------------------------------------------------
+Figure 4 — fig_04_environment.png
+------------------------------------------------------------------------------
+
+In-figure title: Location type by setting (stacked)
+
+Description: Stacked bars; rare location types collapsed to 'other' globally.
+
+Logical fields: gpt_setting (setting_stack), gpt_location_type (_loc_col)
+
+Exclusions applied:
+  Rows missing setting or location after collapse omitted from chart.
+  location_other_min = 50
+
+Key counts: chart rows 7318
+
+------------------------------------------------------------------------------
+Figure 5 — fig_05_behavior.png
+------------------------------------------------------------------------------
+
+In-figure title: Primary behavior (GPT)
+Logical fields: gpt_primary_behavior
+Exclusions: non-null behavior only
+Key counts: 7318 rows with behavior
+
+------------------------------------------------------------------------------
+Figure 6 — fig_06_lighting_blur_heatmap.png
+------------------------------------------------------------------------------
+
+In-figure title: Lighting × blur (snippet counts)
+Seaborn crest heatmap — same linewidth / sizing pattern as Figures 10–12 (no despine strip).
+Logical fields: gpt_lighting, gpt_blur
+Exclusions: only rows in fixed lighting/blur vocabularies
+Key counts: 7318 rows
+
+Table: table_08_lighting_blur_counts.txt — same cross-tab as plain text (lighting rows sorted by row total).
+
+------------------------------------------------------------------------------
+Figure 7 — fig_07_face_visibility.png
+------------------------------------------------------------------------------
+
+In-figure title: Face clearly visible
+Logical fields: gpt_face_clearly_visible
+Exclusions: none (all rows)
+
+------------------------------------------------------------------------------
+Figure 8 — fig_08_behavior_by_setting.png
+------------------------------------------------------------------------------
+
+In-figure title: Behavior × setting (Indoor vs Outdoor)
+Logical fields: gpt_primary_behavior (_beh_col), gpt_setting (setting_io)
+Exclusions:
+  Mixed/unclear/null setting excluded (Indoor/Outdoor only).
+  behavior_min_count = 10 (rare behaviors -> other).
+Key counts: rows in chart 7274
+
+------------------------------------------------------------------------------
+Figure 9 — fig_09_audio10_labels_twopanel.png
+------------------------------------------------------------------------------
+
+In-figure title: Audio ten-class + audio binary label distribution
+Logical fields: audio_label_10, audio_label_binary
+Exclusions: n_missing_audio10 = 0; panels use non-null values only.
+  Rows with non-null audio_label_10: 7318
+  Left: crest palette, bars sorted by descending count; colors keyed to canonical class order.
+    Canonical reference order: Angry, Defence, Fighting, Happy, HuntingMind, Mating, MotherCall, Paining, Resting, Warning
+  Right: first two crest stops (binary; same ramp as fig 07).
+
+------------------------------------------------------------------------------
+Figure 10 — fig_10_audio10_setting_rownorm_heatmap.png
+------------------------------------------------------------------------------
+
+Row-normalized audio ten-class × Indoor/Outdoor/Mixed
+Logical fields: audio_label_10, setting_tri
+Exclusions: n_missing_audio10 = 0; rows used 7318
+Annotation: '—' for undefined row; '0.00' for true zeros.
+
+------------------------------------------------------------------------------
+Figure 11 — fig_11_audio10_location_rownorm_heatmap.png
+------------------------------------------------------------------------------
+
+Row-normalized audio ten-class × location (top-k + other)
+location_top_k = 6
+Rows used: 7318
+
+------------------------------------------------------------------------------
+Figure 20 — fig_20_audio10_location_counts_heatmap.png
+------------------------------------------------------------------------------
+
+Snippet counts: audio ten-class × location (same top-k + other as fig 11)
+location_top_k = 6
+Rows used: 7318
+
+------------------------------------------------------------------------------
+Figure 12 — fig_12_audio10_behavior_rownorm_heatmap.png
+------------------------------------------------------------------------------
+
+Row-normalized audio ten-class × primary behavior (top 8 + min-count other)
+behavior_min_count = 10
+Rows used: 7318
+
+------------------------------------------------------------------------------
+Figure 21 — fig_21_behavior_setting_rownorm_heatmap.png
+------------------------------------------------------------------------------
+
+Row-normalized primary behavior × setting (Indoor / Outdoor / Mixed/Unclear)
+Same behavior collapse as fig 12 (min_count + top-8 + other)
+behavior_min_count = 10
+Rows used: 7318
+
+------------------------------------------------------------------------------
+Figure 22 — fig_22_behavior_setting_counts_heatmap.png
+------------------------------------------------------------------------------
+
+Snippet counts: primary behavior × setting (same collapse as fig 21)
+behavior_min_count = 10
+Rows used: 7318
+
+------------------------------------------------------------------------------
+Figure 13 — fig_13_pipeline_funnel.png
+------------------------------------------------------------------------------
+
+In-figure title: Pipeline funnel (per-stage survivor counts)
+Horizontal bars (crest); top bar = earliest measured stage in this run.
+
+Stages on the figure (plateau / optional upstream stages may be omitted — see config):
+  Download: 7372
+  Static Removal: 7318
+  Suitability Filter: 5786
+
+Table: table_06_pipeline_funnel.txt (all nine stage names; optional rows show — until set in config).
+Final manifest rows (--manifest): 7318
+
+------------------------------------------------------------------------------
+Figure 14 — fig_14_platform_suitable_stack.png
+------------------------------------------------------------------------------
+
+In-figure title: Suitable vs not suitable by platform
+
+Description:
+  Stacked counts for YouTube vs TikTok: suitable for training vs not (third stack only if
+  suitability flag is missing). Compares how much each host contributes as unsuitable volume
+  relative to its own total.
+
+Logical fields:
+  manifest ``platform`` (fallback ``source`` parsed as YouTube/TikTok URL or shorthand);
+  suitability: dataset_flags.suitable_for_training, suitable_for_training, gpt_suitable_for_training
+
+Rows used (resolved platform): 7318 (YouTube 5934, TikTok 1384).
+
+Key counts (suitable / not suitable / missing suitability):
+  YouTube: 4715 / 1219 / 0
+  TikTok: 1071 / 313 / 0
+
+Table: table_07_platform_suitability.txt
+
+------------------------------------------------------------------------------
+Table 4 — table_04_face_by_audio_label_10.txt
+------------------------------------------------------------------------------
+
+Face True/False/missing by audio ten-class label (audio_label_10)
+Exclusions: n_missing_audio10 = 0; non-null audio_label_10 rows only.
+Canonical row order: Angry, Defence, Fighting, Happy, HuntingMind, Mating, MotherCall, Paining, Resting, Warning
+
+------------------------------------------------------------------------------
+Table 5 — table_05_gpt_costs.txt
+------------------------------------------------------------------------------
+
+GPT usage and USD estimates from gpt_descriptions.jsonl, cat_id_report, config.
+
+* Channel-resolution GPT usage not populated in config (paper_figures.channel_resolution_gpt); fill api_calls/tokens or set estimated: false after reconciling.
+
+------------------------------------------------------------------------------
+Table 6 — table_06_pipeline_funnel.txt
+------------------------------------------------------------------------------
+
+Pipeline funnel: stage, count, retention vs previous, data-source notes.
+Optional scraper stages — set paper_figures.pipeline_funnel (search, keyword_filter, llm_filter) in config.yaml.
+
+
+------------------------------------------------------------------------------
+Table 7 — table_07_platform_suitability.txt
+------------------------------------------------------------------------------
+
+Cross-tab counts: YouTube/TikTok × suitable / not suitable / missing (same aggregation as Fig. 14).
+
+
+------------------------------------------------------------------------------
+Table 8 — table_08_lighting_blur_counts.txt
+------------------------------------------------------------------------------
+
+Snippet counts: gpt_lighting × gpt_blur (fixed vocabularies; same subset as Fig. 6 heatmap).
+Lighting rows sorted by descending row total; includes within-row % and marginal % of corpus.
+
+
+==============================================================================
+End of report

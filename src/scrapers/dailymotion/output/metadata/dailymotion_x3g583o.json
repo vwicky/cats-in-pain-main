@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3g583o",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3g583o_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3g583o_audio.mp3",
+  "duration_sec": 16,
+  "duration_seconds": 16.0,
+  "title": "Кот в шоке",
+  "webpage_url": "https://www.dailymotion.com/video/x3g583o",
+  "dm_id": "x3g583o",
+  "views_total": 4598,
+  "view_count": 4598,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1448851729,
+  "search_query": "кот в ветеринарной клинике",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat in shock, which could indicate a reaction to something.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3g583o",
+    "decision": "keep",
+    "reason": "The title suggests a cat in shock, which could indicate a reaction to something.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

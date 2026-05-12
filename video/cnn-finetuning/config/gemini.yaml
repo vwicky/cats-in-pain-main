@@ -1,0 +1,58 @@
+run_name: efficientnet_b3_bbox_5class_regularized
+run_notes: EfficientNet-B3, bbox crop, 5-class + binary head, regularized to prevent overfitting
+manifest_path: data/dataset/final_dataset_with_cat_id.jsonl
+predictions_jsonl: src/human_validation/video_audio_human_validation/cat_emotion_predictions.jsonl
+frames_per_clip: 3
+frame_sample_strategy: uniform_inner
+image_size: 300
+use_bbox_crop: true
+bbox_padding: 0.2
+yolo_weights: models/yolo/yolov8x.pt
+yolo_conf: 0.4
+yolo_imgsz: 640
+video_extensions:
+- .mp4
+- .avi
+- .mov
+- .mkv
+- .webm
+classes_5:
+- Paining
+- Positive_Baseline
+- Agonistic
+- Vocalizing
+- HuntingMind
+binary_map:
+  Paining: Pain
+  Positive_Baseline: No_Pain
+  Agonistic: No_Pain
+  Vocalizing: No_Pain
+  HuntingMind: No_Pain
+backbone: efficientnet_b3
+backbone_weights: IMAGENET1K_V1
+freeze_backbone_epochs: 5
+unfreeze_blocks: 0
+pooling: attention
+head_hidden_dim: 128
+head_dropout: 0.5
+cv_folds: 5
+cv_random_state: 42
+batch_size: 16
+epochs: 60
+optimizer: adamw
+lr_backbone: 1.0e-05
+lr_head: 0.001
+weight_decay: 0.05
+scheduler: cosine
+focal_gamma: 2.0
+use_class_weights: true
+early_stop_metric: val_macro_f1
+early_stop_patience: 7
+early_stop_min_delta: 0.001
+aug_horizontal_flip: true
+aug_color_jitter: true
+aug_random_rotation: 15
+aug_random_erasing: 0.2
+runs_dir: video/cnn-finetuning/runs
+save_best_only: true
+log_interval_batches: 10

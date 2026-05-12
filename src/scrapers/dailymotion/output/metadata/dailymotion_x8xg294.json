@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8xg294",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8xg294_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8xg294_audio.mp3",
+  "duration_sec": 48,
+  "duration_seconds": 48.0,
+  "title": "Seul dans un appartement depuis le décès de sa maîtresse, ce chat au coeur brisé ne supporte plus la solitude",
+  "webpage_url": "https://www.dailymotion.com/video/x8xg294",
+  "dm_id": "x8xg294",
+  "views_total": 1544,
+  "view_count": 1544,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Après toute une vie de bonheur, Daikiri a dû dire au revoir à sa maîtresse adorée, et il est depuis dans une profonde solitude.",
+  "created_time": 1714051576,
+  "search_query": "récupération du chat après une opération",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a cat dealing with loneliness after the death of its owner.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8xg294",
+    "decision": "keep",
+    "reason": "The video discusses a cat dealing with loneliness after the death of its owner.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x8di63e",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8di63e_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8di63e_audio.mp3",
+  "duration_sec": 25,
+  "duration_seconds": 25.0,
+  "title": "Menyelamatkan Kucing Lahiran - Memprihatinkan",
+  "webpage_url": "https://www.dailymotion.com/video/x8di63e",
+  "dm_id": "x8di63e",
+  "views_total": 722,
+  "view_count": 722,
+  "likes_total": 2,
+  "like_count": 2,
+  "tags": [
+    "anak kucing",
+    "kucing",
+    "cat",
+    "petshop"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "Memprihatinkan Penyelamatan anak kucing yang baru lahir",
+  "created_time": 1662460624,
+  "search_query": "cat after vaccination",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a rescue of newborn kittens, suggesting a vet context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8di63e",
+    "decision": "keep",
+    "reason": "The description indicates a rescue of newborn kittens, suggesting a vet context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

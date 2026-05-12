@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8zudya",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8zudya_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8zudya_audio.mp3",
+  "duration_sec": 28,
+  "duration_seconds": 28.0,
+  "title": "Ce chat n'a jamais miaulé de sa vie : ils explosent de rire en comprenant pourquoi (vidéo)",
+  "webpage_url": "https://www.dailymotion.com/video/x8zudya",
+  "dm_id": "x8zudya",
+  "views_total": 1191,
+  "view_count": 1191,
+  "likes_total": 2,
+  "like_count": 2,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Les humains du matou Pipoy ignorent pourquoi leur chat n'a jamais été très bavard.",
+  "created_time": 1717753647,
+  "search_query": "chat qui miaule fort",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a cat that never meows, suggesting vocal behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8zudya",
+    "decision": "keep",
+    "reason": "The video discusses a cat that never meows, suggesting vocal behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

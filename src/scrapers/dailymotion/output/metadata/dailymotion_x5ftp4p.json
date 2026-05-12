@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x5ftp4p",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5ftp4p_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5ftp4p_audio.mp3",
+  "duration_sec": 46,
+  "duration_seconds": 46.0,
+  "title": "Eles fizeram uma caixa especial para este gatinho brincar, e os resultados são IMPAGÁVEIS...Confira!",
+  "webpage_url": "https://www.dailymotion.com/video/x5ftp4p",
+  "dm_id": "x5ftp4p",
+  "views_total": 610,
+  "view_count": 610,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Gato"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "Portuguese",
+  "description": "",
+  "created_time": 1490260900,
+  "search_query": "gato feliz ronronando",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat playing with a specially made box.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5ftp4p",
+    "decision": "keep",
+    "reason": "The title suggests a cat playing with a specially made box.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

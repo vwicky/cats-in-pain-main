@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x3ad5ym",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3ad5ym_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3ad5ym_audio.mp3",
+  "duration_sec": 25,
+  "duration_seconds": 25.0,
+  "title": "Звонок в дверь и кот",
+  "webpage_url": "https://www.dailymotion.com/video/x3ad5ym",
+  "dm_id": "x3ad5ym",
+  "views_total": 24771,
+  "view_count": 24771,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Cat",
+    "din-don"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Звонок в дверь и кот",
+  "created_time": 1445368833,
+  "search_query": "кот в режиме стелса",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title indicates a cat's reaction to a doorbell, likely involving vocalization.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3ad5ym",
+    "decision": "keep",
+    "reason": "Title indicates a cat's reaction to a doorbell, likely involving vocalization.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

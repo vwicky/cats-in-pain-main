@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_xswi6",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xswi6_video.mp4",
+  "audio_path": "output/videos/dailymotion_xswi6_audio.mp3",
+  "duration_sec": 27,
+  "duration_seconds": 27.0,
+  "title": "CAT AND RIT",
+  "webpage_url": "https://www.dailymotion.com/video/xswi6",
+  "dm_id": "xswi6",
+  "views_total": 814,
+  "view_count": 814,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "pub",
+    "chat",
+    "souris"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "pub avec un chat é une souris",
+  "created_time": 1166133003,
+  "search_query": "chat heureux qui ronronne",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and tags suggest a cat is involved.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xswi6",
+    "decision": "keep",
+    "reason": "The title and tags suggest a cat is involved.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

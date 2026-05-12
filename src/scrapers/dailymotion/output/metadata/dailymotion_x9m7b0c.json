@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x9m7b0c",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9m7b0c_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9m7b0c_audio.mp3",
+  "duration_sec": 7,
+  "duration_seconds": 7.0,
+  "title": "Cat replaces zoomies with acrobatics and spends day doing somersaults",
+  "webpage_url": "https://www.dailymotion.com/video/x9m7b0c",
+  "dm_id": "x9m7b0c",
+  "views_total": 32560,
+  "view_count": 32560,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "St. Albert",
+    "Canada",
+    "Cats",
+    "Funny Cat",
+    "Flipping Cat",
+    "Senior Cat",
+    "Lazy Cat Fun",
+    "Cat Entertainment",
+    "Hilarious Cat",
+    "Feline Acrobat"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "While most cats spend their time plotting zoomies and knocking things off shelves, this 8-year-old whiskered wonder has retired from chaos and found a new groove.<br /><br />Shared by Tate, this furry superstar has turned flipping into a full-time hobby.<br /><br />From belly twists to tail spins, every move is a masterpiece in motion, like a gymnast with zero deadlines.<br /><br />While kittens are out there running in circles, this senior kitty is casually redefining cat comedy, one airborne somersault at a time.<br />WooGlobe Ref : WGA412325<br />For licensing and to use this video, please email licensing@wooglobe.com",
+  "created_time": 1751446878,
+  "search_query": "cats battling for territory",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video showcases a cat performing acrobatics, indicating playful behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9m7b0c",
+    "decision": "keep",
+    "reason": "The video showcases a cat performing acrobatics, indicating playful behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

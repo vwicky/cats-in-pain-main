@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8qpktk",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8qpktk_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8qpktk_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Katze muss bald sterben, doch dann schickt der Himmel ein Zeichen",
+  "webpage_url": "https://www.dailymotion.com/video/x8qpktk",
+  "dm_id": "x8qpktk",
+  "views_total": 21015,
+  "view_count": 21015,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Tierschützer, die den kleinen, alten Streuner auf der Straße auflesen, sind sich sicher: Ihm bleibt nicht mehr viel Zeit. Aber das, was dann passiert, kann noch immer niemand so richtig glauben.",
+  "created_time": 1702989780,
+  "search_query": "Katze in der Tierklinik",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a stray cat in a potentially critical situation, indicating a medical context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8qpktk",
+    "decision": "keep",
+    "reason": "The video discusses a stray cat in a potentially critical situation, indicating a medical context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

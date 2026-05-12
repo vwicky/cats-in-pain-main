@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x94bdoi",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x94bdoi_video.mp4",
+  "audio_path": "output/videos/dailymotion_x94bdoi_audio.mp3",
+  "duration_sec": 59,
+  "duration_seconds": 59.0,
+  "title": "Comment rafraîchir son chat en cas de fortes chaleur ?",
+  "webpage_url": "https://www.dailymotion.com/video/x94bdoi",
+  "dm_id": "x94bdoi",
+  "views_total": 6321,
+  "view_count": 6321,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "animaux",
+    "chat",
+    "chaleur",
+    "veterinaire",
+    "tuto",
+    "science",
+    "incurieuxwetrust"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Votre chat supporte mal les fortes chaleurs ? Voici quelques conseils pour l'aider à se rafraîchir sans lui faire subir un bain !",
+  "created_time": 1724158838,
+  "search_query": "chat mal à l'aise chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description provide advice for cat care, indicating real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x94bdoi",
+    "decision": "keep",
+    "reason": "The title and description provide advice for cat care, indicating real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

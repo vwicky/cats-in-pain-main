@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x8yb6lc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8yb6lc_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8yb6lc_audio.mp3",
+  "duration_sec": 16,
+  "duration_seconds": 16.0,
+  "title": "Possessive cat has DRAMATIC reaction to dad petting another cat",
+  "webpage_url": "https://www.dailymotion.com/video/x8yb6lc",
+  "dm_id": "x8yb6lc",
+  "views_total": 700,
+  "view_count": 700,
+  "likes_total": 26,
+  "like_count": 26,
+  "tags": [
+    "Belfast",
+    "United Kingdom",
+    "Shareable",
+    "Entertainment",
+    "Cat",
+    "Cat Reaction",
+    "Pets are Awesome",
+    "Funny",
+    "Hilarious",
+    "Dramatic Cat"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "The perfect villain origin story doesn't exis...<br /><br />Shared by Lauren, this chucklesome clip features her pet cat in utter disbelief as she watches her human dad petting another cat. <br /><br />\"Luna was looking out the window when she saw her dad down in the garden petting another cat,\" the filmer commented. <br /><br />Luna's reaction is straight out of an Oscar-winning drama film.  With her paw on the window and a lethal look at the blossoming friendship, there's no denying that her trust issues won't be going anywhere anytime soon.<br />Location: Belfast, United Kingdom                                    <br />WooGlobe Ref : WGA137462<br />For licensing and to use this video, please email licensing@wooglobe.com",
+  "created_time": 1715356903,
+  "search_query": "cat enjoying petting",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat reacting dramatically to its owner petting another cat.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8yb6lc",
+    "decision": "keep",
+    "reason": "The video features a cat reacting dramatically to its owner petting another cat.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

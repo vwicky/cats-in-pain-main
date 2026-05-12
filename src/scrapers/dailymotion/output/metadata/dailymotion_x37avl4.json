@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x37avl4",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x37avl4_video.mp4",
+  "audio_path": "output/videos/dailymotion_x37avl4_audio.mp3",
+  "duration_sec": 29,
+  "duration_seconds": 29.0,
+  "title": "Кот икает и пукает....",
+  "webpage_url": "https://www.dailymotion.com/video/x37avl4",
+  "dm_id": "x37avl4",
+  "views_total": 5901,
+  "view_count": 5901,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1442677779,
+  "search_query": "кот громко мяукает",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat making sounds, which suggests vocalization.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x37avl4",
+    "decision": "keep",
+    "reason": "The title indicates a cat making sounds, which suggests vocalization.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

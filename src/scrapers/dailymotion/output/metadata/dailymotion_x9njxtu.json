@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x9njxtu",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9njxtu_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9njxtu_audio.mp3",
+  "duration_sec": 58,
+  "duration_seconds": 58.0,
+  "title": "Being Left The F***Alone Simulator ist viel gemütlicher, als der Name vermuten lässt",
+  "webpage_url": "https://www.dailymotion.com/video/x9njxtu",
+  "dm_id": "x9njxtu",
+  "views_total": 630,
+  "view_count": 630,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "GameStar",
+    "Stephanie Schlottag",
+    "videoid-136972"
+  ],
+  "channel": "videogames",
+  "channel_title": "videogames",
+  "language": "de",
+  "query_language": "German",
+  "description": "Being Left The F*** Alone Simulator ist eine kleine, simple Life-Sim, in der wir unser Haus erkunden, in der Badewanne chillen, der Katze zuschauen und einfach mal in Ruhe gelassen werden. Das Ganze zu etspannender Musik - wunderbar für einen entspannten Nachmittag. Und nochmal besser für alle, die sich in die Zeit der 90er-Adventures zurückwünschen.",
+  "created_time": 1753450963,
+  "search_query": "glückliche Katze, die schnurrt",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Features a cat in a relaxing game context, relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9njxtu",
+    "decision": "keep",
+    "reason": "Features a cat in a relaxing game context, relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

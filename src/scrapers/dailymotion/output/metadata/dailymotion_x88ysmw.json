@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x88ysmw",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x88ysmw_video.mp4",
+  "audio_path": "output/videos/dailymotion_x88ysmw_audio.mp3",
+  "duration_sec": 56,
+  "duration_seconds": 56.0,
+  "title": "À Rennes, la France Insoumise a mis un chat sur sa liste des Municipales",
+  "webpage_url": "https://www.dailymotion.com/video/x88ysmw",
+  "dm_id": "x88ysmw",
+  "views_total": 996,
+  "view_count": 996,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "uuid_dc8fd4fa-dfa3-4d38-a445-24db98be3829",
+    "guid_94376",
+    "municipales-2020",
+    "insolite",
+    "chat"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1647040265,
+  "search_query": "cris d'accouplement des chats",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title mentions a cat in a municipal context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x88ysmw",
+    "decision": "keep",
+    "reason": "The title mentions a cat in a municipal context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

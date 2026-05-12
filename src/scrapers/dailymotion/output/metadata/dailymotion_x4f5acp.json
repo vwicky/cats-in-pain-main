@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x4f5acp",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x4f5acp_video.mp4",
+  "audio_path": "output/videos/dailymotion_x4f5acp_audio.mp3",
+  "duration_sec": 53,
+  "duration_seconds": 53.0,
+  "title": "Un chat employé dans un salon de massage !",
+  "webpage_url": "https://www.dailymotion.com/video/x4f5acp",
+  "dm_id": "x4f5acp",
+  "views_total": 683,
+  "view_count": 683,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un chat employé dans un salon de massage !<br />Rendez-vous sur http://www.tuxboard.com/ pour en voir plus !<br />",
+  "created_time": 1465379372,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat is featured in a massage context, indicating real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x4f5acp",
+    "decision": "keep",
+    "reason": "The title suggests a cat is featured in a massage context, indicating real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x5s2aj2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5s2aj2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5s2aj2_audio.mp3",
+  "duration_sec": 28,
+  "duration_seconds": 28.0,
+  "title": "El comienza a cantar \"Si eres feliz y lo sabes, aplaude con tus patas...\", pero mira cómo responde el gato.",
+  "webpage_url": "https://www.dailymotion.com/video/x5s2aj2",
+  "dm_id": "x5s2aj2",
+  "views_total": 3894,
+  "view_count": 3894,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Gato"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1498638208,
+  "search_query": "gatos hablando con pájaros",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat responding to singing, suggesting vocalization.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5s2aj2",
+    "decision": "keep",
+    "reason": "The title indicates a cat responding to singing, suggesting vocalization.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

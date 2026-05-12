@@ -1,0 +1,105 @@
+Table 11 — Binary pain classification: method comparison
+
+Context: Compares the v2 EfficientNet-B3 binary head (5-class CV, cat_id-grouped folds) against fixed
+baseline rows carried in the CNN report and literature snapshots. GPT FGS uses the Feline Grimace–style
+vision protocol; GPT label-derived maps model behavior labels to pain vs not pain (legacy cohort only).
+Neural F1-OOF is the out-of-fold pose+CLIP benchmark cited next to the CNN table.
+
+Related:
+  - video/cnn-finetuning/config/v2.yaml — data: final_dataset_v2.jsonl, five-class + binary head
+  - video/cnn-finetuning/src/train.py, video/cnn-finetuning/src/evaluate.py — CV + comparison block
+  - video/gpt-fgs/cat_pain_llm_eval*.ipynb — GPT-4o + FGS scoring pipeline
+  - src/dataset_construction/reports/video_pipeline_comprehensive_report.txt — CNN row quote + same constants
+
+Source excerpts (verbatim from repository files):
+
+--- Excerpt: video/cnn-finetuning/config/v2.yaml (lines 1-50 of 80) ---
+# ── Identity ────────────────────────────────────────────────
+run_name: "efficientnet_b3_v2_5class"
+run_notes: "EfficientNet-B3 on final_dataset_v2 (5786 clips, snippets_v2/). Same arch as default."
+
+# ── Data ────────────────────────────────────────────────────
+manifest_path: "src/dataset_construction/manifests/final_dataset_v2.jsonl"
+predictions_jsonl: null
+frames_per_clip: 3
+frame_sample_strategy: "uniform_inner"
+image_size: 300                          # EfficientNet-B3 native input
+
+# Pre-computed frames (set after running the two offline scripts):
+#   python scripts/01_extract_and_detect.py --config video/cnn-finetuning/config/v2.yaml
+#   python scripts/02_crop_frames.py       --config video/cnn-finetuning/config/v2.yaml
+# Uncomment the line below to switch to the fast PrecomputedCatDataset:
+# precomputed_frames_dir: "data/dataset/cropped_frames_p20"
+
+# Legacy on-the-fly settings (used when precomputed_frames_dir is absent/commented):
+use_bbox_crop: true
+bbox_padding: 0.20
+yolo_weights: "models/yolo/yolov8x.pt"
+yolo_conf: 0.40
+yolo_imgsz: 640
+video_extensions: [".mp4", ".avi", ".mov", ".mkv", ".webm"]
+
+# DataLoader workers (auto-set to 4 for pre-computed, 0 for on-the-fly if unset):
+# num_workers: 4
+
+# ── Label space ─────────────────────────────────────────────
+classes_5:
+  - "Paining"
+  - "Positive_Baseline"
+  - "Agonistic"
+  - "Vocalizing"
+  - "HuntingMind"
+
+binary_map:
+  Paining: "Pain"
+  Positive_Baseline: "No_Pain"
+  Agonistic: "No_Pain"
+  Vocalizing: "No_Pain"
+  HuntingMind: "No_Pain"
+
+# ── Model ───────────────────────────────────────────────────
+backbone: "efficientnet_b3"
+backbone_weights: "IMAGENET1K_V1"
+freeze_backbone_epochs: 10
+unfreeze_blocks: 1
+pooling: "attention"
+head_hidden_dim: 128
+
+--- Excerpt: video/cnn-finetuning/src/evaluate.py (lines 342-355 of 358) ---
+    # Comparison table
+    lines.append("COMPARISON WITH PREVIOUS RESULTS")
+    lines.append("\u2500" * 35)
+    lines.append(f"{'Method':<30s} \u2502 {'Macro F1':>8s} \u2502 {'Sensitivity':>11s} \u2502 {'Specificity':>11s}")
+    lines.append("\u2500" * 30 + "\u253c" + "\u2500" * 10 + "\u253c" + "\u2500" * 13 + "\u253c" + "\u2500" * 12)
+
+    eff_mf1, _ = _mean_std("macro_f1_binary")
+    eff_sens, _ = _mean_std("sensitivity")
+    eff_spec, _ = _mean_std("specificity")
+    lines.append(f"{'EfficientNet-B3 (this run)':<30s} \u2502  {eff_mf1:.3f}   \u2502    {eff_sens:.3f}    \u2502   {eff_spec:.3f}")
+    lines.append(f"{'Neural F1-OOF (pose+CLIP)':<30s} \u2502  0.679   \u2502    0.447    \u2502   0.915")
+    lines.append(f"{'GPT-4o FGS (corrected)':<30s} \u2502  0.353   \u2502    0.702    \u2502   0.332")
+    lines.append(f"{'GPT-4o label-derived':<30s} \u2502  0.532   \u2502    0.155    \u2502   0.905")
+    lines.append(sep)
+
+--- Excerpt: src/dataset_construction/reports/video_pipeline_comprehensive_report.txt (lines 765-773 of 1238) ---
+COMPARISON WITH PREVIOUS RESULTS
+───────────────────────────────────
+Method                         │ Macro F1 │ Sensitivity │ Specificity
+──────────────────────────────┼──────────┼─────────────┼────────────
+EfficientNet-B3 (this run)     │  0.438   │    0.691    │   0.460
+Neural F1-OOF (pose+CLIP)      │  0.679   │    0.447    │   0.915
+GPT-4o FGS (corrected)         │  0.353   │    0.702    │   0.332
+GPT-4o label-derived           │  0.532   │    0.155    │   0.905
+════════════════════════════════════════════════════════
+
+Macro F1 / sensitivity / specificity (binary head where applicable).
+Sources: EfficientNet row = CNN finetune on final_dataset_v2 (video_pipeline_comprehensive_report.txt); GPT + Neural rows = evaluate.py comparison constants / prior pose+CLIP OOF.
+
+Method                                 Macro F1  Sensitivity  Specificity
+--------------------------------------------------------------------------
+EfficientNet-B3 (v2)                      0.438        0.691        0.460
+GPT-4o FGS (legacy cohort†)               0.353        0.702        0.332
+GPT-4o label-derived (legacy†)            0.532        0.155        0.905
+Neural F1-OOF (pose+CLIP)                 0.679        0.447        0.915
+
+† Evaluated on legacy manifest, not directly comparable to v2 results.

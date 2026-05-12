@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x1ltwt",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x1ltwt_video.mp4",
+  "audio_path": "output/videos/dailymotion_x1ltwt_audio.mp3",
+  "duration_sec": 21,
+  "duration_seconds": 21.0,
+  "title": "Gatto...svegliato..",
+  "webpage_url": "https://www.dailymotion.com/video/x1ltwt",
+  "dm_id": "x1ltwt",
+  "views_total": 1089,
+  "view_count": 1089,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "siesta",
+    "mattutina",
+    "interrotta"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "",
+  "created_time": 1175507054,
+  "search_query": "comportamento di un gatto ferito",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Cat behavior is implied in the title.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x1ltwt",
+    "decision": "keep",
+    "reason": "Cat behavior is implied in the title.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

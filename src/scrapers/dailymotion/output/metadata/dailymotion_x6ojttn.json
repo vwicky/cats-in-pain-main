@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x6ojttn",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6ojttn_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6ojttn_audio.mp3",
+  "duration_sec": 25,
+  "duration_seconds": 25.0,
+  "title": "El sexto sentido de los gatos: huelen los temblores",
+  "webpage_url": "https://www.dailymotion.com/video/x6ojttn",
+  "dm_id": "x6ojttn",
+  "views_total": 3319,
+  "view_count": 3319,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "gatos",
+    "cats",
+    "gato",
+    "felino",
+    "viral",
+    "earthquake",
+    "temblor",
+    "sismo",
+    "sentido",
+    "sense"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Los gatos anticipan los temblores. Antes de que se produzcan ya saben que se viene movimiento. Así reaccionaron en el último terremoto de Japón.",
+  "created_time": 1531480176,
+  "search_query": "llamadas de apareamiento de gatos",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Discusses cats' ability to sense earthquakes, implying real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6ojttn",
+    "decision": "keep",
+    "reason": "Discusses cats' ability to sense earthquakes, implying real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

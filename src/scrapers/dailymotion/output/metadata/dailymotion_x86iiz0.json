@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x86iiz0",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x86iiz0_video.mp4",
+  "audio_path": "output/videos/dailymotion_x86iiz0_audio.mp3",
+  "duration_sec": 33,
+  "duration_seconds": 33.0,
+  "title": "Suspiro em casa",
+  "webpage_url": "https://www.dailymotion.com/video/x86iiz0",
+  "dm_id": "x86iiz0",
+  "views_total": 25539,
+  "view_count": 25539,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "food"
+  ],
+  "channel": "creation",
+  "channel_title": "creation",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "",
+  "created_time": 1640187465,
+  "search_query": "gatos relaxados em casa",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat-related context, though vague.",
+  "gpt_confidence": "low",
+  "gpt_filter": {
+    "video_id": "dailymotion_x86iiz0",
+    "decision": "keep",
+    "reason": "The title suggests a cat-related context, though vague.",
+    "confidence": "low",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

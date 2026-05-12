@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8wcnmg",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8wcnmg_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8wcnmg_audio.mp3",
+  "duration_sec": 54,
+  "duration_seconds": 54.0,
+  "title": "Gatito insistente intenta cazar la cola del labrador: ¡se la tiene jurada! (Vídeo)",
+  "webpage_url": "https://www.dailymotion.com/video/x8wcnmg",
+  "dm_id": "x8wcnmg",
+  "views_total": 13831,
+  "view_count": 13831,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "El vídeo de un gatito intentando cazar a un perro por todos los medios posibles levanta el ánimo a miles de personas en Twitter.",
+  "created_time": 1712310371,
+  "search_query": "gatitos juguetones relajándose",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a kitten trying to catch a dog's tail, indicating playful behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8wcnmg",
+    "decision": "keep",
+    "reason": "The video features a kitten trying to catch a dog's tail, indicating playful behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

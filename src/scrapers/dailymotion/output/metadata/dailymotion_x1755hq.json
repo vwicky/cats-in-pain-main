@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x1755hq",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x1755hq_video.mp4",
+  "audio_path": "output/videos/dailymotion_x1755hq_audio.mp3",
+  "duration_sec": 59,
+  "duration_seconds": 59.0,
+  "title": "La journée d'un chat qui ne fout rien en timelaps",
+  "webpage_url": "https://www.dailymotion.com/video/x1755hq",
+  "dm_id": "x1755hq",
+  "views_total": 8310,
+  "view_count": 8310,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "En se levant, Anton Nosovitsky à décidé d'installer une camera dans sa chambre avant de partir pour le chemin du travail pour savoir combien de temps son chat restait dans son lit. En rentrant chez lui, il a pu constater grâce à la vidéo que son chat reste à ne rien foutre sur son lit pendant plus de 3h. La vie d'un chat est fantastique !",
+  "created_time": 1384519772,
+  "search_query": "chat mal à l'aise chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's daily behavior, which is relevant to the dataset.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x1755hq",
+    "decision": "keep",
+    "reason": "The title suggests a cat's daily behavior, which is relevant to the dataset.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

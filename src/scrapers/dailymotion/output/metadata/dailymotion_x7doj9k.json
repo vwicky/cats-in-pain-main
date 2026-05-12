@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x7doj9k",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7doj9k_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7doj9k_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Le vétérinaire a un invité de marque qui adore les visites. Regardez !",
+  "webpage_url": "https://www.dailymotion.com/video/x7doj9k",
+  "dm_id": "x7doj9k",
+  "views_total": 5438,
+  "view_count": 5438,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1563548508,
+  "search_query": "chat chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat visiting a vet, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7doj9k",
+    "decision": "keep",
+    "reason": "The title suggests a cat visiting a vet, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

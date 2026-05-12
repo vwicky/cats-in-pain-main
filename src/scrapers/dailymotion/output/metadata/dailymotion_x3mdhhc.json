@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x3mdhhc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3mdhhc_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3mdhhc_audio.mp3",
+  "duration_sec": 43,
+  "duration_seconds": 43.0,
+  "title": "突然何かを思い出しました！",
+  "webpage_url": "https://www.dailymotion.com/video/x3mdhhc",
+  "dm_id": "x3mdhhc",
+  "views_total": 926,
+  "view_count": 926,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "LOLcats、美しい子猫、遊んで子猫、子猫について、子猫はばかげて見える、最もばかげた子猫、子猫についてのかわいい子猫、かわいい子猫の動画、子猫のビデオの動物の惑星、"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ja",
+  "query_language": "Japanese",
+  "description": "",
+  "created_time": 1452765308,
+  "search_query": "2匹の猫が喧嘩している",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The tags suggest it features cute kittens, which aligns with real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3mdhhc",
+    "decision": "keep",
+    "reason": "The tags suggest it features cute kittens, which aligns with real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

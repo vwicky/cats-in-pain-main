@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3pf2mv",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3pf2mv_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3pf2mv_audio.mp3",
+  "duration_sec": 35,
+  "duration_seconds": 35.0,
+  "title": "Офигевающий кот ПРИКОЛ. Мимика кота на уровне театра!",
+  "webpage_url": "https://www.dailymotion.com/video/x3pf2mv",
+  "dm_id": "x3pf2mv",
+  "views_total": 3402,
+  "view_count": 3402,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "fun",
+    "cat",
+    "prikoli",
+    "video",
+    "clip",
+    "best",
+    "rolik",
+    "смешно",
+    "comedy"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1454156025,
+  "search_query": "кот на ветеринарном осмотре",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat with expressive behavior, which is plausible.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3pf2mv",
+    "decision": "keep",
+    "reason": "The title suggests a cat with expressive behavior, which is plausible.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

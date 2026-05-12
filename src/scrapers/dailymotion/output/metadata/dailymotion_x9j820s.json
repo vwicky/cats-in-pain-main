@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9j820s",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9j820s_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9j820s_audio.mp3",
+  "duration_sec": 50,
+  "duration_seconds": 50.0,
+  "title": "Ce chat des rues arrive au cabinet vétérinaire : contre toute attente il devient manager d'équipe (vidéo)",
+  "webpage_url": "https://www.dailymotion.com/video/x9j820s",
+  "dm_id": "x9j820s",
+  "views_total": 1990,
+  "view_count": 1990,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Le chat Pepsi vivait dans la rue en Australie. Il a été sauvé d'une colonie de chats errants.",
+  "created_time": 1746796873,
+  "search_query": "chat chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video tells the story of a street cat being rescued, indicating a cat's life.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9j820s",
+    "decision": "keep",
+    "reason": "The video tells the story of a street cat being rescued, indicating a cat's life.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3pf27z",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3pf27z_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3pf27z_audio.mp3",
+  "duration_sec": 15,
+  "duration_seconds": 15.0,
+  "title": "Кошачье караты СУПЕР ПРИКОЛ ПРО КОТОВ",
+  "webpage_url": "https://www.dailymotion.com/video/x3pf27z",
+  "dm_id": "x3pf27z",
+  "views_total": 7117,
+  "view_count": 7117,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "fun",
+    "cat",
+    "prikoli",
+    "video",
+    "clip",
+    "best",
+    "rolik",
+    "смешно",
+    "comedy"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1454156025,
+  "search_query": "звуки спаривания котов",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title indicates a cat-related video, likely humorous content about cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3pf27z",
+    "decision": "keep",
+    "reason": "Title indicates a cat-related video, likely humorous content about cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

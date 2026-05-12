@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x3iqyvj",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3iqyvj_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3iqyvj_audio.mp3",
+  "duration_sec": 7,
+  "duration_seconds": 7.0,
+  "title": "Напугал кота",
+  "webpage_url": "https://www.dailymotion.com/video/x3iqyvj",
+  "dm_id": "x3iqyvj",
+  "views_total": 21772,
+  "view_count": 21772,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Напугал",
+    "кота",
+    "Scared",
+    "cat"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Ukrainian",
+  "description": "Напугал кота",
+  "created_time": 1450567235,
+  "search_query": "захисна поза кота",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and tags suggest a cat being scared, which is plausible behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3iqyvj",
+    "decision": "keep",
+    "reason": "The title and tags suggest a cat being scared, which is plausible behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

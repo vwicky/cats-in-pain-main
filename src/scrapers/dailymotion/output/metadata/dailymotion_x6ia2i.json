@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x6ia2i",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6ia2i_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6ia2i_audio.mp3",
+  "duration_sec": 12,
+  "duration_seconds": 12.0,
+  "title": "Chat qui vole",
+  "webpage_url": "https://www.dailymotion.com/video/x6ia2i",
+  "dm_id": "x6ia2i",
+  "views_total": 587,
+  "view_count": 587,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "animaux",
+    "drole",
+    "humour",
+    "rire",
+    "lol",
+    "mdr",
+    "funny",
+    "gag"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1219342521,
+  "search_query": "chat agressif qui grogne",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a humorous cat-related video.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6ia2i",
+    "decision": "keep",
+    "reason": "The title suggests a humorous cat-related video.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

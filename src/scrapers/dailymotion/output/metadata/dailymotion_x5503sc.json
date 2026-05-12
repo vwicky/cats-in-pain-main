@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x5503sc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5503sc_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5503sc_audio.mp3",
+  "duration_sec": 34,
+  "duration_seconds": 34.0,
+  "title": "Ce chat parle et miaule dans son sommeil comme un somnambule !",
+  "webpage_url": "https://www.dailymotion.com/video/x5503sc",
+  "dm_id": "x5503sc",
+  "views_total": 730,
+  "view_count": 730,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "Sommeil",
+    "Somnambule",
+    "chat",
+    "rêve"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Filmé pendant son sommeil, ce chat tigré parle (enfin miaule) et bouge tout en dormant ! Son voisin de couche ne dit rien mais pas sûr que ce chat Japonais ne prenne pas quelques remarques au réveil ;) <br />Tokyo - Décembre 2016",
+  "created_time": 1481523340,
+  "search_query": "chat qui miaule fort",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description suggests a cat vocalizing in its sleep.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5503sc",
+    "decision": "keep",
+    "reason": "The description suggests a cat vocalizing in its sleep.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

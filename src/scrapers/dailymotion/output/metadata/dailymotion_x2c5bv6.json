@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x2c5bv6",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2c5bv6_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2c5bv6_audio.mp3",
+  "duration_sec": 47,
+  "duration_seconds": 47.0,
+  "title": "Qui est le plus malin entre un pigeon et un chat ?",
+  "webpage_url": "https://www.dailymotion.com/video/x2c5bv6",
+  "dm_id": "x2c5bv6",
+  "views_total": 647,
+  "view_count": 647,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "buzz",
+    "vidéo",
+    "pausecafein",
+    "pigeon",
+    "chat",
+    "chasse"
+  ],
+  "channel": "tv",
+  "channel_title": "tv",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un chat chasse un pigeon mais qui va sortir indemne de ce combat sans pitié ?",
+  "created_time": 1418125724,
+  "search_query": "chats qui siffle entre eux",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a cat hunting a pigeon, which suggests natural hunting behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2c5bv6",
+    "decision": "keep",
+    "reason": "The description indicates a cat hunting a pigeon, which suggests natural hunting behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x94d58i",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x94d58i_video.mp4",
+  "audio_path": "output/videos/dailymotion_x94d58i_audio.mp3",
+  "duration_sec": 39,
+  "duration_seconds": 39.0,
+  "title": "Kot zajmuje posłanie psa. Reakcja husky jest rozbrajająca! (video)",
+  "webpage_url": "https://www.dailymotion.com/video/x94d58i",
+  "dm_id": "x94d58i",
+  "views_total": 45272,
+  "view_count": 45272,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "Każdy ma takie miejsce, gdzie może odpocząć po długim dniu. Nikt jednak nie lubi, kiedy ktoś je zajmuje. W tej kwestii zwierzęta się niewiele się od nas różnią, ale ten husky wykazał się naprawdę ogromną wyrozumiałością!",
+  "created_time": 1725418886,
+  "search_query": "kot głośno miauczy",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video depicts a cat occupying a dog's bed, showcasing typical cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x94d58i",
+    "decision": "keep",
+    "reason": "The video depicts a cat occupying a dog's bed, showcasing typical cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

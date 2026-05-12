@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x85e9g5",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x85e9g5_video.mp4",
+  "audio_path": "output/videos/dailymotion_x85e9g5_audio.mp3",
+  "duration_sec": 29,
+  "duration_seconds": 29.0,
+  "title": "¿Qué tal ver películas así?",
+  "webpage_url": "https://www.dailymotion.com/video/x85e9g5",
+  "dm_id": "x85e9g5",
+  "views_total": 13716,
+  "view_count": 13716,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gato",
+    "cat",
+    "gigant",
+    "watchthis",
+    "newsflare"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Este gato gigante reapareció en calles de Tokio, ahora lidiando con una aspiradora eléctrica",
+  "created_time": 1636478814,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and tags suggest a real cat interacting with a vacuum cleaner.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x85e9g5",
+    "decision": "keep",
+    "reason": "The title and tags suggest a real cat interacting with a vacuum cleaner.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

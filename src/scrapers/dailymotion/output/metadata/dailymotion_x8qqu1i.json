@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8qqu1i",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8qqu1i_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8qqu1i_audio.mp3",
+  "duration_sec": 42,
+  "duration_seconds": 42.0,
+  "title": "L'epica presa da wrestling del gatto al cane lascia milioni di persone a bocca aperta (Video)",
+  "webpage_url": "https://www.dailymotion.com/video/x8qqu1i",
+  "dm_id": "x8qqu1i",
+  "views_total": 4170,
+  "view_count": 4170,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "Un video che cattura la mossa di wrestling perfettamente sincronizzata di un gatto su un cane molto più grande ha preso d'assalto Internet.",
+  "created_time": 1703090685,
+  "search_query": "gatto che insegue la preda",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat performing a wrestling move on a dog, showcasing cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8qqu1i",
+    "decision": "keep",
+    "reason": "The video features a cat performing a wrestling move on a dog, showcasing cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

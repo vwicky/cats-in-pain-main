@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x8v35lm",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8v35lm_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8v35lm_audio.mp3",
+  "duration_sec": 34,
+  "duration_seconds": 34.0,
+  "title": "956 perros y gatos han sido rescatados en lo que va del año en Medellín",
+  "webpage_url": "https://www.dailymotion.com/video/x8v35lm",
+  "dm_id": "x8v35lm",
+  "views_total": 600,
+  "view_count": 600,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "perros y gatos",
+    "mascotas",
+    "medellin",
+    "minuto30"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Con el fin de fomentar la protección y el cuidado por los animales de compañía, la Alcaldía de Medellín este año ha rescatado 956 animales de compañía, en la mayoría de los casos por denuncias ciudadanas que reflejan el maltrato o abandono.<br /><br />Visita nuestro portal para más contenidos exclusivos en https://www.minuto30.com/<br />",
+  "created_time": 1710944431,
+  "search_query": "gatos trinos y charlas",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses the rescue of cats and dogs, which is relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8v35lm",
+    "decision": "keep",
+    "reason": "The video discusses the rescue of cats and dogs, which is relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x31155s",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x31155s_video.mp4",
+  "audio_path": "output/videos/dailymotion_x31155s_audio.mp3",
+  "duration_sec": 54,
+  "duration_seconds": 54.0,
+  "title": "Кот, которому невозможно отказать!",
+  "webpage_url": "https://www.dailymotion.com/video/x31155s",
+  "dm_id": "x31155s",
+  "views_total": 11922,
+  "view_count": 11922,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Кот, которому невозможно отказать!",
+  "created_time": 1439159738,
+  "search_query": "кот, выслеживающий добычу",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat that is endearing or charming.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x31155s",
+    "decision": "keep",
+    "reason": "The title suggests a cat that is endearing or charming.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

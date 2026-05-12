@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x9ldsl4",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9ldsl4_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9ldsl4_audio.mp3",
+  "duration_sec": 12,
+  "duration_seconds": 12.0,
+  "title": "Pánico en edificio de Robledo: Incendio en el piso 23 le costó la vida de 3 perritos y 2 gaticos",
+  "webpage_url": "https://www.dailymotion.com/video/x9ldsl4",
+  "dm_id": "x9ldsl4",
+  "views_total": 11702,
+  "view_count": 11702,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "incendio en robledo",
+    "mascotas muriern en incendio de robledo"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Portuguese",
+  "description": "Incendio en piso 23 de edificio en Robledo, Medellín, provoca evacuación y la trágica muerte de 3 perros y 2 gatos. Pánico en el sector.",
+  "created_time": 1749939643,
+  "search_query": "compilação de brigas de gatos",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a tragic incident involving the death of cats in a fire.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9ldsl4",
+    "decision": "keep",
+    "reason": "The video discusses a tragic incident involving the death of cats in a fire.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3636yj",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3636yj_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3636yj_audio.mp3",
+  "duration_sec": 40,
+  "duration_seconds": 40.0,
+  "title": "Кот -ниндзя ,защищает хозяев от собаки.",
+  "webpage_url": "https://www.dailymotion.com/video/x3636yj",
+  "dm_id": "x3636yj",
+  "views_total": 26874,
+  "view_count": 26874,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1441903697,
+  "search_query": "кот, выслеживающий добычу",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat defending against a dog, suggesting agonistic behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3636yj",
+    "decision": "keep",
+    "reason": "The title indicates a cat defending against a dog, suggesting agonistic behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

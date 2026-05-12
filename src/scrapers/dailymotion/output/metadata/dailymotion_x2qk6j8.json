@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x2qk6j8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2qk6j8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2qk6j8_audio.mp3",
+  "duration_sec": 31,
+  "duration_seconds": 31.0,
+  "title": "Un chat bugge en mangeant de la crème glacée",
+  "webpage_url": "https://www.dailymotion.com/video/x2qk6j8",
+  "dm_id": "x2qk6j8",
+  "views_total": 1453,
+  "view_count": 1453,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un chat bugge en mangeant de la crème glacée.<br />Plus de vidéos et de buzz sur : http://breakforbuzz.com",
+  "created_time": 1431952199,
+  "search_query": "courtes vidéos de chats en chasse",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat eating ice cream, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2qk6j8",
+    "decision": "keep",
+    "reason": "The title suggests a cat eating ice cream, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

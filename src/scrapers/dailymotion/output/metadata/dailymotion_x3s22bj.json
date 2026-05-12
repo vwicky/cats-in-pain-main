@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3s22bj",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3s22bj_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3s22bj_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "Кот ест живую змею. Это надо видеть!",
+  "webpage_url": "https://www.dailymotion.com/video/x3s22bj",
+  "dm_id": "x3s22bj",
+  "views_total": 5238,
+  "view_count": 5238,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cats",
+    "fun",
+    "prikoli",
+    "video",
+    "clip",
+    "best",
+    "rolik",
+    "смешно",
+    "comedy"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1455453291,
+  "search_query": "short cat hunting videos",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests it features a cat eating a snake, which is plausible.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3s22bj",
+    "decision": "keep",
+    "reason": "The title suggests it features a cat eating a snake, which is plausible.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

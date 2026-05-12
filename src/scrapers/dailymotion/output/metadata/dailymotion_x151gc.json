@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x151gc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x151gc_video.mp4",
+  "audio_path": "output/videos/dailymotion_x151gc_audio.mp3",
+  "duration_sec": 42,
+  "duration_seconds": 42.0,
+  "title": "agile le chat !!!",
+  "webpage_url": "https://www.dailymotion.com/video/x151gc",
+  "dm_id": "x151gc",
+  "views_total": 884,
+  "view_count": 884,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "minou",
+    "agile",
+    "bouteille",
+    "noir",
+    "blanc",
+    "petit",
+    "mignon"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "ouah agile le chat !!!!",
+  "created_time": 1170694083,
+  "search_query": "chat chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description suggest playful behavior of a cat.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x151gc",
+    "decision": "keep",
+    "reason": "The title and description suggest playful behavior of a cat.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

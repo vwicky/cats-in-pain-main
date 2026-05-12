@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x2hx3t",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2hx3t_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2hx3t_audio.mp3",
+  "duration_sec": 51,
+  "duration_seconds": 51.0,
+  "title": "Naissance des bébés d'Altaïs 2",
+  "webpage_url": "https://www.dailymotion.com/video/x2hx3t",
+  "dm_id": "x2hx3t",
+  "views_total": 2262,
+  "view_count": 2262,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "Naissance",
+    "chatons",
+    "turcs",
+    "lac",
+    "Van"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Juste après la  naissance, la maman (et les gentils éleveurs de chats qui viennent de passer une nuit blanche) s'occupent de la petite famille... <br /><br />Si vous voulez en savoir plus sur le chat turc du lac de Van <a class=\"link\" rel=\"nofollow\" href=\"http://www.creabc.com/coeurdevan/\">http://www.creabc.com/coeurdevan/</a> ou <a class=\"link\" rel=\"nofollow\" href=\"http://web.mac.com/coeurdevan/\">http://web.mac.com/coeurdevan/</a>",
+  "created_time": 1183995970,
+  "search_query": "chat qui gazouille en regardant les oiseaux",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features the birth of kittens and their care.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2hx3t",
+    "decision": "keep",
+    "reason": "The video features the birth of kittens and their care.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

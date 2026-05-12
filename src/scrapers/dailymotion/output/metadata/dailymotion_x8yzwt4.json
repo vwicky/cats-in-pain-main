@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x8yzwt4",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8yzwt4_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8yzwt4_audio.mp3",
+  "duration_sec": 43,
+  "duration_seconds": 43.0,
+  "title": "Katze überrascht Kumpel mit einem Salto",
+  "webpage_url": "https://www.dailymotion.com/video/x8yzwt4",
+  "dm_id": "x8yzwt4",
+  "views_total": 34403,
+  "view_count": 34403,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "swns",
+    "news",
+    "funnies",
+    "fails",
+    "humor",
+    "urkomisch",
+    "katze",
+    "überraschung flip",
+    "playfight",
+    "kumpel"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "de",
+  "query_language": "German",
+  "description": "Eine Katze vollführt beim Kampeln einen beeindruckenden Salto und bringt ihren Besitzer damit zum Staunen.",
+  "created_time": 1716541388,
+  "search_query": "Katze, die Beute verfolgt",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat performing a playful action, indicating play behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8yzwt4",
+    "decision": "keep",
+    "reason": "The title suggests a cat performing a playful action, indicating play behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

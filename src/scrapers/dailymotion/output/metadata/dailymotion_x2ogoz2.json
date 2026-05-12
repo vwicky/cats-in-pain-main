@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x2ogoz2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2ogoz2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2ogoz2_audio.mp3",
+  "duration_sec": 17,
+  "duration_seconds": 17.0,
+  "title": "Кот с невероятной походкой",
+  "webpage_url": "https://www.dailymotion.com/video/x2ogoz2",
+  "dm_id": "x2ogoz2",
+  "views_total": 29880,
+  "view_count": 29880,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "смешное",
+    "голоп",
+    "кошка",
+    "ржач",
+    "животные",
+    "удивительное",
+    "невероятное",
+    "уникальное"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1430337077,
+  "search_query": "кот, выслеживающий добычу",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat with an incredible walk, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2ogoz2",
+    "decision": "keep",
+    "reason": "The title suggests a cat with an incredible walk, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x956l",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x956l_video.mp4",
+  "audio_path": "output/videos/dailymotion_x956l_audio.mp3",
+  "duration_sec": 40,
+  "duration_seconds": 40.0,
+  "title": "povre chat",
+  "webpage_url": "https://www.dailymotion.com/video/x956l",
+  "dm_id": "x956l",
+  "views_total": 862,
+  "view_count": 862,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "chat",
+    "sans",
+    "tête"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1154280994,
+  "search_query": "chat heureux qui ronronne",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat-related theme, though the context is unclear.",
+  "gpt_confidence": "low",
+  "gpt_filter": {
+    "video_id": "dailymotion_x956l",
+    "decision": "keep",
+    "reason": "The title suggests a cat-related theme, though the context is unclear.",
+    "confidence": "low",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x3i91lq",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3i91lq_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3i91lq_audio.mp3",
+  "duration_sec": 10,
+  "duration_seconds": 10.0,
+  "title": "Злюка-кот",
+  "webpage_url": "https://www.dailymotion.com/video/x3i91lq",
+  "dm_id": "x3i91lq",
+  "views_total": 5620,
+  "view_count": 5620,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Злюка-кот"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Злюка-кот",
+  "created_time": 1450223143,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description suggest a grumpy cat, indicating typical cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3i91lq",
+    "decision": "keep",
+    "reason": "The title and description suggest a grumpy cat, indicating typical cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

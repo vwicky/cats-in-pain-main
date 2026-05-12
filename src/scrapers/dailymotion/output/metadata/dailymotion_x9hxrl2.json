@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9hxrl2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9hxrl2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9hxrl2_audio.mp3",
+  "duration_sec": 20,
+  "duration_seconds": 20.0,
+  "title": "Frau filmt zwei Hunde und eine Katze und ringt plötzlich mit der Fassung (Video)",
+  "webpage_url": "https://www.dailymotion.com/video/x9hxrl2",
+  "dm_id": "x9hxrl2",
+  "views_total": 60769,
+  "view_count": 60769,
+  "likes_total": 4,
+  "like_count": 4,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Bei diesem Anblick blutet nicht nur der Autofahrerin das Herz: Die beiden Hunde und das Kätzchen sitzen mit tieftraurigem Blick vor der Einfahrt.",
+  "created_time": 1744724006,
+  "search_query": "Katze in der Tierklinik",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat alongside dogs, indicating a potential emotional or social context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9hxrl2",
+    "decision": "keep",
+    "reason": "The video features a cat alongside dogs, indicating a potential emotional or social context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

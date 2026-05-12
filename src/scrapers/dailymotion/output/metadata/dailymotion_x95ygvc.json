@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x95ygvc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x95ygvc_video.mp4",
+  "audio_path": "output/videos/dailymotion_x95ygvc_audio.mp3",
+  "duration_sec": 33,
+  "duration_seconds": 33.0,
+  "title": "Ce chat rencontre les nouveaux voisins pour la première fois : sa réaction est à hurler de rire (vidéo)",
+  "webpage_url": "https://www.dailymotion.com/video/x95ygvc",
+  "dm_id": "x95ygvc",
+  "views_total": 8242,
+  "view_count": 8242,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "Spanish",
+  "description": "Anton, un chat noir et blanc, a surpris 1,9 million d'internautes sur les réseaux sociaux. Le matou était en balade avec son humaine, quand il a fait une découverte originale.",
+  "created_time": 1726839968,
+  "search_query": "videos cortos de gatos",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Video features a cat reacting to new neighbors.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x95ygvc",
+    "decision": "keep",
+    "reason": "Video features a cat reacting to new neighbors.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

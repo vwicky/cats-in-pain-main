@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x25f7bj",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x25f7bj_video.mp4",
+  "audio_path": "output/videos/dailymotion_x25f7bj_audio.mp3",
+  "duration_sec": 51,
+  "duration_seconds": 51.0,
+  "title": "talking cat woww",
+  "webpage_url": "https://www.dailymotion.com/video/x25f7bj",
+  "dm_id": "x25f7bj",
+  "views_total": 825,
+  "view_count": 825,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "en",
+  "description": "",
+  "created_time": 1410116318,
+  "search_query": "cat talking",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a talking cat, which implies vocalization.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x25f7bj",
+    "decision": "keep",
+    "reason": "The title suggests a talking cat, which implies vocalization.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

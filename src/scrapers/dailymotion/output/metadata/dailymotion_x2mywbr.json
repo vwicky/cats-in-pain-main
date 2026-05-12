@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x2mywbr",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2mywbr_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2mywbr_audio.mp3",
+  "duration_sec": 39,
+  "duration_seconds": 39.0,
+  "title": "Quand mon chat me check en mode Gangsta !",
+  "webpage_url": "https://www.dailymotion.com/video/x2mywbr",
+  "dm_id": "x2mywbr",
+  "views_total": 601,
+  "view_count": 601,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1429269108,
+  "search_query": "chat en mode furtif",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's behavior that could be entertaining.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2mywbr",
+    "decision": "keep",
+    "reason": "The title suggests a cat's behavior that could be entertaining.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

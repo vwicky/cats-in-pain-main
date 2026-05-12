@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8xpiay",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8xpiay_video.mp4.part-Frag20.part",
+  "audio_path": "output/videos/dailymotion_x8xpiay_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Zwei frierende Katzen im Schnee: Doch sie kehren nur mit einer zurück",
+  "webpage_url": "https://www.dailymotion.com/video/x8xpiay",
+  "dm_id": "x8xpiay",
+  "views_total": 48335,
+  "view_count": 48335,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Mitten im Schneesturm gefangen, bekommen diese beiden Katzen die Auswirkungen der Kälte am stärksten zu spüren.",
+  "created_time": 1714493726,
+  "search_query": "Katzen, die friedlich ruhen",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video describes two cats affected by cold weather, indicating real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8xpiay",
+    "decision": "keep",
+    "reason": "The video describes two cats affected by cold weather, indicating real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

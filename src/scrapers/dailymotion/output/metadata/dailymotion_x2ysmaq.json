@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x2ysmaq",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2ysmaq_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2ysmaq_audio.mp3",
+  "duration_sec": 47,
+  "duration_seconds": 47.0,
+  "title": "Et vous pensiez que les chats ne savaient pas nager ?",
+  "webpage_url": "https://www.dailymotion.com/video/x2ysmaq",
+  "dm_id": "x2ysmaq",
+  "views_total": 822,
+  "view_count": 822,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Eau",
+    "oekais",
+    "chat",
+    "humour",
+    "nage",
+    "piscine"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Voici la preuve ultime que même les chats peuvent se débrouiller dans l'eau ! => http://www.oekais.com/fr/et-vous-pensiez-que-les-chats-ne-savaient-pas-nager.html",
+  "created_time": 1437495570,
+  "search_query": "chats se reposant paisiblement",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat swimming, which is plausible.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2ysmaq",
+    "decision": "keep",
+    "reason": "The title indicates a cat swimming, which is plausible.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

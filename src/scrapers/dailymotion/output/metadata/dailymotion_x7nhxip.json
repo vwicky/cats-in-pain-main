@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x7nhxip",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7nhxip_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7nhxip_audio.mp3",
+  "duration_sec": 36,
+  "duration_seconds": 36.0,
+  "title": "Pillan a este raro leopardo jugando como un gatito doméstico en el Lejano Oriente ruso",
+  "webpage_url": "https://www.dailymotion.com/video/x7nhxip",
+  "dm_id": "x7nhxip",
+  "views_total": 3442,
+  "view_count": 3442,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "leopardo",
+    "jugando",
+    "gato",
+    "doméstico",
+    "nieves",
+    "amur",
+    "siberia"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Portuguese",
+  "description": "El parque nacional ruso 'Tierra del Leopardo', en el Lejano Oriente, ha divulgado imágenes de un leopardo de Amur, uno de los gatos salvajes más raros del mundo, que se encuentra en peligro de extinción.<br /><br />El video, captado por una de las cámaras trampa del parque, muestra al depredador, apodado Lord, jugando como si fuera \"un gatito doméstico\", comentó el parque.<br /><br />Destacan que, a pesar de su avanzada edad -13 años-, el leopardo demuestra tener \"una salud excelente y un ánimo juguetón\".<br /><br />El leopardo del Amur (Panthera pardus orientalis) es la subespecie de leopardo más rara que existe.<br /><br />Está en peligro crítico de extinción; solo existen en libertad entre 25 y 34 ejemplares, en la reserva de Sijote-Alin (Siberia), y su endogamia los coloca al borde de la extinción total.<br /><br />También quedan ejemplares en libertad en la zona desmilitarizada (ZDC) que separa Corea del Norte y Corea del Sur.<br /><br />La mayor parte de los ejemplares de esta subespecie viven en zoológicos de Europa y Estados Unidos.",
+  "created_time": 1572771472,
+  "search_query": "vídeos curtos de gatos dormindo",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a rare leopard playing, which is relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7nhxip",
+    "decision": "keep",
+    "reason": "The video shows a rare leopard playing, which is relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

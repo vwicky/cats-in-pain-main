@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8l01sq",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8l01sq_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8l01sq_audio.mp3",
+  "duration_sec": 21,
+  "duration_seconds": 21.0,
+  "title": "Filman a un gato comiendo fiambres de una exhibidora y clausuran el local",
+  "webpage_url": "https://www.dailymotion.com/video/x8l01sq",
+  "dm_id": "x8l01sq",
+  "views_total": 3801,
+  "view_count": 3801,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "En los últimos días, inspectores de la Municipalidad de General Pueyrredón determinaron la clausura de un supermercado de Mar del Plata tras detectar una importante falta de higiene. El cierre del local se produjo el pasado fin de semana, luego de la viralización de un video en el que se observa a un gato en el interior de la heladera de la fiambrería, comiendo uno de los jamones que les vendían a los clientes.<br />DC",
+  "created_time": 1684268369,
+  "search_query": "comportamiento agresivo de los gatos",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat eating food, which is relevant cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8l01sq",
+    "decision": "keep",
+    "reason": "The video features a cat eating food, which is relevant cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

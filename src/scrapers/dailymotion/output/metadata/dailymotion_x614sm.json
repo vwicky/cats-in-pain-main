@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x614sm",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x614sm_video.mp4",
+  "audio_path": "output/videos/dailymotion_x614sm_audio.mp3",
+  "duration_sec": 17,
+  "duration_seconds": 17.0,
+  "title": "Micino in cura dal veterinario",
+  "webpage_url": "https://www.dailymotion.com/video/x614sm",
+  "dm_id": "x614sm",
+  "views_total": 5345,
+  "view_count": 5345,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "animals",
+    "animal",
+    "pets",
+    "pet",
+    "veterinario",
+    "cure",
+    "gatto",
+    "micio",
+    "micino",
+    "cucciolo"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "Questo micino è stato ricoverato dal veterinario per delle cure...non volendo mangiare da solo abbiamo dovuto imboccarlo forzatamente con una siringa!",
+  "created_time": 1215295336,
+  "search_query": "gatto malato dal veterinario",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a kitten receiving veterinary care.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x614sm",
+    "decision": "keep",
+    "reason": "The video features a kitten receiving veterinary care.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

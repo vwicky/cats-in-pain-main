@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x884rre",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x884rre_video.mp4",
+  "audio_path": "output/videos/dailymotion_x884rre_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "Cute Baby Cat",
+  "webpage_url": "https://www.dailymotion.com/video/x884rre",
+  "dm_id": "x884rre",
+  "views_total": 604,
+  "view_count": 604,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "kucing",
+    "cat",
+    "kucing oren",
+    "kucing persia",
+    "kucing anggora",
+    "kucing kampung",
+    "kucing imut",
+    "kucing lucu",
+    "kucing gemes"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "Italian",
+  "description": "Baby Cat Menggemaskan Sekali<br /><br /> #cat #cats #catsofinstagram #catstagram #of #catlover #instagram #catlife #catlovers #kitten #instacat #kitty #cute #pet #love #meow #dog #catoftheday #pets #kittens #gato #animals #animal #cutecat #world #catlove #gatos #petsofinstagram #art #bhfyp <br /> #chat #katze #kittycat #cutecats #instagood #adoptdontshop #lovecats #petstagram #photography #catloversclub #blackcat #catsagram #catphoto #dogs #neko #nature #ilovemycat #photooftheday #gatto #dogsofinstagram #catsofig #instacats #catofinstagram #follow #like #k #kedi #catphotography #caturday #britishshorthair",
+  "created_time": 1645535954,
+  "search_query": "gatto che insegue la preda",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description indicate a cute baby cat, which is relevant cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x884rre",
+    "decision": "keep",
+    "reason": "The title and description indicate a cute baby cat, which is relevant cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

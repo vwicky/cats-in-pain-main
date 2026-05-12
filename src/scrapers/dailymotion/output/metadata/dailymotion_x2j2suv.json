@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x2j2suv",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2j2suv_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2j2suv_audio.mp3",
+  "duration_sec": 57,
+  "duration_seconds": 57.0,
+  "title": "Un chat de goutière face à un serpent",
+  "webpage_url": "https://www.dailymotion.com/video/x2j2suv",
+  "dm_id": "x2j2suv",
+  "views_total": 5368,
+  "view_count": 5368,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "humour",
+    "fun",
+    "lol",
+    "mdr",
+    "video",
+    "blague",
+    "image",
+    "videos",
+    "blagues",
+    "images"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un chat très courageux se bat contre un serpent très méchant. Le minou attaque le serpent sans s'arrêter, il est vraiment très énervé. Le serpent lui ne demande qu'a traversé la route. A votre avis, qui gagne ce match?",
+  "created_time": 1425933889,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat fighting a snake, indicating agonistic behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2j2suv",
+    "decision": "keep",
+    "reason": "The video features a cat fighting a snake, indicating agonistic behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x3imkqd",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3imkqd_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3imkqd_audio.mp3",
+  "duration_sec": 10,
+  "duration_seconds": 10.0,
+  "title": "Кот-актёр",
+  "webpage_url": "https://www.dailymotion.com/video/x3imkqd",
+  "dm_id": "x3imkqd",
+  "views_total": 12394,
+  "view_count": 12394,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Кот-актёр"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Кот-актёр",
+  "created_time": 1450470122,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description suggest a cat-related video.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3imkqd",
+    "decision": "keep",
+    "reason": "The title and description suggest a cat-related video.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x6xlodl",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6xlodl_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6xlodl_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "Des chiens viennent câliner un chat",
+  "webpage_url": "https://www.dailymotion.com/video/x6xlodl",
+  "dm_id": "x6xlodl",
+  "views_total": 4689,
+  "view_count": 4689,
+  "likes_total": 4,
+  "like_count": 4,
+  "tags": [
+    "chien",
+    "caliner",
+    "chat"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Le félin a eu droit à un débordement d’amour.<br />Giuseppe est un chat plutôt heureux. Allongé sur son fauteuil, le félin va recevoir des léchouilles à n’en plus finir de la part d’une bande de jeunes Golden Retrievers. Au bout de quelques secondes, le chat, poils mouillés, réussira à s’extirper.",
+  "created_time": 1542879958,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows dogs cuddling a cat, indicating social interaction.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6xlodl",
+    "decision": "keep",
+    "reason": "The video shows dogs cuddling a cat, indicating social interaction.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

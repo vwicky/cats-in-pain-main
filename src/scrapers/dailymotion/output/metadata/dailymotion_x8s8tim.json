@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8s8tim",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8s8tim_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8s8tim_audio.mp3",
+  "duration_sec": 58,
+  "duration_seconds": 58.0,
+  "title": "Na pozór to zwykły, 7-miesięczny kociak, ale Phoebe cierpi na rzadkie schorzenie",
+  "webpage_url": "https://www.dailymotion.com/video/x8s8tim",
+  "dm_id": "x8s8tim",
+  "views_total": 4222,
+  "view_count": 4222,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "Phoebe to 7-miesięczna kotka z pewną osobliwością: urodziła się bez bioder. Została porzucona, ponieważ jej właściciela nie było stać na rachunki za weterynarza.",
+  "created_time": 1707227562,
+  "search_query": "chora kotka u weterynarza",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat with a rare condition, indicating a medical context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8s8tim",
+    "decision": "keep",
+    "reason": "The video features a cat with a rare condition, indicating a medical context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

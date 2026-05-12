@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x61h6n",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x61h6n_video.mp4",
+  "audio_path": "output/videos/dailymotion_x61h6n_audio.mp3",
+  "duration_sec": 15,
+  "duration_seconds": 15.0,
+  "title": "Tina qui miaule",
+  "webpage_url": "https://www.dailymotion.com/video/x61h6n",
+  "dm_id": "x61h6n",
+  "views_total": 7696,
+  "view_count": 7696,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "tina",
+    "qui",
+    "miaule",
+    "chat",
+    "ordre",
+    "cat",
+    "rigolo",
+    "marrant",
+    "amusant"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "voici mon chat qui sait miauler quand je lui demande",
+  "created_time": 1215372617,
+  "search_query": "chat qui miaule fort",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a cat meowing on command, which fits the vocalizing category.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x61h6n",
+    "decision": "keep",
+    "reason": "The description indicates a cat meowing on command, which fits the vocalizing category.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x98mvoa",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x98mvoa_video.mp4",
+  "audio_path": "output/videos/dailymotion_x98mvoa_audio.mp3",
+  "duration_sec": 19,
+  "duration_seconds": 19.0,
+  "title": "Gasta más de 600 € en el veterinario: cuando escucha el diagnóstico cree que es una broma (vídeo)",
+  "webpage_url": "https://www.dailymotion.com/video/x98mvoa",
+  "dm_id": "x98mvoa",
+  "views_total": 4539,
+  "view_count": 4539,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "El pasado 17 de octubre, Jen, la humana de Maggie, acudió a la sala de urgencias del veterinario porque se temía lo peor.",
+  "created_time": 1730803156,
+  "search_query": "gato enfermo en el veterinario",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a veterinary visit for a cat, indicating a medical context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x98mvoa",
+    "decision": "keep",
+    "reason": "The video discusses a veterinary visit for a cat, indicating a medical context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x973ll8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x973ll8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x973ll8_audio.mp3",
+  "duration_sec": 58,
+  "duration_seconds": 58.0,
+  "title": "Paar adoptiert Katze: Nach Monaten bemerkt es seinen Fehler",
+  "webpage_url": "https://www.dailymotion.com/video/x973ll8",
+  "dm_id": "x973ll8",
+  "views_total": 19622,
+  "view_count": 19622,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Einige Monate nachdem ein Paar eine Katze aus dem Tierheim adoptiert hat, fällt auf, dass etwas fehlt.",
+  "created_time": 1728569769,
+  "search_query": "Katze nach der Impfung",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a couple adopting a cat, which is relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x973ll8",
+    "decision": "keep",
+    "reason": "The title suggests a couple adopting a cat, which is relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

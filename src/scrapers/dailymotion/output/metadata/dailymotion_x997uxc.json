@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x997uxc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x997uxc_video.mp4",
+  "audio_path": "output/videos/dailymotion_x997uxc_audio.mp3",
+  "duration_sec": 53,
+  "duration_seconds": 53.0,
+  "title": "Dziki kot przed obiektywem: niezwykłe nagranie fotopułapki z nadleśnictwa Piwniczna",
+  "webpage_url": "https://www.dailymotion.com/video/x997uxc",
+  "dm_id": "x997uxc",
+  "views_total": 5303,
+  "view_count": 5303,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "News Chat"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "Dla wszystkich miłośników kotów – zarówno tych domowych, jak i dzikich – mamy niezwykłą wiadomość prosto z Nadleśnictwa Piwniczna!",
+  "created_time": 1731680743,
+  "search_query": "kot głośno miauczy",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests footage of wild cats, which is relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x997uxc",
+    "decision": "keep",
+    "reason": "The title suggests footage of wild cats, which is relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

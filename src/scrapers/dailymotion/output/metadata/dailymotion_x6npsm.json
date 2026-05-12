@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x6npsm",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6npsm_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6npsm_audio.mp3",
+  "duration_sec": 43,
+  "duration_seconds": 43.0,
+  "title": "Довольный кот",
+  "webpage_url": "https://www.dailymotion.com/video/x6npsm",
+  "dm_id": "x6npsm",
+  "views_total": 7715,
+  "view_count": 7715,
+  "likes_total": 2,
+  "like_count": 2,
+  "tags": [
+    "Юмор",
+    "Животные"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Довольный кот",
+  "created_time": 1220581952,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description suggest a cat, which is plausible for real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6npsm",
+    "decision": "keep",
+    "reason": "The title and description suggest a cat, which is plausible for real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

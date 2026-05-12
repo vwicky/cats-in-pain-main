@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x95sgvw",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x95sgvw_video.mp4",
+  "audio_path": "output/videos/dailymotion_x95sgvw_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Un chat se retrouve en plein milieu du trafic : des automobilistes prennent une lourde décision",
+  "webpage_url": "https://www.dailymotion.com/video/x95sgvw",
+  "dm_id": "x95sgvw",
+  "views_total": 3086,
+  "view_count": 3086,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Deux badauds sont se sont entraidés pour porter secours à un chaton qui s’est retrouvé dans une bien mauvaise posture.",
+  "created_time": 1726570079,
+  "search_query": "chatons joueurs qui se détendent",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves rescuing a kitten from traffic, indicating a real cat context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x95sgvw",
+    "decision": "keep",
+    "reason": "The video involves rescuing a kitten from traffic, indicating a real cat context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

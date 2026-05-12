@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3fhn2s",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3fhn2s_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3fhn2s_audio.mp3",
+  "duration_sec": 58,
+  "duration_seconds": 58.0,
+  "title": "Белый кот - защитник своего дома! Потешные животные",
+  "webpage_url": "https://www.dailymotion.com/video/x3fhn2s",
+  "dm_id": "x3fhn2s",
+  "views_total": 6366,
+  "view_count": 6366,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1448461101,
+  "search_query": "расслабленные коты дома",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat defending its home, indicating real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3fhn2s",
+    "decision": "keep",
+    "reason": "The title suggests a cat defending its home, indicating real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

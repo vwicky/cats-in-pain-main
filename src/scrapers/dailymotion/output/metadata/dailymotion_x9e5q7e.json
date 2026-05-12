@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x9e5q7e",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9e5q7e_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9e5q7e_audio.mp3",
+  "duration_sec": 21,
+  "duration_seconds": 21.0,
+  "title": "Papagaio entra em desespero ao se deparar com gato e ‘pede socorro’ para avó",
+  "webpage_url": "https://www.dailymotion.com/video/x9e5q7e",
+  "dm_id": "x9e5q7e",
+  "views_total": 7170,
+  "view_count": 7170,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "papagaio",
+    "gato",
+    "gato tenta comer papagaio",
+    "papagaio pede socorro"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Spanish",
+  "description": "Imagens: Redes Sociais <br /><br />Acesse o site: https://em.com.br / https://uai.com.br<br /><br />SE INSCREVA EM NOSSO CANAL NO YOUTUBE: https://www.youtube.com/@PortalUai<br /><br />Siga o Portal UAI nas redes sociais: <br /><br />Instagram - https://instagram.com/estadodeminas/ <br />Twitter -  https://twitter.com/em_com/<br />Facebook - https://www.facebook.com/EstadodeMinas <br />",
+  "created_time": 1739449808,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The metadata suggests a cat interaction with a parrot, indicating potential vocalization or behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9e5q7e",
+    "decision": "keep",
+    "reason": "The metadata suggests a cat interaction with a parrot, indicating potential vocalization or behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8wbcrm",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8wbcrm_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8wbcrm_audio.mp3",
+  "duration_sec": 54,
+  "duration_seconds": 54.0,
+  "title": "Kiki Bispo fala sobre ONGs escolhidas para acolher felinos da colônia de gatos de Piatã",
+  "webpage_url": "https://www.dailymotion.com/video/x8wbcrm",
+  "dm_id": "x8wbcrm",
+  "views_total": 2462,
+  "view_count": 2462,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1712246296,
+  "search_query": "llamadas de apareamiento de gatos",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a discussion about organizations caring for cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8wbcrm",
+    "decision": "keep",
+    "reason": "The title suggests a discussion about organizations caring for cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

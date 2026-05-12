@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x1jas3",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x1jas3_video.mp4",
+  "audio_path": "output/videos/dailymotion_x1jas3_audio.mp3",
+  "duration_sec": 34,
+  "duration_seconds": 34.0,
+  "title": "Un chat très spécial",
+  "webpage_url": "https://www.dailymotion.com/video/x1jas3",
+  "dm_id": "x1jas3",
+  "views_total": 3987,
+  "view_count": 3987,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "spécial",
+    "miaulements",
+    "fun"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un chat qui en a visiblement marre de se faire emmerder",
+  "created_time": 1174776100,
+  "search_query": "courtes vidéos de chats qui se prélassent",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat that seems annoyed.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x1jas3",
+    "decision": "keep",
+    "reason": "The video features a cat that seems annoyed.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

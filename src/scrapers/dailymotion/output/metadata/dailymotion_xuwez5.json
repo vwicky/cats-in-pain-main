@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_xuwez5",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xuwez5_video.mp4",
+  "audio_path": "output/videos/dailymotion_xuwez5_audio.mp3",
+  "duration_sec": 48,
+  "duration_seconds": 48.0,
+  "title": "謝罪するネコ",
+  "webpage_url": "https://www.dailymotion.com/video/xuwez5",
+  "dm_id": "xuwez5",
+  "views_total": 2234,
+  "view_count": 2234,
+  "likes_total": 3,
+  "like_count": 3,
+  "tags": [
+    "Cats",
+    "しじみ　謝罪　ごめんねこ　ごめん寝　すまない寝　シジミ　アメショ　americanshorthair funny cats cute new video"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "Japanese",
+  "description": "My cat is sleeping in the wonderful pause.  <br />愛猫しじみは、いつも不思議なポーズで寝ています。  <br />その姿は、まるで謝っているかのようです。 My cats  <br />blog『しみじみしじみ』http://shijimi222neko.ni-moe.com/",
+  "created_time": 1352247720,
+  "search_query": "猫の防御的な姿勢",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Video features a cat in a humorous sleeping pose.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xuwez5",
+    "decision": "keep",
+    "reason": "Video features a cat in a humorous sleeping pose.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

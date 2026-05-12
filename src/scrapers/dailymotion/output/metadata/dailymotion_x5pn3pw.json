@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x5pn3pw",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5pn3pw_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5pn3pw_audio.mp3",
+  "duration_sec": 58,
+  "duration_seconds": 58.0,
+  "title": "Un raton laveur lave ses fruits avant de les manger !",
+  "webpage_url": "https://www.dailymotion.com/video/x5pn3pw",
+  "dm_id": "x5pn3pw",
+  "views_total": 1820,
+  "view_count": 1820,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "raton",
+    "laveur",
+    "fruit",
+    "jeu",
+    "drôle"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un raton laveur décide de mettre des morceaux de pastèque dans le bol d'eau du chat ! Ce qui ne va pas trop plaire au félin !",
+  "created_time": 1496926110,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a raccoon interacting with a cat, suggesting cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5pn3pw",
+    "decision": "keep",
+    "reason": "The video involves a raccoon interacting with a cat, suggesting cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

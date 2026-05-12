@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x7zbtn6",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7zbtn6_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7zbtn6_audio.mp3",
+  "duration_sec": 55,
+  "duration_seconds": 55.0,
+  "title": "En Australie, un chat sacrifie sa vie pour sauver deux enfants d'une attaque de serpent",
+  "webpage_url": "https://www.dailymotion.com/video/x7zbtn6",
+  "dm_id": "x7zbtn6",
+  "views_total": 556,
+  "view_count": 556,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "article"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Plus d'infos sur : https://www.demotivateur.fr/article/en-australie-un-chat-sacrifie-sa-vie-pour-sauver-deux-enfants-d-une-attaque-de-serpent-24039",
+  "created_time": 1613404247,
+  "search_query": "deux chats en confrontation",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a cat sacrificing itself to save children, suggesting a heroic context involving a real cat.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7zbtn6",
+    "decision": "keep",
+    "reason": "The description indicates a cat sacrificing itself to save children, suggesting a heroic context involving a real cat.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

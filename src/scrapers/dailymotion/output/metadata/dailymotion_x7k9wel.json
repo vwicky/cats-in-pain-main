@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x7k9wel",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7k9wel_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7k9wel_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Mi gato está rasgando todo: las razones de este comportamiento",
+  "webpage_url": "https://www.dailymotion.com/video/x7k9wel",
+  "dm_id": "x7k9wel",
+  "views_total": 4797,
+  "view_count": 4797,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "¿Tu gato rasga tu edredón, cojines e incluso tu estómago o muslos? El rasgado es un comportamiento natural que aparece desde los primeros momentos.  Permite que el gatito ejerza presión sobre la ubre de su madre. Por lo tanto, estimula la lactancia y facilita la liberación de leche. Pero a veces, los gatos mantienen este hábito en la edad adulta. El destete demasiado temprano (antes de las 8 a 10 semanas) puede explicar este comportamiento, ¡pero no siempre es así!  A menudo, acompañado de un ronroneo, el rasgado es una fuente de bienestar para el gato.  Por otro lado, puede significar estrés o deseo de marcar su territorio.",
+  "created_time": 1567772797,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video addresses a common cat behavior of scratching, which is relevant to understanding cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7k9wel",
+    "decision": "keep",
+    "reason": "The video addresses a common cat behavior of scratching, which is relevant to understanding cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

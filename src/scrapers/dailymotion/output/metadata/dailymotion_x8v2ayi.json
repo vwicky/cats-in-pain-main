@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8v2ayi",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8v2ayi_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8v2ayi_audio.mp3",
+  "duration_sec": 21,
+  "duration_seconds": 21.0,
+  "title": "Il gatto interrompe una partita di tennis e ruba la scena a tutti",
+  "webpage_url": "https://www.dailymotion.com/video/x8v2ayi",
+  "dm_id": "x8v2ayi",
+  "views_total": 18610,
+  "view_count": 18610,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "Il gatto interrompe una partita di tennis e ruba la scena a tutti Un gatto è apparso sul campo da tennis durante la partita tra Venus Williams e Diane Snaider al Miami Open il 19 marzo - Dalla Rete",
+  "created_time": 1710932406,
+  "search_query": "gatto che insegue la preda",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat interrupting a tennis match, suggesting real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8v2ayi",
+    "decision": "keep",
+    "reason": "The video features a cat interrupting a tennis match, suggesting real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

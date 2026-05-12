@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x7ovsux",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7ovsux_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7ovsux_audio.mp3",
+  "duration_sec": 36,
+  "duration_seconds": 36.0,
+  "title": "Rescatan a este gato abandonado y emparedado por sus antiguos vecinos",
+  "webpage_url": "https://www.dailymotion.com/video/x7ovsux",
+  "dm_id": "x7ovsux",
+  "views_total": 505,
+  "view_count": 505,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Rescatan",
+    "gato",
+    "emparedado"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Fuente:RS",
+  "created_time": 1575710273,
+  "search_query": "gatos luchando por territorio",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video is about rescuing an abandoned cat, which is relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7ovsux",
+    "decision": "keep",
+    "reason": "The video is about rescuing an abandoned cat, which is relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

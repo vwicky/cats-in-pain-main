@@ -1,0 +1,14 @@
+GPT pipeline usage and estimated cost
+==============================================================================
+Pricing (gpt-4o): $0.0025/1k input, $0.01/1k output tokens
+
+Stage                               API calls      Input tok     Output tok          USD
+------------------------------------------------------------------------------
+GPT description                             0              0              0        $0.00
+GPT cat-ID verification                     0            N/A            N/A        $0.00
+Channel resolution (GPT)         N/A (not yet logged) N/A (not yet logged) N/A (not yet logged) N/A (not yet logged)
+
+GPT description JSONL: /Users/viktorzozula/Documents/src/dataset_construction/reports/gpt_descriptions.jsonl
+Cat-ID report:         /Users/viktorzozula/Documents/src/dataset_construction/reports/cat_id_report.txt
+
+* Channel-resolution GPT usage not populated in config (paper_figures.channel_resolution_gpt); fill api_calls/tokens or set estimated: false after reconciling.

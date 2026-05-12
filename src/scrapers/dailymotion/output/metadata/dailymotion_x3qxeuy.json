@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x3qxeuy",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3qxeuy_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3qxeuy_audio.mp3",
+  "duration_sec": 23,
+  "duration_seconds": 23.0,
+  "title": "Ржачные приколы Короткие видео #4!",
+  "webpage_url": "https://www.dailymotion.com/video/x3qxeuy",
+  "dm_id": "x3qxeuy",
+  "views_total": 5969,
+  "view_count": 5969,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "real",
+    "fun",
+    "video",
+    "clip",
+    "приколы",
+    "приколы лучшие"
+  ],
+  "channel": "tv",
+  "channel_title": "tv",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1454869121,
+  "search_query": "короткие видео с кошками",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests funny clips, possibly featuring cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3qxeuy",
+    "decision": "keep",
+    "reason": "The title suggests funny clips, possibly featuring cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

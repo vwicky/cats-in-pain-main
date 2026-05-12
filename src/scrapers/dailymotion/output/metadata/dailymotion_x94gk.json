@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x94gk",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x94gk_video.mp4",
+  "audio_path": "output/videos/dailymotion_x94gk_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "doble gato",
+  "webpage_url": "https://www.dailymotion.com/video/x94gk",
+  "dm_id": "x94gk",
+  "views_total": 1010,
+  "view_count": 1010,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "doble",
+    "gato",
+    "extreme",
+    "sport"
+  ],
+  "channel": "shortfilms",
+  "channel_title": "shortfilms",
+  "language": "es",
+  "query_language": "Portuguese",
+  "description": "",
+  "created_time": 1154266314,
+  "search_query": "gato miando alto",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests it features a cat, making it plausible for real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x94gk",
+    "decision": "keep",
+    "reason": "The title suggests it features a cat, making it plausible for real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

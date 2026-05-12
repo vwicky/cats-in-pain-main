@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x2k8gyi",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2k8gyi_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2k8gyi_audio.mp3",
+  "duration_sec": 24,
+  "duration_seconds": 24.0,
+  "title": "Забавная реакция кота на пылесос.",
+  "webpage_url": "https://www.dailymotion.com/video/x2k8gyi",
+  "dm_id": "x2k8gyi",
+  "views_total": 11158,
+  "view_count": 11158,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1427004204,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat's reaction to a vacuum, suggesting a behavioral response.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2k8gyi",
+    "decision": "keep",
+    "reason": "The title indicates a cat's reaction to a vacuum, suggesting a behavioral response.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

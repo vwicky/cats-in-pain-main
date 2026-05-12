@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x9ll632",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9ll632_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9ll632_audio.mp3",
+  "duration_sec": 48,
+  "duration_seconds": 48.0,
+  "title": "Kot widzi swoich opiekunów po 2 miesiącach rozłąki. Jego reakcja rozbawiła internautów do łez",
+  "webpage_url": "https://www.dailymotion.com/video/x9ll632",
+  "dm_id": "x9ll632",
+  "views_total": 123275,
+  "view_count": 123275,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "News Kot"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "Para nie mogła się doczekać ponownego spotkania ze swoim kocim przyjacielem po 2 długich miesiącach rozłąki. Wygląda jednak na to, że szkocki zwisłouchy nie czuł tego samego!",
+  "created_time": 1750319388,
+  "search_query": "kot głośno miauczy",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description suggests a cat's emotional reaction to its owners, which is plausible.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9ll632",
+    "decision": "keep",
+    "reason": "The description suggests a cat's emotional reaction to its owners, which is plausible.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

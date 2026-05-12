@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x65a1ze",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x65a1ze_video.mp4",
+  "audio_path": "output/videos/dailymotion_x65a1ze_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "Ce chat se rend compte qu'il a été castré, sa réaction est hilarante ! (vidéo)",
+  "webpage_url": "https://www.dailymotion.com/video/x65a1ze",
+  "dm_id": "x65a1ze",
+  "views_total": 982,
+  "view_count": 982,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "Chat",
+    "castré",
+    "expression",
+    "hilarante",
+    "buzz"
+  ],
+  "channel": "tv",
+  "channel_title": "tv",
+  "language": "fr",
+  "query_language": "French",
+  "description": "C'est l'une des vidéos qui fait le plus de buzz en ce moment sur Internet. Alors qu'il est en train de se lécher, un chat réalise soudainement qu'il a été castré. Et sa réaction est juste hilarante ! Une séquence à retrouver sur Non Stop Zapping. <br /> <br />bit.ly/2xQiwQr",
+  "created_time": 1508424084,
+  "search_query": "chats qui piaillent et bavardent",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat reacting to being neutered, which is a notable behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x65a1ze",
+    "decision": "keep",
+    "reason": "The video shows a cat reacting to being neutered, which is a notable behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

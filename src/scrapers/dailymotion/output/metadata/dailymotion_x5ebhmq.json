@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x5ebhmq",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5ebhmq_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5ebhmq_audio.mp3",
+  "duration_sec": 42,
+  "duration_seconds": 42.0,
+  "title": "Gatinho começa a beber leite de uma garrafa, mas ESCUTE só o som que ele faz...MDS!!?",
+  "webpage_url": "https://www.dailymotion.com/video/x5ebhmq",
+  "dm_id": "x5ebhmq",
+  "views_total": 1378,
+  "view_count": 1378,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Gato"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "Portuguese",
+  "description": "",
+  "created_time": 1489052239,
+  "search_query": "gatinhos brincalhões relaxando",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a kitten making sounds while drinking milk, relevant to cat vocalization.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5ebhmq",
+    "decision": "keep",
+    "reason": "The video features a kitten making sounds while drinking milk, relevant to cat vocalization.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

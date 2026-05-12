@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x5gh37s",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5gh37s_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5gh37s_audio.mp3",
+  "duration_sec": 23,
+  "duration_seconds": 23.0,
+  "title": "Diese Katze, die von einem entzückenden kleinen Welpen erstickt wird, ist das geduldigste Tier überhaupt",
+  "webpage_url": "https://www.dailymotion.com/video/x5gh37s",
+  "dm_id": "x5gh37s",
+  "views_total": 531,
+  "view_count": 531,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Katze"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "German",
+  "description": "",
+  "created_time": 1490676321,
+  "search_query": "Katze, die Beute verfolgt",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's interaction with a puppy, which is plausible.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5gh37s",
+    "decision": "keep",
+    "reason": "The title suggests a cat's interaction with a puppy, which is plausible.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3s21d2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3s21d2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3s21d2_audio.mp3",
+  "duration_sec": 49,
+  "duration_seconds": 49.0,
+  "title": "Мечтательный кот",
+  "webpage_url": "https://www.dailymotion.com/video/x3s21d2",
+  "dm_id": "x3s21d2",
+  "views_total": 1647,
+  "view_count": 1647,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cats",
+    "funny",
+    "prikoli",
+    "video",
+    "clip",
+    "best",
+    "rolik",
+    "смешно",
+    "comedy"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1455452601,
+  "search_query": "кот после операции",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat in a dreamy state, which is plausible behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3s21d2",
+    "decision": "keep",
+    "reason": "The title suggests a cat in a dreamy state, which is plausible behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

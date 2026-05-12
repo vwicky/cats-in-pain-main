@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x85v1p8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x85v1p8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x85v1p8_audio.mp3",
+  "duration_sec": 34,
+  "duration_seconds": 34.0,
+  "title": "Gatinho fica preso em poste e moradores pedem ajuda para resgatá-lo",
+  "webpage_url": "https://www.dailymotion.com/video/x85v1p8",
+  "dm_id": "x85v1p8",
+  "views_total": 2977,
+  "view_count": 2977,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Cascavel"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Gatinho fica preso em poste e moradores pedem ajuda para resgatá-lo",
+  "created_time": 1637769295,
+  "search_query": "gatinhos brincalhões relaxando",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a kitten in distress and needing rescue.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x85v1p8",
+    "decision": "keep",
+    "reason": "The video involves a kitten in distress and needing rescue.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

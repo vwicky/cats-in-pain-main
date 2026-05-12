@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x3tcnr6",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3tcnr6_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3tcnr6_audio.mp3",
+  "duration_sec": 15,
+  "duration_seconds": 15.0,
+  "title": "Cat In The Bathroom",
+  "webpage_url": "https://www.dailymotion.com/video/x3tcnr6",
+  "dm_id": "x3tcnr6",
+  "views_total": 1208,
+  "view_count": 1208,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Cat",
+    "Bathroom"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "Subscribe to JUST VIDEO: http://www.dailymotion.com/JUSTVIDEOnew",
+  "created_time": 1455994980,
+  "search_query": "cat in stealth mode",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat in a bathroom, likely capturing typical behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3tcnr6",
+    "decision": "keep",
+    "reason": "The title suggests a cat in a bathroom, likely capturing typical behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

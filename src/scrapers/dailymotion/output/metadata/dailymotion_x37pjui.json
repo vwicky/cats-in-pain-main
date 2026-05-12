@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x37pjui",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x37pjui_video.mp4",
+  "audio_path": "output/videos/dailymotion_x37pjui_audio.mp3",
+  "duration_sec": 58,
+  "duration_seconds": 58.0,
+  "title": "Кот моет пол и ругается!",
+  "webpage_url": "https://www.dailymotion.com/video/x37pjui",
+  "dm_id": "x37pjui",
+  "views_total": 9575,
+  "view_count": 9575,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1443143220,
+  "search_query": "кот громко мяукает",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat cleaning and possibly vocalizing, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x37pjui",
+    "decision": "keep",
+    "reason": "The title suggests a cat cleaning and possibly vocalizing, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

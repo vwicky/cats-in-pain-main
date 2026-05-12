@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x3jetht",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3jetht_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3jetht_audio.mp3",
+  "duration_sec": 57,
+  "duration_seconds": 57.0,
+  "title": "Cuando tu gato destroza tu maravilloso árbol de Navidad",
+  "webpage_url": "https://www.dailymotion.com/video/x3jetht",
+  "dm_id": "x3jetht",
+  "views_total": 783,
+  "view_count": 783,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Cat",
+    "Christmas tree",
+    "gato",
+    "arbol de navidad",
+    "funny",
+    "chistoso",
+    "viral"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Este gato siente una irresistible tentación de escalar el árbol de Navidad que con tanto cuidado has montado.",
+  "created_time": 1451050133,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat interacting with a Christmas tree, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3jetht",
+    "decision": "keep",
+    "reason": "The video features a cat interacting with a Christmas tree, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

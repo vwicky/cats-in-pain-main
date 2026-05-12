@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8xmy7e",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8xmy7e_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8xmy7e_audio.mp3",
+  "duration_sec": 20,
+  "duration_seconds": 20.0,
+  "title": "Llegan al refugio con su gato de 7 años: los rescatadores alucinan al escuchar su nuevo plan de vida (Vídeo)",
+  "webpage_url": "https://www.dailymotion.com/video/x8xmy7e",
+  "dm_id": "x8xmy7e",
+  "views_total": 986,
+  "view_count": 986,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Le matou Fig est arrivé pour la première fois au refuge de Valley Animal Center de Fresno en Californie en avril 2016.",
+  "created_time": 1714381705,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a cat arriving at a shelter, which is relevant to cat behavior and care.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8xmy7e",
+    "decision": "keep",
+    "reason": "The video discusses a cat arriving at a shelter, which is relevant to cat behavior and care.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

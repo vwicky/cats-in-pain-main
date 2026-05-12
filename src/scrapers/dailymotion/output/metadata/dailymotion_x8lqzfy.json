@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x8lqzfy",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8lqzfy_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8lqzfy_audio.mp3",
+  "duration_sec": 58,
+  "duration_seconds": 58.0,
+  "title": "Vídeo hilário: gato destemido enfrenta um ataque de filhotes fofos de golden retriever",
+  "webpage_url": "https://www.dailymotion.com/video/x8lqzfy",
+  "dm_id": "x8lqzfy",
+  "views_total": 5444,
+  "view_count": 5444,
+  "likes_total": 4,
+  "like_count": 4,
+  "tags": [
+    "gato destemido"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "\"Quatro versus um\", diz a legenda compartilhada junto com o vídeo, que já recebeu mais de 3,9 milhões de visualizações, além de mais de 244 mil curtidas e milhares de comentários de internautas que se divertiram com a cena.<br /><br />Fonte: Instagram @cutiesgoldens<br /><br />https://petepop.com.br/video-hilario-gato-destemido-enfrenta-um-ataque-de-filhotes-fofos-de-golden-retriever/",
+  "created_time": 1686726018,
+  "search_query": "gatos piando e conversando",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat facing off against puppies, indicating a playful or confrontational interaction.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8lqzfy",
+    "decision": "keep",
+    "reason": "The video features a cat facing off against puppies, indicating a playful or confrontational interaction.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

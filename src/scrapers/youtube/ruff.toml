@@ -1,0 +1,3 @@
+[lint.per-file-ignores]
+"src/pipeline.py" = ["E402"]
+"merge_registry.py" = ["E402"]

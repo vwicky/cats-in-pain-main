@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x78tual",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x78tual_video.mp4",
+  "audio_path": "output/videos/dailymotion_x78tual_audio.mp3",
+  "duration_sec": 22,
+  "duration_seconds": 22.0,
+  "title": "Ce chat est vraiment galant, il masse sa femelle !",
+  "webpage_url": "https://www.dailymotion.com/video/x78tual",
+  "dm_id": "x78tual",
+  "views_total": 9846,
+  "view_count": 9846,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1558351844,
+  "search_query": "chat chassant sa proie",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat engaging in affectionate behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x78tual",
+    "decision": "keep",
+    "reason": "The title suggests a cat engaging in affectionate behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

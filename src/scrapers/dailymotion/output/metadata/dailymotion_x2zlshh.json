@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x2zlshh",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2zlshh_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2zlshh_audio.mp3",
+  "duration_sec": 43,
+  "duration_seconds": 43.0,
+  "title": "Cat Getting BAKED!!",
+  "webpage_url": "https://www.dailymotion.com/video/x2zlshh",
+  "dm_id": "x2zlshh",
+  "views_total": 17023,
+  "view_count": 17023,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "Kittens are having fun!",
+  "created_time": 1438132981,
+  "search_query": "sick cat getting treatment",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title and description suggest playful kittens.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2zlshh",
+    "decision": "keep",
+    "reason": "Title and description suggest playful kittens.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

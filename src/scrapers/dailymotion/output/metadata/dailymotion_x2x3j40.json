@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x2x3j40",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2x3j40_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2x3j40_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "Humor: 10 beneficios de tener un gato en casa",
+  "webpage_url": "https://www.dailymotion.com/video/x2x3j40",
+  "dm_id": "x2x3j40",
+  "views_total": 2973,
+  "view_count": 2973,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Gato",
+    "humor",
+    "beneficios",
+    "tener"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Una serie de ilustraciones demuestran, con un toque de humor, cuáles son los beneficios de tener un gato como mascota. <br /> <br />Video cortesía de Upsocl",
+  "created_time": 1436296075,
+  "search_query": "signos de malestar en gatos",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video humorously discusses the benefits of having a cat.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2x3j40",
+    "decision": "keep",
+    "reason": "The video humorously discusses the benefits of having a cat.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

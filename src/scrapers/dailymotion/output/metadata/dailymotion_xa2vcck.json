@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_xa2vcck",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xa2vcck_video.mp4",
+  "audio_path": "output/videos/dailymotion_xa2vcck_audio.mp3",
+  "duration_sec": 42,
+  "duration_seconds": 42.0,
+  "title": "Pet cat tries to participate in the Christmas season by bringing home an unexpected 'present' for the family",
+  "webpage_url": "https://www.dailymotion.com/video/xa2vcck",
+  "dm_id": "xa2vcck",
+  "views_total": 1027,
+  "view_count": 1027,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "Victoria",
+    "BC",
+    "Canada",
+    "Shareable",
+    "Entertainment",
+    "Funny",
+    "Hilarious",
+    "Gifts Under Tree",
+    "Christmas Surprise",
+    "Christmas Gift"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "While humans are busy checking their lists, this feline decided it was high time she contributed to the family Christmas tradition.<br /><br />\"Our cat came in the house with a 'present' to put under the tree!\" the filmer, Carl, told WooGlobe. \"We let her outside to enjoy her present afterwards.\"<br /><br />The 'gift' turned out to be an innocent creature that the cat had found roaming outside.<br /><br />The kitty's gesture was as thoughtful as it was slightly chaotic.<br /><br />It turns out that even our four-legged friends understand that the holidays are all about the spirit of giving.<br />WooGlobe Ref : WGA113097<br />For licensing and to use this video, please email licensing@wooglobe.com",
+  "created_time": 1774098090,
+  "search_query": "relaxed cats at home",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat bringing a 'present' home, indicating cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xa2vcck",
+    "decision": "keep",
+    "reason": "The video features a cat bringing a 'present' home, indicating cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

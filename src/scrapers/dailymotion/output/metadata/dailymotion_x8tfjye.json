@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8tfjye",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8tfjye_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8tfjye_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Plötzlich kommt die Katze mit einem Zettel am Halsband nach Hause: Die Überraschung ist perfekt!",
+  "webpage_url": "https://www.dailymotion.com/video/x8tfjye",
+  "dm_id": "x8tfjye",
+  "views_total": 47974,
+  "view_count": 47974,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Ganze zwei Jahre konnte die clevere Katze ihre Masche aufrechthalten, bis sie schließlich aufflog ...",
+  "created_time": 1709049669,
+  "search_query": "Katze, die Beute verfolgt",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Describes a cat's clever behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8tfjye",
+    "decision": "keep",
+    "reason": "Describes a cat's clever behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

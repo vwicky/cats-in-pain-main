@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x7nriiz",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7nriiz_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7nriiz_audio.mp3",
+  "duration_sec": 46,
+  "duration_seconds": 46.0,
+  "title": "Gato corre e salva bebé que estava prestes a cair da escada",
+  "webpage_url": "https://www.dailymotion.com/video/x7nriiz",
+  "dm_id": "x7nriiz",
+  "views_total": 805,
+  "view_count": 805,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pt",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1573231749,
+  "search_query": "postura defensiva de gato",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat is saving a baby, indicating a real cat behavior scenario.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7nriiz",
+    "decision": "keep",
+    "reason": "The title suggests a cat is saving a baby, indicating a real cat behavior scenario.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

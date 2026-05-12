@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8twd6c",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8twd6c_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8twd6c_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Mutter sprachlos, als sie sieht, was ihr 14-jähriger Sohn mitten auf der Autobahn tut",
+  "webpage_url": "https://www.dailymotion.com/video/x8twd6c",
+  "dm_id": "x8twd6c",
+  "views_total": 11565,
+  "view_count": 11565,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Als Erin Brown ihren Sohn Gavin zu einer Geburtstagsfeier fährt, muss sie entsetzt mit ansehen, wie jemand eine Katze aus dem Autofenster wirft.",
+  "created_time": 1709650488,
+  "search_query": "Verhalten einer verletzten Katze",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a cat being thrown from a car, indicating a potential rescue or pain context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8twd6c",
+    "decision": "keep",
+    "reason": "The video involves a cat being thrown from a car, indicating a potential rescue or pain context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

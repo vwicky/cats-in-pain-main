@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x5es15",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5es15_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5es15_audio.mp3",
+  "duration_sec": 13,
+  "duration_seconds": 13.0,
+  "title": "momy le chat qui parle",
+  "webpage_url": "https://www.dailymotion.com/video/x5es15",
+  "dm_id": "x5es15",
+  "views_total": 3089,
+  "view_count": 3089,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "pigeon",
+    "humour",
+    "momie"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "momy essaie de rentrer en contact avec les pigeons! <br /><br /><a class=\"link\" rel=\"nofollow\" href=\"http://eroscope.fr\">http://eroscope.fr</a>",
+  "created_time": 1210692650,
+  "search_query": "chat agressif qui grogne",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Suggests a cat interacting with pigeons, indicating possible vocalization.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5es15",
+    "decision": "keep",
+    "reason": "Suggests a cat interacting with pigeons, indicating possible vocalization.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

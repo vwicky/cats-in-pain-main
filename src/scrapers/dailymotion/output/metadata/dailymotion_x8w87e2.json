@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x8w87e2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8w87e2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8w87e2_audio.mp3",
+  "duration_sec": 53,
+  "duration_seconds": 53.0,
+  "title": "Terremoto em Taiwan: câmera registra gatos assustados com forte tremor",
+  "webpage_url": "https://www.dailymotion.com/video/x8w87e2",
+  "dm_id": "x8w87e2",
+  "views_total": 3878,
+  "view_count": 3878,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Terremoto",
+    "Taiwan",
+    "câmera",
+    "registra",
+    "gatos",
+    "assustados",
+    "forte",
+    "tremor"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Terremoto em Taiwan: câmera registra gatos assustados com forte tremor. A gravação mostra os animais em um apartamento no início do terremoto que atingiu a costa leste do país nesta quarta-feira, 3. Segundo as autoridades locais, o tremor de magnitude 7,5  deixou ao menos nove mortos e mais de 900 feridos. O Corpo de Bombeiros registrou a queda de ao menos 26 edifícios, a maior parte na região de Hualien, cidade mais próxima do epicentro. #terranoticias <br /><br /><br />Acompanhe as principais notícias do Brasil e do mundo no Terra ▸ https://www.terra.com.br<br />-------------<br />Siga o Terra nas redes sociais<br />Facebook▸ https://www.facebook.com/terrabrasil<br />Instagram ▸ http://instagram.com/terrabrasil<br />Twitter ▸ https://twitter.com/terra<br />TikTok ▸ https://www.tiktok.com/@terrabrasil<br />Pinterest ▸ https://br.pinterest.com/terrabrasil",
+  "created_time": 1712154914,
+  "search_query": "gatos piando e conversando",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video captures cats reacting to an earthquake, showcasing their behavior in a stressful situation.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8w87e2",
+    "decision": "keep",
+    "reason": "The video captures cats reacting to an earthquake, showcasing their behavior in a stressful situation.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

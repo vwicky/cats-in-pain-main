@@ -1,0 +1,8 @@
+2026-04-19 11:57:07,628 INFO Log file: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/dataset_construction/logs/04_audio_classification_20260419T085707Z.log
+2026-04-19 11:57:07,628 INFO Using /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/models/checkpoints_audio_emotions/best_model_final.pth (fine-tuned weights not found at /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/checkpoints/best_model_final.pth)
+2026-04-19 11:57:07,742 INFO Discovered 7329 audio files under /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/dataset_construction/separeted_audios
+2026-04-19 11:57:07,742 INFO Fine-tuned checkpoint: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/models/checkpoints_audio_emotions/best_model_final.pth (models/checkpoints_audio_emotions/best_model_final.pth)
+2026-04-19 11:57:07,831 INFO Using device: mps
+2026-04-19 11:58:10,895 INFO Wrote 7329 rows to /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/dataset_construction/reports/separated_audios_emotion_predictions.jsonl
+2026-04-19 11:58:10,901 INFO Wrote report /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/dataset_construction/reports/emotion_labeling_report.txt
+2026-04-19 11:58:11,516 INFO Saved plots to /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/dataset_construction/reports/emotion_labeling_distribution.png and /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/dataset_construction/reports/emotion_labeling_confidence.png

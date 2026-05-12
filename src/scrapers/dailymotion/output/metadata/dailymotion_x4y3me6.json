@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x4y3me6",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x4y3me6_video.mp4",
+  "audio_path": "output/videos/dailymotion_x4y3me6_audio.mp3",
+  "duration_sec": 26,
+  "duration_seconds": 26.0,
+  "title": "Il gatto rimane fuori. Ciò che fa per farsi aprire vi strapperà un sorriso",
+  "webpage_url": "https://www.dailymotion.com/video/x4y3me6",
+  "dm_id": "x4y3me6",
+  "views_total": 1374,
+  "view_count": 1374,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Animals",
+    "gatto",
+    "funny",
+    "divertente",
+    "cats",
+    "animali"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "Con la diffusione degli smartphone non c'è neanche più bisogno di suonare il citofono o il campanello di casa per avvisare che stiamo per arrivare nelle case dei nostri amici o parenti, perché basta un semplice messaggio su WhatsApp e il gioco è fatto. <br /> <br />Oramai questi \"rudimentali\" strumenti di segnalazione vengono utilizzati soltanto dagli sconosciuti, dal postino, dal corriere e a volte anche dai gatti! <br /> <br />A parte gli scherzi, se date un'occhiata al video che segue potrete divertirvi a vedere come un gatto, rimasto fuori casa, riesce a segnalare la sua presenza. Fantastico! <br /> <br />Seguici su www.postvirale.it",
+  "created_time": 1476880468,
+  "search_query": "richiami di accoppiamento dei gatti",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat trying to get inside, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x4y3me6",
+    "decision": "keep",
+    "reason": "The title suggests a cat trying to get inside, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

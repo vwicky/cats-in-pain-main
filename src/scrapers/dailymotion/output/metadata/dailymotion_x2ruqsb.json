@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x2ruqsb",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2ruqsb_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2ruqsb_audio.mp3",
+  "duration_sec": 40,
+  "duration_seconds": 40.0,
+  "title": "Le chat et le bruit d'un morceau de plastique",
+  "webpage_url": "https://www.dailymotion.com/video/x2ruqsb",
+  "dm_id": "x2ruqsb",
+  "views_total": 1016,
+  "view_count": 1016,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "tv",
+  "channel_title": "tv",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1432838173,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title suggests a cat's interaction with plastic noise, likely real behavior.",
+  "gpt_confidence": "low",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2ruqsb",
+    "decision": "keep",
+    "reason": "Title suggests a cat's interaction with plastic noise, likely real behavior.",
+    "confidence": "low",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

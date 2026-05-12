@@ -1,0 +1,264 @@
+
+============================================================
+CAT EMOTION PREDICTION DATASET — SUMMARY REPORT
+============================================================
+Total matched records : 1424
+Unmatched predictions : 0
+Unmatched descriptions: 0
+
+============================================================
+1. PREDICTED CLASS DISTRIBUTION
+============================================================
+  Paining          207  (14.5%)
+  HuntingMind      191  (13.4%)
+  Happy            162  (11.4%)
+  Warning          150  (10.5%)
+  Resting          146  (10.3%)
+  Mating           141  (9.9%)
+  Angry            135  (9.5%)
+  Fighting         121  (8.5%)
+  MotherCall       108  (7.6%)
+  Defence           63  (4.4%)
+
+============================================================
+2. MODEL CONFIDENCE PER PREDICTED CLASS
+============================================================
+  Resting          mean=0.850  median=0.956  std=0.192  range=[0.297, 1.000]
+  MotherCall       mean=0.707  median=0.747  std=0.257  range=[0.186, 1.000]
+  Angry            mean=0.702  median=0.703  std=0.232  range=[0.259, 1.000]
+  HuntingMind      mean=0.671  median=0.688  std=0.249  range=[0.161, 1.000]
+  Fighting         mean=0.665  median=0.680  std=0.223  range=[0.204, 0.999]
+  Warning          mean=0.643  median=0.648  std=0.231  range=[0.170, 1.000]
+  Paining          mean=0.640  median=0.612  std=0.201  range=[0.216, 0.996]
+  Mating           mean=0.572  median=0.546  std=0.215  range=[0.214, 0.996]
+  Happy            mean=0.567  median=0.543  std=0.184  range=[0.187, 0.989]
+  Defence          mean=0.590  median=0.503  std=0.252  range=[0.201, 1.000]
+
+============================================================
+3. MEAN SOFTMAX PROBABILITIES PER PREDICTED CLASS
+============================================================
+  Angry            top-3 probs: Angry=0.702  |  Paining=0.090  |  Fighting=0.053
+  Defence          top-3 probs: Defence=0.590  |  Warning=0.116  |  HuntingMind=0.077
+  Fighting         top-3 probs: Fighting=0.665  |  Paining=0.077  |  Angry=0.053
+  Happy            top-3 probs: Happy=0.567  |  Paining=0.186  |  Mating=0.054
+  HuntingMind      top-3 probs: HuntingMind=0.671  |  Mating=0.049  |  Fighting=0.047
+  Mating           top-3 probs: Mating=0.572  |  Warning=0.119  |  Happy=0.066
+  MotherCall       top-3 probs: MotherCall=0.707  |  Happy=0.070  |  Paining=0.069
+  Paining          top-3 probs: Paining=0.640  |  Happy=0.144  |  Angry=0.058
+  Resting          top-3 probs: Resting=0.850  |  Warning=0.052  |  HuntingMind=0.029
+  Warning          top-3 probs: Warning=0.643  |  Mating=0.108  |  Resting=0.054
+
+============================================================
+4. VISUAL ATTRIBUTE DISTRIBUTIONS PER PREDICTED CLASS
+============================================================
+
+--- environment ---
+  Angry            dominant: indoor=0.79  |  outdoor=0.17
+  Defence          dominant: indoor=0.79  |  outdoor=0.14
+  Fighting         dominant: indoor=0.91  |  outdoor=0.07
+  Happy            dominant: indoor=0.64  |  outdoor=0.34
+  HuntingMind      dominant: indoor=0.86  |  outdoor=0.10
+  Mating           dominant: indoor=0.85  |  outdoor=0.14
+  MotherCall       dominant: indoor=0.73  |  outdoor=0.26
+  Paining          dominant: indoor=0.64  |  outdoor=0.33
+  Resting          dominant: indoor=0.95  |  outdoor=0.04
+  Warning          dominant: indoor=0.93  |  outdoor=0.05
+
+--- scene_type ---
+  Angry            dominant: home=0.89  |  nature_or_garden=0.05
+  Defence          dominant: home=0.79  |  nature_or_garden=0.11
+  Fighting         dominant: home=0.90  |  other=0.03
+  Happy            dominant: home=0.65  |  nature_or_garden=0.17
+  HuntingMind      dominant: home=0.86  |  nature_or_garden=0.06
+  Mating           dominant: home=0.83  |  nature_or_garden=0.06
+  MotherCall       dominant: home=0.80  |  nature_or_garden=0.14
+  Paining          dominant: home=0.64  |  nature_or_garden=0.14
+  Resting          dominant: home=0.93  |  shelter_or_vet=0.03
+  Warning          dominant: home=0.91  |  nature_or_garden=0.03
+
+--- lighting ---
+  Angry            dominant: normal_indoor=0.64  |  bright_daylight=0.21
+  Defence          dominant: normal_indoor=0.71  |  bright_daylight=0.17
+  Fighting         dominant: normal_indoor=0.65  |  low_light=0.17
+  Happy            dominant: normal_indoor=0.51  |  bright_daylight=0.36
+  HuntingMind      dominant: normal_indoor=0.61  |  bright_daylight=0.20
+  Mating           dominant: normal_indoor=0.57  |  low_light=0.18
+  MotherCall       dominant: normal_indoor=0.64  |  bright_daylight=0.28
+  Paining          dominant: normal_indoor=0.50  |  bright_daylight=0.33
+  Resting          dominant: normal_indoor=0.73  |  low_light=0.19
+  Warning          dominant: normal_indoor=0.67  |  low_light=0.17
+
+--- occlusion ---
+  Angry            dominant: partial=0.70  |  none=0.27
+  Defence          dominant: partial=0.75  |  none=0.24
+  Fighting         dominant: partial=0.76  |  none=0.22
+  Happy            dominant: partial=0.80  |  none=0.18
+  HuntingMind      dominant: partial=0.75  |  none=0.24
+  Mating           dominant: partial=0.76  |  none=0.24
+  MotherCall       dominant: partial=0.76  |  none=0.24
+  Paining          dominant: partial=0.70  |  none=0.29
+  Resting          dominant: partial=0.85  |  none=0.10
+  Warning          dominant: partial=0.82  |  none=0.17
+
+--- visual_clarity ---
+  Angry            dominant: slightly_blurry=0.53  |  clear=0.41
+  Defence          dominant: slightly_blurry=0.48  |  clear=0.43
+  Fighting         dominant: slightly_blurry=0.66  |  clear=0.21
+  Happy            dominant: slightly_blurry=0.46  |  clear=0.45
+  HuntingMind      dominant: slightly_blurry=0.56  |  clear=0.38
+  Mating           dominant: slightly_blurry=0.57  |  clear=0.41
+  MotherCall       dominant: slightly_blurry=0.49  |  clear=0.48
+  Paining          dominant: slightly_blurry=0.51  |  clear=0.45
+  Resting          dominant: slightly_blurry=0.73  |  clear=0.19
+  Warning          dominant: slightly_blurry=0.67  |  clear=0.26
+
+--- human_presence ---
+  Angry            dominant: no=0.61  |  yes=0.38
+  Defence          dominant: no=0.64  |  yes=0.35
+  Fighting         dominant: no=0.55  |  yes=0.44
+  Happy            dominant: no=0.62  |  yes=0.38
+  HuntingMind      dominant: no=0.73  |  yes=0.27
+  Mating           dominant: no=0.63  |  yes=0.36
+  MotherCall       dominant: no=0.60  |  yes=0.40
+  Paining          dominant: no=0.63  |  yes=0.37
+  Resting          dominant: no=0.51  |  yes=0.49
+  Warning          dominant: no=0.71  |  yes=0.27
+
+--- other_animals_present ---
+  Angry            dominant: no=0.97  |  yes=0.02
+  Defence          dominant: no=0.97  |  yes=0.03
+  Fighting         dominant: no=0.97  |  yes=0.02
+  Happy            dominant: no=0.97  |  yes=0.02
+  HuntingMind      dominant: no=0.98  |  yes=0.02
+  Mating           dominant: no=0.99  |  yes=0.01
+  MotherCall       dominant: no=0.98  |  yes=0.02
+  Paining          dominant: no=0.95  |  yes=0.05
+  Resting          dominant: no=0.99  |  yes=0.01
+  Warning          dominant: no=0.98  |  yes=0.01
+
+--- cat_visual_type ---
+  Angry            dominant: tabby=0.34  |  white=0.12
+  Defence          dominant: tabby=0.35  |  ginger=0.19
+  Fighting         dominant: tabby=0.27  |  tuxedo=0.13
+  Happy            dominant: tabby=0.29  |  tuxedo=0.13
+  HuntingMind      dominant: tabby=0.28  |  black=0.15
+  Mating           dominant: tabby=0.35  |  ginger=0.15
+  MotherCall       dominant: tabby=0.29  |  ginger=0.23
+  Paining          dominant: tabby=0.23  |  ginger=0.19
+  Resting          dominant: tabby=0.36  |  ginger=0.16
+  Warning          dominant: tabby=0.31  |  tuxedo=0.15
+
+--- overall_confidence ---
+  Angry            dominant: high=0.87  |  medium=0.12
+  Defence          dominant: high=0.86  |  medium=0.13
+  Fighting         dominant: high=0.75  |  medium=0.23
+  Happy            dominant: high=0.84  |  medium=0.15
+  HuntingMind      dominant: high=0.83  |  medium=0.17
+  Mating           dominant: high=0.90  |  medium=0.10
+  MotherCall       dominant: high=0.87  |  medium=0.13
+  Paining          dominant: high=0.83  |  medium=0.17
+  Resting          dominant: high=0.75  |  medium=0.25
+  Warning          dominant: high=0.81  |  medium=0.19
+
+============================================================
+5. POTENTIALLY NOTABLE CORRELATIONS (PROPORTION >= 0.60)
+============================================================
+Classes where a single attribute value accounts for >= 60% of that class:
+  [environment]  Angry           -> indoor                0.79  (n=107)
+  [environment]  Defence         -> indoor                0.79  (n=50)
+  [environment]  Fighting        -> indoor                0.91  (n=110)
+  [environment]  Happy           -> indoor                0.64  (n=104)
+  [environment]  HuntingMind     -> indoor                0.86  (n=165)
+  [environment]  Mating          -> indoor                0.85  (n=120)
+  [environment]  MotherCall      -> indoor                0.73  (n=79)
+  [environment]  Paining         -> indoor                0.64  (n=132)
+  [environment]  Resting         -> indoor                0.95  (n=139)
+  [environment]  Warning         -> indoor                0.93  (n=140)
+  [scene_type]  Angry           -> home                  0.89  (n=120)
+  [scene_type]  Defence         -> home                  0.79  (n=50)
+  [scene_type]  Fighting        -> home                  0.90  (n=109)
+  [scene_type]  Happy           -> home                  0.65  (n=106)
+  [scene_type]  HuntingMind     -> home                  0.86  (n=165)
+  [scene_type]  Mating          -> home                  0.83  (n=117)
+  [scene_type]  MotherCall      -> home                  0.80  (n=86)
+  [scene_type]  Paining         -> home                  0.64  (n=132)
+  [scene_type]  Resting         -> home                  0.92  (n=135)
+  [scene_type]  Warning         -> home                  0.91  (n=137)
+  [lighting]  Angry           -> normal_indoor         0.64  (n=87)
+  [lighting]  Defence         -> normal_indoor         0.71  (n=45)
+  [lighting]  Fighting        -> normal_indoor         0.64  (n=78)
+  [lighting]  HuntingMind     -> normal_indoor         0.61  (n=116)
+  [lighting]  MotherCall      -> normal_indoor         0.64  (n=69)
+  [lighting]  Resting         -> normal_indoor         0.73  (n=106)
+  [lighting]  Warning         -> normal_indoor         0.67  (n=101)
+  [occlusion]  Angry           -> partial               0.70  (n=95)
+  [occlusion]  Defence         -> partial               0.75  (n=47)
+  [occlusion]  Fighting        -> partial               0.76  (n=92)
+  [occlusion]  Happy           -> partial               0.80  (n=130)
+  [occlusion]  HuntingMind     -> partial               0.75  (n=143)
+  [occlusion]  Mating          -> partial               0.76  (n=107)
+  [occlusion]  MotherCall      -> partial               0.76  (n=82)
+  [occlusion]  Paining         -> partial               0.70  (n=145)
+  [occlusion]  Resting         -> partial               0.85  (n=124)
+  [occlusion]  Warning         -> partial               0.82  (n=123)
+  [visual_clarity]  Fighting        -> slightly_blurry       0.66  (n=80)
+  [visual_clarity]  Resting         -> slightly_blurry       0.73  (n=107)
+  [visual_clarity]  Warning         -> slightly_blurry       0.67  (n=100)
+  [human_presence]  Angry           -> no                    0.61  (n=83)
+  [human_presence]  Defence         -> no                    0.63  (n=40)
+  [human_presence]  Happy           -> no                    0.62  (n=100)
+  [human_presence]  HuntingMind     -> no                    0.73  (n=140)
+  [human_presence]  Mating          -> no                    0.63  (n=89)
+  [human_presence]  MotherCall      -> no                    0.60  (n=65)
+  [human_presence]  Paining         -> no                    0.63  (n=130)
+  [human_presence]  Warning         -> no                    0.71  (n=107)
+  [other_animals_present]  Angry           -> no                    0.97  (n=131)
+  [other_animals_present]  Defence         -> no                    0.97  (n=61)
+  [other_animals_present]  Fighting        -> no                    0.98  (n=118)
+  [other_animals_present]  Happy           -> no                    0.98  (n=158)
+  [other_animals_present]  HuntingMind     -> no                    0.98  (n=188)
+  [other_animals_present]  Mating          -> no                    0.99  (n=140)
+  [other_animals_present]  MotherCall      -> no                    0.98  (n=106)
+  [other_animals_present]  Paining         -> no                    0.95  (n=196)
+  [other_animals_present]  Resting         -> no                    0.99  (n=145)
+  [other_animals_present]  Warning         -> no                    0.98  (n=147)
+  [overall_confidence]  Angry           -> high                  0.87  (n=117)
+  [overall_confidence]  Defence         -> high                  0.86  (n=54)
+  [overall_confidence]  Fighting        -> high                  0.75  (n=91)
+  [overall_confidence]  Happy           -> high                  0.84  (n=136)
+  [overall_confidence]  HuntingMind     -> high                  0.83  (n=159)
+  [overall_confidence]  Mating          -> high                  0.90  (n=127)
+  [overall_confidence]  MotherCall      -> high                  0.87  (n=94)
+  [overall_confidence]  Paining         -> high                  0.83  (n=171)
+  [overall_confidence]  Resting         -> high                  0.75  (n=109)
+  [overall_confidence]  Warning         -> high                  0.81  (n=122)
+
+============================================================
+6. MEAN CONFIDENCE PER VISUAL CLARITY LEVEL
+============================================================
+  highly_compressed     mean=0.736  median=0.758  n=7
+  slightly_blurry       mean=0.674  median=0.680  n=808
+  blurry                mean=0.664  median=0.636  n=86
+  clear                 mean=0.642  median=0.611  n=523
+
+============================================================
+7. CLASS DISTRIBUTION PER ENVIRONMENT
+============================================================
+  indoor        (n=1146)  HuntingMind=165  |  Warning=140  |  Resting=139  |  Paining=132  |  Mating=120  |  Fighting=110  |  Angry=107  |  Happy=104  |  MotherCall=79  |  Defence=50
+  mixed         (n=12)  HuntingMind=4  |  Paining=3  |  Defence=2  |  Fighting=1  |  Mating=1  |  Angry=1
+  outdoor       (n=243)  Paining=69  |  Happy=55  |  MotherCall=28  |  Angry=23  |  Mating=19  |  HuntingMind=19  |  Defence=9  |  Fighting=8  |  Warning=7  |  Resting=6
+  uncertain     (n=23)  Angry=4  |  Warning=3  |  Paining=3  |  Happy=3  |  HuntingMind=3  |  Fighting=2  |  Defence=2  |  MotherCall=1  |  Resting=1  |  Mating=1
+
+============================================================
+8. GLOBAL MEAN SOFTMAX PROBABILITIES (ALL RECORDS)
+============================================================
+  Paining          0.1472
+  HuntingMind      0.1197
+  Happy            0.1136
+  Warning          0.1076
+  Resting          0.1040
+  Angry            0.0964
+  Mating           0.0953
+  Fighting         0.0938
+  MotherCall       0.0800
+  Defence          0.0424

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x96a1vq",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x96a1vq_video.mp4",
+  "audio_path": "output/videos/dailymotion_x96a1vq_audio.mp3",
+  "duration_sec": 58,
+  "duration_seconds": 58.0,
+  "title": "Ils adoptent un chat adulte en refuge : quelques mois après, ils se rendent compte de leur erreur",
+  "webpage_url": "https://www.dailymotion.com/video/x96a1vq",
+  "dm_id": "x96a1vq",
+  "views_total": 30128,
+  "view_count": 30128,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Quelques mois après l'adoption de leur chat adulte en refuge, un couple s'est rendu compte qu'il manquait quelque chose.",
+  "created_time": 1727334641,
+  "search_query": "chat après vaccination",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a couple's realization about their adopted adult cat.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x96a1vq",
+    "decision": "keep",
+    "reason": "The video discusses a couple's realization about their adopted adult cat.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

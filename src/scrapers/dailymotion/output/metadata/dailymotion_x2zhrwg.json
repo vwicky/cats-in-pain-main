@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x2zhrwg",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2zhrwg_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2zhrwg_audio.mp3",
+  "duration_sec": 54,
+  "duration_seconds": 54.0,
+  "title": "Abyssinian Cat Lazer Pounce!!",
+  "webpage_url": "https://www.dailymotion.com/video/x2zhrwg",
+  "dm_id": "x2zhrwg",
+  "views_total": 7344,
+  "view_count": 7344,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cats",
+    "animals",
+    "kittens"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "Thanks for coming from my website and watching my video!",
+  "created_time": 1438044285,
+  "search_query": "cat pouncing on prey",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and tags suggest playful cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2zhrwg",
+    "decision": "keep",
+    "reason": "The title and tags suggest playful cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8z9nea",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8z9nea_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8z9nea_audio.mp3",
+  "duration_sec": 51,
+  "duration_seconds": 51.0,
+  "title": "Ten kot i pies staruszek mają wieczorny rytuał, który poruszył 1,1 mln osób",
+  "webpage_url": "https://www.dailymotion.com/video/x8z9nea",
+  "dm_id": "x8z9nea",
+  "views_total": 15700,
+  "view_count": 15700,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "Ta dwójka to najlepszy przykład na to, że przyjaźnie międzygatunkowe są możliwe!",
+  "created_time": 1717508152,
+  "search_query": "kot głośno miauczy",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat and a dog having a ritual, indicating interspecies interaction.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8z9nea",
+    "decision": "keep",
+    "reason": "The video features a cat and a dog having a ritual, indicating interspecies interaction.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

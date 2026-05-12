@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x9u3ivm",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9u3ivm_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9u3ivm_audio.mp3",
+  "duration_sec": 7,
+  "duration_seconds": 7.0,
+  "title": "funny cat",
+  "webpage_url": "https://www.dailymotion.com/video/x9u3ivm",
+  "dm_id": "x9u3ivm",
+  "views_total": 528,
+  "view_count": 528,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cat",
+    "funny",
+    "meme",
+    "kitty",
+    "kitties",
+    "cats",
+    "pets",
+    "pet",
+    "animals"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1763605632,
+  "search_query": "cat in hunting mode",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and tags suggest it features a real cat.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9u3ivm",
+    "decision": "keep",
+    "reason": "The title and tags suggest it features a real cat.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

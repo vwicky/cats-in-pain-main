@@ -1,0 +1,15 @@
+Top 10 breed guesses (same as fig_03; breed_extracted / GPT)
+============================================================
+
+breed_guess                                             count
+---------------------------------------------------------------
+mixed                                                    6892
+Siamese                                                   108
+British Shorthair                                          68
+Persian                                                    56
+Ragdoll                                                    42
+Bengal                                                     32
+Scottish Fold                                              30
+Russian Blue                                               18
+Maine Coon                                                 12
+Abyssinian                                                 11

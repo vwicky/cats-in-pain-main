@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x91t588",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x91t588_video.mp4",
+  "audio_path": "output/videos/dailymotion_x91t588_audio.mp3",
+  "duration_sec": 42,
+  "duration_seconds": 42.0,
+  "title": "La nouvelle-Zélande en roue libre !",
+  "webpage_url": "https://www.dailymotion.com/video/x91t588",
+  "dm_id": "x91t588",
+  "views_total": 5770,
+  "view_count": 5770,
+  "likes_total": 9,
+  "like_count": 9,
+  "tags": [],
+  "channel": "school",
+  "channel_title": "school",
+  "language": "fr",
+  "query_language": "French",
+  "description": "340 chats sauvages abattus en Nouvelle-Zélande ! <br /><br />Celui qui en tue le plus gagne 550€ . 1500 personnes, dont 440 enfants , ont participé !  L’année dernière, il y avait même une catégorie pour les moins de 14 ans. <br /><br />Les organisateurs parlent de régulation, mais les méthodes non létales comme la stérilisation sont plus efficaces et humaines. ✂<br /><br />Et l’organisateur ? Il s’en fiche de ce qu’on pense ! <br /><br />Partage cette vidéo pour dire STOP à cette barbarie ! <br /><br />#maltraitanceanimale #chat",
+  "created_time": 1720528978,
+  "search_query": "chats qui parlent aux oiseaux",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses the culling of feral cats in New Zealand, relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x91t588",
+    "decision": "keep",
+    "reason": "The video discusses the culling of feral cats in New Zealand, relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

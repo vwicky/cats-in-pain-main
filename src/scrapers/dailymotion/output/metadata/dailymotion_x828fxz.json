@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x828fxz",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x828fxz_video.mp4",
+  "audio_path": "output/videos/dailymotion_x828fxz_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "Ce chat qui vole de l'argent est plus riche que vous ! Ses gains sont",
+  "webpage_url": "https://www.dailymotion.com/video/x828fxz",
+  "dm_id": "x828fxz",
+  "views_total": 14200,
+  "view_count": 14200,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Société",
+    "Vidéos"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": " ",
+  "created_time": 1624624663,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title suggests a cat-related theme.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x828fxz",
+    "decision": "keep",
+    "reason": "Title suggests a cat-related theme.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

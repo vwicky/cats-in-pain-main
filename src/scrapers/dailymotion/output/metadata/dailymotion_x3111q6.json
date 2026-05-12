@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3111q6",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3111q6_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3111q6_audio.mp3",
+  "duration_sec": 9,
+  "duration_seconds": 9.0,
+  "title": "Кот турникмен!",
+  "webpage_url": "https://www.dailymotion.com/video/x3111q6",
+  "dm_id": "x3111q6",
+  "views_total": 11181,
+  "view_count": 11181,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Кот турникмен!",
+  "created_time": 1439157951,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat engaging in an activity, likely playful.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3111q6",
+    "decision": "keep",
+    "reason": "The title suggests a cat engaging in an activity, likely playful.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

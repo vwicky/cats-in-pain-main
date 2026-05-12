@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x9k3as",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9k3as_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9k3as_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Chat qui frappe à la porte",
+  "webpage_url": "https://www.dailymotion.com/video/x9k3as",
+  "dm_id": "x9k3as",
+  "views_total": 772,
+  "view_count": 772,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "qui",
+    "frappe",
+    "porte"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1244740611,
+  "search_query": "chat qui miaule pour de la nourriture",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat interacting with its environment by knocking on a door.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9k3as",
+    "decision": "keep",
+    "reason": "The title suggests a cat interacting with its environment by knocking on a door.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

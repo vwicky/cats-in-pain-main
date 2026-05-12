@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x777p8s",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x777p8s_video.mp4",
+  "audio_path": "output/videos/dailymotion_x777p8s_audio.mp3",
+  "duration_sec": 21,
+  "duration_seconds": 21.0,
+  "title": "Surprenant ! Rien ne réveille ce gros chat quand il dort.",
+  "webpage_url": "https://www.dailymotion.com/video/x777p8s",
+  "dm_id": "x777p8s",
+  "views_total": 20709,
+  "view_count": 20709,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1556806372,
+  "search_query": "chat détendu qui dort",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat sleeping soundly, which is typical cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x777p8s",
+    "decision": "keep",
+    "reason": "The video shows a cat sleeping soundly, which is typical cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x9iroz0",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9iroz0_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9iroz0_audio.mp3",
+  "duration_sec": 55,
+  "duration_seconds": 55.0,
+  "title": "Pourquoi mon chat me mordille-t-il parfois ? L'éclairage de Gaëlle Le Calonnec, docteure vétérinaire",
+  "webpage_url": "https://www.dailymotion.com/video/x9iroz0",
+  "dm_id": "x9iroz0",
+  "views_total": 895030,
+  "view_count": 895030,
+  "likes_total": 5,
+  "like_count": 5,
+  "tags": [
+    "animaux",
+    "vétérinaire",
+    "chat",
+    "santé du chat",
+    "interview"
+  ],
+  "channel": "tv",
+  "channel_title": "tv",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1746014940,
+  "search_query": "chat chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses cat behavior with a veterinarian's perspective.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9iroz0",
+    "decision": "keep",
+    "reason": "The video discusses cat behavior with a veterinarian's perspective.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

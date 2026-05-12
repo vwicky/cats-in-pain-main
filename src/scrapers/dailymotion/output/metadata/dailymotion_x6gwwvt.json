@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x6gwwvt",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6gwwvt_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6gwwvt_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Un chat arrête une bagarre",
+  "webpage_url": "https://www.dailymotion.com/video/x6gwwvt",
+  "dm_id": "x6gwwvt",
+  "views_total": 4323,
+  "view_count": 4323,
+  "likes_total": 2,
+  "like_count": 2,
+  "tags": [
+    "Bagarre",
+    "chat",
+    "arrete"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Le gros félin a trouvé un moyen original pour calmer ses congénères. <br />En Russie, deux chats sont en train de se disputer et s’apprêtent à tout moment à se sauter dessus. Alors que la tension est palpable, un troisième chat débarque et se couche sur le flanc entre ses deux congénères. Sa présence a le mérite d’arrêter la dispute entre les 2 félins qui se séparent.",
+  "created_time": 1522138774,
+  "search_query": "chats qui siffle entre eux",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video depicts a cat intervening in a fight between other cats, indicating social behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6gwwvt",
+    "decision": "keep",
+    "reason": "The video depicts a cat intervening in a fight between other cats, indicating social behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

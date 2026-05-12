@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8452vt",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8452vt_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8452vt_audio.mp3",
+  "duration_sec": 59,
+  "duration_seconds": 59.0,
+  "title": "Un gato se cayó desde la segunda planta de un estadio y unos fanáticos lo salvaron usando una bandera",
+  "webpage_url": "https://www.dailymotion.com/video/x8452vt",
+  "dm_id": "x8452vt",
+  "views_total": 675,
+  "view_count": 675,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Portuguese",
+  "description": "Todo un estadio se olvidó del partido que fue a ver para concentrarse en una acción mucho más impactante: un gato que luchaba por no caer desde las gradas. Ante los gritos de miles de aficionados, afortunadamente esta historia tuvo un final feliz.",
+  "created_time": 1631567521,
+  "search_query": "gato doente no veterinário",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat being rescued, which is relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8452vt",
+    "decision": "keep",
+    "reason": "The video features a cat being rescued, which is relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

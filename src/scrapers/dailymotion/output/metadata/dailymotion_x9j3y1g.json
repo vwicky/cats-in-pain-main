@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9j3y1g",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9j3y1g_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9j3y1g_audio.mp3",
+  "duration_sec": 21,
+  "duration_seconds": 21.0,
+  "title": "Opiekunka niechcący nadepnęła kotu na ogon. Jego zemstę obejrzano już 17 milionów razy!",
+  "webpage_url": "https://www.dailymotion.com/video/x9j3y1g",
+  "dm_id": "x9j3y1g",
+  "views_total": 12002,
+  "view_count": 12002,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "Ten kot nie zamierza tak po prostu odpuścić, po tym jak jego właścicielka zrobiła mu krzywdę...",
+  "created_time": 1746618314,
+  "search_query": "kot głośno miauczy",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a cat's reaction to being stepped on, which is plausible.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9j3y1g",
+    "decision": "keep",
+    "reason": "The description indicates a cat's reaction to being stepped on, which is plausible.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

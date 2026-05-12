@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8kuw05",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8kuw05_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8kuw05_audio.mp3",
+  "duration_sec": 13,
+  "duration_seconds": 13.0,
+  "title": "Homem brinca em máquina de bichinhos de pelúcia e é surpreendido por gato dentro da máquina",
+  "webpage_url": "https://www.dailymotion.com/video/x8kuw05",
+  "dm_id": "x8kuw05",
+  "views_total": 5008,
+  "view_count": 5008,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Spanish",
+  "description": "O gato estava dentro da máquina, no local onde se pegam os prêmios, aparentemente tirando uma soneca.<br /><br />Vídeo: Reprodução/Redes Sociais",
+  "created_time": 1683821185,
+  "search_query": "gatos luchando por territorio",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat inside a claw machine, likely involving playful behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8kuw05",
+    "decision": "keep",
+    "reason": "The video features a cat inside a claw machine, likely involving playful behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x95lt46",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x95lt46_video.mp4",
+  "audio_path": "output/videos/dailymotion_x95lt46_audio.mp3",
+  "duration_sec": 21,
+  "duration_seconds": 21.0,
+  "title": "Il s’approche de son chat en plein toilettage : 8 millions de personnes le jugent (Vidéo)",
+  "webpage_url": "https://www.dailymotion.com/video/x95lt46",
+  "dm_id": "x95lt46",
+  "views_total": 3450,
+  "view_count": 3450,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Les chats passent beaucoup de temps à se toiletter et n’apprécient pas forcément d’être interrompus dans ces moments.",
+  "created_time": 1726236919,
+  "search_query": "courtes vidéos de chats en chasse",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a cat grooming itself, which is a common behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x95lt46",
+    "decision": "keep",
+    "reason": "The video discusses a cat grooming itself, which is a common behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

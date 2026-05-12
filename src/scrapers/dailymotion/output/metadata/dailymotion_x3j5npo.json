@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x3j5npo",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3j5npo_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3j5npo_audio.mp3",
+  "duration_sec": 24,
+  "duration_seconds": 24.0,
+  "title": "Ce Bébé chat ninja attaque sa maman",
+  "webpage_url": "https://www.dailymotion.com/video/x3j5npo",
+  "dm_id": "x3j5npo",
+  "views_total": 791,
+  "view_count": 791,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Chaton",
+    "Animal",
+    "LOL",
+    "chat",
+    "bébé chat",
+    "animal de compagnie",
+    "chat ninja",
+    "marrant"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Ce Bébé chat ninja attaque sa maman",
+  "created_time": 1450877388,
+  "search_query": "chat sautant sur sa proie",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a kitten playfully attacking its mother, which is typical behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3j5npo",
+    "decision": "keep",
+    "reason": "The title indicates a kitten playfully attacking its mother, which is typical behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

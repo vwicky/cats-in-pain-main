@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x5jhcgk",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5jhcgk_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5jhcgk_audio.mp3",
+  "duration_sec": 48,
+  "duration_seconds": 48.0,
+  "title": "Veja a reação deste gato ao poder de sucção de um aspirador de pó, HILÁRIO! — Aumente o volume.",
+  "webpage_url": "https://www.dailymotion.com/video/x5jhcgk",
+  "dm_id": "x5jhcgk",
+  "views_total": 1035,
+  "view_count": 1035,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Gato"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "Portuguese",
+  "description": "",
+  "created_time": 1493009430,
+  "search_query": "comportamento de um gato ferido",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat reacting to a vacuum cleaner, indicating real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5jhcgk",
+    "decision": "keep",
+    "reason": "The video features a cat reacting to a vacuum cleaner, indicating real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

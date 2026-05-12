@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8uxufu",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8uxufu_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8uxufu_audio.mp3",
+  "duration_sec": 18,
+  "duration_seconds": 18.0,
+  "title": "Elle s'inquiète pour la patte de son chat et tombe des nues en découvrant la manigance (vidéo)",
+  "webpage_url": "https://www.dailymotion.com/video/x8uxufu",
+  "dm_id": "x8uxufu",
+  "views_total": 6745,
+  "view_count": 6745,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "On dit souvent que les chats sont des animaux plus indépendants que les chiens...",
+  "created_time": 1710864518,
+  "search_query": "bruits de reproduction des chats",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests concern for a cat's paw, indicating a potential pain or vet context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8uxufu",
+    "decision": "keep",
+    "reason": "The title suggests concern for a cat's paw, indicating a potential pain or vet context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

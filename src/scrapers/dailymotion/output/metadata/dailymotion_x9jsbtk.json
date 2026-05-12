@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x9jsbtk",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9jsbtk_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9jsbtk_audio.mp3",
+  "duration_sec": 15,
+  "duration_seconds": 15.0,
+  "title": "Ce chat se prend pour spiderman",
+  "webpage_url": "https://www.dailymotion.com/video/x9jsbtk",
+  "dm_id": "x9jsbtk",
+  "views_total": 3561,
+  "view_count": 3561,
+  "likes_total": 48,
+  "like_count": 48,
+  "tags": [
+    "chat",
+    "animal",
+    "spiderman",
+    "drole",
+    "fun",
+    "rigolo"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Ce chat se prend pour spiderman<br />Wall Cat",
+  "created_time": 1747764803,
+  "search_query": "chats se reposant paisiblement",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat engaging in playful behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9jsbtk",
+    "decision": "keep",
+    "reason": "The title suggests a cat engaging in playful behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

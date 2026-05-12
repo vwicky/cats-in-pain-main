@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8ad2cp",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8ad2cp_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8ad2cp_audio.mp3",
+  "duration_sec": 35,
+  "duration_seconds": 35.0,
+  "title": "Gatinho morre ao ser atropelado por veículo na Av. Tancredo Neves",
+  "webpage_url": "https://www.dailymotion.com/video/x8ad2cp",
+  "dm_id": "x8ad2cp",
+  "views_total": 896,
+  "view_count": 896,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Gatinho morre ao ser atropelado por veículo na Av. Tancredo Neves",
+  "created_time": 1651048595,
+  "search_query": "gatinhos brincalhões relaxando",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat that was hit by a vehicle, suggesting a serious context related to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8ad2cp",
+    "decision": "keep",
+    "reason": "The title indicates a cat that was hit by a vehicle, suggesting a serious context related to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

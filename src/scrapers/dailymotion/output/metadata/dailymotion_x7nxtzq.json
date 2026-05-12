@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x7nxtzq",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7nxtzq_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7nxtzq_audio.mp3",
+  "duration_sec": 16,
+  "duration_seconds": 16.0,
+  "title": "Vídeo viral: Olvida cerrar la ventanilla de su coche, lo encuentra ocupado por gatos y se desata el caos absoluto",
+  "webpage_url": "https://www.dailymotion.com/video/x7nxtzq",
+  "dm_id": "x7nxtzq",
+  "views_total": 563,
+  "view_count": 563,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "coche",
+    "gatos"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Portuguese",
+  "description": "Fuente:RS",
+  "created_time": 1573640023,
+  "search_query": "vídeos curtos de gatos caçando",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows cats causing chaos in a car, indicating real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7nxtzq",
+    "decision": "keep",
+    "reason": "The video shows cats causing chaos in a car, indicating real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

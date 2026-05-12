@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x6f3gyy",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6f3gyy_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6f3gyy_audio.mp3",
+  "duration_sec": 8,
+  "duration_seconds": 8.0,
+  "title": "Un chat en mode rien à foutre",
+  "webpage_url": "https://www.dailymotion.com/video/x6f3gyy",
+  "dm_id": "x6f3gyy",
+  "views_total": 1331,
+  "view_count": 1331,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "couche",
+    "escalator",
+    "koreus"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "<br></a><p>Ce media Un chat en mode rien à foutre</a> est apparu en premier sur Koreus.com</a>.</p>",
+  "created_time": 1519229524,
+  "search_query": "chat en mode furtif",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat in a relaxed state, which is plausible.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6f3gyy",
+    "decision": "keep",
+    "reason": "The title suggests a cat in a relaxed state, which is plausible.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

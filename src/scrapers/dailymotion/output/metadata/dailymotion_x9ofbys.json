@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9ofbys",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9ofbys_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9ofbys_audio.mp3",
+  "duration_sec": 44,
+  "duration_seconds": 44.0,
+  "title": "Nachito el gatito de Tijuana que gana corazones",
+  "webpage_url": "https://www.dailymotion.com/video/x9ofbys",
+  "dm_id": "x9ofbys",
+  "views_total": 841,
+  "view_count": 841,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "people",
+  "channel_title": "people",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1754690607,
+  "search_query": "gatitos juguetones relajándose",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title suggests a cat-focused video, likely real cat content.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9ofbys",
+    "decision": "keep",
+    "reason": "Title suggests a cat-focused video, likely real cat content.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

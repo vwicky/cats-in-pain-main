@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x8zqn1c",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8zqn1c_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8zqn1c_audio.mp3",
+  "duration_sec": 26,
+  "duration_seconds": 26.0,
+  "title": "El conmovedor reencuentro de una mujer y su gato tras el incendio que devastó su hogar",
+  "webpage_url": "https://www.dailymotion.com/video/x8zqn1c",
+  "dm_id": "x8zqn1c",
+  "views_total": 10289,
+  "view_count": 10289,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "Mascota",
+    "Gato",
+    "Incendio"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "El gatito apareció vivo 8 días después del incendio #Valencia #IncendioCampanar",
+  "created_time": 1717627345,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a cat's emotional reunion after a fire, suggesting a significant context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8zqn1c",
+    "decision": "keep",
+    "reason": "The description indicates a cat's emotional reunion after a fire, suggesting a significant context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

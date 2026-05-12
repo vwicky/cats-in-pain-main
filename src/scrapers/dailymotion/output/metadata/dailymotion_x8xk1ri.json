@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x8xk1ri",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8xk1ri_video.mp4.part-Frag15.part",
+  "audio_path": "output/videos/dailymotion_x8xk1ri_audio.mp3",
+  "duration_sec": 43,
+  "duration_seconds": 43.0,
+  "title": "Gato sobrevive após pular do 3º andar em prédio que pegou fogo no PR",
+  "webpage_url": "https://www.dailymotion.com/video/x8xk1ri",
+  "dm_id": "x8xk1ri",
+  "views_total": 7805,
+  "view_count": 7805,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "curitiba",
+    "incêndio",
+    "gato",
+    "susto",
+    "chocante"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Um vídeo mostra o exato momento em que o animal aparece na janela e pula para tentar fugir das chamas",
+  "created_time": 1714227736,
+  "search_query": "gato feliz ronronando",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat escaping from a fire, indicating a real cat behavior context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8xk1ri",
+    "decision": "keep",
+    "reason": "The video shows a cat escaping from a fire, indicating a real cat behavior context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

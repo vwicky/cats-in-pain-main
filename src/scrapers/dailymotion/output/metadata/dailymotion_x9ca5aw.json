@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9ca5aw",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9ca5aw_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9ca5aw_audio.mp3",
+  "duration_sec": 40,
+  "duration_seconds": 40.0,
+  "title": "Dos gatos protagonizan una romántica pelea en medio de la calle",
+  "webpage_url": "https://www.dailymotion.com/video/x9ca5aw",
+  "dm_id": "x9ca5aw",
+  "views_total": 704,
+  "view_count": 704,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Dos gatos protagonizan una romántica pelea en medio de la calle",
+  "created_time": 1736771038,
+  "search_query": "signos de malestar en gatos",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a fight between two cats.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9ca5aw",
+    "decision": "keep",
+    "reason": "The title suggests a fight between two cats.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

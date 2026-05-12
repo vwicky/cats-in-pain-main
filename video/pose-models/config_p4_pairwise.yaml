@@ -1,0 +1,84 @@
+# P4 (17-kp) — binary class-pair runs (all C(10,2)=45 unordered pairs) on
+# ``audio_label_10``. Use with ``run_p4_pairwise.py`` (it loads the manifest
+# with the multiclass head, then sets ``training.binary_only: true`` per pair).
+#
+# Stabilized training: lower LR, small batches, more epochs, patient early stop.
+#
+# Example:
+#   .venv/bin/python3 video/pose-models/run_p4_pairwise.py \\
+#     --config video/pose-models/config_p4_pairwise.yaml \\
+#     --experiment-name p4_pairwise_10
+
+# ── Data ────────────────────────────────────────────────────
+data:
+  manifest: "src/dataset_construction/manifests/final_dataset_v2.jsonl"
+  pose_v1_dir: "data/dataset/embeddings/pose/labeled"
+  pose_v2_dir: "data/dataset/embeddings/pose/v2"
+  pose_extraction_index: "src/dataset_construction/reports/pose_extraction_index.jsonl"
+  vitpose_qc:
+    filter: true
+    enrichment: "src/dataset_construction/reports/vitpose_qc_enrichment.jsonl"
+    default_ok_if_missing: true
+    attach_enrichment_columns: true
+  n_frames: 35
+  n_keypoints: 17
+  n_channels: 3
+  # Speed: cache normalized (pose, mask) tensors (see data_engineering.PoseDataset)
+  pose_cache:
+    backend: ram # ram (default) | disk | off
+    # disk_dir: "video/pose-models/cache/vit_poses"  # if backend: disk
+
+# ── Label space (10-way load; per-pair training is binary-only) ──────────
+labels:
+  classes:
+    - Angry
+    - Defence
+    - Fighting
+    - Happy
+    - HuntingMind
+    - Mating
+    - MotherCall
+    - Paining
+    - Resting
+    - Warning
+  binary_pain_class: "Paining"
+  label_field: "audio_label_10"
+  confidence_field: "audio_high_confidence"
+
+# ── Normalization ────────────────────────────────────────────
+normalization:
+  root_joint: 0
+  scale_joints: [5, 6]
+  clamp_xy: [-0.5, 1.5]
+  drop_low_confidence_frames: true
+  confidence_threshold: 0.10
+
+# ── Single train/val split per pair (grouped by cat_id) ─────
+split:
+  n_folds: 5
+  random_state: 42
+  group_field: "cat_id"
+  stratify_field: "audio_label_10"
+  # Optional: pick the SGK fold whose |val|/N is closest to this fraction
+  # val_fraction: 0.2
+
+# ── Training (pairwise: runner sets binary_only=true) ───────
+training:
+  # binary_only: false  # do not set true here — use run_p4_pairwise.py
+  batch_size: 4
+  lr: 0.0001
+  weight_decay: 0.01
+  optimizer: "adamw"
+  scheduler: "cosine"
+  focal_gamma: 2.0
+  use_class_weights: true
+  epochs: 120
+  early_stop_metric: "val_macro_f1_binary"
+  early_stop_patience: 30
+  early_stop_min_delta: 0.0
+  grad_clip_norm: null
+
+# ── Output ───────────────────────────────────────────────────
+output:
+  runs_dir: "video/pose-models/runs"
+  log_interval_batches: 20

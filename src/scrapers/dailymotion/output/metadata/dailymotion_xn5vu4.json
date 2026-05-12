@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_xn5vu4",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xn5vu4_video.mp4",
+  "audio_path": "output/videos/dailymotion_xn5vu4_audio.mp3",
+  "duration_sec": 28,
+  "duration_seconds": 28.0,
+  "title": "Cat on the Bird House",
+  "webpage_url": "https://www.dailymotion.com/video/xn5vu4",
+  "dm_id": "xn5vu4",
+  "views_total": 1846,
+  "view_count": 1846,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cats",
+    "kitty",
+    "kittens",
+    "bird",
+    "budgie",
+    "parrot",
+    "pets",
+    "animals",
+    "cute",
+    "cage"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "Ralph, the cat, leaps on the bird, cage and enjoys a free pedicure!",
+  "created_time": 1324499250,
+  "search_query": "cat chattering at birds",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description suggests a cat interacting with a bird cage.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xn5vu4",
+    "decision": "keep",
+    "reason": "The description suggests a cat interacting with a bird cage.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

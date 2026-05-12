@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9bbp8o",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9bbp8o_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9bbp8o_audio.mp3",
+  "duration_sec": 11,
+  "duration_seconds": 11.0,
+  "title": "La llamativa relación entre un perro y un gato: \"Nunca se abandonarán el uno al otro\"",
+  "webpage_url": "https://www.dailymotion.com/video/x9bbp8o",
+  "dm_id": "x9bbp8o",
+  "views_total": 1287,
+  "view_count": 1287,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1735116331,
+  "search_query": "gatos trinos y charlas",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a relationship between a dog and a cat, indicating possible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9bbp8o",
+    "decision": "keep",
+    "reason": "The title suggests a relationship between a dog and a cat, indicating possible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

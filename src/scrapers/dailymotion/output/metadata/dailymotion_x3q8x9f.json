@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x3q8x9f",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3q8x9f_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3q8x9f_audio.mp3",
+  "duration_sec": 40,
+  "duration_seconds": 40.0,
+  "title": "Все самые смешные и короткие видео (2)",
+  "webpage_url": "https://www.dailymotion.com/video/x3q8x9f",
+  "dm_id": "x3q8x9f",
+  "views_total": 1118,
+  "view_count": 1118,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "real",
+    "fun",
+    "video",
+    "clip",
+    "приколы",
+    "приколы лучшие"
+  ],
+  "channel": "people",
+  "channel_title": "people",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1454516078,
+  "search_query": "короткие видео с кошками",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a compilation of funny videos, likely including cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3q8x9f",
+    "decision": "keep",
+    "reason": "The title suggests a compilation of funny videos, likely including cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

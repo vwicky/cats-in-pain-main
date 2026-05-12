@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8y54pm",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8y54pm_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8y54pm_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "Mon chat prédit qui va gagner entre le PSG et Dortmund…",
+  "webpage_url": "https://www.dailymotion.com/video/x8y54pm",
+  "dm_id": "x8y54pm",
+  "views_total": 2487,
+  "view_count": 2487,
+  "likes_total": 19,
+  "like_count": 19,
+  "tags": [],
+  "channel": "people",
+  "channel_title": "people",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1715073483,
+  "search_query": "chats qui siffle entre eux",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's behavior related to predicting outcomes.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8y54pm",
+    "decision": "keep",
+    "reason": "The title suggests a cat's behavior related to predicting outcomes.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

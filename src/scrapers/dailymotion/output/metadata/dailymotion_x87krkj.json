@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x87krkj",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x87krkj_video.mp4",
+  "audio_path": "output/videos/dailymotion_x87krkj_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "Ce petit chat qui vient de naître est adorable",
+  "webpage_url": "https://www.dailymotion.com/video/x87krkj",
+  "dm_id": "x87krkj",
+  "views_total": 709,
+  "view_count": 709,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "uuid_c8ad57a1-6f75-4469-9de2-18bc2683bfb6",
+    "guid_85778",
+    "chat",
+    "chaton",
+    "animal"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1643909407,
+  "search_query": "vidéos de chats qui parlent",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a newborn kitten, likely showcasing its behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x87krkj",
+    "decision": "keep",
+    "reason": "The title indicates a newborn kitten, likely showcasing its behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

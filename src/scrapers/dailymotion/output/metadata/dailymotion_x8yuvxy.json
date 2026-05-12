@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x8yuvxy",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8yuvxy_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8yuvxy_audio.mp3",
+  "duration_sec": 36,
+  "duration_seconds": 36.0,
+  "title": "ORUAM viraliza após ser arranhado por 'gato' que custa R$ 100 mil",
+  "webpage_url": "https://www.dailymotion.com/video/x8yuvxy",
+  "dm_id": "x8yuvxy",
+  "views_total": 787,
+  "view_count": 787,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gato",
+    "gatosavannah",
+    "serval",
+    "gatoserval"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Spanish",
+  "description": "O rapper brasileiro Oruam mostrou nas redes sociais o \"tratamento carinhoso\" que ele recebe do seu gato de estimação.<br /><br />#gato #gatosavannah #serval #gatoserval #oruam #av #ba",
+  "created_time": 1716323812,
+  "search_query": "gatos luchando por territorio",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description suggest affectionate behavior from a cat.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8yuvxy",
+    "decision": "keep",
+    "reason": "The title and description suggest affectionate behavior from a cat.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

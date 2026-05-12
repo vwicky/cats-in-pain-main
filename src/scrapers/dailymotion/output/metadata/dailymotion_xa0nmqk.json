@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_xa0nmqk",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xa0nmqk_video.mp4",
+  "audio_path": "output/videos/dailymotion_xa0nmqk_audio.mp3",
+  "duration_sec": 35,
+  "duration_seconds": 35.0,
+  "title": "Cat surprises a boy by grabbing the item in his hand and waking him abruptly",
+  "webpage_url": "https://www.dailymotion.com/video/xa0nmqk",
+  "dm_id": "xa0nmqk",
+  "views_total": 8753,
+  "view_count": 8753,
+  "likes_total": 3,
+  "like_count": 3,
+  "tags": [
+    "Russia",
+    "Shareable",
+    "Entertainment",
+    "Funny",
+    "Hilarious",
+    "Cat",
+    "Animal Antics",
+    "Sleeping",
+    "Wait for it",
+    "Epic Reaction"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "Hilarious footage has surfaced of a cat teaching its human sibling why one should never drop their guard, even while sleeping. <br /><br />The kitty sneaks up on the subject, who appears to be taking a nap. The feline then decides to claim ownership of the item in the sleeping lad’s hand, causing him to wake up and get startled by the unexpected sight in front of him. <br /><br />There’s no doubt that whatever he was dreaming about was the complete opposite of the vibe he experienced the moment he opened his eyes.<br />WooGlobe Ref : WGA842776<br />For licensing and to use this video, please email licensing@wooglobe.com",
+  "created_time": 1771941678,
+  "search_query": "cats battling for territory",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat interacting humorously with a boy.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xa0nmqk",
+    "decision": "keep",
+    "reason": "The video shows a cat interacting humorously with a boy.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

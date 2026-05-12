@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x4127v4",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x4127v4_video.mp4",
+  "audio_path": "output/videos/dailymotion_x4127v4_audio.mp3",
+  "duration_sec": 43,
+  "duration_seconds": 43.0,
+  "title": "Les yeux du chat Gimo vont vous faire fondre",
+  "webpage_url": "https://www.dailymotion.com/video/x4127v4",
+  "dm_id": "x4127v4",
+  "views_total": 2117,
+  "view_count": 2117,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Gimo",
+    "chat",
+    "yeux",
+    "1room1cat"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Non, Gimo, n’est pas un chat cocainoman. Pourtant, ce petit chaton Scottish Fold a un regard bien particulier. Avec ses immenses rétines, cette boule de poils fixe avec des yeux hyptoniques et semble toujours avoir l’air étonné. Un petit chat qui n’a rien à envier aux grands, puisqu’il est suivi par plus de 150 000 personnes sur Instagram. Pour ne rien manquer des aventures de cet animal mi-chat, mi-hibou, suivez le compte 1room1cat.",
+  "created_time": 1459414812,
+  "search_query": "chat heureux qui ronronne",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat with a unique appearance, suggesting real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x4127v4",
+    "decision": "keep",
+    "reason": "The video features a cat with a unique appearance, suggesting real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x852tyz",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x852tyz_video.mp4",
+  "audio_path": "output/videos/dailymotion_x852tyz_audio.mp3",
+  "duration_sec": 25,
+  "duration_seconds": 25.0,
+  "title": "Qui a dit que les chats n'étaient pas solidaires",
+  "webpage_url": "https://www.dailymotion.com/video/x852tyz",
+  "dm_id": "x852tyz",
+  "views_total": 2314,
+  "view_count": 2314,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "animal",
+    "drole",
+    "solidaire",
+    "chat lol",
+    "chat drole"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Qui a dit que les chats n'étaient pas solidaires",
+  "created_time": 1635172393,
+  "search_query": "chats qui s'appellent",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a positive portrayal of cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x852tyz",
+    "decision": "keep",
+    "reason": "The title suggests a positive portrayal of cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

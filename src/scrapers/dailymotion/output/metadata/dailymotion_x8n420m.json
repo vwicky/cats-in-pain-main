@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8n420m",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8n420m_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8n420m_audio.mp3",
+  "duration_sec": 31,
+  "duration_seconds": 31.0,
+  "title": "Mientras busca a su gato perdido mira hacia la casa del vecino y no puede creer lo que ve (Vídeo)",
+  "webpage_url": "https://www.dailymotion.com/video/x8n420m",
+  "dm_id": "x8n420m",
+  "views_total": 10447,
+  "view_count": 10447,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Después de buscar a su gato por todas partes, descubre que su felino le ha traicionado. La verdad le rompe el corazón en mil pedazos.<br /><br />https://wamiz.es/noticias/162178/gato-perdido-casa-vecino-sorpresa",
+  "created_time": 1691592049,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a narrative involving a lost cat, suggesting real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8n420m",
+    "decision": "keep",
+    "reason": "The title indicates a narrative involving a lost cat, suggesting real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

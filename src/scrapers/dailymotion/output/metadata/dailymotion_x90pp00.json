@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x90pp00",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x90pp00_video.mp4",
+  "audio_path": "output/videos/dailymotion_x90pp00_audio.mp3",
+  "duration_sec": 13,
+  "duration_seconds": 13.0,
+  "title": "Dziewczyna wyjeżdża na studia: Jej kotka znajduje wzruszający sposób, by pokazać jej, jak bardzo tęskni",
+  "webpage_url": "https://www.dailymotion.com/video/x90pp00",
+  "dm_id": "x90pp00",
+  "views_total": 16861,
+  "view_count": 16861,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "Gdy Ayssa wyjechała na studia, jej kotka Winnie znalazła niesamowity sposób, aby pokazać jej jak bardzo tęskni.",
+  "created_time": 1718982728,
+  "search_query": "chora kotka u weterynarza",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Video features a cat showing emotional behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x90pp00",
+    "decision": "keep",
+    "reason": "Video features a cat showing emotional behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

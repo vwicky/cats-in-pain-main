@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x5hdr28",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5hdr28_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5hdr28_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "Cat Awestruck at New Scratching Post",
+  "webpage_url": "https://www.dailymotion.com/video/x5hdr28",
+  "dm_id": "x5hdr28",
+  "views_total": 1016,
+  "view_count": 1016,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Kenosha-Wisconsin",
+    "Scratching post"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "<p>This cat is absolutely awestruck with his new toy. His owner got him a scratching post and the crazy kitty completely lost his mind. Credit: Derek Zimmerman via Storyful</p><br />",
+  "created_time": 1491451272,
+  "search_query": "cat at vet checkup",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat interacting with a scratching post, indicating playful behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5hdr28",
+    "decision": "keep",
+    "reason": "The video shows a cat interacting with a scratching post, indicating playful behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

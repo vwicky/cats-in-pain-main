@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9t1m7q",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9t1m7q_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9t1m7q_audio.mp3",
+  "duration_sec": 54,
+  "duration_seconds": 54.0,
+  "title": "Un gatto interrompe Gasperini in conferenza: \"Risponde lui per me\"",
+  "webpage_url": "https://www.dailymotion.com/video/x9t1m7q",
+  "dm_id": "x9t1m7q",
+  "views_total": 33667,
+  "view_count": 33667,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "sport",
+  "channel_title": "sport",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "Episodio curioso successo in conferenza con protagonisti il tecnico della Roma e... un gatto! L'animale si è intrufolato nella sala stampa e ha cominciato a miagolare rumorosamente, costringendo l'allenatore a fermarsi. La sua reazione è tutta da ridere!",
+  "created_time": 1762007274,
+  "search_query": "comportamento di un gatto ferito",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat vocalizing during a conference.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9t1m7q",
+    "decision": "keep",
+    "reason": "The video features a cat vocalizing during a conference.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

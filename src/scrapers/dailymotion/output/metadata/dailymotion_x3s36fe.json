@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x3s36fe",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3s36fe_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3s36fe_audio.mp3",
+  "duration_sec": 35,
+  "duration_seconds": 35.0,
+  "title": "Атаки Cat пение карту",
+  "webpage_url": "https://www.dailymotion.com/video/x3s36fe",
+  "dm_id": "x3s36fe",
+  "views_total": 560,
+  "view_count": 560,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "video",
+    "fun",
+    "funny",
+    "real",
+    "смешно",
+    "смешно животные"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Большинство кошек предпочитает одиночный образ жизни. Поэтому с этим главные приемы охоты у них — это нападение из засады либо очень осторожное, практически бесшумное приближение к своей добыче",
+  "created_time": 1455478439,
+  "search_query": "агрессивное поведение кошек",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description discusses cat hunting behavior, which is relevant to real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3s36fe",
+    "decision": "keep",
+    "reason": "The description discusses cat hunting behavior, which is relevant to real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_xxxz9a",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xxxz9a_video.mp4",
+  "audio_path": "output/videos/dailymotion_xxxz9a_audio.mp3",
+  "duration_sec": 35,
+  "duration_seconds": 35.0,
+  "title": "Un chat joue au ping-pong",
+  "webpage_url": "https://www.dailymotion.com/video/xxxz9a",
+  "dm_id": "xxxz9a",
+  "views_total": 536,
+  "view_count": 536,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "vidéo",
+    "Vidéos Buzz",
+    "Humour",
+    "buzz"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "<p>Installé derrière le filet d'une table de ping-pong, un chat joue avec un enfant et lui renvoie la balle. </p>",
+  "created_time": 1362397268,
+  "search_query": "chat heureux qui joue",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description suggests a cat playing with a child, which is a common playful behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xxxz9a",
+    "decision": "keep",
+    "reason": "The description suggests a cat playing with a child, which is a common playful behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

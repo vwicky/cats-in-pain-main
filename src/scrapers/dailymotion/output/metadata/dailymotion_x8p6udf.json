@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x8p6udf",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8p6udf_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8p6udf_audio.mp3",
+  "duration_sec": 35,
+  "duration_seconds": 35.0,
+  "title": "Comment stopper une baston de chats",
+  "webpage_url": "https://www.dailymotion.com/video/x8p6udf",
+  "dm_id": "x8p6udf",
+  "views_total": 709,
+  "view_count": 709,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "drole",
+    "insolite",
+    "animal",
+    "humour",
+    "animal de compagnie",
+    "lol"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Comment stopper une baston de chats<br />How To Break Up A Cat Fight",
+  "created_time": 1698654169,
+  "search_query": "bagarre de chats dehors",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description suggest a focus on breaking up a cat fight.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8p6udf",
+    "decision": "keep",
+    "reason": "The title and description suggest a focus on breaking up a cat fight.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

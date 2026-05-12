@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x6mo8i",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6mo8i_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6mo8i_audio.mp3",
+  "duration_sec": 39,
+  "duration_seconds": 39.0,
+  "title": "Un chat qui devient fou",
+  "webpage_url": "https://www.dailymotion.com/video/x6mo8i",
+  "dm_id": "x6mo8i",
+  "views_total": 608,
+  "view_count": 608,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "fou",
+    "papier",
+    "toilette"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un chat qui s'en prends au rouleau de papier toilettes !",
+  "created_time": 1220351581,
+  "search_query": "chat blessé qui boite",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates playful behavior of a cat.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6mo8i",
+    "decision": "keep",
+    "reason": "The description indicates playful behavior of a cat.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

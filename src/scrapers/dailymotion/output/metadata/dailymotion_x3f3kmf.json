@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x3f3kmf",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3f3kmf_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3f3kmf_audio.mp3",
+  "duration_sec": 24,
+  "duration_seconds": 24.0,
+  "title": "Потешный ласковый котик",
+  "webpage_url": "https://www.dailymotion.com/video/x3f3kmf",
+  "dm_id": "x3f3kmf",
+  "views_total": 4769,
+  "view_count": 4769,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Jokes",
+    "видео приколы",
+    "prank",
+    "короткие приколы",
+    "свежее видео",
+    "смотреть бесплатно видео",
+    "приколы видео девушки",
+    "приколы с животными",
+    "приколы 2015",
+    "приколы с кошками"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Видео приколы, свежие приколы, смотреть приколы, ютуб видео приколы, приколы 2015, приколы 2016, приколы бесплатно, приколы с пьяными, приколы с девушками, пьяные приколы, приколы до слез, приколы с пьяными девушками, смешные приколы, новые приколы, русские приколы, скачать приколы, приколы лета, приколы зимы, лучшее за ноябрь, лучшее за декабрь, смешные видео, самые смешные, смешно до слез, смешное 2015, очень смешные видео приколы, смешные животные, бесплатное видео, смотреть видео, видео онлайн, русское видео, девушки видео, смех, ржач, 2015, 2016, смешно, угар, нелепые приколы, лучшие приколы, самое интересное, приколы над людьми, дикий ржач, приколы с животными, нарезка приколов, мегаприкол, супер прикол, веселый, позитив, настроение, улетное видео, кошки, собаки, умора, best joke, <br />joke, hard joke, smail, подборка приколов, ржач 2015, ржач 2016, фейлы, prokol, мега прикол, неудачи, падения, нарезка неудач, ютуб подборка, подборка лучших приколов, подборка смешных приколов, coub, funny mooments, funny jokes, prank, приколы за неделю, розыгрыши, забавные видео, падения, угарные приколы, убойные приколы, fail compilation, vine copmilation, приколюха, смотреть бесплатно видео, смотреть видео онлайн, смотреть видео, приколы видео девушки 18, приколы на дорогах, приколы в прямом эфире, приколы с детьми",
+  "created_time": 1448264107,
+  "search_query": "кошки, шипящие на птиц",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and tags suggest the video features a cat in a humorous context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3f3kmf",
+    "decision": "keep",
+    "reason": "The title and tags suggest the video features a cat in a humorous context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

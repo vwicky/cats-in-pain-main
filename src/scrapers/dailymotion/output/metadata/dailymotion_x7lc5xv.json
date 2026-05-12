@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x7lc5xv",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7lc5xv_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7lc5xv_audio.mp3",
+  "duration_sec": 16,
+  "duration_seconds": 16.0,
+  "title": "Los 4 gatos con 'botas' acosan y derriban a la cobra venenosa",
+  "webpage_url": "https://www.dailymotion.com/video/x7lc5xv",
+  "dm_id": "x7lc5xv",
+  "views_total": 8618,
+  "view_count": 8618,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gatos",
+    "cobra",
+    "redes sociales"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Fuente: Twitter<br /><br />Cuatro gatos con coraje que acosan y derriban a una  cobra consiguen triunfar en las redes sociales",
+  "created_time": 1568795963,
+  "search_query": "gatos hablando con pájaros",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates cats interacting with a cobra, suggesting real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7lc5xv",
+    "decision": "keep",
+    "reason": "The title indicates cats interacting with a cobra, suggesting real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

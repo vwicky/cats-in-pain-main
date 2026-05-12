@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_xtsag2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xtsag2_video.mp4",
+  "audio_path": "output/videos/dailymotion_xtsag2_audio.mp3",
+  "duration_sec": 55,
+  "duration_seconds": 55.0,
+  "title": "Летающий кот",
+  "webpage_url": "https://www.dailymotion.com/video/xtsag2",
+  "dm_id": "xtsag2",
+  "views_total": 1121,
+  "view_count": 1121,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "летающий кот"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Летающий кот",
+  "created_time": 1348295697,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description suggest a cat-related video.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xtsag2",
+    "decision": "keep",
+    "reason": "The title and description suggest a cat-related video.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

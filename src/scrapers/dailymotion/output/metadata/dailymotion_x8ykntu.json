@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8ykntu",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8ykntu_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8ykntu_audio.mp3",
+  "duration_sec": 33,
+  "duration_seconds": 33.0,
+  "title": "Pierwszy dzień kota w domu: to video ubawiło 5 mln  osób!",
+  "webpage_url": "https://www.dailymotion.com/video/x8ykntu",
+  "dm_id": "x8ykntu",
+  "views_total": 39771,
+  "view_count": 39771,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "Wielu opiekunów tego doświadczyło, ale niezmiennie nas to bawi.",
+  "created_time": 1716170440,
+  "search_query": "zrelaksowane koty w domu",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's first day at home, likely involving real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8ykntu",
+    "decision": "keep",
+    "reason": "The title suggests a cat's first day at home, likely involving real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

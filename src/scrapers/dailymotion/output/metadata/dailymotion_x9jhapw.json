@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9jhapw",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9jhapw_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9jhapw_audio.mp3",
+  "duration_sec": 9,
+  "duration_seconds": 9.0,
+  "title": "On a trouvé les deux voyageurs les plus mignons du monde",
+  "webpage_url": "https://www.dailymotion.com/video/x9jhapw",
+  "dm_id": "x9jhapw",
+  "views_total": 1673,
+  "view_count": 1673,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "travel",
+  "channel_title": "travel",
+  "language": "fr",
+  "query_language": "French",
+  "description": "On a trouvé les deux voyageurs les plus mignons du monde avec @cosa.01 (TikTok)<br /><br />Ces petits chats ont visiblement une passion pour les balades au pied de la montagne. ⛰️ 🐱<br /><br />Identifie ton pote avec qui te fais penser à cette vidéo 😍<br /><br />N’oublie pas de t’abonner à @les_splendeursdumonde<br /><br />#montagne #chats #petitchat #voyage #voyager #lessplendeursdumonde #splendeur #splendeursdumonde",
+  "created_time": 1747211302,
+  "search_query": "récupération du chat après une opération",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features cute cats on a walk, fitting for cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9jhapw",
+    "decision": "keep",
+    "reason": "The video features cute cats on a walk, fitting for cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

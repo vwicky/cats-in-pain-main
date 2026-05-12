@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x5pgwku",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5pgwku_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5pgwku_audio.mp3",
+  "duration_sec": 44,
+  "duration_seconds": 44.0,
+  "title": "Un chat et un chien se chamaillent quand soudain...",
+  "webpage_url": "https://www.dailymotion.com/video/x5pgwku",
+  "dm_id": "x5pgwku",
+  "views_total": 1142,
+  "view_count": 1142,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1496824153,
+  "search_query": "chats se reposant paisiblement",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat and dog interaction.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5pgwku",
+    "decision": "keep",
+    "reason": "The title suggests a cat and dog interaction.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

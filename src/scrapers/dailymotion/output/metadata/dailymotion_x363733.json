@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x363733",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x363733_video.mp4",
+  "audio_path": "output/videos/dailymotion_x363733_audio.mp3",
+  "duration_sec": 19,
+  "duration_seconds": 19.0,
+  "title": "Кота обманули, он разозлился",
+  "webpage_url": "https://www.dailymotion.com/video/x363733",
+  "dm_id": "x363733",
+  "views_total": 16428,
+  "view_count": 16428,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1441903724,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat getting upset, which is a plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x363733",
+    "decision": "keep",
+    "reason": "The title indicates a cat getting upset, which is a plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

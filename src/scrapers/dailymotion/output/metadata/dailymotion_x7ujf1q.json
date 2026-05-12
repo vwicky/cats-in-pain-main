@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x7ujf1q",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7ujf1q_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7ujf1q_audio.mp3",
+  "duration_sec": 51,
+  "duration_seconds": 51.0,
+  "title": "Vídeo de maquilhagem que foi ofuscado por um gato que delirou com o seu reflexo num espelho",
+  "webpage_url": "https://www.dailymotion.com/video/x7ujf1q",
+  "dm_id": "x7ujf1q",
+  "views_total": 3761,
+  "view_count": 3761,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "maquilhagem",
+    "gato",
+    "felino",
+    "espelho"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pt",
+  "query_language": "Spanish",
+  "description": "Neste vídeo sobre maquilhagem, o centro das atenções não foi a jovem que fazia a demonstração, mas sim o seu gato que por algum motivo delirou com o seu reflexo no espelho. O vídeo foi disponibilizado em timelapse e isso dá para ter a ideia do tempo que o felino ficou ali...<br /><br />O gato talvez precise de umas férias.",
+  "created_time": 1592499092,
+  "search_query": "gatos luchando por territorio",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title describes a cat reacting to its reflection, which is a plausible cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7ujf1q",
+    "decision": "keep",
+    "reason": "The title describes a cat reacting to its reflection, which is a plausible cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

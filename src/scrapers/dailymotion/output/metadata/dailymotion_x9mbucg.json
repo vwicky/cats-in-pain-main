@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x9mbucg",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9mbucg_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9mbucg_audio.mp3",
+  "duration_sec": 13,
+  "duration_seconds": 13.0,
+  "title": "Cats in a Fridge? This Plot Twist Is Too Funny to Be Real!",
+  "webpage_url": "https://www.dailymotion.com/video/x9mbucg",
+  "dm_id": "x9mbucg",
+  "views_total": 823,
+  "view_count": 823,
+  "likes_total": 3,
+  "like_count": 3,
+  "tags": [
+    "Entertainment",
+    "Cats",
+    "Cats in Fridge",
+    "Unexpected",
+    "Wait for it",
+    "Fridge",
+    "Funny",
+    "Hilarious",
+    "Pets are Awesome",
+    "Caught on Camera"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "Boredom meets brilliance in this hilariously unexpected moment of feline creativity. When a quiet day turned weird, one cat owner had the wild idea of placing his cats—snug in a cooking pan—inside the fridge for a staged comedy moment. The result? Pure comedy gold that shows just how strong (and silly) the bond between pets and their humans can be.<br /><br />Video ID: WGA473445<br /><br />All the content on Heartsome is managed by WooGlobe<br /><br />For licensing and to use this video, please email licensing(at)Wooglobe(dot)com.<br /><br />►SUBSCRIBE for more Heart touching Videos: <br /><br />-----------------------<br />Copyright - #wooglobe #heartsome <br />#catvideo #funnycats #catinfridge #weirdhumor #viralvideo #catmoments #felinefun #comedyclip",
+  "created_time": 1751713200,
+  "search_query": "two cats in a standoff",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a humorous situation involving real cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9mbucg",
+    "decision": "keep",
+    "reason": "The description indicates a humorous situation involving real cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

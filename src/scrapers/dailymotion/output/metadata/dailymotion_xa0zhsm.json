@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_xa0zhsm",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xa0zhsm_video.mp4",
+  "audio_path": "output/videos/dailymotion_xa0zhsm_audio.mp3",
+  "duration_sec": 9,
+  "duration_seconds": 9.0,
+  "title": "Calm life",
+  "webpage_url": "https://www.dailymotion.com/video/xa0zhsm",
+  "dm_id": "xa0zhsm",
+  "views_total": 807,
+  "view_count": 807,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "people",
+  "channel_title": "people",
+  "language": "fr",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1772388488,
+  "search_query": "calm kitty moments",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a calm setting, possibly involving a cat.",
+  "gpt_confidence": "low",
+  "gpt_filter": {
+    "video_id": "dailymotion_xa0zhsm",
+    "decision": "keep",
+    "reason": "The title suggests a calm setting, possibly involving a cat.",
+    "confidence": "low",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

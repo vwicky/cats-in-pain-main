@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x97l6wk",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x97l6wk_video.mp4",
+  "audio_path": "output/videos/dailymotion_x97l6wk_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Frau rettet ein süßes Kätzchen von der Straße: Erst zu Hause geht ihr ein Licht auf",
+  "webpage_url": "https://www.dailymotion.com/video/x97l6wk",
+  "dm_id": "x97l6wk",
+  "views_total": 7072,
+  "view_count": 7072,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Hinter diesem geretteten Kätzchen verbirgt sich etwas ganz anderes.",
+  "created_time": 1729488951,
+  "search_query": "entspannte Katzen zu Hause",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves rescuing a kitten, which is relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x97l6wk",
+    "decision": "keep",
+    "reason": "The video involves rescuing a kitten, which is relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

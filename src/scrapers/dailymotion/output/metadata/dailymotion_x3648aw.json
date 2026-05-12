@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3648aw",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3648aw_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3648aw_audio.mp3",
+  "duration_sec": 40,
+  "duration_seconds": 40.0,
+  "title": "Разговорчивый кот",
+  "webpage_url": "https://www.dailymotion.com/video/x3648aw",
+  "dm_id": "x3648aw",
+  "views_total": 10210,
+  "view_count": 10210,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1441903801,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a talkative cat, suggesting vocalization.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3648aw",
+    "decision": "keep",
+    "reason": "The title indicates a talkative cat, suggesting vocalization.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

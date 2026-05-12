@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3pf3cx",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3pf3cx_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3pf3cx_audio.mp3",
+  "duration_sec": 28,
+  "duration_seconds": 28.0,
+  "title": "Прикольный микс, состоящий из одного единственного прыжка кота, НО КАКОГО!",
+  "webpage_url": "https://www.dailymotion.com/video/x3pf3cx",
+  "dm_id": "x3pf3cx",
+  "views_total": 7210,
+  "view_count": 7210,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "fun",
+    "cat",
+    "prikoli",
+    "video",
+    "clip",
+    "best",
+    "rolik",
+    "смешно",
+    "comedy"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Ukrainian",
+  "description": "",
+  "created_time": 1454156023,
+  "search_query": "захисна поза кота",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat jumping, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3pf3cx",
+    "decision": "keep",
+    "reason": "The title suggests a cat jumping, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

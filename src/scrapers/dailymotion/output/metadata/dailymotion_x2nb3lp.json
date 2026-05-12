@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x2nb3lp",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2nb3lp_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2nb3lp_audio.mp3",
+  "duration_sec": 15,
+  "duration_seconds": 15.0,
+  "title": "Cat Asks For A Kiss! SO CUTE! ★ funny cats, cute cats, cute kitten, crazy cats, hilarious cats",
+  "webpage_url": "https://www.dailymotion.com/video/x2nb3lp",
+  "dm_id": "x2nb3lp",
+  "views_total": 8926,
+  "view_count": 8926,
+  "likes_total": 4,
+  "like_count": 4,
+  "tags": [
+    "YouTube",
+    "php",
+    "flash",
+    "sql",
+    "dailymotion"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "Cat Asks For A Kiss! SO CUTE! ★ funny cats, cute cats, cute kitten,",
+  "created_time": 1429544811,
+  "search_query": "cats calling for mates",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat asking for a kiss, indicating interaction and real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2nb3lp",
+    "decision": "keep",
+    "reason": "The title suggests a cat asking for a kiss, indicating interaction and real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

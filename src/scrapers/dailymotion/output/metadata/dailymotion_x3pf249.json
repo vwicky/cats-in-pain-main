@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3pf249",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3pf249_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3pf249_audio.mp3",
+  "duration_sec": 32,
+  "duration_seconds": 32.0,
+  "title": "КОТОЛИФТ мега изобретение ПРИКОЛ. Высокотехнологичный кот",
+  "webpage_url": "https://www.dailymotion.com/video/x3pf249",
+  "dm_id": "x3pf249",
+  "views_total": 4107,
+  "view_count": 4107,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "fun",
+    "cat",
+    "prikoli",
+    "video",
+    "clip",
+    "best",
+    "rolik",
+    "смешно",
+    "comedy"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1454156022,
+  "search_query": "кот громко мяукает",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a humorous invention involving a cat, likely showcasing its behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3pf249",
+    "decision": "keep",
+    "reason": "The title suggests a humorous invention involving a cat, likely showcasing its behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

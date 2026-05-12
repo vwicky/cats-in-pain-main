@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x9lt1rk",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9lt1rk_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9lt1rk_audio.mp3",
+  "duration_sec": 58,
+  "duration_seconds": 58.0,
+  "title": "Personel przybywa do kliniki weterynaryjnej. Dziwna pacjentka cierpliwie czeka pod drzwiami",
+  "webpage_url": "https://www.dailymotion.com/video/x9lt1rk",
+  "dm_id": "x9lt1rk",
+  "views_total": 2272,
+  "view_count": 2272,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "News Kot"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "Ta pacjentka wiedziała, co robić, gdy jej dziecko zachorowało.",
+  "created_time": 1750751200,
+  "search_query": "kot głośno miauczy",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video is about a cat waiting at a veterinary clinic, indicating a medical context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9lt1rk",
+    "decision": "keep",
+    "reason": "The video is about a cat waiting at a veterinary clinic, indicating a medical context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

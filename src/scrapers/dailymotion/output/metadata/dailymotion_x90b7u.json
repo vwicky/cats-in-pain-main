@@ -1,0 +1,37 @@
+{
+  "video_id": "dailymotion_x90b7u",
+  "source": "dailymotion",
+  "video_path": "output/videos/dailymotion_x90b7u_video.mp4",
+  "audio_path": "output/audio/dailymotion_x90b7u_audio.mp3",
+  "duration_sec": 50,
+  "title": "Cats meowing",
+  "webpage_url": "https://www.dailymotion.com/video/x90b7u",
+  "dm_id": "x90b7u",
+  "views_total": 1171,
+  "likes_total": 0,
+  "tags": [
+    "cat",
+    "funny",
+    "talking",
+    "matt",
+    "jose",
+    "pretty"
+  ],
+  "channel": "animals",
+  "language": "en",
+  "description": "",
+  "created_time": 1239973366,
+  "search_query": "cat meowing",
+  "tag_filter": {
+    "passed": true
+  },
+  "gpt_filter": {
+    "video_id": "dailymotion_x90b7u",
+    "decision": "keep",
+    "reason": "The title suggests real cats vocalizing.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

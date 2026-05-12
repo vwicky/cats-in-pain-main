@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8rm5an",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8rm5an_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8rm5an_audio.mp3",
+  "duration_sec": 25,
+  "duration_seconds": 25.0,
+  "title": "Vídeo: gato filhote fica preso na lataria de carro e é resgatado pelo Corpo de Bombeiros",
+  "webpage_url": "https://www.dailymotion.com/video/x8rm5an",
+  "dm_id": "x8rm5an",
+  "views_total": 1398,
+  "view_count": 1398,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "",
+  "created_time": 1705702625,
+  "search_query": "gatos piando e conversando",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a kitten being rescued, which is relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8rm5an",
+    "decision": "keep",
+    "reason": "The video shows a kitten being rescued, which is relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

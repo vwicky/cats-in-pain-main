@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3pvmva",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3pvmva_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3pvmva_audio.mp3",
+  "duration_sec": 41,
+  "duration_seconds": 41.0,
+  "title": "Кот заходит по пацански в дверь ))",
+  "webpage_url": "https://www.dailymotion.com/video/x3pvmva",
+  "dm_id": "x3pvmva",
+  "views_total": 5081,
+  "view_count": 5081,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1454381091,
+  "search_query": "кот в ветеринарной клинике",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat entering a space, which is plausible behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3pvmva",
+    "decision": "keep",
+    "reason": "The title indicates a cat entering a space, which is plausible behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

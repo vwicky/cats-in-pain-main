@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x3nucte",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3nucte_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3nucte_audio.mp3",
+  "duration_sec": 15,
+  "duration_seconds": 15.0,
+  "title": "Funny Cat Sleeping Спящий кот",
+  "webpage_url": "https://www.dailymotion.com/video/x3nucte",
+  "dm_id": "x3nucte",
+  "views_total": 5382,
+  "view_count": 5382,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "funny",
+    "cat"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "funny cat",
+  "created_time": 1453477444,
+  "search_query": "relaxed cat sleeping",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description indicate a funny cat sleeping, which is a plausible real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3nucte",
+    "decision": "keep",
+    "reason": "The title and description indicate a funny cat sleeping, which is a plausible real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

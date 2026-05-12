@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x9iipp",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9iipp_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9iipp_audio.mp3",
+  "duration_sec": 10,
+  "duration_seconds": 10.0,
+  "title": "Gato tonto",
+  "webpage_url": "https://www.dailymotion.com/video/x9iipp",
+  "dm_id": "x9iipp",
+  "views_total": 506,
+  "view_count": 506,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "accidente",
+    "gracioso"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "es",
+  "query_language": "Portuguese",
+  "description": "http://cronicasdeunamovida.blogspot.com/",
+  "created_time": 1244346125,
+  "search_query": "gato miando alto",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat-related video.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9iipp",
+    "decision": "keep",
+    "reason": "The title suggests a cat-related video.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

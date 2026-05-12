@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3err2r",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3err2r_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3err2r_audio.mp3",
+  "duration_sec": 57,
+  "duration_seconds": 57.0,
+  "title": "Толстый Кот Кушает - Без Комментариев!",
+  "webpage_url": "https://www.dailymotion.com/video/x3err2r",
+  "dm_id": "x3err2r",
+  "views_total": 13066,
+  "view_count": 13066,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Толстый Кот Кушает - Без Комментариев!",
+  "created_time": 1448039011,
+  "search_query": "кот громко мяукает",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat eating, which is typical behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3err2r",
+    "decision": "keep",
+    "reason": "The title indicates a cat eating, which is typical behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

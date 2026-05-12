@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x54ax6r",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x54ax6r_video.mp4",
+  "audio_path": "output/videos/dailymotion_x54ax6r_audio.mp3",
+  "duration_sec": 23,
+  "duration_seconds": 23.0,
+  "title": "Cat realizes that a cat",
+  "webpage_url": "https://www.dailymotion.com/video/x54ax6r",
+  "dm_id": "x54ax6r",
+  "views_total": 1588,
+  "view_count": 1588,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Crazy",
+    "video",
+    "funny"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "Cat realizes that a cat",
+  "created_time": 1480775714,
+  "search_query": "cat stalking a toy",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat-focused video, though details are vague.",
+  "gpt_confidence": "low",
+  "gpt_filter": {
+    "video_id": "dailymotion_x54ax6r",
+    "decision": "keep",
+    "reason": "The title suggests a cat-focused video, though details are vague.",
+    "confidence": "low",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

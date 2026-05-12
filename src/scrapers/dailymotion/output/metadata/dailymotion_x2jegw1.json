@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x2jegw1",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2jegw1_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2jegw1_audio.mp3",
+  "duration_sec": 51,
+  "duration_seconds": 51.0,
+  "title": "Un chat prend soin d'un chiot malade",
+  "webpage_url": "https://www.dailymotion.com/video/x2jegw1",
+  "dm_id": "x2jegw1",
+  "views_total": 1281,
+  "view_count": 1281,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Zekke le chiot vient de rentrer de chez le vétérinaire après une réaction allergique. Il n'est pas en très grande forme. Heureusement, il peut compter sur Winston le chat pour prendre soin de lui. Le chat va lécher le chien allongé sur le canapé puis il va lui faire un gros câlin.",
+  "created_time": 1426242025,
+  "search_query": "chat mal à l'aise chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat caring for a sick puppy, indicating nurturing behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2jegw1",
+    "decision": "keep",
+    "reason": "The video features a cat caring for a sick puppy, indicating nurturing behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

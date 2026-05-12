@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x344qso",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x344qso_video.mp4",
+  "audio_path": "output/videos/dailymotion_x344qso_audio.mp3",
+  "duration_sec": 31,
+  "duration_seconds": 31.0,
+  "title": "Как усыпить кота) До сих пор смеюсь))",
+  "webpage_url": "https://www.dailymotion.com/video/x344qso",
+  "dm_id": "x344qso",
+  "views_total": 10062,
+  "view_count": 10062,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1441154618,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a humorous situation involving a cat, which is relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x344qso",
+    "decision": "keep",
+    "reason": "The title suggests a humorous situation involving a cat, which is relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

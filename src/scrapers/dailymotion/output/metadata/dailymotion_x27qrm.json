@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x27qrm",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x27qrm_video.mp4",
+  "audio_path": "output/videos/dailymotion_x27qrm_audio.mp3",
+  "duration_sec": 10,
+  "duration_seconds": 10.0,
+  "title": "baguare de  chat!",
+  "webpage_url": "https://www.dailymotion.com/video/x27qrm",
+  "dm_id": "x27qrm",
+  "views_total": 2902,
+  "view_count": 2902,
+  "likes_total": 4,
+  "like_count": 4,
+  "tags": [
+    "baguare",
+    "chat",
+    "fun"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1181391512,
+  "search_query": "posture défensive de chat",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat-related video, though details are vague.",
+  "gpt_confidence": "low",
+  "gpt_filter": {
+    "video_id": "dailymotion_x27qrm",
+    "decision": "keep",
+    "reason": "The title suggests a cat-related video, though details are vague.",
+    "confidence": "low",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

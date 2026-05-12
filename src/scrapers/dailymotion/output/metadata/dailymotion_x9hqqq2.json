@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x9hqqq2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9hqqq2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9hqqq2_audio.mp3",
+  "duration_sec": 29,
+  "duration_seconds": 29.0,
+  "title": "Une vie de chaton",
+  "webpage_url": "https://www.dailymotion.com/video/x9hqqq2",
+  "dm_id": "x9hqqq2",
+  "views_total": 5625,
+  "view_count": 5625,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "plurimedia_31354",
+    "video_plurimedia",
+    "video_plurimedia_broadcast"
+  ],
+  "channel": "tv",
+  "channel_title": "tv",
+  "language": "fr",
+  "query_language": "French",
+  "description": "De leur naissance à leur premier anniversaire, en passant par leurs premiers pas ou leur départ vers leur nouvelle famille, des chatons de trois portées différentes, de salon, sauvages ou de ferme, invitent à découvrir le monde à travers leurs yeux. Après à peine quelques semaines de vie, il est temps pour eux de rejoindre leur foyer définitif, et d'y prendre leurs marques. Si certains sont accompagnés de leurs frères et soeurs, d'autres, à l'instar de Sassy, qui a grandi dans un refuge, doivent s'habituer au contact humain et à la présence d'autres animaux, comme des chiens. Comment vont-ils s'acclimater à leur nouvel environnement ? Leur premier anniversaire marque leur passage de l'enfance à l'âge adulte. Un cap, qui les voit devenir de vrais chats, dotés de tous les comportements inhérents à leur espèce.",
+  "created_time": 1744392661,
+  "search_query": "chats qui appellent leurs partenaires",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video showcases kittens and their development, which is relevant.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9hqqq2",
+    "decision": "keep",
+    "reason": "The video showcases kittens and their development, which is relevant.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9vx00e",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9vx00e_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9vx00e_audio.mp3",
+  "duration_sec": 57,
+  "duration_seconds": 57.0,
+  "title": "Tu vas finir seule avec un chat",
+  "webpage_url": "https://www.dailymotion.com/video/x9vx00e",
+  "dm_id": "x9vx00e",
+  "views_total": 1575,
+  "view_count": 1575,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "lifestyle",
+  "channel_title": "lifestyle",
+  "language": "fr",
+  "query_language": "French",
+  "description": "#developpementpersonnel #devperso #coaching #psychologie #anxiété #ConfianceEnSoi",
+  "created_time": 1766599038,
+  "search_query": "comportement d'un chat blessé",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a focus on a cat, making it plausible for cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9vx00e",
+    "decision": "keep",
+    "reason": "The title suggests a focus on a cat, making it plausible for cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

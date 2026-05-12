@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_xevy9k",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xevy9k_video.mp4",
+  "audio_path": "output/videos/dailymotion_xevy9k_audio.mp3",
+  "duration_sec": 12,
+  "duration_seconds": 12.0,
+  "title": "Coup de pression entre chats",
+  "webpage_url": "https://www.dailymotion.com/video/xevy9k",
+  "dm_id": "xevy9k",
+  "views_total": 1109,
+  "view_count": 1109,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Chats",
+    "Pression"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Très intéressant de voir la tête du chat, comment les traits sont tirés en arrière. Malheureusement, mon voisin n'aimant pas les miaulements (qui sont, il est vrai, lourds à supporter), les a fait fuir avant que ma caméra n'en filme d'avantage.",
+  "created_time": 1284990458,
+  "search_query": "bagarre de chats dehors",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description mentions cat behavior and vocalizations.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xevy9k",
+    "decision": "keep",
+    "reason": "The description mentions cat behavior and vocalizations.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x6tgula",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6tgula_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6tgula_audio.mp3",
+  "duration_sec": 28,
+  "duration_seconds": 28.0,
+  "title": "Ciclista encontra um gatinho abandonado e o leva embora em sua camisa",
+  "webpage_url": "https://www.dailymotion.com/video/x6tgula",
+  "dm_id": "x6tgula",
+  "views_total": 3873,
+  "view_count": 3873,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "\"Eu olhei em volta e vi um adorável gatinho malhado correndo em minha direção, chorando\"",
+  "created_time": 1536687430,
+  "search_query": "gatinhos brincalhões relaxando",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a kitten being rescued, which is relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6tgula",
+    "decision": "keep",
+    "reason": "The video features a kitten being rescued, which is relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x3j92up",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3j92up_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3j92up_audio.mp3",
+  "duration_sec": 47,
+  "duration_seconds": 47.0,
+  "title": "Новогодний Подарок Рыжику - Что Бы Котик Не Скучал",
+  "webpage_url": "https://www.dailymotion.com/video/x3j92up",
+  "dm_id": "x3j92up",
+  "views_total": 5349,
+  "view_count": 5349,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "кошки видео",
+    "кошки видео смешные",
+    "про кошек",
+    "смешные видео",
+    "кошки видео бесплатно"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Новогодний Подарок Рыжику - Что Бы Котик Не Скучал <br /> <br />кошки видео смешные <br />кошки видео бесплатно",
+  "created_time": 1450938672,
+  "search_query": "агрессивное поведение кошек",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description suggest a cat receiving a gift, likely indicating playful behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3j92up",
+    "decision": "keep",
+    "reason": "The title and description suggest a cat receiving a gift, likely indicating playful behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

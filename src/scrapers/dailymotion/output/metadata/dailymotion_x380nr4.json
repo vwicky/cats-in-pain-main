@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x380nr4",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x380nr4_video.mp4",
+  "audio_path": "output/videos/dailymotion_x380nr4_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "Кот, который научился открывать двери!",
+  "webpage_url": "https://www.dailymotion.com/video/x380nr4",
+  "dm_id": "x380nr4",
+  "views_total": 3060,
+  "view_count": 3060,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1443484906,
+  "search_query": "кот громко мяукает",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat learned to open doors, indicating playful and intelligent behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x380nr4",
+    "decision": "keep",
+    "reason": "The title suggests a cat learned to open doors, indicating playful and intelligent behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

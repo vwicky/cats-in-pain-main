@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x6cmiqr",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6cmiqr_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6cmiqr_audio.mp3",
+  "duration_sec": 54,
+  "duration_seconds": 54.0,
+  "title": "Un chat s'invite sur un court de tennis pendant Monfils-Lorenzi",
+  "webpage_url": "https://www.dailymotion.com/video/x6cmiqr",
+  "dm_id": "x6cmiqr",
+  "views_total": 673,
+  "view_count": 673,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1515059461,
+  "search_query": "courtes vidéos de chats",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat interrupting a tennis match, likely featuring real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6cmiqr",
+    "decision": "keep",
+    "reason": "The title suggests a cat interrupting a tennis match, likely featuring real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

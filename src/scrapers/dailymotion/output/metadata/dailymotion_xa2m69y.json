@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_xa2m69y",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xa2m69y_video.mp4",
+  "audio_path": "output/videos/dailymotion_xa2m69y_audio.mp3",
+  "duration_sec": 32,
+  "duration_seconds": 32.0,
+  "title": "funny cats muted 3",
+  "webpage_url": "https://www.dailymotion.com/video/xa2m69y",
+  "dm_id": "xa2m69y",
+  "views_total": 1727,
+  "view_count": 1727,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cat",
+    "funny",
+    "meme",
+    "kitty",
+    "kitties",
+    "cats",
+    "pets",
+    "pet",
+    "animals"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1773932529,
+  "search_query": "calm kitty moments",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and tags suggest it features real cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xa2m69y",
+    "decision": "keep",
+    "reason": "The title and tags suggest it features real cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

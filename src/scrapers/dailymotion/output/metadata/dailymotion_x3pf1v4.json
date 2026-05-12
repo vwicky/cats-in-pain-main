@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3pf1v4",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3pf1v4_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3pf1v4_audio.mp3",
+  "duration_sec": 23,
+  "duration_seconds": 23.0,
+  "title": "Кот тренирует легкие в колесе",
+  "webpage_url": "https://www.dailymotion.com/video/x3pf1v4",
+  "dm_id": "x3pf1v4",
+  "views_total": 3475,
+  "view_count": 3475,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "fun",
+    "cat",
+    "prikoli",
+    "video",
+    "clip",
+    "best",
+    "rolik",
+    "смешно",
+    "comedy"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1454156021,
+  "search_query": "кот в режиме стелса",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title suggests a cat engaging in a playful activity.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3pf1v4",
+    "decision": "keep",
+    "reason": "Title suggests a cat engaging in a playful activity.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

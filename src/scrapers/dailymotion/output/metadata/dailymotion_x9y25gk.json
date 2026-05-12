@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9y25gk",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9y25gk_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9y25gk_audio.mp3",
+  "duration_sec": 45,
+  "duration_seconds": 45.0,
+  "title": "Intrappolato dietro un bancomat: il salvataggio sorprendente di un gatto che ha tenuto tutti col fiato sospeso",
+  "webpage_url": "https://www.dailymotion.com/video/x9y25gk",
+  "dm_id": "x9y25gk",
+  "views_total": 1506,
+  "view_count": 1506,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "L’allarme è scattato quando i dipendenti del punto vendita, accortisi dei miagolii provenienti dall’interno della struttura, hanno tentato invano di aiutare l’animale. Resisi conto della difficoltà della situazione e dei rischi per l’incolumità del felino, hanno deciso di contattare la Protezione Civile.<br /><br />Giunti sul posto, i soccorritori hanno affrontato una manovra complessa, resa ancora più difficile dagli spazi estremamente ridotti dietro l’apparecchio automatico. Dopo diversi tentativi, uno di loro si è calato con grande determinazione nella parte superiore del bancomat, infilando il corpo in un passaggio angusto e rimanendo con le gambe penzoloni nel vuoto.<br /><br />Grazie alla sua perseveranza e a una notevole dose di sangue freddo, il gatto è stato finalmente liberato, sano e salvo, tra il sollievo e l’ammirazione dei presenti.",
+  "created_time": 1768811961,
+  "search_query": "comportamento di un gatto ferito",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a cat in distress and a rescue context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9y25gk",
+    "decision": "keep",
+    "reason": "The description indicates a cat in distress and a rescue context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

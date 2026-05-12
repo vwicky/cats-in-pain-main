@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x8g4qek",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8g4qek_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8g4qek_audio.mp3",
+  "duration_sec": 14,
+  "duration_seconds": 14.0,
+  "title": "Une maman chat refait le lit après le passage du chaton",
+  "webpage_url": "https://www.dailymotion.com/video/x8g4qek",
+  "dm_id": "x8g4qek",
+  "views_total": 2531,
+  "view_count": 2531,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "lit"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1670410696,
+  "search_query": "chat en convalescence après une opération",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat behavior related to a mother cat and her kitten.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8g4qek",
+    "decision": "keep",
+    "reason": "The title suggests a cat behavior related to a mother cat and her kitten.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

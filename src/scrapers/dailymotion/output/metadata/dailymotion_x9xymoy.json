@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x9xymoy",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9xymoy_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9xymoy_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Bendicen con agua bendita a perros y gatos en Madrid",
+  "webpage_url": "https://www.dailymotion.com/video/x9xymoy",
+  "dm_id": "x9xymoy",
+  "views_total": 539,
+  "view_count": 539,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "catholicism",
+    "church",
+    "cats",
+    "dog"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Portuguese",
+  "description": "Bendicen con agua bendita a perros y gatos en Madrid<br /><br />Decenas de propietarios de mascotas en Madrid llevaron a sus perros y gatos a la iglesia de San Antón para ser bendecidos con agua bendita en el día de San Antón.<br /><br />MÁS INFORMACIÓN : http://es.euronews.com/2026/01/17/bendicen-con-agua-bendita-a-perros-y-gatos-en-madrid<br /><br />¡Suscríbete a nuestro canal! Euronews está disponible en 12 idiomas",
+  "created_time": 1768665707,
+  "search_query": "gato após a vacinação",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Content involves cats being blessed, relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9xymoy",
+    "decision": "keep",
+    "reason": "Content involves cats being blessed, relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

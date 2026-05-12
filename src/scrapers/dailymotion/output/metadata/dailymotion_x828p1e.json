@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x828p1e",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x828p1e_video.mp4",
+  "audio_path": "output/videos/dailymotion_x828p1e_audio.mp3",
+  "duration_sec": 48,
+  "duration_seconds": 48.0,
+  "title": "Combat de choc entre un chat et un tuyau d'aspirateur. Qui va gagner",
+  "webpage_url": "https://www.dailymotion.com/video/x828p1e",
+  "dm_id": "x828p1e",
+  "views_total": 2939,
+  "view_count": 2939,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Société",
+    "Vidéos"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Tous les propriétaires d’animaux connaissent ce problème. L’aspirateur est l’ennemi numéro 1 de nos animaux de compagnie. Ce chat n’est pas prêt à laisser la machine envahir son territoire et pour cela, il n’a pas peur d’y laisser sa peau, ou quelques poils… ",
+  "created_time": 1624637378,
+  "search_query": "chats qui siffle entre eux",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat interacting with a vacuum cleaner, suggesting a playful or confrontational behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x828p1e",
+    "decision": "keep",
+    "reason": "The video features a cat interacting with a vacuum cleaner, suggesting a playful or confrontational behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

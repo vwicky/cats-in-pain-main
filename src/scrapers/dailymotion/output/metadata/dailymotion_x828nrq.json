@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x828nrq",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x828nrq_video.mp4",
+  "audio_path": "output/videos/dailymotion_x828nrq_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "C’est l’amour fou entre ce petit chat et ce cheval !",
+  "webpage_url": "https://www.dailymotion.com/video/x828nrq",
+  "dm_id": "x828nrq",
+  "views_total": 3855,
+  "view_count": 3855,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Société",
+    "Vidéos"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "On ne choisit pas la personne dont on tombe amoureux. Pour ce chat, cette phrase prend tout son sens. Il n’arrive pas à se séparer de ce cheval. Il préfère lui faire des câlins et des bisous plutôt que de le laisser partir sans lui. Incroyable !",
+  "created_time": 1624635575,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video depicts a cat showing affection towards a horse, indicating social behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x828nrq",
+    "decision": "keep",
+    "reason": "The video depicts a cat showing affection towards a horse, indicating social behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

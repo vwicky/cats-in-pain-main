@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x3igq4f",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3igq4f_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3igq4f_audio.mp3",
+  "duration_sec": 27,
+  "duration_seconds": 27.0,
+  "title": "Приколы с кошками! ЗАбавная походка у кота)))",
+  "webpage_url": "https://www.dailymotion.com/video/x3igq4f",
+  "dm_id": "x3igq4f",
+  "views_total": 43051,
+  "view_count": 43051,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "pets",
+    "animals",
+    "nature",
+    "fun"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Ukrainian",
+  "description": "Наши верные друзья - наши забавные животные!!! Веселые смешные видео о птичках, собачках, кошечках, рыбках и других забавных зверюшках!<br />Our good friends - our funny animals! Funny funny video about the birds, dogs, kitties, fish and other fun little animals! Приколы.",
+  "created_time": 1450358789,
+  "search_query": "ознаки болю у кота у ветеринара",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title indicates funny cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3igq4f",
+    "decision": "keep",
+    "reason": "Title indicates funny cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

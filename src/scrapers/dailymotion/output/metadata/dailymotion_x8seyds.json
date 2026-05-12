@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8seyds",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8seyds_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8seyds_audio.mp3",
+  "duration_sec": 44,
+  "duration_seconds": 44.0,
+  "title": "La vétérinaire fait une échographie à un chat : ce qui apparait à l’écran est une surprise totale",
+  "webpage_url": "https://www.dailymotion.com/video/x8seyds",
+  "dm_id": "x8seyds",
+  "views_total": 5993,
+  "view_count": 5993,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Pour la vétérinaire, il ne faisait aucun doute que cette chatte était gestante. Pourtant, c’est tout autre chose qu’a révélé l’échographie.",
+  "created_time": 1707471404,
+  "search_query": "chat chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a veterinary ultrasound, relevant to a cat's health.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8seyds",
+    "decision": "keep",
+    "reason": "The video involves a veterinary ultrasound, relevant to a cat's health.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

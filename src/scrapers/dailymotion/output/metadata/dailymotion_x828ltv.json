@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x828ltv",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x828ltv_video.mp4",
+  "audio_path": "output/videos/dailymotion_x828ltv_audio.mp3",
+  "duration_sec": 31,
+  "duration_seconds": 31.0,
+  "title": "Un chat se fait câliner par deux chiots",
+  "webpage_url": "https://www.dailymotion.com/video/x828ltv",
+  "dm_id": "x828ltv",
+  "views_total": 1373,
+  "view_count": 1373,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Société",
+    "Vidéos"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "On dirait qu'il y en a deux qui ont beaucoup d'amour à donner ! Et ce chat fait preuve d'une très grande patience, face à ce surplus de câlins. Trop mignons !",
+  "created_time": 1624632898,
+  "search_query": "deux chats en confrontation",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a cat being cuddled by puppies, which is plausible cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x828ltv",
+    "decision": "keep",
+    "reason": "The description indicates a cat being cuddled by puppies, which is plausible cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

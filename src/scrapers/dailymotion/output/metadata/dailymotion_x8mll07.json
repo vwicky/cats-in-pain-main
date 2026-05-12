@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x8mll07",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8mll07_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8mll07_audio.mp3",
+  "duration_sec": 32,
+  "duration_seconds": 32.0,
+  "title": "Vidéo mignonne : un chat découvre que sa propriétaire est enceinte.",
+  "webpage_url": "https://www.dailymotion.com/video/x8mll07",
+  "dm_id": "x8mll07",
+  "views_total": 67602,
+  "view_count": 67602,
+  "likes_total": 9,
+  "like_count": 9,
+  "tags": [
+    "vidéo adorable",
+    "petit chaton"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "<br /><br />La vidéo adorable d'un petit chaton découvrant que sa propriétaire est enceinte émeut les internautes !<br /><br />Photos et vidéo : reproduction Twitter @buitengebieden<br /><br /><br /><br /><br />",
+  "created_time": 1689674293,
+  "search_query": "chat chassant sa proie",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat discovering its owner's pregnancy, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8mll07",
+    "decision": "keep",
+    "reason": "The video features a cat discovering its owner's pregnancy, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

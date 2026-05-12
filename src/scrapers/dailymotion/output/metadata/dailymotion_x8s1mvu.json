@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8s1mvu",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8s1mvu_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8s1mvu_audio.mp3",
+  "duration_sec": 45,
+  "duration_seconds": 45.0,
+  "title": "Um 158 Katzen bei -27°C zu helfen, versucht ein Tierheim alles!",
+  "webpage_url": "https://www.dailymotion.com/video/x8s1mvu",
+  "dm_id": "x8s1mvu",
+  "views_total": 23358,
+  "view_count": 23358,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Die Katzenrettung und -auffangstation „God's Purrfect Creations“ rettet und kümmert sich um hilfsbedürftige Katzen.",
+  "created_time": 1706881686,
+  "search_query": "Warnsounds von Katzen",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "keyword:'purr'"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a rescue context involving real cats.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8s1mvu",
+    "decision": "keep",
+    "reason": "The description indicates a rescue context involving real cats.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

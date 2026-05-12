@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x1jgiv",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x1jgiv_video.mp4",
+  "audio_path": "output/videos/dailymotion_x1jgiv_audio.mp3",
+  "duration_sec": 43,
+  "duration_seconds": 43.0,
+  "title": "Les chats",
+  "webpage_url": "https://www.dailymotion.com/video/x1jgiv",
+  "dm_id": "x1jgiv",
+  "views_total": 544,
+  "view_count": 544,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chats",
+    "sphynx",
+    "fun"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1174831580,
+  "search_query": "chat chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and tags indicate it features cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x1jgiv",
+    "decision": "keep",
+    "reason": "The title and tags indicate it features cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

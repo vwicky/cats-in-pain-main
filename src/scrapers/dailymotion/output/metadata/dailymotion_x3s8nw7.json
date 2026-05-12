@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3s8nw7",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3s8nw7_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3s8nw7_audio.mp3",
+  "duration_sec": 24,
+  "duration_seconds": 24.0,
+  "title": "Смешные кошки в интернете. Кот из ада. Funny Cat Videos",
+  "webpage_url": "https://www.dailymotion.com/video/x3s8nw7",
+  "dm_id": "x3s8nw7",
+  "views_total": 1478,
+  "view_count": 1478,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cats",
+    "fun",
+    "prikoli",
+    "video",
+    "clip",
+    "best",
+    "rolik",
+    "смешно",
+    "comedy"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1455545680,
+  "search_query": "две кошки ругаются",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates it features funny cat videos.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3s8nw7",
+    "decision": "keep",
+    "reason": "The title indicates it features funny cat videos.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

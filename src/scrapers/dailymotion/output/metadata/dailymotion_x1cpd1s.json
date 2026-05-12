@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x1cpd1s",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x1cpd1s_video.mp4",
+  "audio_path": "output/videos/dailymotion_x1cpd1s_audio.mp3",
+  "duration_sec": 29,
+  "duration_seconds": 29.0,
+  "title": "Comment désactiver un chat ?",
+  "webpage_url": "https://www.dailymotion.com/video/x1cpd1s",
+  "dm_id": "x1cpd1s",
+  "views_total": 4491,
+  "view_count": 4491,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un vétérinaire nous montre dans cette vidéo une technique qu'il utilise dans le but de paralyser un chat quelques minutes. Le chat ne souffre pas bien évidemment mais il faut avouer que cette méthode est très surprenante.",
+  "created_time": 1392825824,
+  "search_query": "chat malade chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a technique used on a cat, likely in a vet context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x1cpd1s",
+    "decision": "keep",
+    "reason": "The video discusses a technique used on a cat, likely in a vet context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

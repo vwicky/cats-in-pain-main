@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x55iopn",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x55iopn_video.mp4",
+  "audio_path": "output/videos/dailymotion_x55iopn_audio.mp3",
+  "duration_sec": 41,
+  "duration_seconds": 41.0,
+  "title": "Une poule montre à un chat comment attraper une souris",
+  "webpage_url": "https://www.dailymotion.com/video/x55iopn",
+  "dm_id": "x55iopn",
+  "views_total": 2285,
+  "view_count": 2285,
+  "likes_total": 3,
+  "like_count": 3,
+  "tags": [
+    "poule",
+    "chat",
+    "souris",
+    "attraper",
+    "leçon",
+    "chasse"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un chat qui tente d’attraper une souris se fait devancer par une poule. <br /> <br />Alors qu’il repère son chat en train de jouer avec quelque chose, Daniel Boe décide de s’approcher afin de voir quelle est la pauvre proie du félin. Il constate alors qu’une souris très téméraire est en train de narguer son chat. Alors que ce dernier n’arrive pas à attraper la souris, une poule débarque et attrape instantanément le rongeur avant de partir un peu plus loin avec son goûter dans le bec. Une belle leçon de chasse !",
+  "created_time": 1481970845,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a cat attempting to catch a mouse, indicating real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x55iopn",
+    "decision": "keep",
+    "reason": "The video involves a cat attempting to catch a mouse, indicating real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

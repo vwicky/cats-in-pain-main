@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x2q9no1",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2q9no1_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2q9no1_audio.mp3",
+  "duration_sec": 31,
+  "duration_seconds": 31.0,
+  "title": "Réaction drôle d'un chat qui mange de la glace",
+  "webpage_url": "https://www.dailymotion.com/video/x2q9no1",
+  "dm_id": "x2q9no1",
+  "views_total": 1379,
+  "view_count": 1379,
+  "likes_total": 5,
+  "like_count": 5,
+  "tags": [
+    "chat",
+    "geler",
+    "cerveau",
+    "manger",
+    "glace"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un chat appelé Napo a une réaction hilarante en mangeant de la crème glacée. Il lèche de la glace dans une petite cuillère, l'animal se gèle littéralement le cerveau, il lève la tête, bave de la glace, tout cela avec la gueule ouverte et les yeux écarquillés. Cela n'arrête pas Napo, qui finit tout de même le contenu de la cuillère. Quel gourmand !",
+  "created_time": 1431683136,
+  "search_query": "chat qui miaule pour de la nourriture",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a cat's reaction while eating ice, which is a real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2q9no1",
+    "decision": "keep",
+    "reason": "The description indicates a cat's reaction while eating ice, which is a real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

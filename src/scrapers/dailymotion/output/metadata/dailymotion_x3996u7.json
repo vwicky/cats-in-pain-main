@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x3996u7",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3996u7_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3996u7_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Кота будят пойти поесть) Ржач до слез",
+  "webpage_url": "https://www.dailymotion.com/video/x3996u7",
+  "dm_id": "x3996u7",
+  "views_total": 19476,
+  "view_count": 19476,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "котейка",
+    "котик",
+    "киса",
+    "котэ"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Кота будят пойти поесть) Ржач до слез",
+  "created_time": 1444554563,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat being woken up to eat, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3996u7",
+    "decision": "keep",
+    "reason": "The title suggests a cat being woken up to eat, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

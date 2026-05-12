@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x93r7ze",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x93r7ze_video.mp4",
+  "audio_path": "output/videos/dailymotion_x93r7ze_audio.mp3",
+  "duration_sec": 27,
+  "duration_seconds": 27.0,
+  "title": "Face à face chien chat dans ce dernier jour de compétition !",
+  "webpage_url": "https://www.dailymotion.com/video/x93r7ze",
+  "dm_id": "x93r7ze",
+  "views_total": 2997,
+  "view_count": 2997,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "humour",
+    "chien",
+    "chat",
+    "viral"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Vous êtes team chien ou team chat ?",
+  "created_time": 1723265713,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a face-off between a dog and a cat, indicating a cat-related context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x93r7ze",
+    "decision": "keep",
+    "reason": "The video features a face-off between a dog and a cat, indicating a cat-related context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

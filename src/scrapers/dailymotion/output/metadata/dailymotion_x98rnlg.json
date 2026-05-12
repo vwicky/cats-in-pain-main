@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x98rnlg",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x98rnlg_video.mp4",
+  "audio_path": "output/videos/dailymotion_x98rnlg_audio.mp3",
+  "duration_sec": 23,
+  "duration_seconds": 23.0,
+  "title": "El conmovedor reencuentro de una dueña con su gato tras la tragedia de la DANA: \"Le buscaba sin descanso\"",
+  "webpage_url": "https://www.dailymotion.com/video/x98rnlg",
+  "dm_id": "x98rnlg",
+  "views_total": 1700,
+  "view_count": 1700,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1730985997,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video depicts an emotional reunion with a cat.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x98rnlg",
+    "decision": "keep",
+    "reason": "The video depicts an emotional reunion with a cat.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

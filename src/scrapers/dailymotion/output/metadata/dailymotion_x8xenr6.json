@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x8xenr6",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8xenr6_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8xenr6_audio.mp3",
+  "duration_sec": 25,
+  "duration_seconds": 25.0,
+  "title": "Loja gatinha do caminhão  (1)",
+  "webpage_url": "https://www.dailymotion.com/video/x8xenr6",
+  "dm_id": "x8xenr6",
+  "views_total": 1783,
+  "view_count": 1783,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Loja",
+    "Paulo Lopes",
+    "Biguaçu",
+    "gatinha",
+    "caminhão",
+    "resgate",
+    "causa animal"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Uma gatinha siamesa percorreu o trecho entre Biguaçu, na Grande Florianópolis, até Paulo Lopes, no sujl do Estado, escondida e equilibrada entre o eixo dianteiro e os tanques de combustível de um caminhão - coisa que só os gatos conseguem fazer. <br /><br />O motorista, que vinha de Biguaçu, relatou ter ouvido um miado durante a viagem, mas quando parou para procurar, não a encontrou. O animal viajou cerca de 70 quilômetros nessa situação - ela estava faminta e desidratada. <br /><br />Na Unidade Operacional da PRF, ela ganhou água, comida e carinho. Depois, mais calma, ficou observando o fluxo da rodovia no ombro de um policial, ficou com sono e em seguida tirou uma soneca sobre a mesa do computador.<br /><br />Uma equipe da concessionária CCR, que explora o pedágio na rodovia, veio buscar a gatinha. O bichano viajante foi adotado por uma resgatista da empresa - e foi ele quem batizou a simpática siamesa Lola.",
+  "created_time": 1713984190,
+  "search_query": "gatos piando e conversando",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat hiding in a truck, which is a plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8xenr6",
+    "decision": "keep",
+    "reason": "The video features a cat hiding in a truck, which is a plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

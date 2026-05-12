@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8v3cnw",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8v3cnw_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8v3cnw_audio.mp3",
+  "duration_sec": 49,
+  "duration_seconds": 49.0,
+  "title": "Kot czy grzechotnik? Takiego ogona u kota jeszcze nie widzieliście!",
+  "webpage_url": "https://www.dailymotion.com/video/x8v3cnw",
+  "dm_id": "x8v3cnw",
+  "views_total": 41380,
+  "view_count": 41380,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "Ten kot wyglądałby zupełnie zwyczajnie, gdyby nie pewien mały detal…",
+  "created_time": 1710947306,
+  "search_query": "kot głośno miauczy",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video hints at a unique feature of a cat, which is plausible cat content.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8v3cnw",
+    "decision": "keep",
+    "reason": "The video hints at a unique feature of a cat, which is plausible cat content.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

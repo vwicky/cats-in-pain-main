@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8rs5e8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8rs5e8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8rs5e8_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Katze, die Bananen liebt, sorgt unfreiwillig für Lacher im Internet (Video)",
+  "webpage_url": "https://www.dailymotion.com/video/x8rs5e8",
+  "dm_id": "x8rs5e8",
+  "views_total": 17406,
+  "view_count": 17406,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Dieses Kätzchen mit dem außergewöhnlichen Spitznamen „Beanana” wurde mit seiner Bananenbesessenheit zum Internethit. Kein Wunder, diese Fotos sind schon fast unanständig.",
+  "created_time": 1706194602,
+  "search_query": "Katze, die Beute verfolgt",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Features a cat with a unique behavior that entertains.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8rs5e8",
+    "decision": "keep",
+    "reason": "Features a cat with a unique behavior that entertains.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,23 @@
+04_audio_classification report
+Generated (UTC): 2026-04-19T08:58:10.897235+00:00
+Audio root: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/dataset_construction/separeted_audios
+Fine-tuned checkpoint: /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/models/checkpoints_audio_emotions/best_model_final.pth
+PANNs backbone (AudioConfig): /Users/viktorzozula/Documents/Cats-in-Pain-Bachelors/audio_classifier_utils/pretrained_weights/Cnn14_16k_mAP=0.438.pth
+Files discovered: 7329
+Successfully labeled: 7329
+Failed (load/decode): 0
+
+Predicted class counts (successful rows only):
+  Mating: 1409
+  Happy: 1155
+  Resting: 1116
+  Paining: 1055
+  HuntingMind: 997
+  MotherCall: 764
+  Angry: 509
+  Fighting: 196
+  Warning: 82
+  Defence: 46
+
+Confidence (max softmax) — mean: 0.7321
+Confidence — median: 0.7538

@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x8xk0v0",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8xk0v0_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8xk0v0_audio.mp3",
+  "duration_sec": 29,
+  "duration_seconds": 29.0,
+  "title": "52 perros y gatos esperan encontrar un hogar en la primera adoptatón del año",
+  "webpage_url": "https://www.dailymotion.com/video/x8xk0v0",
+  "dm_id": "x8xk0v0",
+  "views_total": 3184,
+  "view_count": 3184,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "perros",
+    "gatos",
+    "adopción",
+    "minuto30"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "La Administración Distrital de Medellín realizará la primera adoptatón de 2024, en la que se espera que 37 caninos y 15 felinos del Centro de Bienestar Animal La Perla, sean adoptados.<br /><br />º Suscríbase a Minuto30 en Youtube  https://bit.ly/40NAPER<br />º Active la campana \" \" para recibir notificaciones<br />º Visite: https://www.minuto30.com<br />º Facebook: https://www.facebook.com/Minuto30com<br />º Instagram: https://www.instagram.com/minuto30/<br />º Twitter: https://twitter.com/minuto30com",
+  "created_time": 1714227012,
+  "search_query": "gato en la clínica veterinaria",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses an adoption event for cats and dogs.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8xk0v0",
+    "decision": "keep",
+    "reason": "The video discusses an adoption event for cats and dogs.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

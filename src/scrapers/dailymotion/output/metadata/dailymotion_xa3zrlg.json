@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_xa3zrlg",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xa3zrlg_video.mp4",
+  "audio_path": "output/videos/dailymotion_xa3zrlg_audio.mp3",
+  "duration_sec": 16,
+  "duration_seconds": 16.0,
+  "title": "Kitten Plays With a Dog On the Stairs and Takes a Tumble",
+  "webpage_url": "https://www.dailymotion.com/video/xa3zrlg",
+  "dm_id": "xa3zrlg",
+  "views_total": 661,
+  "view_count": 661,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Kitten",
+    "Dog",
+    "Pet Play",
+    "Staircase",
+    "Indoor Pets",
+    "Cute Animals",
+    "Animal Moment",
+    "Playful Pets",
+    "Small Animal",
+    "Home Video"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "Some pet games stay perfectly balanced right up until they do not.<br /><br />A kitten and a dog face each other on a staircase, pawing and shifting around as they play.<br /><br />The kitten moves along the step edge near the dog, then loses its footing and drops off the stairs.<br /><br />The moment turns from gentle back-and-forth to a quick reminder of how fast a small misstep can change the scene<br /><br /> It ends as a brief, unscripted beat in an otherwise calm playtime.<br />WooGlobe Ref : WGA129297<br />For licensing and to use this video, please email licensing@wooglobe.com",
+  "created_time": 1775044869,
+  "search_query": "playful kittens relaxing",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Features a kitten playing with a dog, suitable for cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xa3zrlg",
+    "decision": "keep",
+    "reason": "Features a kitten playing with a dog, suitable for cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

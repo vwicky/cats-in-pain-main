@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x2v7772",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2v7772_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2v7772_audio.mp3",
+  "duration_sec": 20,
+  "duration_seconds": 20.0,
+  "title": "Talking Cat Poem",
+  "webpage_url": "https://www.dailymotion.com/video/x2v7772",
+  "dm_id": "x2v7772",
+  "views_total": 512,
+  "view_count": 512,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "talking",
+    "cat",
+    "poem",
+    "about",
+    "husband",
+    "wife"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ur",
+  "query_language": "ur",
+  "description": "for more videos follow this link <br />https://www.video4video.com",
+  "created_time": 1435125265,
+  "search_query": "cat talking",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a talking cat, which implies vocalization.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2v7772",
+    "decision": "keep",
+    "reason": "The title suggests a talking cat, which implies vocalization.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9h50ks",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9h50ks_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9h50ks_audio.mp3",
+  "duration_sec": 15,
+  "duration_seconds": 15.0,
+  "title": "La cara de sorpresa de un gato al ver una tortuga por primera vez",
+  "webpage_url": "https://www.dailymotion.com/video/x9h50ks",
+  "dm_id": "x9h50ks",
+  "views_total": 8686,
+  "view_count": 8686,
+  "likes_total": 14,
+  "like_count": 14,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1743512798,
+  "search_query": "gatos luchando por territorio",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's reaction to a turtle, indicating potential vocalization or surprise.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9h50ks",
+    "decision": "keep",
+    "reason": "The title suggests a cat's reaction to a turtle, indicating potential vocalization or surprise.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

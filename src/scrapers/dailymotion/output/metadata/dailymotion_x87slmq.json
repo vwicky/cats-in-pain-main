@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x87slmq",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x87slmq_video.mp4",
+  "audio_path": "output/videos/dailymotion_x87slmq_audio.mp3",
+  "duration_sec": 36,
+  "duration_seconds": 36.0,
+  "title": "La colère de Frank Leboeuf qui s'adresse à Kurt Zouma après sa vidéo où il s'en prend violemment à son chat : \"T'as craqué ou quoi ? C’est comme si tu frappais un enfant ! Ça va pas du tout, là, mec, faut que tu te reprennes !\"",
+  "webpage_url": "https://www.dailymotion.com/video/x87slmq",
+  "dm_id": "x87slmq",
+  "views_total": 1191,
+  "view_count": 1191,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "kurt zouma",
+    "chat",
+    "franck leboeuf",
+    "violence"
+  ],
+  "channel": "tv",
+  "channel_title": "tv",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Sur son compte Instagram, Frank Leboeuf s'est adressé à Kurt Zouma à la suite de la publication de la vidéo le montrant en train de s'en prendre violemment à son chat. «Depuis hier, je suis dévasté, je ne comprends pas, enrage l'ancien défenseur des Blues, comme Zouma. On a joué à Chelsea, on avait le même numéro, on s'est parlé... Je pensais que t'étais un mec bien.»<br />Lâché par ses sponsors et mis à l'amende par son club, l'international français  voit son image de joueur calme et affable nettement ternie par cette vidéo. «Kurt, qu'est-ce que t'as fait là ? T'as craqué ou quoi ? Qu'est-ce que tu caches sous ton sourire ? Tu touches pas aux animaux ! Tu mets pas des coups de pieds à un animal ! C’est comme si tu frappais un enfant ! Ça va pas du tout, là, mec, faut que tu te reprennes, faut qu’on t’enlève tes chats, là !\"<br />Depuis, le Français est en train de tout perdre. Si son club ne s'est pas vraiment désolidarisé de lui, l'ancien de l'ASSE a déjà perdu son équipementier, Adidas. Seed, association dont il était ambassadeur, a également rompu les liens avec lui, et d'autres devraient suivre. Il s'est aussi attiré les foudres du monde du foot et de Didier Deschamps, qui a qualifié son geste « d'inadmissible et intolérable ».<br /><br />Il a également déjà écopé d'une belle sanction de deux semaines de salaire, soit environ 300.000€, et ses chats lui ont été confisqués par l'équivalent de la SPA anglaise. Et cette affaire touche aussi son club.<br /><br />Le club de la capitale anglaise a déjà perdu deux sponsors : Vitality, assureur santé, et Experience Kissimmee, office du tourisme d'une ville de Floride.",
+  "created_time": 1644516709,
+  "search_query": "courtes vidéos de chats qui se prélassent",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses violence towards a cat, indicating a real cat context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x87slmq",
+    "decision": "keep",
+    "reason": "The video discusses violence towards a cat, indicating a real cat context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

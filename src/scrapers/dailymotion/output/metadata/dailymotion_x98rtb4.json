@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x98rtb4",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x98rtb4_video.mp4",
+  "audio_path": "output/videos/dailymotion_x98rtb4_audio.mp3",
+  "duration_sec": 40,
+  "duration_seconds": 40.0,
+  "title": "Un hombre encuentra un gatito lleno de hormigas: cuando lo comprende, ¡coge el teléfono inmediatamente!",
+  "webpage_url": "https://www.dailymotion.com/video/x98rtb4",
+  "dm_id": "x98rtb4",
+  "views_total": 4179,
+  "view_count": 4179,
+  "likes_total": 2,
+  "like_count": 2,
+  "tags": [
+    "News Chat"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Si no hubiera sido por este transeúnte, ¿quién sabe si el gatito habría sido devorado por los insectos?",
+  "created_time": 1730990125,
+  "search_query": "gatitos juguetones relajándose",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description suggests a rescue context involving a kitten.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x98rtb4",
+    "decision": "keep",
+    "reason": "The description suggests a rescue context involving a kitten.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

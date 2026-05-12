@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x8os2z2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8os2z2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8os2z2_audio.mp3",
+  "duration_sec": 28,
+  "duration_seconds": 28.0,
+  "title": "Ce chat en a marre de la vie",
+  "webpage_url": "https://www.dailymotion.com/video/x8os2z2",
+  "dm_id": "x8os2z2",
+  "views_total": 1378,
+  "view_count": 1378,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "drole",
+    "fail",
+    "humour",
+    "animal",
+    "rigolo",
+    "bus"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Ce chat en a marre de la vie",
+  "created_time": 1697184817,
+  "search_query": "courtes vidéos de chats en chasse",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests the cat is expressing a feeling, which could relate to its behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8os2z2",
+    "decision": "keep",
+    "reason": "The title suggests the cat is expressing a feeling, which could relate to its behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

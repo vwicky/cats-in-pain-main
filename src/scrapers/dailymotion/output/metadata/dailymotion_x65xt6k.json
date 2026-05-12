@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x65xt6k",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x65xt6k_video.mp4",
+  "audio_path": "output/videos/dailymotion_x65xt6k_audio.mp3",
+  "duration_sec": 56,
+  "duration_seconds": 56.0,
+  "title": "Un motard sauve un chaton",
+  "webpage_url": "https://www.dailymotion.com/video/x65xt6k",
+  "dm_id": "x65xt6k",
+  "views_total": 11907,
+  "view_count": 11907,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "motard",
+    "sauver",
+    "chaton",
+    "route"
+  ],
+  "channel": "auto",
+  "channel_title": "auto",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Le petit animal était immobile en plein milieu de la route. <br /> <br />Le 27 octobre 2017 à Bangkok en Thaïlande, un motard a aperçu un chaton en plein milieu de la route. L’homme s’est alors mis sur le côté afin de faire signe aux automobilistes de s’arrêter. Une voiture va alors l’écouter et reculer afin que le motard puisse sauver le petit chat qui était totalement effrayé.",
+  "created_time": 1508832829,
+  "search_query": "chats qui parlent aux oiseaux",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Involves saving a kitten, relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x65xt6k",
+    "decision": "keep",
+    "reason": "Involves saving a kitten, relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

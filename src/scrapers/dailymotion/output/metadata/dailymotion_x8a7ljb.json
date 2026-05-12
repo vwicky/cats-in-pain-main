@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x8a7ljb",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8a7ljb_video.mp4.part-Frag2.part",
+  "audio_path": "output/videos/dailymotion_x8a7ljb_audio.mp3",
+  "duration_sec": 16,
+  "duration_seconds": 16.0,
+  "title": "Gato vinga-se de dono que montou uma estrutura para evitar que ele ficasse em cima dele durante a noite",
+  "webpage_url": "https://www.dailymotion.com/video/x8a7ljb",
+  "dm_id": "x8a7ljb",
+  "views_total": 702,
+  "view_count": 702,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "farto",
+    "gato",
+    "dormir",
+    "cama",
+    "estrutura"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pt",
+  "query_language": "Spanish",
+  "description": "Farto de acordar com o seu gato em cima de si, este homem do vídeo decidiu criar uma estrutura para evitar que o felino subisse para cima dele enquanto ele dorme. Acontece que a primeira tentativa não correu bem, nada bem mesmo... só depois de uma melhoria à estrutura, é que ele finalmente encontrou o sistema perfeito.",
+  "created_time": 1650540004,
+  "search_query": "postura defensiva de gato",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat and its interaction with a structure designed to keep it off its owner.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8a7ljb",
+    "decision": "keep",
+    "reason": "The video features a cat and its interaction with a structure designed to keep it off its owner.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

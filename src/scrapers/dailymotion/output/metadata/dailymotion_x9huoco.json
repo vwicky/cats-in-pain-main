@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9huoco",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9huoco_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9huoco_audio.mp3",
+  "duration_sec": 44,
+  "duration_seconds": 44.0,
+  "title": "Comunicado de los veterinarios a las personas que tienen dos gatos: muy importante",
+  "webpage_url": "https://www.dailymotion.com/video/x9huoco",
+  "dm_id": "x9huoco",
+  "views_total": 149131,
+  "view_count": 149131,
+  "likes_total": 2,
+  "like_count": 2,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1744581321,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests important information for cat owners, likely related to real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9huoco",
+    "decision": "keep",
+    "reason": "The title suggests important information for cat owners, likely related to real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

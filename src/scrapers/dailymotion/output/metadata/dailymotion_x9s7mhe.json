@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x9s7mhe",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9s7mhe_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9s7mhe_audio.mp3",
+  "duration_sec": 10,
+  "duration_seconds": 10.0,
+  "title": "Vídeo creado con la app Sora 2",
+  "webpage_url": "https://www.dailymotion.com/video/x9s7mhe",
+  "dm_id": "x9s7mhe",
+  "views_total": 622,
+  "view_count": 622,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "webedia-prod"
+  ],
+  "channel": "tech",
+  "channel_title": "tech",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Prompt:<br />Dos gatos conversan mientras caminan en paralelo por la acera de una calle. “¿Qué vas a cenar cuando vuelvas a casa?”. “Una lata de atún. ¿Y tú?”. “Lo mismo, hoy me invitas”. Los dos gatos estallan en risas\".",
+  "created_time": 1760603847,
+  "search_query": "comportamiento agresivo de los gatos",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features two cats conversing, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9s7mhe",
+    "decision": "keep",
+    "reason": "The video features two cats conversing, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

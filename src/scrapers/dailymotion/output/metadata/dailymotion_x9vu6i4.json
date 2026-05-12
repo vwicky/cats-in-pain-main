@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9vu6i4",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9vu6i4_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9vu6i4_audio.mp3",
+  "duration_sec": 41,
+  "duration_seconds": 41.0,
+  "title": "Crueldade extrema: caixa com gatinho decapitado é deixada em frente a residência em Cascavel",
+  "webpage_url": "https://www.dailymotion.com/video/x9vu6i4",
+  "dm_id": "x9vu6i4",
+  "views_total": 977,
+  "view_count": 977,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Crueldade extrema: caixa com gatinho decapitado é deixada em frente a residência em Cascavel",
+  "created_time": 1765926138,
+  "search_query": "gatinhos brincalhões relaxando",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a cruel act involving a kitten, relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9vu6i4",
+    "decision": "keep",
+    "reason": "The video discusses a cruel act involving a kitten, relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_xuxsud",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xuxsud_video.mp4",
+  "audio_path": "output/videos/dailymotion_xuxsud_audio.mp3",
+  "duration_sec": 26,
+  "duration_seconds": 26.0,
+  "title": "Sounds Like a Baby",
+  "webpage_url": "https://www.dailymotion.com/video/xuxsud",
+  "dm_id": "xuxsud",
+  "views_total": 892,
+  "view_count": 892,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Cats",
+    "8843 cat purrs baby noises scratched"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "en",
+  "description": "<p>This cat makes baby sounds while getting his back scratched</p>",
+  "created_time": 1352373064,
+  "search_query": "cat purring",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The cat is making baby sounds, indicating vocalization behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xuxsud",
+    "decision": "keep",
+    "reason": "The cat is making baby sounds, indicating vocalization behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

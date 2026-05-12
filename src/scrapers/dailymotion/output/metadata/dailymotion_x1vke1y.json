@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x1vke1y",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x1vke1y_video.mp4",
+  "audio_path": "output/videos/dailymotion_x1vke1y_audio.mp3",
+  "duration_sec": 28,
+  "duration_seconds": 28.0,
+  "title": "Cats hugs then fight! Awesome kittens!",
+  "webpage_url": "https://www.dailymotion.com/video/x1vke1y",
+  "dm_id": "x1vke1y",
+  "views_total": 1388,
+  "view_count": 1388,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cat",
+    "kitten",
+    "kitty",
+    "adorable",
+    "fight",
+    "hug",
+    "cute cat",
+    "fight cat",
+    "animal",
+    "pet"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "So cute cats firstly huging each other, then the cute hug turns into a fight!",
+  "created_time": 1400490023,
+  "search_query": "cats hissing at each other",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows cats hugging and then fighting, which fits the category of agonistic behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x1vke1y",
+    "decision": "keep",
+    "reason": "The video shows cats hugging and then fighting, which fits the category of agonistic behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

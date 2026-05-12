@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8ubmzi",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8ubmzi_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8ubmzi_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "Hund trifft auf streunendes Kätzchen: Mit dieser Reaktion rechnet keiner!",
+  "webpage_url": "https://www.dailymotion.com/video/x8ubmzi",
+  "dm_id": "x8ubmzi",
+  "views_total": 80907,
+  "view_count": 80907,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Im Oktober 2023 rettet Hannah Wenzel ein streunendes Kätzchen aus einer Bar und nimmt es mit nach Hause.",
+  "created_time": 1710323964,
+  "search_query": "Katze nach der Impfung",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a stray kitten being rescued, relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8ubmzi",
+    "decision": "keep",
+    "reason": "The video features a stray kitten being rescued, relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

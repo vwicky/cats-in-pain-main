@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x3q2m22",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3q2m22_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3q2m22_audio.mp3",
+  "duration_sec": 7,
+  "duration_seconds": 7.0,
+  "title": "3,2,1 gooo",
+  "webpage_url": "https://www.dailymotion.com/video/x3q2m22",
+  "dm_id": "x3q2m22",
+  "views_total": 1460,
+  "view_count": 1460,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cat",
+    "cats",
+    "funny"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1454449855,
+  "search_query": "cat after vaccination",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Tags indicate it features cats, likely in a playful context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3q2m22",
+    "decision": "keep",
+    "reason": "Tags indicate it features cats, likely in a playful context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

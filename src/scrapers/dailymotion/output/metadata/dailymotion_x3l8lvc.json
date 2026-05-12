@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x3l8lvc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3l8lvc_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3l8lvc_audio.mp3",
+  "duration_sec": 46,
+  "duration_seconds": 46.0,
+  "title": "These cats are not as cool as their stealthy cucumber stalkers.",
+  "webpage_url": "https://www.dailymotion.com/video/x3l8lvc",
+  "dm_id": "x3l8lvc",
+  "views_total": 2068,
+  "view_count": 2068,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Cat"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1452186701,
+  "search_query": "cat stalking a toy",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a focus on cats, despite the mention of cucumbers.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3l8lvc",
+    "decision": "keep",
+    "reason": "The title suggests a focus on cats, despite the mention of cucumbers.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

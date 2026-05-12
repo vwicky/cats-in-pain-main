@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_xawfcf",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xawfcf_video.mp4",
+  "audio_path": "output/videos/dailymotion_xawfcf_audio.mp3",
+  "duration_sec": 21,
+  "duration_seconds": 21.0,
+  "title": "un chat au regard qui tue !!!",
+  "webpage_url": "https://www.dailymotion.com/video/xawfcf",
+  "dm_id": "xawfcf",
+  "views_total": 550,
+  "view_count": 550,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1256307752,
+  "search_query": "chat agressif qui grogne",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat with an interesting expression.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xawfcf",
+    "decision": "keep",
+    "reason": "The title suggests a cat with an interesting expression.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

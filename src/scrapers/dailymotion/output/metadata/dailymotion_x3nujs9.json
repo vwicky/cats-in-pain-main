@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x3nujs9",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3nujs9_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3nujs9_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "FUNNY VIDEOS Funny Cats Funny Cat Videos Funny Animals",
+  "webpage_url": "https://www.dailymotion.com/video/x3nujs9",
+  "dm_id": "x3nujs9",
+  "views_total": 5078,
+  "view_count": 5078,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cats"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "en",
+  "description": "funny cat",
+  "created_time": 1453480028,
+  "search_query": "funny cat sounds",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title and tags suggest real cat footage.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3nujs9",
+    "decision": "keep",
+    "reason": "Title and tags suggest real cat footage.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

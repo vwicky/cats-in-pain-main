@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x6gxzto",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6gxzto_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6gxzto_audio.mp3",
+  "duration_sec": 25,
+  "duration_seconds": 25.0,
+  "title": "Quand ton chat est en mode requin blanc",
+  "webpage_url": "https://www.dailymotion.com/video/x6gxzto",
+  "dm_id": "x6gxzto",
+  "views_total": 756,
+  "view_count": 756,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Animal",
+    "Mignon",
+    "chat",
+    "lol",
+    "fun",
+    "requin",
+    "animal de compagnie",
+    "chat lol"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Quand ton chat est en mode requin blanc",
+  "created_time": 1522226622,
+  "search_query": "chat en mode furtif",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's playful or humorous behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6gxzto",
+    "decision": "keep",
+    "reason": "The title suggests a cat's playful or humorous behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9cqffk",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9cqffk_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9cqffk_audio.mp3",
+  "duration_sec": 18,
+  "duration_seconds": 18.0,
+  "title": "Abruzzo: un maestoso gatto selvatico filmato dallo zoologo Paolo Forconi",
+  "webpage_url": "https://www.dailymotion.com/video/x9cqffk",
+  "dm_id": "x9cqffk",
+  "views_total": 49171,
+  "view_count": 49171,
+  "likes_total": 14,
+  "like_count": 14,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "Lo zoologo Paolo Forconi, dello studio faunistico Chiros, ha pubblicato su Facebook il video di uno splendido gatto selvatico immortalato nel Parco Nazionale d'Abruzzo. Il felino nel video mostra una coda gigantesca e un bellissimo manto mimetico. Il gatto selvatico, come spiegato da Paolo Forconi, «è molto più diffuso di quanto si possa credere, ma è una specie molto elusiva», quindi difficile da vedere, anche  «i suoi colori lo rendono molto mimetico. Si nutre principalmente di topi ed arvicole». ",
+  "created_time": 1737416733,
+  "search_query": "comportamento di un gatto ferito",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video showcases a wild cat, which is relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9cqffk",
+    "decision": "keep",
+    "reason": "The video showcases a wild cat, which is relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

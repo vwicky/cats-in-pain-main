@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x9faysq",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9faysq_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9faysq_audio.mp3",
+  "duration_sec": 41,
+  "duration_seconds": 41.0,
+  "title": "Milagro en Valencia: gatito Coco vuelve con su dueña tras 8 días atrapado en edificio incendiado",
+  "webpage_url": "https://www.dailymotion.com/video/x9faysq",
+  "dm_id": "x9faysq",
+  "views_total": 871,
+  "view_count": 871,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "News chat"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "El valiente gatito encontró un refugio inesperado para sobrevivir al fuego: una columna seca en el edificio. Allí permaneció durante 8 días, hasta que los Bomberos lo rescataron y se lo entregaron a su humana.",
+  "created_time": 1740666778,
+  "search_query": "gatitos juguetones relajándose",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title describes a rescue of a cat, indicating a relevant context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9faysq",
+    "decision": "keep",
+    "reason": "The title describes a rescue of a cat, indicating a relevant context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

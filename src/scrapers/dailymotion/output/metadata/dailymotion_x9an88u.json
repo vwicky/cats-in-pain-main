@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x9an88u",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9an88u_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9an88u_audio.mp3",
+  "duration_sec": 50,
+  "duration_seconds": 50.0,
+  "title": "¿Por qué los gatos son peligrosos para las embarazadas?",
+  "webpage_url": "https://www.dailymotion.com/video/x9an88u",
+  "dm_id": "x9an88u",
+  "views_total": 139096,
+  "view_count": 139096,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Gatos",
+    "Embarazo",
+    "Mascotas"
+  ],
+  "channel": "school",
+  "channel_title": "school",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Los gatos pueden transmitir toxoplasmosis, un riesgo para el feto.  Pero no te alarmes, existen formas de prevenirlo y convivir sin preocupaciones. <br /><br />Video: DW.",
+  "created_time": 1733946590,
+  "search_query": "comportamiento agresivo de los gatos",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses the risks cats pose to pregnant women.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9an88u",
+    "decision": "keep",
+    "reason": "The video discusses the risks cats pose to pregnant women.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

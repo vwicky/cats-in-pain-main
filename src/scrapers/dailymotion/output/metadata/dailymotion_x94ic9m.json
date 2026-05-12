@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x94ic9m",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x94ic9m_video.mp4",
+  "audio_path": "output/videos/dailymotion_x94ic9m_audio.mp3",
+  "duration_sec": 22,
+  "duration_seconds": 22.0,
+  "title": "Gatito brutalmente asesinado en Boya (Zamora)",
+  "webpage_url": "https://www.dailymotion.com/video/x94ic9m",
+  "dm_id": "x94ic9m",
+  "views_total": 1338,
+  "view_count": 1338,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "colonia felina",
+    "gatos",
+    "ley bienestar animal"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "La cuidadora de una colonia felina en Boya (Zamora) denuncia la matanza brutal de varios gatitos recién nacidos.",
+  "created_time": 1724437014,
+  "search_query": "gatitos juguetones relajándose",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a serious issue involving cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x94ic9m",
+    "decision": "keep",
+    "reason": "The description indicates a serious issue involving cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

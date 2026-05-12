@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x7nzl8m",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7nzl8m_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7nzl8m_audio.mp3",
+  "duration_sec": 33,
+  "duration_seconds": 33.0,
+  "title": "Vídeo Viral: el gato besucón que se pone como una pantera si le besan",
+  "webpage_url": "https://www.dailymotion.com/video/x7nzl8m",
+  "dm_id": "x7nzl8m",
+  "views_total": 2813,
+  "view_count": 2813,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gato",
+    "beso",
+    "besucon",
+    "pantera",
+    "enfado"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Los gatos tienen fama de ser menos cariñosos y dependientes de sus amos que los perros, aunque todo depende de su educación y comportamiento.<br /><br /> Y, aunque cada animal es un mundo, y el carácter de los mininos también está relacionado con la personalidad de su dueño, el caso de este gato es un tanto peculiar.<br /><br />Primero se acerca a su dueño buscando mimos, pero cuando esté se muestra dispuesto a devolverle sus tiernos besos… ¡La reacción del gato es inesperada! <br /><br /> Colton Carlyle, el dueño del animal, explica en su cuenta de Twitter, que es un comportamiento habitual en su gato: le gusta dar mimos pero no tolera recibirlos.",
+  "created_time": 1573726141,
+  "search_query": "gato en la clínica veterinaria",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's behavior related to affection.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7nzl8m",
+    "decision": "keep",
+    "reason": "The title suggests a cat's behavior related to affection.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

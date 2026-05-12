@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9hjhre",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9hjhre_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9hjhre_audio.mp3",
+  "duration_sec": 46,
+  "duration_seconds": 46.0,
+  "title": "Ce chat a perdu tout espoir : il se transforme en 1 seconde devant le visage qu'il ne pensait plus jamais revoir",
+  "webpage_url": "https://www.dailymotion.com/video/x9hjhre",
+  "dm_id": "x9hjhre",
+  "views_total": 13179,
+  "view_count": 13179,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Au début de l'année dernière, une chatte grise et malade a été abandonnée dans une clinique vétérinaire locale de l'Indiana.",
+  "created_time": 1744115109,
+  "search_query": "chats se reposant paisiblement",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a cat in a rescue or pain context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9hjhre",
+    "decision": "keep",
+    "reason": "The description indicates a cat in a rescue or pain context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

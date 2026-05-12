@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3qlrbn",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3qlrbn_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3qlrbn_audio.mp3",
+  "duration_sec": 24,
+  "duration_seconds": 24.0,
+  "title": "Кот идет домой после охоты",
+  "webpage_url": "https://www.dailymotion.com/video/x3qlrbn",
+  "dm_id": "x3qlrbn",
+  "views_total": 1043,
+  "view_count": 1043,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Animal",
+    "comedy",
+    "домашнее животное",
+    "Смешные видео",
+    "Кот",
+    "прикол",
+    "cat",
+    "pet",
+    "funny video"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Смешные видео",
+  "created_time": 1454673144,
+  "search_query": "кот после операции",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat returning home, which is a typical cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3qlrbn",
+    "decision": "keep",
+    "reason": "The title indicates a cat returning home, which is a typical cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x9930ee",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9930ee_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9930ee_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Eine Laune der Natur: Diese Katze hat drei Augen und zwei Mäuler",
+  "webpage_url": "https://www.dailymotion.com/video/x9930ee",
+  "dm_id": "x9930ee",
+  "views_total": 17696,
+  "view_count": 17696,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "News Chat"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Sein Anblick ist für viele Menschen nur schwer zu ertragen – das Katzenkind mit den zwei Gesichtern. Weil es ein Wunder der Natur ist, bekommt es bei einem Tierarzt eine Chance auf ein ganz normales Leben.",
+  "created_time": 1731944700,
+  "search_query": "Katze nach der Operation",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description mentions a cat with two faces receiving care from a vet, indicating a medical context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9930ee",
+    "decision": "keep",
+    "reason": "The description mentions a cat with two faces receiving care from a vet, indicating a medical context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

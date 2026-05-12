@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3yi503",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3yi503_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3yi503_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Кота будят пойти поесть",
+  "webpage_url": "https://www.dailymotion.com/video/x3yi503",
+  "dm_id": "x3yi503",
+  "views_total": 1908,
+  "view_count": 1908,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1458275810,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat being woken up to eat, plausible real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3yi503",
+    "decision": "keep",
+    "reason": "The title suggests a cat being woken up to eat, plausible real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

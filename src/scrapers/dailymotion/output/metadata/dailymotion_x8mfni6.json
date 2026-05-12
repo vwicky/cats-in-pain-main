@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x8mfni6",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8mfni6_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8mfni6_audio.mp3",
+  "duration_sec": 36,
+  "duration_seconds": 36.0,
+  "title": "Vidéo : Un propriétaire méchant fait peur à un chat qui saute dans la piscine",
+  "webpage_url": "https://www.dailymotion.com/video/x8mfni6",
+  "dm_id": "x8mfni6",
+  "views_total": 2078,
+  "view_count": 2078,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "Dono maldoso",
+    "gato"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "<br />Dans le clip, on peut voir un chat se promenant au bord de la piscine, simplement intéressé à regarder l'eau et à la toucher avec sa patte. Mais, un bruit fort l'a effrayé et le chat est tombé dans l'eau.<br /><br />Le propriétaire, qui filmait le félin, a éternué et a même été sermonné par sa femme. \"J'ai éternué. Ah, je n'ai plus le droit d'éternuer\", a écrit le compte qui a partagé la vidéo sur Instagram.<br /><br />La vidéo est rapidement devenue virale, étant vue plus de 2 millions de fois, en plus d'accumuler plus de 89 000 mentions \"j'aime\" et des centaines de commentaires d'amoureux des animaux de compagnie qui se sont amusés avec la scène.<br /><br />\"Cela pourrait être mon chat. Éternuez et il s'envole comme un missile\", a écrit l'un. \"Au début, je pensais que c'était un bébé éléphant\", a plaisanté un autre. \"Ron est prêt pour n'importe quelle situation où il est coupable de tout. Écoutez cette réponse ultra-rapide. Un véritable professionnel à l'œuvre ici\", a souligné un troisième.<br /><br />Vidéo : instagram @cat_l0verss<br /><br /><br /><br /><br />",
+  "created_time": 1689061202,
+  "search_query": "vidéos de chats qui parlent",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat being startled and jumping into a pool, indicating a reaction to a stimulus.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8mfni6",
+    "decision": "keep",
+    "reason": "The video shows a cat being startled and jumping into a pool, indicating a reaction to a stimulus.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

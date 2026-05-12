@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x5i4aer",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5i4aer_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5i4aer_audio.mp3",
+  "duration_sec": 52,
+  "duration_seconds": 52.0,
+  "title": "Un chat brave tous les obstacles pour rejoindre sa maîtresse !",
+  "webpage_url": "https://www.dailymotion.com/video/x5i4aer",
+  "dm_id": "x5i4aer",
+  "views_total": 566,
+  "view_count": 566,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "obstacles",
+    "drôle"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Ce chat est vraiment déterminé ! Il veut absolument rejoindre sa maîtresse malgré tous les obstacles ! Il arrive à passer sous une porte malgré sa corpulence !",
+  "created_time": 1492088804,
+  "search_query": "chat chassant sa proie",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat determined to reach its owner, which suggests active behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5i4aer",
+    "decision": "keep",
+    "reason": "The video features a cat determined to reach its owner, which suggests active behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

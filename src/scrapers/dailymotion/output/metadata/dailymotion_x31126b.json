@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x31126b",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x31126b_video.mp4",
+  "audio_path": "output/videos/dailymotion_x31126b_audio.mp3",
+  "duration_sec": 46,
+  "duration_seconds": 46.0,
+  "title": "▶ Реакция кота, который первый раз увидел ребенка!",
+  "webpage_url": "https://www.dailymotion.com/video/x31126b",
+  "dm_id": "x31126b",
+  "views_total": 6592,
+  "view_count": 6592,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "▶ Реакция кота, который первый раз увидел ребенка!",
+  "created_time": 1439158202,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's reaction to a child, indicating a behavioral response.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x31126b",
+    "decision": "keep",
+    "reason": "The title suggests a cat's reaction to a child, indicating a behavioral response.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

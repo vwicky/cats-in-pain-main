@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8sayag",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8sayag_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8sayag_audio.mp3",
+  "duration_sec": 39,
+  "duration_seconds": 39.0,
+  "title": "Spisek, który knuje kot i papuga rozśmieszył 3 miliony osób (video)",
+  "webpage_url": "https://www.dailymotion.com/video/x8sayag",
+  "dm_id": "x8sayag",
+  "views_total": 15782,
+  "view_count": 15782,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "Na TikToku młoda kobieta podzieliła się zadziwiającą rozmową między swoimi dwoma zwierzakami. Czy jej kot i papuga planują ucieczkę?",
+  "created_time": 1707315999,
+  "search_query": "kot głośno miauczy",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a humorous interaction between a cat and a parrot, indicating potential playful behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8sayag",
+    "decision": "keep",
+    "reason": "The title suggests a humorous interaction between a cat and a parrot, indicating potential playful behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

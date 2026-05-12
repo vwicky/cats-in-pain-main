@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8ue74c",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8ue74c_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8ue74c_audio.mp3",
+  "duration_sec": 18,
+  "duration_seconds": 18.0,
+  "title": "Watch: Serbian cat loves the Euroleague!",
+  "webpage_url": "https://www.dailymotion.com/video/x8ue74c",
+  "dm_id": "x8ue74c",
+  "views_total": 2029,
+  "view_count": 2029,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "en",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1710402318,
+  "search_query": "cat after vaccination",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's behavior related to sports, which is plausible.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8ue74c",
+    "decision": "keep",
+    "reason": "The title suggests a cat's behavior related to sports, which is plausible.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

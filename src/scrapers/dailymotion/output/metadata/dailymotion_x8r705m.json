@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8r705m",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8r705m_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8r705m_audio.mp3",
+  "duration_sec": 12,
+  "duration_seconds": 12.0,
+  "title": "Tortuga en patineta causa terror a un gato",
+  "webpage_url": "https://www.dailymotion.com/video/x8r705m",
+  "dm_id": "x8r705m",
+  "views_total": 68517,
+  "view_count": 68517,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Portuguese",
+  "description": "",
+  "created_time": 1704471749,
+  "search_query": "gato feliz ronronando",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat reacting to a turtle on a skateboard.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8r705m",
+    "decision": "keep",
+    "reason": "The title indicates a cat reacting to a turtle on a skateboard.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

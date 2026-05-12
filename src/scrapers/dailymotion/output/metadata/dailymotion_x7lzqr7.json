@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x7lzqr7",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7lzqr7_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7lzqr7_audio.mp3",
+  "duration_sec": 26,
+  "duration_seconds": 26.0,
+  "title": "Vídeo Viral: la niña atropella al gato y se da a la fuga",
+  "webpage_url": "https://www.dailymotion.com/video/x7lzqr7",
+  "dm_id": "x7lzqr7",
+  "views_total": 1212,
+  "view_count": 1212,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gato",
+    "niña",
+    "coche",
+    "cochecito",
+    "velocidad",
+    "felino",
+    "fuga",
+    "atropello"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "La muerte es un proceso natural que experimentan todos los seres vivos.<br /><br />En ocasiones puede ser difícil de percibir, especialmente en los gatos.<br /><br />Como sabrás, los felinos apenas muestran signos de dolor o enfermedad y la palman por variados motivos.<br /><br />Uno de los más frecuentes, consecuencia de su condición de mascotas y de vivir entre los humanos, es fallecer por atropello.",
+  "created_time": 1569910844,
+  "search_query": "signos de malestar en gatos",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a cat being hit by a car, indicating a real cat context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7lzqr7",
+    "decision": "keep",
+    "reason": "The video discusses a cat being hit by a car, indicating a real cat context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

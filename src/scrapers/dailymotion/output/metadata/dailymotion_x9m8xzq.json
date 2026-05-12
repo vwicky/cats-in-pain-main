@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x9m8xzq",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9m8xzq_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9m8xzq_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Stray cat introduces her kittens to the kind-hearted woman who fed her",
+  "webpage_url": "https://www.dailymotion.com/video/x9m8xzq",
+  "dm_id": "x9m8xzq",
+  "views_total": 124567,
+  "view_count": 124567,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "News cat"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "When Shea Prior started feeding a stray mother cat, she could never have predicted the incredible bond that would form between her and her new feline friend.",
+  "created_time": 1751530124,
+  "search_query": "playful kittens relaxing",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a stray cat and her kittens, which is relevant to real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9m8xzq",
+    "decision": "keep",
+    "reason": "The video features a stray cat and her kittens, which is relevant to real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

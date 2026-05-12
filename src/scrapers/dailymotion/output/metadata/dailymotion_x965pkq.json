@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x965pkq",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x965pkq_video.mp4",
+  "audio_path": "output/videos/dailymotion_x965pkq_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Perserkatze muss zum Frisör: Der neue Schnitt ist ein Skandal!",
+  "webpage_url": "https://www.dailymotion.com/video/x965pkq",
+  "dm_id": "x965pkq",
+  "views_total": 3570,
+  "view_count": 3570,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Auweia! Das ging jetzt wirklich komplett in die Hose. Statt mit einer schicken, trendy Schur kommt Perser-Katze „Jin Jin“ völlig entstellt nach Hause.",
+  "created_time": 1727167078,
+  "search_query": "Verhalten einer verletzten Katze",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat getting a haircut, which is relevant to cat grooming behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x965pkq",
+    "decision": "keep",
+    "reason": "The video features a cat getting a haircut, which is relevant to cat grooming behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

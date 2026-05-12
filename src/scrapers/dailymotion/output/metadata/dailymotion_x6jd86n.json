@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x6jd86n",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6jd86n_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6jd86n_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "Un pigeon couve un chaton",
+  "webpage_url": "https://www.dailymotion.com/video/x6jd86n",
+  "dm_id": "x6jd86n",
+  "views_total": 762,
+  "view_count": 762,
+  "likes_total": 5,
+  "like_count": 5,
+  "tags": [
+    "chaton",
+    "pigeon",
+    "couver"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "L’animal n’apprécie pas qu’une main cherche à caresser son petit protégé.<br />Un petit chaton a été pris sous l’aile d’un pigeon qui le couve dans son nid. Lorsqu’une main tente de s’approcher du petit chat afin de le caresser, le pigeon est féroce et donne de grands coups d’aile et de bec afin de protéger son enfant adoptif.",
+  "created_time": 1526116791,
+  "search_query": "chats qui piaillent et bavardent",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a kitten being protected by a pigeon, indicating a nurturing behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6jd86n",
+    "decision": "keep",
+    "reason": "The video shows a kitten being protected by a pigeon, indicating a nurturing behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

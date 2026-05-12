@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x5a3tcm",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5a3tcm_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5a3tcm_audio.mp3",
+  "duration_sec": 13,
+  "duration_seconds": 13.0,
+  "title": "Dono pega com gato em dia \"não\" e este demostra claramente que não está para brincadeiras...",
+  "webpage_url": "https://www.dailymotion.com/video/x5a3tcm",
+  "dm_id": "x5a3tcm",
+  "views_total": 970,
+  "view_count": 970,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gato",
+    "sino",
+    "dono",
+    "brincar"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pt",
+  "query_language": "Spanish",
+  "description": "O dono deste gato já devia saber que quando um felino diz \"não\", é mesmo para cumprir à risca o que ele diz. Numa tentativa de chamar a atenção do seu animal de estimação, o homem decidiu mexer no sininho que este trazia ao pescoço... um erro!  <br /> <br />O felino estava em dia não e só o olhar que fez, mostrou claramente que não estava para brincadeiras... :o",
+  "created_time": 1485802845,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video depicts a cat clearly expressing its displeasure, showcasing cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5a3tcm",
+    "decision": "keep",
+    "reason": "The video depicts a cat clearly expressing its displeasure, showcasing cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x7nesxb",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7nesxb_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7nesxb_audio.mp3",
+  "duration_sec": 58,
+  "duration_seconds": 58.0,
+  "title": "Clever Cat Opens the Door",
+  "webpage_url": "https://www.dailymotion.com/video/x7nesxb",
+  "dm_id": "x7nesxb",
+  "views_total": 554,
+  "view_count": 554,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "2019",
+    "Animals",
+    "Cool",
+    "Cute",
+    "Domesticated Animals",
+    "Cats",
+    "feel good",
+    "Humor",
+    "kitten",
+    "kittens"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "Occurred on October 8, 2019 / Hue, Vietnam<br /><br />Info from Licensor: \"This cat often tries to open the door to go out. I think he's pretty smart.\"",
+  "created_time": 1572628274,
+  "search_query": "playful kittens relaxing",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat opening a door, showcasing clever behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7nesxb",
+    "decision": "keep",
+    "reason": "The video features a cat opening a door, showcasing clever behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

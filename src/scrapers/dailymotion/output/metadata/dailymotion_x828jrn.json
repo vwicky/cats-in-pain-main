@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x828jrn",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x828jrn_video.mp4",
+  "audio_path": "output/videos/dailymotion_x828jrn_audio.mp3",
+  "duration_sec": 31,
+  "duration_seconds": 31.0,
+  "title": "Un chat fan de hard rock",
+  "webpage_url": "https://www.dailymotion.com/video/x828jrn",
+  "dm_id": "x828jrn",
+  "views_total": 5234,
+  "view_count": 5234,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Société",
+    "Vidéos"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Tout le monde aime les soirées télé. Et ce n'est pas ce chat qui vous dira le contraire !",
+  "created_time": 1624630066,
+  "search_query": "chat qui aime être caressé",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat enjoying a specific activity, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x828jrn",
+    "decision": "keep",
+    "reason": "The title suggests a cat enjoying a specific activity, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x22h7c",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x22h7c_video.mp4",
+  "audio_path": "output/videos/dailymotion_x22h7c_audio.mp3",
+  "duration_sec": 41,
+  "duration_seconds": 41.0,
+  "title": "bagarre de chat",
+  "webpage_url": "https://www.dailymotion.com/video/x22h7c",
+  "dm_id": "x22h7c",
+  "views_total": 571,
+  "view_count": 571,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "bagarre"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1180026986,
+  "search_query": "bagarre de chats dehors",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and tags indicate a cat fight, which is relevant cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x22h7c",
+    "decision": "keep",
+    "reason": "The title and tags indicate a cat fight, which is relevant cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

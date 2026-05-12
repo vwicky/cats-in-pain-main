@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x9wkxzm",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9wkxzm_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9wkxzm_audio.mp3",
+  "duration_sec": 25,
+  "duration_seconds": 25.0,
+  "title": "Ce chat a mangé un fil de laine avec une aiguille et termine chez le veto",
+  "webpage_url": "https://www.dailymotion.com/video/x9wkxzm",
+  "dm_id": "x9wkxzm",
+  "views_total": 804,
+  "view_count": 804,
+  "likes_total": 2,
+  "like_count": 2,
+  "tags": [
+    "veto",
+    "veterinaire",
+    "insolite",
+    "chat",
+    "fail",
+    "animal"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Ce chat a mangé un fil de laine avec une aiguille et termine chez le veto",
+  "created_time": 1767027937,
+  "search_query": "chat mal à l'aise chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description indicate a cat's vet visit due to an ingestion issue.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9wkxzm",
+    "decision": "keep",
+    "reason": "The title and description indicate a cat's vet visit due to an ingestion issue.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

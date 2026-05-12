@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x1awus",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x1awus_video.mp4",
+  "audio_path": "output/videos/dailymotion_x1awus_audio.mp3",
+  "duration_sec": 27,
+  "duration_seconds": 27.0,
+  "title": "cat fight II",
+  "webpage_url": "https://www.dailymotion.com/video/x1awus",
+  "dm_id": "x1awus",
+  "views_total": 740,
+  "view_count": 740,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cats",
+    "fights",
+    "auh",
+    "popoy",
+    "feline",
+    "pets",
+    "animals",
+    "cute"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1172420671,
+  "search_query": "cat fight outside",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat fight, which is relevant to real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x1awus",
+    "decision": "keep",
+    "reason": "The title suggests a cat fight, which is relevant to real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x1749zd",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x1749zd_video.mp4",
+  "audio_path": "output/videos/dailymotion_x1749zd_audio.mp3",
+  "duration_sec": 59,
+  "duration_seconds": 59.0,
+  "title": "Un chat se fait dorer au soleil sur le lit",
+  "webpage_url": "https://www.dailymotion.com/video/x1749zd",
+  "dm_id": "x1749zd",
+  "views_total": 35602,
+  "view_count": 35602,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "chat",
+    "fait",
+    "dorer",
+    "soleil",
+    "sur",
+    "lit"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "L'artiste israélien <a class=\"link\" rel=\"nofollow\" target=\"_blank\" href=\"http://psychuil.deviantart.com/gallery/?catpath=/\" target=\"_blank\">Anton Nosovitsky</a> a placé une caméra dans sa chambre pour filmer durant 3 heures son chat en train de dormir au soleil sur le lit. La vidéo en time-lapse montre alors le chat qui va sans cesse changer de place sur le lit pour mieux se faire dorer au soleil, car ce dernier se déplace lentement à travers la pièce. La vidéo a été accélérée et ne dure que 1 minute pour 3 heures d'enregistrement.",
+  "created_time": 1384296541,
+  "search_query": "chat qui se repose au soleil",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat sleeping in the sun, which is typical resting behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x1749zd",
+    "decision": "keep",
+    "reason": "The video shows a cat sleeping in the sun, which is typical resting behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x3ee76z",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3ee76z_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3ee76z_audio.mp3",
+  "duration_sec": 33,
+  "duration_seconds": 33.0,
+  "title": "Hilarant : il effraye des chats avec... un masque de chat !",
+  "webpage_url": "https://www.dailymotion.com/video/x3ee76z",
+  "dm_id": "x3ee76z",
+  "views_total": 713,
+  "view_count": 713,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "News",
+    "Insolite",
+    "Masque",
+    "Nourriture",
+    "buzger",
+    "info",
+    "actu",
+    "buzz",
+    "video",
+    "chat"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Pour faire une blague à ses chats, cet homme a eu une idée insolite ! => http://www.buzger.com/fr/hilarant-il-effraye-des-chats-avec-un-masque-de-chat.html",
+  "created_time": 1447856136,
+  "search_query": "cris d'accouplement des chats",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves scaring cats, which relates to their behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3ee76z",
+    "decision": "keep",
+    "reason": "The video involves scaring cats, which relates to their behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

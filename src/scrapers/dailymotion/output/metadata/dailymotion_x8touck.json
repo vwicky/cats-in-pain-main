@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8touck",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8touck_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8touck_audio.mp3",
+  "duration_sec": 35,
+  "duration_seconds": 35.0,
+  "title": "Rescatan a un gato del incendio de Valencia 8 días después: el reencuentro con su dueña es de película",
+  "webpage_url": "https://www.dailymotion.com/video/x8touck",
+  "dm_id": "x8touck",
+  "views_total": 1192,
+  "view_count": 1192,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1709313856,
+  "search_query": "gatos hablando con pájaros",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a rescue of a cat, which is relevant to pain or vet contexts.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8touck",
+    "decision": "keep",
+    "reason": "The title indicates a rescue of a cat, which is relevant to pain or vet contexts.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x55d9sn",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x55d9sn_video.mp4",
+  "audio_path": "output/videos/dailymotion_x55d9sn_audio.mp3",
+  "duration_sec": 9,
+  "duration_seconds": 9.0,
+  "title": "Un chat se fait faceplant dans la neige par un berger allemand",
+  "webpage_url": "https://www.dailymotion.com/video/x55d9sn",
+  "dm_id": "x55d9sn",
+  "views_total": 1168,
+  "view_count": 1168,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "chat vs chien",
+    "cat vs dog"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Le 14 Décembre 2016 : Quebec, Canada <br /> <br />Un chat se fait faceplant dans la neige par un berger allemand <br /> <br />►► Rejoignez-nous maintenant : <br />★Dailymotion: http://www.dailymotion.com/buzzy-9 <br />★FACEBOOK: https://www.facebook.com/buzzyneuf/ <br />★SITE: http://buzzy9.com",
+  "created_time": 1481838431,
+  "search_query": "chats se reposant paisiblement",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat interacting with a dog, which is relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x55d9sn",
+    "decision": "keep",
+    "reason": "The video shows a cat interacting with a dog, which is relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

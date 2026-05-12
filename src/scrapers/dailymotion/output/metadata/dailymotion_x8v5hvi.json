@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8v5hvi",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8v5hvi_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8v5hvi_audio.mp3",
+  "duration_sec": 28,
+  "duration_seconds": 28.0,
+  "title": "Veterinária encanta web ao se despedir de gato em clínica com música; assista",
+  "webpage_url": "https://www.dailymotion.com/video/x8v5hvi",
+  "dm_id": "x8v5hvi",
+  "views_total": 10854,
+  "view_count": 10854,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "",
+  "created_time": 1710972434,
+  "search_query": "gatos conversando com pássaros",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a veterinary context involving a cat.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8v5hvi",
+    "decision": "keep",
+    "reason": "The title indicates a veterinary context involving a cat.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

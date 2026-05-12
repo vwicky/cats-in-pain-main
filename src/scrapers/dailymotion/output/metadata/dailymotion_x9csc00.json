@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x9csc00",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9csc00_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9csc00_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "NO COMMENT: Ayuda a los gatos callejeros y al medio ambiente con estas nuevas máquinas expendedoras de Bucarest",
+  "webpage_url": "https://www.dailymotion.com/video/x9csc00",
+  "dm_id": "x9csc00",
+  "views_total": 732,
+  "view_count": 732,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "Rumanía",
+    "Bucharest",
+    "Reciclaje",
+    "animales"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "La capital rumana ha introducido máquinas expendedoras ecológicas en los parques Tineretului, Floreasca y Circului, que ofrecen comida y agua a los gatos callejeros a cambio de botellas y latas recicladas.",
+  "created_time": 1737499966,
+  "search_query": "comportamiento agresivo de los gatos",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses helping stray cats with vending machines.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9csc00",
+    "decision": "keep",
+    "reason": "The video discusses helping stray cats with vending machines.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3kj7vl",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3kj7vl_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3kj7vl_audio.mp3",
+  "duration_sec": 39,
+  "duration_seconds": 39.0,
+  "title": "Very Funny Cat - Lüstigste Katze - Самый смешной кошак",
+  "webpage_url": "https://www.dailymotion.com/video/x3kj7vl",
+  "dm_id": "x3kj7vl",
+  "views_total": 9335,
+  "view_count": 9335,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "German",
+  "description": "Very Funny Cat - Lüstigste Katze - Самый смешной кошак <br />Very Funny Cat - Lüstigste Katze - Самый смешной кошак",
+  "created_time": 1451797767,
+  "search_query": "Katze Warnsounds",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a funny cat video, likely featuring real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3kj7vl",
+    "decision": "keep",
+    "reason": "The title indicates a funny cat video, likely featuring real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x96dmyy",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x96dmyy_video.mp4",
+  "audio_path": "output/videos/dailymotion_x96dmyy_audio.mp3",
+  "duration_sec": 18,
+  "duration_seconds": 18.0,
+  "title": "Over 3 dozen animals rescued from hoarder's home in Pontiac",
+  "webpage_url": "https://www.dailymotion.com/video/x96dmyy",
+  "dm_id": "x96dmyy",
+  "views_total": 4666,
+  "view_count": 4666,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "WWJAM",
+    "Animals",
+    "Metro Detroit",
+    "Hoarder"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "en",
+  "query_language": "English",
+  "description": "A Pontiac woman is expected to face animal neglect charges after authorities removed three dozen dogs and cats from her home on Friday.",
+  "created_time": 1727479307,
+  "search_query": "cats chirping and chattering",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Involves rescue of cats, relevant to cat welfare.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x96dmyy",
+    "decision": "keep",
+    "reason": "Involves rescue of cats, relevant to cat welfare.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

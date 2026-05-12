@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x9uons2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9uons2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9uons2_audio.mp3",
+  "duration_sec": 36,
+  "duration_seconds": 36.0,
+  "title": "La vie secrète des chats",
+  "webpage_url": "https://www.dailymotion.com/video/x9uons2",
+  "dm_id": "x9uons2",
+  "views_total": 1289,
+  "view_count": 1289,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "plurimedia_1208491",
+    "video_plurimedia",
+    "video_plurimedia_broadcast"
+  ],
+  "channel": "tv",
+  "channel_title": "tv",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Le quotidien de Blandine avec sa petite Cyane, montre que, même lorsque l'on est une maîtresse très aimante, il est parfois difficile de bien communiquer avec son matou. Laetitia, vétérinaire, explique tous les bons gestes à avoir avec son chat. En surveillant la vie secrète de Plume, Cachou, Koumal et Isis, quatre chats qui se partagent la maison de Frédéricka et de sa famille, il s'agira de savoir comment les chats communiquent entre eux.",
+  "created_time": 1764437500,
+  "search_query": "chat mal à l'aise chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses the daily life of a cat and communication with its owner, indicating real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9uons2",
+    "decision": "keep",
+    "reason": "The video discusses the daily life of a cat and communication with its owner, indicating real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -30,6 +30,9 @@ models/*
 # Experiment outputs (heavy, regeneratable)
 runs/
 
+# Too large for GitHub (>100MB); keep locally / regenerate from pipeline
+src/dataset_construction/reports/cat_id_bbox_crops.npz
+
 # Generated video/data artifact folders (do not publish)
 downloads/
 downloaded_snippets/

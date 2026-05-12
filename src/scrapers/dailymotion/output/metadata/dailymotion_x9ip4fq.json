@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9ip4fq",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9ip4fq_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9ip4fq_audio.mp3",
+  "duration_sec": 24,
+  "duration_seconds": 24.0,
+  "title": "Hundemama holt Paket ab: Eine streunende Katze hat eine lustige Überraschung für sie",
+  "webpage_url": "https://www.dailymotion.com/video/x9ip4fq",
+  "dm_id": "x9ip4fq",
+  "views_total": 81215,
+  "view_count": 81215,
+  "likes_total": 20,
+  "like_count": 20,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "An diesem Tag ändert sich alles für diese \"Hundemama\".",
+  "created_time": 1745929887,
+  "search_query": "Katze nach der Impfung",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat is involved in a humorous situation.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9ip4fq",
+    "decision": "keep",
+    "reason": "The title suggests a cat is involved in a humorous situation.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

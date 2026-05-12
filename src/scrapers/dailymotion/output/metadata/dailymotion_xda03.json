@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_xda03",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xda03_video.mp4",
+  "audio_path": "output/videos/dailymotion_xda03_audio.mp3",
+  "duration_sec": 49,
+  "duration_seconds": 49.0,
+  "title": "après la naissance",
+  "webpage_url": "https://www.dailymotion.com/video/xda03",
+  "dm_id": "xda03",
+  "views_total": 1516,
+  "view_count": 1516,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "bébé",
+    "naissance",
+    "chatons"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "voici soho,le petit chat de tout a l'heure sauf que maintenant elle a 3 ans et c'est a son tour de donner a vie..voici les 3 chattons quelques heures après la naissance:curaçao(le male tigré)vodka(la noire) et malibu(la tricolore)..ils ont quittés la maison au mois de juillet(un chez ma soer,un chez ma tante et un chez des amis!!)pas trop loin quoi",
+  "created_time": 1157553341,
+  "search_query": "chat mal à l'aise chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates the birth of kittens, relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xda03",
+    "decision": "keep",
+    "reason": "The description indicates the birth of kittens, relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

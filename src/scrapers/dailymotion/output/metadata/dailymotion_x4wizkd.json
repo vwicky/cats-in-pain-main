@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x4wizkd",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x4wizkd_video.mp4",
+  "audio_path": "output/videos/dailymotion_x4wizkd_audio.mp3",
+  "duration_sec": 54,
+  "duration_seconds": 54.0,
+  "title": "Gatinho é salvo após ficar preso no parapeito do 12º andar de um prédio em Singapura",
+  "webpage_url": "https://www.dailymotion.com/video/x4wizkd",
+  "dm_id": "x4wizkd",
+  "views_total": 19378,
+  "view_count": 19378,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gato",
+    "resgatado",
+    "Singapura"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Um gatinho abusou da curiosidade e, após subir na janela aberta do apartamento onde vive, acabou por cair no parapeito do 12º andar de um edifício em Singapura. Um morador da vizinhança avistou o animal e ligou de imediato para a Organização SPCA Sigapore que enviou uma equipa de resgate ao prédio. <br /> <br />Com o uso de um bastão com uma corda na ponta, um dos integrantes da equipa conseguiu laçar o felino e trazê-lo de volta ao apartamento em segurança. <br /> <br />Fica o alerta para aquelas pessoas que criam animais de estimação em prédios altos, que mantenham as suas portas e janelas fechadas ou coloquem proteções para evitar situações de perigo como esta.",
+  "created_time": 1475858003,
+  "search_query": "gatinhos brincalhões relaxando",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a cat rescue situation.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x4wizkd",
+    "decision": "keep",
+    "reason": "The video involves a cat rescue situation.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

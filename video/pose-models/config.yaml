@@ -1,0 +1,74 @@
+# ── Data ────────────────────────────────────────────────────
+data:
+  manifest: "src/dataset_construction/manifests/final_dataset_v2.jsonl"
+  pose_v1_dir: "data/dataset/embeddings/pose/labeled"
+  pose_v2_dir: "data/dataset/embeddings/pose/v2"
+  # Optional: JSONL from pose extraction pipeline (snippet_id → paths). Used when manifest has no pose_path or file is missing.
+  pose_extraction_index: "src/dataset_construction/reports/pose_extraction_index.jsonl"
+  # Optional: drop low-quality ViTpose clips (precompute with scripts/build_vitpose_qc_enrichment.py)
+  # vitpose_qc:
+  #   filter: false
+  #   enrichment: "src/dataset_construction/reports/vitpose_qc_enrichment.jsonl"
+  #   default_ok_if_missing: true
+  #   attach_enrichment_columns: false
+  n_frames: 35
+  n_keypoints: 17
+  n_channels: 3                  # x, y, confidence
+  # ViT .npy P4 dataloader: ram (default) | disk | off — see data_engineering.PoseDataset
+  # pose_cache:
+  #   backend: ram
+  #   # disk_dir: "video/pose-models/cache/vit_poses"
+
+# ── Label space ─────────────────────────────────────────────
+labels:
+  classes_5:
+    - Paining
+    - Positive_Baseline
+    - Agonistic
+    - Vocalizing
+    - HuntingMind
+  binary_pain_class: "Paining"
+  label_field: "final_label_5"   # field in manifest to use as label
+  confidence_field: "audio_high_confidence"
+
+# ── Normalization ────────────────────────────────────────────
+normalization:
+  root_joint: 0                  # subtract this joint from all joints (nose)
+  scale_joints: [5, 6]           # shoulder pair — compute mean bone length for scale
+  clamp_xy: [-0.5, 1.5]         # clamp after normalization (catches v2 extraction bugs)
+  drop_low_confidence_frames: true
+  confidence_threshold: 0.10     # zero out keypoints below this confidence
+
+# ── CV splitting ─────────────────────────────────────────────
+split:
+  n_folds: 5
+  random_state: 42
+  group_field: "cat_id"          # StratifiedGroupKFold groups
+  stratify_field: "final_label_5"
+
+# ── Data scaling experiment ──────────────────────────────────
+scaling:
+  fractions: [0.10, 0.20, 0.30, 0.50, 0.70, 1.00]
+  # For each fraction: sample that % of training data (val stays full)
+  # Sampling is stratified by label to preserve class ratios
+  n_repeats: 1                   # repeat each fraction N times with different seeds
+
+# ── Training ────────────────────────────────────────────────
+training:
+  epochs: 60
+  batch_size: 32
+  optimizer: "adamw"
+  lr: 1.0e-3
+  weight_decay: 0.01
+  scheduler: "cosine"
+  focal_gamma: 2.0
+  use_class_weights: true
+  early_stop_metric: "val_macro_f1"
+  early_stop_patience: 12
+  early_stop_min_delta: 0.001
+  grad_clip_norm: null
+
+# ── Output ───────────────────────────────────────────────────
+output:
+  runs_dir: "video/pose-models/runs"
+  log_interval_batches: 20

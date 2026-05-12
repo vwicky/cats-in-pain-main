@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x36bwm1",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x36bwm1_video.mp4",
+  "audio_path": "output/videos/dailymotion_x36bwm1_audio.mp3",
+  "duration_sec": 40,
+  "duration_seconds": 40.0,
+  "title": "Dog and cat battle for spot on the couch",
+  "webpage_url": "https://www.dailymotion.com/video/x36bwm1",
+  "dm_id": "x36bwm1",
+  "views_total": 1595,
+  "view_count": 1595,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "viral videos",
+    "funny videos",
+    "funny pets",
+    "pet videos",
+    "dog and cat",
+    "funny and cute animals",
+    "dog and cat battle for spot on couch",
+    "playful animals",
+    "cute and adorable"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "It's an adorable match between Cosmo the Golden Retriever and Flea the cat for some prime real estate on the couch. Who do you think is the winner?",
+  "created_time": 1441983687,
+  "search_query": "defensive cat posture",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat and a dog interacting, which is relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x36bwm1",
+    "decision": "keep",
+    "reason": "The video features a cat and a dog interacting, which is relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3j2l2h",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3j2l2h_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3j2l2h_audio.mp3",
+  "duration_sec": 48,
+  "duration_seconds": 48.0,
+  "title": "КОТ ЛОВКИЙ РЫБАК ПРИКОЛ",
+  "webpage_url": "https://www.dailymotion.com/video/x3j2l2h",
+  "dm_id": "x3j2l2h",
+  "views_total": 14064,
+  "view_count": 14064,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "приколы",
+    "юмор",
+    "смешно",
+    "приколы с животными.",
+    "детки",
+    "кошки",
+    "птички",
+    "FUN WITH ANIMALS",
+    "CHILDREN"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Наши верные друзья - наши забавные животные!!! Веселые смешные видео о птичках, собачках, кошечках, рыбках и других забавных зверюшках! <br />Our good friends - our funny animals! Funny funny video about the birds, dogs, kitties, fish and other fun little animals!",
+  "created_time": 1450826099,
+  "search_query": "две кошки ругаются",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a humorous cat video.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3j2l2h",
+    "decision": "keep",
+    "reason": "The title suggests a humorous cat video.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

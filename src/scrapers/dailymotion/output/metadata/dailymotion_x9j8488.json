@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x9j8488",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9j8488_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9j8488_audio.mp3",
+  "duration_sec": 25,
+  "duration_seconds": 25.0,
+  "title": "Cats stare at indoor birds like they are plotting the ultimate bird chase",
+  "webpage_url": "https://www.dailymotion.com/video/x9j8488",
+  "dm_id": "x9j8488",
+  "views_total": 2081,
+  "view_count": 2081,
+  "likes_total": 58,
+  "like_count": 58,
+  "tags": [
+    "Riyadh",
+    "Saudi Arabia",
+    "Cats",
+    "Parrots",
+    "Animals and Pets",
+    "Birds",
+    "Animal Humor",
+    "Cat Stare",
+    "Indoor Birds",
+    "Funny Pets"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "These cats were having a full-on National Geographic moment from the other side of the glass!<br /><br />Sukinah shared this hilarious clip where her cats, stationed like security guards outside the house, had their eyes laser-locked on the birds freely strutting around inside.<br /><br />''I let my birds out to roam around the house, and my beautiful cats noticed and immediately wanted to go in and catch them,'' she told WooGlobe.<br /><br />It was like bird TV for them—live, in full color, and utterly out of reach.<br />WooGlobe Ref : WGA890166<br />For licensing and to use this video, please email licensing@wooglobe.com",
+  "created_time": 1746837582,
+  "search_query": "cat chattering at birds",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description suggests real cats observing birds.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9j8488",
+    "decision": "keep",
+    "reason": "The description suggests real cats observing birds.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

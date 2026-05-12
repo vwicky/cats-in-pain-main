@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x953koa",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x953koa_video.mp4",
+  "audio_path": "output/videos/dailymotion_x953koa_audio.mp3",
+  "duration_sec": 22,
+  "duration_seconds": 22.0,
+  "title": "Pourquoi Les chats deviennt calme apres ca",
+  "webpage_url": "https://www.dailymotion.com/video/x953koa",
+  "dm_id": "x953koa",
+  "views_total": 6734,
+  "view_count": 6734,
+  "likes_total": 7,
+  "like_count": 7,
+  "tags": [],
+  "channel": "people",
+  "channel_title": "people",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1725386901,
+  "search_query": "chat après vaccination",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a discussion about cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x953koa",
+    "decision": "keep",
+    "reason": "The title suggests a discussion about cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

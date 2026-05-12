@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x4w72h9",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x4w72h9_video.mp4",
+  "audio_path": "output/videos/dailymotion_x4w72h9_audio.mp3",
+  "duration_sec": 14,
+  "duration_seconds": 14.0,
+  "title": "Die Reaktion dieser schuldigen Katze bringt dich in nur 13 Sekunden zum Lachen!",
+  "webpage_url": "https://www.dailymotion.com/video/x4w72h9",
+  "dm_id": "x4w72h9",
+  "views_total": 736,
+  "view_count": 736,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "German",
+  "description": "",
+  "created_time": 1475697633,
+  "search_query": "Katze, die Beute verfolgt",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's guilty reaction, likely humorous.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x4w72h9",
+    "decision": "keep",
+    "reason": "The title suggests a cat's guilty reaction, likely humorous.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

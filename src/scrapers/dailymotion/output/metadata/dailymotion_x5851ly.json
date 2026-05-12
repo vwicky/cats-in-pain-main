@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x5851ly",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5851ly_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5851ly_audio.mp3",
+  "duration_sec": 42,
+  "duration_seconds": 42.0,
+  "title": "Gato se acomoda en el lomo de un caballo",
+  "webpage_url": "https://www.dailymotion.com/video/x5851ly",
+  "dm_id": "x5851ly",
+  "views_total": 1757,
+  "view_count": 1757,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gato",
+    "lomo de caballo",
+    "insolito",
+    "viral"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Este gato no encontró mejor sitio que el lomo de un caballo para dejar pasar el tiempo.",
+  "created_time": 1484157744,
+  "search_query": "signos de malestar en gatos",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat resting on a horse, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5851ly",
+    "decision": "keep",
+    "reason": "The video features a cat resting on a horse, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

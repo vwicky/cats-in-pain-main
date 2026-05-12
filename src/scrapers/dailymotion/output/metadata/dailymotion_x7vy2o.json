@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x7vy2o",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7vy2o_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7vy2o_audio.mp3",
+  "duration_sec": 15,
+  "duration_seconds": 15.0,
+  "title": "Gatto divertente sul cestino-skateboard",
+  "webpage_url": "https://www.dailymotion.com/video/x7vy2o",
+  "dm_id": "x7vy2o",
+  "views_total": 2523,
+  "view_count": 2523,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gatti",
+    "gatto",
+    "divertenti",
+    "divertente",
+    "belli",
+    "bello",
+    "cestino",
+    "skateboard",
+    "George",
+    "Mildred"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "Alla fine ci riesce! George (il gatto che vuole fare skate) è troppo forte! Con l'assistenza di Mildred (l'altro micio)",
+  "created_time": 1230743005,
+  "search_query": "gatto che insegue la preda",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat on a skateboard, which is playful behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7vy2o",
+    "decision": "keep",
+    "reason": "The video features a cat on a skateboard, which is playful behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

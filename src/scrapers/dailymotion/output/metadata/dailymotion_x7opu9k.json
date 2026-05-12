@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x7opu9k",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7opu9k_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7opu9k_audio.mp3",
+  "duration_sec": 15,
+  "duration_seconds": 15.0,
+  "title": "Un chat qui reçoit un œuf de la part de sa maîtresse !",
+  "webpage_url": "https://www.dailymotion.com/video/x7opu9k",
+  "dm_id": "x7opu9k",
+  "views_total": 64138,
+  "view_count": 64138,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un chat qui reçoit un œuf de la part de sa maîtresse !",
+  "created_time": 1575314885,
+  "search_query": "vidéos de chats qui parlent",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat receiving an egg, likely indicating playful or curious behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7opu9k",
+    "decision": "keep",
+    "reason": "The video shows a cat receiving an egg, likely indicating playful or curious behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

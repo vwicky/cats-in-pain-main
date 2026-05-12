@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x1gk8ba",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x1gk8ba_video.mp4",
+  "audio_path": "output/videos/dailymotion_x1gk8ba_audio.mp3",
+  "duration_sec": 55,
+  "duration_seconds": 55.0,
+  "title": "Une famille prise en otage par leur chat appelle la police",
+  "webpage_url": "https://www.dailymotion.com/video/x1gk8ba",
+  "dm_id": "x1gk8ba",
+  "views_total": 2564,
+  "view_count": 2564,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Etats",
+    "unis",
+    "america"
+  ],
+  "channel": "lifestyle",
+  "channel_title": "lifestyle",
+  "language": "en",
+  "query_language": "French",
+  "description": "Le dimanche 9 mars 2014 dans une maison de Portland aux États-Unis, un chat himalayen prénommé Lux a griffé le bébé de la famille Barker. Les parents ont alors voulu repousser l'animal qui s'est mis à devenir agressif. Pris de panique les parents se sont retranchés dans leur chambre à coucher. Après avoir fermé la porte, ils ont appelé le 911 pour demander de l'aide à la police, se sentant pris en otage par leur chat. Le bébé griffé au visage, Jesse Barker n'a rien de grave. L'échange téléphonique entre le policier et le père de famille est assez surréaliste. <br />https://www.voiceofcongo.net<br />Facebook: https://www.facebook.com/VoiceOfCongo<br />Twitter: https://www.twitter.com/VoiceOfCongo",
+  "created_time": 1394658021,
+  "search_query": "chats se battent pour le territoire",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video describes a cat displaying aggressive behavior towards a family.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x1gk8ba",
+    "decision": "keep",
+    "reason": "The video describes a cat displaying aggressive behavior towards a family.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

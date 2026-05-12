@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9j2p0u",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9j2p0u_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9j2p0u_audio.mp3",
+  "duration_sec": 45,
+  "duration_seconds": 45.0,
+  "title": "Gatinho entra pelo cano e desaparece no Cancelli",
+  "webpage_url": "https://www.dailymotion.com/video/x9j2p0u",
+  "dm_id": "x9j2p0u",
+  "views_total": 731,
+  "view_count": 731,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Gatinho entra pelo cano e desaparece no Cancelli",
+  "created_time": 1746553866,
+  "search_query": "gatinhos brincalhões relaxando",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat entering a pipe, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9j2p0u",
+    "decision": "keep",
+    "reason": "The title indicates a cat entering a pipe, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

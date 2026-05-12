@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9ao62g",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9ao62g_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9ao62g_audio.mp3",
+  "duration_sec": 18,
+  "duration_seconds": 18.0,
+  "title": "Ucraniano a fugir da guerra resgatado na Roménia. Gato \"salvou-o\"",
+  "webpage_url": "https://www.dailymotion.com/video/x9ao62g",
+  "dm_id": "x9ao62g",
+  "views_total": 548,
+  "view_count": 548,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Ucraniano a fugir da guerra resgatado na Roménia. Gato \"salvou-o\"",
+  "created_time": 1733997333,
+  "search_query": "gato na clínica veterinária",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a cat's role in a rescue context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9ao62g",
+    "decision": "keep",
+    "reason": "The video discusses a cat's role in a rescue context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

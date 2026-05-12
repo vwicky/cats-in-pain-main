@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x3q8xqp",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3q8xqp_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3q8xqp_audio.mp3",
+  "duration_sec": 21,
+  "duration_seconds": 21.0,
+  "title": "Извинение за короткие видео!",
+  "webpage_url": "https://www.dailymotion.com/video/x3q8xqp",
+  "dm_id": "x3q8xqp",
+  "views_total": 1697,
+  "view_count": 1697,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "real",
+    "fun",
+    "video",
+    "clip",
+    "приколы лучшие",
+    "приколы"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1454516214,
+  "search_query": "короткие видео с кошками",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The channel is focused on animals, suggesting potential cat content.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3q8xqp",
+    "decision": "keep",
+    "reason": "The channel is focused on animals, suggesting potential cat content.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

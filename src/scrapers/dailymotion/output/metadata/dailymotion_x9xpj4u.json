@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9xpj4u",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9xpj4u_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9xpj4u_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "Gatito descubre la nieve por primera vez y su reacción es adorable",
+  "webpage_url": "https://www.dailymotion.com/video/x9xpj4u",
+  "dm_id": "x9xpj4u",
+  "views_total": 2900,
+  "view_count": 2900,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "¡No podrás dejar de sonreír! Este pequeño gatito experimenta la nieve por primera vez y su reacción es simplemente adorable y divertida",
+  "created_time": 1768355920,
+  "search_query": "gatitos juguetones relajándose",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Describes a kitten's reaction to snow, likely real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9xpj4u",
+    "decision": "keep",
+    "reason": "Describes a kitten's reaction to snow, likely real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8zkhs8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8zkhs8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8zkhs8_audio.mp3",
+  "duration_sec": 14,
+  "duration_seconds": 14.0,
+  "title": "Almost 100 cats were found at the property",
+  "webpage_url": "https://www.dailymotion.com/video/x8zkhs8",
+  "dm_id": "x8zkhs8",
+  "views_total": 28632,
+  "view_count": 28632,
+  "likes_total": 2,
+  "like_count": 2,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "en",
+  "query_language": "English",
+  "description": "See KentOnline for more",
+  "created_time": 1717424071,
+  "search_query": "sick cat at the vet",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video mentions a situation involving multiple cats, indicating a cat-related context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8zkhs8",
+    "decision": "keep",
+    "reason": "The video mentions a situation involving multiple cats, indicating a cat-related context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

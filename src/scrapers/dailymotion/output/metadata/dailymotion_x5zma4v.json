@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x5zma4v",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5zma4v_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5zma4v_audio.mp3",
+  "duration_sec": 51,
+  "duration_seconds": 51.0,
+  "title": "Araña de juguete goza aterrorizando a un pobre gato",
+  "webpage_url": "https://www.dailymotion.com/video/x5zma4v",
+  "dm_id": "x5zma4v",
+  "views_total": 11529,
+  "view_count": 11529,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Espanto",
+    "Felino",
+    "gato",
+    "araña",
+    "terror",
+    "miedo",
+    "gato asustado"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "es",
+  "query_language": "Portuguese",
+  "description": "Por las redes circula un video que muestra a un gato aterrorizado por un juguete a control remoto. El aparato tiene forma de araña y al verlo el felino se eriza todo y comienza a sufrir casi un ataque. Vea el video.",
+  "created_time": 1504651227,
+  "search_query": "vídeos curtos de gatos caçando",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat reacting to a toy, indicating a real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5zma4v",
+    "decision": "keep",
+    "reason": "The video features a cat reacting to a toy, indicating a real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

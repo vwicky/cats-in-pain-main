@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3j2l2f",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3j2l2f_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3j2l2f_audio.mp3",
+  "duration_sec": 50,
+  "duration_seconds": 50.0,
+  "title": "кот гавкает на голубя)))))))))))))))))))))))))))",
+  "webpage_url": "https://www.dailymotion.com/video/x3j2l2f",
+  "dm_id": "x3j2l2f",
+  "views_total": 17574,
+  "view_count": 17574,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "юмор",
+    "смешно",
+    "приколы",
+    "приколы с животными",
+    "детки",
+    "кошки",
+    "птички",
+    "FUN WITH ANIMALS",
+    "CHILDREN"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Наши верные друзья - наши забавные животные!!! Веселые смешные видео о птичках, собачках, кошечках, рыбках и других забавных зверюшках! <br />Our good friends - our funny animals! Funny funny video about the birds, dogs, kitties, fish and other fun little animals!",
+  "created_time": 1450826133,
+  "search_query": "две кошки ругаются",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat barking at a pigeon, indicating a humorous but plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3j2l2f",
+    "decision": "keep",
+    "reason": "The title suggests a cat barking at a pigeon, indicating a humorous but plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

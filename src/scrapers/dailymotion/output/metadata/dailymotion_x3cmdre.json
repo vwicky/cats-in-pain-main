@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3cmdre",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3cmdre_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3cmdre_audio.mp3",
+  "duration_sec": 59,
+  "duration_seconds": 59.0,
+  "title": "Кот Плывет за Хозяйкой",
+  "webpage_url": "https://www.dailymotion.com/video/x3cmdre",
+  "dm_id": "x3cmdre",
+  "views_total": 793,
+  "view_count": 793,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1446771209,
+  "search_query": "кот, выслеживающий добычу",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat following its owner.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3cmdre",
+    "decision": "keep",
+    "reason": "The title suggests a cat following its owner.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

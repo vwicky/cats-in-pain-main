@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x9jgnfo",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9jgnfo_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9jgnfo_audio.mp3",
+  "duration_sec": 13,
+  "duration_seconds": 13.0,
+  "title": "Vídeo mostra gato enfrentando cachorro para salvar companheira",
+  "webpage_url": "https://www.dailymotion.com/video/x9jgnfo",
+  "dm_id": "x9jgnfo",
+  "views_total": 3785,
+  "view_count": 3785,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "são paulo",
+    "taurinho",
+    "docinho",
+    "gato",
+    "briga",
+    "cachorro"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1747170303,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat confronting a dog to protect another animal, suggesting real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9jgnfo",
+    "decision": "keep",
+    "reason": "The title indicates a cat confronting a dog to protect another animal, suggesting real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

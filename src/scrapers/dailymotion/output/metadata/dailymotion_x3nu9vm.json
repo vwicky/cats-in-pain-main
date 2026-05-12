@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x3nu9vm",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3nu9vm_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3nu9vm_audio.mp3",
+  "duration_sec": 23,
+  "duration_seconds": 23.0,
+  "title": "Funny video Funniest Cat ever Cat trying to catch her own tail",
+  "webpage_url": "https://www.dailymotion.com/video/x3nu9vm",
+  "dm_id": "x3nu9vm",
+  "views_total": 5044,
+  "view_count": 5044,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cat"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "funny cat",
+  "created_time": 1453476223,
+  "search_query": "cat at vet clinic",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat trying to catch its tail, indicating playful behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3nu9vm",
+    "decision": "keep",
+    "reason": "The video features a cat trying to catch its tail, indicating playful behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_xipcm1",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xipcm1_video.mp4",
+  "audio_path": "output/videos/dailymotion_xipcm1_audio.mp3",
+  "duration_sec": 18,
+  "duration_seconds": 18.0,
+  "title": "chat qui prend peur au bord de la piscine",
+  "webpage_url": "https://www.dailymotion.com/video/xipcm1",
+  "dm_id": "xipcm1",
+  "views_total": 688,
+  "view_count": 688,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "piscine",
+    "swimming",
+    "pool",
+    "cat",
+    "chat",
+    "peur",
+    "fail",
+    "fear"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1305374432,
+  "search_query": "chat qui miaule pour de la nourriture",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat reacting to a pool, indicating a real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xipcm1",
+    "decision": "keep",
+    "reason": "The title suggests a cat reacting to a pool, indicating a real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

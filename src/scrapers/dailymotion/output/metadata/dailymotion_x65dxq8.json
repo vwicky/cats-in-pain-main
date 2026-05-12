@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x65dxq8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x65dxq8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x65dxq8_audio.mp3",
+  "duration_sec": 36,
+  "duration_seconds": 36.0,
+  "title": "Un chat fait face à un chien avec une classe extrême",
+  "webpage_url": "https://www.dailymotion.com/video/x65dxq8",
+  "dm_id": "x65dxq8",
+  "views_total": 3943,
+  "view_count": 3943,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Dans cette maison, on sait clairement qui du chien ou du chat fait la loi ! <br /> <br />Avec un sang froid et une classe extrêmes le félin va montrer au chien qui est le patron avec son regard perçant !",
+  "created_time": 1508505402,
+  "search_query": "chats qui piaillent et bavardent",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat displaying dominance over a dog, indicating agonistic behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x65dxq8",
+    "decision": "keep",
+    "reason": "The title suggests a cat displaying dominance over a dog, indicating agonistic behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

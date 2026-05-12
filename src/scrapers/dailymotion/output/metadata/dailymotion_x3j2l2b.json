@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x3j2l2b",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3j2l2b_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3j2l2b_audio.mp3",
+  "duration_sec": 33,
+  "duration_seconds": 33.0,
+  "title": "Где кошка))))))))Смешной попугай!!!",
+  "webpage_url": "https://www.dailymotion.com/video/x3j2l2b",
+  "dm_id": "x3j2l2b",
+  "views_total": 16371,
+  "view_count": 16371,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Юмор",
+    "Приколы",
+    "Смешно",
+    "животные",
+    "кошки",
+    "дети",
+    "приколы с животными",
+    "птички",
+    "FUN WITH ANIMALS",
+    "CHILDREN"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Наши верные друзья - наши забавные животные!!! Веселые смешные видео о птичках, собачках, кошечках, рыбках и других забавных зверюшках! <br />Our good friends - our funny animals! Funny funny video about the birds, dogs, kitties, fish and other fun little animals!",
+  "created_time": 1450824856,
+  "search_query": "две кошки ругаются",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description mention cats among other animals, indicating potential cat content.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3j2l2b",
+    "decision": "keep",
+    "reason": "The title and description mention cats among other animals, indicating potential cat content.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

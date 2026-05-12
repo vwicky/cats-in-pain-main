@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3s8nz1",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3s8nz1_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3s8nz1_audio.mp3",
+  "duration_sec": 21,
+  "duration_seconds": 21.0,
+  "title": "Хозяйка, тебя к телефону. Cat Your Husband is Calling",
+  "webpage_url": "https://www.dailymotion.com/video/x3s8nz1",
+  "dm_id": "x3s8nz1",
+  "views_total": 1753,
+  "view_count": 1753,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cats",
+    "fun",
+    "prikoli",
+    "video",
+    "clip",
+    "best",
+    "rolik",
+    "смешно",
+    "comedy"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1455545682,
+  "search_query": "cats calling for mates",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video is cat-related and likely features real cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3s8nz1",
+    "decision": "keep",
+    "reason": "The video is cat-related and likely features real cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

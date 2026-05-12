@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3joxzv",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3joxzv_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3joxzv_audio.mp3",
+  "duration_sec": 6,
+  "duration_seconds": 6.0,
+  "title": "Улётные приколы и ржачное видео. Кот! СМОТРЕТЬ ВСЕМ",
+  "webpage_url": "https://www.dailymotion.com/video/x3joxzv",
+  "dm_id": "x3joxzv",
+  "views_total": 1029,
+  "view_count": 1029,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Видео приколы, свежие приколы, смотреть приколы, ютуб видео приколы, приколы 2015, приколы 2016, приколы бесплатно, приколы с пьяными, приколы с девушками, пьяные приколы, приколы до слез, приколы с пьяными девушками, смешные приколы, новые приколы, русские приколы, скачать приколы, приколы лета, приколы зимы, лучшее за ноябрь, лучшее за декабрь, смешные видео, самые смешные, смешно до слез, смешное 2015, очень смешные видео приколы, смешные животные, бесплатное видео, смотреть видео, видео онлайн, русское видео, девушки видео, смех, ржач, 2015, 2016, смешно, угар, нелепые приколы, лучшие приколы, самое интересное, приколы над людьми, дикий ржач, приколы с животными, нарезка приколов, мегаприкол, супер прикол, веселый, позитив, настроение, улетное видео, кошки, собаки, умора, best joke, joke, hard joke, smail, подборка приколов, ржач 2015, ржач 2016, фейлы, prokol, мега прикол, неудачи, падения, нарезка неудач, ютуб подборка, подборка лучших приколов, подборка смешных приколов, coub, funny mooments, funny jokes, prank, приколы за неделю, розыгрыши, забавные видео, падения, угарные приколы, убойные приколы, fail compilation, vine copmilation, приколюха, смотреть бесплатно видео, смотреть видео онлайн, смотреть видео, приколы видео девушки 18, приколы на дорогах, приколы в прямом эфире, приколы с детьми",
+  "created_time": 1451254583,
+  "search_query": "кошки, шипящие на птиц",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat is featured in a funny video.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3joxzv",
+    "decision": "keep",
+    "reason": "The title indicates a cat is featured in a funny video.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

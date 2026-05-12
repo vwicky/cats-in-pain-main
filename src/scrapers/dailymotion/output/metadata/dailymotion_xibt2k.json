@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_xibt2k",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xibt2k_video.mp4",
+  "audio_path": "output/videos/dailymotion_xibt2k_audio.mp3",
+  "duration_sec": 20,
+  "duration_seconds": 20.0,
+  "title": "Il micio attacca se stesso",
+  "webpage_url": "https://www.dailymotion.com/video/xibt2k",
+  "dm_id": "xibt2k",
+  "views_total": 22527,
+  "view_count": 22527,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "micio",
+    "gatto",
+    "cat",
+    "attacca",
+    "attack",
+    "se stesso"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "Alle volte i gatti sono incomprensibili, ma fanno sempre tanto ridere",
+  "created_time": 1303390744,
+  "search_query": "video brevi di gatti che dormono",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat engaging in self-attack behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xibt2k",
+    "decision": "keep",
+    "reason": "The title suggests a cat engaging in self-attack behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

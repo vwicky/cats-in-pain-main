@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x8zp7ny",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8zp7ny_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8zp7ny_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "Héroe sin capa Hombre arriesgó su vida para salvar gatos de un incendio en Medellín ",
+  "webpage_url": "https://www.dailymotion.com/video/x8zp7ny",
+  "dm_id": "x8zp7ny",
+  "views_total": 6805,
+  "view_count": 6805,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gatos",
+    "incendio",
+    "MEDELLIN",
+    "heroe"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Un acto de valentía conmocionó al barrio Sevilla de Medellín el pasado sábado 1 de junio, cuando un hombre arriesgó su vida salvando gatos de un incendio estructural. ",
+  "created_time": 1717600545,
+  "search_query": "signos de malestar en gatos",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a heroic act of saving cats from a fire.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8zp7ny",
+    "decision": "keep",
+    "reason": "The video features a heroic act of saving cats from a fire.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

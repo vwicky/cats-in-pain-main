@@ -1,0 +1,116 @@
+Table 12 — Track A (10-class): per-class F1 / recall / precision (CV mean ± std)
+
+Context: Track A trains the P4 ST-GCN backbone on audio_label_10 (10 fine-grained vocal classes)
+from final_dataset_v2.jsonl with ViT-normalized poses; metrics are mean ± std across 5 CV folds at
+100% data (fraction_100). Per-class F1/recall/precision are aggregated in cv_summary.json by
+video/pose-models/training_loop.py.
+
+Related:
+  - video/pose-models/config_p4_10class.yaml — 10-way head, manifest + pose paths
+  - video/pose-models/run_scaling_experiment.py — example driver (see header in config_p4_10class.yaml)
+  - video/pose-models/training_loop.py — writes cv_summary.json beside fold outputs
+  - Documented run (metrics source): runs/pose-models/p4_audio_10class_macrof1_lr3e5_20260428_183753/…
+  - Fallback if JSON missing on disk: embedded block in video_pipeline_comprehensive_report.txt (section C)
+
+Source excerpts (verbatim from repository files):
+
+--- Excerpt: video/pose-models/config_p4_10class.yaml (lines 1-42 of 86) ---
+# P4 (17-keypoint ViT / ST-GCN) — same as video/pose-models/config.yaml but multiclass
+# head uses the **10 original** fine-grained audio classes (``audio_label_10``) instead
+# of the merged 5-class space (``final_label_5``).
+#
+# Run P4 only at 100% data, e.g.:
+#   python video/pose-models/run_scaling_experiment.py \\
+#     --config video/pose-models/config_p4_10class.yaml --models P4 --fractions 1.0 \\
+#     --experiment-name p4_audio_10class
+
+# ── Data ────────────────────────────────────────────────────
+data:
+  manifest: "src/dataset_construction/manifests/final_dataset_v2.jsonl"
+  pose_v1_dir: "data/dataset/embeddings/pose/labeled"
+  pose_v2_dir: "data/dataset/embeddings/pose/v2"
+  pose_extraction_index: "src/dataset_construction/reports/pose_extraction_index.jsonl"
+  vitpose_qc:
+    filter: true
+    enrichment: "src/dataset_construction/reports/vitpose_qc_enrichment.jsonl"
+    default_ok_if_missing: true
+    attach_enrichment_columns: true
+  n_frames: 35
+  n_keypoints: 17
+  n_channels: 3
+  pose_cache:
+    backend: ram
+
+# ── Label space (10-way = ``labels.classes``; do not set ``classes_5`` here) ─
+labels:
+  classes:
+    - Angry
+    - Defence
+    - Fighting
+    - Happy
+    - HuntingMind
+    - Mating
+    - MotherCall
+    - Paining
+    - Resting
+    - Warning
+  binary_pain_class: "Paining"
+  label_field: "audio_label_10"
+  confidence_field: "audio_high_confidence"
+
+--- Excerpt: video/pose-models/training_loop.py (lines 1316-1352 of 1372) ---
+    # aggregate mean/std
+    keys = [
+        "val_macro_f1_5",
+        "val_macro_f1_binary",
+        "val_sensitivity",
+        "val_specificity",
+        "val_accuracy_5",
+        "val_accuracy_binary",
+        "val_auc_roc",
+    ]
+    mprobe = model_class(**model_kwargs)
+    agg: dict = {
+        "model_id": mprobe.model_id,
+        "model_name": mprobe.model_name,
+        "fraction": fraction,
+        "n_folds": n_folds,
+    }
+    for k in keys:
+        vals = [float(fr.get(k, np.nan)) for fr in fold_rows]
+        agg[f"mean_{k.replace('val_', '')}"] = float(np.nanmean(vals))
+        agg[f"std_{k.replace('val_', '')}"] = float(np.nanstd(vals))
+
+    for name in names:
+        for short, pref in [
+            ("f1", "val_per_class_f1_"),
+            ("recall", "val_per_class_recall_"),
+            ("precision", "val_per_class_precision_"),
+        ]:
+            kk = f"{pref}{name}"
+            vals = [float(fr.get(kk, np.nan)) for fr in fold_rows]
+            agg[f"mean_per_class_{short}_{name}"] = float(np.nanmean(vals))
+            agg[f"std_per_class_{short}_{name}"] = float(np.nanstd(vals))
+
+    pd.DataFrame(fold_rows).to_csv(run_dir / "cv_results.csv", index=False)
+    (run_dir / "cv_summary.json").write_text(
+        json.dumps(agg, indent=2, default=str), encoding="utf-8"
+    )
+
+Source: cv_summary.json values — Pose-ST-GCN P4, p4_audio_10class_macrof1_lr3e5_20260428_183753, fraction 100%, 5 folds. If cv_summary.json is absent locally, values are parsed from the embedded snapshot in video_pipeline_comprehensive_report.txt.
+Sort: descending by mean F1.
+
+Class             Mean F1     Std F1  Mean Recall Mean Precision
+----------------------------------------------------------------
+Resting             0.307      0.030        0.360          0.270
+Mating              0.243      0.015        0.240          0.250
+MotherCall          0.166      0.035        0.196          0.179
+Angry               0.161      0.053        0.243          0.123
+Happy               0.153      0.049        0.119          0.272
+Fighting            0.150      0.096        0.204          0.148
+Paining             0.137      0.029        0.109          0.244
+HuntingMind         0.135      0.062        0.126          0.182
+Defence             0.000      0.000        0.000          0.000
+Warning             0.000      0.000        0.000          0.000
+
+Defence and Warning F1 = 0.0 across all folds due to insufficient validation support (6 and 10 clips respectively in fold 0).

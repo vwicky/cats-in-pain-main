@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x39eovh",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x39eovh_video.mp4",
+  "audio_path": "output/videos/dailymotion_x39eovh_audio.mp3",
+  "duration_sec": 10,
+  "duration_seconds": 10.0,
+  "title": "Кот заснул Я ржал минут 10))",
+  "webpage_url": "https://www.dailymotion.com/video/x39eovh",
+  "dm_id": "x39eovh",
+  "views_total": 6797,
+  "view_count": 6797,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1444678233,
+  "search_query": "кот, выслеживающий добычу",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat sleeping, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x39eovh",
+    "decision": "keep",
+    "reason": "The title suggests a cat sleeping, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

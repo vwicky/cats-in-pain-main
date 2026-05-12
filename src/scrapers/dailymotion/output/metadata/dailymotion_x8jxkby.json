@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8jxkby",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8jxkby_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8jxkby_audio.mp3",
+  "duration_sec": 52,
+  "duration_seconds": 52.0,
+  "title": "Joven llora desconsolada por no conseguir novio: \"Me voy a quedar sola con siete gatos\"",
+  "webpage_url": "https://www.dailymotion.com/video/x8jxkby",
+  "dm_id": "x8jxkby",
+  "views_total": 6670,
+  "view_count": 6670,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1681084352,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title mentions a person with multiple cats, indicating a cat-related context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8jxkby",
+    "decision": "keep",
+    "reason": "The title mentions a person with multiple cats, indicating a cat-related context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

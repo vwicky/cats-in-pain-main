@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x582anz",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x582anz_video.mp4",
+  "audio_path": "output/videos/dailymotion_x582anz_audio.mp3",
+  "duration_sec": 50,
+  "duration_seconds": 50.0,
+  "title": "'Verstecken Sie sich!' - DIE BÜCHERDIEBIN - Filmausschnitt 9 - Deutsch HD German-k_2yAB-mswY",
+  "webpage_url": "https://www.dailymotion.com/video/x582anz",
+  "dm_id": "x582anz",
+  "views_total": 7425,
+  "view_count": 7425,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "토킹안젤라"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "German",
+  "description": "[토킹안젤라] 안젤라와 함께 떠나는 피크닉!｜말하는 고양이-3eEhKSKFQZQ",
+  "created_time": 1484104198,
+  "search_query": "Katzen, die sich anknurren",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title mentions a talking cat, suggesting potential cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x582anz",
+    "decision": "keep",
+    "reason": "The title mentions a talking cat, suggesting potential cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

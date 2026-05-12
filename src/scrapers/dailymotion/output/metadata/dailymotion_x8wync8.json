@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8wync8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8wync8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8wync8_audio.mp3",
+  "duration_sec": 25,
+  "duration_seconds": 25.0,
+  "title": "Gato resgatado em cheias no Dubai após agarrar-se a porta de carro",
+  "webpage_url": "https://www.dailymotion.com/video/x8wync8",
+  "dm_id": "x8wync8",
+  "views_total": 704,
+  "view_count": 704,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Gato resgatado em cheias no Dubai após agarrar-se a porta de carro",
+  "created_time": 1713376757,
+  "search_query": "gato doente no veterinário",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat rescue during floods.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8wync8",
+    "decision": "keep",
+    "reason": "The video features a cat rescue during floods.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

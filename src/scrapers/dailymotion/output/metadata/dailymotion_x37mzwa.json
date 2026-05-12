@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x37mzwa",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x37mzwa_video.mp4",
+  "audio_path": "output/videos/dailymotion_x37mzwa_audio.mp3",
+  "duration_sec": 21,
+  "duration_seconds": 21.0,
+  "title": "Кот в астрале...",
+  "webpage_url": "https://www.dailymotion.com/video/x37mzwa",
+  "dm_id": "x37mzwa",
+  "views_total": 21213,
+  "view_count": 21213,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1443049536,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title mentions a cat, suggesting it could be about real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x37mzwa",
+    "decision": "keep",
+    "reason": "The title mentions a cat, suggesting it could be about real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

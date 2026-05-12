@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x8wykbs",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8wykbs_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8wykbs_audio.mp3",
+  "duration_sec": 25,
+  "duration_seconds": 25.0,
+  "title": "Rescatan a gatito en medio de destructiva inundación en Dubai",
+  "webpage_url": "https://www.dailymotion.com/video/x8wykbs",
+  "dm_id": "x8wykbs",
+  "views_total": 1291,
+  "view_count": 1291,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Dubai",
+    "GatitoSalvadoDubai",
+    "InundacionesDubai"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Tras las fuertes lluvias que llegaron a Dubai y afectaron de sobremanera a la población y sus calles, en un video compartieron el momento en el que un gatito fue salvado, este se estaba aferrando a un auto para no ser arrastrado por el agua.",
+  "created_time": 1713375174,
+  "search_query": "gatitos juguetones relajándose",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a kitten being rescued from a flood, which is relevant to real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8wykbs",
+    "decision": "keep",
+    "reason": "The video shows a kitten being rescued from a flood, which is relevant to real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

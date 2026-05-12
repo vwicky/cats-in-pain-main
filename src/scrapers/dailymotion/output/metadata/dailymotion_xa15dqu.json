@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_xa15dqu",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xa15dqu_video.mp4",
+  "audio_path": "output/videos/dailymotion_xa15dqu_audio.mp3",
+  "duration_sec": 45,
+  "duration_seconds": 45.0,
+  "title": "Pingüinos se encontraron con un gato en las Islas Malvinas",
+  "webpage_url": "https://www.dailymotion.com/video/xa15dqu",
+  "dm_id": "xa15dqu",
+  "views_total": 1501,
+  "view_count": 1501,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Portuguese",
+  "description": "",
+  "created_time": 1772576595,
+  "search_query": "gato perseguindo a presa",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a meeting between penguins and a cat, indicating potential cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xa15dqu",
+    "decision": "keep",
+    "reason": "The title suggests a meeting between penguins and a cat, indicating potential cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

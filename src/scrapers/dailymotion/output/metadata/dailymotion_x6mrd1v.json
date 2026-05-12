@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x6mrd1v",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6mrd1v_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6mrd1v_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "Bug : ce chat lèche sa peluche sans la toucher !",
+  "webpage_url": "https://www.dailymotion.com/video/x6mrd1v",
+  "dm_id": "x6mrd1v",
+  "views_total": 879,
+  "view_count": 879,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "animal",
+    "peluche",
+    "lecher",
+    "drole"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Bug : ce chat lèche sa peluche sans la toucher !",
+  "created_time": 1529953614,
+  "search_query": "chat chassant sa proie",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and tags suggest a cat interacting with a toy, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6mrd1v",
+    "decision": "keep",
+    "reason": "The title and tags suggest a cat interacting with a toy, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

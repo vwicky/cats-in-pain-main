@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x4ne8gy",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x4ne8gy_video.mp4",
+  "audio_path": "output/videos/dailymotion_x4ne8gy_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "A VINGANÇA DO GATO INGLÊS !!!",
+  "webpage_url": "https://www.dailymotion.com/video/x4ne8gy",
+  "dm_id": "x4ne8gy",
+  "views_total": 506,
+  "view_count": 506,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Cat",
+    "gato"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "pt",
+  "query_language": "Spanish",
+  "description": "A VINGANÇA DO GATO INGLÊS !!! <br />HUMOR RIR",
+  "created_time": 1470412891,
+  "search_query": "gato en modo caza",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests humor involving a cat, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x4ne8gy",
+    "decision": "keep",
+    "reason": "The title suggests humor involving a cat, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

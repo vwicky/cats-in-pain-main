@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x90xgva",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x90xgva_video.mp4",
+  "audio_path": "output/videos/dailymotion_x90xgva_audio.mp3",
+  "duration_sec": 48,
+  "duration_seconds": 48.0,
+  "title": "Cómo cuidar a tu gato para que se sienta cómodo y feliz  (1)",
+  "webpage_url": "https://www.dailymotion.com/video/x90xgva",
+  "dm_id": "x90xgva",
+  "views_total": 12195,
+  "view_count": 12195,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gatos",
+    "cuidado de gatos",
+    "material para gatos"
+  ],
+  "channel": "lifestyle",
+  "channel_title": "lifestyle",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Equipar tu casa para dar al gato lo que necesita te ayudará a que se sienta cómodo y mejorar su bienestar. Te contamos qué necesita y qué debes tener en cuenta.",
+  "created_time": 1719330223,
+  "search_query": "gato feliz ronroneando",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses cat care, relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x90xgva",
+    "decision": "keep",
+    "reason": "The video discusses cat care, relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

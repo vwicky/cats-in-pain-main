@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_xt58oe",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xt58oe_video.mp4",
+  "audio_path": "output/videos/dailymotion_xt58oe_audio.mp3",
+  "duration_sec": 16,
+  "duration_seconds": 16.0,
+  "title": "Реакция кота на сыр",
+  "webpage_url": "https://www.dailymotion.com/video/xt58oe",
+  "dm_id": "xt58oe",
+  "views_total": 1022,
+  "view_count": 1022,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "хохма"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1346265952,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video likely shows a cat's reaction to cheese, indicating cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xt58oe",
+    "decision": "keep",
+    "reason": "The video likely shows a cat's reaction to cheese, indicating cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

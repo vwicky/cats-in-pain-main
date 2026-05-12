@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x5uuucb",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5uuucb_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5uuucb_audio.mp3",
+  "duration_sec": 43,
+  "duration_seconds": 43.0,
+  "title": "Quand ton chaton te tette le téton dans ton sommeil...",
+  "webpage_url": "https://www.dailymotion.com/video/x5uuucb",
+  "dm_id": "x5uuucb",
+  "views_total": 2112,
+  "view_count": 2112,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Chaton",
+    "LOL",
+    "Drole",
+    "chat",
+    "fun",
+    "animal",
+    "animal de compagnie",
+    "chat lol"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Quand ton chaton te tette le téton dans ton sommeil...  <br />A son réveil cette américaine a filmé cette scène hilarante mais un peu bizarre : son jeune chat etait en train de teter le sein de son copain endormi!",
+  "created_time": 1501054836,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a kitten engaging in a humorous behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5uuucb",
+    "decision": "keep",
+    "reason": "The video features a kitten engaging in a humorous behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

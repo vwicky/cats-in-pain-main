@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8fe5rw",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8fe5rw_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8fe5rw_audio.mp3",
+  "duration_sec": 13,
+  "duration_seconds": 13.0,
+  "title": "little cat playing with toys",
+  "webpage_url": "https://www.dailymotion.com/video/x8fe5rw",
+  "dm_id": "x8fe5rw",
+  "views_total": 680,
+  "view_count": 680,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1668109222,
+  "search_query": "happy cat playing",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat playing with toys, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8fe5rw",
+    "decision": "keep",
+    "reason": "The title suggests a cat playing with toys, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

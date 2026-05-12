@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x131nh",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x131nh_video.mp4",
+  "audio_path": "output/videos/dailymotion_x131nh_audio.mp3",
+  "duration_sec": 19,
+  "duration_seconds": 19.0,
+  "title": "marave de chats!!",
+  "webpage_url": "https://www.dailymotion.com/video/x131nh",
+  "dm_id": "x131nh",
+  "views_total": 585,
+  "view_count": 585,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cette",
+    "gifle",
+    "fait",
+    "mal",
+    "fun"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "combat de chat, cette séquence comporte des scenes violentes et est susceptible d'heurter les plus jeunes ^^",
+  "created_time": 1170023921,
+  "search_query": "bagarre de chats dehors",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description indicate a cat fight.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x131nh",
+    "decision": "keep",
+    "reason": "The title and description indicate a cat fight.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

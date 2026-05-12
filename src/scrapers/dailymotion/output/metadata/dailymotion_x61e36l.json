@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x61e36l",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x61e36l_video.mp4",
+  "audio_path": "output/videos/dailymotion_x61e36l_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Un chat hyper fidèle refuse de quitter la tombe de l'homme qui le nourrissait",
+  "webpage_url": "https://www.dailymotion.com/video/x61e36l",
+  "dm_id": "x61e36l",
+  "views_total": 1057,
+  "view_count": 1057,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "A Langkawi, un archipel d'îles tout proche des côtes malaisiennes, un chat n'a pas hésité à marcher plus de 5 km pour retourner au cimetière de Masjif Kampung Kelibang, situé à Kuah, la capitale du pays. <br /> <br />Dans la séquence qui suit on peut voir le chat gratter la tombe de l'homme de 90 ans qui le nourrissait lui ainsi que de nombreux autres chats errants à la mosquée. Les personnes présentes sur place vont tenter à plusieurs reprises d'éloigner l'animal mais rien n'y fait.",
+  "created_time": 1505913577,
+  "search_query": "vidéos de chats qui parlent",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video depicts a cat showing loyalty at a grave, which is a touching cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x61e36l",
+    "decision": "keep",
+    "reason": "The video depicts a cat showing loyalty at a grave, which is a touching cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

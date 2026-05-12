@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x8tfano",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8tfano_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8tfano_audio.mp3",
+  "duration_sec": 21,
+  "duration_seconds": 21.0,
+  "title": "Bebê revida mordida de gato e viraliza na web",
+  "webpage_url": "https://www.dailymotion.com/video/x8tfano",
+  "dm_id": "x8tfano",
+  "views_total": 90090,
+  "view_count": 90090,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "viralizou",
+    "bebêegato",
+    "mundopet"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "O garotinho, de apenas 9 meses, tentou acariciar o pet, que estranhou o momento. A amizade entre bebês e pets é extremamente comum – e fofa. Mas a convivência nem sempre é pacífica e os dois podem se estranhar em alguns momentos. É o caso do vídeo publicado pela americana Elsie Schwab, que mostra uma cena para lá de inusitada.<br /><br /><br /><br /><br />Imagens: redes sociais/reprodução<br /><br /><br /><br />SE INSCREVA EM NOSSO CANAL NO YOUTUBE!<br /><br />Siga o Portal UAI nas redes sociais: <br />Instagram - @estadodeminas <br />Twitter -  @portalUai /@em_com<br />",
+  "created_time": 1709041788,
+  "search_query": "gatos piando e conversando",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows interaction between a baby and a cat, indicating potential cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8tfano",
+    "decision": "keep",
+    "reason": "The video shows interaction between a baby and a cat, indicating potential cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

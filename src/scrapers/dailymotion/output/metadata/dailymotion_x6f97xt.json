@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x6f97xt",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6f97xt_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6f97xt_audio.mp3",
+  "duration_sec": 26,
+  "duration_seconds": 26.0,
+  "title": "Cuando estas esperando el amor llegar versión felina.....",
+  "webpage_url": "https://www.dailymotion.com/video/x6f97xt",
+  "dm_id": "x6f97xt",
+  "views_total": 926,
+  "view_count": 926,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Cuando",
+    "esperando",
+    "amor",
+    "felina",
+    "versión",
+    "animales",
+    "animal",
+    "mascotas",
+    "gatos",
+    "gato"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1520012095,
+  "search_query": "gato en modo caza",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat-related theme, though the description is empty.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6f97xt",
+    "decision": "keep",
+    "reason": "The title suggests a cat-related theme, though the description is empty.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

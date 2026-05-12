@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x1buv2j",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x1buv2j_video.mp4",
+  "audio_path": "output/videos/dailymotion_x1buv2j_audio.mp3",
+  "duration_sec": 52,
+  "duration_seconds": 52.0,
+  "title": "Che forza questo gatto",
+  "webpage_url": "https://www.dailymotion.com/video/x1buv2j",
+  "dm_id": "x1buv2j",
+  "views_total": 5586,
+  "view_count": 5586,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "Funny",
+    "Video",
+    "Divertenti"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "www.ridichetipassa.net",
+  "created_time": 1392198954,
+  "search_query": "gatto che insegue la preda",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat is featured, though details are vague.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x1buv2j",
+    "decision": "keep",
+    "reason": "The title suggests a cat is featured, though details are vague.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

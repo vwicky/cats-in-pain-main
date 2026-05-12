@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8rd6uh",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8rd6uh_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8rd6uh_audio.mp3",
+  "duration_sec": 42,
+  "duration_seconds": 42.0,
+  "title": "Video: Un gatto annusa il sedere di un altro gatto. La sua reazione fa piangere dalle risate!",
+  "webpage_url": "https://www.dailymotion.com/video/x8rd6uh",
+  "dm_id": "x8rd6uh",
+  "views_total": 886,
+  "view_count": 886,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "È proprio la postura normalmente elegante dei gatti a rendere particolarmente esilarante la perdita di tale eleganza. Guardare per credere!",
+  "created_time": 1704983381,
+  "search_query": "comportamento di un gatto ferito",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Content features a cat and its humorous behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8rd6uh",
+    "decision": "keep",
+    "reason": "Content features a cat and its humorous behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

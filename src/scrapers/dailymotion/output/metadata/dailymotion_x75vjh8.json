@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x75vjh8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x75vjh8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x75vjh8_audio.mp3",
+  "duration_sec": 20,
+  "duration_seconds": 20.0,
+  "title": "Voici Benny, un chat qui n'a peur de rien. Admirez son incroyable habilité !",
+  "webpage_url": "https://www.dailymotion.com/video/x75vjh8",
+  "dm_id": "x75vjh8",
+  "views_total": 12406,
+  "view_count": 12406,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1555335444,
+  "search_query": "vidéos de chats qui parlent",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat displaying impressive skills, likely showcasing real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x75vjh8",
+    "decision": "keep",
+    "reason": "The title suggests a cat displaying impressive skills, likely showcasing real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

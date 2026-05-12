@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x4ft1js",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x4ft1js_video.mp4",
+  "audio_path": "output/videos/dailymotion_x4ft1js_audio.mp3",
+  "duration_sec": 33,
+  "duration_seconds": 33.0,
+  "title": "Una Donna Sta Lavando Il Suo Gatto, Ma Lui \"dice\" Qualcosa Che La Lascia Di Stucco!",
+  "webpage_url": "https://www.dailymotion.com/video/x4ft1js",
+  "dm_id": "x4ft1js",
+  "views_total": 6126,
+  "view_count": 6126,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "",
+  "created_time": 1465635571,
+  "search_query": "gatto che insegue la preda",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests the cat is vocalizing during a washing process.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x4ft1js",
+    "decision": "keep",
+    "reason": "The title suggests the cat is vocalizing during a washing process.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

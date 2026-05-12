@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_xw4c9",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xw4c9_video.mp4",
+  "audio_path": "output/videos/dailymotion_xw4c9_audio.mp3",
+  "duration_sec": 34,
+  "duration_seconds": 34.0,
+  "title": "gatto impaurito!!",
+  "webpage_url": "https://www.dailymotion.com/video/xw4c9",
+  "dm_id": "xw4c9",
+  "views_total": 976,
+  "view_count": 976,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gatto",
+    "kat",
+    "micio",
+    "fun"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "il gatto impaurito.",
+  "created_time": 1167532326,
+  "search_query": "comportamento di un gatto ferito",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Describes a scared cat.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xw4c9",
+    "decision": "keep",
+    "reason": "Describes a scared cat.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

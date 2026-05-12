@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x4z6fd",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x4z6fd_video.mp4",
+  "audio_path": "output/videos/dailymotion_x4z6fd_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "Cat in a bottle",
+  "webpage_url": "https://www.dailymotion.com/video/x4z6fd",
+  "dm_id": "x4z6fd",
+  "views_total": 686,
+  "view_count": 686,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "tori",
+    "forumactif",
+    "frederic",
+    "valence",
+    "drome",
+    "fun",
+    "funny",
+    "drole",
+    "humour"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "English",
+  "description": "Un chat dans une bouteille",
+  "created_time": 1207469347,
+  "search_query": "two cats in a standoff",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests it features a real cat.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x4z6fd",
+    "decision": "keep",
+    "reason": "The title suggests it features a real cat.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

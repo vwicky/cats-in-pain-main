@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8s5t9u",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8s5t9u_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8s5t9u_audio.mp3",
+  "duration_sec": 7,
+  "duration_seconds": 7.0,
+  "title": "Hombre engaña a un gato con comida y luego lo patea",
+  "webpage_url": "https://www.dailymotion.com/video/x8s5t9u",
+  "dm_id": "x8s5t9u",
+  "views_total": 3124,
+  "view_count": 3124,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1707072808,
+  "search_query": "gatos hablando con pájaros",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat is involved in a distressing situation.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8s5t9u",
+    "decision": "keep",
+    "reason": "The title suggests a cat is involved in a distressing situation.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

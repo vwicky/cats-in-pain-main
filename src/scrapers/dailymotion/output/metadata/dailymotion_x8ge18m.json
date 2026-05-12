@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8ge18m",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8ge18m_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8ge18m_audio.mp3",
+  "duration_sec": 13,
+  "duration_seconds": 13.0,
+  "title": "Gatos",
+  "webpage_url": "https://www.dailymotion.com/video/x8ge18m",
+  "dm_id": "x8ge18m",
+  "views_total": 5106,
+  "view_count": 5106,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Portuguese",
+  "description": "",
+  "created_time": 1671216186,
+  "search_query": "gato miando alto",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests it features cats, making it plausible for real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8ge18m",
+    "decision": "keep",
+    "reason": "The title suggests it features cats, making it plausible for real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

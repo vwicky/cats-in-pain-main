@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x8zr5v",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8zr5v_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8zr5v_audio.mp3",
+  "duration_sec": 50,
+  "duration_seconds": 50.0,
+  "title": "Chat qui boit au robinet lavabo!",
+  "webpage_url": "https://www.dailymotion.com/video/x8zr5v",
+  "dm_id": "x8zr5v",
+  "views_total": 802,
+  "view_count": 802,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "fun",
+    "persan",
+    "drole",
+    "lol",
+    "chaton",
+    "animaux"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1239830671,
+  "search_query": "chat agressif qui grogne",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat drinking from a faucet, which is typical behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8zr5v",
+    "decision": "keep",
+    "reason": "The title indicates a cat drinking from a faucet, which is typical behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

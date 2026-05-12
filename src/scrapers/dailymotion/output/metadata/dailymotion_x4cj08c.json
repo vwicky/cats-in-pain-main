@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x4cj08c",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x4cj08c_video.mp4",
+  "audio_path": "output/videos/dailymotion_x4cj08c_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "Ce chat hyper maniéré mange comme un humain",
+  "webpage_url": "https://www.dailymotion.com/video/x4cj08c",
+  "dm_id": "x4cj08c",
+  "views_total": 1535,
+  "view_count": 1535,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Mange",
+    "chat",
+    "éducation",
+    "humain"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Les chats ne cesseront jamais de nous surprendre ... <br /> <br />Le propriétaire a surpris sa boule de poils en train de manger d'une manière un peu ... spéciale : c'est bien simple on croirait voir un humain. <br /> <br />En voilà un qui a été bien éduqué, qui connait les bonnes manières et qui sait comment se tenir à table. <br />Prochaine étape, boire avec une paille ?",
+  "created_time": 1464165365,
+  "search_query": "chat qui gazouille en regardant les oiseaux",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat eating in a human-like manner, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x4cj08c",
+    "decision": "keep",
+    "reason": "The video features a cat eating in a human-like manner, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

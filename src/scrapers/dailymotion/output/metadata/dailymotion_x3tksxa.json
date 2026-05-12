@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x3tksxa",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3tksxa_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3tksxa_audio.mp3",
+  "duration_sec": 27,
+  "duration_seconds": 27.0,
+  "title": "Chien contre Chat : le combat du siècle!",
+  "webpage_url": "https://www.dailymotion.com/video/x3tksxa",
+  "dm_id": "x3tksxa",
+  "views_total": 2066,
+  "view_count": 2066,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Animal",
+    "Mignon",
+    "Chien et chat",
+    "chien",
+    "chat",
+    "se battre",
+    "lol",
+    "animal de compagnie"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Chien contre Chat : le combat du siècle!",
+  "created_time": 1456145415,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a playful confrontation between a dog and a cat.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3tksxa",
+    "decision": "keep",
+    "reason": "The title suggests a playful confrontation between a dog and a cat.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

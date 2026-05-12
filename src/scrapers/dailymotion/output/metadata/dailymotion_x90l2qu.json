@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x90l2qu",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x90l2qu_video.mp4",
+  "audio_path": "output/videos/dailymotion_x90l2qu_audio.mp3",
+  "duration_sec": 49,
+  "duration_seconds": 49.0,
+  "title": "Mann schreckt vor einem Kätzchen zurück, als er sieht, was noch im Gras lauert",
+  "webpage_url": "https://www.dailymotion.com/video/x90l2qu",
+  "dm_id": "x90l2qu",
+  "views_total": 81524,
+  "view_count": 81524,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Dieser Autofahrer traut seinen Augen nicht, als er ein winziges Kätzchen retten will und sieht, was sich dahinter im Gras versteckt.",
+  "created_time": 1718809134,
+  "search_query": "verspielte Kätzchen entspannen",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a kitten rescue, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x90l2qu",
+    "decision": "keep",
+    "reason": "The video involves a kitten rescue, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

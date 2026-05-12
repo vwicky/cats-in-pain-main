@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x2hc6sh",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2hc6sh_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2hc6sh_audio.mp3",
+  "duration_sec": 59,
+  "duration_seconds": 59.0,
+  "title": "Un chat grimpe sur un Roomba",
+  "webpage_url": "https://www.dailymotion.com/video/x2hc6sh",
+  "dm_id": "x2hc6sh",
+  "views_total": 5039,
+  "view_count": 5039,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "tv",
+  "channel_title": "tv",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1424104922,
+  "search_query": "chat sautant sur sa proie",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat interacting with a Roomba, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2hc6sh",
+    "decision": "keep",
+    "reason": "The title suggests a cat interacting with a Roomba, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

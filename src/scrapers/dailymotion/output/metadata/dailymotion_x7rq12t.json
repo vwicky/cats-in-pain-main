@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x7rq12t",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7rq12t_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7rq12t_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "A Cat wearing a face mask in Beijing | Cat Wears Mask as China Battles Coronavirus",
+  "webpage_url": "https://www.dailymotion.com/video/x7rq12t",
+  "dm_id": "x7rq12t",
+  "views_total": 517,
+  "view_count": 517,
+  "likes_total": 2,
+  "like_count": 2,
+  "tags": [
+    "Cat Wears Mask as China Battles Coronavirus",
+    "Beijing Cat Wears Mask as China Battles Coronavirus Outbreak",
+    "Cat Wears Mask",
+    "CORONAVIRUS",
+    "a cat wearing a face mask in Beijing"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "A cat owner in Beijing attempted to find the lighter side of China’s coronavirus outbreak – dressing her cat as a nurse with a mask and uniform. “Hope the epidemic could soon be over, taking off the mask. really do not like to wear a mask,” lily posted on Weibo. The video was posted as photos of a cat wearing a face mask outside went viral on Weibo and featured in international media reports. More than 1,000 people had died of coronavirus and more than 42,000 cases were confirmed in mainland China on February 11<br />",
+  "created_time": 1581483896,
+  "search_query": "two cats in a standoff",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description indicate a cat in a humorous context related to a mask.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7rq12t",
+    "decision": "keep",
+    "reason": "The title and description indicate a cat in a humorous context related to a mask.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

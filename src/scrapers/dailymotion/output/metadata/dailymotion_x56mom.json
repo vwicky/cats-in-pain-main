@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x56mom",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x56mom_video.mp4",
+  "audio_path": "output/videos/dailymotion_x56mom_audio.mp3",
+  "duration_sec": 40,
+  "duration_seconds": 40.0,
+  "title": "Vidéo des 9 petits chatons qui s'amusent entre eux",
+  "webpage_url": "https://www.dailymotion.com/video/x56mom",
+  "dm_id": "x56mom",
+  "views_total": 2474,
+  "view_count": 2474,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chatons",
+    "Treveys",
+    "chat",
+    "petit",
+    "bébé",
+    "joueur",
+    "amusant",
+    "animaux"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Vidéo des 9 petits chatons qui s'amusent entre eux filmé par Cyril Treveys le 23/04/2008",
+  "created_time": 1208971809,
+  "search_query": "chats qui siffle entre eux",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features kittens playing with each other, which is typical cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x56mom",
+    "decision": "keep",
+    "reason": "The video features kittens playing with each other, which is typical cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

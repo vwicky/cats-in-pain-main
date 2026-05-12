@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x7gt8us",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7gt8us_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7gt8us_audio.mp3",
+  "duration_sec": 10,
+  "duration_seconds": 10.0,
+  "title": "Ce bulldog donne des coups de langues à son chat. Adorable !",
+  "webpage_url": "https://www.dailymotion.com/video/x7gt8us",
+  "dm_id": "x7gt8us",
+  "views_total": 5857,
+  "view_count": 5857,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1566309458,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a bulldog interacting with a cat, suggesting real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7gt8us",
+    "decision": "keep",
+    "reason": "The title indicates a bulldog interacting with a cat, suggesting real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

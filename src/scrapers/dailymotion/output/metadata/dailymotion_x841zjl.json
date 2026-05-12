@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x841zjl",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x841zjl_video.mp4",
+  "audio_path": "output/videos/dailymotion_x841zjl_audio.mp3",
+  "duration_sec": 41,
+  "duration_seconds": 41.0,
+  "title": "A Cat In Russia's Government",
+  "webpage_url": "https://www.dailymotion.com/video/x841zjl",
+  "dm_id": "x841zjl",
+  "views_total": 4148,
+  "view_count": 4148,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "en",
+  "query_language": "English",
+  "description": "In the city of Ulyanovsk, Russia, a worker at a trash sorting facility found a black and white cat trapped in a plastic bag.<br />The employee Mikhail Tukash is shown in a video that went viral in Russia, taking out the cat from the bag and holding him.<br />Tukash’s job is to open bags and check them for metal but he felt something soft and he then saw eyes looking right back at him.<br />The Ministry of Environment honored Tukash with a letter of appreciation and adopted the cat.<br />The ministry gave the cat the honorary title of Deputy Environment Minister and launched a contest to name the feline.<br />A similar rescue in New Jersey happened the same week so please if you cannot take care of your pets find them an other home or bring them to a shelter.",
+  "created_time": 1631191475,
+  "search_query": "two cats in a standoff",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video depicts a rescue of a cat, which is relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x841zjl",
+    "decision": "keep",
+    "reason": "The video depicts a rescue of a cat, which is relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

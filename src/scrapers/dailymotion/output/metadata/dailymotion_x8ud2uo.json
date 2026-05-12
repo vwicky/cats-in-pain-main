@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x8ud2uo",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8ud2uo_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8ud2uo_audio.mp3",
+  "duration_sec": 33,
+  "duration_seconds": 33.0,
+  "title": "Cidade entra em alerta no Japão após gato cair em líquido tóxico e sair pelas ruas",
+  "webpage_url": "https://www.dailymotion.com/video/x8ud2uo",
+  "dm_id": "x8ud2uo",
+  "views_total": 2007,
+  "view_count": 2007,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Cidade",
+    "entra",
+    "alerta",
+    "Japão",
+    "líquido",
+    "tóxico",
+    "pelas"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Spanish",
+  "description": "Cidade entra em alerta no Japão após gato cair em líquido tóxico e sair pelas ruas. Caso foi registrado na tarde da última terça-feira, 12, em Fukuyama. Um trabalhador notou as pegadas amarelas próximo a um tanque e notificou as autoridades. De acordo com o jornal Independent, os moradores foram alertados a não tocarem no animal caso fosse encontrado. Após caso, a empresa afirmou que novos protocolos para prevenir a entrada de pequenos animais no local devem ser aplicados. <br /><br />Acompanhe as principais notícias do Brasil e do mundo no Terra ▸ https://www.terra.com.br<br />-------------<br />Siga o Terra nas redes sociais<br />Facebook▸ https://www.facebook.com/terrabrasil<br />Instagram ▸ http://instagram.com/terrabrasil<br />Twitter ▸ https://twitter.com/terra<br />TikTok ▸ https://www.tiktok.com/@terrabrasil<br />Pinterest ▸ https://br.pinterest.com/terrabrasil",
+  "created_time": 1710363878,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a cat that fell into toxic liquid, indicating a potential pain or vet context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8ud2uo",
+    "decision": "keep",
+    "reason": "The video discusses a cat that fell into toxic liquid, indicating a potential pain or vet context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

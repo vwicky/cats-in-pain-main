@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x1vjz24",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x1vjz24_video.mp4",
+  "audio_path": "output/videos/dailymotion_x1vjz24_audio.mp3",
+  "duration_sec": 48,
+  "duration_seconds": 48.0,
+  "title": "中村浩一郎おススメハプニング映像　おもしろかわいい猫動画",
+  "webpage_url": "https://www.dailymotion.com/video/x1vjz24",
+  "dm_id": "x1vjz24",
+  "views_total": 4666,
+  "view_count": 4666,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "ネコ",
+    "ハプニング",
+    "中村浩一郎",
+    "おススメ",
+    "おもしろ動画"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ja",
+  "query_language": "Japanese",
+  "description": "中村浩一郎がおススメするハプニング映像です。 <br />おもしろかわいい猫動画になります。",
+  "created_time": 1400480266,
+  "search_query": "鳥におしゃべりする猫",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Content mentions cats and suggests it features real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x1vjz24",
+    "decision": "keep",
+    "reason": "Content mentions cats and suggests it features real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

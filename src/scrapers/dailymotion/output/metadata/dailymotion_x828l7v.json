@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x828l7v",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x828l7v_video.mp4",
+  "audio_path": "output/videos/dailymotion_x828l7v_audio.mp3",
+  "duration_sec": 32,
+  "duration_seconds": 32.0,
+  "title": "Les chats et les courgettes, une drôle de relation",
+  "webpage_url": "https://www.dailymotion.com/video/x828l7v",
+  "dm_id": "x828l7v",
+  "views_total": 5118,
+  "view_count": 5118,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Société",
+    "Vidéos"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Qui l'eût cru ? <br />On pensait que les chats avaient peur des chiens, des avions ou encore des klaxons. Mais leur vraie phobie est toute autre. Le plus grand ennemi des matous est... La courgette ! Il suffit d'en placer une tout prêt de votre chat pour que celui-ci fasse un bond d'un mètre. Comme quoi, les légumes verts n'ont pas non plus la côte chez les félins.",
+  "created_time": 1624632045,
+  "search_query": "chat qui gazouille en regardant les oiseaux",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses cats' reactions to zucchinis, which is a plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x828l7v",
+    "decision": "keep",
+    "reason": "The video discusses cats' reactions to zucchinis, which is a plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

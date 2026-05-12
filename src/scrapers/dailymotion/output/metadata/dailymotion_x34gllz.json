@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x34gllz",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x34gllz_video.mp4",
+  "audio_path": "output/videos/dailymotion_x34gllz_audio.mp3",
+  "duration_sec": 52,
+  "duration_seconds": 52.0,
+  "title": "Кот патриот своей страны!=)",
+  "webpage_url": "https://www.dailymotion.com/video/x34gllz",
+  "dm_id": "x34gllz",
+  "views_total": 9566,
+  "view_count": 9566,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Кот патриот своей страны!=)",
+  "created_time": 1441304802,
+  "search_query": "кот громко мяукает",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat with patriotic themes, still plausible.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x34gllz",
+    "decision": "keep",
+    "reason": "The title suggests a cat with patriotic themes, still plausible.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

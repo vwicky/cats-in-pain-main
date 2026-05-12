@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3v1yuo",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3v1yuo_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3v1yuo_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "Кот офигел от происходящего",
+  "webpage_url": "https://www.dailymotion.com/video/x3v1yuo",
+  "dm_id": "x3v1yuo",
+  "views_total": 682,
+  "view_count": 682,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1456807356,
+  "search_query": "кот, выслеживающий добычу",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat reacting to something, which is plausible behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3v1yuo",
+    "decision": "keep",
+    "reason": "The title suggests a cat reacting to something, which is plausible behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

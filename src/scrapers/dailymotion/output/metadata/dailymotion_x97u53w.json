@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x97u53w",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x97u53w_video.mp4",
+  "audio_path": "output/videos/dailymotion_x97u53w_audio.mp3",
+  "duration_sec": 53,
+  "duration_seconds": 53.0,
+  "title": "Adoptowała najsmutniejszego psa ze schroniska. Z depresji uleczył go... mały kotek (wideo)",
+  "webpage_url": "https://www.dailymotion.com/video/x97u53w",
+  "dm_id": "x97u53w",
+  "views_total": 12839,
+  "view_count": 12839,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "Mieli go uśpić. W ostatnim momencie pojawiło się jednak inne rozwiązanie.",
+  "created_time": 1729596050,
+  "search_query": "głośne koty wideo",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a cat helping a depressed dog, indicating cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x97u53w",
+    "decision": "keep",
+    "reason": "The video discusses a cat helping a depressed dog, indicating cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

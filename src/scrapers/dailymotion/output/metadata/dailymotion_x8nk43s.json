@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8nk43s",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8nk43s_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8nk43s_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Un couple filme son chat de nuit : le lendemain, il a la surprise de sa vie",
+  "webpage_url": "https://www.dailymotion.com/video/x8nk43s",
+  "dm_id": "x8nk43s",
+  "views_total": 682,
+  "view_count": 682,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "La nuit, un chat nommé Sheldon préfère s’amuser plutôt que se reposer. Et quoi de mieux que de jouer sur le lit de ses humains ? <br /><br />https://wamiz.com/actu/171930/un-couple-filme-son-chat-de-nuit-le-lendemain-il-a-la-surprise-de-sa-vie",
+  "created_time": 1693317069,
+  "search_query": "chats se reposant paisiblement",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat named Sheldon playing at night.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8nk43s",
+    "decision": "keep",
+    "reason": "The video features a cat named Sheldon playing at night.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

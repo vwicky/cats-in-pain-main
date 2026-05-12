@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x5aaz9k",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5aaz9k_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5aaz9k_audio.mp3",
+  "duration_sec": 47,
+  "duration_seconds": 47.0,
+  "title": "Faites la rencontre de Pooh, le premier chat bionique qui vient d'être greffé des deux pattes arrières !",
+  "webpage_url": "https://www.dailymotion.com/video/x5aaz9k",
+  "dm_id": "x5aaz9k",
+  "views_total": 11147,
+  "view_count": 11147,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "lifestyle",
+  "channel_title": "lifestyle",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1485965772,
+  "search_query": "bruits de reproduction des chats",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a bionic cat, which is still a real cat subject.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5aaz9k",
+    "decision": "keep",
+    "reason": "The video features a bionic cat, which is still a real cat subject.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

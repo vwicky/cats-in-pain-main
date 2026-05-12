@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_xmbhcu",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xmbhcu_video.mp4",
+  "audio_path": "output/videos/dailymotion_xmbhcu_audio.mp3",
+  "duration_sec": 58,
+  "duration_seconds": 58.0,
+  "title": "Conseils véto - Comment déterminer l’âge de son chaton ?",
+  "webpage_url": "https://www.dailymotion.com/video/xmbhcu",
+  "dm_id": "xmbhcu",
+  "views_total": 861,
+  "view_count": 861,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Chat",
+    "conseils véto",
+    "conseils",
+    "vétérinaire",
+    "belais",
+    "vétérinaire belais",
+    "comment determiner",
+    "determiner age chaton",
+    "chaton",
+    "chats"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Serge Belais, vétérinaire et membre actif de la SPA (Société protectrice des animaux) vous donne quelques conseils pour déterminer à  peu près l'âge de votre chaton ! La réponse se trouve sur sa dentition. Les jeunes chats ont encore leurs doubles dents, à l'avant de la gueule sur les côtés, qui sont des dents pointues, les canines. La dent de derrière est une dent de lait et celle de devant une dent adulte. Si les molaires ne sont pas encore tout à fait sorties et que votre chat a encore sa dent de lait, il n'est pas adulte. <br /> <br />Retrouvez le vétérinaire Belais, très vite pour d'autres conseils : <br />http://www.pratiks.com/?s=veterinaire <br /> <br />Vous pouvez également le retrouver sur son site : http://www.cliniqueveterinairebelais.fr  <br /> <br />Cliquez ici pour découvrir notre rubrique \"Chats\" sur Pratiks.com  : http://www.pratiks.com/video_cat/animaux/chats/ <br /> <br />Retrouvez des milliers d'autres vidéos pratiques sur notre site Pratiks.com  : <br /> http://pratiks.com <br /> <br />Rejoignez-nous sur Facebook :  <br />http://www.facebook.com/?ref=logo#!/pages/Pratikscom/60744199028?fref=ts <br /> <br />Suivez-nous sur Twitter :  <br />https://twitter.com/pratiks",
+  "created_time": 1321266561,
+  "search_query": "chat chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video provides advice on determining a kitten's age, relevant to cat care.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xmbhcu",
+    "decision": "keep",
+    "reason": "The video provides advice on determining a kitten's age, relevant to cat care.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9oxsqc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9oxsqc_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9oxsqc_audio.mp3",
+  "duration_sec": 16,
+  "duration_seconds": 16.0,
+  "title": "Moradora aciona polícia após ser ameaçada pelo vizinho por alimentar gatos de rua em Cascavel",
+  "webpage_url": "https://www.dailymotion.com/video/x9oxsqc",
+  "dm_id": "x9oxsqc",
+  "views_total": 7880,
+  "view_count": 7880,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Spanish",
+  "description": "Moradora aciona polícia após ser ameaçada pelo vizinho por alimentar gatos de rua em Cascavel",
+  "created_time": 1755448641,
+  "search_query": "gatos luchando por territorio",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses feeding street cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9oxsqc",
+    "decision": "keep",
+    "reason": "The video discusses feeding street cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

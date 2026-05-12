@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x9zot52",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9zot52_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9zot52_audio.mp3",
+  "duration_sec": 50,
+  "duration_seconds": 50.0,
+  "title": "AniMALL: tienda de mascotas en Narvarte - Dónde Ir",
+  "webpage_url": "https://www.dailymotion.com/video/x9zot52",
+  "dm_id": "x9zot52",
+  "views_total": 102488,
+  "view_count": 102488,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "dónde ir pets",
+    "mascotas",
+    "tienda de mascotas",
+    "servicios para mascotas",
+    "dónde ir"
+  ],
+  "channel": "lifestyle",
+  "channel_title": "lifestyle",
+  "language": "es",
+  "query_language": "Portuguese",
+  "description": "Esta tienda de mascotas está especializada en alimento premium para perros y gatos, pero también ofrecen servicios y accesorios para aves, reptiles y roedores.<br />¡Tiene farmacia especializada y consultas de nutrición!<br /><br />📍 Dr. José María Vertiz 489, Narvarte<br />📆 Lun. a sáb. 10:00- 19:00h.<br />👉 @animall.oficial",
+  "created_time": 1771160411,
+  "search_query": "gato após a vacinação",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video is about a pet store that sells products for cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9zot52",
+    "decision": "keep",
+    "reason": "The video is about a pet store that sells products for cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

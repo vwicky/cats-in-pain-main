@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x3j9zfy",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3j9zfy_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3j9zfy_audio.mp3",
+  "duration_sec": 57,
+  "duration_seconds": 57.0,
+  "title": "Кошак охотится на змею!  Cat hunts on a snake!",
+  "webpage_url": "https://www.dailymotion.com/video/x3j9zfy",
+  "dm_id": "x3j9zfy",
+  "views_total": 23774,
+  "view_count": 23774,
+  "likes_total": 2,
+  "like_count": 2,
+  "tags": [
+    "Кошки",
+    "Fun with animals",
+    "приколы",
+    "юмор",
+    "детки",
+    "приколы с животными",
+    "приколы с детьми",
+    "птички",
+    "humor",
+    "ржака"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Наши верные друзья - наши забавные животные!!! Веселые смешные видео о птичках, собачках, кошечках, рыбках и других забавных зверюшках! <br />Our good friends - our funny animals! Funny funny video about the birds, dogs, kitties, fish and other fun little animals!",
+  "created_time": 1450955332,
+  "search_query": "две кошки ругаются",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat hunting a snake, suggesting real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3j9zfy",
+    "decision": "keep",
+    "reason": "The title indicates a cat hunting a snake, suggesting real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

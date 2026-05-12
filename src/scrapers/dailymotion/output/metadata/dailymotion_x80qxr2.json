@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x80qxr2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x80qxr2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x80qxr2_audio.mp3",
+  "duration_sec": 27,
+  "duration_seconds": 27.0,
+  "title": "Cette maman chat apporte ses bébés à sa maitresse... trop mignon",
+  "webpage_url": "https://www.dailymotion.com/video/x80qxr2",
+  "dm_id": "x80qxr2",
+  "views_total": 2736,
+  "view_count": 2736,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "animal",
+    "maman chat",
+    "drole",
+    "mignon",
+    "chaton",
+    "bébé chat"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Cette maman chat apporte ses bébés à sa maitresse... trop mignon",
+  "created_time": 1618990497,
+  "search_query": "chats se reposant paisiblement",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title describes a mother cat bringing her kittens.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x80qxr2",
+    "decision": "keep",
+    "reason": "The title describes a mother cat bringing her kittens.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

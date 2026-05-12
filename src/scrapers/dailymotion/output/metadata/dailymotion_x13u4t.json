@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x13u4t",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x13u4t_video.mp4",
+  "audio_path": "output/videos/dailymotion_x13u4t_audio.mp3",
+  "duration_sec": 6,
+  "duration_seconds": 6.0,
+  "title": "gatos animal",
+  "webpage_url": "https://www.dailymotion.com/video/x13u4t",
+  "dm_id": "x13u4t",
+  "views_total": 966,
+  "view_count": 966,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "animal",
+    "gracioso",
+    "gato",
+    "vida",
+    "funny",
+    "ads"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "es",
+  "query_language": "Portuguese",
+  "description": "",
+  "created_time": 1170305303,
+  "search_query": "gato miando alto",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The tags indicate it is about cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x13u4t",
+    "decision": "keep",
+    "reason": "The tags indicate it is about cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

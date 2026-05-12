@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9elsiw",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9elsiw_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9elsiw_audio.mp3",
+  "duration_sec": 29,
+  "duration_seconds": 29.0,
+  "title": "Kobieta sądzi, że kupuje labradora. Kilka miesięcy później nie wierzy własnym oczom",
+  "webpage_url": "https://www.dailymotion.com/video/x9elsiw",
+  "dm_id": "x9elsiw",
+  "views_total": 3142,
+  "view_count": 3142,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "Kobieta była pewna, że adoptowała szczeniaka labradora. Dwa tygodnie później u weterynarza przeżyła niemały szok.",
+  "created_time": 1740210507,
+  "search_query": "chora kotka u weterynarza",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a woman who thought she adopted a Labrador, suggesting a vet context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9elsiw",
+    "decision": "keep",
+    "reason": "The video involves a woman who thought she adopted a Labrador, suggesting a vet context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

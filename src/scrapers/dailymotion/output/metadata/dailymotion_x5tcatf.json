@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x5tcatf",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5tcatf_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5tcatf_audio.mp3",
+  "duration_sec": 24,
+  "duration_seconds": 24.0,
+  "title": "Ce chat est capable de dormir dans la pire des positions",
+  "webpage_url": "https://www.dailymotion.com/video/x5tcatf",
+  "dm_id": "x5tcatf",
+  "views_total": 1616,
+  "view_count": 1616,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "pot",
+    "marrant",
+    "drole",
+    "insolite"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Ce chat dort tranquillement dans un pot de fleurs, et ça n'a pas l'air confortable.",
+  "created_time": 1499882543,
+  "search_query": "bruits de reproduction des chats",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat sleeping in a flower pot, which is plausible cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5tcatf",
+    "decision": "keep",
+    "reason": "The video features a cat sleeping in a flower pot, which is plausible cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

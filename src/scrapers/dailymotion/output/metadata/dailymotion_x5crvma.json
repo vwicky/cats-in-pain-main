@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x5crvma",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5crvma_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5crvma_audio.mp3",
+  "duration_sec": 45,
+  "duration_seconds": 45.0,
+  "title": "Perdón por reírme, pero este gato es demasiado gracioso… ¡Él SIEMPRE se mete en las cajas y hace esto!",
+  "webpage_url": "https://www.dailymotion.com/video/x5crvma",
+  "dm_id": "x5crvma",
+  "views_total": 1041,
+  "view_count": 1041,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Gato"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1487759629,
+  "search_query": "gatos luchando por territorio",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's funny behavior with boxes.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5crvma",
+    "decision": "keep",
+    "reason": "The title suggests a cat's funny behavior with boxes.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

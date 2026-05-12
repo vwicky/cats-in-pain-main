@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x9rdsow",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9rdsow_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9rdsow_audio.mp3",
+  "duration_sec": 35,
+  "duration_seconds": 35.0,
+  "title": "VIDEO: Vecinos denuncian cruel maltrato a un gato en la zona norte de Cochabamba",
+  "webpage_url": "https://www.dailymotion.com/video/x9rdsow",
+  "dm_id": "x9rdsow",
+  "views_total": 1058,
+  "view_count": 1058,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gato"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "VIDEO: Vecinos denuncian cruel maltrato a un gato en la zona norte de Cochabamba",
+  "created_time": 1759154561,
+  "search_query": "signos de malestar en gatos",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video addresses reports of cruelty towards a cat, indicating a real cat in a distressing context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9rdsow",
+    "decision": "keep",
+    "reason": "The video addresses reports of cruelty towards a cat, indicating a real cat in a distressing context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

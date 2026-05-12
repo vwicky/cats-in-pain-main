@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x7bgd03",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7bgd03_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7bgd03_audio.mp3",
+  "duration_sec": 14,
+  "duration_seconds": 14.0,
+  "title": "Ce chat fait tout pour réveiller un bébé qui dort. Trop mimi !",
+  "webpage_url": "https://www.dailymotion.com/video/x7bgd03",
+  "dm_id": "x7bgd03",
+  "views_total": 11745,
+  "view_count": 11745,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1560785778,
+  "search_query": "chat détendu qui dort",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a cat trying to wake a sleeping baby, indicating active behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7bgd03",
+    "decision": "keep",
+    "reason": "The video involves a cat trying to wake a sleeping baby, indicating active behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

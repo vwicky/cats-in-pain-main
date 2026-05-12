@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x7q3be2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7q3be2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7q3be2_audio.mp3",
+  "duration_sec": 31,
+  "duration_seconds": 31.0,
+  "title": "El gato se enfrenta al coyote en un ‘pata a pata’ y gana",
+  "webpage_url": "https://www.dailymotion.com/video/x7q3be2",
+  "dm_id": "x7q3be2",
+  "views_total": 1569,
+  "view_count": 1569,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gato",
+    "enfrenta",
+    "coyote",
+    "gana"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "La cámara del timbre de una vivienda en Altadena (California, EE.UU.) registra cómo un gato se enfrenta a un coyote salvaje.<br /><br />El coyote se acercó al lugar muy confiando, pero se encontró enfrente con un minino con ínfulas de boxeador, que le lanza numerosos ‘puñetazos’ y obligándolo a retirarse.<br /><br />De acuerdo con los dueños de la casa, el felino -que no era su mascota- resultó ileso.",
+  "created_time": 1578234843,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat confronting a coyote, indicating agonistic behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7q3be2",
+    "decision": "keep",
+    "reason": "The video shows a cat confronting a coyote, indicating agonistic behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

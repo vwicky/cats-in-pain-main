@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x8t1mba",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8t1mba_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8t1mba_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Gato viraliza ao ajudar a cuidar de filhote hospitalizado no Marrocos",
+  "webpage_url": "https://www.dailymotion.com/video/x8t1mba",
+  "dm_id": "x8t1mba",
+  "views_total": 2447,
+  "view_count": 2447,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "viraliza",
+    "ajudar",
+    "cuidar",
+    "filhote",
+    "hospitalizado",
+    "Marrocos"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Spanish",
+  "description": "Gato viraliza ao ajudar a cuidar de filhote hospitalizado no Marrocos. Registro compartilhado pela clínica veterinária Cabinet Vétérinaire Imrani fez sucesso nas redes sociais. No vídeo, o filhote está deitado recebendo medicação, enquanto Rico, que vive na clínica, ajuda a cuidar do pequeno. A cena viralizou e já soma mais de 6 milhões de visualizações em algumas redes sociais. \"Não há demonstração de amor maior e mais incrível do que esta\", escreveu um dos internautas. #terranoticias <br /><br /><br />Acompanhe as principais notícias do Brasil e do mundo no Terra ▸ https://www.terra.com.br<br />-------------<br />Siga o Terra nas redes sociais<br />Facebook▸ https://www.facebook.com/terrabrasil<br />Instagram ▸ http://instagram.com/terrabrasil<br />Twitter ▸ https://twitter.com/terra<br />TikTok ▸ https://www.tiktok.com/@terrabrasil<br />Pinterest ▸ https://br.pinterest.com/terrabrasil",
+  "created_time": 1708473848,
+  "search_query": "gato en la clínica veterinaria",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat caring for a hospitalized kitten, indicating real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8t1mba",
+    "decision": "keep",
+    "reason": "The video shows a cat caring for a hospitalized kitten, indicating real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

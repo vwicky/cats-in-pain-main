@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x93nllm",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x93nllm_video.mp4",
+  "audio_path": "output/videos/dailymotion_x93nllm_audio.mp3",
+  "duration_sec": 34,
+  "duration_seconds": 34.0,
+  "title": "Gato prende cabeça em lata e é resgatado",
+  "webpage_url": "https://www.dailymotion.com/video/x93nllm",
+  "dm_id": "x93nllm",
+  "views_total": 3109,
+  "view_count": 3109,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Luziânia",
+    "GatoPrendeCabeçaemLata",
+    "Gato"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Um gato foi resgatado pelo Corpo de Bombeiros de Goiás nesta terça-feira (6/8) após ficar com a cabeça presa dentro de uma lata de leite. O caso aconteceu em uma casa no Jardim Ingá, em Luziânia, Entorno do DF. <br /><br />Leia também: Arara em perigo de extinção é resgatada pela polícia em Goiás<br />Segundo os bombeiros, a tutora do animal chegou em casa e encontrou o gato com a cabeça presa na lata de leite, já sem conseguir respirar. Para ajudar a oxigenar o pequeno espaço, a mulher fez um furo na lata, o que deu tempo a mais para que o gato conseguisse esperar o socorro. Em seguida, ela acionou os militares que, utilizando de técnicas adequadas, conseguiu cortar a lata sem ferir o gato.<br /><br />Ao sair da lata, o animal se mostrou bastante sedento e foi acolhido pela tutora que desabafou \"que sufoco\".<br /><br /><br />Crédito: CBGO<br /><br /><br />=================================================<br />INSCREVA-SE EM NOSSO CANAL NO YOUTUBE: www.youtube.com/@correio.braziliense<br /><br />Siga o Correio Braziliense nas redes sociais: <br />Instagram - https://www.instagram.com/correio.braziliense/<br />Twitter -  https://twitter.com/correio<br />Facebook - https://www.facebook.com/correiobraziliense/<br />=================================================<br />",
+  "created_time": 1723036219,
+  "search_query": "gatos piando e conversando",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a cat being rescued after getting its head stuck, indicating a real cat behavior context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x93nllm",
+    "decision": "keep",
+    "reason": "The video involves a cat being rescued after getting its head stuck, indicating a real cat behavior context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

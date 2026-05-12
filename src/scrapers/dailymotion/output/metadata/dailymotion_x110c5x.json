@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x110c5x",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x110c5x_video.mp4",
+  "audio_path": "output/videos/dailymotion_x110c5x_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "Кот показывает язык под звук рулетки",
+  "webpage_url": "https://www.dailymotion.com/video/x110c5x",
+  "dm_id": "x110c5x",
+  "views_total": 642,
+  "view_count": 642,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "www.compilations.tv <br />Это милое видео дня, в котором кот высовывает язык каждый раз, когда слышит звук заворачивающейся рулетки. Мы негодуем!!!",
+  "created_time": 1371555831,
+  "search_query": "кот в ветеринарной клинике",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a cat reacting to a sound, which suggests vocalization.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x110c5x",
+    "decision": "keep",
+    "reason": "The description indicates a cat reacting to a sound, which suggests vocalization.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

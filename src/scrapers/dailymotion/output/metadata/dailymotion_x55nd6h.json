@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x55nd6h",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x55nd6h_video.mp4",
+  "audio_path": "output/videos/dailymotion_x55nd6h_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "Mamãe gato vê seus filhos brigando e fica chocada – a reação dela foi a melhor de todos os tempos",
+  "webpage_url": "https://www.dailymotion.com/video/x55nd6h",
+  "dm_id": "x55nd6h",
+  "views_total": 3290,
+  "view_count": 3290,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Gato"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "Portuguese",
+  "description": "",
+  "created_time": 1482124308,
+  "search_query": "dois gatos brigando",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat reacting to its kittens fighting, indicating a plausible emotional response.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x55nd6h",
+    "decision": "keep",
+    "reason": "The title suggests a cat reacting to its kittens fighting, indicating a plausible emotional response.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

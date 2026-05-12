@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x5dx2zd",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5dx2zd_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5dx2zd_audio.mp3",
+  "duration_sec": 29,
+  "duration_seconds": 29.0,
+  "title": "Ne mangez PAS les oeufs de Pâques de COMME DES BÊTES",
+  "webpage_url": "https://www.dailymotion.com/video/x5dx2zd",
+  "dm_id": "x5dx2zd",
+  "views_total": 2546,
+  "view_count": 2546,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cinéma",
+    "bande-annonce",
+    "trailer",
+    "séries TV",
+    "spot TV",
+    "making-of"
+  ],
+  "channel": "shortfilms",
+  "channel_title": "shortfilms",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Nos animaux domestiques fêtent Pâques d'une drôle de manière... !<br />★ Abonne-toi à la chaine Youtube ► http://bit.ly/Filmsactu <br />★ Le top des films à voir en Famille ➨ http://bit.ly/Films-Enfants<br /><br />Une comédie sur la vie secrète que mènent nos animaux domestiques une fois que nous les laissons seuls à la maison pour partir au travail ou à l’école. <br /><br />COMME DES BÊTES Bande Annonce<br />Date de sortie au cinéma en France : 27 Juillet 2016<br />Genre :  Animation, Famille<br />Titre Original : The Secret Life of Pets (La vie Secrète des Bêtes)<br />En collaboration avec Illumination Entertainment (Moi, Moche et Méchant)<br /><br />COMME DES BÊTES Bande Annonce vf<br />© 2015 - Universal Pictures<br /><br />Abonnez-vous dès maintenant pour ne pas rater la bande annonce VF ou VOST du moment ainsi que le trailer officiel, extrait vidéo ou scène des films français et internationaux à l'affiche.  <br /><br />Filmsactu : un point complet sur l'actu cinéma, DVD & Blu-Ray ! <br />✓ Rejoins-nous sur le site http://cinema.jeuxactu.com/news-cinema.htm",
+  "created_time": 1458921316,
+  "search_query": "chats détendus à la maison",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests it involves pets, likely including cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5dx2zd",
+    "decision": "keep",
+    "reason": "The title suggests it involves pets, likely including cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

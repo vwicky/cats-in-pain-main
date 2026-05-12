@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_xn60fw",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xn60fw_video.mp4",
+  "audio_path": "output/videos/dailymotion_xn60fw_audio.mp3",
+  "duration_sec": 51,
+  "duration_seconds": 51.0,
+  "title": "El increíble salto de diez metros de un gato",
+  "webpage_url": "https://www.dailymotion.com/video/xn60fw",
+  "dm_id": "xn60fw",
+  "views_total": 610,
+  "view_count": 610,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cerestv",
+    "animales",
+    "mascotas",
+    "insolito",
+    "increíble",
+    "salto",
+    "diez",
+    "metros",
+    "gato"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Portuguese",
+  "description": "Redacción, 10 diciembre (CERES TELEVISIÓN)  Kim, un gato que se subió a un poste del tendido eléctrico de Tucson, Arizona, sobrevive a un espectacular salto de diez metros de altura ante la mirada atónita de curiosos y rescatadores.   © 2010 CERES TELEVISIÓN NOTICIAS [+info]: http://www.cerestv.info [e-mail]: noticias@cerestv.es Peticiones:  Teléf.902-885.666 • Fax: 902.885.869 ",
+  "created_time": 1291935600,
+  "search_query": "sons de alerta de gato",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a cat performing an impressive jump, relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xn60fw",
+    "decision": "keep",
+    "reason": "The description indicates a cat performing an impressive jump, relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

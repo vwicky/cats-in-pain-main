@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_xa0ueba",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xa0ueba_video.mp4",
+  "audio_path": "output/videos/dailymotion_xa0ueba_audio.mp3",
+  "duration_sec": 20,
+  "duration_seconds": 20.0,
+  "title": "Cat models Christmas sweater and experiences an adorable fall while getting used to the outfit",
+  "webpage_url": "https://www.dailymotion.com/video/xa0ueba",
+  "dm_id": "xa0ueba",
+  "views_total": 790,
+  "view_count": 790,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "Waconia",
+    "Minnesota",
+    "USA",
+    "Shareable",
+    "Entertainment",
+    "Christmas Season",
+    "Christmas",
+    "Christmas 2025",
+    "Holiday Season",
+    "Christmas Fail"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "The purr-ecious star of this footage had no idea that this Christmas season would mark his journey to becoming a fashion icon. <br /><br />\"Watch my cat in his new Xmas PJs, and then me using a hair dryer on him,\" the filmer, Lindsey, told WooGlobe. <br /><br />While the feline does not mind the hair dryer, it is the PJs that may remain an obstacle to his comfort for a while. Just a few seconds into wearing his new holiday-themed outfit, the kitty ends up taking an embarrassing fall.<br />WooGlobe Ref : WGA645086<br />For licensing and to use this video, please email licensing@wooglobe.com",
+  "created_time": 1772197258,
+  "search_query": "cats battling for territory",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat in a humorous situation, relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xa0ueba",
+    "decision": "keep",
+    "reason": "The video shows a cat in a humorous situation, relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

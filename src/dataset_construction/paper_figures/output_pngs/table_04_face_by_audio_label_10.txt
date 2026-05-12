@@ -1,0 +1,17 @@
+Face visibility by audio ten-class label (gpt_face_clearly_visible)
+============================================================
+(Table uses rows with non-null audio_label_10 only.)
+n_missing_audio10 (rows without audio ten-way label): 0
+
+audio_label                 face=True face=False    missing      total
+------------------------------------------------------------------
+Angry                             324        185          0        509
+Defence                            29         16          0         45
+Fighting                          134         62          0        196
+Happy                             725        429          0       1154
+HuntingMind                       509        488          0        997
+Mating                            847        560          0       1407
+MotherCall                        455        304          0        759
+Paining                           774        280          0       1054
+Resting                           652        463          0       1115
+Warning                            48         34          0         82

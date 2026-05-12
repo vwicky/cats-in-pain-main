@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x83g0ns",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x83g0ns_video.mp4",
+  "audio_path": "output/videos/dailymotion_x83g0ns_audio.mp3",
+  "duration_sec": 24,
+  "duration_seconds": 24.0,
+  "title": "Un chat un peu nerveux chez le vétérinaire",
+  "webpage_url": "https://www.dailymotion.com/video/x83g0ns",
+  "dm_id": "x83g0ns",
+  "views_total": 703,
+  "view_count": 703,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "veterinaire",
+    "insolite",
+    "drole",
+    "animal"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un chat un peu nerveux chez le vétérinaire",
+  "created_time": 1629184786,
+  "search_query": "chat chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat at the vet, indicating possible nervous behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x83g0ns",
+    "decision": "keep",
+    "reason": "The title suggests a cat at the vet, indicating possible nervous behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_xjh8mm",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xjh8mm_video.mp4",
+  "audio_path": "output/videos/dailymotion_xjh8mm_audio.mp3",
+  "duration_sec": 23,
+  "duration_seconds": 23.0,
+  "title": "Il gatto che abbaia",
+  "webpage_url": "https://www.dailymotion.com/video/xjh8mm",
+  "dm_id": "xjh8mm",
+  "views_total": 1121,
+  "view_count": 1121,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gatto",
+    "abbaia"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "Sembra proprio un cane, poi torna a miagolare",
+  "created_time": 1308824611,
+  "search_query": "comportamento di un gatto ferito",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description indicate a cat vocalizing in a unique way.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xjh8mm",
+    "decision": "keep",
+    "reason": "The title and description indicate a cat vocalizing in a unique way.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

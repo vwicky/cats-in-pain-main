@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x5lvrkd",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5lvrkd_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5lvrkd_audio.mp3",
+  "duration_sec": 48,
+  "duration_seconds": 48.0,
+  "title": "Chiunque direbbe che i gatti hanno paura dell'aspirapolvere; per lui invece è l'oggetto più bello! Ecco cosa fa:",
+  "webpage_url": "https://www.dailymotion.com/video/x5lvrkd",
+  "dm_id": "x5lvrkd",
+  "views_total": 765,
+  "view_count": 765,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "urbanvideo"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "",
+  "created_time": 1494534730,
+  "search_query": "gatti che riposano pacificamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's unusual behavior towards a vacuum cleaner.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5lvrkd",
+    "decision": "keep",
+    "reason": "The title suggests a cat's unusual behavior towards a vacuum cleaner.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

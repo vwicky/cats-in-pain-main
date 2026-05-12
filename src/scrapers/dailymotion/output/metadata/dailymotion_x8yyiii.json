@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8yyiii",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8yyiii_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8yyiii_audio.mp3",
+  "duration_sec": 29,
+  "duration_seconds": 29.0,
+  "title": "El vídeo viral de tres gatos ''espía'' que ha causado sensación en redes",
+  "webpage_url": "https://www.dailymotion.com/video/x8yyiii",
+  "dm_id": "x8yyiii",
+  "views_total": 5301,
+  "view_count": 5301,
+  "likes_total": 2,
+  "like_count": 2,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1716478164,
+  "search_query": "signos de malestar en gatos",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a video about cats, though details are vague.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8yyiii",
+    "decision": "keep",
+    "reason": "The title suggests a video about cats, though details are vague.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

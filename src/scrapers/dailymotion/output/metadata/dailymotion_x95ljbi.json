@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x95ljbi",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x95ljbi_video.mp4",
+  "audio_path": "output/videos/dailymotion_x95ljbi_audio.mp3",
+  "duration_sec": 11,
+  "duration_seconds": 11.0,
+  "title": "Cat turns to fan after intense heat slows down its momentum",
+  "webpage_url": "https://www.dailymotion.com/video/x95ljbi",
+  "dm_id": "x95ljbi",
+  "views_total": 1004,
+  "view_count": 1004,
+  "likes_total": 5,
+  "like_count": 5,
+  "tags": [
+    "West Sussex",
+    "United Kingdom",
+    "Shareable",
+    "Entertainment",
+    "Funny",
+    "Cat",
+    "Hot Day",
+    "Summer",
+    "Summer Heat",
+    "Extreme Heat"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "You know the heat is no joke when a playful cat abandons all its plans just to cool down. <br /><br />Shared by Laura, this comical clip shows her walking into her room and finding her pet cat lounging on the bed right in front of the fan. <br /><br />\"Got a bit too hot for this one, haha,\" Laura told WooGlobe. <br /><br />It’s safe to assume that July isn’t this feline’s favorite month anymore. For now, it seems the fan is its best ally, and all other plans are on hold until the cooler winds of winter arrive.<br /><br /><br />Location: West Sussex, United Kingdom <br />WooGlobe Ref : WGA478477<br />For licensing and to use this video, please email licensing@wooglobe.com",
+  "created_time": 1726225357,
+  "search_query": "cats battling for territory",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat cooling down in front of a fan, showcasing typical cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x95ljbi",
+    "decision": "keep",
+    "reason": "The video features a cat cooling down in front of a fan, showcasing typical cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

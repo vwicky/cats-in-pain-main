@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_xq95g",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xq95g_video.mp4",
+  "audio_path": "output/videos/dailymotion_xq95g_audio.mp3",
+  "duration_sec": 17,
+  "duration_seconds": 17.0,
+  "title": "Gattino ....miaoooooo",
+  "webpage_url": "https://www.dailymotion.com/video/xq95g",
+  "dm_id": "xq95g",
+  "views_total": 43802,
+  "view_count": 43802,
+  "likes_total": 3,
+  "like_count": 3,
+  "tags": [
+    "gatti",
+    "gatto",
+    "cat",
+    "cats",
+    "pets",
+    "animali",
+    "cuccioli",
+    "ronfata",
+    "street"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "",
+  "created_time": 1164968238,
+  "search_query": "video brevi di gatti",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat vocalizing.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xq95g",
+    "decision": "keep",
+    "reason": "The title suggests a cat vocalizing.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

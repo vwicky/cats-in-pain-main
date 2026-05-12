@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x32l0ab",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x32l0ab_video.mp4",
+  "audio_path": "output/videos/dailymotion_x32l0ab_audio.mp3",
+  "duration_sec": 36,
+  "duration_seconds": 36.0,
+  "title": "Кот сломался!",
+  "webpage_url": "https://www.dailymotion.com/video/x32l0ab",
+  "dm_id": "x32l0ab",
+  "views_total": 8570,
+  "view_count": 8570,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1440206307,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat that is not functioning normally, which could indicate a behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x32l0ab",
+    "decision": "keep",
+    "reason": "The title suggests a cat that is not functioning normally, which could indicate a behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

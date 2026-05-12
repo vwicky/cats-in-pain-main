@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_xn70an",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xn70an_video.mp4",
+  "audio_path": "output/videos/dailymotion_xn70an_audio.mp3",
+  "duration_sec": 57,
+  "duration_seconds": 57.0,
+  "title": "El gato que suplicaba por su comida",
+  "webpage_url": "https://www.dailymotion.com/video/xn70an",
+  "dm_id": "xn70an",
+  "views_total": 967,
+  "view_count": 967,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gato",
+    "que",
+    "suplicaba",
+    "por",
+    "comida",
+    "cerestv"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Redacción, 8 abril (CERES TELEVISIÓN)  Este vídeo de un gato suplicando casi por su comida ha sido visto cientos de miles de veces en Internet en los últimos días.    © 2011 CERES TELEVISIÓN NOTICIAS [+info]: http://www.cerestv.info [e-mail]: noticias@cerestv.es Peticiones:  Teléf.902-885.666 • Fax: 902.885.869 ",
+  "created_time": 1302213600,
+  "search_query": "gatos luchando por territorio",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat begging for food, indicating vocalization.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xn70an",
+    "decision": "keep",
+    "reason": "The title suggests a cat begging for food, indicating vocalization.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_xa4a9",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xa4a9_video.mp4",
+  "audio_path": "output/videos/dailymotion_xa4a9_audio.mp3",
+  "duration_sec": 25,
+  "duration_seconds": 25.0,
+  "title": "Un chat qui aime le football",
+  "webpage_url": "https://www.dailymotion.com/video/xa4a9",
+  "dm_id": "xa4a9",
+  "views_total": 1314,
+  "view_count": 1314,
+  "likes_total": 3,
+  "like_count": 3,
+  "tags": [
+    "Chats",
+    "matous",
+    "animaux",
+    "nature",
+    "felins",
+    "felides"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Mon chat qund il regarde le football, c'est pas triste ! Gag !",
+  "created_time": 1155216826,
+  "search_query": "chat agressif qui grogne",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Indicates a cat's reaction to football, suggesting playful behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xa4a9",
+    "decision": "keep",
+    "reason": "Indicates a cat's reaction to football, suggesting playful behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

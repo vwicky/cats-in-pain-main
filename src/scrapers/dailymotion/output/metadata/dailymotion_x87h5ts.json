@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x87h5ts",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x87h5ts_video.mp4",
+  "audio_path": "output/videos/dailymotion_x87h5ts_audio.mp3",
+  "duration_sec": 48,
+  "duration_seconds": 48.0,
+  "title": "Das Video eines tanzenden Kätzchens macht die Runde im Netz",
+  "webpage_url": "https://www.dailymotion.com/video/x87h5ts",
+  "dm_id": "x87h5ts",
+  "views_total": 7589,
+  "view_count": 7589,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "uuid_2eb9e45f-7b44-457b-a948-ca3d4fabef9c",
+    "guid_7930",
+    "tier",
+    "kaetzchen"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "de",
+  "query_language": "German",
+  "description": "",
+  "created_time": 1643742647,
+  "search_query": "verspielte Kätzchen entspannen",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a dancing kitten, which is a plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x87h5ts",
+    "decision": "keep",
+    "reason": "The title suggests a dancing kitten, which is a plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

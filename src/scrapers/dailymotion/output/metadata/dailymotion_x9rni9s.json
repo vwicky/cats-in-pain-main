@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9rni9s",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9rni9s_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9rni9s_audio.mp3",
+  "duration_sec": 24,
+  "duration_seconds": 24.0,
+  "title": "Cet homme ouvre le robinet pour ce chat en plein milieu de la rue",
+  "webpage_url": "https://www.dailymotion.com/video/x9rni9s",
+  "dm_id": "x9rni9s",
+  "views_total": 2015,
+  "view_count": 2015,
+  "likes_total": 10,
+  "like_count": 10,
+  "tags": [],
+  "channel": "school",
+  "channel_title": "school",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1759598927,
+  "search_query": "posture défensive de chat",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat interacting with a faucet in a street setting.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9rni9s",
+    "decision": "keep",
+    "reason": "The title suggests a cat interacting with a faucet in a street setting.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

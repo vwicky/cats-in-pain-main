@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x98aut4",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x98aut4_video.mp4",
+  "audio_path": "output/videos/dailymotion_x98aut4_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Normandie : une association est débordée par le nombre de chats sauvés après l'incendie d'un appartement",
+  "webpage_url": "https://www.dailymotion.com/video/x98aut4",
+  "dm_id": "x98aut4",
+  "views_total": 1428,
+  "view_count": 1428,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Après l'incendie d'un appartement situé dans l'Orne (61), une association s'est retrouvée avec un grand nombre de chats à prendre en charge.",
+  "created_time": 1730297241,
+  "search_query": "chat après vaccination",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a rescue situation involving multiple cats after a fire.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x98aut4",
+    "decision": "keep",
+    "reason": "The video discusses a rescue situation involving multiple cats after a fire.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

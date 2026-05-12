@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x55vwqb",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x55vwqb_video.mp4",
+  "audio_path": "output/videos/dailymotion_x55vwqb_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "Un chat totalement intrigué par un humidificateur d'air",
+  "webpage_url": "https://www.dailymotion.com/video/x55vwqb",
+  "dm_id": "x55vwqb",
+  "views_total": 1375,
+  "view_count": 1375,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Intrigue",
+    "chat",
+    "humidificateur",
+    "air"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "C'est un utilisateur de Twitter qui a posté cette vidéo dans laquelle on peut voir son petit chat, Kinako, tout juste un an. <br /> <br />La boule de poils va découvrir un drôle d'objet dans la maison qui va l'intriguer au plus haut point, un humidificateur d'air, et va tenter d'en découvrir le fonctionnement.",
+  "created_time": 1482313213,
+  "search_query": "chats qui piaillent et bavardent",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat interacting with an air humidifier, showing curiosity.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x55vwqb",
+    "decision": "keep",
+    "reason": "The video features a cat interacting with an air humidifier, showing curiosity.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

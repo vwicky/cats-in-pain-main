@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x21y9sj",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x21y9sj_video.mp4",
+  "audio_path": "output/videos/dailymotion_x21y9sj_audio.mp3",
+  "duration_sec": 18,
+  "duration_seconds": 18.0,
+  "title": "funny cat talk",
+  "webpage_url": "https://www.dailymotion.com/video/x21y9sj",
+  "dm_id": "x21y9sj",
+  "views_total": 1016,
+  "view_count": 1016,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "en",
+  "description": "",
+  "created_time": 1406096625,
+  "search_query": "cat talking",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a funny cat talking, indicating vocalization.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x21y9sj",
+    "decision": "keep",
+    "reason": "The title suggests a funny cat talking, indicating vocalization.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

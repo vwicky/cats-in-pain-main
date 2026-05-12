@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x3dic2a",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3dic2a_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3dic2a_audio.mp3",
+  "duration_sec": 31,
+  "duration_seconds": 31.0,
+  "title": "Ce chat n'a vraiment pas l'instinct du chasseur !",
+  "webpage_url": "https://www.dailymotion.com/video/x3dic2a",
+  "dm_id": "x3dic2a",
+  "views_total": 5344,
+  "view_count": 5344,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "souris",
+    "Tom et jerry",
+    "Peace",
+    "tranquille",
+    "chien",
+    "Chasse",
+    "cat",
+    "Amitié",
+    "Zoomin"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Les réalisateurs de Tom et Jerry avaient tout faux : non, les chats et les souris n'entretiennent pas entre eux une haine viscérale ! En tout...",
+  "created_time": 1447346754,
+  "search_query": "chats qui siffle entre eux",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's behavior related to hunting instincts, which is relevant to real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3dic2a",
+    "decision": "keep",
+    "reason": "The title suggests a cat's behavior related to hunting instincts, which is relevant to real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8qgcn4",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8qgcn4_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8qgcn4_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Katze trifft auf Serval: Die Reaktion der Wildkatze ist absolut verblüffend (VIDEO)",
+  "webpage_url": "https://www.dailymotion.com/video/x8qgcn4",
+  "dm_id": "x8qgcn4",
+  "views_total": 82744,
+  "view_count": 82744,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Wenn sich Katzen treffen, gibt es nur zwei Optionen: richtig gut oder wirklich schlecht! Diese Begegnung einer Katze mit einem Serval bringt alle zum Staunen.",
+  "created_time": 1702308798,
+  "search_query": "Katze, die Beute verfolgt",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a cat meeting a serval, suggesting real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8qgcn4",
+    "decision": "keep",
+    "reason": "The title indicates a cat meeting a serval, suggesting real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

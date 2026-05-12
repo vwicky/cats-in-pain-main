@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8pl797",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8pl797_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8pl797_audio.mp3",
+  "duration_sec": 59,
+  "duration_seconds": 59.0,
+  "title": "Gatito discapacitado llega a una familia: los otros gatos deciden ayudarlo en su vida cotidiana",
+  "webpage_url": "https://www.dailymotion.com/video/x8pl797",
+  "dm_id": "x8pl797",
+  "views_total": 777,
+  "view_count": 777,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Un chaton handicapé a été retrouvé dans une rue de New York avec sa mère et ses frères et soeurs. Ces derniers font tout pour l'aider à se dépasser même avec une patte en moins.",
+  "created_time": 1699868376,
+  "search_query": "gatitos juguetones relajándose",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video depicts a disabled kitten being helped by other cats, indicating real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8pl797",
+    "decision": "keep",
+    "reason": "The video depicts a disabled kitten being helped by other cats, indicating real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

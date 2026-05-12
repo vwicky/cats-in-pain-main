@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x5te7dj",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5te7dj_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5te7dj_audio.mp3",
+  "duration_sec": 58,
+  "duration_seconds": 58.0,
+  "title": "Un chat flemmard qui descend les escaliers... Adorable",
+  "webpage_url": "https://www.dailymotion.com/video/x5te7dj",
+  "dm_id": "x5te7dj",
+  "views_total": 1070,
+  "view_count": 1070,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Drole",
+    "chat",
+    "lol",
+    "fun",
+    "animal de compagnie",
+    "chat lol",
+    "chat drole"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un chat flemmard qui descend les escaliers... Adorable",
+  "created_time": 1499944532,
+  "search_query": "chat qui ronronne sur les genoux",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description indicate a cat descending stairs, which is typical behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5te7dj",
+    "decision": "keep",
+    "reason": "The title and description indicate a cat descending stairs, which is typical behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

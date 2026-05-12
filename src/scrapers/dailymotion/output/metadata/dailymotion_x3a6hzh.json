@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x3a6hzh",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3a6hzh_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3a6hzh_audio.mp3",
+  "duration_sec": 23,
+  "duration_seconds": 23.0,
+  "title": "Бывают же такие умные кошки)))",
+  "webpage_url": "https://www.dailymotion.com/video/x3a6hzh",
+  "dm_id": "x3a6hzh",
+  "views_total": 45490,
+  "view_count": 45490,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "умная кошка",
+    "умный кот",
+    "редкое видео",
+    "с котом",
+    "с кошкой"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Бывают же такие умные кошки)))",
+  "created_time": 1445261712,
+  "search_query": "короткие видео с кошками",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests it features intelligent cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3a6hzh",
+    "decision": "keep",
+    "reason": "The title suggests it features intelligent cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

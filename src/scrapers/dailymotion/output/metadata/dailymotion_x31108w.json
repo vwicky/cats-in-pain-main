@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x31108w",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x31108w_video.mp4",
+  "audio_path": "output/videos/dailymotion_x31108w_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "▶ Кот без палева закрывает ящик!",
+  "webpage_url": "https://www.dailymotion.com/video/x31108w",
+  "dm_id": "x31108w",
+  "views_total": 3097,
+  "view_count": 3097,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "▶ Кот без палева закрывает ящик!",
+  "created_time": 1439157154,
+  "search_query": "кот в ветеринарной клинике",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat engaging in a playful or sneaky behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x31108w",
+    "decision": "keep",
+    "reason": "The title suggests a cat engaging in a playful or sneaky behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

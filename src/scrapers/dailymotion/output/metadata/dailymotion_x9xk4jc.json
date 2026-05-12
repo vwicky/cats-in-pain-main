@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x9xk4jc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9xk4jc_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9xk4jc_audio.mp3",
+  "duration_sec": 17,
+  "duration_seconds": 17.0,
+  "title": "Homem chuta gato na rua e mulher reage com cadeirada. Vídeo",
+  "webpage_url": "https://www.dailymotion.com/video/x9xk4jc",
+  "dm_id": "x9xk4jc",
+  "views_total": 13288,
+  "view_count": 13288,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Gato",
+    "Agressão"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "",
+  "created_time": 1768146818,
+  "search_query": "gato perseguindo a presa",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Involves an incident with a cat.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9xk4jc",
+    "decision": "keep",
+    "reason": "Involves an incident with a cat.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

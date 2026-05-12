@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x1dq0x",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x1dq0x_video.mp4",
+  "audio_path": "output/videos/dailymotion_x1dq0x_audio.mp3",
+  "duration_sec": 45,
+  "duration_seconds": 45.0,
+  "title": "Sampler Borja 07 (UC)",
+  "webpage_url": "https://www.dailymotion.com/video/x1dq0x",
+  "dm_id": "x1dq0x",
+  "views_total": 905,
+  "view_count": 905,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "urbancats",
+    "sampler",
+    "granada",
+    "borja",
+    "zaidin",
+    "urban",
+    "cats",
+    "parkour",
+    "yamakasi",
+    "extreme"
+  ],
+  "channel": "sport",
+  "channel_title": "sport",
+  "language": "es",
+  "query_language": "English",
+  "description": "es mi 1 sampler siento los fayos dl video espero k os gust decirme todos lo fato porfavor XD XD  axias dew",
+  "created_time": 1173220331,
+  "search_query": "defensive cat posture",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The tags suggest urban cats and parkour, indicating potential real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x1dq0x",
+    "decision": "keep",
+    "reason": "The tags suggest urban cats and parkour, indicating potential real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

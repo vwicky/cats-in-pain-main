@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8rop0q",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8rop0q_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8rop0q_audio.mp3",
+  "duration_sec": 56,
+  "duration_seconds": 56.0,
+  "title": "Gatito arrojado de un tren",
+  "webpage_url": "https://www.dailymotion.com/video/x8rop0q",
+  "dm_id": "x8rop0q",
+  "views_total": 613,
+  "view_count": 613,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "tv",
+  "channel_title": "tv",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1705942527,
+  "search_query": "gatitos juguetones relajándose",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a kitten being thrown from a train, which suggests a serious context involving a cat.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8rop0q",
+    "decision": "keep",
+    "reason": "The title indicates a kitten being thrown from a train, which suggests a serious context involving a cat.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

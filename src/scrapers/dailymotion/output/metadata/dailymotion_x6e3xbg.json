@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x6e3xbg",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6e3xbg_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6e3xbg_audio.mp3",
+  "duration_sec": 58,
+  "duration_seconds": 58.0,
+  "title": "Adorable, la réaction de ce chat paralysé qui entend son maitre arriver",
+  "webpage_url": "https://www.dailymotion.com/video/x6e3xbg",
+  "dm_id": "x6e3xbg",
+  "views_total": 1337,
+  "view_count": 1337,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Animal",
+    "Drole",
+    "Mignon",
+    "chat",
+    "animal de compagnie",
+    "chat paralysé",
+    "paralysé",
+    "maitre",
+    "réaction"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Adorable, la réaction de ce chat paralysé qui entend son maitre arriver",
+  "created_time": 1517573650,
+  "search_query": "vidéos de chats qui parlent",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a paralyzed cat reacting to its owner, indicating emotional and vocal behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6e3xbg",
+    "decision": "keep",
+    "reason": "The video shows a paralyzed cat reacting to its owner, indicating emotional and vocal behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

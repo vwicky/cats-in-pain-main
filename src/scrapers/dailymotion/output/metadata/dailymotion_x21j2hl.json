@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x21j2hl",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x21j2hl_video.mp4",
+  "audio_path": "output/videos/dailymotion_x21j2hl_audio.mp3",
+  "duration_sec": 54,
+  "duration_seconds": 54.0,
+  "title": "Chat VS taupe - Le chat vicieux gagne!",
+  "webpage_url": "https://www.dailymotion.com/video/x21j2hl",
+  "dm_id": "x21j2hl",
+  "views_total": 1710,
+  "view_count": 1710,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Taupe",
+    "Animal de compagnie",
+    "chat",
+    "vicieux",
+    "uriner",
+    "chat contre taupe",
+    "VS",
+    "animal",
+    "chat marrant",
+    "trou de taupe"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Alors qu'une taupe forme une butte de terre en remontant à la surface, un chat se tient prêt à passer à l'attaque. Mais après une tentative sans succès, le petit félin se venge en urinant sur la butte.",
+  "created_time": 1405498816,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat interacting with a mole, suggesting real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x21j2hl",
+    "decision": "keep",
+    "reason": "The video features a cat interacting with a mole, suggesting real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

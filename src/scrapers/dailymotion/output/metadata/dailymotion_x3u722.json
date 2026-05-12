@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x3u722",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3u722_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3u722_audio.mp3",
+  "duration_sec": 55,
+  "duration_seconds": 55.0,
+  "title": "Deux chats qui parlent",
+  "webpage_url": "https://www.dailymotion.com/video/x3u722",
+  "dm_id": "x3u722",
+  "views_total": 726,
+  "view_count": 726,
+  "likes_total": 11,
+  "like_count": 11,
+  "tags": [
+    "Deux",
+    "chats",
+    "qui",
+    "parlent"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1198418906,
+  "search_query": "chats qui parlent aux oiseaux",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests two cats are communicating, which is plausible cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3u722",
+    "decision": "keep",
+    "reason": "The title suggests two cats are communicating, which is plausible cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

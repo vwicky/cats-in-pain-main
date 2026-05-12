@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x6ennpj",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6ennpj_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6ennpj_audio.mp3",
+  "duration_sec": 46,
+  "duration_seconds": 46.0,
+  "title": "Cette chatte a adopté ces huit bébés... hérissons! Du jamais vu",
+  "webpage_url": "https://www.dailymotion.com/video/x6ennpj",
+  "dm_id": "x6ennpj",
+  "views_total": 2577,
+  "view_count": 2577,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Animal",
+    "Adoption",
+    "Hérisson",
+    "Drole",
+    "chat",
+    "bébé chat",
+    "adopter",
+    "animal de compagnie",
+    "chat hérisson"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Cette chatte a adopté ces huit bébés... hérissons! Du jamais vu",
+  "created_time": 1518462765,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat adopting hedgehog babies, showcasing nurturing behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6ennpj",
+    "decision": "keep",
+    "reason": "The video features a cat adopting hedgehog babies, showcasing nurturing behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

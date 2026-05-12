@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_xycacs",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xycacs_video.mp4",
+  "audio_path": "output/videos/dailymotion_xycacs_audio.mp3",
+  "duration_sec": 32,
+  "duration_seconds": 32.0,
+  "title": "Котенок мяукает как козленок!",
+  "webpage_url": "https://www.dailymotion.com/video/xycacs",
+  "dm_id": "xycacs",
+  "views_total": 2676,
+  "view_count": 2676,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Sounds",
+    "котенок",
+    "козел",
+    "мяукает",
+    "kitty",
+    "like",
+    "a goat",
+    "goat"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "Russian",
+  "description": "Очень странное мауканье котенка! Очень похоже на овцу или козла :)",
+  "created_time": 1363777180,
+  "search_query": "кот громко мяукает",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a kitten meowing in a strange way, which fits vocalizing.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xycacs",
+    "decision": "keep",
+    "reason": "The description indicates a kitten meowing in a strange way, which fits vocalizing.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

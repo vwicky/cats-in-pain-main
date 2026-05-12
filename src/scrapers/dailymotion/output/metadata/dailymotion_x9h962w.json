@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x9h962w",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9h962w_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9h962w_audio.mp3",
+  "duration_sec": 9,
+  "duration_seconds": 9.0,
+  "title": "El saludo de Cristiano a un gatito que ha enamorado en redes",
+  "webpage_url": "https://www.dailymotion.com/video/x9h962w",
+  "dm_id": "x9h962w",
+  "views_total": 32935,
+  "view_count": 32935,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Animales compañía",
+    "Cristiano Ronaldo",
+    "Gatos",
+    "Mascotas",
+    "Sociedad"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1743690283,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat and Cristiano Ronaldo, indicating a cat-related context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9h962w",
+    "decision": "keep",
+    "reason": "The video features a cat and Cristiano Ronaldo, indicating a cat-related context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

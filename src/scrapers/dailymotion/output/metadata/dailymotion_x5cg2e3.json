@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x5cg2e3",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5cg2e3_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5cg2e3_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "Ce chat aime vraiment l'eau !",
+  "webpage_url": "https://www.dailymotion.com/video/x5cg2e3",
+  "dm_id": "x5cg2e3",
+  "views_total": 850,
+  "view_count": 850,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "eau",
+    "drôle"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Ce chat est vraiment différent des autres. En effet, habituellement, les félins détestent l'eau mais pas celui-ci ! Il adore rester sous le filet d'eau !",
+  "created_time": 1487538535,
+  "search_query": "cris d'accouplement des chats",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat that enjoys water, which is a plausible cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5cg2e3",
+    "decision": "keep",
+    "reason": "The video features a cat that enjoys water, which is a plausible cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

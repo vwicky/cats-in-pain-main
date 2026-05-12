@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x8nau7g",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8nau7g_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8nau7g_audio.mp3",
+  "duration_sec": 59,
+  "duration_seconds": 59.0,
+  "title": "Qui est le chat Toyger ?",
+  "webpage_url": "https://www.dailymotion.com/video/x8nau7g",
+  "dm_id": "x8nau7g",
+  "views_total": 3270,
+  "view_count": 3270,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "storytellers",
+    "wochit",
+    "géo",
+    "chat",
+    "Toyger"
+  ],
+  "channel": "lifestyle",
+  "channel_title": "lifestyle",
+  "language": "en",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1692290400,
+  "search_query": "chat blessé qui boite",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title mentions a cat breed, suggesting potential cat-related content.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8nau7g",
+    "decision": "keep",
+    "reason": "The title mentions a cat breed, suggesting potential cat-related content.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

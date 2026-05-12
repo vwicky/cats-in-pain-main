@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x2uf3e",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2uf3e_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2uf3e_audio.mp3",
+  "duration_sec": 19,
+  "duration_seconds": 19.0,
+  "title": "le chat qui buvait au robinet",
+  "webpage_url": "https://www.dailymotion.com/video/x2uf3e",
+  "dm_id": "x2uf3e",
+  "views_total": 736,
+  "view_count": 736,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "eau",
+    "robinet",
+    "funnycats",
+    "fun"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Je m'appelle chewbaka, j'ai 4 mois et je bois au robinet.",
+  "created_time": 1188220540,
+  "search_query": "chat qui ronronne sur les genoux",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat drinking from a tap, which is a common cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2uf3e",
+    "decision": "keep",
+    "reason": "The video shows a cat drinking from a tap, which is a common cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8tius2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8tius2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8tius2_audio.mp3",
+  "duration_sec": 46,
+  "duration_seconds": 46.0,
+  "title": "Video. Il gattino non si trova: capisce l'inghippo del colpevole e scoppiare a ridere",
+  "webpage_url": "https://www.dailymotion.com/video/x8tius2",
+  "dm_id": "x8tius2",
+  "views_total": 2277,
+  "view_count": 2277,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "I gatti sono dei gran furboni. Anche il proprietario più scafato rischia di farsi fregare dal suo micio che crede di conoscere bene!",
+  "created_time": 1709133463,
+  "search_query": "richiami di accoppiamento dei gatti",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a cat's cleverness in a humorous context, likely showcasing real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8tius2",
+    "decision": "keep",
+    "reason": "The video discusses a cat's cleverness in a humorous context, likely showcasing real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

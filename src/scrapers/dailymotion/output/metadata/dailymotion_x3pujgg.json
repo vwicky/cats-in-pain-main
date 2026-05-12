@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3pujgg",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3pujgg_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3pujgg_audio.mp3",
+  "duration_sec": 15,
+  "duration_seconds": 15.0,
+  "title": "Кот не пропускает в дом пса",
+  "webpage_url": "https://www.dailymotion.com/video/x3pujgg",
+  "dm_id": "x3pujgg",
+  "views_total": 1441,
+  "view_count": 1441,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1454364363,
+  "search_query": "кот в ветеринарной клинике",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat preventing a dog from entering, indicating protective behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3pujgg",
+    "decision": "keep",
+    "reason": "The title suggests a cat preventing a dog from entering, indicating protective behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

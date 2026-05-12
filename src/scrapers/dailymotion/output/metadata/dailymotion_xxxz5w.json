@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_xxxz5w",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xxxz5w_video.mp4",
+  "audio_path": "output/videos/dailymotion_xxxz5w_audio.mp3",
+  "duration_sec": 24,
+  "duration_seconds": 24.0,
+  "title": "Un chat qui n'aime pas être filmé",
+  "webpage_url": "https://www.dailymotion.com/video/xxxz5w",
+  "dm_id": "xxxz5w",
+  "views_total": 919,
+  "view_count": 919,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "filmé",
+    "Humour",
+    "chat",
+    "buzz",
+    "vidéo",
+    "Vidéos Buzz"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "<p>Ce chat n'aime pas être filmé et le fait savoir...</p>",
+  "created_time": 1362397185,
+  "search_query": "chat qui aime être caressé",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat expressing dislike for being filmed, which is a real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xxxz5w",
+    "decision": "keep",
+    "reason": "The video shows a cat expressing dislike for being filmed, which is a real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x843wwo",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x843wwo_video.mp4",
+  "audio_path": "output/videos/dailymotion_x843wwo_audio.mp3",
+  "duration_sec": 32,
+  "duration_seconds": 32.0,
+  "title": "Un chat sur le point de faire une chute mortelle de plusieurs mètres mobilise le public cette nuit au Hard Rock Stadium de Miami",
+  "webpage_url": "https://www.dailymotion.com/video/x843wwo",
+  "dm_id": "x843wwo",
+  "views_total": 6436,
+  "view_count": 6436,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "miami",
+    "stade"
+  ],
+  "channel": "tv",
+  "channel_title": "tv",
+  "language": "fr",
+  "query_language": "French",
+  "description": "C'est une scène incroyable qui s'est déroulée cette nuit au Hard Rock Stadium au Miami. alors que le match se déroulait sur la pelouse, les regards ont été attiré vers une tribune à plusieurs mètres de hauteur. On pouvait y voir un chat accroché avec ses deux pattes et sur le point de faire une chute mortelle .<br /><br />Le public c'est alors mobilisé pour le sauver en particulier, en tendant un drapeau américain.<br /><br />Et la bonne nouvelle, c'est que le chat a été sauvé !<br /><br />jeanmarcmorandini.com vous propose de regarder cette séquence !",
+  "created_time": 1631427268,
+  "search_query": "chats qui piaillent et bavardent",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Shows a cat in a precarious situation, likely causing concern.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x843wwo",
+    "decision": "keep",
+    "reason": "Shows a cat in a precarious situation, likely causing concern.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

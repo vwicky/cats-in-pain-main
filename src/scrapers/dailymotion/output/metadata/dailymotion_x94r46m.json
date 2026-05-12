@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x94r46m",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x94r46m_video.mp4",
+  "audio_path": "output/videos/dailymotion_x94r46m_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Ce chat ne reconnaît pas le chien de la maison à cause d'un détail qui fait toute la différence (vidéo)",
+  "webpage_url": "https://www.dailymotion.com/video/x94r46m",
+  "dm_id": "x94r46m",
+  "views_total": 7664,
+  "view_count": 7664,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Quand son copain le chien s'est présenté avec un nouveau look, ce chat ne l'a pas du tout reconnu.",
+  "created_time": 1724856023,
+  "search_query": "vidéos de chats qui parlent",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description suggest a cat reacting to a dog, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x94r46m",
+    "decision": "keep",
+    "reason": "The title and description suggest a cat reacting to a dog, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

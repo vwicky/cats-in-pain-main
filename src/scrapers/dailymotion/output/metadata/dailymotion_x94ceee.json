@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x94ceee",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x94ceee_video.mp4",
+  "audio_path": "output/videos/dailymotion_x94ceee_audio.mp3",
+  "duration_sec": 10,
+  "duration_seconds": 10.0,
+  "title": "Cute Cats Fighting",
+  "webpage_url": "https://www.dailymotion.com/video/x94ceee",
+  "dm_id": "x94ceee",
+  "views_total": 664,
+  "view_count": 664,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "#Cats #Catfight #Pats",
+  "created_time": 1724192213,
+  "search_query": "cat fight outside",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests cats fighting, which is relevant to real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x94ceee",
+    "decision": "keep",
+    "reason": "The title suggests cats fighting, which is relevant to real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

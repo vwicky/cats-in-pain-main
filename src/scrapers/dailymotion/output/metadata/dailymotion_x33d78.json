@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x33d78",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x33d78_video.mp4",
+  "audio_path": "output/videos/dailymotion_x33d78_audio.mp3",
+  "duration_sec": 6,
+  "duration_seconds": 6.0,
+  "title": "wanted gato \"spiderman\"",
+  "webpage_url": "https://www.dailymotion.com/video/x33d78",
+  "dm_id": "x33d78",
+  "views_total": 2949,
+  "view_count": 2949,
+  "likes_total": 4,
+  "like_count": 4,
+  "tags": [
+    "parkour",
+    "gato",
+    "mataro",
+    "wanted",
+    "soy",
+    "friki",
+    "spiderman",
+    "O_O"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Bueno lo que hace el aburrimiento y la rutina de siempre ir a los mismos sitios!, inspirado en tim pisteur... este gato \"spiderman\" jejeje <br /><br />Grabado una tarde de septiembre con chivi, marcos y dani  <br /><br />PD: que pena que no encuentre uno mas largo U_U es muy corto",
+  "created_time": 1191098210,
+  "search_query": "compilación de peleas de gatos",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description suggest a cat performing parkour, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x33d78",
+    "decision": "keep",
+    "reason": "The title and description suggest a cat performing parkour, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

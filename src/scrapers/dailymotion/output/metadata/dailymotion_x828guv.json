@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x828guv",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x828guv_video.mp4",
+  "audio_path": "output/videos/dailymotion_x828guv_audio.mp3",
+  "duration_sec": 49,
+  "duration_seconds": 49.0,
+  "title": "Voilà ce qui se passe quand ton chat mange trop de croquettes",
+  "webpage_url": "https://www.dailymotion.com/video/x828guv",
+  "dm_id": "x828guv",
+  "views_total": 6240,
+  "view_count": 6240,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Société",
+    "Vidéos"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Ce chat tente désèspéremment de rentrer dans une boite mais il est malheureusement trop volumineux pour cela. ",
+  "created_time": 1624625948,
+  "search_query": "vidéos de chats qui parlent",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat attempting to fit into a box, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x828guv",
+    "decision": "keep",
+    "reason": "The video features a cat attempting to fit into a box, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

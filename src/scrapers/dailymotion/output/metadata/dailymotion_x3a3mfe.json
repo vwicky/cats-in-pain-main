@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x3a3mfe",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3a3mfe_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3a3mfe_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "А кошка то умнее...",
+  "webpage_url": "https://www.dailymotion.com/video/x3a3mfe",
+  "dm_id": "x3a3mfe",
+  "views_total": 8233,
+  "view_count": 8233,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Умора",
+    "юморное",
+    "ржака",
+    "с кошками",
+    "с котятами",
+    "с котами",
+    "киски"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "А кошка то умнее...",
+  "created_time": 1445215713,
+  "search_query": "короткие видео с кошками",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title and tags suggest it features a cat.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3a3mfe",
+    "decision": "keep",
+    "reason": "Title and tags suggest it features a cat.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

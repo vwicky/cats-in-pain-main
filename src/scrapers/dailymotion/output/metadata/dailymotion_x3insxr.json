@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x3insxr",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3insxr_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3insxr_audio.mp3",
+  "duration_sec": 56,
+  "duration_seconds": 56.0,
+  "title": "Коты против йоги",
+  "webpage_url": "https://www.dailymotion.com/video/x3insxr",
+  "dm_id": "x3insxr",
+  "views_total": 8990,
+  "view_count": 8990,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Yoga",
+    "Коты",
+    "против",
+    "йоги",
+    "Cats",
+    "vs"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Коты против йоги",
+  "created_time": 1450499634,
+  "search_query": "шумные коты видео",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title suggests a cat-related video.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3insxr",
+    "decision": "keep",
+    "reason": "Title suggests a cat-related video.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

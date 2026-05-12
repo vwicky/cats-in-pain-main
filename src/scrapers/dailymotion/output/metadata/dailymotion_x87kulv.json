@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x87kulv",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x87kulv_video.mp4",
+  "audio_path": "output/videos/dailymotion_x87kulv_audio.mp3",
+  "duration_sec": 39,
+  "duration_seconds": 39.0,
+  "title": "Un chat et un rat se disputent de la nourriture",
+  "webpage_url": "https://www.dailymotion.com/video/x87kulv",
+  "dm_id": "x87kulv",
+  "views_total": 1421,
+  "view_count": 1421,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "uuid_89e21bd6-ce1c-434d-b3cb-2cfb008a93ec",
+    "guid_86683",
+    "chat",
+    "rat",
+    "animal"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1643912847,
+  "search_query": "chat qui miaule pour de la nourriture",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a dispute over food between a cat and a rat, suggesting interaction.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x87kulv",
+    "decision": "keep",
+    "reason": "The title indicates a dispute over food between a cat and a rat, suggesting interaction.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

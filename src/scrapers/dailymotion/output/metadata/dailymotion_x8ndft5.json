@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x8ndft5",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8ndft5_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8ndft5_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "Lustiges Video: Besitzer entschuldigt sich und die Katze reagiert auf süßeste Weise",
+  "webpage_url": "https://www.dailymotion.com/video/x8ndft5",
+  "dm_id": "x8ndft5",
+  "views_total": 1997,
+  "view_count": 1997,
+  "likes_total": 2,
+  "like_count": 2,
+  "tags": [
+    "Lustiges Video"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "<br /><br />Ein Video, in dem ein Besitzer seine Katze weckt, um ihr zu sagen, dass sie sehr süß ist, ist im Internet viral gegangen wegen der entzückenden Reaktion des Tieres!<br /><br />Der Clip, der auf der Instagram-Seite des Katers namens Ringo gepostet wurde, zeigt die Katze, die auf dem, was wie ein Sofa aussieht, liegt. Innerhalb von Momenten beginnt der Besitzer, hinter der Kamera, mit ihr zu sprechen und sagt mehrmals: \"Entschuldigung\".<br /><br />Foto und Video: Instagram @ringodanyan.<br /><br /><br /><br /><br />",
+  "created_time": 1692607651,
+  "search_query": "Katze, die Beute verfolgt",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description suggest a cat reacting to its owner, indicating real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8ndft5",
+    "decision": "keep",
+    "reason": "The title and description suggest a cat reacting to its owner, indicating real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

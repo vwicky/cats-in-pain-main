@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x7xf7lw",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7xf7lw_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7xf7lw_audio.mp3",
+  "duration_sec": 11,
+  "duration_seconds": 11.0,
+  "title": "Sleepy Cat",
+  "webpage_url": "https://www.dailymotion.com/video/x7xf7lw",
+  "dm_id": "x7xf7lw",
+  "views_total": 512,
+  "view_count": 512,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "sleep",
+    "sleepy",
+    "cat",
+    "animal",
+    "cute"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "Sleepy Cat On Sofa",
+  "created_time": 1605113530,
+  "search_query": "cat after vaccination",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title and description indicate a cat resting.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7xf7lw",
+    "decision": "keep",
+    "reason": "Title and description indicate a cat resting.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

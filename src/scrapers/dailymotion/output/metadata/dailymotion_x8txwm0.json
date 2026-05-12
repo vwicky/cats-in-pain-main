@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8txwm0",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8txwm0_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8txwm0_audio.mp3",
+  "duration_sec": 56,
+  "duration_seconds": 56.0,
+  "title": "Ten kot ma nietypowy nawyk, który bawi do łez odwiedzających biuro schroniska (video)",
+  "webpage_url": "https://www.dailymotion.com/video/x8txwm0",
+  "dm_id": "x8txwm0",
+  "views_total": 20404,
+  "view_count": 20404,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "Zabiedzony dachowiec błąkał się po parkingu na osiedlu. Jedna z jego łap była tak spuchnięta, że nie mógł na niej stanąć…",
+  "created_time": 1709806847,
+  "search_query": "kot głośno miauczy",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video describes a stray cat with a swollen paw, indicating a potential pain context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8txwm0",
+    "decision": "keep",
+    "reason": "The video describes a stray cat with a swollen paw, indicating a potential pain context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

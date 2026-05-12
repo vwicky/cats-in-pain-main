@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8syw2k",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8syw2k_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8syw2k_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Baby krabbelt zur Treppe: Als die Katze losrennt, halten alle den Atem an!",
+  "webpage_url": "https://www.dailymotion.com/video/x8syw2k",
+  "dm_id": "x8syw2k",
+  "views_total": 18868,
+  "view_count": 18868,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Eine ziemlich erstaunliche Szene, die seit ein paar Tagen überall im Internet zu finden ist.",
+  "created_time": 1708360597,
+  "search_query": "Katze, die Beute verfolgt",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat running in a potentially exciting scenario with a baby.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8syw2k",
+    "decision": "keep",
+    "reason": "The title suggests a cat running in a potentially exciting scenario with a baby.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

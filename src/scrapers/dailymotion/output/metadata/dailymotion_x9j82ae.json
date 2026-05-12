@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9j82ae",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9j82ae_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9j82ae_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "Elle recueille un chaton de 3 jours : quelques mois plus tard elle apprend la pire nouvelle (vidéo)",
+  "webpage_url": "https://www.dailymotion.com/video/x9j82ae",
+  "dm_id": "x9j82ae",
+  "views_total": 1153,
+  "view_count": 1153,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Bonzo a connu de grandes épreuves dans sa vie de chat.",
+  "created_time": 1746797065,
+  "search_query": "posture défensive de chat",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a kitten and its life challenges, suggesting real cat content.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9j82ae",
+    "decision": "keep",
+    "reason": "The video discusses a kitten and its life challenges, suggesting real cat content.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

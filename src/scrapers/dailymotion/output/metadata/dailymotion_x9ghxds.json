@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9ghxds",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9ghxds_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9ghxds_audio.mp3",
+  "duration_sec": 9,
+  "duration_seconds": 9.0,
+  "title": "Parece que vi un lindo gatito",
+  "webpage_url": "https://www.dailymotion.com/video/x9ghxds",
+  "dm_id": "x9ghxds",
+  "views_total": 1374,
+  "view_count": 1374,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1742508956,
+  "search_query": "gatitos juguetones relajándose",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cute cat video.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9ghxds",
+    "decision": "keep",
+    "reason": "The title suggests a cute cat video.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

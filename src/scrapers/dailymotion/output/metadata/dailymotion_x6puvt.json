@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x6puvt",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6puvt_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6puvt_audio.mp3",
+  "duration_sec": 24,
+  "duration_seconds": 24.0,
+  "title": "Twix vs. tail and bidet",
+  "webpage_url": "https://www.dailymotion.com/video/x6puvt",
+  "dm_id": "x6puvt",
+  "views_total": 2131,
+  "view_count": 2131,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Gatto",
+    "Gatti",
+    "pazzi",
+    "gattino",
+    "funny",
+    "cats",
+    "divertente"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "Twix a 2 mesi e mezzo litiga con la coda facendo da flipper.",
+  "created_time": 1221082595,
+  "search_query": "gatto in clinica veterinaria",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description indicate playful behavior of a kitten.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6puvt",
+    "decision": "keep",
+    "reason": "The title and description indicate playful behavior of a kitten.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

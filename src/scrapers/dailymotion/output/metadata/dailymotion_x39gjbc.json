@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x39gjbc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x39gjbc_video.mp4",
+  "audio_path": "output/videos/dailymotion_x39gjbc_audio.mp3",
+  "duration_sec": 52,
+  "duration_seconds": 52.0,
+  "title": "СМЕШНО КОТ БОКСЕР ПРОТИВ СОБАКИ",
+  "webpage_url": "https://www.dailymotion.com/video/x39gjbc",
+  "dm_id": "x39gjbc",
+  "views_total": 1883,
+  "view_count": 1883,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1444720267,
+  "search_query": "кот, выслеживающий добычу",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat is boxing against a dog, indicating playful behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x39gjbc",
+    "decision": "keep",
+    "reason": "The title suggests a cat is boxing against a dog, indicating playful behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

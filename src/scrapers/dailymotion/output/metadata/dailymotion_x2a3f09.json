@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x2a3f09",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2a3f09_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2a3f09_audio.mp3",
+  "duration_sec": 45,
+  "duration_seconds": 45.0,
+  "title": "Cat _Licks_ the Sound of Tape",
+  "webpage_url": "https://www.dailymotion.com/video/x2a3f09",
+  "dm_id": "x2a3f09",
+  "views_total": 1448,
+  "view_count": 1448,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "English",
+  "description": "Cat _Licks_ the Sound of Tape  <br /> <br />Plus de vidéos sur : http://breakforbuzz.com/",
+  "created_time": 1415893079,
+  "search_query": "cat warning sounds",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Cat licking tape suggests typical cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2a3f09",
+    "decision": "keep",
+    "reason": "Cat licking tape suggests typical cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

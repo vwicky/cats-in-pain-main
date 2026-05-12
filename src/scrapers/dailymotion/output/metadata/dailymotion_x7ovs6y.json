@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x7ovs6y",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7ovs6y_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7ovs6y_audio.mp3",
+  "duration_sec": 17,
+  "duration_seconds": 17.0,
+  "title": "Este gato 'habla' con un perfecto acento sureño de EE.UU. y los usuarios no pueden parar de verlo",
+  "webpage_url": "https://www.dailymotion.com/video/x7ovs6y",
+  "dm_id": "x7ovs6y",
+  "views_total": 2248,
+  "view_count": 2248,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gato",
+    "habla"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Fuente:ES",
+  "created_time": 1575709116,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat vocalizing with a southern accent.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7ovs6y",
+    "decision": "keep",
+    "reason": "The title suggests a cat vocalizing with a southern accent.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

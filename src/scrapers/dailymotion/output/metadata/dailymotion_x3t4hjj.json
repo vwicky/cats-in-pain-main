@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x3t4hjj",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3t4hjj_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3t4hjj_audio.mp3",
+  "duration_sec": 14,
+  "duration_seconds": 14.0,
+  "title": "That Funny",
+  "webpage_url": "https://www.dailymotion.com/video/x3t4hjj",
+  "dm_id": "x3t4hjj",
+  "views_total": 1439,
+  "view_count": 1439,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Crazy",
+    "Animal",
+    "Dog",
+    "Cat",
+    "video",
+    "funny"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "www.barzellettando.com",
+  "created_time": 1455902696,
+  "search_query": "short cat hunting videos",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The tags include 'Cat', indicating potential cat-related content.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3t4hjj",
+    "decision": "keep",
+    "reason": "The tags include 'Cat', indicating potential cat-related content.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

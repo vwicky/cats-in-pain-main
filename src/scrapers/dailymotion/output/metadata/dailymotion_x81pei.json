@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x81pei",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x81pei_video.mp4",
+  "audio_path": "output/videos/dailymotion_x81pei_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "Kot prezent",
+  "webpage_url": "https://www.dailymotion.com/video/x81pei",
+  "dm_id": "x81pei",
+  "views_total": 4015,
+  "view_count": 4015,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "kot",
+    "prezent"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "",
+  "created_time": 1232110876,
+  "search_query": "kot głośno miauczy",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a focus on a cat, which is relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x81pei",
+    "decision": "keep",
+    "reason": "The title suggests a focus on a cat, which is relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

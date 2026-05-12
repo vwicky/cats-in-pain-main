@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x380npy",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x380npy_video.mp4",
+  "audio_path": "output/videos/dailymotion_x380npy_audio.mp3",
+  "duration_sec": 25,
+  "duration_seconds": 25.0,
+  "title": "Как успокоить буйного кота!",
+  "webpage_url": "https://www.dailymotion.com/video/x380npy",
+  "dm_id": "x380npy",
+  "views_total": 11858,
+  "view_count": 11858,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1443484857,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests methods to calm an agitated cat.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x380npy",
+    "decision": "keep",
+    "reason": "The title suggests methods to calm an agitated cat.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

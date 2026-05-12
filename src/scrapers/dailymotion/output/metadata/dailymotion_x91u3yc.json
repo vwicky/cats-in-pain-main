@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x91u3yc",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x91u3yc_video.mp4",
+  "audio_path": "output/videos/dailymotion_x91u3yc_audio.mp3",
+  "duration_sec": 27,
+  "duration_seconds": 27.0,
+  "title": "Dos policías municipales liberan a un gatito atrapado en el motor de un coche",
+  "webpage_url": "https://www.dailymotion.com/video/x91u3yc",
+  "dm_id": "x91u3yc",
+  "views_total": 1864,
+  "view_count": 1864,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Madrid"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Final feliz por un gatito que quedó atrapado la semana pasada en el interior de un coche en el distrito de Hortaleza. Dos agentes municipales pudieron liberar al felino que se encontraba en el motor del turismo, sin poder salir, desde donde se escuchaban sus maullidos.<br /><br />Fue una vecina del distrito y un componente de la FUNDACIÓN BIGOTES, organización sin ánimo de lucro, dedicada a la protección de los gatos comunitarios mediante el método CER (Captura, Esterilización y Retorno) y el programa de adopción, los que requirieron a la Policía Municipal para localizar al dueño de un vehículo en el distrito de Hortaleza, para sacar a un gatito bebe atrapado en motor de un coche. Gracias a ellos y a un miembro de la Fundación, consiguieron rescatarlo sano y salvo y una vez pre adoptado, ha sido llevado a una casa a que lo cuiden. Los policías hicieron un video del rescate que acompaña a esta información.",
+  "created_time": 1720553720,
+  "search_query": "comportamiento agresivo de los gatos",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Features a rescue of a trapped kitten, relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x91u3yc",
+    "decision": "keep",
+    "reason": "Features a rescue of a trapped kitten, relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

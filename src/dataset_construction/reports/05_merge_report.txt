@@ -1,0 +1,64 @@
+════════════════════════════════════════════════════════
+FINAL DATASET MERGE REPORT
+Generated: 2026-04-19 17:44 UTC
+════════════════════════════════════════════════════════
+
+INPUT SOURCES
+─────────────
+Snippets from metadata_clean_03:    7318
+Audio predictions joined:           7318  (100.0%)  — 0 missed
+Cat ID assignments joined:          7318  (100.0%)
+
+LABEL PIPELINE
+──────────────
+Audio labels available:             7318
+High-confidence labels (≥0.45, margin≥0.05):
+                                    6247  (85.4 of labeled)
+Low-confidence labels:              1071  (14.6%)
+No audio label:                     0  (0.0%)
+
+FINAL LABEL DISTRIBUTION (high-confidence only)
+────────────────────────────────────────────────
+10-class:
+  Angry        |   425 | 6.8%
+  Defence      |    35 | 0.6%
+  Fighting     |   159 | 2.5%
+  Happy        |   931 | 14.9%
+  HuntingMind  |   876 | 14.0%
+  Mating       |  1146 | 18.3%
+  MotherCall   |   677 | 10.8%
+  Paining      |   860 | 13.8%
+  Resting      |  1073 | 17.2%
+  Warning      |    65 | 1.0%
+
+5-class merged:
+  Paining              860  (13.8%)
+  Positive_Baseline   2004  (32.1%)
+  Agonistic            619  (9.9%)
+  Vocalizing          1888  (30.2%)
+  HuntingMind          876  (14.0%)
+
+Binary:
+  Pain:      860  (13.8%)
+  No_Pain:  5387  (86.2%)
+  Ratio:   1:6
+
+SUITABILITY FOR TRAINING
+────────────────────────
+Suitable (all conditions met):   5786  (79.1%)
+Unsuitable — breakdown:
+  GPT: not suitable:             516
+  GPT: AI generated:             346
+  Cat ID: no cat / unsuitable:   0
+  Audio: low confidence:         1071
+  Audio: missing:                0
+  Multiple conditions:           367
+
+OUTPUT
+──────
+final_dataset_v2.jsonl:  7318 rows
+Training-ready rows:     5786 rows
+
+GPT descriptions file (aggregate)
+  Lines: 7318, cost USD (sum): 58.1241
+════════════════════════════════════════════════════════

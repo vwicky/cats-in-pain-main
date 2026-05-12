@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x6hegoh",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6hegoh_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6hegoh_audio.mp3",
+  "duration_sec": 47,
+  "duration_seconds": 47.0,
+  "title": "L'amitié entre cet enfant et son chat va vous faire fondre",
+  "webpage_url": "https://www.dailymotion.com/video/x6hegoh",
+  "dm_id": "x6hegoh",
+  "views_total": 4595,
+  "view_count": 4595,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Madden Humphreys, un petit garçon de 7 ans aux yeux vairons est gravement malade. Alors quand sa mère a vu un chat à adopter souffrant des mêmes symptômes que son fils et ayant lui aussi les yeux vairons, elle n'a pas hésité une seconde à l'adopter. C'est ainsi que le petit Madden, fréquemment victime des railleries de ses camarades, a trouvé son meilleur compagnon de route. La mère de Madden au site \"Love What Matters\" Madden et Moon sont désormais inséparables, et ça fait plaisir à voir !",
+  "created_time": 1523001427,
+  "search_query": "chat malade chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a touching story about a boy and his cat.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6hegoh",
+    "decision": "keep",
+    "reason": "The video features a touching story about a boy and his cat.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

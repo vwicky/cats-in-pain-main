@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x2jrzl",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2jrzl_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2jrzl_audio.mp3",
+  "duration_sec": 55,
+  "duration_seconds": 55.0,
+  "title": "#177 - Mio Mao - générique",
+  "webpage_url": "https://www.dailymotion.com/video/x2jrzl",
+  "dm_id": "x2jrzl",
+  "views_total": 9223,
+  "view_count": 9223,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chats",
+    "mio",
+    "mao",
+    "generique",
+    "opening"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "\"Un générique, un jour\" vous présente : <br />le générique de Mio Mao. <br /><br />Vous aimez les chats ?",
+  "created_time": 1184570962,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Content is related to cats, as indicated in the title.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2jrzl",
+    "decision": "keep",
+    "reason": "Content is related to cats, as indicated in the title.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

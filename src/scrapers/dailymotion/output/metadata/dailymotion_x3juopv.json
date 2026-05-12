@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x3juopv",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3juopv_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3juopv_audio.mp3",
+  "duration_sec": 31,
+  "duration_seconds": 31.0,
+  "title": "Cat Attack!!!",
+  "webpage_url": "https://www.dailymotion.com/video/x3juopv",
+  "dm_id": "x3juopv",
+  "views_total": 3105,
+  "view_count": 3105,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Cats",
+    "Cat",
+    "attack",
+    "pounce",
+    "jump",
+    "leap",
+    "pov"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "Quite the headbutt!",
+  "created_time": 1451334149,
+  "search_query": "cat pouncing on prey",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests an aggressive action from a cat, indicating agonistic behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3juopv",
+    "decision": "keep",
+    "reason": "The title suggests an aggressive action from a cat, indicating agonistic behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

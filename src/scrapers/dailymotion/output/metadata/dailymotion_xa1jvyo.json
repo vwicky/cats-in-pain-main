@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_xa1jvyo",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xa1jvyo_video.mp4",
+  "audio_path": "output/videos/dailymotion_xa1jvyo_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "Cani, gatti, conigli: gli espatriati fuggono da Dubai, abbandonando i loro animali domestici",
+  "webpage_url": "https://www.dailymotion.com/video/xa1jvyo",
+  "dm_id": "xa1jvyo",
+  "views_total": 4659,
+  "view_count": 4659,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "La guerra in Medio Oriente sta producendo effetti drammatici anche sugli animali domestici: a pagare il prezzo della fuga precipitosa da Dubai e dagli altri Emirati sono migliaia di creature lasciate indietro.<br /><br />Non sono soltanto i turisti a voler lasciare il Paese il più rapidamente possibile, ma anche molti residenti stranieri. Alcuni, nella corsa a rientrare nei propri Paesi d’origine, stanno abbandonando i loro animali.<br /><br />A denunciarlo sono diverse organizzazioni impegnate nella tutela degli animali negli Emirati Arabi Uniti. «Siamo stati letteralmente sommersi di chiamate per cani abbandonati», racconta l’associazione K9 Friends Dubai, che segnala anche un’impennata di richieste da parte di proprietari intenzionati a cedere i propri animali.<br /><br />L’organizzazione ha rivolto un appello diretto agli espatriati: «Sappiamo che la situazione è tesa e che molte famiglie stanno cercando di rientrare nei Paesi d’origine per motivi di sicurezza. Vi preghiamo di portare con voi i vostri animali domestici. Possiamo aiutarvi anche con le procedure». Secondo i volontari, molti degli animali abbandonati apparterrebbero proprio a famiglie straniere residenti negli Emirati.<br /><br /><br />Un volontario che gestisce il profilo UAE Animal Community ha dichiarato al The Telegraph che alcuni proprietari avrebbero chiesto ai veterinari di sopprimere animali perfettamente sani «per evitare i costi del trasferimento o le pratiche burocratiche».<br /><br /><br />Sui social media si moltiplicano le immagini che raccontano l’emergenza: gattini chiusi in scatole di cartone e lasciati accanto ai rifiuti, cani legati ai bidoni dell’immondizia o ai pali della luce, conigli abbandonati con sacchi di mangime accanto alle gabbie.<br /><br />Molti animali vengono lasciati nelle aree urbane, altri addirittura nel deserto, dove le possibilità di sopravvivenza sono ridottissime. Alcune segnalazioni riguardano animali lasciati poco prima del confine con l’Oman. Secondo i volontari, il motivo sarebbe legato alle rigide procedure richieste per il trasferimento degli animali: documenti sanitari, vaccinazioni obbligatorie ed esami del sangue che possono richiedere settimane. «Alcune persone partono comunque e abbandonano l’animale prima di attraversare il confine», spiegano gli attivisti.",
+  "created_time": 1773038801,
+  "search_query": "gattini giocherelloni che si rilassano",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses pets being abandoned, likely including cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xa1jvyo",
+    "decision": "keep",
+    "reason": "The video discusses pets being abandoned, likely including cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

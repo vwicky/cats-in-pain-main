@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x9qj60w",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9qj60w_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9qj60w_audio.mp3",
+  "duration_sec": 15,
+  "duration_seconds": 15.0,
+  "title": "La vie secrète des chats",
+  "webpage_url": "https://www.dailymotion.com/video/x9qj60w",
+  "dm_id": "x9qj60w",
+  "views_total": 3709,
+  "view_count": 3709,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "plurimedia_1209975",
+    "video_plurimedia",
+    "video_plurimedia_broadcast"
+  ],
+  "channel": "tv",
+  "channel_title": "tv",
+  "language": "fr",
+  "query_language": "French",
+  "description": "En ville, l'équipe tente de mettre fin aux querelles de voisinage qui oppose Mylène et ses deux bingales au chat de sa voisine. Pendant ce temps, à la campagne, le pauvre Lewis a vécu une aventure digne d'un film d'action : coincé plusieurs jours dans un mur ! Par ailleurs, Laetitia, la vétérinaire, montre comment préserver les meubles des griffures. Des astuces géniales, entre meubles pour chats et manucures félines, on a tout pour rendre nos intérieurs et nos chats heureux. Pour finir à Paris, la jeune Lucille va enfin découvrir le vrai visage de son chat Luffy, véritable Kaïd de sa cour d'immeuble, qui \"met la misère\" à tous les chats du quartier.",
+  "created_time": 1757870824,
+  "search_query": "chat mal à l'aise chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description suggest it involves cat behavior and interactions.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9qj60w",
+    "decision": "keep",
+    "reason": "The title and description suggest it involves cat behavior and interactions.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

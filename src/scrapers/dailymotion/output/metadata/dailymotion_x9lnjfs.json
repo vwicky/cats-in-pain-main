@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x9lnjfs",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9lnjfs_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9lnjfs_audio.mp3",
+  "duration_sec": 31,
+  "duration_seconds": 31.0,
+  "title": "Little boy kisses his cat and shows what true friendship looks like",
+  "webpage_url": "https://www.dailymotion.com/video/x9lnjfs",
+  "dm_id": "x9lnjfs",
+  "views_total": 19058,
+  "view_count": 19058,
+  "likes_total": 15,
+  "like_count": 15,
+  "tags": [
+    "Indiana",
+    "US",
+    "Cute",
+    "Cute Pets",
+    "Kitty Love",
+    "Animal Bond",
+    "Toddler",
+    "Pet Kisses",
+    "Adorable Duo",
+    "Child and Cat"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "Some friendships don’t need words; they just need a whisker and a little boy’s heart!<br /><br />In this adorable clip shared by Carrie, a tiny tot has fully committed to the belief that his best buddy is, in fact, a cat.<br /><br />And not just any cat, but his ride-or-die, forever friend!<br /><br />While other kids are forming soccer teams, this little legend has already drafted his feline soulmate.<br /><br />This duo is officially paw-some!<br />WooGlobe Ref : WGA848885<br />For licensing and to use this video, please email licensing@wooglobe.com",
+  "created_time": 1750431700,
+  "search_query": "cats battling for territory",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a boy and his cat, showcasing their bond.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9lnjfs",
+    "decision": "keep",
+    "reason": "The video features a boy and his cat, showcasing their bond.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x7ze9s3",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7ze9s3_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7ze9s3_audio.mp3",
+  "duration_sec": 35,
+  "duration_seconds": 35.0,
+  "title": "Ce chat devient une star après avoir sauvé sa maîtresse d’une potentielle asphyxie lors d’une fuite de gaz",
+  "webpage_url": "https://www.dailymotion.com/video/x7ze9s3",
+  "dm_id": "x7ze9s3",
+  "views_total": 19690,
+  "view_count": 19690,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "lifestyle",
+  "channel_title": "lifestyle",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1613663247,
+  "search_query": "chat en convalescence après une opération",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a cat saving its owner, indicating a heroic behavior context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7ze9s3",
+    "decision": "keep",
+    "reason": "The video discusses a cat saving its owner, indicating a heroic behavior context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

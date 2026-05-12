@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x973lwk",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x973lwk_video.mp4",
+  "audio_path": "output/videos/dailymotion_x973lwk_audio.mp3",
+  "duration_sec": 21,
+  "duration_seconds": 21.0,
+  "title": "Sie möchte eine Katze aus dem Tierheim adoptieren: Die Heimreise verläuft nicht nach Plan",
+  "webpage_url": "https://www.dailymotion.com/video/x973lwk",
+  "dm_id": "x973lwk",
+  "views_total": 28746,
+  "view_count": 28746,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Tierliebhaberin Marissa lebt mit ihrem Lebensgefährten und ihrem Schoßhündchen in den USA.",
+  "created_time": 1728569870,
+  "search_query": "Katze, die Beute verfolgt",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat adoption story, which is relevant.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x973lwk",
+    "decision": "keep",
+    "reason": "The title suggests a cat adoption story, which is relevant.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

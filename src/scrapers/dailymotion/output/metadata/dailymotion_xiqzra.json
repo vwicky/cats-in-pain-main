@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_xiqzra",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xiqzra_video.mp4",
+  "audio_path": "output/videos/dailymotion_xiqzra_audio.mp3",
+  "duration_sec": 18,
+  "duration_seconds": 18.0,
+  "title": "Come far prendere un colpo al gatto",
+  "webpage_url": "https://www.dailymotion.com/video/xiqzra",
+  "dm_id": "xiqzra",
+  "views_total": 32258,
+  "view_count": 32258,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "spavento",
+    "scherzo",
+    "prank",
+    "gatto",
+    "cat",
+    "piscina",
+    "pool"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "Il genio subacqueo fa ridere gli amici, ma prima o poi il felino avrà la sua rivincita, c'è da scommetterci",
+  "created_time": 1305635824,
+  "search_query": "comportamento di un gatto ferito",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description indicate a cat is involved in a prank context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xiqzra",
+    "decision": "keep",
+    "reason": "The title and description indicate a cat is involved in a prank context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

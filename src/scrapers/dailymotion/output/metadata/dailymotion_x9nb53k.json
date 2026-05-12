@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x9nb53k",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9nb53k_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9nb53k_audio.mp3",
+  "duration_sec": 35,
+  "duration_seconds": 35.0,
+  "title": "cat fight",
+  "webpage_url": "https://www.dailymotion.com/video/x9nb53k",
+  "dm_id": "x9nb53k",
+  "views_total": 1048,
+  "view_count": 1048,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cat",
+    "fight",
+    "cats of dailymotion"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ar",
+  "query_language": "English",
+  "description": "cat fight <br />Cats fight for a cat <br />#cats <br />cat <br />cats <br />kitty <br />kitten <br />animals <br />cute cats <br />funny cats <br />funny <br />cute <br />funny animals <br />meow <br />kitties <br />lol <br />cuteness <br />kitty cat <br />Cat Fighter <br />#cats of dailymotion <br />",
+  "created_time": 1753100066,
+  "search_query": "cat fight outside",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Description and tags indicate a cat fight.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9nb53k",
+    "decision": "keep",
+    "reason": "Description and tags indicate a cat fight.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

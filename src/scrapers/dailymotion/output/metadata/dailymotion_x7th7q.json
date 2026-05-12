@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x7th7q",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7th7q_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7th7q_audio.mp3",
+  "duration_sec": 39,
+  "duration_seconds": 39.0,
+  "title": "Chat en colère",
+  "webpage_url": "https://www.dailymotion.com/video/x7th7q",
+  "dm_id": "x7th7q",
+  "views_total": 1304,
+  "view_count": 1304,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "toilete",
+    "papier"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1230055589,
+  "search_query": "chat malade en traitement",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title indicates a cat in a state of anger.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7th7q",
+    "decision": "keep",
+    "reason": "Title indicates a cat in a state of anger.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

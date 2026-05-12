@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8pwmpn",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8pwmpn_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8pwmpn_audio.mp3",
+  "duration_sec": 27,
+  "duration_seconds": 27.0,
+  "title": "VIDEO: Gatito calienta sus patitas en una fogata",
+  "webpage_url": "https://www.dailymotion.com/video/x8pwmpn",
+  "dm_id": "x8pwmpn",
+  "views_total": 12659,
+  "view_count": 12659,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "¡Hasta los animalitos buscan como calentarse! Así captaron a este gatito que coloca sus patitas cerca de una fogata.",
+  "created_time": 1700784345,
+  "search_query": "gatitos juguetones relajándose",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a kitten warming its paws by a fire, which is plausible cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8pwmpn",
+    "decision": "keep",
+    "reason": "The video features a kitten warming its paws by a fire, which is plausible cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

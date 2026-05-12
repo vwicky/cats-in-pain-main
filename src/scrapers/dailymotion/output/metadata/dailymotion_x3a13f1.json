@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x3a13f1",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3a13f1_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3a13f1_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "Кот до боли любит своего хозяина",
+  "webpage_url": "https://www.dailymotion.com/video/x3a13f1",
+  "dm_id": "x3a13f1",
+  "views_total": 26428,
+  "view_count": 26428,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Котэ",
+    "котейка",
+    "кошка",
+    "с кошкой",
+    "с котом",
+    "новость",
+    "шокирующая",
+    "страшная"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Кот очень любит своего хозяина",
+  "created_time": 1445117697,
+  "search_query": "кот, выслеживающий добычу",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description indicate a cat's affection for its owner.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3a13f1",
+    "decision": "keep",
+    "reason": "The title and description indicate a cat's affection for its owner.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

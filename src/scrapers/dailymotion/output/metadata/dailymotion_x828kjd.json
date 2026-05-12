@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x828kjd",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x828kjd_video.mp4",
+  "audio_path": "output/videos/dailymotion_x828kjd_audio.mp3",
+  "duration_sec": 44,
+  "duration_seconds": 44.0,
+  "title": "Un chat protège sa nourriture",
+  "webpage_url": "https://www.dailymotion.com/video/x828kjd",
+  "dm_id": "x828kjd",
+  "views_total": 3963,
+  "view_count": 3963,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Société",
+    "Vidéos"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "On veut bien tout partager, SAUF les frites ! C'est comme ça !",
+  "created_time": 1624631050,
+  "search_query": "chat qui miaule pour de la nourriture",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat protecting its food, which is a common behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x828kjd",
+    "decision": "keep",
+    "reason": "The title suggests a cat protecting its food, which is a common behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

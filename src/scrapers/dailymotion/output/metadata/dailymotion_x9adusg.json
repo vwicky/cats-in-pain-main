@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9adusg",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9adusg_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9adusg_audio.mp3",
+  "duration_sec": 33,
+  "duration_seconds": 33.0,
+  "title": "I lupi tornano a Chieti e aggrediscono cani e gatti",
+  "webpage_url": "https://www.dailymotion.com/video/x9adusg",
+  "dm_id": "x9adusg",
+  "views_total": 7093,
+  "view_count": 7093,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "shortfilms",
+  "channel_title": "shortfilms",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "",
+  "created_time": 1733568461,
+  "search_query": "video brevi di gatti",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Mentions aggression towards cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9adusg",
+    "decision": "keep",
+    "reason": "Mentions aggression towards cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

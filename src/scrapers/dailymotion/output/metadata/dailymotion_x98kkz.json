@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x98kkz",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x98kkz_video.mp4",
+  "audio_path": "output/videos/dailymotion_x98kkz_audio.mp3",
+  "duration_sec": 8,
+  "duration_seconds": 8.0,
+  "title": "drole de chat",
+  "webpage_url": "https://www.dailymotion.com/video/x98kkz",
+  "dm_id": "x98kkz",
+  "views_total": 577,
+  "view_count": 577,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "drole",
+    "chat"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1241905240,
+  "search_query": "posture défensive de chat",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a funny cat video, which is plausible.",
+  "gpt_confidence": "low",
+  "gpt_filter": {
+    "video_id": "dailymotion_x98kkz",
+    "decision": "keep",
+    "reason": "The title suggests a funny cat video, which is plausible.",
+    "confidence": "low",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

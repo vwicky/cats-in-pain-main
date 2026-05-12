@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x444hbj",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x444hbj_video.mp4",
+  "audio_path": "output/videos/dailymotion_x444hbj_audio.mp3",
+  "duration_sec": 36,
+  "duration_seconds": 36.0,
+  "title": "Un chat se la joue tranquille",
+  "webpage_url": "https://www.dailymotion.com/video/x444hbj",
+  "dm_id": "x444hbj",
+  "views_total": 4413,
+  "view_count": 4413,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un chat se la joue tranquille<br />Rendez-vous sur http://www.tuxboard.com/ pour en voir plus !<br />",
+  "created_time": 1460537444,
+  "search_query": "chat heureux qui joue",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a relaxed cat, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x444hbj",
+    "decision": "keep",
+    "reason": "The title suggests a relaxed cat, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

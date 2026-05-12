@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x17w0a4",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x17w0a4_video.mp4",
+  "audio_path": "output/videos/dailymotion_x17w0a4_audio.mp3",
+  "duration_sec": 9,
+  "duration_seconds": 9.0,
+  "title": "Chat perd la boule",
+  "webpage_url": "https://www.dailymotion.com/video/x17w0a4",
+  "dm_id": "x17w0a4",
+  "views_total": 33973,
+  "view_count": 33973,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "Chat",
+    "perd",
+    "boule"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Un chat perd la boule et se met à trembler en regardant tournoyer son jouet. L'animal essaye tant bien que mal de suivre avec ses yeux son jouet qui tourne à toute vitesse devant lui pour l'attraper, mais ça ne va pas être évident.",
+  "created_time": 1385971721,
+  "search_query": "chat qui aime être caressé",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat playing with a toy, indicating typical cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x17w0a4",
+    "decision": "keep",
+    "reason": "The video shows a cat playing with a toy, indicating typical cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

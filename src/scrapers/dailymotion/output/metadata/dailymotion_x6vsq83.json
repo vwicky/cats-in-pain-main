@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x6vsq83",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x6vsq83_video.mp4",
+  "audio_path": "output/videos/dailymotion_x6vsq83_audio.mp3",
+  "duration_sec": 42,
+  "duration_seconds": 42.0,
+  "title": "Ce chat sait parfaitement faire comprendre qu'il ne veut pas de bain",
+  "webpage_url": "https://www.dailymotion.com/video/x6vsq83",
+  "dm_id": "x6vsq83",
+  "views_total": 1556,
+  "view_count": 1556,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "C'est bien connu qu'en très grande majorité, les chats n'apprécient pas l'eau car ils viennent du Moyen-Orient et de ses régions désertiques. Une chose est sûre, le chat ne se jettera jamais volontairement dans l'eau... La preuve avec la vidéo de ce félin qui sait parfaitement faire comprendre qu'il ne veut pas prendre de bain !",
+  "created_time": 1540022274,
+  "search_query": "courtes vidéos de chats qui se prélassent",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video illustrates a cat's clear dislike for water, showcasing its behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x6vsq83",
+    "decision": "keep",
+    "reason": "The video illustrates a cat's clear dislike for water, showcasing its behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

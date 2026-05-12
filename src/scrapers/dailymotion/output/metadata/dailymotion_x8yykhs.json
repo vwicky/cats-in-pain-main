@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8yykhs",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8yykhs_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8yykhs_audio.mp3",
+  "duration_sec": 24,
+  "duration_seconds": 24.0,
+  "title": "Combien de chats ? (Exclu Dailymotion)",
+  "webpage_url": "https://www.dailymotion.com/video/x8yykhs",
+  "dm_id": "x8yykhs",
+  "views_total": 2564,
+  "view_count": 2564,
+  "likes_total": 5,
+  "like_count": 5,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1716523679,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a focus on cats, making it plausible for cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8yykhs",
+    "decision": "keep",
+    "reason": "The title suggests a focus on cats, making it plausible for cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8rwhz5",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8rwhz5_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8rwhz5_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "犬と猫どっちも飼ってると毎日たのしい | show | 2020 | Official Teaser",
+  "webpage_url": "https://www.dailymotion.com/video/x8rwhz5",
+  "dm_id": "x8rwhz5",
+  "views_total": 58244,
+  "view_count": 58244,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "tv",
+  "channel_title": "tv",
+  "language": "ja",
+  "query_language": "Japanese",
+  "description": "一生懸命でかわいすぎる犬と、<br /><br />恐すぎる顔なのに憎めない猫と。<br /><br />二匹と暮らす楽しす? | dHNfekJKZXp0RTg4LXM",
+  "created_time": 1706573078,
+  "search_query": "家でくつろいでいる猫",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title mentions both dogs and cats, suggesting a focus on pet behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8rwhz5",
+    "decision": "keep",
+    "reason": "The title mentions both dogs and cats, suggesting a focus on pet behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

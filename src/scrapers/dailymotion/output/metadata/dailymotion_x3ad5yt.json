@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x3ad5yt",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3ad5yt_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3ad5yt_audio.mp3",
+  "duration_sec": 17,
+  "duration_seconds": 17.0,
+  "title": "Кот и корова",
+  "webpage_url": "https://www.dailymotion.com/video/x3ad5yt",
+  "dm_id": "x3ad5yt",
+  "views_total": 22581,
+  "view_count": 22581,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "корова",
+    "кот",
+    "кот и корова",
+    "с коровой",
+    "с котом"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Кот и корова",
+  "created_time": 1445369453,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description mention a cat and a cow, indicating a real cat presence.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3ad5yt",
+    "decision": "keep",
+    "reason": "The title and description mention a cat and a cow, indicating a real cat presence.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

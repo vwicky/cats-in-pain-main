@@ -1,0 +1,9 @@
+Suitable for training (same logic as fig_01)
+============================================================
+Manifest rows (total): 7318
+Fields: dataset_flags.suitable_for_training, suitable_for_training, gpt_suitable_for_training
+
+category                                                count
+---------------------------------------------------------------
+True                                                     5786
+False                                                    1532

@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_xuwpzy",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xuwpzy_video.mp4",
+  "audio_path": "output/videos/dailymotion_xuwpzy_audio.mp3",
+  "duration_sec": 34,
+  "duration_seconds": 34.0,
+  "title": "Cat gets scared and talks back!",
+  "webpage_url": "https://www.dailymotion.com/video/xuwpzy",
+  "dm_id": "xuwpzy",
+  "views_total": 532,
+  "view_count": 532,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Funny Cat",
+    "Cats"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "Benny my cat gets scared and talks back!",
+  "created_time": 1352281241,
+  "search_query": "sick cat getting treatment",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat vocalizing in response to being scared.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xuwpzy",
+    "decision": "keep",
+    "reason": "The video features a cat vocalizing in response to being scared.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

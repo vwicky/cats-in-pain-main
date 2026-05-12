@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8qqmp0",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8qqmp0_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8qqmp0_audio.mp3",
+  "duration_sec": 59,
+  "duration_seconds": 59.0,
+  "title": "Trouvé dans la rue frigorifié et affamé, ce chat se montre très reconnaissant et mérite de trouver une famille",
+  "webpage_url": "https://www.dailymotion.com/video/x8qqmp0",
+  "dm_id": "x8qqmp0",
+  "views_total": 7280,
+  "view_count": 7280,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Depuis qu'il a été mis en sécurité, ce chat montre sa reconnaissance de la manière la plus tendre qui soit.",
+  "created_time": 1703076743,
+  "search_query": "chats se reposant paisiblement",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat showing gratitude after being rescued.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8qqmp0",
+    "decision": "keep",
+    "reason": "The video features a cat showing gratitude after being rescued.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

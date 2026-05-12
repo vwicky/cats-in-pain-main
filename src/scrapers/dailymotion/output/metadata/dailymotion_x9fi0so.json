@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x9fi0so",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9fi0so_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9fi0so_audio.mp3",
+  "duration_sec": 23,
+  "duration_seconds": 23.0,
+  "title": "Katze macht etwas Besonderes in der Badewanne: Millionen stehen Kopf",
+  "webpage_url": "https://www.dailymotion.com/video/x9fi0so",
+  "dm_id": "x9fi0so",
+  "views_total": 3424,
+  "view_count": 3424,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "News Chat"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Das Video einer Sphinx-Katze beschäftigt aktuell Tausende Internetnutzer. Es zeigt eine Katze in einer Badewanne, doch das ist noch nicht alles ...",
+  "created_time": 1741281900,
+  "search_query": "Katze nach der Operation",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat in a bathtub, suggesting real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9fi0so",
+    "decision": "keep",
+    "reason": "The video features a cat in a bathtub, suggesting real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

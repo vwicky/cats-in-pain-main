@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_xp0gjo",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xp0gjo_video.mp4",
+  "audio_path": "output/videos/dailymotion_xp0gjo_audio.mp3",
+  "duration_sec": 22,
+  "duration_seconds": 22.0,
+  "title": "Toto le chat .... il danse et chante pour l'aviron Bayonnais \" un chat qui chante\"",
+  "webpage_url": "https://www.dailymotion.com/video/xp0gjo",
+  "dm_id": "xp0gjo",
+  "views_total": 1108,
+  "view_count": 1108,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cat",
+    "chat",
+    "danse",
+    "dancing",
+    "Toto",
+    "....",
+    "chante",
+    "pour",
+    "laviron",
+    "Bayonnais"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "toto le chat qui danse pour l'aviron Bayonnais",
+  "created_time": 1330047056,
+  "search_query": "chat qui miaule pour de la nourriture",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description suggest a cat performing actions, indicating real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xp0gjo",
+    "decision": "keep",
+    "reason": "The title and description suggest a cat performing actions, indicating real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

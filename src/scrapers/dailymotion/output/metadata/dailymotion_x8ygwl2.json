@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8ygwl2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8ygwl2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8ygwl2_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Kätzchen schleicht nachts ins Bad: Jetzt hat die Familie 18.000 Euro SCHULDEN!",
+  "webpage_url": "https://www.dailymotion.com/video/x8ygwl2",
+  "dm_id": "x8ygwl2",
+  "views_total": 10569,
+  "view_count": 10569,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Ihre Halter glauben, dass ihr freches Kätzchen friedlich schläft. Doch als der Wecker in der Frühe klingelt, liegt ihr Haus in Schutt und Asche! „Eve“ hat ganze Arbeit geleistet.",
+  "created_time": 1715674313,
+  "search_query": "Katzen, die friedlich ruhen",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video suggests a cat causing chaos in the house, which is plausible cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8ygwl2",
+    "decision": "keep",
+    "reason": "The video suggests a cat causing chaos in the house, which is plausible cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3p7kwv",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3p7kwv_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3p7kwv_audio.mp3",
+  "duration_sec": 32,
+  "duration_seconds": 32.0,
+  "title": "Кот любит спать в чашке ПРИКОЛ",
+  "webpage_url": "https://www.dailymotion.com/video/x3p7kwv",
+  "dm_id": "x3p7kwv",
+  "views_total": 3841,
+  "view_count": 3841,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "FUN",
+    "CAT",
+    "prikoli",
+    "video",
+    "clip",
+    "best",
+    "rolik",
+    "смешно",
+    "comedy"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1454071527,
+  "search_query": "кот в режиме стелса",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title suggests a cat sleeping in a cup, indicating resting behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3p7kwv",
+    "decision": "keep",
+    "reason": "Title suggests a cat sleeping in a cup, indicating resting behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

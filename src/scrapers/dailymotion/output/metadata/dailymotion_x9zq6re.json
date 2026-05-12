@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9zq6re",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9zq6re_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9zq6re_audio.mp3",
+  "duration_sec": 46,
+  "duration_seconds": 46.0,
+  "title": "Pourquoi ton chat te mord ?",
+  "webpage_url": "https://www.dailymotion.com/video/x9zq6re",
+  "dm_id": "x9zq6re",
+  "views_total": 923,
+  "view_count": 923,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Ton chat te mord soudainement pendant les câlins ? Ne panique pas, ce n'est pas par méchanceté ! Découvre pourquoi ton félin peut passer de l'affection à la morsure en un instant.<br /><br />Il s'agit du phénomène d'agression par caresse, où ton chat apprécie le contact, mais seulement pour une durée limitée. Son seuil de tolérance est souvent plus court que le tien, et il t'envoie des signaux avant de mordre.<br /><br />Apprends à reconnaître les signes : queue qui fouette, oreilles aplaties, pupilles dilatées... Ignorer ces avertissements peut mener à une morsure. Pour lui, une caresse prolongée n'est pas naturelle.<br /><br />La clé est de respecter son rythme. Caresse ton chat sur ses zones préférées comme la tête, le cou ou le dos, en évitant le ventre. Arrête-toi avant qu'il ne montre des signes d'agacement pour renforcer sa confiance.<br /><br />Ton chat n'est pas lunatique, il communique simplement ses limites à sa manière. Comprends son langage corporel pour une relation plus harmonieuse.<br /><br />#ComportementChat #MonChatMeM precise #EducationChat",
+  "created_time": 1770818155,
+  "search_query": "chat qui aime être caressé",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description discuss a cat's biting behavior during affection, which is relevant.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9zq6re",
+    "decision": "keep",
+    "reason": "The title and description discuss a cat's biting behavior during affection, which is relevant.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

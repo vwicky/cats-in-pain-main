@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x9b7h9g",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9b7h9g_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9b7h9g_audio.mp3",
+  "duration_sec": 21,
+  "duration_seconds": 21.0,
+  "title": "Rescatan mascotas en San Antonio de Pereira",
+  "webpage_url": "https://www.dailymotion.com/video/x9b7h9g",
+  "dm_id": "x9b7h9g",
+  "views_total": 5809,
+  "view_count": 5809,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "san antonio de pereira",
+    "mascotas rescatadas",
+    "bomberos de rionegro"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Final feliz: perro y gato rescatados de entre escombros en Rionegro. Los bomberos realizaron una operación de rescate exitosa, salvando la vida de dos mascotas.",
+  "created_time": 1734887056,
+  "search_query": "comportamiento agresivo de los gatos",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features the rescue of a cat.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9b7h9g",
+    "decision": "keep",
+    "reason": "The video features the rescue of a cat.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

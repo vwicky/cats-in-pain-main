@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x78byf8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x78byf8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x78byf8_audio.mp3",
+  "duration_sec": 21,
+  "duration_seconds": 21.0,
+  "title": "Gato sube por la pared como un auténtico ninja",
+  "webpage_url": "https://www.dailymotion.com/video/x78byf8",
+  "dm_id": "x78byf8",
+  "views_total": 6267,
+  "view_count": 6267,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gato",
+    "subir",
+    "pared",
+    "ninja",
+    "viral",
+    "insolito"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Este gato sube las paredes con gran facilidad.",
+  "created_time": 1557978000,
+  "search_query": "gatos luchando por territorio",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat climbing walls, showcasing typical cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x78byf8",
+    "decision": "keep",
+    "reason": "The video features a cat climbing walls, showcasing typical cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

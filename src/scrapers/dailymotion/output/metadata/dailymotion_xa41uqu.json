@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_xa41uqu",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xa41uqu_video.mp4",
+  "audio_path": "output/videos/dailymotion_xa41uqu_audio.mp3",
+  "duration_sec": 9,
+  "duration_seconds": 9.0,
+  "title": "funny cats muted 3",
+  "webpage_url": "https://www.dailymotion.com/video/xa41uqu",
+  "dm_id": "xa41uqu",
+  "views_total": 1156,
+  "view_count": 1156,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cat",
+    "funny",
+    "meme",
+    "kitty",
+    "kitties",
+    "cats",
+    "pets",
+    "pet",
+    "animals"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1775063681,
+  "search_query": "happy cat purring",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests funny cat content, which is plausible.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xa41uqu",
+    "decision": "keep",
+    "reason": "The title suggests funny cat content, which is plausible.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

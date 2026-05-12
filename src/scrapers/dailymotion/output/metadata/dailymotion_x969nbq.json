@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x969nbq",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x969nbq_video.mp4",
+  "audio_path": "output/videos/dailymotion_x969nbq_audio.mp3",
+  "duration_sec": 22,
+  "duration_seconds": 22.0,
+  "title": "Cat videos cute cats kittens",
+  "webpage_url": "https://www.dailymotion.com/video/x969nbq",
+  "dm_id": "x969nbq",
+  "views_total": 1963,
+  "view_count": 1963,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "funny cat videos",
+    "cat videos",
+    "cat video",
+    "cute cat videos",
+    "funny cat videos 2024",
+    "cat funny videos",
+    "Cats  Kittens"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "Cat videos cute cats kittens <br /><br />",
+  "created_time": 1727303182,
+  "search_query": "short cat lounging videos",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description indicate cute cat videos.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x969nbq",
+    "decision": "keep",
+    "reason": "The title and description indicate cute cat videos.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8fsnpb",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8fsnpb_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8fsnpb_audio.mp3",
+  "duration_sec": 57,
+  "duration_seconds": 57.0,
+  "title": "Katze hat Schuppen: Das kann dahinterstecken",
+  "webpage_url": "https://www.dailymotion.com/video/x8fsnpb",
+  "dm_id": "x8fsnpb",
+  "views_total": 553,
+  "view_count": 553,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "lifestyle",
+  "channel_title": "lifestyle",
+  "language": "de",
+  "query_language": "German",
+  "description": "",
+  "created_time": 1669299028,
+  "search_query": "Katze, die Beute verfolgt",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a discussion about a cat's health issue, which is relevant.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8fsnpb",
+    "decision": "keep",
+    "reason": "The title suggests a discussion about a cat's health issue, which is relevant.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

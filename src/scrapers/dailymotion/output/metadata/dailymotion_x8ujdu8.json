@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8ujdu8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8ujdu8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8ujdu8_audio.mp3",
+  "duration_sec": 22,
+  "duration_seconds": 22.0,
+  "title": "Ce chat ne comprend pas pourquoi sa famille l’abandonne 2 ans après son adoption",
+  "webpage_url": "https://www.dailymotion.com/video/x8ujdu8",
+  "dm_id": "x8ujdu8",
+  "views_total": 1438,
+  "view_count": 1438,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "La pauvre Fiona ne souhaitait pourtant qu’une chose : vivre sa vie tranquillement auprès de sa famille pour la vie.",
+  "created_time": 1710520947,
+  "search_query": "chat après vaccination",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a cat's emotional experience after being abandoned.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8ujdu8",
+    "decision": "keep",
+    "reason": "The video discusses a cat's emotional experience after being abandoned.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

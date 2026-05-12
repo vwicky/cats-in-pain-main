@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x8jrs9o",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8jrs9o_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8jrs9o_audio.mp3",
+  "duration_sec": 34,
+  "duration_seconds": 34.0,
+  "title": "Zorros en La Molina: Serfor pide a vecinos mantener a sus mascotas dentro de casa",
+  "webpage_url": "https://www.dailymotion.com/video/x8jrs9o",
+  "dm_id": "x8jrs9o",
+  "views_total": 1050,
+  "view_count": 1050,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "serfor",
+    "zorros",
+    "la molina"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Ante la desaparición de al menos 10 gatos, pidió a los vecinos mantener a sus mascotas dentro de casa. Y exhortó a no intentar atrapar a los zorros.",
+  "created_time": 1680633246,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description mentions the disappearance of cats, indicating a relevant context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8jrs9o",
+    "decision": "keep",
+    "reason": "The description mentions the disappearance of cats, indicating a relevant context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

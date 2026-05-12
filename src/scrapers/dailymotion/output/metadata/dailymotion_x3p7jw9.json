@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3p7jw9",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3p7jw9_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3p7jw9_audio.mp3",
+  "duration_sec": 28,
+  "duration_seconds": 28.0,
+  "title": "Два кота в клочья рвут друг друга, очень жесткая драка котов!",
+  "webpage_url": "https://www.dailymotion.com/video/x3p7jw9",
+  "dm_id": "x3p7jw9",
+  "views_total": 7210,
+  "view_count": 7210,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "FUN",
+    "CAT",
+    "prikoli",
+    "video",
+    "clip",
+    "best",
+    "rolik",
+    "смешно",
+    "comedy"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Ukrainian",
+  "description": "",
+  "created_time": 1454071685,
+  "search_query": "захисна поза кота",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title describes a fight between two cats, which is clear agonistic behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3p7jw9",
+    "decision": "keep",
+    "reason": "The title describes a fight between two cats, which is clear agonistic behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

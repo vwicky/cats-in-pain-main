@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x3a84s7",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3a84s7_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3a84s7_audio.mp3",
+  "duration_sec": 49,
+  "duration_seconds": 49.0,
+  "title": "Еще одно угарное видео с котом)",
+  "webpage_url": "https://www.dailymotion.com/video/x3a84s7",
+  "dm_id": "x3a84s7",
+  "views_total": 17710,
+  "view_count": 17710,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "ураг",
+    "угар",
+    "с котом"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Еще одно угарное видео с котом)",
+  "created_time": 1445283415,
+  "search_query": "короткие видео с кошками",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title and tags suggest it features a cat.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3a84s7",
+    "decision": "keep",
+    "reason": "Title and tags suggest it features a cat.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

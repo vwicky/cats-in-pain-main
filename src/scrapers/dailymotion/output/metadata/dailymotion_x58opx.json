@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x58opx",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x58opx_video.mp4",
+  "audio_path": "output/videos/dailymotion_x58opx_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "Gato-bateria",
+  "webpage_url": "https://www.dailymotion.com/video/x58opx",
+  "dm_id": "x58opx",
+  "views_total": 3585,
+  "view_count": 3585,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "gatunos.com",
+    "gatos",
+    "animales",
+    "felinos",
+    "mascotas"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Portuguese",
+  "description": "Gato parece soñar que toca la batería",
+  "created_time": 1209407578,
+  "search_query": "gato miando alto",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description suggests a cat dreaming of playing the drums, which is a playful interpretation of cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x58opx",
+    "decision": "keep",
+    "reason": "The description suggests a cat dreaming of playing the drums, which is a playful interpretation of cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

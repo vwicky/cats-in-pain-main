@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x2zlk8z",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2zlk8z_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2zlk8z_audio.mp3",
+  "duration_sec": 56,
+  "duration_seconds": 56.0,
+  "title": "Kitten Mother Love(ipad)",
+  "webpage_url": "https://www.dailymotion.com/video/x2zlk8z",
+  "dm_id": "x2zlk8z",
+  "views_total": 7148,
+  "view_count": 7148,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1438126870,
+  "search_query": "playful kittens relaxing",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat-related video about a kitten and its mother.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2zlk8z",
+    "decision": "keep",
+    "reason": "The title suggests a cat-related video about a kitten and its mother.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

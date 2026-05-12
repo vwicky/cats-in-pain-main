@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9uuhps",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9uuhps_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9uuhps_audio.mp3",
+  "duration_sec": 22,
+  "duration_seconds": 22.0,
+  "title": "Gato",
+  "webpage_url": "https://www.dailymotion.com/video/x9uuhps",
+  "dm_id": "x9uuhps",
+  "views_total": 1585,
+  "view_count": 1585,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "Gato",
+  "created_time": 1764665258,
+  "search_query": "gato miando alto",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title simply states 'Gato', indicating a cat-related video.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9uuhps",
+    "decision": "keep",
+    "reason": "The title simply states 'Gato', indicating a cat-related video.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

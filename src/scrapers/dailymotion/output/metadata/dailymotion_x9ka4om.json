@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9ka4om",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9ka4om_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9ka4om_audio.mp3",
+  "duration_sec": 18,
+  "duration_seconds": 18.0,
+  "title": "Unglaublich, was die Katze im Bett macht: Millionen lachen sich darüber schlapp (Video)",
+  "webpage_url": "https://www.dailymotion.com/video/x9ka4om",
+  "dm_id": "x9ka4om",
+  "views_total": 76839,
+  "view_count": 76839,
+  "likes_total": 7,
+  "like_count": 7,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Dieses Katzenvideo hat das Internet im Sturm erobert. Denn ihre flauschige Majestät will nicht, dass ihr Dosenöffner sein Bett richtet – und gibt alles.",
+  "created_time": 1748402704,
+  "search_query": "Katze, die Beute verfolgt",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests amusing cat behavior in bed.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9ka4om",
+    "decision": "keep",
+    "reason": "The title suggests amusing cat behavior in bed.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,15 @@
+Exclusion reason counts (non-null gpt_exclusion_reason)
+============================================================
+
+reason                                                  count
+---------------------------------------------------------------
+ai_generated                                              345
+null                                                      110
+severe_occlusion                                           55
+other                                                      36
+severe_blur                                                30
+human_dominates_frame                                      20
+no_cat_visible                                             16
+multiple_cats_only                                         12
+face_not_clearly_visible                                    1
+pain_indicators_visible                                     1

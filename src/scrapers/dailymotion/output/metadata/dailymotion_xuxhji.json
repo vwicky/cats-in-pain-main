@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_xuxhji",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xuxhji_video.mp4",
+  "audio_path": "output/videos/dailymotion_xuxhji_audio.mp3",
+  "duration_sec": 11,
+  "duration_seconds": 11.0,
+  "title": "kitten",
+  "webpage_url": "https://www.dailymotion.com/video/xuxhji",
+  "dm_id": "xuxhji",
+  "views_total": 557,
+  "view_count": 557,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "kitten playing funny cat mouse socks tortashell",
+    "Cats"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "en",
+  "description": "<p>my kitten sock playing</p>",
+  "created_time": 1352338993,
+  "search_query": "kitten sounds",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description and tags indicate a kitten playing, suggesting real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xuxhji",
+    "decision": "keep",
+    "reason": "The description and tags indicate a kitten playing, suggesting real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

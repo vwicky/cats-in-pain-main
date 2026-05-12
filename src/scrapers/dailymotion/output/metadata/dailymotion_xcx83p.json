@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_xcx83p",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xcx83p_video.mp4",
+  "audio_path": "output/videos/dailymotion_xcx83p_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "chat mousquetaire",
+  "webpage_url": "https://www.dailymotion.com/video/xcx83p",
+  "dm_id": "xcx83p",
+  "views_total": 2712,
+  "view_count": 2712,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "cat",
+    "standing",
+    "debout",
+    "mousquetaire",
+    "zorro"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "http://gigistudio.over-blog.com/",
+  "created_time": 1271092438,
+  "search_query": "chat heureux qui ronronne",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat-related theme, though the behavior is unclear.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xcx83p",
+    "decision": "keep",
+    "reason": "The title suggests a cat-related theme, though the behavior is unclear.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

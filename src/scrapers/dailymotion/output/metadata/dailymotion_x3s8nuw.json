@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3s8nuw",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3s8nuw_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3s8nuw_audio.mp3",
+  "duration_sec": 26,
+  "duration_seconds": 26.0,
+  "title": "Самая маленькая в мире кошка. Funny Cat Videos",
+  "webpage_url": "https://www.dailymotion.com/video/x3s8nuw",
+  "dm_id": "x3s8nuw",
+  "views_total": 2917,
+  "view_count": 2917,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cats",
+    "fun",
+    "prikoli",
+    "video",
+    "clip",
+    "best",
+    "rolik",
+    "смешно",
+    "comedy"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1455545679,
+  "search_query": "расслабленная кошка спит",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests it features a real cat, despite being vague.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3s8nuw",
+    "decision": "keep",
+    "reason": "The title suggests it features a real cat, despite being vague.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

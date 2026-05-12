@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x1bp9qu",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x1bp9qu_video.mp4",
+  "audio_path": "output/videos/dailymotion_x1bp9qu_audio.mp3",
+  "duration_sec": 37,
+  "duration_seconds": 37.0,
+  "title": "Diese Katze hasst Bauarbeiter",
+  "webpage_url": "https://www.dailymotion.com/video/x1bp9qu",
+  "dm_id": "x1bp9qu",
+  "views_total": 2588,
+  "view_count": 2588,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "tiereverrücktlustighumorfunspasswitzig"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "de",
+  "query_language": "German",
+  "description": "Katze verteidigt ihr Heim mit vehement.",
+  "created_time": 1392057883,
+  "search_query": "Katze, die Beute verfolgt",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a cat defending its home, suggesting active behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x1bp9qu",
+    "decision": "keep",
+    "reason": "The description indicates a cat defending its home, suggesting active behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

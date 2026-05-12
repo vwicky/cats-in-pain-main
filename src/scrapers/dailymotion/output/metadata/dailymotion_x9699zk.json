@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9699zk",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9699zk_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9699zk_audio.mp3",
+  "duration_sec": 45,
+  "duration_seconds": 45.0,
+  "title": "Gatos de rua adotados por empresário viram mascotes em loja de Umuarama",
+  "webpage_url": "https://www.dailymotion.com/video/x9699zk",
+  "dm_id": "x9699zk",
+  "views_total": 580,
+  "view_count": 580,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1727290123,
+  "search_query": "gatos luchando por territorio",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests it involves street cats being adopted.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9699zk",
+    "decision": "keep",
+    "reason": "The title suggests it involves street cats being adopted.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

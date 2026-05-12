@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x38wqql",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x38wqql_video.mp4",
+  "audio_path": "output/videos/dailymotion_x38wqql_audio.mp3",
+  "duration_sec": 45,
+  "duration_seconds": 45.0,
+  "title": "Самый ласковый кот!",
+  "webpage_url": "https://www.dailymotion.com/video/x38wqql",
+  "dm_id": "x38wqql",
+  "views_total": 7038,
+  "view_count": 7038,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1444261279,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a very affectionate cat, which is plausible.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x38wqql",
+    "decision": "keep",
+    "reason": "The title suggests a very affectionate cat, which is plausible.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

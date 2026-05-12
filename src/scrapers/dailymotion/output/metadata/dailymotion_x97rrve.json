@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x97rrve",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x97rrve_video.mp4",
+  "audio_path": "output/videos/dailymotion_x97rrve_audio.mp3",
+  "duration_sec": 43,
+  "duration_seconds": 43.0,
+  "title": "Las 10 razas de gatos grandes más populares",
+  "webpage_url": "https://www.dailymotion.com/video/x97rrve",
+  "dm_id": "x97rrve",
+  "views_total": 6071,
+  "view_count": 6071,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gatos grandes",
+    "gatos"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Si te encantan los gatos de gran tamaño o simplemente sientes curiosidad por conocer cuáles son las razas más grandes del mundo, estás en el lugar adecuado. ¡Prepárate para descubrirlas!",
+  "created_time": 1729518626,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description indicate a focus on large cat breeds, which is relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x97rrve",
+    "decision": "keep",
+    "reason": "The title and description indicate a focus on large cat breeds, which is relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

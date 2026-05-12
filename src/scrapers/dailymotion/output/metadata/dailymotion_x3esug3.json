@@ -1,0 +1,50 @@
+{
+  "video_id": "dailymotion_x3esug3",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3esug3_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3esug3_audio.mp3",
+  "duration_sec": 19,
+  "duration_seconds": 19.0,
+  "title": "Este gato no le teme a los pepinos",
+  "webpage_url": "https://www.dailymotion.com/video/x3esug3",
+  "dm_id": "x3esug3",
+  "views_total": 751,
+  "view_count": 751,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Cat",
+    "gato",
+    "video",
+    "pepino",
+    "funny",
+    "funny cat",
+    "lovely cat"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Este gato no le tiene miedo a los pepinos.",
+  "created_time": 1448055512,
+  "search_query": "dos gatos discutiendo",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's reaction to cucumbers, which is plausible cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3esug3",
+    "decision": "keep",
+    "reason": "The title suggests a cat's reaction to cucumbers, which is plausible cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

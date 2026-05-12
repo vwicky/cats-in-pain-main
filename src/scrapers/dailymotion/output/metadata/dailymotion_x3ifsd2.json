@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x3ifsd2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3ifsd2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3ifsd2_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "Застукали кота. Смотрим до конца ))",
+  "webpage_url": "https://www.dailymotion.com/video/x3ifsd2",
+  "dm_id": "x3ifsd2",
+  "views_total": 540,
+  "view_count": 540,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1450341258,
+  "search_query": "поведение раненого кота",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests observing a cat, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3ifsd2",
+    "decision": "keep",
+    "reason": "The title suggests observing a cat, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

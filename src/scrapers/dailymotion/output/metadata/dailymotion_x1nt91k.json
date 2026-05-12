@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x1nt91k",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x1nt91k_video.mp4",
+  "audio_path": "output/videos/dailymotion_x1nt91k_audio.mp3",
+  "duration_sec": 36,
+  "duration_seconds": 36.0,
+  "title": "Un chat content de retrouver son maître",
+  "webpage_url": "https://www.dailymotion.com/video/x1nt91k",
+  "dm_id": "x1nt91k",
+  "views_total": 11812,
+  "view_count": 11812,
+  "likes_total": 7,
+  "like_count": 7,
+  "tags": [
+    "Chat",
+    "content",
+    "maitre"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Moo est un chat qui est resté seul pendant 3 jours à la maison et qui va être très heureux de retrouver son maître. Dès que ce dernier franchit le seuil de la porte, le chat accourt en miaulant et viens se faire caresser par son maître pour lui faire la fête.",
+  "created_time": 1397301402,
+  "search_query": "chat qui aime être caressé",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat happily greeting its owner, indicating vocalization and affection.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x1nt91k",
+    "decision": "keep",
+    "reason": "The video shows a cat happily greeting its owner, indicating vocalization and affection.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

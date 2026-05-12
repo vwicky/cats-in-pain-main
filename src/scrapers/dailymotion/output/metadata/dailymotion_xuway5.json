@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_xuway5",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xuway5_video.mp4",
+  "audio_path": "output/videos/dailymotion_xuway5_audio.mp3",
+  "duration_sec": 39,
+  "duration_seconds": 39.0,
+  "title": "Angry Cat Puts A Spell On You",
+  "webpage_url": "https://www.dailymotion.com/video/xuway5",
+  "dm_id": "xuway5",
+  "views_total": 1958,
+  "view_count": 1958,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cat kitty worst Merry Christmas hissing growling angry neko gato rhianna how to history pearl jam kardashian learn warlock witch pissed pet funny video Kitten Cute Cats Nirvana hiss mad Kittens Meow Dog",
+    "Cats"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "en",
+  "description": "Angry cat puts a smackdown spell on you! Catch more great cat-centric fun at  <br />http://www.worstkitty.com.",
+  "created_time": 1352238175,
+  "search_query": "cat hissing",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Cat is described as angry and hissing, indicating vocal behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xuway5",
+    "decision": "keep",
+    "reason": "Cat is described as angry and hissing, indicating vocal behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

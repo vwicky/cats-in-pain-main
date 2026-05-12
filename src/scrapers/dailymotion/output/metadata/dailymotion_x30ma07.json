@@ -1,0 +1,32 @@
+{
+  "video_id": "dailymotion_x30ma07",
+  "source": "dailymotion",
+  "video_path": "output/videos/dailymotion_x30ma07_video.mp4",
+  "audio_path": "output/audio/dailymotion_x30ma07_audio.mp3",
+  "duration_sec": 37,
+  "title": "Cat Dentist l Meow Open Wide",
+  "webpage_url": "https://www.dailymotion.com/video/x30ma07",
+  "dm_id": "x30ma07",
+  "views_total": 2418,
+  "likes_total": 0,
+  "tags": [
+    "Cat"
+  ],
+  "channel": "animals",
+  "language": "en",
+  "description": "More at ; www.omigu.com",
+  "created_time": 1438881962,
+  "search_query": "cat meowing",
+  "tag_filter": {
+    "passed": true
+  },
+  "gpt_filter": {
+    "video_id": "dailymotion_x30ma07",
+    "decision": "keep",
+    "reason": "The title suggests a cat-related dental context, which is plausible.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

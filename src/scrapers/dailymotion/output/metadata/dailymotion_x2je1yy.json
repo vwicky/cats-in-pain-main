@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x2je1yy",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2je1yy_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2je1yy_audio.mp3",
+  "duration_sec": 51,
+  "duration_seconds": 51.0,
+  "title": "Un chat qui prend soin d'un chiot.",
+  "webpage_url": "https://www.dailymotion.com/video/x2je1yy",
+  "dm_id": "x2je1yy",
+  "views_total": 15342,
+  "view_count": 15342,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Chat",
+    "chiot",
+    "prend",
+    "soin"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1426232279,
+  "search_query": "chat qui guette un jouet",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat caring for a puppy, indicating cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2je1yy",
+    "decision": "keep",
+    "reason": "The title suggests a cat caring for a puppy, indicating cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

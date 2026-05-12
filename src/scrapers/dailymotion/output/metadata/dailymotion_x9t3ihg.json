@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x9t3ihg",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9t3ihg_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9t3ihg_audio.mp3",
+  "duration_sec": 34,
+  "duration_seconds": 34.0,
+  "title": "know the signs your cat is sick",
+  "webpage_url": "https://www.dailymotion.com/video/x9t3ihg",
+  "dm_id": "x9t3ihg",
+  "views_total": 1666,
+  "view_count": 1666,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "pets",
+    "cats",
+    "cute",
+    "animals",
+    "tutorials",
+    "sickcat"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "#cat<br />#pets<br />#tutorials",
+  "created_time": 1762130793,
+  "search_query": "sick cat getting treatment",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title and tags indicate a focus on signs of illness in cats.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9t3ihg",
+    "decision": "keep",
+    "reason": "Title and tags indicate a focus on signs of illness in cats.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x16pi4c",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x16pi4c_video.mp4",
+  "audio_path": "output/videos/dailymotion_x16pi4c_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "Chats en mode Kung Fu.... Enorme, ça va se fighter violent!",
+  "webpage_url": "https://www.dailymotion.com/video/x16pi4c",
+  "dm_id": "x16pi4c",
+  "views_total": 783,
+  "view_count": 783,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Chat",
+    "Baston",
+    "Mignon",
+    "bagarre",
+    "animal",
+    "se battre",
+    "kung fu",
+    "chat kung fu",
+    "trop mignon",
+    "marrant"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Ahh un bon combat de chat..? Bah non, encore une fois ils vont se la jouer Menace et intimidation. Mais c'est super marrant.",
+  "created_time": 1383421126,
+  "search_query": "chat en mode furtif",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description suggest a humorous cat fight scenario.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x16pi4c",
+    "decision": "keep",
+    "reason": "The title and description suggest a humorous cat fight scenario.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

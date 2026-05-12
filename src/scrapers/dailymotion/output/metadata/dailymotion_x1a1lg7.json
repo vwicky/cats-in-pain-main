@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x1a1lg7",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x1a1lg7_video.mp4",
+  "audio_path": "output/videos/dailymotion_x1a1lg7_audio.mp3",
+  "duration_sec": 27,
+  "duration_seconds": 27.0,
+  "title": "Un chat qui marche sur 2 pattes et saute dans tout les sens... Hilarant!",
+  "webpage_url": "https://www.dailymotion.com/video/x1a1lg7",
+  "dm_id": "x1a1lg7",
+  "views_total": 959,
+  "view_count": 959,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "chat",
+    "marrant",
+    "hilarant",
+    "rigolo",
+    "animal",
+    "ridicule",
+    "fun",
+    "epic",
+    "animal marrant",
+    "chat qui marche"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "La meilleurs vidéo de CHATS depuis un moment! Ce chat hilarant se met à marcher sur 2 pattes comme un fou!",
+  "created_time": 1390359136,
+  "search_query": "chat qui ronronne sur les genoux",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat walking on two legs, which is a humorous but plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x1a1lg7",
+    "decision": "keep",
+    "reason": "The video features a cat walking on two legs, which is a humorous but plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

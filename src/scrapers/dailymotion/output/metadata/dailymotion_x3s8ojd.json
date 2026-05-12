@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_x3s8ojd",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3s8ojd_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3s8ojd_audio.mp3",
+  "duration_sec": 58,
+  "duration_seconds": 58.0,
+  "title": "Кот Шредингера. Парадоксальный кот",
+  "webpage_url": "https://www.dailymotion.com/video/x3s8ojd",
+  "dm_id": "x3s8ojd",
+  "views_total": 1566,
+  "view_count": 1566,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "funny",
+    "cats",
+    "prikoli",
+    "video",
+    "clip",
+    "best",
+    "rolik",
+    "смешно",
+    "comedy"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1455545865,
+  "search_query": "кот после вакцинации",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a humorous take on a cat, indicating it is cat-related.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3s8ojd",
+    "decision": "keep",
+    "reason": "The title suggests a humorous take on a cat, indicating it is cat-related.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

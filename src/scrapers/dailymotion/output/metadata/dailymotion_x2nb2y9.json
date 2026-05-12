@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x2nb2y9",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2nb2y9_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2nb2y9_audio.mp3",
+  "duration_sec": 35,
+  "duration_seconds": 35.0,
+  "title": "Охотник от Бога",
+  "webpage_url": "https://www.dailymotion.com/video/x2nb2y9",
+  "dm_id": "x2nb2y9",
+  "views_total": 4207,
+  "view_count": 4207,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Охота",
+    "Окно",
+    "кот",
+    "подоконник",
+    "цветок",
+    "птица",
+    "смешное",
+    "неудача"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "",
+  "created_time": 1429544687,
+  "search_query": "кот громко мяукает",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat hunting, which is a natural behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2nb2y9",
+    "decision": "keep",
+    "reason": "The title suggests a cat hunting, which is a natural behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

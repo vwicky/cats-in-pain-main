@@ -1,0 +1,52 @@
+{
+  "video_id": "dailymotion_xn6vu6",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xn6vu6_video.mp4",
+  "audio_path": "output/videos/dailymotion_xn6vu6_audio.mp3",
+  "duration_sec": 55,
+  "duration_seconds": 55.0,
+  "title": "Divertido enfrentamiento entre un gato y un cocodrilo",
+  "webpage_url": "https://www.dailymotion.com/video/xn6vu6",
+  "dm_id": "xn6vu6",
+  "views_total": 690,
+  "view_count": 690,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cerestv",
+    "animales",
+    "sociedad",
+    "ocio",
+    "Divertido",
+    "enfrentamiento",
+    "entre",
+    "gato",
+    "cocodrilo"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Redacción, 15 noviembre (CERES TELEVISIÓN)  Este gato debe ser uno de los felinos más valientes o inconscientes de la historia animal.  © 2010 CERES TELEVISIÓN NOTICIAS [+info]: http://www.cerestv.info [e-mail]: noticias@cerestv.es Peticiones: Teléf.902-885.666 • Fax: 902.885.869 ",
+  "created_time": 1289775600,
+  "search_query": "comportamiento de un gato herido",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat interacting with a crocodile, indicating real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xn6vu6",
+    "decision": "keep",
+    "reason": "The title suggests a cat interacting with a crocodile, indicating real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

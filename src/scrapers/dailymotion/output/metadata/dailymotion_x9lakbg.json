@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x9lakbg",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9lakbg_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9lakbg_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "Pensó que su gato se comía la comida del sótano: la noche de Pentecostés, hizo un descubrimiento increíble",
+  "webpage_url": "https://www.dailymotion.com/video/x9lakbg",
+  "dm_id": "x9lakbg",
+  "views_total": 788,
+  "view_count": 788,
+  "likes_total": 4,
+  "like_count": 4,
+  "tags": [
+    "News gato"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Era la noche del Domingo de Pentecostés cuando, justo antes de irse a la cama, pilló in fraganti al ladrón que robaba la comida de su gato.",
+  "created_time": 1749804195,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description suggests a real-life incident involving a cat, indicating potential behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9lakbg",
+    "decision": "keep",
+    "reason": "The description suggests a real-life incident involving a cat, indicating potential behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

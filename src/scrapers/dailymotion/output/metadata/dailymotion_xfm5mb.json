@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_xfm5mb",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xfm5mb_video.mp4",
+  "audio_path": "output/videos/dailymotion_xfm5mb_audio.mp3",
+  "duration_sec": 45,
+  "duration_seconds": 45.0,
+  "title": "Scientists using video reveal mechanics behind cat lapping",
+  "webpage_url": "https://www.dailymotion.com/video/xfm5mb",
+  "dm_id": "xfm5mb",
+  "views_total": 3509,
+  "view_count": 3509,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "WEB",
+    "RESEARCH",
+    "CAT",
+    "ANIMAL",
+    "SCIENCE"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "en",
+  "query_language": "English",
+  "description": "University researchers have made high-speed videos that offer insight into the way that cats drink -- a phenomenon so fast it cannot be followed by human eyes. Unlike a dog, the cat does not use its tongue like a ladle to scoop its drink. Instead, the inertia with which the cat retracts the surface of its tongue pulls up a column of liquid. In the instant that the column of liquid is suspended, the cat closes its mouth around it. The perfect timing allows the feline to quench its thirst without wetting its furry chin. The results were published in the Nov. 11 online edition of the journal \"Science\". Duration: 00:44.",
+  "created_time": 1289591135,
+  "search_query": "purring cat on lap",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description discusses the mechanics of how cats drink, which is relevant to their behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xfm5mb",
+    "decision": "keep",
+    "reason": "The description discusses the mechanics of how cats drink, which is relevant to their behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

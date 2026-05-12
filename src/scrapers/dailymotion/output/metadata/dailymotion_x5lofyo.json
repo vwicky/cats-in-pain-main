@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x5lofyo",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5lofyo_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5lofyo_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Hungriges Kätzchen bekommt zum ersten Mal nach Tagen Futter - und ist so aufgeregt",
+  "webpage_url": "https://www.dailymotion.com/video/x5lofyo",
+  "dm_id": "x5lofyo",
+  "views_total": 778,
+  "view_count": 778,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Katze"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "German",
+  "description": "",
+  "created_time": 1494392456,
+  "search_query": "verspielte Kätzchen entspannen",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a kitten receiving food, suggesting excitement and possible vocalization.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5lofyo",
+    "decision": "keep",
+    "reason": "The title indicates a kitten receiving food, suggesting excitement and possible vocalization.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9gbp78",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9gbp78_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9gbp78_audio.mp3",
+  "duration_sec": 36,
+  "duration_seconds": 36.0,
+  "title": "Heroico rescate en el Guadalquivir: una mujer se lanza al agua para salvar a un gato atrapado",
+  "webpage_url": "https://www.dailymotion.com/video/x9gbp78",
+  "dm_id": "x9gbp78",
+  "views_total": 6138,
+  "view_count": 6138,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "El rescate del gato en el Guadalquivir en Córdoba se viralizó en TikTok, emocionando a miles que aplauden la valentía y gran corazón de la mujer.",
+  "created_time": 1742310787,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a rescue of a cat, indicating a relevant context for cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9gbp78",
+    "decision": "keep",
+    "reason": "The video involves a rescue of a cat, indicating a relevant context for cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x98d2ji",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x98d2ji_video.mp4",
+  "audio_path": "output/videos/dailymotion_x98d2ji_audio.mp3",
+  "duration_sec": 32,
+  "duration_seconds": 32.0,
+  "title": "Rescatan a un gatito tras un ataque con drones en Ucrania",
+  "webpage_url": "https://www.dailymotion.com/video/x98d2ji",
+  "dm_id": "x98d2ji",
+  "views_total": 12280,
+  "view_count": 12280,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1730376652,
+  "search_query": "gatitos juguetones relajándose",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a rescue context involving a kitten.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x98d2ji",
+    "decision": "keep",
+    "reason": "The title suggests a rescue context involving a kitten.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

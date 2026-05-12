@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x95w9mg",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x95w9mg_video.mp4",
+  "audio_path": "output/videos/dailymotion_x95w9mg_audio.mp3",
+  "duration_sec": 45,
+  "duration_seconds": 45.0,
+  "title": "Ce chat miaule près du collier de son frère décédé : 4 mois après, elle lui réserve une surprise hors du commun (vidéo)",
+  "webpage_url": "https://www.dailymotion.com/video/x95w9mg",
+  "dm_id": "x95w9mg",
+  "views_total": 8988,
+  "view_count": 8988,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Faire le deuil d’un animal n’est jamais facile et cela prend du temps. ",
+  "created_time": 1726737934,
+  "search_query": "chat après vaccination",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video discusses a cat vocalizing near a deceased sibling's collar, indicating emotional behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x95w9mg",
+    "decision": "keep",
+    "reason": "The video discusses a cat vocalizing near a deceased sibling's collar, indicating emotional behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

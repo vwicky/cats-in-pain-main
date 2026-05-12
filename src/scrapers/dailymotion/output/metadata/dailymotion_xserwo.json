@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_xserwo",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xserwo_video.mp4",
+  "audio_path": "output/videos/dailymotion_xserwo_audio.mp3",
+  "duration_sec": 36,
+  "duration_seconds": 36.0,
+  "title": "Голодные котята",
+  "webpage_url": "https://www.dailymotion.com/video/xserwo",
+  "dm_id": "xserwo",
+  "views_total": 1629,
+  "view_count": 1629,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "голодные котята"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "Голодные котята",
+  "created_time": 1343287188,
+  "search_query": "игривые котята отдыхают",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description mention hungry kittens, indicating a plausible cat behavior context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_xserwo",
+    "decision": "keep",
+    "reason": "The title and description mention hungry kittens, indicating a plausible cat behavior context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

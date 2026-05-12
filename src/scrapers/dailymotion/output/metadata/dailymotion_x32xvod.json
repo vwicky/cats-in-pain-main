@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x32xvod",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x32xvod_video.mp4",
+  "audio_path": "output/videos/dailymotion_x32xvod_audio.mp3",
+  "duration_sec": 40,
+  "duration_seconds": 40.0,
+  "title": "Chat attaque un chien",
+  "webpage_url": "https://www.dailymotion.com/video/x32xvod",
+  "dm_id": "x32xvod",
+  "views_total": 978,
+  "view_count": 978,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "attaque",
+    "chien"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Lors d'une petite balade sur un chemin, un chat va rencontrer un chien attaché en laisse et tenu par une femme. Le chat va hérisser ses poils et foncer droit vers le chien, puis passer en mode agressif et bondir sur le pauvre toutou qui n'avait rien demandé.",
+  "created_time": 1440463598,
+  "search_query": "chat qui gazouille en regardant les oiseaux",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat attacking a dog, indicating agonistic behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x32xvod",
+    "decision": "keep",
+    "reason": "The video shows a cat attacking a dog, indicating agonistic behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9g8ree",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9g8ree_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9g8ree_audio.mp3",
+  "duration_sec": 49,
+  "duration_seconds": 49.0,
+  "title": "ECTLS - La particularité des chats écaille de tortue",
+  "webpage_url": "https://www.dailymotion.com/video/x9g8ree",
+  "dm_id": "x9g8ree",
+  "views_total": 473840,
+  "view_count": 473840,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "tv",
+  "channel_title": "tv",
+  "language": "en",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1742250498,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a focus on tortoiseshell cats, which is relevant to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9g8ree",
+    "decision": "keep",
+    "reason": "The title suggests a focus on tortoiseshell cats, which is relevant to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

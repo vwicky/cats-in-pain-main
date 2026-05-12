@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8c3rsa",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8c3rsa_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8c3rsa_audio.mp3",
+  "duration_sec": 58,
+  "duration_seconds": 58.0,
+  "title": "How to increase the life expectancy of your pet?",
+  "webpage_url": "https://www.dailymotion.com/video/x8c3rsa",
+  "dm_id": "x8c3rsa",
+  "views_total": 10543,
+  "view_count": 10543,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "On average, dogs live between 10 and 12 years while cats live an average of 18 years.<br />But by taking care of your pets, you can help them live longer.<br />- Watch his weight: according to one study, a dog at the ideal weight can gain up to 34 months life expectancy.<br />- Give preference to industrial kibbles: which constitute a diet adapted to the animal's nutritional needs.<br />- Use dispensing toys, more stimulating for the animal.<br />- Make a regular follow-up of the health of your pet: at least one annual visit to the veterinarian and three visits per year for senior animals in order to be able to diagnose quickly diagnose possible diseases.<br />- Guarantee a healthy and stimulating environment for your pet: for cats, it is necessary to allow them to do their claws and to climb.<br />Dogs need to exercise, smell and chew.",
+  "created_time": 1656527344,
+  "search_query": "cats battling for territory",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Discusses care for pets, including cats, which is relevant.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8c3rsa",
+    "decision": "keep",
+    "reason": "Discusses care for pets, including cats, which is relevant.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

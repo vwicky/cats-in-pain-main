@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x54j3ga",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x54j3ga_video.mp4",
+  "audio_path": "output/videos/dailymotion_x54j3ga_audio.mp3",
+  "duration_sec": 34,
+  "duration_seconds": 34.0,
+  "title": "Son chat le réveille toutes les nuits à 4 heures du matin... Il se venge... à 4 heures de l'après-midi !",
+  "webpage_url": "https://www.dailymotion.com/video/x54j3ga",
+  "dm_id": "x54j3ga",
+  "views_total": 1003,
+  "view_count": 1003,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1481037432,
+  "search_query": "chat après vaccination",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a humorous situation involving a cat waking its owner, indicating real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x54j3ga",
+    "decision": "keep",
+    "reason": "The title suggests a humorous situation involving a cat waking its owner, indicating real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x65w1o",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x65w1o_video.mp4",
+  "audio_path": "output/videos/dailymotion_x65w1o_audio.mp3",
+  "duration_sec": 52,
+  "duration_seconds": 52.0,
+  "title": "Le chat qui chante le retour!",
+  "webpage_url": "https://www.dailymotion.com/video/x65w1o",
+  "dm_id": "x65w1o",
+  "views_total": 1570,
+  "view_count": 1570,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "chat",
+    "qui",
+    "chante",
+    "retour"
+  ],
+  "channel": "people",
+  "channel_title": "people",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1216333788,
+  "search_query": "vidéos de chats qui parlent",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat singing, which may imply vocalization behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x65w1o",
+    "decision": "keep",
+    "reason": "The title suggests a cat singing, which may imply vocalization behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

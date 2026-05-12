@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x828lyd",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x828lyd_video.mp4",
+  "audio_path": "output/videos/dailymotion_x828lyd_audio.mp3",
+  "duration_sec": 42,
+  "duration_seconds": 42.0,
+  "title": "Ce chat ne laisse pas sa maîtresse faire son sport",
+  "webpage_url": "https://www.dailymotion.com/video/x828lyd",
+  "dm_id": "x828lyd",
+  "views_total": 2483,
+  "view_count": 2483,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Forme",
+    "aufeminin.TV"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Ce chat ne veut pas que sa maîtresse le laisse tout seul, alors lorsqu'elle s'entraîne, il vient se coller à elle ! Trop mignon.",
+  "created_time": 1624633064,
+  "search_query": "chats se reposant paisiblement",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Video features a cat interacting with its owner during exercise.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x828lyd",
+    "decision": "keep",
+    "reason": "Video features a cat interacting with its owner during exercise.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

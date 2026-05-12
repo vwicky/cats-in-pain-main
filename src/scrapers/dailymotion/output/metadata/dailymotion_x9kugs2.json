@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x9kugs2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9kugs2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9kugs2_audio.mp3",
+  "duration_sec": 7,
+  "duration_seconds": 7.0,
+  "title": "Influenciador leva susto ao ser surpreendido por gato caindo do teto",
+  "webpage_url": "https://www.dailymotion.com/video/x9kugs2",
+  "dm_id": "x9kugs2",
+  "views_total": 5654,
+  "view_count": 5654,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "redes sociais",
+    "gato cai do teto",
+    "Paraná",
+    "influencer"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Spanish",
+  "description": "",
+  "created_time": 1749128024,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a surprising moment involving a cat, likely capturing real cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9kugs2",
+    "decision": "keep",
+    "reason": "The title indicates a surprising moment involving a cat, likely capturing real cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

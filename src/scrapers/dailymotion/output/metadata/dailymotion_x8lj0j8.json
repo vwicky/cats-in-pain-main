@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x8lj0j8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8lj0j8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8lj0j8_audio.mp3",
+  "duration_sec": 43,
+  "duration_seconds": 43.0,
+  "title": "Gatti: 5 piante con effetti \"allucinogeni\" di cui vanno ghiotti i nostri mici",
+  "webpage_url": "https://www.dailymotion.com/video/x8lj0j8",
+  "dm_id": "x8lj0j8",
+  "views_total": 367067,
+  "view_count": 367067,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gatti",
+    "erba gatta"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "",
+  "created_time": 1685968672,
+  "search_query": "video brevi di gatti",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests content about cats and their interaction with certain plants.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8lj0j8",
+    "decision": "keep",
+    "reason": "The title suggests content about cats and their interaction with certain plants.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

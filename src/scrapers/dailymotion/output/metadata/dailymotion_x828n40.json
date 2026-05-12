@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x828n40",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x828n40_video.mp4.part-Frag13.part",
+  "audio_path": "output/videos/dailymotion_x828n40_audio.mp3",
+  "duration_sec": 38,
+  "duration_seconds": 38.0,
+  "title": "Embrasse-moi ! Ce petit chat ne se lasse pas de son maître",
+  "webpage_url": "https://www.dailymotion.com/video/x828n40",
+  "dm_id": "x828n40",
+  "views_total": 23238,
+  "view_count": 23238,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Société",
+    "Vidéos"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Quelle belle preuve d’amour ! Ce petit chat est totalement différent des chats que l’on connait. Il essaie sans cesse d’embrasser son maître, et pas n’importe où, sur la bouche ! Incroyablement mignon.",
+  "created_time": 1624634646,
+  "search_query": "bruits d'avertissement de chat",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Video features a cat showing affection to its owner.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x828n40",
+    "decision": "keep",
+    "reason": "Video features a cat showing affection to its owner.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x7nq94i",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7nq94i_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7nq94i_audio.mp3",
+  "duration_sec": 54,
+  "duration_seconds": 54.0,
+  "title": "Vídeo viral: Este gato salva a un bebé de caer por unas escaleras",
+  "webpage_url": "https://www.dailymotion.com/video/x7nq94i",
+  "dm_id": "x7nq94i",
+  "views_total": 1526,
+  "view_count": 1526,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gato",
+    "salva",
+    "bebé"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Portuguese",
+  "description": "Fuente:YT<br /><br />Una cámara de vigilancia captó un curioso momento en el que un gato salva a un bebé evitando que se caiga por las escaleras. El incidente tuvo lugar el 31 de octubre en Bogotá y fue descubierto por la madre del pequeño, Diana Lorena Álvarez, de 27 años, cuando quiso averiguar cómo su hijo, Samuel Leon, logró salir de la cuna, según recoge rt y comparte Paula Dumas para Periodista Digital.<br /><br /><br />La mujer se sorprendió al ver las imágenes de la cámara de seguridad que revelaron que el niño, de un año de edad, fue salvado por la gata de la familia, llamada Gatúbela, informa Metro.<br /><br /> <br />En el video se ve que el bebé gatea y, en un momento determinado, se dirige al borde de las escaleras. Segundos después, el animal salta hacia el crío y lo intenta agarrar con las patas delanteras. Al no frenarlo por completo, el felino se coloca delante del pequeño y lo empieza a patear en la cara impidiendo que se avance hacia delante. <br /><br />\"Si no hubiera sido por la gata, mi hijo habría caído por las escaleras. Al ver las imágenes, me sentí realmente sorprendida y afortunada\", reveló la madre del menor.<br /><br />La mujer compartió el video en la página de Facebook de la Fundación Adopción del Gato en Bogotá (GABA). Las imágenes no tardaron en hacerse virales al ser comentadas y compartidas por múltiples internautas.",
+  "created_time": 1573185769,
+  "search_query": "vídeos curtos de gatos caçando",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat saving a baby from falling, which is a notable cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7nq94i",
+    "decision": "keep",
+    "reason": "The video shows a cat saving a baby from falling, which is a notable cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

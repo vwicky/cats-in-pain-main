@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x29tkgv",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x29tkgv_video.mp4",
+  "audio_path": "output/videos/dailymotion_x29tkgv_audio.mp3",
+  "duration_sec": 59,
+  "duration_seconds": 59.0,
+  "title": "Un chat qui aime un peu trop l'argent...",
+  "webpage_url": "https://www.dailymotion.com/video/x29tkgv",
+  "dm_id": "x29tkgv",
+  "views_total": 566,
+  "view_count": 566,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "tv",
+  "channel_title": "tv",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1415638816,
+  "search_query": "chat qui aime être caressé",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat's humorous relationship with money, which could imply real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x29tkgv",
+    "decision": "keep",
+    "reason": "The title suggests a cat's humorous relationship with money, which could imply real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

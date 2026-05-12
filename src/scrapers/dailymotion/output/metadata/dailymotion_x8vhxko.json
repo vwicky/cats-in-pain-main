@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x8vhxko",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8vhxko_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8vhxko_audio.mp3",
+  "duration_sec": 52,
+  "duration_seconds": 52.0,
+  "title": "【2025年放送決定！】TVアニメ『薬屋のひとりごと』第2期 ティザーPV",
+  "webpage_url": "https://www.dailymotion.com/video/x8vhxko",
+  "dm_id": "x8vhxko",
+  "views_total": 1305,
+  "view_count": 1305,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "声優"
+  ],
+  "channel": "shortfilms",
+  "channel_title": "shortfilms",
+  "language": "pt",
+  "query_language": "Japanese",
+  "description": "TVアニメ『薬屋のひとりごと』<br />第2期 2025年放送決定！<br /><br />ティザービジュアル＆ティザーPV解禁！<br /><br />猫猫と壬氏の前に立ちはだかる新たな事件。<br />ふたりを待ち受ける未来とは？<br /><br />ふたたび、謎解きの幕が上がる―！<br /><br />原作者・日向夏先生、キャラクター原案・しのとうこ先生、<br />猫猫役 悠木碧、壬氏役 大塚剛央からのコメントも到着✨<br />▶<br /><br />第1期は各種配信プラットフォームでも好評配信中！ <br /><br />【スタッフ】 <br />原作：日向夏（ヒーロー文庫／イマジカインフォス刊） <br />キャラクター原案：しのとうこ <br />製作：「薬屋のひとりごと」製作委員会 <br /><br />【キャスト】 <br />猫猫：悠木碧 壬氏：大塚剛央　ほか<br /><br />＃薬屋のひとりごと　＃#TheApothecaryDiaries　＃悠木碧<br /><br />-----------------------------------------------<br />TOHO animation<br />ポータルサイト：https://tohoanimation.jp/portal/<br />公式X（旧Twitter）：https://x.com/TOHOanimation<br />-----------------------------------------------<br />TOHO animation STORE<br />通販サイト ：https://tohoanimationstore.com/shop/<br />公式X（旧Twitter）：https://x.com/TOHOanimeSTORE<br />-----------------------------------------------",
+  "created_time": 1711216546,
+  "search_query": "猫が縄張りを争う",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title mentions a cat character and is likely related to cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8vhxko",
+    "decision": "keep",
+    "reason": "The title mentions a cat character and is likely related to cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x9xnpny",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9xnpny_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9xnpny_audio.mp3",
+  "duration_sec": 20,
+  "duration_seconds": 20.0,
+  "title": "Orange cat flops over for belly rubs instead of moving out of the way",
+  "webpage_url": "https://www.dailymotion.com/video/x9xnpny",
+  "dm_id": "x9xnpny",
+  "views_total": 2415,
+  "view_count": 2415,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "United States",
+    "Cute",
+    "Animals and Pets",
+    "Funny",
+    "Orange Cat",
+    "Belly Rubs",
+    "Funny Cat",
+    "Cat Begging",
+    "Cat Chaos",
+    "Pet Humor"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "Elizabeth shared this clip of her orange fluffball, who knows exactly how to get what he wants.<br /><br />''My fat cat was in my way and kept begging for more snacks, so I went to gently nudge him out of the way with my foot,'' she told WooGlobe.<br /><br />''He took it as an opportunity to flop over and ask for belly rubs instead.''<br /><br />Elizabeth could say no to those soft rolls and pleading eyes.<br /><br />The snacks could wait, but belly rubs were clearly non-negotiable. <br />WooGlobe Ref : WGA682658<br />For licensing and to use this video, please email licensing@wooglobe.com",
+  "created_time": 1768298484,
+  "search_query": "cats battling for territory",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat seeking belly rubs, indicating typical cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9xnpny",
+    "decision": "keep",
+    "reason": "The video features a cat seeking belly rubs, indicating typical cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

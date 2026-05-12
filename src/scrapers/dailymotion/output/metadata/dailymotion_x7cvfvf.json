@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x7cvfvf",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7cvfvf_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7cvfvf_audio.mp3",
+  "duration_sec": 14,
+  "duration_seconds": 14.0,
+  "title": "Quand un chat dort à coté d'un chien qui ronfle. Hilarant !",
+  "webpage_url": "https://www.dailymotion.com/video/x7cvfvf",
+  "dm_id": "x7cvfvf",
+  "views_total": 687,
+  "view_count": 687,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1562680966,
+  "search_query": "chat détendu qui dort",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat sleeping next to a dog, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7cvfvf",
+    "decision": "keep",
+    "reason": "The video features a cat sleeping next to a dog, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Resting_or_ambient",
+    "reject_reason": null
+  }
+}

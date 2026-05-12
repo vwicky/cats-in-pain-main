@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9smizk",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9smizk_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9smizk_audio.mp3",
+  "duration_sec": 29,
+  "duration_seconds": 29.0,
+  "title": "À la rue, ce célèbre acteur des années 90 ne veut pas laisser ses animaux et vit sur un banc \"avec un chien et quatre chats\"",
+  "webpage_url": "https://www.dailymotion.com/video/x9smizk",
+  "dm_id": "x9smizk",
+  "views_total": 184221,
+  "view_count": 184221,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1761329400,
+  "search_query": "comportement d'un chat blessé",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description mentions four cats, suggesting real cat presence.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9smizk",
+    "decision": "keep",
+    "reason": "The description mentions four cats, suggesting real cat presence.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

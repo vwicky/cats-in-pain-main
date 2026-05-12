@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x40qd6b",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x40qd6b_video.mp4",
+  "audio_path": "output/videos/dailymotion_x40qd6b_audio.mp3",
+  "duration_sec": 56,
+  "duration_seconds": 56.0,
+  "title": "Un gatto incontra un cucciolo di coniglio, ecco cosa fa...",
+  "webpage_url": "https://www.dailymotion.com/video/x40qd6b",
+  "dm_id": "x40qd6b",
+  "views_total": 952,
+  "view_count": 952,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "",
+  "created_time": 1459283183,
+  "search_query": "comportamento di un gatto ferito",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Content likely features a cat interacting with a rabbit.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x40qd6b",
+    "decision": "keep",
+    "reason": "Content likely features a cat interacting with a rabbit.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

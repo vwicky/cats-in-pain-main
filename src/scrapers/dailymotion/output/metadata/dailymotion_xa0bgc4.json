@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_xa0bgc4",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xa0bgc4_video.mp4",
+  "audio_path": "output/videos/dailymotion_xa0bgc4_audio.mp3",
+  "duration_sec": 53,
+  "duration_seconds": 53.0,
+  "title": "Les chats au Salon de l'agriculture",
+  "webpage_url": "https://www.dailymotion.com/video/xa0bgc4",
+  "dm_id": "xa0bgc4",
+  "views_total": 1128,
+  "view_count": 1128,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "fr",
+  "query_language": "French",
+  "description": "",
+  "created_time": 1771429111,
+  "search_query": "posture défensive de chat",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests it features cats at an event.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xa0bgc4",
+    "decision": "keep",
+    "reason": "The title suggests it features cats at an event.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

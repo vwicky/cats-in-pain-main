@@ -1,0 +1,45 @@
+{
+  "video_id": "dailymotion_x18uk2",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x18uk2_video.mp4",
+  "audio_path": "output/videos/dailymotion_x18uk2_audio.mp3",
+  "duration_sec": 13,
+  "duration_seconds": 13.0,
+  "title": "Er_Micio",
+  "webpage_url": "https://www.dailymotion.com/video/x18uk2",
+  "dm_id": "x18uk2",
+  "views_total": 1005,
+  "view_count": 1005,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gatto",
+    "blasco22"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "un gatto parlante,sembra buono ma...... <br />VIDEO NON PER TUTTI!!!!",
+  "created_time": 1171839927,
+  "search_query": "gatto che insegue la preda",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a talking cat, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x18uk2",
+    "decision": "keep",
+    "reason": "The title suggests a talking cat, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

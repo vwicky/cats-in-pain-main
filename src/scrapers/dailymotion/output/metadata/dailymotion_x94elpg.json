@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x94elpg",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x94elpg_video.mp4",
+  "audio_path": "output/videos/dailymotion_x94elpg_audio.mp3",
+  "duration_sec": 4,
+  "duration_seconds": 4.0,
+  "title": "Cute baby kitten sound ❤️",
+  "webpage_url": "https://www.dailymotion.com/video/x94elpg",
+  "dm_id": "x94elpg",
+  "views_total": 3334,
+  "view_count": 3334,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "en",
+  "description": "Cute baby kitten sound ❤️",
+  "created_time": 1724293844,
+  "search_query": "kitten sounds",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cute kitten sound, indicating vocalization.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x94elpg",
+    "decision": "keep",
+    "reason": "The title suggests a cute kitten sound, indicating vocalization.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Vocalizing",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x5otv7d",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5otv7d_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5otv7d_audio.mp3",
+  "duration_sec": 39,
+  "duration_seconds": 39.0,
+  "title": "Brèves de comptoir - Recherche câlineur de chats",
+  "webpage_url": "https://www.dailymotion.com/video/x5otv7d",
+  "dm_id": "x5otv7d",
+  "views_total": 748,
+  "view_count": 748,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "Humour",
+    "Sketch comedy",
+    "Brèves de comptoir",
+    "Vétérinaire",
+    "câlineur de chat",
+    "info vraie",
+    "au bistro",
+    "chat",
+    "matelesurlenet.com",
+    "Erick BERNARD"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Aujourd'hui au bistro, on parle d'un vétérinaire qui recrute un câlineur de chats (info véridique)",
+  "created_time": 1496404174,
+  "search_query": "bagarre de chats dehors",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title and description involve a humorous take on cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5otv7d",
+    "decision": "keep",
+    "reason": "The title and description involve a humorous take on cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

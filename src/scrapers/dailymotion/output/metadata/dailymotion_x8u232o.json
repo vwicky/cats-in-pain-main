@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8u232o",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8u232o_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8u232o_audio.mp3",
+  "duration_sec": 31,
+  "duration_seconds": 31.0,
+  "title": "La déco du vétérinaire n'est pas au goût du chat : il prend une décision hilarante devant 1M de personnes",
+  "webpage_url": "https://www.dailymotion.com/video/x8u232o",
+  "dm_id": "x8u232o",
+  "views_total": 9619,
+  "view_count": 9619,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Dans une vidéo publiée le 5 octobre, Emma a partagé la réaction pour le moins insolite de son chat quand elle était chez le vétérinaire.",
+  "created_time": 1709886023,
+  "search_query": "chat chez le vétérinaire",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat's reaction at the vet, indicating a real cat behavior context.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8u232o",
+    "decision": "keep",
+    "reason": "The video shows a cat's reaction at the vet, indicating a real cat behavior context.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

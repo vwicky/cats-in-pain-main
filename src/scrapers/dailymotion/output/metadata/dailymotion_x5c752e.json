@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x5c752e",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5c752e_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5c752e_audio.mp3",
+  "duration_sec": 30,
+  "duration_seconds": 30.0,
+  "title": "Chat surprit en train de faire une bêtise",
+  "webpage_url": "https://www.dailymotion.com/video/x5c752e",
+  "dm_id": "x5c752e",
+  "views_total": 535,
+  "view_count": 535,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Insolite",
+    "Surprise",
+    "chat",
+    "bêtise",
+    "wtf"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Ce chat est manifestement en train de faire quelque chose qu'il ne devrait pas.  Surprit il s'arrête instantanément.",
+  "created_time": 1487327753,
+  "search_query": "courtes vidéos de chats en chasse",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a cat doing something it shouldn't, indicating playful or mischievous behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5c752e",
+    "decision": "keep",
+    "reason": "The video shows a cat doing something it shouldn't, indicating playful or mischievous behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

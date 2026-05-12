@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x8j5ca",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8j5ca_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8j5ca_audio.mp3",
+  "duration_sec": 49,
+  "duration_seconds": 49.0,
+  "title": "Le Chat qui aimait la guitare",
+  "webpage_url": "https://www.dailymotion.com/video/x8j5ca",
+  "dm_id": "x8j5ca",
+  "views_total": 522,
+  "view_count": 522,
+  "likes_total": 3,
+  "like_count": 3,
+  "tags": [
+    "chat",
+    "qui",
+    "aimait",
+    "guitare",
+    "drole",
+    "fun",
+    "mignon",
+    "humour"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "fr",
+  "query_language": "French",
+  "description": "http://www.flogoo.fr",
+  "created_time": 1235926055,
+  "search_query": "chats qui s'appellent",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "Title suggests a cat's interaction with a guitar, likely real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8j5ca",
+    "decision": "keep",
+    "reason": "Title suggests a cat's interaction with a guitar, likely real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

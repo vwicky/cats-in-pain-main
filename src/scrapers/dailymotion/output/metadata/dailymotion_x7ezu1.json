@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x7ezu1",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7ezu1_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7ezu1_audio.mp3",
+  "duration_sec": 19,
+  "duration_seconds": 19.0,
+  "title": "Cat Pounces at Mirror Image",
+  "webpage_url": "https://www.dailymotion.com/video/x7ezu1",
+  "dm_id": "x7ezu1",
+  "views_total": 32306,
+  "view_count": 32306,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "cat",
+    "pounces",
+    "mirror",
+    "image"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "Nothing is funnier than watching animals fight themselves in the mirror. It's hard to tell who wins this battle...",
+  "created_time": 1226774983,
+  "search_query": "cat at vet checkup",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a cat interacting with its reflection, which is a common behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7ezu1",
+    "decision": "keep",
+    "reason": "The video involves a cat interacting with its reflection, which is a common behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

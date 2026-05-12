@@ -1,0 +1,46 @@
+{
+  "video_id": "dailymotion_x7p1kgv",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7p1kgv_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7p1kgv_audio.mp3",
+  "duration_sec": 18,
+  "duration_seconds": 18.0,
+  "title": "La curiosidad 'mató' al gato y este video lo demuestra",
+  "webpage_url": "https://www.dailymotion.com/video/x7p1kgv",
+  "dm_id": "x7p1kgv",
+  "views_total": 2671,
+  "view_count": 2671,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "gato",
+    "curiosidad",
+    "mata"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Tremendo susto se llevó este gato al romper el globo con las uñas",
+  "created_time": 1576106830,
+  "search_query": "gato en modo caza",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat reacting to a balloon, suggesting curiosity.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7p1kgv",
+    "decision": "keep",
+    "reason": "The video features a cat reacting to a balloon, suggesting curiosity.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

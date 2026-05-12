@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8xi8r4",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8xi8r4_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8xi8r4_audio.mp3",
+  "duration_sec": 55,
+  "duration_seconds": 55.0,
+  "title": "Pokazała, jak jej kot i pies zostali najlepszymi przyjaciółmi: video poruszyło 6,5 mln osób",
+  "webpage_url": "https://www.dailymotion.com/video/x8xi8r4",
+  "dm_id": "x8xi8r4",
+  "views_total": 52148,
+  "view_count": 52148,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "pl",
+  "query_language": "Polish",
+  "description": "Archibald i jego koci kumpel są nierozłączni. Ich przyjaźń nie zaczęła się jednak tak gładko...",
+  "created_time": 1714442430,
+  "search_query": "kot głośno miauczy",
+  "behavioral_category": "Vocalizing",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat and dog friendship, which is plausible cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8xi8r4",
+    "decision": "keep",
+    "reason": "The video features a cat and dog friendship, which is plausible cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

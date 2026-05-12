@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8iigiz",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8iigiz_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8iigiz_audio.mp3",
+  "duration_sec": 20,
+  "duration_seconds": 20.0,
+  "title": "Gato no deja al hombre que lo salvó en Turquía",
+  "webpage_url": "https://www.dailymotion.com/video/x8iigiz",
+  "dm_id": "x8iigiz",
+  "views_total": 1969,
+  "view_count": 1969,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Un hombre en #Turquía sacó con vida a un gatito de los escombros, ahora el minino no se separa de él.",
+  "created_time": 1677036666,
+  "search_query": "gatos descansando pacíficamente",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video features a cat that was rescued and is now attached to its savior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8iigiz",
+    "decision": "keep",
+    "reason": "The video features a cat that was rescued and is now attached to its savior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

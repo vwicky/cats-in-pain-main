@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_xnpby",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_xnpby_video.mp4",
+  "audio_path": "output/videos/dailymotion_xnpby_audio.mp3",
+  "duration_sec": 7,
+  "duration_seconds": 7.0,
+  "title": "chat qui se plante",
+  "webpage_url": "https://www.dailymotion.com/video/xnpby",
+  "dm_id": "xnpby",
+  "views_total": 522,
+  "view_count": 522,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "doit",
+    "avoir",
+    "mal",
+    "fun"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "encore un pauvre chat !! <br />lol",
+  "created_time": 1163785878,
+  "search_query": "chat blessé qui boite",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat in distress, which could indicate pain.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_xnpby",
+    "decision": "keep",
+    "reason": "The title suggests a cat in distress, which could indicate pain.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "video_id": "dailymotion_x3f4h39",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x3f4h39_video.mp4",
+  "audio_path": "output/videos/dailymotion_x3f4h39_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Сначала думали воры!",
+  "webpage_url": "https://www.dailymotion.com/video/x3f4h39",
+  "dm_id": "x3f4h39",
+  "views_total": 3504,
+  "view_count": 3504,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "видео приколы",
+    "video jokes",
+    "prank",
+    "свежее видео",
+    "смешные видео",
+    "видео девушки",
+    "fail compilation",
+    "приколы с животными",
+    "смотреть бесплатно",
+    "видео онлайн"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "ru",
+  "query_language": "Russian",
+  "description": "видео приколы,видео приколы смотреть,ЮМОР,video jokes,jokes,prank,короткие приколы, свежее видео, <br />смешные видео,видео приколы,видео приколы смотреть,смотреть бесплатно видео,смотреть видео онлайн, <br />смотреть видео,приколы видео девушки 18,приколы видео пьяные приколы подпивко,приколы 2015,приколы над людьми,приколы с животными,приколы на дорогах, <br />приколы 2015 fail compilation,приколы в прямом эфире,приколы с детьми,приколы с кошками,приколы аварии,",
+  "created_time": 1448277060,
+  "search_query": "короткие видео с кошками",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The tags suggest it includes animal-related humor.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x3f4h39",
+    "decision": "keep",
+    "reason": "The tags suggest it includes animal-related humor.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

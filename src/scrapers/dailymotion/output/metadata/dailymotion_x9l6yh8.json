@@ -1,0 +1,49 @@
+{
+  "video_id": "dailymotion_x9l6yh8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9l6yh8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9l6yh8_audio.mp3",
+  "duration_sec": 36,
+  "duration_seconds": 36.0,
+  "title": "Cats Going Down the Stairs in a Hilarious Way Charm the Internet in Viral Video",
+  "webpage_url": "https://www.dailymotion.com/video/x9l6yh8",
+  "dm_id": "x9l6yh8",
+  "views_total": 11061,
+  "view_count": 11061,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [
+    "Canada",
+    "pet",
+    "English",
+    "Cats Going",
+    "Cats",
+    "Going"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "A hilarious video of two kittens going down the stairs in a fascinating way is making internet users burst into laughter!<br /><br />“My cats going down the stairs is the perfect dose of serotonin you didn’t know you needed!” reads the caption shared with the video. “I’ll never get tired of their bunny hops.”<br /><br />Since being posted two days ago, the clip has received over 1.5 million views, more than 480,000 likes, and thousands of comments from amused viewers.<br /><br />“This is perfection,” said one TikTok user. “Instant stress relief, thank you for sharing these goofballs,” wrote another. “This video deserves a billion likes, please,” added a third.<br /><br />Photo and video: TikTok @munchkinstevie<br /><br />",
+  "created_time": 1749648556,
+  "search_query": "two cats in a standoff",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates real cats engaging in a playful activity.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9l6yh8",
+    "decision": "keep",
+    "reason": "The description indicates real cats engaging in a playful activity.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Play_or_grooming",
+    "reject_reason": null
+  }
+}

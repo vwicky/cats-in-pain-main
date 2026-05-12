@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x9gtd0c",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9gtd0c_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9gtd0c_audio.mp3",
+  "duration_sec": 26,
+  "duration_seconds": 26.0,
+  "title": "Rescata a un gato atrapado en medio de la corriente de un río desbordado",
+  "webpage_url": "https://www.dailymotion.com/video/x9gtd0c",
+  "dm_id": "x9gtd0c",
+  "views_total": 597,
+  "view_count": 597,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Perú"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Spanish",
+  "description": "Un valiente hombre se lanza al río desbordado en Perú para rescatar a un gato atrapado, atado solo con una cuerda. Al escuchar el llamado de auxilio del felino, el hombre se asegura la cuerda alrededor de la cintura y, con el apoyo de los vecinos, navega por las aguas turbulentas hasta alcanzar la roca donde el gato está atrapado. Tras una arriesgada maniobra, logra rescatar al animal empapado y llevarlo a un lugar seguro. Un acto de valentía y solidaridad que demuestra el poder de la comunidad ante la adversidad.",
+  "created_time": 1742981625,
+  "search_query": "signos de malestar en gatos",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video shows a rescue of a cat from a river, indicating a context of distress.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9gtd0c",
+    "decision": "keep",
+    "reason": "The video shows a rescue of a cat from a river, indicating a context of distress.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

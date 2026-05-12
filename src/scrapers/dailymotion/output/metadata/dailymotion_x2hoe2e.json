@@ -1,0 +1,51 @@
+{
+  "video_id": "dailymotion_x2hoe2e",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x2hoe2e_video.mp4",
+  "audio_path": "output/videos/dailymotion_x2hoe2e_audio.mp3",
+  "duration_sec": 60,
+  "duration_seconds": 60.0,
+  "title": "Cats fight video clip",
+  "webpage_url": "https://www.dailymotion.com/video/x2hoe2e",
+  "dm_id": "x2hoe2e",
+  "views_total": 1048,
+  "view_count": 1048,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Cats fight",
+    "funny animal",
+    "amazing and interesting",
+    "funny video clips",
+    "very funny video",
+    "best funny video",
+    "wow wonderful",
+    "watch latest comedy"
+  ],
+  "channel": "fun",
+  "channel_title": "fun",
+  "language": "en",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1424451358,
+  "search_query": "cat fight outside",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title indicates a fight between cats, which is relevant cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x2hoe2e",
+    "decision": "keep",
+    "reason": "The title indicates a fight between cats, which is relevant cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Agonistic",
+    "reject_reason": null
+  }
+}

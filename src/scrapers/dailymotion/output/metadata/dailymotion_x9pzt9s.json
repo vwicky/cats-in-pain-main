@@ -1,0 +1,48 @@
+{
+  "video_id": "dailymotion_x9pzt9s",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9pzt9s_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9pzt9s_audio.mp3",
+  "duration_sec": 18,
+  "duration_seconds": 18.0,
+  "title": "Vídeo mostra resgate de filhotes de gato em rio no Engenho Novo",
+  "webpage_url": "https://www.dailymotion.com/video/x9pzt9s",
+  "dm_id": "x9pzt9s",
+  "views_total": 1482,
+  "view_count": 1482,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Resgate",
+    "Filhotes",
+    "Gatos",
+    "Engenho Novo",
+    "Tupi"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "pt",
+  "query_language": "Portuguese",
+  "description": "",
+  "created_time": 1756998257,
+  "search_query": "vídeos curtos de gatos caçando",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves the rescue of kittens, which is relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9pzt9s",
+    "decision": "keep",
+    "reason": "The video involves the rescue of kittens, which is relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

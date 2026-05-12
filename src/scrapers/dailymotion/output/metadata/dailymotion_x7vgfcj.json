@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x7vgfcj",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x7vgfcj_video.mp4",
+  "audio_path": "output/videos/dailymotion_x7vgfcj_audio.mp3",
+  "duration_sec": 52,
+  "duration_seconds": 52.0,
+  "title": "Cats in the limelight for International Cat Day",
+  "webpage_url": "https://www.dailymotion.com/video/x7vgfcj",
+  "dm_id": "x7vgfcj",
+  "views_total": 9756,
+  "view_count": 9756,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "Felines around the world are centre stage on International Cat Day - celebrated every year on August 8th.<br />",
+  "created_time": 1596854213,
+  "search_query": "cat in stealth mode",
+  "behavioral_category": "HuntingMind",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The description indicates a focus on cats for a special day.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x7vgfcj",
+    "decision": "keep",
+    "reason": "The description indicates a focus on cats for a special day.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "video_id": "dailymotion_x5crtv7",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x5crtv7_video.mp4",
+  "audio_path": "output/videos/dailymotion_x5crtv7_audio.mp3",
+  "duration_sec": 41,
+  "duration_seconds": 41.0,
+  "title": "Gato pesca no gelo e nota algo se mexendo na água, e então… BAM! Confira o que acontece!",
+  "webpage_url": "https://www.dailymotion.com/video/x5crtv7",
+  "dm_id": "x5crtv7",
+  "views_total": 1168,
+  "view_count": 1168,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Gato"
+  ],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "Portuguese",
+  "description": "",
+  "created_time": 1487758605,
+  "search_query": "gato na clínica veterinária",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat is fishing, indicating real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x5crtv7",
+    "decision": "keep",
+    "reason": "The title suggests a cat is fishing, indicating real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

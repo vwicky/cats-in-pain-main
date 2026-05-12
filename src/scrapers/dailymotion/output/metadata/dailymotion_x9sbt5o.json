@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9sbt5o",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9sbt5o_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9sbt5o_audio.mp3",
+  "duration_sec": 16,
+  "duration_seconds": 16.0,
+  "title": "funny cats",
+  "webpage_url": "https://www.dailymotion.com/video/x9sbt5o",
+  "dm_id": "x9sbt5o",
+  "views_total": 1851,
+  "view_count": 1851,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "en",
+  "query_language": "English",
+  "description": "",
+  "created_time": 1760813534,
+  "search_query": "cat after vaccination",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests it features real cats.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9sbt5o",
+    "decision": "keep",
+    "reason": "The title suggests it features real cats.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

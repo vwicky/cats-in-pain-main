@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9hbep8",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9hbep8_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9hbep8_audio.mp3",
+  "duration_sec": 19,
+  "duration_seconds": 19.0,
+  "title": "Elle garde le chat de ses amis pendant les vacances : un événement étrange lui fait regretter instantanément (vidéo)",
+  "webpage_url": "https://www.dailymotion.com/video/x9hbep8",
+  "dm_id": "x9hbep8",
+  "views_total": 2562,
+  "view_count": 2562,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "fr",
+  "query_language": "French",
+  "description": "Le 24 juillet, Katie Burnham a eu la peur de sa vie. ",
+  "created_time": 1743771763,
+  "search_query": "courtes vidéos de chats qui se prélassent",
+  "behavioral_category": "Positive_Baseline",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a cat and a strange event, suggesting real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9hbep8",
+    "decision": "keep",
+    "reason": "The video involves a cat and a strange event, suggesting real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Uncertain",
+    "reject_reason": null
+  }
+}

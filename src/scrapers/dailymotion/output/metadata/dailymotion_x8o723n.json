@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x8o723n",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x8o723n_video.mp4",
+  "audio_path": "output/videos/dailymotion_x8o723n_audio.mp3",
+  "duration_sec": 28,
+  "duration_seconds": 28.0,
+  "title": "Gatto incastrato in un tubo, il video del salvataggio",
+  "webpage_url": "https://www.dailymotion.com/video/x8o723n",
+  "dm_id": "x8o723n",
+  "views_total": 2243,
+  "view_count": 2243,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [],
+  "channel": "shortfilms",
+  "channel_title": "shortfilms",
+  "language": "it",
+  "query_language": "Italian",
+  "description": "",
+  "created_time": 1695201869,
+  "search_query": "comportamento di un gatto ferito",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a cat rescue, which is relevant to cat behavior.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x8o723n",
+    "decision": "keep",
+    "reason": "The video involves a cat rescue, which is relevant to cat behavior.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}

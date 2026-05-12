@@ -1,0 +1,47 @@
+{
+  "video_id": "dailymotion_x9mjy2k",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9mjy2k_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9mjy2k_audio.mp3",
+  "duration_sec": 22,
+  "duration_seconds": 22.0,
+  "title": "Un gato se cae a la piscina y, de repente, descubre que puede nadar",
+  "webpage_url": "https://www.dailymotion.com/video/x9mjy2k",
+  "dm_id": "x9mjy2k",
+  "views_total": 886,
+  "view_count": 886,
+  "likes_total": 0,
+  "like_count": 0,
+  "tags": [
+    "Animales compañía",
+    "Gatos",
+    "Mascotas",
+    "Sociedad"
+  ],
+  "channel": "news",
+  "channel_title": "news",
+  "language": "es",
+  "query_language": "Portuguese",
+  "description": "",
+  "created_time": 1752011126,
+  "search_query": "compilação de brigas de gatos",
+  "behavioral_category": "Agonistic",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The title suggests a cat discovering it can swim, indicating real cat behavior.",
+  "gpt_confidence": "medium",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9mjy2k",
+    "decision": "keep",
+    "reason": "The title suggests a cat discovering it can swim, indicating real cat behavior.",
+    "confidence": "medium",
+    "is_cat_behavior": true,
+    "behavior_category": "Other_cat_behavior",
+    "reject_reason": null
+  }
+}

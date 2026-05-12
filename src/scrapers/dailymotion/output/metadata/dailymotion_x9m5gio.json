@@ -1,0 +1,42 @@
+{
+  "video_id": "dailymotion_x9m5gio",
+  "source": "dailymotion",
+  "source_platform": "dailymotion",
+  "video_path": "output/videos/dailymotion_x9m5gio_video.mp4",
+  "audio_path": "output/videos/dailymotion_x9m5gio_audio.mp3",
+  "duration_sec": 59,
+  "duration_seconds": 59.0,
+  "title": "Mitarbeiter einer Tierklinik erleben süße Überraschung: Ungewöhnliche Patientin wartet geduldig vor der Tür",
+  "webpage_url": "https://www.dailymotion.com/video/x9m5gio",
+  "dm_id": "x9m5gio",
+  "views_total": 6042,
+  "view_count": 6042,
+  "likes_total": 1,
+  "like_count": 1,
+  "tags": [],
+  "channel": "animals",
+  "channel_title": "animals",
+  "language": "de",
+  "query_language": "German",
+  "description": "Diese Patientin weiß, was zu tun ist, als ihr Baby krank wird.",
+  "created_time": 1751360663,
+  "search_query": "Katze in der Tierklinik",
+  "behavioral_category": "Pain/Vet",
+  "category_name": "Dailymotion",
+  "tag_filter": {
+    "passed": true,
+    "cat_signal": "regex_token"
+  },
+  "gpt_decision": "keep",
+  "gpt_reason": "The video involves a cat at a veterinary clinic, suggesting a medical context.",
+  "gpt_confidence": "high",
+  "gpt_filter": {
+    "video_id": "dailymotion_x9m5gio",
+    "decision": "keep",
+    "reason": "The video involves a cat at a veterinary clinic, suggesting a medical context.",
+    "confidence": "high",
+    "is_cat_behavior": true,
+    "behavior_category": "Pain_or_vet",
+    "reject_reason": null
+  }
+}
