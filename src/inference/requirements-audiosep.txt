@@ -1,0 +1,9 @@
+# Extra dependencies for the audio branch (vendored AudioSep under audio/AudioSep/).
+# Not listed in root requirements.txt. Install missing pieces with:
+#
+#   pip install -r src/inference/requirements-audiosep.txt
+#
+lightning>=2.0.0,<3
+huggingface_hub>=0.19.0
+transformers>=4.36.0
+h5py>=3.10.0

@@ -4,16 +4,31 @@
 # Python cache
 __pycache__/
 *.py[cod]
+.ipynb_checkpoints/
 
 # Local environment and secrets
 .env
 .venv/
+.venv_tiktok/
 venv/
 cookies.txt
+# secret/
 
-# Large model artifacts
+# Large model artifacts (also ignored via models/; keep for stray files)
 *.pt
 *.pth
+*.pkl
+*.ckpt
+
+# Heavy local datasets and trained artifacts — keep repo small; use GCS in cloud.
+# Ignore contents but allow a tracked README in each folder (Git cannot un-ignore files inside a fully ignored parent).
+data/*
+!data/README.md
+models/*
+!models/README.md
+
+# Experiment outputs (heavy, regeneratable)
+runs/
 
 # Generated video/data artifact folders (do not publish)
 downloads/
@@ -21,6 +36,15 @@ downloaded_snippets/
 dataset_snippets/
 crawled_downloads/
 crawled_snippets/
+
+# Playwright persistent Chromium profile (TikTok cookies/session — private)
+src/scrapers/tiktok/tiktok_profile/
+
+# Archived legacy code/data — kept on disk for review, never published
+_archive/
+
+# AudioSep batch outputs (regeneratable separated audio)
+audio/AudioSep/separeted_audios/separated_cat_sounds/
 
 # Media outputs anywhere in the repository
 *.mp4
