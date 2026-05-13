@@ -75,5 +75,9 @@ Full prerequisites, manual three-process run, Postgres troubleshooting, and Dock
 
 ## 5. Where next
 
+- [Research overview](research-overview.md) — methods, model hierarchy, dataset scale, limitations
 - [Script index](script-index.md) — task → command → owning README
-- [Root README](../README.md) — layout, models/data layout, archive policy
+- [Training and analysis](training-and-analysis.md) — advanced training entrypoints
+- [Repository layout](repository-layout.md) — full directory tree
+- [Data and archive policy](data-and-archive-policy.md) — non-destructive workflows, `_archive/`
+- [Root README](../README.md) — project landing page and quick links

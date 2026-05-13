@@ -59,4 +59,4 @@ Task-oriented entrypoints. Run **Python commands from the repository root** unle
 | Inference audio branch | [src/inference/requirements-audiosep.txt](../src/inference/requirements-audiosep.txt) |
 | Data pipeline v2 | [src/scrapers/data_pipeline_v2/requirements.txt](../src/scrapers/data_pipeline_v2/requirements.txt) |
 
-Return to the [root README](../README.md) for repository layout and **models / data** expectations.
+Return to the [root README](../README.md) for the project landing page. Deeper context: [research overview](research-overview.md), [repository layout](repository-layout.md), [training and analysis](training-and-analysis.md), [data and archive policy](data-and-archive-policy.md). **Models / data** expectations: [models/README](../models/README.md), [data/README](../data/README.md), [inference README](../src/inference/README.md).
