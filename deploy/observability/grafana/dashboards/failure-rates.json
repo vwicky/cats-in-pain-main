@@ -1,0 +1,61 @@
+{
+  "uid": "catpain-failures",
+  "title": "Failure Rates",
+  "tags": ["catpain"],
+  "timezone": "browser",
+  "schemaVersion": 39,
+  "version": 1,
+  "refresh": "30s",
+  "panels": [
+    {
+      "id": 1,
+      "title": "Inference failures by stage",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 0 },
+      "targets": [
+        {
+          "expr": "sum(rate(catpain_inference_failures_total[5m])) by (stage, reason)",
+          "legendFormat": "{{stage}} {{reason}}"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Worker job failures",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 0 },
+      "targets": [
+        {
+          "expr": "sum(rate(catpain_worker_jobs_failed_total[5m])) by (error_type)",
+          "legendFormat": "{{error_type}}"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "GPU OOM total",
+      "type": "stat",
+      "gridPos": { "h": 4, "w": 6, "x": 0, "y": 8 },
+      "targets": [{ "expr": "catpain_gpu_oom_total" }]
+    },
+    {
+      "id": 4,
+      "title": "CUDA errors",
+      "type": "stat",
+      "gridPos": { "h": 4, "w": 6, "x": 6, "y": 8 },
+      "targets": [{ "expr": "catpain_worker_cuda_errors_total" }]
+    },
+    {
+      "id": 5,
+      "title": "HTTP 5xx rate",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 8 },
+      "targets": [
+        {
+          "expr": "sum(rate(catpain_http_requests_total{status=~\"5..\"}[5m]))",
+          "legendFormat": "5xx"
+        }
+      ]
+    }
+  ]
+}

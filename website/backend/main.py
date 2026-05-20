@@ -9,6 +9,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.exc import OperationalError
 
 from backend.routers import jobs as jobs_router
+from observability.http import install_metrics
+from observability.registry import metrics_enabled
+from observability.system import start_resource_collector
 from backend.settings import (
     data_dir_writable,
     ffmpeg_available,
@@ -25,6 +28,7 @@ logger = logging.getLogger(__name__)
 async def lifespan(app: FastAPI):
     settings = get_settings()
     configure_engine(settings.database_url)
+    stop_metrics = start_resource_collector(service="api", interval=15.0)
     try:
         init_db()
     except OperationalError as e:
@@ -43,9 +47,12 @@ async def lifespan(app: FastAPI):
         )
         raise
     yield
+    stop_metrics()
 
 
 app = FastAPI(title="Cat Pain Web API", lifespan=lifespan)
+if metrics_enabled():
+    install_metrics(app)
 _origins = [
     o.strip()
     for o in os.getenv(
@@ -62,6 +69,21 @@ app.add_middleware(
 )
 
 app.include_router(jobs_router.router)
+
+
+@app.get("/ready")
+def ready():
+    """Liveness/readiness: database reachable."""
+    try:
+        from sqlalchemy import text
+
+        with get_engine().connect() as c:
+            c.execute(text("SELECT 1"))
+        return {"ok": True}
+    except Exception as e:
+        from fastapi import HTTPException
+
+        raise HTTPException(status_code=503, detail=str(e)) from e
 
 
 @app.get("/health")

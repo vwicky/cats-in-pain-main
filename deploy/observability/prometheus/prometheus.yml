@@ -1,0 +1,19 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+scrape_configs:
+  - job_name: catpain_api
+    static_configs:
+      - targets: ["backend:8000"]
+    metrics_path: /metrics
+
+  - job_name: catpain_worker
+    static_configs:
+      - targets: ["worker:9101"]
+    metrics_path: /metrics
+
+  - job_name: dcgm
+    static_configs:
+      - targets: ["dcgm-exporter:9400"]
+    metrics_path: /metrics

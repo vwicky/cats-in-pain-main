@@ -481,9 +481,64 @@ def _run_pipeline_single(
     multicat_summary_strategy: str = "coverage_weighted_mean",
     window_index: int | None = None,
 ) -> dict[str, Any]:
+    from inference.metrics_hook import observe_pipeline_total
+    import time as _time
+
+    _t0 = _time.perf_counter()
+    _pipe_exc: BaseException | None = None
+    try:
+        return _run_pipeline_single_body(
+            video_path=video_path,
+            run_dir=run_dir,
+            device_str=device_str,
+            cat_threshold=cat_threshold,
+            stack_run=stack_run,
+            vitpose_model=vitpose_model,
+            vitpose_dataset=vitpose_dataset,
+            vitpose_arch=vitpose_arch,
+            yolo_model=yolo_model,
+            audiosep_config=audiosep_config,
+            audiosep_ckpt=audiosep_ckpt,
+            emotion_ckpt=emotion_ckpt,
+            multicat_video_only=multicat_video_only,
+            multicat_max_cats=multicat_max_cats,
+            multicat_min_track_coverage=multicat_min_track_coverage,
+            multicat_decision_threshold=multicat_decision_threshold,
+            multicat_summary_strategy=multicat_summary_strategy,
+            window_index=window_index,
+        )
+    except BaseException as e:
+        _pipe_exc = e
+        raise
+    finally:
+        observe_pipeline_total(_time.perf_counter() - _t0, _pipe_exc)
+
+
+def _run_pipeline_single_body(
+    *,
+    video_path: Path,
+    run_dir: Path,
+    device_str: str,
+    cat_threshold: float,
+    stack_run: str | Path | None,
+    vitpose_model: str | None,
+    vitpose_dataset: str | None,
+    vitpose_arch: str | None,
+    yolo_model: str | None,
+    audiosep_config: str | None,
+    audiosep_ckpt: str | None,
+    emotion_ckpt: str | None,
+    multicat_video_only: bool,
+    multicat_max_cats: int,
+    multicat_min_track_coverage: float,
+    multicat_decision_threshold: float,
+    multicat_summary_strategy: str,
+    window_index: int | None,
+) -> dict[str, Any]:
     from inference.artifact_io import save_json, save_original_video
     from inference.audio_clip_probe import probe_wav_clip
     from inference.audio_branch import run_audio_branch
+    from inference.metrics_hook import record_branch, step_callback
     from inference.stgcn_loader import DEFAULT_STACK_RUN
     from inference.timer import StepTimer
     from inference.video_branch import run_video_branch, run_video_branch_multicat
@@ -494,7 +549,7 @@ def _run_pipeline_single(
         DEFAULT_YOLO,
     )
 
-    timer = StepTimer()
+    timer = StepTimer(on_step=step_callback())
     device = resolve_device(device_str)
     logger.info("Device: %s", device)
 
@@ -531,6 +586,7 @@ def _run_pipeline_single(
     # ── 4. Branch routing ─────────────────────────────────────────────────────
     branch_result: dict[str, Any]
     if multicat_video_only:
+        record_branch("multicat")
         logger.info("Multicat mode: forcing VIDEO BRANCH (P(cat)=%.4f logged only)", p_cat)
         branch_result = run_video_branch_multicat(
             video_path,
@@ -558,6 +614,7 @@ def _run_pipeline_single(
             int(branch_result.get("multicat_cat_count", len(cats))),
         )
     elif p_cat >= cat_threshold:
+        record_branch("audio")
         logger.info(
             "P(cat)=%.4f >= threshold=%.2f → AUDIO BRANCH", p_cat, cat_threshold
         )
@@ -570,6 +627,7 @@ def _run_pipeline_single(
             emotion_ckpt=emotion_ckpt,
         )
     else:
+        record_branch("video")
         logger.info(
             "P(cat)=%.4f < threshold=%.2f → VIDEO BRANCH", p_cat, cat_threshold
         )
@@ -712,6 +770,10 @@ def run_pipeline(
     windows = _build_sliding_windows(duration_sec, split_window_sec, split_step_sec)
     if not windows:
         raise RuntimeError("No windows were generated for split inference.")
+
+    from inference.metrics_hook import record_windows
+
+    record_windows(len(windows))
 
     logger.info(
         "Split inference enabled: %.2fs windows, %.2fs step, duration %.2fs → %d clips",

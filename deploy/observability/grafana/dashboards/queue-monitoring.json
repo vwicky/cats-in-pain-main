@@ -1,0 +1,50 @@
+{
+  "uid": "catpain-queue",
+  "title": "Queue Monitoring",
+  "tags": ["catpain"],
+  "timezone": "browser",
+  "schemaVersion": 39,
+  "version": 1,
+  "refresh": "30s",
+  "panels": [
+    {
+      "id": 1,
+      "title": "Jobs by status",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 0 },
+      "targets": [
+        {
+          "expr": "catpain_jobs_by_status",
+          "legendFormat": "{{status}}"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Queue size (queued)",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 0 },
+      "targets": [
+        { "expr": "catpain_jobs_queue_size", "legendFormat": "queued" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Running jobs",
+      "type": "stat",
+      "gridPos": { "h": 4, "w": 6, "x": 0, "y": 8 },
+      "targets": [
+        { "expr": "catpain_jobs_by_status{status=\"running\"}" }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Windows processed rate",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 18, "x": 6, "y": 8 },
+      "targets": [
+        { "expr": "rate(catpain_windows_processed_total[5m])", "legendFormat": "windows/s" }
+      ]
+    }
+  ]
+}

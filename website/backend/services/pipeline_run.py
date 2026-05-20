@@ -64,19 +64,55 @@ def run_pipeline_subprocess(
     # pose-models/models shadows AudioSep's models/). ST-GCN loader prepends
     # pose-models in-process when loading the video branch.
     srcp = str((repo_root / "src").resolve())
-    proc = subprocess.run(
+    website_root = str((repo_root / "website").resolve())
+    try:
+        from observability.pipeline import metrics_env_for_subprocess
+        from observability.worker import scan_pipeline_output
+
+        env = metrics_env_for_subprocess(website_root, srcp)
+    except ImportError:
+        env = {**os.environ, "PYTHONPATH": srcp}
+        scan_pipeline_output = None  # type: ignore[assignment]
+
+    proc = subprocess.Popen(
         cmd,
         cwd=str(repo_root),
-        capture_output=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
         text=True,
-        timeout=timeout_sec,
-        env={**os.environ, "PYTHONPATH": srcp},
+        env=env,
     )
+    try:
+        stdout, stderr = proc.communicate(timeout=timeout_sec)
+    except subprocess.TimeoutExpired as e:
+        proc.kill()
+        stdout, stderr = proc.communicate()
+        e.stdout = stdout
+        e.stderr = stderr
+        if scan_pipeline_output is not None:
+            scan_pipeline_output((stderr or stdout or "")[:8000])
+        try:
+            from observability.registry import mark_subprocess_dead
+
+            mark_subprocess_dead(proc.pid)
+        except ImportError:
+            pass
+        raise
+    finally:
+        try:
+            from observability.registry import mark_subprocess_dead
+
+            mark_subprocess_dead(proc.pid)
+        except ImportError:
+            pass
+
     if proc.returncode != 0:
-        err = (proc.stderr or proc.stdout or "").strip()
+        err = (stderr or stdout or "").strip()
+        if scan_pipeline_output is not None:
+            scan_pipeline_output(err)
         raise RuntimeError(f"Pipeline exited {proc.returncode}: {err[-4000:]}")
 
-    out = proc.stdout.strip()
+    out = (stdout or "").strip()
     if not out:
         raise RuntimeError("Pipeline produced no stdout JSON")
     # Pipeline prints full JSON; take from first { in case of log leakage

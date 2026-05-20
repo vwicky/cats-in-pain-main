@@ -180,6 +180,60 @@ docker compose up --build
 
 This bind-mounts the **entire repo** into `/workspace`, sets `REPO_ROOT=/workspace`, and starts Postgres + API + worker. Install **heavy** ML dependencies inside the image or extend the Dockerfile (base image only installs `website/requirements.txt`).
 
+## Monitoring (Prometheus + Grafana)
+
+Phase 1 ships **metrics only** (no Loki/Tempo/OpenTelemetry). Code lives in [`observability/`](observability/).
+
+### Local metrics (launch.sh)
+
+`launch.sh` enables metrics by default:
+
+| Endpoint | URL |
+|----------|-----|
+| API | http://127.0.0.1:8000/metrics |
+| Worker | http://127.0.0.1:9101/metrics |
+| Readiness | http://127.0.0.1:8000/ready |
+
+Environment variables:
+
+- `CATPAIN_METRICS_ENABLED=1` — turn hooks on/off
+- `PROMETHEUS_MULTIPROC_DIR` — shared dir for pipeline subprocess metrics (default `/tmp/catpain_prom_multiproc`)
+- `WORKER_METRICS_PORT` — worker scrape port (default `9101`)
+
+### Docker observability stack
+
+From `website/`:
+
+```bash
+docker compose -f docker-compose.yml -f docker-compose.observability.yml up
+```
+
+| Service | Port | Notes |
+|---------|------|-------|
+| Prometheus | 9090 | scrapes API + worker |
+| Grafana | 3000 | login `admin` / `admin` |
+| DCGM exporter | 9400 | optional: `--profile gpu` on NVIDIA hosts |
+
+Provisioned dashboards under `deploy/observability/grafana/dashboards/` (API, worker, GPU, ML inference, queue, failures).
+
+### Inference `stage` labels
+
+Histogram `catpain_inference_duration_seconds` uses ML-tuned buckets (5ms–60s) and low-cardinality stages:
+
+| `stage` | Meaning |
+|---------|---------|
+| `audio_preprocess` | YAMNet, AudioSep load/separation |
+| `audio_model` | CatEmotionModel |
+| `pose_detection` | YOLO |
+| `pose_estimation` | ViTPose |
+| `graph_inference` | ST-GCN + meta learner |
+| `pipeline_total` | End-to-end wall time |
+
+### Possible extensions (not implemented)
+
+- **Loki** for log aggregation
+- **Tempo** / **OpenTelemetry** for distributed tracing across API → worker → pipeline subprocess
+
 ## API quick test
 
 ```bash

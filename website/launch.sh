@@ -14,6 +14,10 @@ cd "$SCRIPT_DIR"
 
 export PYTHONPATH="${PWD}"
 export REPO_ROOT="${REPO_ROOT:-$(cd .. && pwd)}"
+export CATPAIN_METRICS_ENABLED="${CATPAIN_METRICS_ENABLED:-1}"
+export PROMETHEUS_MULTIPROC_DIR="${PROMETHEUS_MULTIPROC_DIR:-/tmp/catpain_prom_multiproc}"
+export WORKER_METRICS_PORT="${WORKER_METRICS_PORT:-9101}"
+mkdir -p "${PROMETHEUS_MULTIPROC_DIR}"
 
 if [[ -x "${REPO_ROOT}/.venv/bin/python" ]]; then
   export PATH="${REPO_ROOT}/.venv/bin:$PATH"
@@ -109,7 +113,8 @@ trap cleanup EXIT
 echo ""
 echo "=== Cat Pain web (local)"
 echo "    REPO_ROOT=${REPO_ROOT}"
-echo "    API       http://127.0.0.1:8000   docs: /docs"
+echo "    API       http://127.0.0.1:8000   docs: /docs  metrics: /metrics"
+echo "    Worker    metrics http://127.0.0.1:${WORKER_METRICS_PORT}/metrics"
 echo "    Frontend  http://127.0.0.1:5173  (proxies /jobs to API)"
 echo ""
 

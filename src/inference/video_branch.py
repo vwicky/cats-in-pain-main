@@ -117,19 +117,19 @@ def run_video_branch(
     pose_npy_path = run_dir / "raw_poses.npy"
     pose_video_path = run_dir / "pose_video.mp4"
 
-    with timer.step("pose_extraction_and_render"):
-        _, _, pose_meta = extract_poses_and_render(
-            video_path,
-            pose_npy_path,
-            pose_video_path,
-            vitpose_model=vitpose_model,
-            yolo_model=yolo_model,
-            dataset=vitpose_dataset,
-            model_name=vitpose_arch,
-            yolo_size=yolo_size,
-            single_pose=single_pose,
-            conf_threshold=conf_threshold,
-        )
+    _, _, pose_meta = extract_poses_and_render(
+        video_path,
+        pose_npy_path,
+        pose_video_path,
+        vitpose_model=vitpose_model,
+        yolo_model=yolo_model,
+        dataset=vitpose_dataset,
+        model_name=vitpose_arch,
+        yolo_size=yolo_size,
+        single_pose=single_pose,
+        conf_threshold=conf_threshold,
+        timer=timer,
+    )
 
     mask_p = pose_meta.get("pose_mask_path")
     gpt_res = f"{pose_meta['frame_width']}x{pose_meta['frame_height']}"

@@ -545,6 +545,7 @@ def extract_poses_and_render(
     single_pose: bool = True,
     conf_threshold: float = 0.35,
     show_yolo: bool = True,
+    timer: Any | None = None,
 ) -> tuple[Path, Path, dict[str, Any]]:
     """
     Run VitInference on training-aligned sampled frames (5 Hz, up to 35 bins),
@@ -592,23 +593,26 @@ def extract_poses_and_render(
     # VitInference needs to be constructed from easyViTPose root because
     # VitInference.__init__ does os.path.isfile(model) – absolute paths work fine.
     _orig_cwd = os.getcwd()
-    try:
-        os.chdir(_VITPOSE_ROOT)
+    from contextlib import nullcontext
 
-        model_obj = VitInference(
-            str(vitpose_model),
-            str(yolo_model),
-            model_name=model_name,
-            dataset=dataset,
-            det_class=det_class,
-            yolo_size=yolo_size,
-            is_video=True,
-            single_pose=single_pose,
-            yolo_step=yolo_step,
-        )
-        model_obj.reset()
-    finally:
-        os.chdir(_orig_cwd)
+    yolo_ctx = timer.step("yolo_inference") if timer is not None else nullcontext()
+    with yolo_ctx:
+        os.chdir(_VITPOSE_ROOT)
+        try:
+            model_obj = VitInference(
+                str(vitpose_model),
+                str(yolo_model),
+                model_name=model_name,
+                dataset=dataset,
+                det_class=det_class,
+                yolo_size=yolo_size,
+                is_video=True,
+                single_pose=single_pose,
+                yolo_step=yolo_step,
+            )
+            model_obj.reset()
+        finally:
+            os.chdir(_orig_cwd)
 
     # Training-aligned sampling: uniform @ 5 Hz over the first <=7s, capped to 35 bins.
     idx_tr, pose_mask_vec, samp_stats = _stgcn_dense_frame_indices(fps, total_frames)
@@ -624,45 +628,49 @@ def extract_poses_and_render(
 
     blank_kp = np.zeros((N_KEYPOINTS, 3), dtype=np.float32)
 
-    for fi in idx_tr:
-        cap.set(cv2.CAP_PROP_POS_FRAMES, int(fi))
-        ok, img_bgr = cap.read()
-        if not ok or img_bgr is None:
-            img_bgr = np.zeros((h, w, 3), dtype=np.uint8)
-        img = cv2.cvtColor(img_bgr, cv2.COLOR_BGR2RGB)
+    from contextlib import nullcontext
 
-        frame_kp_dict: dict[Any, np.ndarray] = model_obj.inference(img)
+    vit_ctx = timer.step("vitpose_inference") if timer is not None else nullcontext()
+    with vit_ctx:
+        for fi in idx_tr:
+            cap.set(cv2.CAP_PROP_POS_FRAMES, int(fi))
+            ok, img_bgr = cap.read()
+            if not ok or img_bgr is None:
+                img_bgr = np.zeros((h, w, 3), dtype=np.uint8)
+            img = cv2.cvtColor(img_bgr, cv2.COLOR_BGR2RGB)
 
-        # Pick the highest-confidence detection (by mean keypoint confidence)
-        if frame_kp_dict:
-            best_kp = max(
-                frame_kp_dict.values(),
-                key=lambda kp: float(np.mean(kp[:, 2])),
-            )
-            kp = best_kp[:N_KEYPOINTS].astype(np.float32)
-            if kp.shape[0] < N_KEYPOINTS:
-                pad = np.zeros((N_KEYPOINTS - kp.shape[0], 3), dtype=np.float32)
-                kp = np.concatenate([kp, pad], axis=0)
-            all_keypoints.append(kp)
-            n_detected += 1
-        else:
-            all_keypoints.append(blank_kp.copy())
-            n_missed += 1
+            frame_kp_dict: dict[Any, np.ndarray] = model_obj.inference(img)
 
-        # Render overlay frame → BGR for VideoWriter
-        try:
-            rgb_overlay = model_obj.draw(
-                show_yolo=show_yolo,
-                show_raw_yolo=False,
-                confidence_threshold=conf_threshold,
-            )
-            bgr = rgb_overlay[..., ::-1]
-        except Exception:
-            bgr = img_bgr
+            # Pick the highest-confidence detection (by mean keypoint confidence)
+            if frame_kp_dict:
+                best_kp = max(
+                    frame_kp_dict.values(),
+                    key=lambda kp: float(np.mean(kp[:, 2])),
+                )
+                kp = best_kp[:N_KEYPOINTS].astype(np.float32)
+                if kp.shape[0] < N_KEYPOINTS:
+                    pad = np.zeros((N_KEYPOINTS - kp.shape[0], 3), dtype=np.float32)
+                    kp = np.concatenate([kp, pad], axis=0)
+                all_keypoints.append(kp)
+                n_detected += 1
+            else:
+                all_keypoints.append(blank_kp.copy())
+                n_missed += 1
 
-        if bgr.shape[1] != w or bgr.shape[0] != h:
-            bgr = cv2.resize(bgr, (w, h))
-        writer.write(bgr)
+            # Render overlay frame → BGR for VideoWriter
+            try:
+                rgb_overlay = model_obj.draw(
+                    show_yolo=show_yolo,
+                    show_raw_yolo=False,
+                    confidence_threshold=conf_threshold,
+                )
+                bgr = rgb_overlay[..., ::-1]
+            except Exception:
+                bgr = img_bgr
+
+            if bgr.shape[1] != w or bgr.shape[0] != h:
+                bgr = cv2.resize(bgr, (w, h))
+            writer.write(bgr)
 
     cap.release()
     writer.release()

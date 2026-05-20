@@ -20,10 +20,19 @@ from backend.services.pipeline_run import run_pipeline_subprocess
 from backend.settings import get_settings
 from db.models import Job
 from db.session import claim_next_queued_job, configure_engine, get_session_maker
+from observability.expose import start_worker_metrics_server
+from observability.registry import metrics_enabled
+from observability.worker import (
+    heartbeat,
+    record_job_failure,
+    record_job_success,
+    scan_pipeline_output,
+    set_busy,
+)
+from observability.system import start_resource_collector
 from shared.progress import apply_monotonic_progress, slack_line_event
 from shared.multicat_params import parse_form_bool
 from shared.video_probe import build_sliding_windows, probe_video_duration_sec
-
 
 def _utcnow() -> datetime:
     return datetime.now(timezone.utc)
@@ -142,12 +151,14 @@ def _coerce_job_bool(value: object, *, default: bool = False) -> bool:
 
 def process_job(job_id: uuid.UUID) -> None:
     settings = get_settings()
+    set_busy(True)
     configure_engine(settings.database_url)
     sm = get_session_maker()
     db = sm()
     job = db.get(Job, job_id)
     if not job or job.status != "running":
         db.close()
+        set_busy(False)
         return
 
     params = job.params or {}
@@ -161,6 +172,8 @@ def process_job(job_id: uuid.UUID) -> None:
         )
         db.commit()
         db.close()
+        record_job_failure("config_error")
+        set_busy(False)
         return
 
     device = str(params.get("device", "auto"))
@@ -215,8 +228,10 @@ def process_job(job_id: uuid.UUID) -> None:
             )
         except subprocess.TimeoutExpired as e:
             error_box.append(e)
+            scan_pipeline_output(getattr(e, "stderr", "") or str(e))
         except Exception as e:
             error_box.append(e)
+            scan_pipeline_output(str(e))
 
     th = threading.Thread(target=run_target, daemon=True)
     th.start()
@@ -281,6 +296,8 @@ def process_job(job_id: uuid.UUID) -> None:
         )
         db.commit()
         db.close()
+        record_job_failure(et)
+        set_busy(False)
         return
 
     data = result_box.get("data")
@@ -291,6 +308,8 @@ def process_job(job_id: uuid.UUID) -> None:
         job.error_message = "pipeline returned no result"
         db.commit()
         db.close()
+        record_job_failure("pipeline_error")
+        set_busy(False)
         return
 
     run_dir = Path(str(data.get("run_dir", ""))).resolve()
@@ -302,6 +321,8 @@ def process_job(job_id: uuid.UUID) -> None:
         job.error_message = f"missing {result_json}"
         db.commit()
         db.close()
+        record_job_failure("pipeline_error")
+        set_busy(False)
         return
 
     write_run_reference(job_link_dir(settings.data_dir, str(job_id)), run_dir)
@@ -328,14 +349,22 @@ def process_job(job_id: uuid.UUID) -> None:
     )
     db.commit()
     db.close()
+    record_job_success()
+    set_busy(False)
 
 
 def main() -> None:
     settings = get_settings()
     configure_engine(settings.database_url)
     sm = get_session_maker()
-    print("worker started", flush=True)
+    if metrics_enabled():
+        port = start_worker_metrics_server()
+        start_resource_collector(service="worker", interval=15.0)
+        print(f"worker started (metrics :{port})", flush=True)
+    else:
+        print("worker started", flush=True)
     while True:
+        heartbeat()
         db = sm()
         try:
             job = claim_next_queued_job(db)

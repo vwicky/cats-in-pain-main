@@ -1,0 +1,50 @@
+{
+  "uid": "catpain-gpu",
+  "title": "GPU Monitoring",
+  "tags": ["catpain"],
+  "timezone": "browser",
+  "schemaVersion": 39,
+  "version": 1,
+  "refresh": "30s",
+  "panels": [
+    {
+      "id": 1,
+      "title": "GPU utilization (NVML)",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 0 },
+      "targets": [
+        {
+          "expr": "catpain_gpu_utilization_percent",
+          "legendFormat": "gpu {{gpu_index}}"
+        }
+      ],
+      "fieldConfig": { "defaults": { "unit": "percent" } }
+    },
+    {
+      "id": 2,
+      "title": "GPU memory used",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 0 },
+      "targets": [
+        {
+          "expr": "catpain_gpu_memory_used_bytes",
+          "legendFormat": "gpu {{gpu_index}}"
+        }
+      ],
+      "fieldConfig": { "defaults": { "unit": "bytes" } }
+    },
+    {
+      "id": 3,
+      "title": "DCGM GPU util (if exporter enabled)",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 24, "x": 0, "y": 8 },
+      "targets": [
+        {
+          "expr": "DCGM_FI_DEV_GPU_UTIL",
+          "legendFormat": "dcgm"
+        }
+      ],
+      "fieldConfig": { "defaults": { "unit": "percent" } }
+    }
+  ]
+}

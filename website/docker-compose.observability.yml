@@ -1,0 +1,64 @@
+# Observability overlay (Prometheus + Grafana). Usage from website/:
+#   docker compose -f docker-compose.yml -f docker-compose.observability.yml up
+services:
+  backend:
+    environment:
+      CATPAIN_METRICS_ENABLED: "1"
+      PROMETHEUS_MULTIPROC_DIR: /tmp/catpain_prom_multiproc
+    volumes:
+      - prom_multiproc:/tmp/catpain_prom_multiproc
+
+  worker:
+    environment:
+      CATPAIN_METRICS_ENABLED: "1"
+      PROMETHEUS_MULTIPROC_DIR: /tmp/catpain_prom_multiproc
+      WORKER_METRICS_PORT: "9101"
+    ports:
+      - "9101:9101"
+    volumes:
+      - prom_multiproc:/tmp/catpain_prom_multiproc
+
+  prometheus:
+    image: prom/prometheus:v2.52.0
+    ports:
+      - "9090:9090"
+    volumes:
+      - ../deploy/observability/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+    command:
+      - --config.file=/etc/prometheus/prometheus.yml
+      - --storage.tsdb.path=/prometheus
+    depends_on:
+      - backend
+      - worker
+
+  grafana:
+    image: grafana/grafana:11.0.0
+    ports:
+      - "3000:3000"
+    environment:
+      GF_SECURITY_ADMIN_USER: admin
+      GF_SECURITY_ADMIN_PASSWORD: admin
+      GF_USERS_ALLOW_SIGN_UP: "false"
+    volumes:
+      - ../deploy/observability/grafana/provisioning:/etc/grafana/provisioning:ro
+      - ../deploy/observability/grafana/dashboards:/var/lib/grafana/dashboards:ro
+    depends_on:
+      - prometheus
+
+  dcgm-exporter:
+    image: nvcr.io/nvidia/k8s/dcgm-exporter:3.3.5-3.4.0-ubuntu22.04
+    profiles: [gpu]
+    ports:
+      - "9400:9400"
+    environment:
+      DCGM_EXPORTER_LISTEN: ":9400"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+
+volumes:
+  prom_multiproc:
