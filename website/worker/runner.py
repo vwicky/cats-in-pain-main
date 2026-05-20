@@ -21,6 +21,7 @@ from backend.settings import get_settings
 from db.models import Job
 from db.session import claim_next_queued_job, configure_engine, get_session_maker
 from shared.progress import apply_monotonic_progress, slack_line_event
+from shared.multicat_params import parse_form_bool
 from shared.video_probe import build_sliding_windows, probe_video_duration_sec
 
 
@@ -129,6 +130,16 @@ def _infer_stage_from_fs(
     return "extract_audio", 0, 8.0
 
 
+def _coerce_job_bool(value: object, *, default: bool = False) -> bool:
+    if value is None:
+        return default
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, (int, float)):
+        return value != 0
+    return parse_form_bool(str(value))
+
+
 def process_job(job_id: uuid.UUID) -> None:
     settings = get_settings()
     configure_engine(settings.database_url)
@@ -140,10 +151,32 @@ def process_job(job_id: uuid.UUID) -> None:
         return
 
     params = job.params or {}
+    multicat_video_only = _coerce_job_bool(params.get("multicat_video_only", False))
+    if multicat_video_only and not settings.enable_multicat_video:
+        job.status = "failed"
+        job.finished_at = _utcnow()
+        job.error_type = "config_error"
+        job.error_message = (
+            "multicat mode disabled on server (ENABLE_MULTICAT_VIDEO=0)"
+        )
+        db.commit()
+        db.close()
+        return
+
     device = str(params.get("device", "auto"))
     cat_threshold = float(params.get("cat_threshold", 0.5))
     split_window_sec = float(params.get("split_window_sec", 0.0))
     split_step_sec = float(params.get("split_step_sec", 0.0))
+    multicat_max_cats = int(params.get("multicat_max_cats", 8))
+    multicat_min_track_coverage = float(
+        params.get("multicat_min_track_coverage", 0.15)
+    )
+    multicat_decision_threshold = float(
+        params.get("multicat_decision_threshold", 0.5)
+    )
+    multicat_summary_strategy = str(
+        params.get("multicat_summary_strategy", "coverage_weighted_mean")
+    )
     video_path = Path(job.input_video_path)
     stem = video_path.stem
     split_enabled = split_window_sec > 0 and split_step_sec > 0
@@ -174,6 +207,11 @@ def process_job(job_id: uuid.UUID) -> None:
                 split_step_sec=split_step_sec,
                 output_dir=settings.pipeline_output_dir,
                 timeout_sec=settings.job_timeout_sec,
+                multicat_video_only=multicat_video_only,
+                multicat_max_cats=multicat_max_cats,
+                multicat_min_track_coverage=multicat_min_track_coverage,
+                multicat_decision_threshold=multicat_decision_threshold,
+                multicat_summary_strategy=multicat_summary_strategy,
             )
         except subprocess.TimeoutExpired as e:
             error_box.append(e)

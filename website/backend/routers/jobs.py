@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import logging
 import shutil
 import uuid
 from pathlib import Path
@@ -25,9 +26,12 @@ from backend.services.job_paths import (
 from backend.settings import Settings, get_settings
 from db.models import Job
 from db.session import get_session_maker
+from shared.multicat_params import VALID_MULTICAT_SUMMARY_STRATEGIES, parse_form_bool
 from shared.normalize import categorize_run_dir_artifacts, normalize_pipeline_result
 from shared.progress import apply_monotonic_progress, slack_line_event
 from shared.video_probe import probe_video_duration_sec
+
+logger = logging.getLogger(__name__)
 
 router = APIRouter(prefix="/jobs", tags=["jobs"])
 
@@ -56,11 +60,70 @@ async def create_job(
     cat_threshold: float = Form(0.5),
     split_window_sec: float = Form(0.0),
     split_step_sec: float = Form(0.0),
+    multicat_video_only: str = Form("false"),
+    multicat_max_cats: str | None = Form(None),
+    multicat_min_track_coverage: str | None = Form(None),
+    multicat_decision_threshold: str | None = Form(None),
+    multicat_summary_strategy: str | None = Form(None),
     video_path: str | None = Form(None),
     file: UploadFile | None = File(None),
 ):
     if mode not in ("upload", "local_path"):
         raise HTTPException(400, "mode must be upload or local_path")
+
+    mvo = parse_form_bool(multicat_video_only)
+    logger.info(
+        "MULTICAT DEBUG: raw_form=%r parsed=%s", multicat_video_only, mvo
+    )
+    if mvo and not settings.enable_multicat_video:
+        raise HTTPException(
+            400,
+            "multicat video mode is disabled (set ENABLE_MULTICAT_VIDEO=1)",
+        )
+
+    try:
+        m_max = (
+            int(multicat_max_cats)
+            if multicat_max_cats not in (None, "")
+            else settings.multicat_max_cats_default
+        )
+    except ValueError as e:
+        raise HTTPException(400, "invalid multicat_max_cats") from e
+    if m_max < 1 or m_max > 32:
+        raise HTTPException(400, "multicat_max_cats must be between 1 and 32")
+
+    try:
+        m_cov = (
+            float(multicat_min_track_coverage)
+            if multicat_min_track_coverage not in (None, "")
+            else settings.multicat_min_track_coverage_default
+        )
+    except ValueError as e:
+        raise HTTPException(400, "invalid multicat_min_track_coverage") from e
+    if m_cov <= 0 or m_cov > 1.0:
+        raise HTTPException(
+            400, "multicat_min_track_coverage must be in (0, 1]"
+        )
+
+    try:
+        m_pain_th = (
+            float(multicat_decision_threshold)
+            if multicat_decision_threshold not in (None, "")
+            else settings.multicat_decision_threshold_default
+        )
+    except ValueError as e:
+        raise HTTPException(400, "invalid multicat_decision_threshold") from e
+    if m_pain_th <= 0 or m_pain_th >= 1.0:
+        raise HTTPException(
+            400, "multicat_decision_threshold must be in (0, 1)"
+        )
+
+    m_strat = (
+        (multicat_summary_strategy or "").strip()
+        or settings.multicat_summary_strategy_default
+    )
+    if m_strat not in VALID_MULTICAT_SUMMARY_STRATEGIES:
+        raise HTTPException(400, f"invalid multicat_summary_strategy: {m_strat!r}")
 
     job = Job(
         id=uuid.uuid4(),
@@ -72,6 +135,11 @@ async def create_job(
             "split_window_sec": split_window_sec,
             "split_step_sec": split_step_sec,
             "mode": mode,
+            "multicat_video_only": mvo,
+            "multicat_max_cats": m_max,
+            "multicat_min_track_coverage": m_cov,
+            "multicat_decision_threshold": m_pain_th,
+            "multicat_summary_strategy": m_strat,
         },
         progress=apply_monotonic_progress(
             {},
@@ -177,6 +245,7 @@ def get_job(job_id: str, db: Session = Depends(get_db)):
     return {
         "id": str(job.id),
         "status": job.status,
+        "params": job.params or {},
         "progress": {
             "stage": prog.get("stage"),
             "window_idx": prog.get("window_idx"),

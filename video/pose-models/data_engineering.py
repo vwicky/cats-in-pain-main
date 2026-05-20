@@ -163,8 +163,9 @@ def load_and_normalize_pose(
             True = real frame, False = padded
             If mask_path is None: all True (assume all real)
 
-    Never raises — on any error returns zeros array + all-False mask
-    and logs a warning with the pose_path.
+    On load/shape/file errors returns zeros array + all-False mask and logs a warning.
+    Configuration errors (e.g. missing ``cfg["normalization"]``) are logged and
+    re-raised so callers never get a silent all-zero tensor from a mis-built config.
     """
     n_frames = int(cfg["data"]["n_frames"])
     n_kp = int(cfg["data"]["n_keypoints"])
@@ -226,6 +227,13 @@ def load_and_normalize_pose(
 
         p[~mfull] = 0.0
         return p.astype(np.float32), mfull
+    except (KeyError, TypeError) as e:
+        logger.error(
+            "load_and_normalize_pose: invalid cfg or unexpected types for %s: %s",
+            pose_path,
+            e,
+        )
+        raise
     except Exception as e:
         logger.warning("load_and_normalize_pose failed for %s: %s", pose_path, e)
         c_out = 6 if use_kinematics else 3

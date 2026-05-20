@@ -29,6 +29,12 @@ export default function UploadPage() {
   const [catThreshold, setCatThreshold] = useState(0.5);
   const [winSec, setWinSec] = useState(6);
   const [stepSec, setStepSec] = useState(3);
+  const [multicatVideoOnly, setMulticatVideoOnly] = useState(false);
+  const [multicatAdvOpen, setMulticatAdvOpen] = useState(false);
+  const [multicatMaxCats, setMulticatMaxCats] = useState(8);
+  const [multicatMinCoverage, setMulticatMinCoverage] = useState(0.15);
+  const [multicatPainTh, setMulticatPainTh] = useState(0.5);
+  const [multicatStrategy, setMulticatStrategy] = useState("coverage_weighted_mean");
   const [busy, setBusy] = useState(false);
   const [err, setErr] = useState<string | null>(null);
 
@@ -65,6 +71,17 @@ export default function UploadPage() {
       fd.append("cat_threshold", String(catThreshold));
       fd.append("split_window_sec", String(winSec));
       fd.append("split_step_sec", String(stepSec));
+      console.log(
+        "PRE-APPEND multicat state:",
+        multicatVideoOnly,
+        "fd entries:",
+        [...fd.entries()].filter(([k]) => k === "multicat_video_only"),
+      );
+      fd.append("multicat_video_only", multicatVideoOnly ? "true" : "false");
+      fd.append("multicat_max_cats", String(multicatMaxCats));
+      fd.append("multicat_min_track_coverage", String(multicatMinCoverage));
+      fd.append("multicat_decision_threshold", String(multicatPainTh));
+      fd.append("multicat_summary_strategy", multicatStrategy);
       if (mode === "upload") {
         if (!file) throw new Error("Choose a video file");
         fd.append("file", file);
@@ -121,6 +138,86 @@ export default function UploadPage() {
                 placeholder="/path/to/video.mp4"
                 className="w-full bg-white dark:bg-slate-950 border border-slate-300 dark:border-slate-700 rounded px-3 py-2 text-sm"
               />
+            </div>
+          )}
+
+          <label className="flex items-start gap-3 cursor-pointer">
+            <input
+              type="checkbox"
+              checked={multicatVideoOnly}
+              onChange={(e) => setMulticatVideoOnly(e.target.checked)}
+              className="mt-1 rounded border-slate-400"
+            />
+            <span>
+              <span className="block text-sm font-medium text-slate-800 dark:text-slate-200">
+                Multiple cats — video-only pipeline
+              </span>
+              <span className="block text-xs text-slate-600 dark:text-slate-500 mt-0.5">
+                Forces the video (pose + ST-GCN) branch for every clip and scores each SORT track separately. YAMNet
+                P(cat) is still logged but does not choose the audio branch. Unchecked = default single-pose routing
+                (audio or video).
+              </span>
+            </span>
+          </label>
+          <p className="text-xs text-red-500">multicat state: {String(multicatVideoOnly)}</p>
+
+          {multicatVideoOnly && (
+            <div className="border border-slate-200 dark:border-slate-700 rounded-md p-3 space-y-3">
+              <button
+                type="button"
+                onClick={() => setMulticatAdvOpen((o) => !o)}
+                className="text-xs text-emerald-600 dark:text-emerald-400 hover:underline"
+              >
+                {multicatAdvOpen ? "Hide" : "Show"} multicat advanced parameters
+              </button>
+              {multicatAdvOpen && (
+                <div className="grid grid-cols-2 gap-3">
+                  <div>
+                    <label className="text-xs text-slate-600 dark:text-slate-500">multicat_max_cats</label>
+                    <input
+                      type="number"
+                      min={1}
+                      max={32}
+                      value={multicatMaxCats}
+                      onChange={(e) => setMulticatMaxCats(parseInt(e.target.value, 10) || 8)}
+                      className="w-full mt-1 bg-white dark:bg-slate-950 border border-slate-300 dark:border-slate-700 rounded px-2 py-1.5 text-sm"
+                    />
+                  </div>
+                  <div>
+                    <label className="text-xs text-slate-600 dark:text-slate-500">min_track_coverage</label>
+                    <input
+                      type="number"
+                      step="0.05"
+                      value={multicatMinCoverage}
+                      onChange={(e) => setMulticatMinCoverage(parseFloat(e.target.value))}
+                      className="w-full mt-1 bg-white dark:bg-slate-950 border border-slate-300 dark:border-slate-700 rounded px-2 py-1.5 text-sm"
+                    />
+                  </div>
+                  <div>
+                    <label className="text-xs text-slate-600 dark:text-slate-500">pain decision threshold</label>
+                    <input
+                      type="number"
+                      step="0.05"
+                      value={multicatPainTh}
+                      onChange={(e) => setMulticatPainTh(parseFloat(e.target.value))}
+                      className="w-full mt-1 bg-white dark:bg-slate-950 border border-slate-300 dark:border-slate-700 rounded px-2 py-1.5 text-sm"
+                    />
+                  </div>
+                  <div className="col-span-2">
+                    <label className="text-xs text-slate-600 dark:text-slate-500">summary strategy</label>
+                    <select
+                      value={multicatStrategy}
+                      onChange={(e) => setMulticatStrategy(e.target.value)}
+                      className="w-full mt-1 bg-white dark:bg-slate-950 border border-slate-300 dark:border-slate-700 rounded px-2 py-1.5 text-sm"
+                    >
+                      <option value="coverage_weighted_mean">coverage_weighted_mean (default)</option>
+                      <option value="mean">mean</option>
+                      <option value="max">max</option>
+                      <option value="majority_above_threshold">majority_above_threshold (prevalence)</option>
+                    </select>
+                  </div>
+                </div>
+              )}
             </div>
           )}
 

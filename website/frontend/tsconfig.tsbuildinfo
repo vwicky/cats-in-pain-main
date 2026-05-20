@@ -1,1 +1,1 @@
-{"root":["./src/app.tsx","./src/api.ts","./src/main.tsx","./src/vite-env.d.ts","./src/pages/jobpage.tsx","./src/pages/resultspage.tsx","./src/pages/uploadpage.tsx","../shared/api-types.ts"],"version":"5.6.3"}
+{"root":["./src/app.tsx","./src/api.ts","./src/main.tsx","./src/vite-env.d.ts","./src/components/catresultpanel.tsx","./src/pages/jobpage.tsx","./src/pages/resultspage.tsx","./src/pages/uploadpage.tsx","../shared/api-types.ts"],"version":"5.6.3"}

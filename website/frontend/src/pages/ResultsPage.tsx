@@ -1,8 +1,13 @@
-import type { ReactNode } from "react";
-import { useEffect, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import type { NormalizedResult, NormalizedWindowRow } from "../../../shared/api-types";
+import type {
+  NormalizedCatResult,
+  NormalizedCatRow,
+  NormalizedResult,
+  NormalizedWindowRow,
+} from "../../../shared/api-types";
 import { artifactUrl, fetchArtifacts, fetchResult } from "../api";
+import { CatResultPanel, ProbabilityBars } from "../components/CatResultPanel";
 
 function pad3(n: unknown): string {
   const x = typeof n === "number" ? n : parseInt(String(n), 10);
@@ -21,46 +26,76 @@ function toProbMap(value: unknown): Record<string, number> {
 }
 
 function decisionBadge(decision: string): string {
-  if (decision === "pain") return "bg-red-500/15 border border-red-400/40 text-red-700 dark:text-red-300";
-  if (decision === "non_pain") return "bg-emerald-500/15 border border-emerald-400/40 text-emerald-700 dark:text-emerald-300";
+  const d = decision.toLowerCase();
+  if (d === "pain") return "bg-red-500/15 border border-red-400/40 text-red-700 dark:text-red-300";
+  if (d === "non_pain") return "bg-emerald-500/15 border border-emerald-400/40 text-emerald-700 dark:text-emerald-300";
   return "bg-slate-500/10 border border-slate-300 dark:border-slate-600 text-slate-600 dark:text-slate-300";
+}
+
+/** Human-readable verdict for UI (backend still uses pain / non_pain). */
+function decisionLabelForDisplay(decision: string): string {
+  const d = decision.toLowerCase();
+  if (d === "pain") return "Pain";
+  if (d === "non_pain") return "No pain";
+  return decision;
+}
+
+function formatSplitSummary(split: Record<string, unknown> | undefined): string | null {
+  if (!split || typeof split !== "object") return null;
+  const parts: string[] = [];
+  for (const [k, v] of Object.entries(split)) {
+    if (v === undefined || v === null) continue;
+    const label = k.replace(/_/g, " ");
+    parts.push(`${label}: ${String(v)}`);
+  }
+  return parts.length ? parts.join(" · ") : null;
+}
+
+/** Left accent for per-cat verdict rows (Section A). */
+function verdictStripeClass(decision: string): string {
+  const d = decision.toLowerCase();
+  if (d === "pain") return "border-l-rose-500 dark:border-l-rose-400";
+  if (d === "non_pain") return "border-l-emerald-500 dark:border-l-emerald-400";
+  return "border-l-slate-400 dark:border-l-slate-500";
+}
+
+/** Fill for Summary per-cat P(pain) micro-bar. */
+function pPainBarFillClass(decision: string): string {
+  const d = decision.toLowerCase();
+  if (d === "pain") return "bg-rose-400 dark:bg-rose-500";
+  if (d === "non_pain") return "bg-emerald-400 dark:bg-emerald-500";
+  return "bg-slate-400 dark:bg-slate-500";
+}
+
+function SectionLabel({
+  id,
+  title,
+  kicker,
+}: {
+  id: string;
+  title: string;
+  /** Short line under the title; omit for a tighter heading. */
+  kicker?: string | null;
+}) {
+  return (
+    <div className="flex items-center gap-3 py-1">
+      <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-slate-200/90 text-[11px] font-bold text-slate-700 dark:bg-slate-800 dark:text-slate-200">
+        {id}
+      </span>
+      <div className="min-w-0">
+        <h2 className="text-sm font-semibold tracking-tight text-slate-900 dark:text-slate-100">{title}</h2>
+        {kicker ? (
+          <p className="text-[11px] leading-snug text-slate-500 dark:text-slate-400 mt-0.5">{kicker}</p>
+        ) : null}
+      </div>
+    </div>
+  );
 }
 
 function branchBadge(branch: string): string {
   return branch === "audio"
     ? "bg-sky-500/15 border border-sky-400/40 text-sky-700 dark:text-sky-300"
     : "bg-violet-500/15 border border-violet-400/40 text-violet-700 dark:text-violet-300";
-}
-
-function formatPairwiseLabel(label: string): string {
-  const parts = label.split("|");
-  if (parts.length !== 2) return label;
-  const [left, right] = parts;
-  if (left === "Paining") return `P(Paining over ${right})`;
-  if (right === "Paining") return `P(Paining over ${left})`;
-  return `P(${left} over ${right})`;
-}
-
-function metaClassLabelClass(label: string): string {
-  const low = label.toLowerCase();
-  if (low.includes("non_pain")) {
-    return "text-emerald-700 dark:text-emerald-300";
-  }
-  if (low.includes("pain")) {
-    return "text-rose-700 dark:text-rose-300";
-  }
-  return "";
-}
-
-function metaWeightPillClass(w: number): string {
-  const a = Math.abs(w);
-  if (a < 0.05) {
-    return "bg-slate-500/15 text-slate-700 dark:text-slate-300 border border-slate-400/35";
-  }
-  if (w > 0) {
-    return "bg-rose-500/20 text-rose-800 dark:text-rose-200 border border-rose-400/45";
-  }
-  return "bg-emerald-500/15 text-emerald-800 dark:text-emerald-200 border border-emerald-400/40";
 }
 
 function toFriendlyMetaClassProbabilities(
@@ -96,88 +131,6 @@ function toFriendlyMetaClassProbabilities(
     out[friendly] = v;
   }
   return out;
-}
-
-function ProbabilityBars({
-  title,
-  probs,
-  colorClass,
-  limit = 999,
-  formatLabel = (label: string) => label,
-  wrapLabels = false,
-  formatRightMeta = () => null,
-  accentRightColumn = false,
-  rightPctClassName,
-}: {
-  title: string;
-  probs: Record<string, number>;
-  colorClass: string;
-  limit?: number;
-  formatLabel?: (label: string, p: number) => ReactNode;
-  wrapLabels?: boolean;
-  formatRightMeta?: (label: string, p: number) => ReactNode;
-  accentRightColumn?: boolean;
-  rightPctClassName?: (label: string, p: number) => string;
-}) {
-  const [animateIn, setAnimateIn] = useState(false);
-  const entries = Object.entries(probs)
-    .sort((a, b) => b[1] - a[1])
-    .slice(0, limit);
-  if (entries.length === 0) return null;
-
-  useEffect(() => {
-    setAnimateIn(false);
-    const id = requestAnimationFrame(() => setAnimateIn(true));
-    return () => cancelAnimationFrame(id);
-  }, [title, probs, limit]);
-
-  return (
-    <div className="space-y-2">
-      <h4 className="text-[11px] uppercase tracking-[0.16em] text-slate-600 dark:text-slate-500">{title}</h4>
-      <div className="space-y-1.5">
-        {entries.map(([label, p]) => {
-          const pct = Math.max(0, Math.min(100, p * 100));
-          const rightMeta = formatRightMeta(label, p);
-          const pctExtra = rightPctClassName?.(label, p) ?? "";
-          const rightColTone =
-            pctExtra ||
-            (accentRightColumn ? "text-violet-700 dark:text-violet-300" : "text-slate-600 dark:text-slate-400");
-          return (
-            <div key={label} className="grid grid-cols-[1fr_minmax(4.75rem,auto)] items-center gap-2">
-              <div className="min-w-0">
-                <div className="flex items-center justify-between text-[11px] text-slate-600 dark:text-slate-400 leading-none">
-                  <span className={wrapLabels ? "whitespace-normal break-words pr-2 leading-snug" : "truncate"}>
-                    {formatLabel(label, p)}
-                  </span>
-                  <span
-                    className={`font-mono text-slate-700 dark:text-slate-300 tabular-nums transition-opacity duration-500 ${
-                      animateIn ? "opacity-100" : "opacity-0"
-                    }`}
-                  >
-                    {p.toFixed(4)}
-                  </span>
-                </div>
-                <div className="mt-1 h-1.5 bg-slate-200 dark:bg-slate-800/95 rounded overflow-hidden">
-                  <div
-                    className={`h-full ${colorClass} transition-[width] duration-700 ease-out`}
-                    style={{ width: animateIn ? `${pct}%` : "0%" }}
-                  />
-                </div>
-              </div>
-              <div
-                className={`text-[10px] font-mono text-right tabular-nums leading-tight min-w-[4.5rem] ${rightColTone}`}
-              >
-                <div className="font-medium">{pct.toFixed(1)}%</div>
-                {rightMeta != null && rightMeta !== "" && (
-                  <div className="mt-0.5 flex justify-end">{rightMeta}</div>
-                )}
-              </div>
-            </div>
-          );
-        })}
-      </div>
-    </div>
-  );
 }
 
 function ClipPainOverview({ windows }: { windows: NormalizedWindowRow[] }) {
@@ -294,71 +247,398 @@ export default function ResultsPage() {
     | undefined;
   const totalSec = timing?.total;
 
-  const finalDecision = String(res.final_decision ?? "—");
+  const windows = (res.windows ?? []) as NormalizedWindowRow[];
+  const isSplit = (res.raw as Record<string, unknown>)?.mode === "split_sliding_windows";
+  const rawRoot = res.raw as Record<string, unknown>;
+  const mparamsRaw = (rawRoot.multicat_params ?? {}) as Record<string, unknown>;
+  const isMulticatJob =
+    Boolean(res.multicat_video_only) || Boolean(mparamsRaw.multicat_video_only);
+  const multicatSingle = Boolean(res.multicat_video_only) && !isSplit;
+  const topCats = (res.cats ?? []) as NormalizedCatResult[];
+
+  /** Section A rows: single-video uses ``topCats``; split uses all ``windows[].cats``. */
+  const sectionACatRows: {
+    cat: NormalizedCatRow;
+    key: string;
+    /** Split multicat: subheader label for first cat in each window. */
+    windowHeaderText: string | null;
+    /** 1-based cat index within the clip (single) or within the window (split). */
+    catSlot: number;
+  }[] = (() => {
+    if (multicatSingle && topCats.length > 0) {
+      return topCats.map((cat, i) => ({
+        cat,
+        key: `single-${i}`,
+        windowHeaderText: null,
+        catSlot: i + 1,
+      }));
+    }
+    if (isSplit && isMulticatJob) {
+      const out: {
+        cat: NormalizedCatRow;
+        key: string;
+        windowHeaderText: string | null;
+        catSlot: number;
+      }[] = [];
+      let serial = 0;
+      windows.forEach((w, wi) => {
+        const wcats = w.cats;
+        if (!wcats?.length) return;
+        const wIdx = w.window_index != null ? Number(w.window_index) : wi;
+        const start = w.start_sec != null ? Number(w.start_sec) : null;
+        const end = w.end_sec != null ? Number(w.end_sec) : null;
+        const timePart =
+          start != null && end != null && !Number.isNaN(start) && !Number.isNaN(end)
+            ? ` · [${start.toFixed(2)}–${end.toFixed(2)}]s`
+            : "";
+        const headerText = `Window ${wIdx + 1}${timePart}`;
+        wcats.forEach((cat, ci) => {
+          const c = cat as NormalizedCatRow;
+          out.push({
+            cat: c,
+            key: `w${wIdx}-c${ci}-${serial++}`,
+            windowHeaderText: ci === 0 ? headerText : null,
+            catSlot: ci + 1,
+          });
+        });
+      });
+      return out;
+    }
+    return [];
+  })();
+
+  const mcCount =
+    res.multicat_cat_count != null && !Number.isNaN(Number(res.multicat_cat_count))
+      ? Number(res.multicat_cat_count)
+      : topCats.length;
+
+  const catPainValues = sectionACatRows
+    .map(({ cat }) => (cat.p_pain != null ? Number(cat.p_pain) : NaN))
+    .filter((p) => !Number.isNaN(p));
+  const mcPainMaxFromCats = catPainValues.length ? Math.max(...catPainValues) : null;
+  const mcPainMeanFromCats = catPainValues.length
+    ? catPainValues.reduce((a, b) => a + b, 0) / catPainValues.length
+    : null;
+  const showPerCatVerdicts = sectionACatRows.length > 0;
+
+  const verdictDisplay =
+    multicatSingle || (isSplit && isMulticatJob) ? "—" : String(res.final_decision ?? "—");
+  const finalDecision = verdictDisplay;
   const pPainMax = res.p_pain_max != null ? Number(res.p_pain_max) : null;
   const pPainMean = res.p_pain_mean != null ? Number(res.p_pain_mean) : null;
+  const pPainHeadline = res.p_pain_headline != null ? Number(res.p_pain_headline) : null;
+  const prevLabel = summary.multicat_clip_prevalence_label
+    ? String(summary.multicat_clip_prevalence_label)
+    : null;
+  const mStrat = (summary.multicat_params as Record<string, unknown> | undefined)?.multicat_summary_strategy;
+  const summaryScalar = pPainHeadline != null ? pPainHeadline : pPainMax;
   const confidence =
-    pPainMax == null ? null : finalDecision === "non_pain" ? 1 - pPainMax : pPainMax;
+    showPerCatVerdicts || summaryScalar == null
+      ? null
+      : finalDecision === "non_pain"
+        ? 1 - summaryScalar
+        : summaryScalar;
   const confidencePct = confidence == null ? null : Math.max(0, Math.min(100, confidence * 100));
   const riskLabel =
     confidencePct == null ? "unknown" : confidencePct >= 75 ? "low risk" : confidencePct >= 50 ? "medium risk" : "high risk";
 
-  const windows = (res.windows ?? []) as NormalizedWindowRow[];
-  const isSplit = (res.raw as Record<string, unknown>)?.mode === "split_sliding_windows";
+  const splitSummaryLine = formatSplitSummary(split);
+  const mcVerdictPainCount = showPerCatVerdicts
+    ? sectionACatRows.filter(({ cat }) => String(cat.decision ?? "").toLowerCase() === "pain").length
+    : 0;
+  const mcVerdictNonPainCount = showPerCatVerdicts
+    ? sectionACatRows.filter(({ cat }) => String(cat.decision ?? "").toLowerCase() === "non_pain").length
+    : 0;
+  const mcVerdictOtherCount = showPerCatVerdicts
+    ? sectionACatRows.length - mcVerdictPainCount - mcVerdictNonPainCount
+    : 0;
+
+  const verdictDisplayFriendly =
+    verdictDisplay === "—" ? "—" : decisionLabelForDisplay(String(verdictDisplay));
+  const confidenceBarClass =
+    String(finalDecision).toLowerCase() === "pain"
+      ? "bg-rose-400 dark:bg-rose-500"
+      : String(finalDecision).toLowerCase() === "non_pain"
+        ? "bg-emerald-400 dark:bg-emerald-500"
+        : "bg-slate-400 dark:bg-slate-500";
+
   const showClipOverview = windows.length > 1 || isSplit;
 
   return (
     <div className="space-y-6">
-      <section className="text-[11px] tracking-[0.16em] uppercase text-slate-600 dark:text-slate-500">A · Summary</section>
-      <section className="rounded-2xl border border-slate-200 dark:border-slate-700/70 bg-white dark:bg-slate-900/80 p-5 shadow-[0_0_0_1px_rgba(15,23,42,0.08)] dark:shadow-[0_0_0_1px_rgba(15,23,42,0.4)]">
-        <div className="grid md:grid-cols-[2fr_1fr_1fr] gap-5">
-          <div className="border-r border-slate-200 dark:border-slate-800 pr-4">
-            <div className="text-[10px] uppercase tracking-[0.16em] text-slate-600 dark:text-slate-500 mb-2">Final verdict</div>
-            <div className="flex items-center gap-3">
-              <div className={`text-4xl font-semibold ${finalDecision === "pain" ? "text-red-300" : "text-emerald-300"}`}>
-                {finalDecision}
-              </div>
-              <span className={`text-[11px] px-3 py-1 rounded-full ${decisionBadge(finalDecision)}`}>
-                {riskLabel}
-              </span>
-            </div>
-            <div className="mt-3 text-[11px] text-slate-600 dark:text-slate-500">
-              Pain confidence — {confidencePct != null ? `${confidencePct.toFixed(1)}%` : "—"}
-            </div>
-            <div className="mt-1 h-1.5 rounded-full bg-slate-200 dark:bg-slate-800 overflow-hidden max-w-56">
-              <div className="h-full bg-emerald-400" style={{ width: `${confidencePct ?? 0}%` }} />
-            </div>
-          </div>
-
+      <SectionLabel
+        id="A"
+        title="Summary"
+        kicker="Verdict, pain scores, and how long the run took."
+      />
+      {isMulticatJob && (
+        <div
+          className="flex gap-3 rounded-xl border border-sky-200/90 dark:border-sky-500/40 bg-gradient-to-r from-sky-50/95 to-sky-50/40 dark:from-sky-950/50 dark:to-sky-950/25 px-4 py-3 text-[13px] leading-snug text-sky-950 dark:text-sky-100 shadow-sm"
+          role="status"
+        >
+          <span
+            className="mt-0.5 h-2 w-2 shrink-0 rounded-full bg-sky-500 dark:bg-sky-400"
+            aria-hidden
+          />
           <div>
-            <div className="text-[10px] uppercase tracking-[0.16em] text-slate-600 dark:text-slate-500">Max P(pain)</div>
-            <div className="mt-2 text-3xl font-semibold text-emerald-600 dark:text-emerald-300 font-mono tabular-nums">
-              {pPainMax != null ? pPainMax.toFixed(4) : "—"}
-            </div>
-          </div>
-
-          <div>
-            <div className="text-[10px] uppercase tracking-[0.16em] text-slate-600 dark:text-slate-500">Mean P(pain)</div>
-            <div className="mt-2 text-3xl font-semibold text-emerald-600 dark:text-emerald-300 font-mono tabular-nums">
-              {pPainMean != null ? pPainMean.toFixed(4) : "—"}
-            </div>
+            {isSplit
+              ? `Multicat mode · ${windows.length} window(s)${
+                  sectionACatRows.length ? ` · ${sectionACatRows.length} cat track(s) scored` : ""
+                }`
+              : `${mcCount} cat${mcCount === 1 ? "" : "s"} in this clip (multicat mode).`}
           </div>
         </div>
-        <div className="mt-3 flex flex-wrap gap-4 text-[11px] text-slate-600 dark:text-slate-500">
+      )}
+      <section
+        className="rounded-2xl border border-slate-200 dark:border-slate-700/70 bg-white dark:bg-slate-900/80 p-5 shadow-[0_0_0_1px_rgba(15,23,42,0.08)] dark:shadow-[0_0_0_1px_rgba(15,23,42,0.4)]"
+        aria-labelledby="summary-card-title"
+      >
+        <h3 id="summary-card-title" className="sr-only">
+          Run summary
+        </h3>
+        <div className="grid gap-6 md:gap-6 md:grid-cols-[minmax(0,1.55fr)_minmax(0,0.85fr)_minmax(0,0.85fr)]">
+          <div className="space-y-0 md:border-r md:border-slate-200 dark:md:border-slate-800 md:pr-6 pb-6 md:pb-0 border-b md:border-b-0 border-slate-200 dark:border-slate-800">
+            {showPerCatVerdicts ? (
+              <>
+                <div className="text-[10px] uppercase tracking-[0.16em] text-slate-600 dark:text-slate-500 mb-1">
+                  Verdicts by cat
+                </div>
+                <p className="text-[11px] text-slate-500 dark:text-slate-400 mb-3 leading-relaxed">
+                  One meta-model label per tracked cat. There is no single combined clip verdict—compare tracks
+                  and windows below.
+                </p>
+                <div className="flex flex-wrap gap-1.5 mb-3" aria-label="Verdict counts">
+                  <span className="inline-flex items-center rounded-md bg-slate-100 dark:bg-slate-800/90 px-2 py-0.5 text-[10px] font-semibold text-slate-700 dark:text-slate-200 tabular-nums">
+                    {sectionACatRows.length} scored
+                  </span>
+                  {mcVerdictPainCount > 0 ? (
+                    <span className="inline-flex items-center rounded-md bg-red-500/10 border border-red-400/25 dark:border-red-500/30 px-2 py-0.5 text-[10px] font-medium text-red-800 dark:text-red-200 tabular-nums">
+                      {mcVerdictPainCount} pain
+                    </span>
+                  ) : null}
+                  {mcVerdictNonPainCount > 0 ? (
+                    <span className="inline-flex items-center rounded-md bg-emerald-500/10 border border-emerald-400/25 dark:border-emerald-500/30 px-2 py-0.5 text-[10px] font-medium text-emerald-800 dark:text-emerald-200 tabular-nums">
+                      {mcVerdictNonPainCount} no pain
+                    </span>
+                  ) : null}
+                  {mcVerdictOtherCount > 0 ? (
+                    <span className="inline-flex items-center rounded-md bg-slate-500/10 border border-slate-300/40 dark:border-slate-600/50 px-2 py-0.5 text-[10px] font-medium text-slate-600 dark:text-slate-300 tabular-nums">
+                      {mcVerdictOtherCount} other
+                    </span>
+                  ) : null}
+                </div>
+                <div className="rounded-lg border border-slate-200 dark:border-slate-700/70 overflow-x-auto">
+                  <table className="w-full min-w-[28rem] text-sm border-collapse">
+                    <caption className="sr-only">Per-cat meta-model verdicts and P(pain)</caption>
+                    <thead>
+                      <tr className="border-b border-slate-200 dark:border-slate-800 text-left text-slate-600 dark:text-slate-500 uppercase text-[10px] tracking-[0.16em]">
+                        <th className="pl-2 pr-1 py-2 font-medium w-10">#</th>
+                        <th className="px-2 py-2 font-medium w-11">Cat</th>
+                        <th className="px-2 py-2 font-medium min-w-[4.5rem]">Track</th>
+                        <th className="px-2 py-2 font-medium">Verdict</th>
+                        <th className="px-2 py-2 font-medium text-right min-w-[4.5rem]">P(pain)</th>
+                        <th className="px-2 py-2 font-medium w-24 min-w-[5.5rem]">
+                          <span className="sr-only">P(pain) bar</span>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {sectionACatRows.map((row, ri) => {
+                        const { cat, key, windowHeaderText, catSlot } = row;
+                        const dec = String(cat.decision ?? "—");
+                        const decShow = decisionLabelForDisplay(dec);
+                        const pp = cat.p_pain != null ? Number(cat.p_pain) : null;
+                        const ppPct =
+                          pp != null && !Number.isNaN(pp) ? Math.max(0, Math.min(100, pp * 100)) : null;
+                        const track = String(
+                          (cat as NormalizedCatResult).track_id ?? cat.local_track_id ?? "—",
+                        );
+                        return (
+                          <Fragment key={key}>
+                            {windowHeaderText ? (
+                              <tr className="bg-slate-100/95 dark:bg-slate-800/55 border-t border-slate-200 dark:border-slate-700/80">
+                                <td
+                                  colSpan={6}
+                                  className="px-2 py-1.5 text-[10px] font-semibold tracking-wide text-slate-700 dark:text-slate-300"
+                                >
+                                  {windowHeaderText}
+                                </td>
+                              </tr>
+                            ) : null}
+                            <tr className="border-t border-slate-200 dark:border-slate-800/70 hover:bg-slate-100 dark:hover:bg-slate-800/35">
+                              <td
+                                className={`border-l-4 pl-2 pr-1 py-1.5 font-mono text-[11px] text-slate-500 dark:text-slate-400 tabular-nums ${verdictStripeClass(dec)}`}
+                              >
+                                {ri + 1}
+                              </td>
+                              <td className="px-2 py-1.5 font-mono text-[11px] text-slate-700 dark:text-slate-300 tabular-nums">
+                                {catSlot}
+                              </td>
+                              <td
+                                className="px-2 py-1.5 font-mono text-[11px] text-slate-800 dark:text-slate-200 tabular-nums max-w-[7rem] truncate"
+                                title={track}
+                              >
+                                {track}
+                              </td>
+                              <td className="px-2 py-1.5">
+                                <span
+                                  className={`inline-block text-[10px] px-2 py-0.5 rounded-full font-medium whitespace-nowrap ${decisionBadge(dec)}`}
+                                  title={dec}
+                                >
+                                  {decShow}
+                                </span>
+                              </td>
+                              <td className="px-2 py-1.5 font-mono text-[11px] text-emerald-700 dark:text-emerald-300 tabular-nums text-right">
+                                {pp != null && !Number.isNaN(pp) ? pp.toFixed(4) : "—"}
+                              </td>
+                              <td className="px-2 py-1.5 w-24 min-w-[5.5rem]">
+                                <div
+                                  className="h-1.5 rounded-full bg-slate-200 dark:bg-slate-800 overflow-hidden"
+                                  title={
+                                    pp != null && !Number.isNaN(pp)
+                                      ? `P(pain) ${pp.toFixed(4)} (${((pp * 100).toFixed(1))}%)`
+                                      : undefined
+                                  }
+                                >
+                                  <div
+                                    className={`h-full min-w-0 ${pPainBarFillClass(dec)}`}
+                                    style={{ width: `${ppPct ?? 0}%` }}
+                                  />
+                                </div>
+                              </td>
+                            </tr>
+                          </Fragment>
+                        );
+                      })}
+                    </tbody>
+                  </table>
+                </div>
+              </>
+            ) : (
+              <>
+                <div className="text-[10px] uppercase tracking-[0.16em] text-slate-600 dark:text-slate-500 mb-1">
+                  Final verdict
+                </div>
+                <p className="text-[11px] text-slate-500 dark:text-slate-400 mb-3 leading-relaxed">
+                  Aggregate decision for this job. Confidence reflects how strongly the headline score supports
+                  that label.
+                </p>
+                <div className="flex flex-wrap items-center gap-3">
+                  <div
+                    className={`text-4xl font-semibold tracking-tight ${
+                      isMulticatJob && !showPerCatVerdicts
+                        ? "text-slate-400 dark:text-slate-500"
+                        : finalDecision === "pain"
+                          ? "text-rose-400 dark:text-rose-300"
+                          : "text-emerald-400 dark:text-emerald-300"
+                    }`}
+                  >
+                    {verdictDisplay === "—" ? "—" : verdictDisplayFriendly}
+                  </div>
+                  {(!isMulticatJob || (isSplit && isMulticatJob && !showPerCatVerdicts)) && (
+                    <span className={`text-[11px] px-3 py-1 rounded-full font-medium ${decisionBadge(finalDecision)}`}>
+                      {riskLabel}
+                    </span>
+                  )}
+                </div>
+                {isMulticatJob && !showPerCatVerdicts ? (
+                  <p className="mt-3 text-[11px] text-slate-600 dark:text-slate-400 leading-relaxed">
+                    No per-cat rows match the current filters (track threshold or window). Check the timeline and
+                    evidence sections for each window.
+                  </p>
+                ) : null}
+                <div className="mt-3 text-[11px] text-slate-600 dark:text-slate-500">
+                  <span className="font-medium text-slate-700 dark:text-slate-300">Confidence</span>
+                  {" — "}
+                  {confidencePct != null ? `${confidencePct.toFixed(1)}%` : "—"}
+                  {!isMulticatJob && mStrat === "majority_above_threshold" && (
+                    <span className="block mt-1.5 text-amber-800/90 dark:text-amber-200/90">
+                      Headline scalar is prevalence (fraction of cats above threshold), not mean P(pain).
+                    </span>
+                  )}
+                </div>
+                <div className="mt-2 h-2 rounded-full bg-slate-200 dark:bg-slate-800 overflow-hidden max-w-xs">
+                  <div
+                    className={`h-full ${confidenceBarClass} transition-[width] duration-500 ease-out`}
+                    style={{ width: `${confidencePct ?? 0}%` }}
+                  />
+                </div>
+              </>
+            )}
+          </div>
+
+          <div className="md:pt-1">
+            <div className="text-[10px] uppercase tracking-[0.16em] text-slate-600 dark:text-slate-500">
+              {showPerCatVerdicts ? "Peak P(pain)" : "Headline / max P(pain)"}
+            </div>
+            <div className="mt-1.5 text-3xl font-semibold text-emerald-700 dark:text-emerald-300 font-mono tabular-nums">
+              {showPerCatVerdicts
+                ? mcPainMaxFromCats != null
+                  ? mcPainMaxFromCats.toFixed(4)
+                  : "—"
+                : pPainHeadline != null
+                  ? pPainHeadline.toFixed(4)
+                  : pPainMax != null
+                    ? pPainMax.toFixed(4)
+                    : "—"}
+            </div>
+            <p className="mt-2 text-[11px] text-slate-500 dark:text-slate-400 leading-relaxed">
+              {showPerCatVerdicts
+                ? "Largest meta-model pain probability among the scored tracks listed at left."
+                : "Primary value shown in the clip header. If headline differs from max cat, both are shown below."}
+            </p>
+            {!showPerCatVerdicts &&
+              pPainHeadline != null &&
+              pPainMax != null &&
+              Math.abs(pPainHeadline - pPainMax) > 1e-6 && (
+                <div className="text-[10px] text-slate-500 dark:text-slate-400 mt-2 font-mono">
+                  Max per cat {pPainMax.toFixed(4)}
+                </div>
+              )}
+          </div>
+
+          <div className="md:pt-1">
+            <div className="text-[10px] uppercase tracking-[0.16em] text-slate-600 dark:text-slate-500">
+              {showPerCatVerdicts ? "Average P(pain)" : "Mean P(pain)"}
+            </div>
+            <div className="mt-1.5 text-3xl font-semibold text-emerald-700 dark:text-emerald-300 font-mono tabular-nums">
+              {showPerCatVerdicts
+                ? mcPainMeanFromCats != null
+                  ? mcPainMeanFromCats.toFixed(4)
+                  : "—"
+                : pPainMean != null
+                  ? pPainMean.toFixed(4)
+                  : "—"}
+            </div>
+            <p className="mt-2 text-[11px] text-slate-500 dark:text-slate-400 leading-relaxed">
+              {showPerCatVerdicts
+                ? "Simple mean of P(pain) over the same scored tracks—not a pooled model probability."
+                : "Average pain probability across cats or windows for this job."}
+            </p>
+          </div>
+        </div>
+        <div className="mt-5 pt-4 border-t border-slate-200 dark:border-slate-800 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-6 sm:gap-y-2 text-[11px] text-slate-600 dark:text-slate-500">
           <span>
-            Total runtime: <span className="text-slate-700 dark:text-slate-300 font-mono">{totalSec != null ? `${Number(totalSec).toFixed(2)}s` : "—"}</span>
-          </span>
-          {split && (
-            <span>
-              split windows: <span className="text-slate-700 dark:text-slate-300 font-mono">{JSON.stringify(split)}</span>
+            <span className="text-slate-500 dark:text-slate-500">Runtime</span>{" "}
+            <span className="text-slate-800 dark:text-slate-200 font-mono tabular-nums">
+              {totalSec != null ? `${Number(totalSec).toFixed(2)}s` : "—"}
             </span>
-          )}
+          </span>
+          {splitSummaryLine ? (
+            <span className="min-w-0">
+              <span className="text-slate-500 dark:text-slate-500">Split</span>{" "}
+              <span className="text-slate-800 dark:text-slate-200">{splitSummaryLine}</span>
+            </span>
+          ) : null}
+          {!isMulticatJob && prevLabel ? (
+            <span className="text-slate-800 dark:text-slate-200">{prevLabel}</span>
+          ) : null}
         </div>
       </section>
 
       {showClipOverview && <ClipPainOverview windows={windows} />}
 
-      <section className="text-[11px] tracking-[0.16em] uppercase text-slate-600 dark:text-slate-500">B · Timeline</section>
+      <SectionLabel id="B" title="Timeline" />
       <section className="overflow-x-auto rounded-2xl border border-slate-200 dark:border-slate-700/70 bg-white dark:bg-slate-900/80">
         <table className="w-full text-sm">
           <thead className="text-left text-slate-600 dark:text-slate-500 uppercase text-[10px] tracking-[0.16em]">
@@ -436,7 +716,7 @@ export default function ResultsPage() {
         </table>
       </section>
 
-      <section className="text-[11px] tracking-[0.16em] uppercase text-slate-600 dark:text-slate-500">C · Evidence & Probabilities</section>
+      <SectionLabel id="C" title="Evidence & Probabilities" />
       <section className="space-y-4">
         {windows.map((w, i) => {
           const branch = String(w.branch ?? "");
@@ -473,7 +753,7 @@ export default function ResultsPage() {
                 <span className={`px-2 py-0.5 rounded-full ${branchBadge(branch)}`}>{branch}</span>
               </div>
 
-              {branch === "video" && (
+              {branch === "video" && !multicatSingle && (
                 <div>
                   <div className="text-[11px] text-slate-600 dark:text-slate-500 mb-1">pose video</div>
                   <video
@@ -482,6 +762,11 @@ export default function ResultsPage() {
                     className="w-full max-w-lg rounded-lg border border-slate-300 dark:border-slate-700"
                   />
                 </div>
+              )}
+              {branch === "video" && multicatSingle && topCats.length > 0 && (
+                <p className="text-[11px] text-slate-600 dark:text-slate-500">
+                  Cropped pose videos are shown with each cat below.
+                </p>
               )}
               {branch === "audio" && sep && (
                 <div>
@@ -500,50 +785,99 @@ export default function ResultsPage() {
                   limit={10}
                 />
               )}
-              {branch === "video" && (
-                <div className="grid md:grid-cols-2 gap-5">
-                  <ProbabilityBars
-                    title="pairwise sub-model probs (each is P(Paining))"
-                    probs={videoPairwise}
-                    colorClass="bg-violet-400"
-                    formatLabel={(label) => formatPairwiseLabel(label)}
-                    wrapLabels
-                    accentRightColumn
-                    formatRightMeta={(label) => {
-                      const w = videoPairwiseWeights[label];
-                      if (w == null || Number.isNaN(w)) return null;
-                      const sign = w >= 0 ? "+" : "";
-                      return (
-                        <span
-                          className={`inline-block rounded px-1.5 py-0.5 font-mono text-[10px] tabular-nums ${metaWeightPillClass(w)}`}
-                          title="Meta-model coefficient for this pairwise feature (sign: pushes toward pain vs non-pain log-odds)"
-                        >
-                          w={sign}
-                          {w.toFixed(3)}
-                        </span>
-                      );
-                    }}
-                  />
-                  <ProbabilityBars
-                    title="meta class probs (final classifier)"
-                    probs={videoMeta}
-                    colorClass="bg-emerald-400"
-                    formatLabel={(label) => (
-                      <span className={metaClassLabelClass(label)}>{label}</span>
-                    )}
-                    wrapLabels
-                    rightPctClassName={(label) => {
-                      const low = label.toLowerCase();
-                      if (low.includes("non_pain")) {
-                        return "text-emerald-700 dark:text-emerald-300 font-semibold";
-                      }
-                      if (low.includes("pain")) {
-                        return "text-rose-700 dark:text-rose-300 font-semibold";
-                      }
-                      return "";
-                    }}
-                  />
+              {branch === "video" && (!w.cats || w.cats.length === 0) && !multicatSingle && (
+                <CatResultPanel
+                  label="Result"
+                  pairwiseProbs={videoPairwise}
+                  pairwiseWeights={videoPairwiseWeights}
+                  metaClassProbs={videoMeta}
+                />
+              )}
+
+              {branch === "video" && Array.isArray(w.cats) && w.cats.length > 0 && !multicatSingle && (
+                <div className="space-y-4">
+                  <div>
+                    <CatResultPanel
+                      label="Summary (coverage-weighted)"
+                      header={{
+                        decision: String(w.decision ?? "—"),
+                        pPain: pPainWindow,
+                      }}
+                      pairwiseProbs={videoPairwise}
+                      pairwiseWeights={videoPairwiseWeights}
+                      metaClassProbs={toFriendlyMetaClassProbabilities(videoMetaRaw, pPainWindow)}
+                    />
+                    {!multicatSingle &&
+                      typeof w.multicat_prevalence_label === "string" &&
+                      w.multicat_prevalence_label ? (
+                      <p className="text-xs text-amber-800 dark:text-amber-200/90 mt-2">{w.multicat_prevalence_label}</p>
+                    ) : null}
+                  </div>
+                  {w.cats.map((cat: NormalizedCatRow, ci: number) => {
+                    const cprobs = (cat.probabilities ?? {}) as Record<string, unknown>;
+                    const vpCat = toProbMap(cprobs.video_pairwise);
+                    const vwCat = toProbMap(cprobs.video_pairwise_weights);
+                    const catMetaRaw = toProbMap(cprobs.video_meta_class_probs);
+                    const pCatPain = cat.p_pain != null ? Number(cat.p_pain) : null;
+                    const pv = cat.pose_video_url as string | undefined;
+                    return (
+                      <CatResultPanel
+                        key={ci}
+                        label={`Cat ${ci + 1} (track ${cat.local_track_id}, ${((cat.detection_rate_sampled ?? 0) * 100).toFixed(0)}% coverage)`}
+                        header={{
+                          decision: String(cat.decision ?? "—"),
+                          pPain: pCatPain,
+                        }}
+                        pairwiseProbs={vpCat}
+                        pairwiseWeights={vwCat}
+                        metaClassProbs={toFriendlyMetaClassProbabilities(catMetaRaw, pCatPain)}
+                        poseVideoSrc={pv ? artifactUrl(id, pv) : null}
+                      />
+                    );
+                  })}
                 </div>
+              )}
+
+              {branch === "video" && multicatSingle && i === 0 && topCats.length > 0 && (
+                <div className="space-y-6 border-t border-slate-200 dark:border-slate-800 pt-4 mt-2">
+                  {topCats.map((cat, ci) => {
+                    const cprobs = (cat.probabilities ?? {}) as Record<string, unknown>;
+                    const vpCat = toProbMap(cprobs.video_pairwise);
+                    const vwCat = toProbMap(cprobs.video_pairwise_weights);
+                    const catMetaRaw = toProbMap(cprobs.video_meta_class_probs);
+                    const pCatPain = cat.p_pain != null ? Number(cat.p_pain) : null;
+                    const tid = cat.track_id ?? cat.local_track_id;
+                    const poseRel = cat.pose_video_url as string | undefined;
+                    return (
+                      <div
+                        key={`mc-${ci}`}
+                        className="space-y-3 pb-6 border-b border-slate-200 dark:border-slate-800 last:border-0 last:pb-0"
+                      >
+                        <div className="text-[13px] font-medium text-slate-800 dark:text-slate-200">
+                          Cat {ci + 1} · track {tid} · {((cat.detection_rate_sampled ?? 0) * 100).toFixed(0)}% frame coverage
+                        </div>
+                        <CatResultPanel
+                          label={`Track ${tid}`}
+                          header={{
+                            decision: String(cat.decision ?? "—"),
+                            pPain: pCatPain,
+                          }}
+                          pairwiseProbs={vpCat}
+                          pairwiseWeights={vwCat}
+                          metaClassProbs={toFriendlyMetaClassProbabilities(catMetaRaw, pCatPain)}
+                          poseVideoSrc={poseRel ? artifactUrl(id, poseRel) : null}
+                        />
+                      </div>
+                    );
+                  })}
+                </div>
+              )}
+
+              {w.multicat_empty_reason && (
+                <p className="text-sm text-amber-800 dark:text-amber-200/90 rounded-md bg-amber-500/10 border border-amber-500/30 p-3">
+                  No cat met the tracking threshold in this segment:{" "}
+                  <span className="font-mono">{w.multicat_empty_reason}</span>
+                </p>
               )}
             </div>
           );
@@ -552,7 +886,7 @@ export default function ResultsPage() {
 
       {arts && (
         <>
-          <section className="text-[11px] tracking-[0.16em] uppercase text-slate-600 dark:text-slate-500">Artifacts</section>
+          <SectionLabel id="D" title="Artifacts" />
           <section className="grid md:grid-cols-2 gap-3 text-xs font-mono">
             {(["video", "audio", "json", "other"] as const).map((k) => (
               <div key={k} className="rounded-xl border border-slate-200 dark:border-slate-700/70 bg-white dark:bg-slate-900/80 p-3">

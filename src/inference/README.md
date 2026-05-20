@@ -59,6 +59,24 @@ python src/inference/pipeline.py \
     --split-step-sec 3
 ```
 
+### Multicat video-only mode (`--multicat-video-only`)
+
+When set, the pipeline **always** runs the **video branch** for pain scoring (YAMNet still
+runs; `p_cat` is stored for debugging). SORT is enabled in ViTPose (`single_pose=False`);
+each qualifying track gets `cats/<local_track_id>/raw_poses.npy` + mask and its own ST-GCN +
+meta stack. Artifact paths in JSON are **relative to `run_dir`**.
+
+| Flag | Default | Meaning |
+|------|---------|---------|
+| `--multicat-video-only` | off | Enable multicat forced-video mode |
+| `--multicat-max-cats` | 8 | Cap scored tracks after coverage filter |
+| `--multicat-min-track-coverage` | 0.15 | Min fraction of sampled frames track must appear |
+| `--multicat-decision-threshold` | 0.5 | `p_pain` cutoff for prevalence (not YAMNet `cat_threshold`) |
+| `--multicat-summary-strategy` | `coverage_weighted_mean` | `max` \| `mean` \| `majority_above_threshold` \| `coverage_weighted_mean` |
+
+Each `cats[]` entry includes `local_track_id`, `window_index` (split windows), and optional
+future fields `stable_cat_index` / `stitch_confidence` (reserved for cross-window identity).
+
 ### Split (sliding-window) mode
 
 For each window the pipeline **cuts a clip** under `clips/`, then runs the full

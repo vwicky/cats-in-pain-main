@@ -51,6 +51,15 @@ def enrich_pipeline_result_inplace(data: dict[str, Any], positive_label: int = 1
 
 
 def _enrich_single_run_dict(res: dict[str, Any], positive_label: int) -> None:
+    cats = res.get("cats")
+    if isinstance(cats, list):
+        for c in cats:
+            meta = c.get("meta_result")
+            if isinstance(meta, dict):
+                enrich_meta_result_inplace(meta, positive_label=positive_label)
+    if res.get("multicat_video_only"):
+        # Clip-level meta is omitted for multicat runs; avoid phantom top-level headline fields.
+        return
     meta = res.get("meta_result")
     if isinstance(meta, dict):
         enrich_meta_result_inplace(meta, positive_label=positive_label)

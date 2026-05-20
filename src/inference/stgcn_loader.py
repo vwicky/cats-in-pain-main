@@ -68,6 +68,13 @@ _PAIRWISE_CFG: dict[str, Any] = {
         "n_channels": 3,
         "pose_cache": {"backend": "off"},  # avoid RAM cache side-effects
     },
+    "normalization": {
+        "root_joint": 0,
+        "scale_joints": [5, 6],
+        "clamp_xy": [-0.5, 1.5],
+        "drop_low_confidence_frames": True,
+        "confidence_threshold": 0.10,
+    },
     "training": {
         "binary_only": True,
     },

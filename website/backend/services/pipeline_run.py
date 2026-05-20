@@ -18,6 +18,11 @@ def run_pipeline_subprocess(
     split_step_sec: float,
     output_dir: str,
     timeout_sec: int,
+    multicat_video_only: bool = False,
+    multicat_max_cats: int = 8,
+    multicat_min_track_coverage: float = 0.15,
+    multicat_decision_threshold: float = 0.5,
+    multicat_summary_strategy: str = "coverage_weighted_mean",
 ) -> dict[str, Any]:
     """
     Run inference via subprocess so timeouts can terminate the process tree.
@@ -43,7 +48,17 @@ def run_pipeline_subprocess(
         str(split_window_sec),
         "--split-step-sec",
         str(split_step_sec),
+        "--multicat-max-cats",
+        str(multicat_max_cats),
+        "--multicat-min-track-coverage",
+        str(multicat_min_track_coverage),
+        "--multicat-decision-threshold",
+        str(multicat_decision_threshold),
+        "--multicat-summary-strategy",
+        str(multicat_summary_strategy),
     ]
+    if multicat_video_only:
+        cmd.append("--multicat-video-only")
     # Only ``src`` on PYTHONPATH: ``video/pose-models`` must NOT be on the path
     # when resolving top-level ``import models`` for AudioSep (regular package at
     # pose-models/models shadows AudioSep's models/). ST-GCN loader prepends

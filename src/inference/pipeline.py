@@ -313,13 +313,51 @@ def _extract_video_window(
     return out_path
 
 
+def _to_rel_under_run(run_dir: Path, path: str | Path) -> str:
+    run_dir = run_dir.resolve()
+    try:
+        return str(Path(path).resolve().relative_to(run_dir))
+    except ValueError:
+        return str(Path(path))
+
+
+def _relativize_multicat_cats(cats: list[dict[str, Any]], run_dir: Path) -> None:
+    for c in cats:
+        if c.get("pose_npy"):
+            c["pose_npy"] = _to_rel_under_run(run_dir, c["pose_npy"])
+        if c.get("pose_mask_path"):
+            c["pose_mask_path"] = _to_rel_under_run(run_dir, c["pose_mask_path"])
+        if c.get("pose_video"):
+            c["pose_video"] = _to_rel_under_run(run_dir, c["pose_video"])
+
+
 def _window_p_pain(window_result: dict[str, Any]) -> float | None:
     """
     Extract comparable P(pain) from one window result across branches.
 
     - video branch: meta_result.p_pain
     - audio branch: emotion.softmax["Paining"] (fallbacks to confidence when class is Paining)
+    - multicat video: headline from ``multicat_summary_strategy`` on cats[]
     """
+    cats = window_result.get("cats")
+    if (
+        window_result.get("multicat_video_only")
+        and isinstance(cats, list)
+        and cats
+    ):
+        from inference.multicat_aggregate import window_headline_from_cats
+
+        params = window_result.get("multicat_params") or {}
+        strat = str(
+            params.get("multicat_summary_strategy", "coverage_weighted_mean")
+        )
+        th = float(params.get("multicat_decision_threshold", 0.5))
+        wh = window_headline_from_cats(cats, strategy=strat, pain_threshold=th)
+        hp = wh.get("headline_p_pain")
+        if isinstance(hp, (int, float)):
+            return float(hp)
+        return None
+
     branch = str(window_result.get("branch", ""))
     if branch == "video":
         meta = window_result.get("meta_result")
@@ -355,6 +393,12 @@ def _summarize_split_windows(
     n_audio = 0
     n_video = 0
 
+    inner_results: list[dict[str, Any]] = []
+    for w in windows:
+        res = w.get("result")
+        if isinstance(res, dict):
+            inner_results.append(res)
+
     for w in windows:
         res = w.get("result")
         if not isinstance(res, dict):
@@ -375,7 +419,7 @@ def _summarize_split_windows(
         p_max = 0.0
         p_mean = 0.0
 
-    return {
+    summary: dict[str, Any] = {
         "window_count_total": len(windows),
         "window_count_audio_branch": n_audio,
         "window_count_video_branch": n_video,
@@ -386,6 +430,34 @@ def _summarize_split_windows(
         "video_level_decision_max": "pain" if p_max >= decision_threshold else "non_pain",
         "video_level_decision_mean": "pain" if p_mean >= decision_threshold else "non_pain",
     }
+
+    if inner_results and inner_results[0].get("multicat_video_only"):
+        from inference.multicat_aggregate import clip_level_from_window_results
+
+        params = inner_results[0].get("multicat_params") or {}
+        l2 = clip_level_from_window_results(
+            inner_results,
+            strategy=str(
+                params.get("multicat_summary_strategy", "coverage_weighted_mean")
+            ),
+            pain_threshold=float(
+                params.get("multicat_decision_threshold", decision_threshold)
+            ),
+        )
+        summary["multicat_clip_headline_p_pain"] = l2.get("headline_p_pain")
+        summary["multicat_clip_decision"] = l2.get("decision")
+        summary["multicat_clip_prevalence_fraction"] = l2.get(
+            "multicat_prevalence_fraction"
+        )
+        summary["multicat_clip_cats_total"] = l2.get("multicat_cats_total")
+        summary["multicat_n_windows_contributing"] = l2.get(
+            "multicat_n_windows_contributing"
+        )
+        summary["multicat_clip_cats_above_threshold"] = l2.get(
+            "multicat_cats_above_threshold"
+        )
+
+    return summary
 
 
 def _run_pipeline_single(
@@ -402,13 +474,19 @@ def _run_pipeline_single(
     audiosep_config: str | None,
     audiosep_ckpt: str | None,
     emotion_ckpt: str | None,
+    multicat_video_only: bool = False,
+    multicat_max_cats: int = 8,
+    multicat_min_track_coverage: float = 0.15,
+    multicat_decision_threshold: float = 0.5,
+    multicat_summary_strategy: str = "coverage_weighted_mean",
+    window_index: int | None = None,
 ) -> dict[str, Any]:
     from inference.artifact_io import save_json, save_original_video
     from inference.audio_clip_probe import probe_wav_clip
     from inference.audio_branch import run_audio_branch
     from inference.stgcn_loader import DEFAULT_STACK_RUN
     from inference.timer import StepTimer
-    from inference.video_branch import run_video_branch
+    from inference.video_branch import run_video_branch, run_video_branch_multicat
     from inference.pose_assembler import (
         DEFAULT_VITPOSE_ARCH,
         DEFAULT_VITPOSE_DATASET,
@@ -425,6 +503,14 @@ def _run_pipeline_single(
     resolved_vitpose_ds = vitpose_dataset or DEFAULT_VITPOSE_DATASET
     resolved_vitpose_arch = vitpose_arch or DEFAULT_VITPOSE_ARCH
     resolved_yolo = yolo_model or DEFAULT_YOLO
+
+    multicat_params: dict[str, Any] = {
+        "multicat_video_only": multicat_video_only,
+        "multicat_max_cats": int(multicat_max_cats),
+        "multicat_min_track_coverage": float(multicat_min_track_coverage),
+        "multicat_decision_threshold": float(multicat_decision_threshold),
+        "multicat_summary_strategy": str(multicat_summary_strategy),
+    }
 
     # ── 1. Save original video ────────────────────────────────────────────────
     with timer.step("save_original_video"):
@@ -444,7 +530,34 @@ def _run_pipeline_single(
 
     # ── 4. Branch routing ─────────────────────────────────────────────────────
     branch_result: dict[str, Any]
-    if p_cat >= cat_threshold:
+    if multicat_video_only:
+        logger.info("Multicat mode: forcing VIDEO BRANCH (P(cat)=%.4f logged only)", p_cat)
+        branch_result = run_video_branch_multicat(
+            video_path,
+            run_dir,
+            device,
+            timer,
+            vitpose_model=resolved_vitpose,
+            vitpose_dataset=resolved_vitpose_ds,
+            vitpose_arch=resolved_vitpose_arch,
+            yolo_model=resolved_yolo,
+            stack_run_dir=resolved_stack,
+            min_track_coverage=float(multicat_min_track_coverage),
+            max_cats=int(multicat_max_cats),
+            window_index=window_index,
+        )
+        cats = branch_result.get("cats") or []
+        if cats:
+            _relativize_multicat_cats(cats, run_dir)
+        if branch_result.get("pose_video"):
+            branch_result["pose_video"] = _to_rel_under_run(
+                run_dir, branch_result["pose_video"]
+            )
+        logger.info(
+            "[pipeline] multicat complete: %d cat(s) scored",
+            int(branch_result.get("multicat_cat_count", len(cats))),
+        )
+    elif p_cat >= cat_threshold:
         logger.info(
             "P(cat)=%.4f >= threshold=%.2f → AUDIO BRANCH", p_cat, cat_threshold
         )
@@ -484,6 +597,7 @@ def _run_pipeline_single(
         "clip_audio_probe": clip_audio_probe,
         "p_cat": p_cat,
         "branch": branch_result["branch"],
+        "multicat_params": multicat_params,
         "artifacts": {
             "original_video": str(original_dst),
             "extracted_audio": str(audio_path),
@@ -496,11 +610,25 @@ def _run_pipeline_single(
     if branch_result["branch"] == "audio":
         result["artifacts"]["separated_audio"] = branch_result.get("separated_audio", "")
     else:
-        result["artifacts"]["pose_video"] = branch_result.get("pose_video", "")
-        result["artifacts"]["pose_npy"] = branch_result.get("pose_npy", "")
-        mask_npy = branch_result.get("pose_mask_path") or ""
-        if mask_npy:
-            result["artifacts"]["pose_mask_npy"] = mask_npy
+        if multicat_video_only:
+            result["artifacts"]["pose_video"] = ""
+            mc = result.get("cats") or []
+            if mc:
+                result["artifacts"]["multicat_cats"] = [
+                    {
+                        "local_track_id": c.get("local_track_id"),
+                        "pose_video": c.get("pose_video"),
+                        "pose_npy": c.get("pose_npy"),
+                    }
+                    for c in mc
+                    if isinstance(c, dict)
+                ]
+        else:
+            result["artifacts"]["pose_video"] = branch_result.get("pose_video", "")
+            result["artifacts"]["pose_npy"] = branch_result.get("pose_npy", "")
+            mask_npy = branch_result.get("pose_mask_path") or ""
+            if mask_npy:
+                result["artifacts"]["pose_mask_npy"] = mask_npy
 
     # ── 6. Save outputs ───────────────────────────────────────────────────────
     save_json(result, run_dir / "pipeline_result.json")
@@ -530,6 +658,11 @@ def run_pipeline(
     split_window_sec: float = 0.0,
     split_step_sec: float = 0.0,
     verbose: bool = False,
+    multicat_video_only: bool = False,
+    multicat_max_cats: int = 8,
+    multicat_min_track_coverage: float = 0.15,
+    multicat_decision_threshold: float = 0.5,
+    multicat_summary_strategy: str = "coverage_weighted_mean",
 ) -> dict[str, Any]:
     """
     Run the full inference pipeline on a single video.
@@ -567,6 +700,12 @@ def run_pipeline(
             audiosep_config=audiosep_config,
             audiosep_ckpt=audiosep_ckpt,
             emotion_ckpt=emotion_ckpt,
+            multicat_video_only=multicat_video_only,
+            multicat_max_cats=multicat_max_cats,
+            multicat_min_track_coverage=multicat_min_track_coverage,
+            multicat_decision_threshold=multicat_decision_threshold,
+            multicat_summary_strategy=multicat_summary_strategy,
+            window_index=None,
         )
 
     duration_sec = _probe_video_duration_sec(video_path)
@@ -607,6 +746,12 @@ def run_pipeline(
             audiosep_config=audiosep_config,
             audiosep_ckpt=audiosep_ckpt,
             emotion_ckpt=emotion_ckpt,
+            multicat_video_only=multicat_video_only,
+            multicat_max_cats=multicat_max_cats,
+            multicat_min_track_coverage=multicat_min_track_coverage,
+            multicat_decision_threshold=multicat_decision_threshold,
+            multicat_summary_strategy=multicat_summary_strategy,
+            window_index=i,
         )
         window_results.append(
             {
@@ -623,13 +768,22 @@ def run_pipeline(
         "video": str(video_path),
         "run_dir": str(run_dir),
         "mode": "split_sliding_windows",
+        "multicat_params": {
+            "multicat_video_only": multicat_video_only,
+            "multicat_max_cats": int(multicat_max_cats),
+            "multicat_min_track_coverage": float(multicat_min_track_coverage),
+            "multicat_decision_threshold": float(multicat_decision_threshold),
+            "multicat_summary_strategy": str(multicat_summary_strategy),
+        },
         "split": {
             "window_sec": split_window_sec,
             "step_sec": split_step_sec,
             "video_duration_sec": duration_sec,
             "n_windows": len(window_results),
         },
-        "summary": _summarize_split_windows(window_results, decision_threshold=0.5),
+        "summary": _summarize_split_windows(
+            window_results, decision_threshold=multicat_decision_threshold
+        ),
         "windows": window_results,
     }
     save_json(aggregate, run_dir / "pipeline_result.json")
@@ -721,6 +875,41 @@ def _parse_args() -> argparse.Namespace:
         default=0.0,
         help="Optional sliding-window step in seconds (set with --split-window-sec to enable split inference).",
     )
+    p.add_argument(
+        "--multicat-video-only",
+        action="store_true",
+        help="Force video branch and run SORT multi-track pose + per-cat ST-GCN.",
+    )
+    p.add_argument(
+        "--multicat-max-cats",
+        type=int,
+        default=8,
+        help="Max scored tracks per clip when --multicat-video-only is set.",
+    )
+    p.add_argument(
+        "--multicat-min-track-coverage",
+        type=float,
+        default=0.15,
+        help="Min fraction of sampled frames a track must appear in to be scored.",
+    )
+    p.add_argument(
+        "--multicat-decision-threshold",
+        type=float,
+        default=0.5,
+        help="p_pain threshold for prevalence / headline decisions (video meta only).",
+    )
+    p.add_argument(
+        "--multicat-summary-strategy",
+        type=str,
+        default="coverage_weighted_mean",
+        choices=(
+            "max",
+            "mean",
+            "majority_above_threshold",
+            "coverage_weighted_mean",
+        ),
+        help="How to aggregate per-cat scores into a headline.",
+    )
     p.add_argument("--verbose", action="store_true", help="Enable DEBUG logging.")
     return p.parse_args()
 
@@ -744,6 +933,11 @@ def main() -> int:
             split_window_sec=args.split_window_sec,
             split_step_sec=args.split_step_sec,
             verbose=args.verbose,
+            multicat_video_only=args.multicat_video_only,
+            multicat_max_cats=args.multicat_max_cats,
+            multicat_min_track_coverage=args.multicat_min_track_coverage,
+            multicat_decision_threshold=args.multicat_decision_threshold,
+            multicat_summary_strategy=args.multicat_summary_strategy,
         )
         print(json.dumps(result, indent=2, default=str))
         return 0

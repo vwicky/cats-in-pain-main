@@ -37,6 +37,11 @@ class Settings(BaseSettings):
     max_artifact_stream_mb: int = Field(default=500)
     pipeline_output_dir: str = Field(default="runs/inference")
     wrapper_version: str = Field(default="0.1.0")
+    enable_multicat_video: bool = Field(default=True)
+    multicat_max_cats_default: int = Field(default=8)
+    multicat_min_track_coverage_default: float = Field(default=0.15)
+    multicat_decision_threshold_default: float = Field(default=0.5)
+    multicat_summary_strategy_default: str = Field(default="coverage_weighted_mean")
 
 
 def get_settings() -> Settings:
